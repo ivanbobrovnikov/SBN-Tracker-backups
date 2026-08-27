@@ -2481,6 +2481,50 @@
       "baseService": "Ceramic Coating",
       "basePrice": 1195,
       "syncedFromGHL": true
+    },
+    {
+      "id": "48f86be73b3c9085",
+      "ghlOpportunityId": "wSwmT4uUdTTRD2jDqUbw",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-08-27T20:37:54.685Z",
+      "date": "2026-09-10T13:00:00.000Z",
+      "customerName": "Michael Evangelista",
+      "customerPhone": "(856) 842-2140",
+      "customerEmail": "",
+      "contactId": "wSwmT4uUdTTRD2jDqUbw",
+      "car": "fk  Micheal 2017 Lincoln mkx gray 499$ plus one step  200$ -100$ depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "7d558cbf02d16e43",
+      "salesRepName": "Roman Goldovsky",
+      "baseService": "Ceramic Coating",
+      "basePrice": 699,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "37c3b24fbcf5cc3c",
+      "ghlOpportunityId": "Q80Endm9x5fQxy6z2Sf9",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-08-27T20:45:29.448Z",
+      "date": "2026-09-07T13:00:00.000Z",
+      "customerName": "LUIS BEZA",
+      "customerPhone": "(267) 333-7964",
+      "customerEmail": "",
+      "contactId": "Q80Endm9x5fQxy6z2Sf9",
+      "car": "fk luis 2021 toyota tundra  black 499$ -95 depo ",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "7d558cbf02d16e43",
+      "salesRepName": "Roman Goldovsky",
+      "baseService": "Ceramic Coating",
+      "basePrice": 499,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -2509,6 +2553,290 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-08-27T20:46:11.857Z",
+      "endpoint": "sync",
+      "matchedSaleId": "48f86be73b3c9085",
+      "before": {
+        "basePrice": 499,
+        "salesRepName": "Roman Goldovsky"
+      },
+      "after": {
+        "basePrice": 699,
+        "salesRepName": "Roman Goldovsky"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2017 Lincoln mkx sedan",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "wSwmT4uUdTTRD2jDqUbw",
+        "first_name": "Michael",
+        "last_name": "Evangelista",
+        "full_name": "Michael Evangelista",
+        "email": "evamic1017@gmail.com",
+        "phone": "+18568422140",
+        "tags": "coating",
+        "country": "US",
+        "date_created": "2026-08-27T10:55:42.043Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Michael Evangelista | ",
+        "status": "won",
+        "lead_value": 699,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "5KjtPQQcHjR102pbXIQl",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "868814779620228",
+            "medium": "facebook",
+            "formId": "868814779620228",
+            "formName": "499 10 year coatijng",
+            "campaign": "ceramic coating",
+            "utm_campaign": "ceramic coating",
+            "campaignId": "120255090573720011",
+            "utmMedium": "10 year 499",
+            "utmContent": "grand opening 499",
+            "adSetId": "120255090573730011",
+            "adId": "120255139145580011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "facebook",
+            "mediumId": "38252769014314303",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "pSid": "38252769014314303"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "699",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "wSwmT4uUdTTRD2jDqUbw"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-08-27T20:45:40.493Z",
+      "endpoint": "sync",
+      "matchedSaleId": "37c3b24fbcf5cc3c",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Roman Goldovsky"
+      },
+      "body": {
+        "contact_id": "Q80Endm9x5fQxy6z2Sf9",
+        "first_name": "LUIS",
+        "last_name": "BEZA",
+        "full_name": "LUIS BEZA",
+        "phone": "+12673337964",
+        "tags": "name via lookup",
+        "city": "FORT WASHINGTON",
+        "state": "PA",
+        "country": "US",
+        "date_created": "2026-08-27T19:04:26.736Z",
+        "postal_code": "19034",
+        "full_address": "FORT WASHINGTON PA 19034",
+        "contact_type": "lead",
+        "opportunity_name": "LUIS BEZA | ",
+        "status": "won",
+        "lead_value": 499,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "lFiuiJWhGYsFqSuyFnfO",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "Q80Endm9x5fQxy6z2Sf9"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-08-27T20:37:55.794Z",
+      "endpoint": "sync",
+      "matchedSaleId": "48f86be73b3c9085",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Roman Goldovsky"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2017 Lincoln mkx sedan",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "wSwmT4uUdTTRD2jDqUbw",
+        "first_name": "Michael",
+        "last_name": "Evangelista",
+        "full_name": "Michael Evangelista",
+        "email": "evamic1017@gmail.com",
+        "phone": "+18568422140",
+        "tags": "coating",
+        "country": "US",
+        "date_created": "2026-08-27T10:55:42.043Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Michael Evangelista | ",
+        "status": "won",
+        "lead_value": 499,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "5KjtPQQcHjR102pbXIQl",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "868814779620228",
+            "medium": "facebook",
+            "formId": "868814779620228",
+            "formName": "499 10 year coatijng",
+            "campaign": "ceramic coating",
+            "utm_campaign": "ceramic coating",
+            "campaignId": "120255090573720011",
+            "utmMedium": "10 year 499",
+            "utmContent": "grand opening 499",
+            "adSetId": "120255090573730011",
+            "adId": "120255139145580011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "facebook",
+            "mediumId": "38252769014314303",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "pSid": "38252769014314303"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "wSwmT4uUdTTRD2jDqUbw"
+        }
+      }
+    },
     {
       "receivedAt": "2026-08-27T20:09:49.843Z",
       "endpoint": "sync",
