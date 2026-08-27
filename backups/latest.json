@@ -124,9 +124,9 @@
       "id": "a22d9883fdabeffb",
       "ghlOpportunityId": "CNunNDgMBaA4CZZ8HWUK",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-21T16:43:00.698Z",
       "date": "2026-08-21T17:00:00.000Z",
       "customerName": "S",
@@ -134,13 +134,21 @@
       "customerEmail": "",
       "contactId": null,
       "car": "DG 2026 Kia K5 S+RTINT 285 driving rn",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "17a2ac00e2174618",
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Feso, Angelica",
       "salesRepId": null,
       "salesRepName": "Unassigned",
       "baseService": "Window Tint",
       "basePrice": 0,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paymentMethod": "cash",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "8c0294a0faa106ee",
