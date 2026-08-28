@@ -818,18 +818,18 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-23T13:21:50.201Z",
-      "date": "2026-08-28T17:00:00.000Z",
+      "date": "2026-09-08T13:00:00.000Z",
       "customerName": "Kristin Debalski",
       "customerPhone": "(856) 495-1234",
       "customerEmail": "",
-      "contactId": null,
-      "car": "DG 2026 Toyota 4Runner FrontWindshield&2SideWindows 320-50depo",
+      "contactId": "AVTtETZawwPGuWLu5sSq",
+      "car": "4runner windshield redo ",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
       "salesRepName": "Unassigned",
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "syncedFromGHL": true
     },
     {
@@ -2843,6 +2843,114 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-08-28T19:00:17.018Z",
+      "endpoint": "sync",
+      "matchedSaleId": "62ffbeb1e4686641",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Unassigned"
+      },
+      "salesRepMatchFailed": false,
+      "salesRepNameReceived": null,
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2026 toyota 4runner hybrid",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "AVTtETZawwPGuWLu5sSq",
+        "first_name": "Kristin",
+        "last_name": "Debalski",
+        "full_name": "Kristin Debalski",
+        "email": "kdebalski@gmail.com",
+        "phone": "+18564951234",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-08-23T12:58:07.504Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Kristin Debalski | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "m0Jxr4bYexijmHhrCWWg",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "no wndow tint updated 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256140175530011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "no wndow tint updated 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256140175530011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "AVTtETZawwPGuWLu5sSq"
+        }
+      }
+    },
     {
       "receivedAt": "2026-08-28T18:31:33.117Z",
       "endpoint": "sync",
