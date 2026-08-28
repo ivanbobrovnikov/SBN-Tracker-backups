@@ -2661,6 +2661,28 @@
       "baseService": "Window Tint",
       "basePrice": 0,
       "syncedFromGHL": true
+    },
+    {
+      "id": "969f8e71f60f297d",
+      "ghlOpportunityId": "rExVFh8Ovz0WJq0cBAPJ",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-08-28T15:43:32.216Z",
+      "date": "2026-09-04T17:00:00.000Z",
+      "customerName": "GP",
+      "customerPhone": "(484) 625-8823",
+      "customerEmail": "",
+      "contactId": "rExVFh8Ovz0WJq0cBAPJ",
+      "car": "DG 2026 Jeep Grand Cherokee S+RTINT 380-50depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Window Tint",
+      "basePrice": 299,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -2689,6 +2711,114 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-08-28T15:43:35.539Z",
+      "endpoint": "sync",
+      "matchedSaleId": "969f8e71f60f297d",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Unassigned"
+      },
+      "salesRepMatchFailed": false,
+      "salesRepNameReceived": null,
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2026 jeep grand Cherokee L",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "rExVFh8Ovz0WJq0cBAPJ",
+        "first_name": "GP",
+        "last_name": "",
+        "full_name": "GP",
+        "email": "ggc82682@gmail.com",
+        "phone": "+14846258823",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-08-28T04:25:19.479Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "GP | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "fQfXzMFvr5bP53fwfh3T",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "most people think tint is 700+. 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256419537450011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "most people think tint is 700+. 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256419537450011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "rExVFh8Ovz0WJq0cBAPJ"
+        }
+      }
+    },
     {
       "receivedAt": "2026-08-28T14:54:01.532Z",
       "endpoint": "sync",
