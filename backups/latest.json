@@ -800,7 +800,7 @@
       "customerName": "Jason Williams",
       "customerPhone": "(201) 354-7094",
       "customerEmail": "",
-      "contactId": null,
+      "contactId": "OeeGxUgC3JZwhPEJvd0z",
       "car": "DG 2025 Subaru BRZ CeramicCoating 499-95depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
@@ -2516,18 +2516,18 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-27T20:45:29.448Z",
-      "date": "2026-09-07T13:00:00.000Z",
+      "date": "2026-09-10T13:00:00.000Z",
       "customerName": "LUIS BEZA",
       "customerPhone": "(267) 333-7964",
       "customerEmail": "",
       "contactId": "Q80Endm9x5fQxy6z2Sf9",
-      "car": "fk luis 2021 toyota tundra  black 499$ -95 depo ",
+      "car": "DG 2025 White Toyota Tundra Ceramic Coating 490-95depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "7d558cbf02d16e43",
       "salesRepName": "Roman Goldovsky",
       "baseService": "Ceramic Coating",
-      "basePrice": 499,
+      "basePrice": 990,
       "syncedFromGHL": true
     },
     {
@@ -2749,6 +2749,28 @@
       "baseService": "Ceramic Coating",
       "basePrice": 1000,
       "syncedFromGHL": true
+    },
+    {
+      "id": "92cb1caf3bfff093",
+      "ghlOpportunityId": "4O0c0V9FtvHy6ufhKhWK",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-08-28T17:41:03.240Z",
+      "date": "2026-09-12T15:00:00.000Z",
+      "customerName": "Ahzsa Jefferson",
+      "customerPhone": "(732) 900-7531",
+      "customerEmail": "",
+      "contactId": "4O0c0V9FtvHy6ufhKhWK",
+      "car": "DG 2018 Honda Civic AllAroundTint 499-75depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Window Tint",
+      "basePrice": 299,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -2777,6 +2799,186 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-08-28T17:41:04.186Z",
+      "endpoint": "sync",
+      "matchedSaleId": "92cb1caf3bfff093",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Unassigned"
+      },
+      "salesRepMatchFailed": false,
+      "salesRepNameReceived": null,
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2018 honda civic hatchback",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "4O0c0V9FtvHy6ufhKhWK",
+        "first_name": "Ahzsa",
+        "last_name": "Jefferson",
+        "full_name": "Ahzsa Jefferson",
+        "email": "ahzsamonia@gmail.com",
+        "phone": "+17329007531",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-08-16T23:35:49.452Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Ahzsa Jefferson | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "hTDteClURGCHQ4lr5u83",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "ad 1 299",
+            "adSetId": "120254638050770011",
+            "adId": "120254652145930011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "ad 1 299",
+            "adSetId": "120254638050770011",
+            "adId": "120254652145930011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "4O0c0V9FtvHy6ufhKhWK"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-08-28T17:13:31.893Z",
+      "endpoint": "sync",
+      "matchedSaleId": "37c3b24fbcf5cc3c",
+      "before": {
+        "basePrice": 499,
+        "salesRepName": "Roman Goldovsky"
+      },
+      "after": {
+        "basePrice": 990,
+        "salesRepName": "Roman Goldovsky"
+      },
+      "salesRepMatchFailed": false,
+      "salesRepNameReceived": "Roman Goldovsky",
+      "body": {
+        "contact_id": "Q80Endm9x5fQxy6z2Sf9",
+        "first_name": "LUIS",
+        "last_name": "BEZA",
+        "full_name": "LUIS BEZA",
+        "phone": "+12673337964",
+        "tags": "name via lookup",
+        "city": "FORT WASHINGTON",
+        "state": "PA",
+        "country": "US",
+        "date_created": "2026-08-27T19:04:26.736Z",
+        "postal_code": "19034",
+        "full_address": "FORT WASHINGTON PA 19034",
+        "contact_type": "lead",
+        "opportunity_name": "LUIS BEZA | ",
+        "status": "won",
+        "lead_value": 990,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "lFiuiJWhGYsFqSuyFnfO",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "990",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "Q80Endm9x5fQxy6z2Sf9"
+        }
+      }
+    },
     {
       "receivedAt": "2026-08-28T16:55:30.382Z",
       "endpoint": "sync",
