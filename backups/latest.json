@@ -3273,6 +3273,51 @@
       "baseService": "Ceramic Coating",
       "basePrice": 0,
       "syncedFromGHL": true
+    },
+    {
+      "id": "07fc3ed6000eec8a",
+      "ghlOpportunityId": "xUfj9TCZOYjqh8qQFycw",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-08-29T18:17:38.121Z",
+      "date": "2026-09-14T13:00:00.000Z",
+      "customerName": "GERHARDT SPENCE",
+      "customerPhone": "(856) 361-3592",
+      "customerEmail": "",
+      "contactId": "xUfj9TCZOYjqh8qQFycw",
+      "car": "DG 2020 Ceramic Coating&S+RTINT 800-95depo might check roof need a step1or2 ",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "baseService": "Ceramic Coating",
+      "basePrice": 800,
+      "syncedFromGHL": true,
+      "isWalkIn": false
+    },
+    {
+      "id": "f52f1169c80f70fb",
+      "ghlOpportunityId": "OhEqqovMbd4VsB4knA15",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-08-29T18:39:32.759Z",
+      "date": "2026-09-02T20:30:00.000Z",
+      "customerName": "SCOTT BECOSKIE",
+      "customerPhone": "(856) 261-7547",
+      "customerEmail": "",
+      "contactId": "OhEqqovMbd4VsB4knA15",
+      "car": "Ford f350 front windshield already paid",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Window Tint",
+      "basePrice": 299,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -3309,6 +3354,232 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-08-29T18:39:32.817Z",
+      "endpoint": "sync",
+      "matchedSaleId": "f52f1169c80f70fb",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Unassigned"
+      },
+      "salesRepMatchFailed": true,
+      "salesRepNameReceived": "Roman Goldovsky",
+      "knownSalesRepNames": [
+        "Dmitriy Gumenyuk",
+        "Firdavs Karshiev",
+        "Timothy Gumenyuk"
+      ],
+      "body": {
+        "contact_id": "OhEqqovMbd4VsB4knA15",
+        "first_name": "SCOTT",
+        "last_name": "BECOSKIE",
+        "full_name": "SCOTT BECOSKIE",
+        "phone": "+18562617547",
+        "tags": "name via lookup",
+        "city": "HADDON HEIGHTS",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-08-17T19:04:49.770Z",
+        "postal_code": "08035",
+        "full_address": "HADDON HEIGHTS NJ 08035",
+        "contact_type": "lead",
+        "opportunity_name": "SCOTT BECOSKIE | ",
+        "status": "won",
+        "lead_value": 299,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "Kc0RS8S1mPyeAGm33yNd",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "OhEqqovMbd4VsB4knA15"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-08-29T18:20:44.784Z",
+      "endpoint": "sync",
+      "matchedSaleId": "07fc3ed6000eec8a",
+      "before": {
+        "basePrice": 800,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 800,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "salesRepMatchFailed": false,
+      "salesRepNameReceived": "Dmitriy Gumenyuk",
+      "body": {
+        "contact_id": "xUfj9TCZOYjqh8qQFycw",
+        "first_name": "GERHARDT",
+        "last_name": "SPENCE",
+        "full_name": "GERHARDT SPENCE",
+        "phone": "+18563613592",
+        "tags": "name via lookup",
+        "city": "CAMDEN",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-08-29T17:40:27.691Z",
+        "postal_code": "08105",
+        "full_address": "CAMDEN NJ 08105",
+        "contact_type": "lead",
+        "opportunity_name": "GERHARDT SPENCE | ",
+        "status": "won",
+        "lead_value": 800,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "a4FKUsB4DcsKLp7Rahty",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "800",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "xUfj9TCZOYjqh8qQFycw"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-08-29T18:20:28.445Z",
+      "endpoint": "sync",
+      "matchedSaleId": "07fc3ed6000eec8a",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 800,
+        "salesRepName": "Unassigned"
+      },
+      "salesRepMatchFailed": true,
+      "salesRepNameReceived": "Roman Goldovsky",
+      "knownSalesRepNames": [
+        "Dmitriy Gumenyuk",
+        "Firdavs Karshiev",
+        "Timothy Gumenyuk"
+      ],
+      "body": {
+        "contact_id": "xUfj9TCZOYjqh8qQFycw",
+        "first_name": "GERHARDT",
+        "last_name": "SPENCE",
+        "full_name": "GERHARDT SPENCE",
+        "phone": "+18563613592",
+        "tags": "name via lookup",
+        "city": "CAMDEN",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-08-29T17:40:27.691Z",
+        "postal_code": "08105",
+        "full_address": "CAMDEN NJ 08105",
+        "contact_type": "lead",
+        "opportunity_name": "GERHARDT SPENCE | ",
+        "status": "won",
+        "lead_value": 800,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "a4FKUsB4DcsKLp7Rahty",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "800",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "xUfj9TCZOYjqh8qQFycw"
+        }
+      }
+    },
     {
       "receivedAt": "2026-08-29T16:54:24.726Z",
       "endpoint": "sync",
