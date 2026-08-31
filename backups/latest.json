@@ -2072,7 +2072,7 @@
       "salesRepId": null,
       "salesRepName": "Unassigned",
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 575,
       "syncedFromGHL": true
     },
     {
@@ -2314,7 +2314,7 @@
       "salesRepId": null,
       "salesRepName": "Unassigned",
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 500,
       "syncedFromGHL": true
     },
     {
@@ -3694,11 +3694,12 @@
       "car": "DG 2024 Toyota Venza Ceramic Coating 499-95depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
-      "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
-      "syncedFromGHL": true
+      "basePrice": 500,
+      "syncedFromGHL": true,
+      "isWalkIn": false
     },
     {
       "id": "fe35ba67c4ee86e0",
@@ -3925,6 +3926,28 @@
       "basePrice": 299,
       "syncedFromGHL": true,
       "isWalkIn": false
+    },
+    {
+      "id": "e97fa813378c7ad6",
+      "ghlOpportunityId": "S5cH43MAhImuh7bhwsjy",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-08-31T21:58:55.912Z",
+      "date": "2026-09-10T13:00:00.000Z",
+      "customerName": "Ivan Garcia",
+      "customerPhone": "(347) 379-5607",
+      "customerEmail": "",
+      "contactId": "S5cH43MAhImuh7bhwsjy",
+      "car": "IB Ivan GMC Sierra 480-100$ 10yr coating referral ",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Window Tint",
+      "basePrice": 0,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -3962,12 +3985,1044 @@
   ],
   "debugLog": [
     {
-      "receivedAt": "2026-08-31T21:21:03.352Z",
+      "receivedAt": "2026-08-31T22:05:07.418Z",
+      "endpoint": "ghl-test-appointments",
+      "requestUrl": "https://services.leadconnectorhq.com/contacts/NUIpsiy3MZcYl5qlkXCa/appointments",
+      "responseStatus": 200,
+      "responseBody": {
+        "events": [
+          {
+            "appointmentStatus": "confirmed",
+            "appoinmentStatus": "confirmed",
+            "assignedUserId": "L4cXm4pVbcMrl37hszwC",
+            "address": "",
+            "calendarId": "l6p0Wai2C60MLpMeBerd",
+            "contactId": "NUIpsiy3MZcYl5qlkXCa",
+            "dateAdded": "2026-08-31 10:23:24",
+            "dateUpdated": "2026-08-31 10:23:24",
+            "endTime": "2026-09-03 17:00:00",
+            "id": "1coHZn1DUXgt8MHihBUz",
+            "locationId": "aM3aPgbGfPiuofGw5tO4",
+            "startTime": "2026-09-03 09:00:00",
+            "title": "DG 2024 Toyota Venza Ceramic Coating 499-95depo",
+            "assignedResources": [],
+            "appointmentMeta": {
+              "slotType": "custom"
+            },
+            "deleted": false
+          }
+        ],
+        "traceId": "cc7f9baf-0427-416d-bb7b-6a33f60ce80a"
+      }
+    },
+    {
+      "receivedAt": "2026-08-31T22:04:42.434Z",
       "endpoint": "ghl-test-contact",
-      "requestUrl": "https://services.leadconnectorhq.com/contacts/XeJaKUdBuAZe9HKiK0tb",
+      "requestUrl": "https://services.leadconnectorhq.com/contacts/NUIpsiy3MZcYl5qlkXCa",
+      "responseStatus": 200,
+      "responseBody": {
+        "contact": {
+          "id": "NUIpsiy3MZcYl5qlkXCa",
+          "dateAdded": "2026-08-31T14:17:07.855Z",
+          "tags": [
+            "name via lookup"
+          ],
+          "type": "lead",
+          "locationId": "aM3aPgbGfPiuofGw5tO4",
+          "firstName": "CHARLES",
+          "firstNameLowerCase": "charles",
+          "fullNameLowerCase": "charles roney",
+          "lastName": "RONEY",
+          "lastNameLowerCase": "roney",
+          "phone": "+16096806260",
+          "city": "HADDONFIELD",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08033",
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "createdBy": {
+            "source": "lc-phone-api",
+            "channel": "ISTIO_MESH",
+            "sourceId": "aM3aPgbGfPiuofGw5tO4",
+            "timestamp": "2026-08-31T14:17:07.854Z"
+          },
+          "assignedTo": "L4cXm4pVbcMrl37hszwC",
+          "followers": [
+            "5g49nBkiVmEmGsJpHIzJ"
+          ],
+          "dateUpdated": "2026-08-31T21:46:28.915Z",
+          "customFields": [],
+          "additionalEmails": [],
+          "additionalPhones": []
+        },
+        "traceId": "5715fc88-c6bf-4ec2-bf3e-2510d90821d8"
+      }
+    },
+    {
+      "receivedAt": "2026-08-31T21:58:55.586Z",
+      "endpoint": "sync",
+      "failedReason": "no sale found with this contactId",
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2024 RAM 3500",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "S5cH43MAhImuh7bhwsjy",
+        "first_name": "Ivan",
+        "last_name": "Garcia",
+        "full_name": "Ivan Garcia",
+        "email": "ivan.garcia@mail.citytech.cuny.edu",
+        "phone": "+13473795607",
+        "tags": "coating,tint",
+        "country": "US",
+        "date_created": "2026-07-14T03:56:35.940Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Ivan Garcia | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "fxZ7w2sMUvvqeVauLk3T",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "868814779620228",
+            "medium": "facebook",
+            "formId": "868814779620228",
+            "formName": "499 10 year coatijng",
+            "campaign": "ceramic coating",
+            "utm_campaign": "ceramic coating",
+            "campaignId": "120255090573720011",
+            "utmMedium": "10 year 499",
+            "utmContent": "grand opening 499",
+            "adSetId": "120255090573730011",
+            "adId": "120255139145580011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "facebook",
+            "mediumId": "36981043204844153",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "pSid": "36981043204844153"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "S5cH43MAhImuh7bhwsjy"
+        }
+      },
+      "knownContactIds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "BCeAAVBUNucfQuQRglca",
+        null,
+        "52lfCJXkT1cCjEY7tHyO",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "OeeGxUgC3JZwhPEJvd0z",
+        "AVTtETZawwPGuWLu5sSq",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "U8g7b3s6bfeOhM8Bk09a",
+        "ZKW896WhlZlECJ9k7nLm",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "m5ZS6M0LGs6Mz9hwK1cP",
+        "qnugRTdUjQLlygyRtpef",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "uRwCZD68T0igkMknoYAb",
+        "dM3Yt8EyJvTVMSFJf0aW",
+        null,
+        null,
+        "UgdGO9okxN9zNXwQCvoS",
+        null,
+        null,
+        null,
+        null,
+        "8evfoqBuYuYGmVc4cTif",
+        "wSwmT4uUdTTRD2jDqUbw",
+        "Q80Endm9x5fQxy6z2Sf9",
+        "hvvRzNBM6UgA9ELRiFNN",
+        "R3tblz4AJ9wuEgOMiFRY",
+        "qW6irTHZVAhkuelJAPu2",
+        "uRiCVovjjb2qKGIBVveE",
+        "6GdL4PSSQ2Dm9KjICLSt",
+        "uNTiFQIdBT3sSfuxmlQA",
+        "rExVFh8Ovz0WJq0cBAPJ",
+        "Sm6YPGF8PrIeqKUYKZGw",
+        "t0wguolzZ9ZeUfAENSvu",
+        "9OGlP4jPQwsow370AU9y",
+        "4O0c0V9FtvHy6ufhKhWK",
+        "vVgjY2r8l9Y4i0qoomFh",
+        "XQMOUQxUbIag2Rkyi0nn",
+        "9Hteqkz2c67eG2dXmoVB",
+        "nKhF9jkSo81nOJFP3emz",
+        "Xy9YwZ6ENJcDR0YR2MYq",
+        "kCRoTw98eNKKRVOSXqJh",
+        "thUocO5p9QZnKPzv0Jv2",
+        "OwwCZoDZmqFm0cD34yT0",
+        "jgqQ58HyIhsVIHhSNXkY",
+        "GhbkyPxiNpDu6hGkxtXQ",
+        "S0Ucc8lJHmeWgILzuWMW",
+        "7gMnTFQ1gJ56ykDKKuwg",
+        "gThH5qbN5wiCdNqq01hp",
+        "Y7JLh5v6F2GLNjxZz2GS",
+        "oU1jwVwNWc6X5ouZmzgW",
+        "cJWg9CzNKRHDnq7EoIJI",
+        "hhmMbX1Qez0KkYNYoIsj",
+        "S1NnLrqDp6I4s58p6bIY",
+        "7tjaz2q13lLxo2t9d61A",
+        "L6yDlFkTYOYnaAjEfidk",
+        "tgAp5zqqqt8BbWpTpnZW",
+        "NIEyS2hK1yajZrCBjESZ",
+        "xUfj9TCZOYjqh8qQFycw",
+        "OhEqqovMbd4VsB4knA15",
+        "5Dpt4236gv2JCZbPRWaW",
+        "dAO8SPg44jtXWeFvhLEL",
+        "WLD1NPRDzfSVZF3JPMXi",
+        "Ajt8JyrjPnBXs3ZTUiNL",
+        "L9rVrQbvj7sonORr5kGP",
+        "O4pUKqMYl4tkY7q80jnD",
+        "aUXAodGyXA293zxoC4nt",
+        "s6FZ3kIT7lwLkB33VJe4",
+        "LSJ6xhgwXTGYmnck6PMP",
+        "qmSdh4QzocvRxw6XXSmZ",
+        "UkctsquvkWQ9TxiUu7E2",
+        "x3Y8u1K9yel5QSnA2Voc",
+        "bxOSyc8SMrzGcUGhQnYh",
+        "tRGumd0bbfQZwh8kK6Hq",
+        "YcAfQwFwV1f3dfTDycp3",
+        "oMZ3zSX7Mei1DwIFPSCU",
+        "NUIpsiy3MZcYl5qlkXCa",
+        "ppgXP7TNDVgMf9cESm6C",
+        "Nbv8UJdznC3VSQVfECxa",
+        "OtVpEwegMVyhYTJTRLOd",
+        "JRYJZx2jOPnsddtcId32",
+        "jK6g5GkBbxtq6wVGoojx",
+        "lPkzdilai2a85PwES3YW",
+        "6qu0dj6tku9ZGt5Yvplf",
+        "gAUshVZO9fy71OMOIi9X",
+        "4ymMqNTctJcmKz0m4YuX",
+        "0haxq7q9DhUGF5gMZ0tF"
+      ]
+    },
+    {
+      "receivedAt": "2026-08-31T21:57:16.090Z",
+      "endpoint": "sync",
+      "matchedSaleId": "e409f4451d87fc9a",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 500,
+        "salesRepName": "Unassigned"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2026 tesla",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "dM3Yt8EyJvTVMSFJf0aW",
+        "first_name": "Irfan",
+        "last_name": "Ullah",
+        "full_name": "Irfan Ullah",
+        "email": "irfan.ullah@tailoredcloset.com",
+        "phone": "+18568166269",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-08-26T20:04:04.831Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Irfan Ullah | ",
+        "status": "won",
+        "lead_value": 500,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "ckDYpC6RfdF3NOPwYTxt",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "g80 m3 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256307528530011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "facebook",
+            "mediumId": "27519531021030852",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "pSid": "27519531021030852"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "500",
+          "salesRepName": "",
+          "contactId": "dM3Yt8EyJvTVMSFJf0aW"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-08-31T21:54:58.660Z",
+      "endpoint": "sync",
+      "matchedSaleId": "c71a3a7c0c4029cf",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 575,
+        "salesRepName": "Unassigned"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2022 Challenger",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "qnugRTdUjQLlygyRtpef",
+        "first_name": "Shawn",
+        "last_name": "Patrick",
+        "full_name": "Shawn Patrick",
+        "email": "shawncollins.p@gmail.com",
+        "phone": "+16093513091",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-08-14T00:03:03.419Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Shawn Patrick | ",
+        "status": "won",
+        "lead_value": 575,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "Uhv8RAA0AWjkneesC8OK",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "no wndow tint updated 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256140175530011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "no wndow tint updated 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256140175530011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "575",
+          "salesRepName": "",
+          "contactId": "qnugRTdUjQLlygyRtpef"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-08-31T21:46:31.073Z",
+      "endpoint": "sync",
+      "matchedSaleId": "7d99a0f7230b53ee",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 500,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "NUIpsiy3MZcYl5qlkXCa",
+        "first_name": "CHARLES",
+        "last_name": "RONEY",
+        "full_name": "CHARLES RONEY",
+        "phone": "+16096806260",
+        "tags": "name via lookup",
+        "city": "HADDONFIELD",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-08-31T14:17:07.855Z",
+        "postal_code": "08033",
+        "full_address": "HADDONFIELD NJ 08033",
+        "contact_type": "lead",
+        "opportunity_name": "CHARLES RONEY | ",
+        "status": "won",
+        "lead_value": 500,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "rNolIckPfGz3fvWxgq62",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "500",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "NUIpsiy3MZcYl5qlkXCa"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-08-31T21:43:21.005Z",
+      "endpoint": "ghl-test-appointments",
+      "requestUrl": "https://services.leadconnectorhq.com/contacts/zgJ0BLIafTSCQNUlDvVz/appointments",
       "responseStatus": 400,
       "responseBody": {
-        "error": "Contact with id XeJaKUdBuAZe9HKiK0tb not found",
+        "error": "Contact with id zgJ0BLIafTSCQNUlDvVz not found",
+        "status": 400
+      }
+    },
+    {
+      "receivedAt": "2026-08-31T21:43:03.310Z",
+      "endpoint": "ghl-test-contact",
+      "requestUrl": "https://services.leadconnectorhq.com/contacts/zgJ0BLIafTSCQNUlDvVz",
+      "responseStatus": 400,
+      "responseBody": {
+        "error": "Contact with id zgJ0BLIafTSCQNUlDvVz not found",
+        "status": 400
+      }
+    },
+    {
+      "receivedAt": "2026-08-31T21:42:53.909Z",
+      "endpoint": "ghl-test-booked-stage",
+      "requestUrl": "https://services.leadconnectorhq.com/opportunities/search?location_id=aM3aPgbGfPiuofGw5tO4&pipeline_stage_id=d069c1bd-0a34-4424-96e9-6668e3da6656&limit=5",
+      "responseStatus": 200,
+      "responseBody": {
+        "opportunities": [
+          {
+            "id": "zgJ0BLIafTSCQNUlDvVz",
+            "name": "WIL BASKERVILLE | ",
+            "monetaryValue": 580,
+            "pipelineId": "MkTi1vHtyLoINfz0GzZh",
+            "pipelineStageId": "d069c1bd-0a34-4424-96e9-6668e3da6656",
+            "pipelineStageUId": "d069c1bd-0a34-4424-96e9-6668e3da6656",
+            "assignedTo": "5g49nBkiVmEmGsJpHIzJ",
+            "status": "won",
+            "source": null,
+            "lastStatusChangeAt": "2026-08-31T16:51:54.409Z",
+            "lastStageChangeAt": "2026-08-31T16:51:54.409Z",
+            "createdAt": "2026-08-31T16:51:54.409Z",
+            "updatedAt": "2026-08-31T16:56:55.630Z",
+            "forecastProbability": null,
+            "effectiveProbability": 89.47,
+            "indexVersion": 1,
+            "contactId": "JRYJZx2jOPnsddtcId32",
+            "locationId": "aM3aPgbGfPiuofGw5tO4",
+            "customFields": [],
+            "lostReasonId": null,
+            "followers": [],
+            "relations": [
+              {
+                "associationId": "OPPORTUNITIES_CONTACTS_ASSOCIATION",
+                "relationId": "zgJ0BLIafTSCQNUlDvVz",
+                "primary": true,
+                "objectKey": "contact",
+                "recordId": "JRYJZx2jOPnsddtcId32",
+                "fullName": "WIL BASKERVILLE",
+                "contactName": "WIL BASKERVILLE",
+                "companyName": null,
+                "email": null,
+                "phone": "+19738761115",
+                "tags": [
+                  "name via lookup"
+                ],
+                "attributed": true
+              }
+            ],
+            "contact": {
+              "id": "JRYJZx2jOPnsddtcId32",
+              "name": "WIL BASKERVILLE",
+              "companyName": null,
+              "email": null,
+              "phone": "+19738761115",
+              "tags": [
+                "name via lookup"
+              ],
+              "score": []
+            },
+            "sort": [
+              1788195114409,
+              "zgJ0BLIafTSCQNUlDvVz"
+            ],
+            "attributions": [
+              {
+                "utmSessionSource": "Other",
+                "isFirst": true,
+                "medium": "other"
+              }
+            ]
+          },
+          {
+            "id": "rNolIckPfGz3fvWxgq62",
+            "name": "CHARLES RONEY | ",
+            "monetaryValue": 0,
+            "pipelineId": "MkTi1vHtyLoINfz0GzZh",
+            "pipelineStageId": "d069c1bd-0a34-4424-96e9-6668e3da6656",
+            "pipelineStageUId": "d069c1bd-0a34-4424-96e9-6668e3da6656",
+            "assignedTo": "L4cXm4pVbcMrl37hszwC",
+            "status": "won",
+            "source": null,
+            "lastStatusChangeAt": "2026-08-31T14:23:26.599Z",
+            "lastStageChangeAt": "2026-08-31T14:23:26.599Z",
+            "createdAt": "2026-08-31T14:23:26.599Z",
+            "updatedAt": "2026-08-31T14:23:26.599Z",
+            "forecastProbability": null,
+            "effectiveProbability": 89.47,
+            "contactId": "NUIpsiy3MZcYl5qlkXCa",
+            "locationId": "aM3aPgbGfPiuofGw5tO4",
+            "customFields": [],
+            "lostReasonId": null,
+            "followers": [],
+            "relations": [
+              {
+                "associationId": "OPPORTUNITIES_CONTACTS_ASSOCIATION",
+                "relationId": "rNolIckPfGz3fvWxgq62",
+                "primary": true,
+                "objectKey": "contact",
+                "recordId": "NUIpsiy3MZcYl5qlkXCa",
+                "fullName": "CHARLES RONEY",
+                "contactName": "CHARLES RONEY",
+                "companyName": null,
+                "email": null,
+                "phone": "+16096806260",
+                "tags": [
+                  "name via lookup"
+                ],
+                "attributed": true
+              }
+            ],
+            "contact": {
+              "id": "NUIpsiy3MZcYl5qlkXCa",
+              "name": "CHARLES RONEY",
+              "companyName": null,
+              "email": null,
+              "phone": "+16096806260",
+              "tags": [
+                "name via lookup"
+              ],
+              "score": []
+            },
+            "sort": [
+              1788186206599,
+              "rNolIckPfGz3fvWxgq62"
+            ],
+            "attributions": [
+              {
+                "utmSessionSource": "Other",
+                "medium": "other",
+                "isFirst": true
+              }
+            ]
+          },
+          {
+            "id": "dWmcXm2X0f9XrCHy3EKV",
+            "name": "Kev | ",
+            "monetaryValue": 299,
+            "pipelineId": "MkTi1vHtyLoINfz0GzZh",
+            "pipelineStageId": "d069c1bd-0a34-4424-96e9-6668e3da6656",
+            "pipelineStageUId": "d069c1bd-0a34-4424-96e9-6668e3da6656",
+            "assignedTo": "5g49nBkiVmEmGsJpHIzJ",
+            "status": "won",
+            "source": "Facebook",
+            "lastStatusChangeAt": "2026-08-31T14:32:02.286Z",
+            "lastStageChangeAt": "2026-08-31T14:32:02.274Z",
+            "createdAt": "2026-08-31T14:16:52.445Z",
+            "updatedAt": "2026-08-31T14:32:16.860Z",
+            "forecastProbability": null,
+            "effectiveProbability": 89.47,
+            "indexVersion": 1,
+            "contactId": "ppgXP7TNDVgMf9cESm6C",
+            "locationId": "aM3aPgbGfPiuofGw5tO4",
+            "customFields": [],
+            "lostReasonId": null,
+            "followers": [],
+            "relations": [
+              {
+                "associationId": "OPPORTUNITIES_CONTACTS_ASSOCIATION",
+                "relationId": "dWmcXm2X0f9XrCHy3EKV",
+                "primary": true,
+                "objectKey": "contact",
+                "recordId": "ppgXP7TNDVgMf9cESm6C",
+                "fullName": "Kev",
+                "contactName": "Kev",
+                "companyName": null,
+                "email": "kevlan0202@gmail.com",
+                "phone": "+17324252047",
+                "tags": [
+                  "tint"
+                ],
+                "attributed": true
+              }
+            ],
+            "contact": {
+              "id": "ppgXP7TNDVgMf9cESm6C",
+              "name": "Kev",
+              "companyName": null,
+              "email": "kevlan0202@gmail.com",
+              "phone": "+17324252047",
+              "tags": [
+                "tint"
+              ],
+              "score": []
+            },
+            "sort": [
+              1788185812445,
+              "dWmcXm2X0f9XrCHy3EKV"
+            ],
+            "attributions": [
+              {
+                "utmSessionSource": "Paid Social",
+                "adSource": "facebook",
+                "utmCampaign": "window tint camp NJ",
+                "utmMedium": "ad set 1",
+                "utmCampaignId": "120254638050750011",
+                "isFirst": true,
+                "medium": "facebook",
+                "mediumId": "2463146954098159",
+                "utmAdId": "120256155075150011",
+                "utmSource": "facebook",
+                "utmContent": "summer is almost over 299 w/price"
+              },
+              {
+                "utmSessionSource": "Paid Social",
+                "isLast": true,
+                "adSource": "facebook",
+                "utmCampaign": "window tint camp NJ",
+                "utmMedium": "ad set 1",
+                "utmCampaignId": "120254638050750011",
+                "medium": "facebook",
+                "mediumId": "2463146954098159",
+                "utmAdId": "120256155075150011",
+                "utmSource": "facebook",
+                "utmContent": "summer is almost over 299 w/price"
+              }
+            ]
+          },
+          {
+            "id": "305wSyYb7IB6iaV3IaRZ",
+            "name": "Charlotte | ",
+            "monetaryValue": 299,
+            "pipelineId": "MkTi1vHtyLoINfz0GzZh",
+            "pipelineStageId": "d069c1bd-0a34-4424-96e9-6668e3da6656",
+            "pipelineStageUId": "d069c1bd-0a34-4424-96e9-6668e3da6656",
+            "assignedTo": "5g49nBkiVmEmGsJpHIzJ",
+            "status": "won",
+            "source": "Facebook",
+            "lastStatusChangeAt": "2026-08-31T12:43:29.155Z",
+            "lastStageChangeAt": "2026-08-31T12:43:29.128Z",
+            "createdAt": "2026-08-31T10:15:20.649Z",
+            "updatedAt": "2026-08-31T12:43:51.426Z",
+            "forecastProbability": null,
+            "effectiveProbability": 89.47,
+            "indexVersion": 1,
+            "contactId": "oMZ3zSX7Mei1DwIFPSCU",
+            "locationId": "aM3aPgbGfPiuofGw5tO4",
+            "customFields": [],
+            "lostReasonId": null,
+            "followers": [],
+            "relations": [
+              {
+                "associationId": "OPPORTUNITIES_CONTACTS_ASSOCIATION",
+                "relationId": "305wSyYb7IB6iaV3IaRZ",
+                "primary": true,
+                "objectKey": "contact",
+                "recordId": "oMZ3zSX7Mei1DwIFPSCU",
+                "fullName": "Charlotte",
+                "contactName": "Charlotte",
+                "companyName": null,
+                "email": "smartinez2389@hotmail.com",
+                "phone": "+17326194229",
+                "tags": [
+                  "tint"
+                ],
+                "attributed": true
+              }
+            ],
+            "contact": {
+              "id": "oMZ3zSX7Mei1DwIFPSCU",
+              "name": "Charlotte",
+              "companyName": null,
+              "email": "smartinez2389@hotmail.com",
+              "phone": "+17326194229",
+              "tags": [
+                "tint"
+              ],
+              "score": []
+            },
+            "sort": [
+              1788171320649,
+              "305wSyYb7IB6iaV3IaRZ"
+            ],
+            "attributions": [
+              {
+                "utmSessionSource": "Paid Social",
+                "adSource": "facebook",
+                "utmCampaign": "window tint camp NJ",
+                "utmMedium": "ad set 1",
+                "utmCampaignId": "120254638050750011",
+                "isFirst": true,
+                "medium": "facebook",
+                "mediumId": "2463146954098159",
+                "utmAdId": "120256307528530011",
+                "utmSource": "facebook",
+                "utmContent": "g80 m3 299"
+              },
+              {
+                "utmSessionSource": "Social media",
+                "isLast": true,
+                "medium": "instagram",
+                "mediumId": "1624111035739727"
+              }
+            ]
+          },
+          {
+            "id": "X62t0CEHFyZYO8jVpBxA",
+            "name": "Steven Mejia | ",
+            "monetaryValue": 500,
+            "pipelineId": "MkTi1vHtyLoINfz0GzZh",
+            "pipelineStageId": "d069c1bd-0a34-4424-96e9-6668e3da6656",
+            "pipelineStageUId": "d069c1bd-0a34-4424-96e9-6668e3da6656",
+            "assignedTo": "5g49nBkiVmEmGsJpHIzJ",
+            "status": "won",
+            "source": "Facebook",
+            "lastStatusChangeAt": "2026-08-30T22:20:46.966Z",
+            "lastStageChangeAt": "2026-08-30T22:20:46.958Z",
+            "createdAt": "2026-08-30T21:55:15.226Z",
+            "updatedAt": "2026-08-30T22:20:57.475Z",
+            "forecastProbability": null,
+            "effectiveProbability": 89.47,
+            "indexVersion": 1,
+            "contactId": "tRGumd0bbfQZwh8kK6Hq",
+            "locationId": "aM3aPgbGfPiuofGw5tO4",
+            "customFields": [],
+            "lostReasonId": null,
+            "followers": [],
+            "relations": [
+              {
+                "associationId": "OPPORTUNITIES_CONTACTS_ASSOCIATION",
+                "relationId": "X62t0CEHFyZYO8jVpBxA",
+                "primary": true,
+                "objectKey": "contact",
+                "recordId": "tRGumd0bbfQZwh8kK6Hq",
+                "fullName": "Steven Mejia",
+                "contactName": "Steven Mejia",
+                "companyName": null,
+                "email": "mejia.steven52@gmail.com",
+                "phone": "+16096753474",
+                "tags": [
+                  "tint"
+                ],
+                "attributed": true
+              }
+            ],
+            "contact": {
+              "id": "tRGumd0bbfQZwh8kK6Hq",
+              "name": "Steven Mejia",
+              "companyName": null,
+              "email": "mejia.steven52@gmail.com",
+              "phone": "+16096753474",
+              "tags": [
+                "tint"
+              ],
+              "score": []
+            },
+            "sort": [
+              1788126915226,
+              "X62t0CEHFyZYO8jVpBxA"
+            ],
+            "attributions": [
+              {
+                "utmSessionSource": "Paid Social",
+                "adSource": "facebook",
+                "utmCampaign": "window tint camp NJ",
+                "utmMedium": "ad set 1",
+                "utmCampaignId": "120254638050750011",
+                "isFirst": true,
+                "medium": "facebook",
+                "mediumId": "2463146954098159",
+                "utmAdId": "120256307528530011",
+                "utmSource": "facebook",
+                "utmContent": "g80 m3 299"
+              },
+              {
+                "utmSessionSource": "Paid Social",
+                "isLast": true,
+                "adSource": "facebook",
+                "utmCampaign": "window tint camp NJ",
+                "utmMedium": "ad set 1",
+                "utmCampaignId": "120254638050750011",
+                "medium": "facebook",
+                "mediumId": "2463146954098159",
+                "utmAdId": "120256307528530011",
+                "utmSource": "facebook",
+                "utmContent": "g80 m3 299"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "total": 830,
+          "nextPageUrl": "https://services.leadconnectorhq.com/opportunities/search?location_id=aM3aPgbGfPiuofGw5tO4&pipeline_stage_id=d069c1bd-0a34-4424-96e9-6668e3da6656&limit=5&startAfter=1788126915226&startAfterId=X62t0CEHFyZYO8jVpBxA",
+          "startAfterId": "X62t0CEHFyZYO8jVpBxA",
+          "startAfter": 1788126915226,
+          "currentPage": 1,
+          "nextPage": 2,
+          "prevPage": null
+        },
+        "traceId": "6a5714fa-7afb-42c5-b418-94ffd63f7875"
+      }
+    },
+    {
+      "receivedAt": "2026-08-31T21:42:44.128Z",
+      "endpoint": "ghl-test-contact",
+      "requestUrl": "https://services.leadconnectorhq.com/contacts/rNolIckPfGz3fvWxgq62",
+      "responseStatus": 400,
+      "responseBody": {
+        "error": "Contact with id rNolIckPfGz3fvWxgq62 not found",
         "status": 400
       }
     }
