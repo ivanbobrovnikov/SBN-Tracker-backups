@@ -7330,10 +7330,18 @@
     {
       "id": "7cf94189f375d8f2",
       "ghlOpportunityId": "6i5W8HJr7qSzdOmhmQq2",
-      "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "upsells": [
+        {
+          "id": "626433a3ba0929f9",
+          "name": "Window Ceramic Coating",
+          "price": 100,
+          "employeeId": null,
+          "managerId": null
+        }
+      ],
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-01T15:56:08.891Z",
       "date": "2026-09-01T13:00:00.000Z",
       "customerName": "Gary Kopchinski",
@@ -7341,13 +7349,22 @@
       "customerEmail": "garykop60@gmail.com",
       "contactId": "5Dpt4236gv2JCZbPRWaW",
       "car": "2013 GMC Sierra 499+100 windows 95depo ",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "edb1c8df77428593",
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Gio, Nick, Paul",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paymentMethod": "cash",
+      "isWalkIn": true,
+      "walkInClosedByType": "employee",
+      "walkInClosedById": "edb1c8df77428593",
+      "walkInClosedByName": "Gio"
     },
     {
       "id": "d858fbfc8b133346",
@@ -7484,7 +7501,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 500,
+      "basePrice": 499,
       "syncedFromGHL": true
     },
     {
@@ -8376,6 +8393,51 @@
       "baseService": "Window Tint",
       "basePrice": 0,
       "syncedFromGHL": true
+    },
+    {
+      "id": "564f550e3280297c",
+      "ghlOpportunityId": "FCZBhoxxheL8eNZsFcaT",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-01T19:16:22.943Z",
+      "date": "2026-09-07T20:00:00.000Z",
+      "customerName": "JOHN SCIOLI",
+      "customerPhone": "(609) 204-1370",
+      "customerEmail": "",
+      "contactId": "FCZBhoxxheL8eNZsFcaT",
+      "car": "DG 2021 HONDA ACCORD S+RTINT 299-50DEPO",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 0,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "349dd96327b03609",
+      "ghlOpportunityId": "test_5c9f0654d5ff1564",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-01T19:30:04.997Z",
+      "date": "2026-09-01T19:30:03.644Z",
+      "customerName": "Mark Bowen",
+      "customerPhone": "6095609232",
+      "customerEmail": "",
+      "contactId": null,
+      "car": "Honda Civic Si ",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Ceramic Coating",
+      "basePrice": 499,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -8384,6 +8446,13 @@
       "id": "ed55d50b916a979a",
       "name": "Aaron",
       "pinHash": "d7697570462f7562b83e81258de0f1e41832e98072e44c36ec8efec46786e24e",
+      "commissionRate": 10,
+      "walkInCommissionRate": 10
+    },
+    {
+      "id": "2b02987feb841fcd",
+      "name": "Ivan",
+      "pinHash": "b3282a2f2a28757b3a18ab833de16a9c54518c0b0cf493e3f0a7cf09386f326a",
       "commissionRate": 10,
       "walkInCommissionRate": 10
     }
@@ -8415,6 +8484,76 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-01T19:27:48.816Z",
+      "endpoint": "sync",
+      "matchedSaleId": "673468dc37061947",
+      "before": {
+        "basePrice": 500,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "uRwCZD68T0igkMknoYAb",
+        "first_name": "MARK",
+        "last_name": "BOWEN",
+        "full_name": "MARK BOWEN",
+        "phone": "+16095609232",
+        "tags": "name via lookup",
+        "city": "HADDONFIELD",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-08-26T21:12:43.669Z",
+        "postal_code": "08610",
+        "full_address": "HADDONFIELD NJ 08610",
+        "contact_type": "lead",
+        "opportunity_name": "MARK BOWEN | ",
+        "status": "won",
+        "lead_value": 499,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "O4yAs9j2iPliAskNVF8Q",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "uRwCZD68T0igkMknoYAb"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-01T16:52:14.742Z",
       "endpoint": "ghl-bulk-import",
