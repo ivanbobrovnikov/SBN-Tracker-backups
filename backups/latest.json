@@ -2289,11 +2289,12 @@
       "car": "DG 2019 Camaro ZL1 Ceramic Coating 499-95depo Make It Spectacular",
       "employeeIds": [],
       "employeeNames": "Unassigned",
-      "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
-      "syncedFromGHL": true
+      "basePrice": 500,
+      "syncedFromGHL": true,
+      "isWalkIn": false
     },
     {
       "id": "e409f4451d87fc9a",
@@ -7967,6 +7968,76 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-01T12:25:52.488Z",
+      "endpoint": "sync",
+      "matchedSaleId": "cc8f922237140272",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 500,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "uRwCZD68T0igkMknoYAb",
+        "first_name": "MARK",
+        "last_name": "BOWEN",
+        "full_name": "MARK BOWEN",
+        "phone": "+16095609232",
+        "tags": "name via lookup",
+        "city": "HADDONFIELD",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-08-26T21:12:43.669Z",
+        "postal_code": "08610",
+        "full_address": "HADDONFIELD NJ 08610",
+        "contact_type": "lead",
+        "opportunity_name": "MARK BOWEN | ",
+        "status": "won",
+        "lead_value": 500,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "O4yAs9j2iPliAskNVF8Q",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "500",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "uRwCZD68T0igkMknoYAb"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-01T03:56:19.163Z",
       "endpoint": "ghl-test-pipelines",
