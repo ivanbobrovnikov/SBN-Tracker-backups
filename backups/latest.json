@@ -7883,6 +7883,29 @@
       "baseService": "Window Tint",
       "basePrice": 299,
       "syncedFromGHL": true
+    },
+    {
+      "id": "b0b564bcdc04fb18",
+      "ghlOpportunityId": "6h36qioNiU5zebz4S1JE",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-01T01:30:16.975Z",
+      "date": "2026-09-21T16:00:00.000Z",
+      "customerName": "Kinh Man",
+      "customerPhone": "(609) 226-7862",
+      "customerEmail": "",
+      "contactId": "6h36qioNiU5zebz4S1JE",
+      "car": "Kinh Man",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Walk-in (needs closer assigned)",
+      "baseService": "Window Tint",
+      "basePrice": 299,
+      "syncedFromGHL": true,
+      "isWalkIn": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -7922,6 +7945,118 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-01T01:30:17.126Z",
+      "endpoint": "sync",
+      "matchedSaleId": "b0b564bcdc04fb18",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Walk-in (needs closer assigned)"
+      },
+      "body": {
+        "contact_id": "6h36qioNiU5zebz4S1JE",
+        "first_name": "Kinh",
+        "last_name": "Man",
+        "full_name": "Kinh Man",
+        "email": "baccpit@gmail.com",
+        "phone": "+16092267862",
+        "tags": "",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-07-19T02:11:05.122Z",
+        "contact_source": "Ceramic Coating Booking",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Kinh Man | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Ceramic Coating Booking",
+        "source": "Ceramic Coating Booking",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "z60tb4RbBKJICzpYSARD",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Direct traffic",
+            "url": "https://api.leadconnectorhq.com/widget/booking/l6p0Wai2C60MLpMeBerd",
+            "utmSource": null,
+            "utmMedium": null,
+            "utmContent": null,
+            "utmTerm": null,
+            "utmKeyword": null,
+            "utmMatchtype": null,
+            "gclid": null,
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+            "ip": "2600:387:15:601d::3",
+            "gaClientId": null,
+            "gaSessionId": null,
+            "medium": "calendar",
+            "mediumId": "l6p0Wai2C60MLpMeBerd",
+            "adName": null,
+            "adGroupId": null,
+            "adId": null,
+            "gbraid": null,
+            "wbraid": null
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Direct traffic",
+            "url": "https://api.leadconnectorhq.com/widget/booking/kd3E4bCR56IMR1GAZWQL",
+            "utmSource": null,
+            "utmMedium": null,
+            "utmContent": null,
+            "utmTerm": null,
+            "utmKeyword": null,
+            "utmMatchtype": null,
+            "referrer": null,
+            "gclid": null,
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+            "ip": "2600:387:15:5b1c::1",
+            "gaClientId": null,
+            "gaSessionId": null,
+            "medium": "calendar",
+            "mediumId": "kd3E4bCR56IMR1GAZWQL",
+            "adName": null,
+            "adGroupId": null,
+            "adId": null,
+            "gbraid": null,
+            "wbraid": null
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "6h36qioNiU5zebz4S1JE"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-01T00:19:04.645Z",
       "endpoint": "ghl-bulk-import",
