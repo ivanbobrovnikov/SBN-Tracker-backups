@@ -7049,7 +7049,7 @@
       ],
       "employeeNames": "Naomi",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "",
       "basePrice": 299,
       "syncedFromGHL": true,
@@ -7057,7 +7057,11 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "isWalkIn": true,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "2b02987feb841fcd",
+      "walkInClosedByName": "Ivan"
     },
     {
       "id": "b642113fbb9a7151",
@@ -7499,7 +7503,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-01T15:56:15.218Z",
       "date": "2026-09-01T20:00:00.000Z",
       "customerName": "Irfan Ullah",
@@ -7514,7 +7518,8 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 500,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paymentMethod": "card"
     },
     {
       "id": "af37534e4488e2f9",
@@ -7597,7 +7602,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-01T15:56:34.293Z",
       "date": "2026-09-01T20:00:00.000Z",
       "customerName": "Nelson Martinez",
@@ -7612,7 +7617,8 @@
       "isWalkIn": false,
       "baseService": "",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "fa4424c08a212946",
@@ -7993,11 +7999,15 @@
       ],
       "employeeNames": "Feso",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Window Tint",
       "basePrice": 575,
       "syncedFromGHL": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "isWalkIn": true,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "2b02987feb841fcd",
+      "walkInClosedByName": "Ivan"
     },
     {
       "id": "647c52316e939628",
@@ -8460,10 +8470,14 @@
       ],
       "employeeNames": "Gio, Nick, Paul",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isWalkIn": true,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "2b02987feb841fcd",
+      "walkInClosedByName": "Ivan"
     },
     {
       "id": "749e0f81e49a42cf",
