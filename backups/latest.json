@@ -1846,11 +1846,12 @@
       "car": "DG 2021 Mazda3 S+RTINT 299-50depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
-      "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isWalkIn": false
     },
     {
       "id": "8f860554c2bc6a96",
@@ -3117,28 +3118,6 @@
       "syncedFromGHL": true
     },
     {
-      "id": "71da4f70c17195dc",
-      "ghlOpportunityId": "UZruig9sIbIYTWR6NYTc",
-      "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
-      "closedAt": "2026-08-20T17:09:06.450Z",
-      "date": "2026-09-02T19:00:00.000Z",
-      "customerName": "Alyssa Phan",
-      "customerPhone": "+12674143088",
-      "customerEmail": "275alyssaphan@gmail.com",
-      "contactId": "oGNXGWoztjcxtwEq3Y9F",
-      "car": "21 Mazda S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
-      "salesRepId": null,
-      "salesRepName": "Unassigned",
-      "baseService": "Window Tint",
-      "basePrice": 299,
-      "syncedFromGHL": true
-    },
-    {
       "id": "ceb99db4495eedfd",
       "ghlOpportunityId": "pWJI5KwHI3ZyovTDprKP",
       "upsells": [],
@@ -3381,8 +3360,8 @@
       "ghlOpportunityId": "4yJPTxq3W3942WxLs4Ap",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-17T23:36:12.295Z",
       "date": "2026-09-02T15:00:00.000Z",
       "customerName": "Rolando Lucas",
@@ -3394,16 +3373,18 @@
       "employeeNames": "Unassigned",
       "salesRepId": null,
       "salesRepName": "Unassigned",
-      "baseService": "",
+      "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "ef97a63cc3423cb2",
       "ghlOpportunityId": "QfI5tJKp3rjcqFWmPX56",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-08-19T16:29:19.243Z",
       "date": "2026-09-02T13:00:00.000Z",
@@ -3412,13 +3393,23 @@
       "customerEmail": "mikejd666@aol.com",
       "contactId": "oTzDUmFmHl2IF0ot1s74",
       "car": "2026 Chevy Silverado 995 + 2025 Genesis GV70 750quoted",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "edb1c8df77428593",
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Gio, Nick, Paul",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
-      "baseService": "",
-      "basePrice": 299,
-      "syncedFromGHL": true
+      "salesRepName": "Walk-in (booked by staff)",
+      "baseService": "Ceramic Coating",
+      "basePrice": 995,
+      "syncedFromGHL": true,
+      "isWalkIn": true,
+      "walkInClosedByType": "employee",
+      "walkInClosedById": "edb1c8df77428593",
+      "walkInClosedByName": "Gio",
+      "paidCard": false,
+      "paymentMethod": null
     },
     {
       "id": "13dd019c87b28745",
@@ -6556,7 +6547,7 @@
       "ghlOpportunityId": "zb9nHH9dHVYWZsK6RzOl",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-08-30T00:31:27.821Z",
       "date": "2026-09-02T17:00:00.000Z",
@@ -6625,7 +6616,7 @@
       "ghlOpportunityId": "3jTnEynw68RSx0RXVkn1",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-08-29T16:02:51.821Z",
       "date": "2026-09-02T17:00:00.000Z",
@@ -6637,10 +6628,14 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
-      "baseService": "",
+      "salesRepName": "Walk-in (booked by staff)",
+      "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isWalkIn": true,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "2b02987feb841fcd",
+      "walkInClosedByName": "Ivan"
     },
     {
       "id": "4b0a0ed75336b583",
@@ -6933,8 +6928,8 @@
       "ghlOpportunityId": "BAZLkhR0P0IzT7sDRGgx",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-28T16:10:48.126Z",
       "date": "2026-09-02T15:00:00.000Z",
       "customerName": "Him",
@@ -6949,7 +6944,9 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 640,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "369aa988be7747bd",
@@ -7516,15 +7513,18 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "walkInClosedByType": null,
+      "walkInClosedById": null,
+      "walkInClosedByName": null
     },
     {
       "id": "2ac20fa812791167",
       "ghlOpportunityId": "wpuD575rElOegSvcQEvm",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-21T21:44:07.056Z",
       "date": "2026-09-02T17:00:00.000Z",
       "customerName": "Rizwan",
@@ -7537,9 +7537,15 @@
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
-      "baseService": "",
-      "basePrice": 299,
-      "syncedFromGHL": true
+      "baseService": "Window Tint",
+      "basePrice": 199,
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "af2ac257773f329d",
@@ -7653,8 +7659,8 @@
       "employeeNames": "Unassigned",
       "salesRepId": null,
       "salesRepName": "Unassigned",
-      "baseService": "",
-      "basePrice": 299,
+      "baseService": "Window Tint",
+      "basePrice": 200,
       "syncedFromGHL": true
     },
     {
@@ -14740,6 +14746,69 @@
       "personType": "manager",
       "personId": "2b02987feb841fcd",
       "date": "2026-09-01",
+      "status": "present"
+    },
+    {
+      "id": "60cf2cd7c5453256",
+      "personType": "employee",
+      "personId": "273b3cdb8e20e0d1",
+      "date": "2026-09-02",
+      "status": "present"
+    },
+    {
+      "id": "a854a291b7d80593",
+      "personType": "employee",
+      "personId": "edb1c8df77428593",
+      "date": "2026-09-02",
+      "status": "half_day"
+    },
+    {
+      "id": "517b27c2c9e56026",
+      "personType": "employee",
+      "personId": "8ee8cc14340b4386",
+      "date": "2026-09-02",
+      "status": "half_day"
+    },
+    {
+      "id": "6541d69ac0a92ed6",
+      "personType": "employee",
+      "personId": "7bcc22db24b2124f",
+      "date": "2026-09-02",
+      "status": "half_day"
+    },
+    {
+      "id": "983b21c8c1e15a77",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-09-02",
+      "status": "present"
+    },
+    {
+      "id": "3cb5cdf98697a4e3",
+      "personType": "employee",
+      "personId": "718bcb8dcdfffde1",
+      "date": "2026-09-02",
+      "status": "present"
+    },
+    {
+      "id": "61ebf3fe9635fef1",
+      "personType": "employee",
+      "personId": "791dee90ad560e70",
+      "date": "2026-09-02",
+      "status": "present"
+    },
+    {
+      "id": "5943c3abd148f2eb",
+      "personType": "manager",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-09-02",
+      "status": "present"
+    },
+    {
+      "id": "4df1f5c72c6db3a8",
+      "personType": "manager",
+      "personId": "2b02987feb841fcd",
+      "date": "2026-09-02",
       "status": "present"
     }
   ],
