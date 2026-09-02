@@ -6937,7 +6937,8 @@
       "baseService": "Window Tint",
       "basePrice": 400,
       "syncedFromGHL": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "paidCard": true
     },
     {
       "id": "13b6f49b2e4a9408",
@@ -7061,7 +7062,8 @@
       "isWalkIn": true,
       "walkInClosedByType": "manager",
       "walkInClosedById": "2b02987feb841fcd",
-      "walkInClosedByName": "Ivan"
+      "walkInClosedByName": "Ivan",
+      "paidCard": true
     },
     {
       "id": "b642113fbb9a7151",
@@ -7200,7 +7202,8 @@
       "baseService": "Window Tint",
       "basePrice": 299,
       "syncedFromGHL": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "paidCard": true
     },
     {
       "id": "c106765dc1423bc6",
@@ -7379,7 +7382,8 @@
       "isWalkIn": true,
       "walkInClosedByType": "employee",
       "walkInClosedById": "edb1c8df77428593",
-      "walkInClosedByName": "Gio"
+      "walkInClosedByName": "Gio",
+      "paidCash": true
     },
     {
       "id": "d858fbfc8b133346",
@@ -7449,7 +7453,8 @@
       "baseService": "Window Tint",
       "basePrice": 299,
       "syncedFromGHL": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "paidCard": true
     },
     {
       "id": "30247b001e76fb3f",
@@ -7519,7 +7524,8 @@
       "baseService": "Window Tint",
       "basePrice": 500,
       "syncedFromGHL": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "paidCard": true
     },
     {
       "id": "af37534e4488e2f9",
@@ -7568,11 +7574,12 @@
       "baseService": "",
       "basePrice": 145,
       "syncedFromGHL": true,
-      "paymentMethod": "card",
+      "paymentMethod": "cash",
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCash": true
     },
     {
       "id": "b4b78222abf310de",
@@ -7618,7 +7625,8 @@
       "baseService": "",
       "basePrice": 499,
       "syncedFromGHL": true,
-      "paymentMethod": "cash"
+      "paymentMethod": "card",
+      "paidCard": true
     },
     {
       "id": "fa4424c08a212946",
@@ -7694,7 +7702,8 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCard": true
     },
     {
       "id": "e9b79e2fcf5d1562",
@@ -7837,7 +7846,8 @@
       "baseService": "Ceramic Coating",
       "basePrice": 599,
       "syncedFromGHL": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "paidCard": true
     },
     {
       "id": "3afce30768d26c77",
@@ -7936,7 +7946,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-01T15:57:21.159Z",
       "date": "2026-09-01T13:00:00.000Z",
       "customerName": "jackmerc75",
@@ -7955,7 +7965,9 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "0233b83a88deffc0",
@@ -8007,7 +8019,8 @@
       "isWalkIn": true,
       "walkInClosedByType": "manager",
       "walkInClosedById": "2b02987feb841fcd",
-      "walkInClosedByName": "Ivan"
+      "walkInClosedByName": "Ivan",
+      "paidCard": true
     },
     {
       "id": "647c52316e939628",
@@ -8105,7 +8118,8 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCash": true
     },
     {
       "id": "e1f6773ded2dd179",
@@ -8455,7 +8469,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-01T19:30:04.997Z",
       "date": "2026-09-01T19:30:03.644Z",
       "customerName": "Mark Bowen",
@@ -8477,7 +8491,9 @@
       "isWalkIn": true,
       "walkInClosedByType": "manager",
       "walkInClosedById": "2b02987feb841fcd",
-      "walkInClosedByName": "Ivan"
+      "walkInClosedByName": "Ivan",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "749e0f81e49a42cf",
@@ -8820,6 +8836,28 @@
       "baseService": "Window Tint",
       "basePrice": 299,
       "syncedFromGHL": true
+    },
+    {
+      "id": "8d18d2149bc8cc33",
+      "ghlOpportunityId": "QdA6LCyOaedPvJ0Qc29W",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-02T15:29:45.465Z",
+      "date": "2026-09-07T13:00:00.000Z",
+      "customerName": "Kevin",
+      "customerPhone": "(609) 929-8122",
+      "customerEmail": "",
+      "contactId": "QdA6LCyOaedPvJ0Qc29W",
+      "car": "IB 2017 Honda Accord all around 499 no depo returning customer",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Window Tint",
+      "basePrice": 0,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -8866,6 +8904,190 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-02T15:51:54.781Z",
+      "endpoint": "ghl-test-pipelines",
+      "requestUrl": "https://services.leadconnectorhq.com/opportunities/pipelines?locationId=aM3aPgbGfPiuofGw5tO4",
+      "responseStatus": 200,
+      "responseBody": {
+        "pipelines": [
+          {
+            "id": "MkTi1vHtyLoINfz0GzZh",
+            "name": "Main Pipeline",
+            "useOpportunityProbability": false,
+            "dateAdded": "2026-06-11T13:49:08.639Z",
+            "dateUpdated": "2026-06-11T13:49:08.639Z",
+            "stages": [
+              {
+                "id": "858e0280-5313-4863-b013-3f3fb8a78455",
+                "name": "New Lead",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 0,
+                "stageWinProbability": 5.26,
+                "originId": "ZWRhYjFmMGUtYzJhMC00MjM2LWIxNWQtOWU5YWI0MDVmYjg2"
+              },
+              {
+                "id": "7be13326-e3cd-4c61-b3b4-cb50a9d0ba2d",
+                "name": "D1",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 1,
+                "stageWinProbability": 10.53,
+                "originId": "YjMwYjIzOTktN2U1MC00YjhmLTliMzMtYWQwMGViYTZmZjA1"
+              },
+              {
+                "id": "6d338a51-3042-4e3a-92c7-4063a2c9b914",
+                "name": "D2",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 2,
+                "stageWinProbability": 15.79,
+                "originId": "MjRlNmRkMTItOGRjOS00YmNiLWE3N2ItNjA5OWU1OTQzMTMx"
+              },
+              {
+                "id": "a6486bfe-f45f-4d5f-a40a-4081690eb193",
+                "name": "D3",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 3,
+                "stageWinProbability": 21.05,
+                "originId": "NzZiN2Y0NmMtNDZhZi00ZTMxLWIxYTktMGUxOWUxZDZmYmU2"
+              },
+              {
+                "id": "70a8b896-869d-4d9e-9b8a-4b40b2184d33",
+                "name": "D4",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 4,
+                "stageWinProbability": 26.32,
+                "originId": "MGQ3ZTNkOGUtOTZjMS00YjQyLTg2NTMtOGI0N2I3MTViZTE0"
+              },
+              {
+                "id": "5f14bbdb-3025-43fa-b718-149443327072",
+                "name": "D5",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 5,
+                "stageWinProbability": 31.58,
+                "originId": "NjYyN2VmNGMtNjI2YS00ZDVlLWExODYtMTM5ODJlNDI1NGY0"
+              },
+              {
+                "id": "b8960fb8-fcae-48ae-a912-7137828ce98d",
+                "name": "Dead",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 6,
+                "stageWinProbability": 36.84,
+                "originId": "ZTY0ZGU4ODItNjJmYy00MGE0LTg0N2QtNDQ4ZDFkYzUyMjA3"
+              },
+              {
+                "id": "0dc8726b-29c6-4e50-82b5-3e537ef1ddcc",
+                "name": "Lost (Abandon)",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 7,
+                "stageWinProbability": 42.11,
+                "originId": "OTUzYjgwZTctNzA4Zi00ZDEwLTlhZjAtYzk5YmQ5MDgxNjhl"
+              },
+              {
+                "id": "7620f5c9-d578-4995-8b1f-8717756a4538",
+                "name": "Lost (Reactivation)",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 8,
+                "stageWinProbability": 47.37,
+                "originId": "ZDliZTZjMjMtNzUyNS00OTc3LWIyMTAtOTM0NDUwNTQ1ZjI5"
+              },
+              {
+                "id": "81ea2f68-82ab-4c08-bb0a-22cb7a6dc4d9",
+                "name": "Convo Started No Quote",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 9,
+                "stageWinProbability": 52.63,
+                "originId": "NmFkY2M4ODQtOGYxOC00NDA5LTkzOWEtOTgxMzhkOTdjODk2"
+              },
+              {
+                "id": "877e7cd2-ae1c-49c9-9de7-ddd144046890",
+                "name": "Quoted/Nurture",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 10,
+                "stageWinProbability": 57.89,
+                "originId": "ZTA3MDE3MjYtZmNkOC00MTkyLTllODYtNGVhMGZhMjhjYjMx"
+              },
+              {
+                "id": "9cfe42d4-d374-451f-bb35-90f2270fcf41",
+                "name": "Follow Up Set",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 11,
+                "stageWinProbability": 63.16,
+                "originId": "YTFjMjk1OGYtMDc4MS00OTkxLTk2YmUtMGQ4MWNjNWFhMzhh"
+              },
+              {
+                "id": "a50b2ca5-2726-4b89-93f0-4873bf69a438",
+                "name": "Hot",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 12,
+                "stageWinProbability": 68.42,
+                "originId": "Yzc0YWQ1OTMtMzk3Ny00ODJiLTgxMmUtYWYzMjY4ZDhhYWY5"
+              },
+              {
+                "id": "80c24f51-3b4a-49df-835e-ae18405cf6a7",
+                "name": "No Call No Show",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 13,
+                "stageWinProbability": 73.68,
+                "originId": "NDEzMjYwZGEtMzA3ZS00Zjc4LWE3MGYtOTZhN2U3MGQyY2I1"
+              },
+              {
+                "id": "2b201328-2d8f-4601-8101-e97f5c3c3453",
+                "name": "Pending Deposit",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 14,
+                "stageWinProbability": 78.95,
+                "originId": "ZmVlZmM4MTUtZDE1NC00NDJlLTk2NzAtMzNjZDZjNzBhNzUw"
+              },
+              {
+                "id": "f791bdd4-132e-41c7-b199-8385e1f3ff6b",
+                "name": "Pending Reschedule",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 15,
+                "stageWinProbability": 84.21,
+                "originId": "ZjRmMjUyODMtNzg0ZS00NWVhLTg5MDUtM2QzMjc2NTQxODFh"
+              },
+              {
+                "id": "d069c1bd-0a34-4424-96e9-6668e3da6656",
+                "name": "Booked W Deposit",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 16,
+                "stageWinProbability": 89.47,
+                "originId": "MDY3YjI4MDItMGFiOS00ZWU2LWIwYWEtM2NkOTkwOWZjOTY4"
+              },
+              {
+                "id": "a992f87f-2ad6-44e6-b6d9-4efd539a4abe",
+                "name": "Job Complete",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 17,
+                "stageWinProbability": 94.74,
+                "originId": "ZjFhMjk4YmUtMjFkNS00NmE1LTkzNjctNjliYjlkNTQzNjY2"
+              }
+            ],
+            "locationId": "aM3aPgbGfPiuofGw5tO4",
+            "originId": "F4AOW9dgLH9B3DIMp2TS"
+          }
+        ],
+        "traceId": "55d613d1-d663-4678-8853-a7e74b3b5bea"
+      }
+    },
     {
       "receivedAt": "2026-09-02T15:06:16.108Z",
       "endpoint": "sync",
@@ -14466,112 +14688,6 @@
         "customData": {
           "basePrice": "600",
           "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "5PYf0Ay5iHU5jM0OjbgH"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-09-01T15:15:10.654Z",
-      "endpoint": "sync",
-      "matchedSaleId": "0e7c5212737da1c4",
-      "before": {
-        "basePrice": 0,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 600,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "Within 2 weeks",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "Nissan Altima 2015",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "5PYf0Ay5iHU5jM0OjbgH",
-        "first_name": "Mathias",
-        "last_name": "Durand",
-        "full_name": "Mathias Durand",
-        "email": "mt.dg.07@hotmail.com",
-        "phone": "+19733802627",
-        "tags": "tint",
-        "country": "US",
-        "date_created": "2026-07-08T23:13:57.648Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Mathias Durand | ",
-        "status": "won",
-        "lead_value": 600,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "8GWCgoFXSOJWjY8iqYe1",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1521577853048463",
-            "medium": "facebook",
-            "formId": "1521577853048463",
-            "formName": "window tint 299-copy",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "ad 1 299",
-            "adSetId": "120254638050770011",
-            "adId": "120254652145930011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1521577853048463",
-            "medium": "facebook",
-            "formId": "1521577853048463",
-            "formName": "window tint 299-copy",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "ad 1 299",
-            "adSetId": "120254638050770011",
-            "adId": "120254652145930011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "600",
-          "salesRepName": "",
           "contactId": "5PYf0Ay5iHU5jM0OjbgH"
         }
       }
