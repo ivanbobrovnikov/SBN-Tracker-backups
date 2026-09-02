@@ -8824,6 +8824,190 @@
   ],
   "debugLog": [
     {
+      "receivedAt": "2026-09-02T17:34:49.514Z",
+      "endpoint": "ghl-test-pipelines",
+      "requestUrl": "https://services.leadconnectorhq.com/opportunities/pipelines?locationId=aM3aPgbGfPiuofGw5tO4",
+      "responseStatus": 200,
+      "responseBody": {
+        "pipelines": [
+          {
+            "id": "MkTi1vHtyLoINfz0GzZh",
+            "name": "Main Pipeline",
+            "useOpportunityProbability": false,
+            "dateAdded": "2026-06-11T13:49:08.639Z",
+            "dateUpdated": "2026-06-11T13:49:08.639Z",
+            "stages": [
+              {
+                "id": "858e0280-5313-4863-b013-3f3fb8a78455",
+                "name": "New Lead",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 0,
+                "stageWinProbability": 5.26,
+                "originId": "ZWRhYjFmMGUtYzJhMC00MjM2LWIxNWQtOWU5YWI0MDVmYjg2"
+              },
+              {
+                "id": "7be13326-e3cd-4c61-b3b4-cb50a9d0ba2d",
+                "name": "D1",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 1,
+                "stageWinProbability": 10.53,
+                "originId": "YjMwYjIzOTktN2U1MC00YjhmLTliMzMtYWQwMGViYTZmZjA1"
+              },
+              {
+                "id": "6d338a51-3042-4e3a-92c7-4063a2c9b914",
+                "name": "D2",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 2,
+                "stageWinProbability": 15.79,
+                "originId": "MjRlNmRkMTItOGRjOS00YmNiLWE3N2ItNjA5OWU1OTQzMTMx"
+              },
+              {
+                "id": "a6486bfe-f45f-4d5f-a40a-4081690eb193",
+                "name": "D3",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 3,
+                "stageWinProbability": 21.05,
+                "originId": "NzZiN2Y0NmMtNDZhZi00ZTMxLWIxYTktMGUxOWUxZDZmYmU2"
+              },
+              {
+                "id": "70a8b896-869d-4d9e-9b8a-4b40b2184d33",
+                "name": "D4",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 4,
+                "stageWinProbability": 26.32,
+                "originId": "MGQ3ZTNkOGUtOTZjMS00YjQyLTg2NTMtOGI0N2I3MTViZTE0"
+              },
+              {
+                "id": "5f14bbdb-3025-43fa-b718-149443327072",
+                "name": "D5",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 5,
+                "stageWinProbability": 31.58,
+                "originId": "NjYyN2VmNGMtNjI2YS00ZDVlLWExODYtMTM5ODJlNDI1NGY0"
+              },
+              {
+                "id": "b8960fb8-fcae-48ae-a912-7137828ce98d",
+                "name": "Dead",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 6,
+                "stageWinProbability": 36.84,
+                "originId": "ZTY0ZGU4ODItNjJmYy00MGE0LTg0N2QtNDQ4ZDFkYzUyMjA3"
+              },
+              {
+                "id": "0dc8726b-29c6-4e50-82b5-3e537ef1ddcc",
+                "name": "Lost (Abandon)",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 7,
+                "stageWinProbability": 42.11,
+                "originId": "OTUzYjgwZTctNzA4Zi00ZDEwLTlhZjAtYzk5YmQ5MDgxNjhl"
+              },
+              {
+                "id": "7620f5c9-d578-4995-8b1f-8717756a4538",
+                "name": "Lost (Reactivation)",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 8,
+                "stageWinProbability": 47.37,
+                "originId": "ZDliZTZjMjMtNzUyNS00OTc3LWIyMTAtOTM0NDUwNTQ1ZjI5"
+              },
+              {
+                "id": "81ea2f68-82ab-4c08-bb0a-22cb7a6dc4d9",
+                "name": "Convo Started No Quote",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 9,
+                "stageWinProbability": 52.63,
+                "originId": "NmFkY2M4ODQtOGYxOC00NDA5LTkzOWEtOTgxMzhkOTdjODk2"
+              },
+              {
+                "id": "877e7cd2-ae1c-49c9-9de7-ddd144046890",
+                "name": "Quoted/Nurture",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 10,
+                "stageWinProbability": 57.89,
+                "originId": "ZTA3MDE3MjYtZmNkOC00MTkyLTllODYtNGVhMGZhMjhjYjMx"
+              },
+              {
+                "id": "9cfe42d4-d374-451f-bb35-90f2270fcf41",
+                "name": "Follow Up Set",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 11,
+                "stageWinProbability": 63.16,
+                "originId": "YTFjMjk1OGYtMDc4MS00OTkxLTk2YmUtMGQ4MWNjNWFhMzhh"
+              },
+              {
+                "id": "a50b2ca5-2726-4b89-93f0-4873bf69a438",
+                "name": "Hot",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 12,
+                "stageWinProbability": 68.42,
+                "originId": "Yzc0YWQ1OTMtMzk3Ny00ODJiLTgxMmUtYWYzMjY4ZDhhYWY5"
+              },
+              {
+                "id": "80c24f51-3b4a-49df-835e-ae18405cf6a7",
+                "name": "No Call No Show",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 13,
+                "stageWinProbability": 73.68,
+                "originId": "NDEzMjYwZGEtMzA3ZS00Zjc4LWE3MGYtOTZhN2U3MGQyY2I1"
+              },
+              {
+                "id": "2b201328-2d8f-4601-8101-e97f5c3c3453",
+                "name": "Pending Deposit",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 14,
+                "stageWinProbability": 78.95,
+                "originId": "ZmVlZmM4MTUtZDE1NC00NDJlLTk2NzAtMzNjZDZjNzBhNzUw"
+              },
+              {
+                "id": "f791bdd4-132e-41c7-b199-8385e1f3ff6b",
+                "name": "Pending Reschedule",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 15,
+                "stageWinProbability": 84.21,
+                "originId": "ZjRmMjUyODMtNzg0ZS00NWVhLTg5MDUtM2QzMjc2NTQxODFh"
+              },
+              {
+                "id": "d069c1bd-0a34-4424-96e9-6668e3da6656",
+                "name": "Booked W Deposit",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 16,
+                "stageWinProbability": 89.47,
+                "originId": "MDY3YjI4MDItMGFiOS00ZWU2LWIwYWEtM2NkOTkwOWZjOTY4"
+              },
+              {
+                "id": "a992f87f-2ad6-44e6-b6d9-4efd539a4abe",
+                "name": "Job Complete",
+                "showInFunnel": true,
+                "showInPieChart": true,
+                "position": 17,
+                "stageWinProbability": 94.74,
+                "originId": "ZjFhMjk4YmUtMjFkNS00NmE1LTkzNjctNjliYjlkNTQzNjY2"
+              }
+            ],
+            "locationId": "aM3aPgbGfPiuofGw5tO4",
+            "originId": "F4AOW9dgLH9B3DIMp2TS"
+          }
+        ],
+        "traceId": "bb575dcc-cdbb-42f3-a259-dbfdc295bbed"
+      }
+    },
+    {
       "receivedAt": "2026-09-02T17:20:56.362Z",
       "endpoint": "sync",
       "matchedSaleId": "55c91dd663a0dbc7",
@@ -14411,113 +14595,6 @@
           "contactId": "8yfbWtzZ5sENh1jPctdm"
         }
       }
-    },
-    {
-      "receivedAt": "2026-09-01T16:41:26.631Z",
-      "endpoint": "sync",
-      "matchedSaleId": "e3ee73e676268962",
-      "before": {
-        "basePrice": 640,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 640,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "2021 Subaru Outback",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "2dp0Gd3vHqbWqOXIZlhV",
-        "first_name": "Bill",
-        "last_name": "Reed",
-        "full_name": "Bill Reed",
-        "email": "breed3207@gmail.com",
-        "phone": "+17327934200",
-        "tags": "coating",
-        "country": "US",
-        "date_created": "2026-09-01T09:33:14.491Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Bill Reed | ",
-        "status": "won",
-        "lead_value": 640,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "PgJkTgDZeKjbxHesrI2G",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating",
-            "utm_campaign": "ceramic coating",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "grand opening 499",
-            "adSetId": "120255090573730011",
-            "adId": "120255139145580011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "1626489462533357",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "1626489462533357"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "640",
-          "salesRepName": "Roman Goldovsky",
-          "contactId": "2dp0Gd3vHqbWqOXIZlhV"
-        }
-      }
     }
   ],
   "attendance": [
@@ -14651,6 +14728,6 @@
   "revenueStartDate": "2026-09-01",
   "ghlImportCursor": null,
   "ghlImportImportedCount": 283,
-  "ghlRepairCursor": "https://services.leadconnectorhq.com/opportunities/search?location_id=aM3aPgbGfPiuofGw5tO4&pipeline_stage_id=d069c1bd-0a34-4424-96e9-6668e3da6656&limit=15&startAfter=1787681305650&startAfterId=g9jtoutfU7zfMqSAcJ4a",
-  "ghlRepairFixedCount": 257
+  "ghlRepairCursor": null,
+  "ghlRepairFixedCount": 0
 }
