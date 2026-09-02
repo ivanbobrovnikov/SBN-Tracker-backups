@@ -8638,6 +8638,51 @@
       "baseService": "Window Tint",
       "basePrice": 0,
       "syncedFromGHL": true
+    },
+    {
+      "id": "10cc2371e81e2278",
+      "ghlOpportunityId": "wj1PvOHDW3uT3BtNUEC3",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-02T11:36:55.659Z",
+      "date": "2026-09-28T14:30:00.000Z",
+      "customerName": "Justin Klepadlo ",
+      "customerPhone": "(405) 761-5652",
+      "customerEmail": "",
+      "contactId": "wj1PvOHDW3uT3BtNUEC3",
+      "car": "Justin Klepadlo ",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Ceramic Coating",
+      "basePrice": 0,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "375cd78ac4654436",
+      "ghlOpportunityId": "vqCwX77f87uasj8qC017",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-02T11:40:41.947Z",
+      "date": "2026-09-25T13:00:00.000Z",
+      "customerName": "Carrie Klepadlo",
+      "customerPhone": "(405) 761-5698",
+      "customerEmail": "",
+      "contactId": "vqCwX77f87uasj8qC017",
+      "car": "Carrie Klepadlo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Walk-in (needs closer assigned)",
+      "baseService": "Ceramic Coating",
+      "basePrice": 499,
+      "syncedFromGHL": true,
+      "isWalkIn": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -8684,6 +8729,124 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-02T11:40:42.654Z",
+      "endpoint": "sync",
+      "matchedSaleId": "375cd78ac4654436",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Walk-in (needs closer assigned)"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2024 Audi Q8 etron",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "vqCwX77f87uasj8qC017",
+        "first_name": "Carrie",
+        "last_name": "Klepadlo",
+        "full_name": "Carrie Klepadlo",
+        "email": "cklepadlo09@gmail.com",
+        "phone": "+14057615698",
+        "tags": "coating",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-09-02T11:32:23.749Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Carrie Klepadlo | ",
+        "status": "won",
+        "lead_value": 499,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "GCbAcNgmfWpxxIpiymD2",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "868814779620228",
+            "medium": "facebook",
+            "formId": "868814779620228",
+            "formName": "499 10 year coatijng",
+            "campaign": "ceramic coating",
+            "utm_campaign": "ceramic coating",
+            "campaignId": "120255090573720011",
+            "utmMedium": "10 year 499",
+            "utmContent": "grand opening 499",
+            "adSetId": "120255090573730011",
+            "adId": "120255139145580011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Direct traffic",
+            "url": "https://api.leadconnectorhq.com/widget/booking/l6p0Wai2C60MLpMeBerd",
+            "utmSource": null,
+            "utmMedium": null,
+            "utmContent": null,
+            "utmTerm": null,
+            "utmKeyword": null,
+            "utmMatchtype": null,
+            "referrer": null,
+            "gclid": null,
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+            "ip": "141.150.140.9",
+            "gaClientId": null,
+            "gaSessionId": null,
+            "medium": "calendar",
+            "mediumId": "l6p0Wai2C60MLpMeBerd",
+            "adName": null,
+            "adGroupId": null,
+            "adId": null,
+            "gbraid": null,
+            "wbraid": null
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "vqCwX77f87uasj8qC017"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-01T23:55:09.511Z",
       "endpoint": "sync",
@@ -13738,113 +13901,6 @@
           }
         ],
         "traceId": "9e9d72cf-6e8a-4cc9-a9d6-49238959bcca"
-      }
-    },
-    {
-      "receivedAt": "2026-09-01T13:54:02.151Z",
-      "endpoint": "sync",
-      "matchedSaleId": "ff2d7862bd4368a5",
-      "before": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "2020 jaguar f pace svr",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "Q7zok3xTmbkfkCYVVBRY",
-        "first_name": "Rick",
-        "last_name": "Rosado",
-        "full_name": "Rick Rosado",
-        "email": "rrosado82@gmail.com",
-        "phone": "+12677601582",
-        "tags": "coating",
-        "country": "US",
-        "date_created": "2026-09-01T11:09:04.617Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Rick Rosado | ",
-        "status": "won",
-        "lead_value": 499,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "JrQBKuuRUPaJ7u6xVVK0",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating",
-            "utm_campaign": "ceramic coating",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "grand opening 499",
-            "adSetId": "120255090573730011",
-            "adId": "120255139145580011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "facebook",
-            "mediumId": "27334479279559081",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "pSid": "27334479279559081"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "499",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "Q7zok3xTmbkfkCYVVBRY"
-        }
       }
     }
   ],
