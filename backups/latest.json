@@ -47,7 +47,7 @@
       "name": "Naomi",
       "commissionRate": 10,
       "walkInCommissionRate": 10,
-      "pinHash": "408fba550123bd67d2819182a6c7b44525840cf8e6d2e5db4597da2a73af1903"
+      "pinHash": "7834541aeb2127e4e67d9cff30a7e8cf1640863b202e73415f5e93a0c56c5670"
     }
   ],
   "sales": [
@@ -2221,7 +2221,15 @@
     {
       "id": "ad8ca2053e67da5b",
       "ghlOpportunityId": "0Eqs5a9K3uf7ObrbJ3Bk",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "970444a945241492",
+          "name": "Package upgrade",
+          "price": 795,
+          "employeeId": "edb1c8df77428593",
+          "managerId": null
+        }
+      ],
       "status": "pending",
       "completed": false,
       "paid": false,
@@ -9377,6 +9385,29 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 700,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "9242e069630b90b4",
+      "ghlOpportunityId": "D4yKzeZCDr8vbNhuAYUp",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-03T18:22:00.726Z",
+      "date": "2026-09-07T18:30:00.000Z",
+      "customerName": "Brian Parker",
+      "customerPhone": "(484) 636-6340",
+      "customerEmail": "",
+      "contactId": "D4yKzeZCDr8vbNhuAYUp",
+      "car": "TG White Mercedes amg gt 2021 coating and rims  =$599 (Drop off at Monday at 2-3pm. Pick up at morning wednesday 8am.)   Depo,paid  -150$     ",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "2c27b621d80b0bc6",
+      "salesRepName": "Timothy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Ceramic Coating",
+      "basePrice": 0,
       "syncedFromGHL": true
     }
   ],
