@@ -805,10 +805,18 @@
     {
       "id": "7517713f8d51db2e",
       "ghlOpportunityId": "gaAjrhG2egxH7fcJUI4Z",
-      "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "upsells": [
+        {
+          "id": "b0afb2a0b71a24d5",
+          "name": "Extra step",
+          "price": 250,
+          "employeeId": "edb1c8df77428593",
+          "managerId": null
+        }
+      ],
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-25T15:52:22.083Z",
       "date": "2026-09-04T13:00:00.000Z",
       "customerName": "Dan Marino",
@@ -823,7 +831,9 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "0ccaa4e39f31006a",
@@ -1180,8 +1190,8 @@
       "id": "34cddfda6974a64d",
       "ghlOpportunityId": "Vb2gEDjiUwAAhN6bR82z",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
+      "status": "arrived",
+      "completed": true,
       "paid": false,
       "closedAt": "2026-08-24T18:02:39.530Z",
       "date": "2026-09-04T13:00:00.000Z",
@@ -1786,8 +1796,8 @@
       "id": "39fcfa6042a7763f",
       "ghlOpportunityId": "COEbMy3NAULGaKB93YXi",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
+      "status": "arrived",
+      "completed": true,
       "paid": false,
       "closedAt": "2026-08-24T20:31:06.939Z",
       "date": "2026-09-04T13:00:00.000Z",
@@ -1803,7 +1813,9 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": false,
+      "paymentMethod": null
     },
     {
       "id": "9c170b23e35d8b3d",
@@ -5073,9 +5085,9 @@
       "id": "96f95e1099529f4d",
       "ghlOpportunityId": "yiSzMP6L3mf4YTcW8ian",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-31T16:34:46.041Z",
       "date": "2026-09-04T20:00:00.000Z",
       "customerName": "ericrmz",
@@ -5090,7 +5102,9 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "455179c02d1281b0",
@@ -5385,9 +5399,9 @@
       "id": "c8590a78f906a0fa",
       "ghlOpportunityId": "msYFkhypsApGXz5y8nWZ",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-27T22:10:04.499Z",
       "date": "2026-09-04T13:00:00.000Z",
       "customerName": "Rick Troendle",
@@ -5402,7 +5416,9 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "9797a0ee46f3abe1",
@@ -5611,9 +5627,9 @@
       "id": "af37534e4488e2f9",
       "ghlOpportunityId": "6cGQwE1xOhallq2oALfo",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-01T14:55:08.998Z",
       "date": "2026-09-04T13:00:00.000Z",
       "customerName": "JetSki Jeff",
@@ -5628,7 +5644,9 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "9f0d610a8d63ab73",
@@ -5710,8 +5728,8 @@
       "id": "fa4424c08a212946",
       "ghlOpportunityId": "X9un7mfnBwBEQCxJMXkz",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
+      "status": "arrived",
+      "completed": true,
       "paid": false,
       "closedAt": "2026-08-29T15:28:51.843Z",
       "date": "2026-09-04T13:00:00.000Z",
@@ -7936,7 +7954,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 140,
       "syncedFromGHL": true
     },
     {
@@ -14293,6 +14311,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "8ec60f201df76c00",
+      "timestamp": "2026-09-04T21:02:22.313Z",
+      "actor": "Owner",
+      "saleId": "3e4fce7758ae0bbe",
+      "car": "DG 2022 Benz GLS 2 front windows 140-Walk-in",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 140
+    },
     {
       "id": "28c17a5177373e38",
       "timestamp": "2026-09-03T22:41:13.358Z",
