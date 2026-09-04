@@ -2546,8 +2546,8 @@
       "ghlOpportunityId": "B94X0VmOsgxqm0urkLwm",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-24T13:33:52.960Z",
       "date": "2026-09-04T13:00:00.000Z",
       "customerName": "Din Blades",
@@ -2565,7 +2565,9 @@
       "isWalkIn": true,
       "walkInClosedByType": "manager",
       "walkInClosedById": "2b02987feb841fcd",
-      "walkInClosedByName": "Ivan"
+      "walkInClosedByName": "Ivan",
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "ddce28af3076b9fb",
@@ -7861,6 +7863,28 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 499,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "33891afb1ee97618",
+      "ghlOpportunityId": "DwXo9xgsNme00rJbavX7",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-04T15:32:53.963Z",
+      "date": "2026-10-15T13:00:00.000Z",
+      "customerName": "Jon Cruz",
+      "customerPhone": "(907) 201-5495",
+      "customerEmail": "",
+      "contactId": "DwXo9xgsNme00rJbavX7",
+      "car": "Jon Cruz",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Window Tint",
+      "basePrice": 0,
       "syncedFromGHL": true
     }
   ],
