@@ -2477,9 +2477,9 @@
       "id": "6eefb2ffb08c7b4e",
       "ghlOpportunityId": "FsWWD95wPouIBlbIu2SU",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-12T18:19:11.749Z",
       "date": "2026-09-04T15:00:00.000Z",
       "customerName": "Deztiny Mclaughlin",
@@ -2493,7 +2493,10 @@
       "salesRepName": "Unassigned",
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "paidCash": false
     },
     {
       "id": "2efe66b9c879f2d5",
@@ -7823,9 +7826,9 @@
       "id": "823148c1f6b28a5d",
       "ghlOpportunityId": "zByMGF76GPDmwd23Ugel",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-04T14:43:04.883Z",
       "date": "2026-09-04T15:00:00.000Z",
       "customerName": "Matt Morrison",
@@ -7840,7 +7843,10 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 250,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": false,
+      "paymentMethod": "card",
+      "paidCard": true
     },
     {
       "id": "5c45e07d0d21bd6b",
