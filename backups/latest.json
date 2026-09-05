@@ -1797,8 +1797,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-25T20:21:00.636Z",
       "date": "2026-09-05T20:00:00.000Z",
       "customerName": "Payton Brielle",
@@ -1816,7 +1816,10 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "both",
+      "paidCard": true
     },
     {
       "id": "42065f7d771d9f31",
@@ -8532,6 +8535,14 @@
       "commissionRate": 8,
       "afterHoursCommissionRate": 12,
       "initials": "TG"
+    },
+    {
+      "id": "e56a9f98597bcb7f",
+      "name": "Bobomurod Hamdamov",
+      "initials": "BH",
+      "pinHash": "7ef45737ddac485934ae911a6da811525324409b94e89cb6c67b066d7aaef772",
+      "commissionRate": 8,
+      "afterHoursCommissionRate": 12
     }
   ],
   "debugLog": [
