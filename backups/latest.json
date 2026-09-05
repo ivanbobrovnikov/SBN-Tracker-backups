@@ -1409,8 +1409,18 @@
     {
       "id": "9747c8c33ba22872",
       "ghlOpportunityId": "lDWb5QkG2LyNrcPQva7v",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "f6b012c1eb98c464",
+          "name": "Nano",
+          "price": 100,
+          "employeeId": "273b3cdb8e20e0d1",
+          "managerId": null,
+          "salesRepId": null,
+          "salesRepName": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-20T19:34:24.046Z",
@@ -1420,8 +1430,11 @@
       "customerEmail": "19instructor2016@gmail.com",
       "contactId": "7st7UDsz6x2aaUiVo3BP",
       "car": "DG 2026 Honda Civic S+RTINT 300-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "718bcb8dcdfffde1"
+      ],
+      "employeeNames": "Angelica, John",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -1456,9 +1469,9 @@
       "id": "ceb99db4495eedfd",
       "ghlOpportunityId": "pWJI5KwHI3ZyovTDprKP",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-20T15:03:37.938Z",
       "date": "2026-09-05T13:00:00.000Z",
       "customerName": "f.ccccc Scaramuzzo",
@@ -1473,7 +1486,13 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "cash",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "d8b895506520d7bd",
@@ -1627,9 +1646,9 @@
       "id": "435a3e7e53e9c427",
       "ghlOpportunityId": "kmCWDKAfKev5nuRu2AyN",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-18T14:01:29.933Z",
       "date": "2026-09-05T13:00:00.000Z",
       "customerName": "Jesse",
@@ -1637,14 +1656,19 @@
       "customerEmail": "23loki@gmail.com",
       "contactId": "Y5trytVhUQzB0MHShAwP",
       "car": "DG 2010 Cadillac CTS S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "718bcb8dcdfffde1"
+      ],
+      "employeeNames": "Angelica, John",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "b5cd4cd825131ca0",
@@ -1826,7 +1850,7 @@
       "id": "9c170b23e35d8b3d",
       "ghlOpportunityId": "XH4m8deIIg14fwXFHv00",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-17T21:45:15.193Z",
@@ -1894,8 +1918,16 @@
     {
       "id": "5b646a6a9b2c3c75",
       "ghlOpportunityId": "YkAABfMafZ60YZMnK9zF",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "9af7f3eb36b1014f",
+          "name": "Full windshield",
+          "price": 200,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a"
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-14T14:07:10.636Z",
@@ -1912,7 +1944,11 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "eaa41741e1f50f7d",
@@ -6468,7 +6504,13 @@
       "isWalkIn": true,
       "walkInClosedByType": "employee",
       "walkInClosedById": "edb1c8df77428593",
-      "walkInClosedByName": "Gio"
+      "walkInClosedByName": "Gio",
+      "photos": {
+        "before": {
+          "walkaround": "8878aff5e5fda471-before-walkaround-2531690f7feed010.MOV"
+        },
+        "after": {}
+      }
     },
     {
       "id": "0fbb663cfd558d6b",
