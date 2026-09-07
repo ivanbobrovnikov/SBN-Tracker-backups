@@ -2253,8 +2253,16 @@
     {
       "id": "76a00663640f4e43",
       "ghlOpportunityId": "F3H3GPohJsrMrdu7UAs6",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "d5756740353913b4",
+          "name": "Windshield 50%",
+          "price": 200,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a"
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-11T15:32:59.466Z",
@@ -2271,7 +2279,11 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 599,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "129f29679fe498e4",
@@ -4480,9 +4492,9 @@
       "id": "172dd703f72805b5",
       "ghlOpportunityId": "JGrSyh9wLYtL0FczYnPH",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-01T14:09:28.217Z",
       "date": "2026-09-07T15:00:00.000Z",
       "customerName": "Jludz",
@@ -4490,14 +4502,19 @@
       "customerEmail": "jimskicash@gmail.com",
       "contactId": "mhbgIHt0KRqetjxvHuSk",
       "car": "DG 2020 Nissan Maxima S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": false,
+      "paymentMethod": "cash",
+      "paidCash": true
     },
     {
       "id": "f84739a783e990bc",
@@ -6301,8 +6318,8 @@
       "ghlOpportunityId": "35HcVHSfO64xhfi6N43I",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-22T14:35:04.788Z",
       "date": "2026-09-07T15:00:00.000Z",
       "customerName": "Irena Pszeniczna",
@@ -6319,7 +6336,9 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "b9d58234efd2845f",
@@ -7030,7 +7049,7 @@
       "ghlOpportunityId": "dsUsMknmw8Ks1qv9T3ZC",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-08-07T16:10:49.438Z",
       "date": "2026-09-07T13:00:00.000Z",
@@ -7039,8 +7058,10 @@
       "customerEmail": "fbccarpentry@gmail.com",
       "contactId": "QdA6LCyOaedPvJ0Qc29W",
       "car": "IB 2017 Honda Accord all around 499 no depo returning customer",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": null,
       "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Window Tint",
@@ -7049,7 +7070,11 @@
       "isWalkIn": true,
       "walkInClosedByType": "manager",
       "walkInClosedById": "2b02987feb841fcd",
-      "walkInClosedByName": "Ivan"
+      "walkInClosedByName": "Ivan",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "bf609bb8adc7663a",
