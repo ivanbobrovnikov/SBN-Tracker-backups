@@ -7173,7 +7173,17 @@
     {
       "id": "7a3c0fb9817e1ee9",
       "ghlOpportunityId": "HZWwjEVEWLoMwMFLOmf3",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "cb5c9f36f998e017",
+          "name": "Windshield",
+          "price": 200,
+          "employeeId": null,
+          "managerId": "2b02987feb841fcd",
+          "salesRepId": null,
+          "salesRepName": null
+        }
+      ],
       "status": "arrived",
       "completed": false,
       "paid": false,
@@ -7184,8 +7194,10 @@
       "customerEmail": "",
       "contactId": "HZWwjEVEWLoMwMFLOmf3",
       "car": "DG 2024 Chevy Silverado S+RTINT 300-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
