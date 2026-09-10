@@ -4505,8 +4505,8 @@
       "ghlOpportunityId": "WDDT1W3JlNBGe7EdvLoR",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-31T23:56:14.276Z",
       "date": "2026-09-10T17:00:00.000Z",
       "customerName": "Ashton Quinn",
@@ -4531,7 +4531,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-09-10T18:54:53.266Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "61f21e3384a7ee82",
@@ -6301,10 +6303,9 @@
       "contactId": "5PYf0Ay5iHU5jM0OjbgH",
       "car": "DG 2015 Nissan Altima AllAroundTINTNANO 599-50depo",
       "employeeIds": [
-        "f9d9bfc4e797e38b",
-        "718bcb8dcdfffde1"
+        "f9d9bfc4e797e38b"
       ],
-      "employeeNames": "Feso, John",
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -6555,7 +6556,7 @@
       "ghlOpportunityId": "tcuEI8yPKqcVjpzNF6cx",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-09-01T20:51:07.994Z",
       "date": "2026-09-10T13:00:00.000Z",
@@ -6564,8 +6565,10 @@
       "customerEmail": "jayeceo@gmail.com",
       "contactId": "zmmyintxTFpUn93JXnsj",
       "car": "DG 2023 BMW XM AllAroundTint&CERAMICCOATING 1000-95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -6988,8 +6991,8 @@
       "ghlOpportunityId": "lEY7qWir2jhm247Hh25Q",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-02T21:23:12.054Z",
       "date": "2026-09-10T19:00:00.000Z",
       "customerName": "",
@@ -7008,7 +7011,9 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "42956bf87016679a",
@@ -7185,9 +7190,9 @@
       "id": "23757e497c2b8e8a",
       "ghlOpportunityId": "bKANZtlwoUAkRQdbZERg",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-03T01:07:15.730Z",
       "date": "2026-09-10T19:00:00.000Z",
       "customerName": "Buddy Gbelia",
@@ -7195,14 +7200,38 @@
       "customerEmail": "",
       "contactId": "bKANZtlwoUAkRQdbZERg",
       "car": "DG 2016 Chevy Malibu S+RTINT 300-24depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "791dee90ad560e70",
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Naomi, Angelica, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron",
+      "notes": [
+        {
+          "id": "6defde250bc2b2b1",
+          "text": "Javier",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-09-10T22:13:53.686Z"
+        },
+        {
+          "id": "9690245a63423cd6",
+          "text": "+$30 late fee",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-09-10T22:14:12.706Z"
+        }
+      ]
     },
     {
       "id": "7f5329e439bc78c9",
@@ -7382,7 +7411,7 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-03T16:56:26.091Z",
-      "date": "2026-09-15T21:00:00.000Z",
+      "date": "2026-09-15T20:00:00.000Z",
       "customerName": "Brandon Harrison",
       "customerPhone": "(609) 672-5793",
       "customerEmail": "",
@@ -7399,7 +7428,8 @@
       "isWalkIn": false,
       "walkInClosedByType": null,
       "walkInClosedById": null,
-      "walkInClosedByName": null
+      "walkInClosedByName": null,
+      "calendarId": null
     },
     {
       "id": "395cc08a81ddfbf1",
@@ -8075,7 +8105,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-05T17:23:53.214Z",
       "date": "2026-09-10T17:00:00.000Z",
       "customerName": "Irakli Tskvitaia",
@@ -8092,7 +8122,9 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 350,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "ef9b5a0d9c114394",
@@ -10083,12 +10115,12 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-10T17:15:00.654Z",
-      "date": "2026-09-10T20:10:00.000Z",
+      "date": "2026-09-11T13:00:00.000Z",
       "customerName": "Rusty Trombone",
       "customerPhone": "(609) 560-0193",
       "customerEmail": "",
       "contactId": "6efLfIyASiRmUx1tsKHq",
-      "car": "DG 2014 Ford Explorer 2 Front Windows 140-50depo",
+      "car": "DG 2014 Ford Exploerer FrontWindshield redo 160-50depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
