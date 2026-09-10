@@ -5966,7 +5966,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-08-28T18:24:51.604Z",
       "date": "2026-09-10T13:00:00.000Z",
       "customerName": "Michael Doria",
@@ -5984,7 +5984,9 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 270,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "84b4a96639f3495d",
@@ -6267,8 +6269,8 @@
       "ghlOpportunityId": "8GWCgoFXSOJWjY8iqYe1",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-01T15:14:34.504Z",
       "date": "2026-09-10T14:45:00.000Z",
       "customerName": "Mathias Durand",
@@ -6286,7 +6288,9 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 600,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "40b136af95933f98",
@@ -6443,29 +6447,6 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
-    },
-    {
-      "id": "92cb8974f70a5e17",
-      "ghlOpportunityId": "7Ok2XsPNixHUNho2twZ2",
-      "upsells": [],
-      "status": "no_show",
-      "completed": false,
-      "paid": false,
-      "closedAt": "2026-09-02T13:56:44.969Z",
-      "date": "2026-09-10T15:00:00.000Z",
-      "customerName": "Duane Didomenico Jr.",
-      "customerPhone": "+18566494320",
-      "customerEmail": "duaned1234@icloud.com",
-      "contactId": "7o1PszckIhk3tEf8FTGm",
-      "car": "DG 2021 Chevy Silverado AllAroundTINT 499-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
-      "salesRepId": "d160346301cc8a3f",
-      "salesRepName": "Dmitriy Gumenyuk",
-      "isWalkIn": false,
-      "baseService": "Window Tint",
-      "basePrice": 500,
       "syncedFromGHL": true
     },
     {
@@ -8991,14 +8972,6 @@
       "ghlOpportunityId": "tMAewzvg5JhHlxzJ24aV",
       "upsells": [
         {
-          "id": "6f421b2cf808acf0",
-          "name": "Rim coating",
-          "price": 120,
-          "employeeId": null,
-          "managerId": "19d1389561891623",
-          "salesRepId": null
-        },
-        {
           "id": "63ad46a60a305b95",
           "name": "50 initial",
           "price": 50,
@@ -9647,8 +9620,8 @@
       "ghlOpportunityId": "fFAPx59bjRygeNexaais",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-09T18:28:34.682Z",
       "date": "2026-09-10T13:00:00.000Z",
       "customerName": "Charles Yu",
@@ -9674,7 +9647,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-09-10T14:07:46.250Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "4810602fa820e613",
@@ -10049,6 +10024,30 @@
       "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "853705a961f8dff9",
+      "ghlOpportunityId": "cWHb0vBrXiUzDGAKzwAC",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-10T17:02:19.641Z",
+      "date": "2026-10-03T17:00:00.000Z",
+      "customerName": "Jesreel Rodríguez",
+      "customerPhone": "+1 787-242-2083",
+      "customerEmail": "",
+      "contactId": "cWHb0vBrXiUzDGAKzwAC",
+      "car": "DG 2016 Toyota Corolla S+RTINT&RemalRearW.Sheild 389-50depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 389,
+      "calendarId": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -10110,6 +10109,206 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-10T17:02:32.604Z",
+      "endpoint": "sync",
+      "matchedSaleId": "853705a961f8dff9",
+      "before": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 389,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "Toyota Corolla LE 2016",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "cWHb0vBrXiUzDGAKzwAC",
+        "first_name": "Jesreel",
+        "last_name": "Rodríguez",
+        "full_name": "Jesreel Rodríguez",
+        "email": "jesreeldjrt@hotmail.com",
+        "phone": "+17872422083",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-09-10T16:49:32.765Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Jesreel Rodríguez | ",
+        "status": "won",
+        "lead_value": 389,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "ln7W9GRnZ6RsJpP5sxuv",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "ad 1 299",
+            "adSetId": "120254638050770011",
+            "adId": "120254652145930011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "instagram",
+            "mediumId": "1828319558354346",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "igSid": "1828319558354346"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "389",
+          "salesRepName": "",
+          "contactId": "cWHb0vBrXiUzDGAKzwAC"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-09-10T17:02:20.671Z",
+      "endpoint": "sync",
+      "matchedSaleId": "853705a961f8dff9",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "Toyota Corolla LE 2016",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "cWHb0vBrXiUzDGAKzwAC",
+        "first_name": "Jesreel",
+        "last_name": "Rodríguez",
+        "full_name": "Jesreel Rodríguez",
+        "email": "jesreeldjrt@hotmail.com",
+        "phone": "+17872422083",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-09-10T16:49:32.765Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Jesreel Rodríguez | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "ln7W9GRnZ6RsJpP5sxuv",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "ad 1 299",
+            "adSetId": "120254638050770011",
+            "adId": "120254652145930011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "instagram",
+            "mediumId": "1828319558354346",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "igSid": "1828319558354346"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "cWHb0vBrXiUzDGAKzwAC"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-10T15:46:02.786Z",
       "endpoint": "sync",
@@ -14077,226 +14276,6 @@
           "basePrice": "499",
           "salesRepName": "Dmitriy Gumenyuk",
           "contactId": "XBBD4WWziCjj19dcnxGL"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-09-09T18:43:59.681Z",
-      "endpoint": "sync",
-      "matchedSaleId": "4810602fa820e613",
-      "before": {
-        "basePrice": 0,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "Voikswagon, Beettle Turbo. 2017",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "XBBD4WWziCjj19dcnxGL",
-        "first_name": "John",
-        "last_name": "M Bender",
-        "full_name": "John M Bender",
-        "email": "jbender2@comcast.net",
-        "phone": "+16097747509",
-        "tags": "coating",
-        "country": "US",
-        "date_created": "2026-09-04T03:23:18.436Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "John M Bender | ",
-        "status": "won",
-        "lead_value": 499,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "MQHgaiMOsPcYd72sneV9",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating",
-            "utm_campaign": "ceramic coating",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "lowest price of all time 499",
-            "adSetId": "120255090573730011",
-            "adId": "120256166911820011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "facebook",
-            "mediumId": "28260576056929378",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "pSid": "28260576056929378"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "499",
-          "salesRepName": "Roman Goldovsky",
-          "contactId": "XBBD4WWziCjj19dcnxGL"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-09-09T18:28:49.674Z",
-      "endpoint": "sync",
-      "matchedSaleId": "6cd49c7837fff31d",
-      "before": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 285,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "2022 Toyota Camry Hybrid SE",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "fFAPx59bjRygeNexaais",
-        "first_name": "Charles",
-        "last_name": "Yu",
-        "full_name": "Charles Yu",
-        "email": "charlie9304@gmail.com",
-        "phone": "+19179755148",
-        "tags": "",
-        "country": "US",
-        "date_created": "2026-09-02T19:40:20.526Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Charles Yu | ",
-        "status": "won",
-        "lead_value": 285,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "Dwnxd5iyOE637TQOOPU9",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "people cant afford ceramic 299",
-            "adSetId": "120254638050770011",
-            "adId": "120256476307680011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "people cant afford ceramic 299",
-            "adSetId": "120254638050770011",
-            "adId": "120256476307680011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "285",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "fFAPx59bjRygeNexaais"
         }
       }
     }
