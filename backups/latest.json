@@ -574,34 +574,6 @@
       "paymentMethod": "cash"
     },
     {
-      "id": "60a190e72dffd4ff",
-      "ghlOpportunityId": "3ZkwQxWIcmrNu2ZvwnHF",
-      "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
-      "closedAt": "2026-08-27T00:58:54.364Z",
-      "date": "2026-09-11T21:00:00.000Z",
-      "customerName": "Michael Scott",
-      "customerPhone": "(856) 994-4390",
-      "customerEmail": "mikedose07@gmail.com",
-      "contactId": "3ZkwQxWIcmrNu2ZvwnHF",
-      "car": "Michael Scott",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
-      "salesRepId": null,
-      "salesRepName": "Online Booking",
-      "baseService": "Window Tint",
-      "basePrice": 299,
-      "syncedFromGHL": true,
-      "isOnlineBooking": true,
-      "isWalkIn": false,
-      "walkInClosedByType": null,
-      "walkInClosedById": null,
-      "walkInClosedByName": null,
-      "calendarId": null
-    },
-    {
       "id": "113c9197c2d04f8f",
       "ghlOpportunityId": "RTKA1R8UbT4BzsleAWhw",
       "upsells": [],
@@ -6677,7 +6649,7 @@
       "id": "d8284bf1e568f013",
       "ghlOpportunityId": "sZWqae54Id4kIniBJCyl",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-01T16:53:34.697Z",
@@ -8259,8 +8231,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-05T18:57:30.739Z",
       "date": "2026-09-11T15:00:00.000Z",
       "customerName": "George D Cathie Jr",
@@ -8282,7 +8254,9 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "f2df0bb0e7d4fa77",
@@ -9335,7 +9309,7 @@
       "id": "0feda69e1b5ded34",
       "ghlOpportunityId": "9UiyZK6Af4aD2JZHekzL",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-08T21:12:48.944Z",
@@ -9761,7 +9735,7 @@
       "id": "5876dc45819e129e",
       "ghlOpportunityId": "Wjsi4YkUPlOjtV217wkS",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-09T16:37:54.078Z",
