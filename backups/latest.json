@@ -516,7 +516,7 @@
       "ghlOpportunityId": "TwY2ppnEnNvqo4ChtHlp",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-08-27T17:11:36.111Z",
       "date": "2026-09-11T13:00:00.000Z",
@@ -2421,8 +2421,8 @@
       "ghlOpportunityId": "frLygHjHq6kK2OBe0tDB",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-07-26T16:15:02.371Z",
       "date": "2026-09-11T13:00:00.000Z",
       "customerName": "Paris Langdon-Kelly",
@@ -2447,7 +2447,9 @@
           "walkaround": "4b5772ecb202a5be-before-walkaround-3b264587d78e6565.MOV"
         },
         "after": {}
-      }
+      },
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "b9b739d8994a8086",
@@ -2532,8 +2534,11 @@
       "customerEmail": "michaelweber94@icloud.com",
       "contactId": "amuVuqAlOsdcEaeYUN2w",
       "car": "DG 2010 Toyota Corolla S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f6cf35e1607cb10f",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Javier, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -4480,7 +4485,11 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 370,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "b07e3d69b88c7d77",
@@ -4802,8 +4811,8 @@
       "ghlOpportunityId": "VGbZZURmC9lGD6dxoT0E",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-30T16:54:25.009Z",
       "date": "2026-09-11T13:00:00.000Z",
       "customerName": "Tivon Silva",
@@ -4818,7 +4827,9 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "cc2bc9bcdca0b3b4",
@@ -6262,7 +6273,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-08-31T21:58:52.696Z",
       "date": "2026-09-10T13:00:00.000Z",
       "customerName": "Ivan Garcia",
@@ -6286,7 +6297,9 @@
         "after": {
           "walkaround": "ecbea9d918bf590d-after-walkaround-2959114c4a7ee6b4.MOV"
         }
-      }
+      },
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "cb2ae4186450aff6",
@@ -6580,7 +6593,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-01T20:51:07.994Z",
       "date": "2026-09-10T13:00:00.000Z",
       "customerName": "Jaye Coqueran",
@@ -6597,7 +6610,9 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 1000,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "ac4bd207c059dfb8",
@@ -6659,8 +6674,11 @@
       "customerEmail": "kenyattawilder748@outlook.com",
       "contactId": "IEYBVKiXuugb1gSiV91H",
       "car": "DG 2013 Ford Fusion S+RTINT 300-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Feso, Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -9214,7 +9232,7 @@
       "id": "74dcf8e771194b85",
       "ghlOpportunityId": "SUaiUE6vwfRPfB3jKLim",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-08T20:14:41.240Z",
@@ -9232,7 +9250,11 @@
       "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "50aa15275e718d66",
@@ -9319,8 +9341,11 @@
       "customerEmail": "",
       "contactId": "9UiyZK6Af4aD2JZHekzL",
       "car": "DG 2023 Honda HR-V S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "791dee90ad560e70"
+      ],
+      "employeeNames": "Feso, Naomi",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -9736,8 +9761,8 @@
       "ghlOpportunityId": "Wjsi4YkUPlOjtV217wkS",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-09T16:37:54.078Z",
       "date": "2026-09-11T17:00:00.000Z",
       "customerName": "Eric Miller",
@@ -9745,15 +9770,20 @@
       "customerEmail": "",
       "contactId": "Wjsi4YkUPlOjtV217wkS",
       "car": "DG 2022 Volkswagen Tiguan AllAround Tint 495-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Feso, Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 495,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "6cd49c7837fff31d",
