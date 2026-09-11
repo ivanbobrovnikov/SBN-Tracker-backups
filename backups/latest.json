@@ -4463,7 +4463,7 @@
       "id": "fe21820847b78268",
       "ghlOpportunityId": "7rpkVBd6C5ocerK7rpWt",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-01T13:42:29.796Z",
@@ -9337,7 +9337,7 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-08T21:48:33.823Z",
-      "date": "2026-09-15T20:00:00.000Z",
+      "date": "2026-09-24T20:00:00.000Z",
       "customerName": "Ben Nice",
       "customerPhone": "(302) 278-8082",
       "customerEmail": "",
@@ -9349,7 +9349,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 385,
+      "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true
     },
@@ -10632,6 +10632,29 @@
       "basePrice": 319,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "b9bebcda4f304d9e",
+      "ghlOpportunityId": "JMEMnmwLFOJu1B0OTRFI",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-11T19:41:34.093Z",
+      "date": "2026-09-22T13:00:00.000Z",
+      "customerName": "Mike Milillo",
+      "customerPhone": "(609) 352-4286",
+      "customerEmail": "",
+      "contactId": "JMEMnmwLFOJu1B0OTRFI",
+      "car": "Mike 2021 Ram 1500 Paint Correction + water spot removal + 10yr coating 1000$-95",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Ceramic Coating",
+      "basePrice": 0,
+      "calendarId": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -10693,6 +10716,113 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-11T19:51:22.504Z",
+      "endpoint": "sync",
+      "matchedSaleId": "dd32f31e3e388d18",
+      "before": {
+        "basePrice": 385,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2020 Ford Fusion",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "HIyDDqdAq7XNZNdmOIAU",
+        "first_name": "Ben",
+        "last_name": "Nice",
+        "full_name": "Ben Nice",
+        "email": "bernadindice@live.com",
+        "phone": "+13022788082",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-09-07T19:42:40.630Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Ben Nice | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "LH1xuHltlJcM6oW5KNZB",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "ad 1 299",
+            "adSetId": "120254638050770011",
+            "adId": "120254652145930011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "instagram",
+            "mediumId": "997382966695092",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "igSid": "997382966695092"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "HIyDDqdAq7XNZNdmOIAU"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-11T16:56:21.462Z",
       "endpoint": "sync",
@@ -14527,119 +14657,6 @@
         "cWHb0vBrXiUzDGAKzwAC",
         "6efLfIyASiRmUx1tsKHq"
       ]
-    },
-    {
-      "receivedAt": "2026-09-10T17:30:35.651Z",
-      "endpoint": "sync",
-      "matchedSaleId": "79d373813ed52d6b",
-      "before": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "contact_id": "7RE5DVNURboJ7EwAGhA2",
-        "first_name": "Alex",
-        "last_name": "DeFeo",
-        "full_name": "Alex DeFeo",
-        "email": "adefeo4519@gmail.com",
-        "phone": "+16092041084",
-        "tags": "",
-        "country": "US",
-        "timezone": "America/New_York",
-        "date_created": "2026-09-02T01:57:11.878Z",
-        "contact_source": "Window Tint Booking ",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Alex DeFeo | ",
-        "status": "won",
-        "lead_value": 499,
-        "opportunity_source": "Window Tint Booking",
-        "source": "Window Tint Booking",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "LgXzFwhzWuKLRs4UdChu",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Direct traffic",
-            "url": "https://api.leadconnectorhq.com/widget/booking/kd3E4bCR56IMR1GAZWQL",
-            "utmSource": null,
-            "utmMedium": null,
-            "utmContent": null,
-            "utmTerm": null,
-            "utmKeyword": null,
-            "utmMatchtype": null,
-            "gclid": null,
-            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23F84 Instagram 426.0.0.36.74 (iPhone18,2; iOS 26_5_2; en_US; en; scale=3.00; 1320x2868; IABMV/1; 946530071) Safari/604.1",
-            "ip": "2600:4041:3c8c:7f00:8036:48eb:46d7:70d6",
-            "gaClientId": null,
-            "gaSessionId": null,
-            "medium": "calendar",
-            "mediumId": "kd3E4bCR56IMR1GAZWQL",
-            "adName": null,
-            "adGroupId": null,
-            "adId": null,
-            "gbraid": null,
-            "wbraid": null,
-            "fbEventId": "dbb4fa37-93dc-4942-8991-9e8eaa0e166b"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Direct traffic",
-            "url": "https://api.leadconnectorhq.com/widget/booking/kd3E4bCR56IMR1GAZWQL",
-            "utmSource": null,
-            "utmMedium": null,
-            "utmContent": null,
-            "utmTerm": null,
-            "utmKeyword": null,
-            "utmMatchtype": null,
-            "referrer": null,
-            "gclid": null,
-            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23F84 Instagram 426.0.0.36.74 (iPhone18,2; iOS 26_5_2; en_US; en; scale=3.00; 1320x2868; IABMV/1; 946530071) Safari/604.1",
-            "ip": "2600:4041:3c8c:7f00:8036:48eb:46d7:70d6",
-            "gaClientId": null,
-            "gaSessionId": null,
-            "medium": "calendar",
-            "mediumId": "kd3E4bCR56IMR1GAZWQL",
-            "adName": null,
-            "adGroupId": null,
-            "adId": null,
-            "gbraid": null,
-            "wbraid": null
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "499",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "7RE5DVNURboJ7EwAGhA2"
-        }
-      }
     }
   ],
   "attendance": [
@@ -15496,6 +15513,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "1aad2af5b4cb0be5",
+      "timestamp": "2026-09-11T19:49:31.466Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "b9bebcda4f304d9e",
+      "car": "Mike 2021 Ram 1500 Paint Correction + water spot removal + 10yr coating 1000$-95",
+      "field": "Car/Title",
+      "oldValue": "Mike 2021 Ram 1500 Paint Correction + water spot removal + 10yr coating ",
+      "newValue": "Mike 2021 Ram 1500 Paint Correction + water spot removal + 10yr coating 1000$-95"
+    },
     {
       "id": "141581b1bb4722f1",
       "timestamp": "2026-09-11T17:19:32.110Z",
