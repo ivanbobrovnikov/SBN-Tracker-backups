@@ -820,7 +820,7 @@
       ],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-08-25T18:57:31.003Z",
       "date": "2026-09-09T13:00:00.000Z",
       "customerName": "Michael Fineman",
@@ -848,7 +848,9 @@
       "managerHelperIds": [
         "19d1389561891623"
       ],
-      "managerHelperNames": "Gio"
+      "managerHelperNames": "Gio",
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "7517713f8d51db2e",
@@ -899,7 +901,7 @@
       ],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-08-24T22:13:42.240Z",
       "date": "2026-09-09T13:00:00.000Z",
       "customerName": "Min Mynh",
@@ -923,7 +925,9 @@
       "managerHelperIds": [
         "19d1389561891623"
       ],
-      "managerHelperNames": "Gio"
+      "managerHelperNames": "Gio",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "991d066a7bb7fb74",
@@ -2370,7 +2374,7 @@
       ],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-07-30T14:28:51.320Z",
       "date": "2026-09-09T13:00:00.000Z",
       "customerName": "ROGER BURDEN",
@@ -2390,7 +2394,9 @@
           "walkaround": "09468ae49b2b6c98-before-walkaround-8870ffe8a0fbbef7.MOV"
         },
         "after": {}
-      }
+      },
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "6e39e18378005ba0",
@@ -4481,8 +4487,8 @@
       "ghlOpportunityId": "7rpkVBd6C5ocerK7rpWt",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-01T13:42:29.796Z",
       "date": "2026-09-11T20:00:00.000Z",
       "customerName": "Rich Bond",
@@ -4490,8 +4496,11 @@
       "customerEmail": "ralphiewigams91@gmail.com",
       "contactId": "7fcqU2tn6B6iPMcvn4BS",
       "car": "DG 2004 GMC Sierra Front Windshield&Remove&Install 2 Front  windows 370-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Feso, Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -4501,7 +4510,9 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "b07e3d69b88c7d77",
@@ -5451,7 +5462,7 @@
       "customerPhone": "+18565243787",
       "customerEmail": "jsgidda90@gmail.com",
       "contactId": "6GdL4PSSQ2Dm9KjICLSt",
-      "car": "DG 2025 Black Ford350Transit Ceramic Coating 499-95depo",
+      "car": "DG 2025 Black Ford350Transit Ceramic Coating 650-95depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -6680,7 +6691,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-01T16:53:34.697Z",
       "date": "2026-09-11T19:00:00.000Z",
       "customerName": "يطّا",
@@ -6698,7 +6709,9 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "adc3069d5bbdfeed",
@@ -6868,7 +6881,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-08-07T16:10:49.438Z",
       "date": "2026-09-07T13:00:00.000Z",
       "customerName": "Kevin",
@@ -6892,7 +6905,9 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "bf609bb8adc7663a",
@@ -7678,8 +7693,9 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
-      "syncedFromGHL": true
+      "basePrice": 399,
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "3fe16b61ed2a1a65",
@@ -7793,7 +7809,7 @@
       "salesRepId": null,
       "salesRepName": "Unassigned",
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 499,
       "syncedFromGHL": true
     },
     {
@@ -8011,7 +8027,7 @@
       "salesRepId": null,
       "salesRepName": "Unassigned",
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 0,
       "syncedFromGHL": true
     },
     {
@@ -8130,8 +8146,9 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
-      "syncedFromGHL": true
+      "basePrice": 299,
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "dbe21149ec6167bd",
@@ -8454,8 +8471,9 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
-      "syncedFromGHL": true
+      "basePrice": 130,
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "4f09a9982cab5237",
@@ -8626,7 +8644,7 @@
       "salesRepId": null,
       "salesRepName": "Unassigned",
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "syncedFromGHL": true
     },
     {
@@ -9041,8 +9059,9 @@
       "salesRepName": "Firdavs Karshiev",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
-      "syncedFromGHL": true
+      "basePrice": 599,
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "6d8f2807096257ec",
@@ -9156,7 +9175,7 @@
       ],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-08T18:07:05.730Z",
       "date": "2026-09-10T13:00:00.000Z",
       "customerName": "Rico Patel",
@@ -9171,7 +9190,9 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "32025454ba39c75a",
@@ -9240,17 +9261,27 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 720,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "74dcf8e771194b85",
       "ghlOpportunityId": "SUaiUE6vwfRPfB3jKLim",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "23e2d302fa620ecf",
+          "name": "Removal 2 fronts",
+          "price": 75,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a",
+          "salesRepId": null
+        }
+      ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-08T20:14:41.240Z",
       "date": "2026-09-11T20:00:00.000Z",
       "customerName": "Jose Ocasio",
@@ -9258,8 +9289,13 @@
       "customerEmail": "",
       "contactId": "SUaiUE6vwfRPfB3jKLim",
       "car": "DG 2015 Ford F150 S+RTINT 299-50depo 5%allwindows",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b",
+        "791dee90ad560e70",
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Angelica, Feso, Naomi, Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -9267,10 +9303,10 @@
       "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true,
-      "managerHelperIds": [
-        "ed55d50b916a979a"
-      ],
-      "managerHelperNames": "Aaron"
+      "managerHelperIds": [],
+      "managerHelperNames": "",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "50aa15275e718d66",
@@ -9337,11 +9373,16 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isWalkIn": true,
+      "isOnlineBooking": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "2b02987feb841fcd",
+      "walkInClosedByName": "Ivan"
     },
     {
       "id": "0feda69e1b5ded34",
@@ -9440,9 +9481,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 399,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "7364298bafdffe30",
@@ -10010,9 +10052,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 400,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "82b1c50133c67956",
@@ -10535,9 +10578,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 519,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "67960aa5bddd9572",
@@ -10698,11 +10742,16 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 1000,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isWalkIn": true,
+      "isOnlineBooking": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "2b02987feb841fcd",
+      "walkInClosedByName": "Ivan"
     },
     {
       "id": "7d13c4a43f839ad2",
@@ -10724,9 +10773,10 @@
       "salesRepName": "Bobomurod Hamdamov",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 399,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -15609,6 +15659,156 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "352aab0f4d7c7093",
+      "timestamp": "2026-09-11T22:29:45.994Z",
+      "actor": "Owner",
+      "saleId": "180fa1a29c887210",
+      "car": "RG 2022 BMW M3 Sides and rear $299 $50 dep ",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "eaa2966d9d3afbe3",
+      "timestamp": "2026-09-11T22:29:37.753Z",
+      "actor": "Owner",
+      "saleId": "ab726d8a344f89da",
+      "car": "2002 Lincoln Corsair WEBSITE BOOOKING 499$ WE COOKED",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "1e7d07fff960ffb6",
+      "timestamp": "2026-09-11T22:29:22.082Z",
+      "actor": "Owner",
+      "saleId": "0e11048a7d2b643f",
+      "car": "DG 2014 Mercedes-Benz AllAroundTINT 400-75depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 400
+    },
+    {
+      "id": "a42295c250d99c60",
+      "timestamp": "2026-09-11T22:29:08.470Z",
+      "actor": "Owner",
+      "saleId": "4ac290992d8c31b0",
+      "car": "FK 2016 BMW X5M AllAroundTintNaNo 599-100depo DG 100 For NaNo Upsell",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 599
+    },
+    {
+      "id": "921cc840835e3fac",
+      "timestamp": "2026-09-11T22:29:04.305Z",
+      "actor": "Owner",
+      "saleId": "961630cff283374c",
+      "car": "DG 2026 HONDA ACCORD S+RTINT&SUNSTRIP 399-50DEPO",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 399
+    },
+    {
+      "id": "e924b9338d495518",
+      "timestamp": "2026-09-11T22:28:59.024Z",
+      "actor": "Owner",
+      "saleId": "b9bebcda4f304d9e",
+      "car": "Mike 2021 Ram 1500 Paint Correction + water spot removal + 10yr coating 1000$-95",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 1000
+    },
+    {
+      "id": "eba0db5ccad30e39",
+      "timestamp": "2026-09-11T22:28:49.464Z",
+      "actor": "Owner",
+      "saleId": "9fdc3d372d6eb503",
+      "car": "DG 2010 Infinti QX56 2 Front Windows 130-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 130
+    },
+    {
+      "id": "d4ac23aadc2d85f8",
+      "timestamp": "2026-09-11T22:28:43.213Z",
+      "actor": "Owner",
+      "saleId": "7d13c4a43f839ad2",
+      "car": "BH Thomas 2018 Nissan Rogue S+R $399-$50 deposit",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 399
+    },
+    {
+      "id": "9864a840ca94961c",
+      "timestamp": "2026-09-11T22:28:35.471Z",
+      "actor": "Owner",
+      "saleId": "aa7c2d3f2e23a923",
+      "car": "DG 2017 Toyota Tacoma CeramicCoating&Sunstrip+2frontwindows 720-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 720
+    },
+    {
+      "id": "435b36cbdae64c0d",
+      "timestamp": "2026-09-11T22:28:16.118Z",
+      "actor": "Owner",
+      "saleId": "5241bfec15d248c4",
+      "car": "DG 2026 Toyota Grand Highlander AllAroundTint 519-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 519
+    },
+    {
+      "id": "8d1bf3ddfb575fa9",
+      "timestamp": "2026-09-11T22:28:08.416Z",
+      "actor": "Owner",
+      "saleId": "ad2edaa2c4268e41",
+      "car": "DG 2019 Chevy Impala S+RTINT&Sunstrip 399-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 399
+    },
+    {
+      "id": "47da4c8b87d2d421",
+      "timestamp": "2026-09-11T22:27:59.967Z",
+      "actor": "Owner",
+      "saleId": "a9fb29b3591f1582",
+      "car": "REDO SOME WINDOWS BMW X3M",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 0
+    },
+    {
+      "id": "fed9d5a294719cde",
+      "timestamp": "2026-09-11T22:27:49.057Z",
+      "actor": "Owner",
+      "saleId": "f53d63c3bd9b1b1c",
+      "car": "IB 2026 Honda Accord s+r 299-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "b74139a5bfb4e55e",
+      "timestamp": "2026-09-11T22:27:33.732Z",
+      "actor": "Owner",
+      "saleId": "8f214a70041d2a56",
+      "car": "DG 2020 Hyundai Elantra S+RTINT 299-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "87d14618c029e1a6",
+      "timestamp": "2026-09-11T22:23:36.539Z",
+      "actor": "Owner",
+      "saleId": "d858fbfc8b133346",
+      "car": "DG 2025 Black Ford350Transit Ceramic Coating 499-95depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2025 Black Ford350Transit Ceramic Coating 499-95depo",
+      "newValue": "DG 2025 Black Ford350Transit Ceramic Coating 650-95depo"
+    },
     {
       "id": "1aad2af5b4cb0be5",
       "timestamp": "2026-09-11T19:49:31.466Z",
