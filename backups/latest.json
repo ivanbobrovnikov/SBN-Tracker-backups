@@ -5102,7 +5102,9 @@
         "before": {
           "walkaround": "13b6f49b2e4a9408-before-walkaround-f8e26b8d016a7198.MOV"
         },
-        "after": {}
+        "after": {
+          "walkaround": "13b6f49b2e4a9408-after-walkaround-263ca6013c5426af.MOV"
+        }
       }
     },
     {
@@ -7319,7 +7321,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-03T13:54:32.580Z",
       "date": "2026-09-11T13:00:00.000Z",
       "customerName": "Zeb Dion Foster Jr.",
@@ -7339,7 +7341,9 @@
       "basePrice": 685,
       "syncedFromGHL": true,
       "calendarId": null,
-      "notes": []
+      "notes": [],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "7984a5df2dee426e",
@@ -8243,6 +8247,15 @@
           "managerId": null,
           "salesRepId": null,
           "salesRepName": null
+        },
+        {
+          "id": "d719964c41fe90c0",
+          "name": "Sunroof",
+          "price": 200,
+          "employeeId": "791dee90ad560e70",
+          "managerId": null,
+          "salesRepId": null,
+          "salesRepName": null
         }
       ],
       "status": "arrived",
@@ -8759,7 +8772,7 @@
       "customerPhone": "(856) 230-8979",
       "customerEmail": "",
       "contactId": "IEhd5GtSlGVShfudSRSn",
-      "car": "DG 2003 Ford F350 AllAroundTint&RemoveBack 550-50depo 15%AllAround ",
+      "car": "DG 2003 Ford F350 AllAroundTint&RemoveBack 550-50depo 15%AllAround",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -10613,7 +10626,7 @@
       "customerPhone": "(484) 625-8823",
       "customerEmail": "",
       "contactId": "rExVFh8Ovz0WJq0cBAPJ",
-      "car": "Redo Jeep Cherokee Windows",
+      "car": "Redo Jeep Cherokee Windows Double check FWStint he saying we put the wrong tint%",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
@@ -15336,7 +15349,7 @@
       "personType": "employee",
       "personId": "8ee8cc14340b4386",
       "date": "2026-09-10",
-      "status": "absent",
+      "status": "present",
       "startTime": "",
       "endTime": ""
     },
@@ -15411,6 +15424,96 @@
       "status": "present",
       "startTime": "",
       "endTime": ""
+    },
+    {
+      "id": "cead3a3d3a737c97",
+      "personType": "employee",
+      "personId": "8ee8cc14340b4386",
+      "date": "2026-09-11",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "bd65dd04a3b0f8e3",
+      "personType": "employee",
+      "personId": "273b3cdb8e20e0d1",
+      "date": "2026-09-11",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "c5497aaa7c884d6d",
+      "personType": "employee",
+      "personId": "7bcc22db24b2124f",
+      "date": "2026-09-11",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "c975d17b6737d16b",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-09-11",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "505ff34bb1d3937d",
+      "personType": "employee",
+      "personId": "718bcb8dcdfffde1",
+      "date": "2026-09-11",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "fd734cbb1b78aa44",
+      "personType": "employee",
+      "personId": "791dee90ad560e70",
+      "date": "2026-09-11",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "5ce9d0dae2c504d5",
+      "personType": "employee",
+      "personId": "f6cf35e1607cb10f",
+      "date": "2026-09-11",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "02ffc5be663559f6",
+      "personType": "manager",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-09-11",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "caa1e47a7c4e03df",
+      "personType": "manager",
+      "personId": "2b02987feb841fcd",
+      "date": "2026-09-11",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "3041a5043bcc4a50",
+      "personType": "manager",
+      "personId": "19d1389561891623",
+      "date": "2026-09-11",
+      "status": "half_day",
+      "startTime": "",
+      "endTime": ""
     }
   ],
   "revenueStartDate": "2026-09-01",
@@ -15419,6 +15522,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "141581b1bb4722f1",
+      "timestamp": "2026-09-11T17:19:32.110Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "9c80827720ab58af",
+      "car": "Redo Jeep Cherokee Windows Double check FWStint he saying we put the wrong tint%",
+      "field": "Car/Title",
+      "oldValue": "Redo Jeep Cherokee Windows",
+      "newValue": "Redo Jeep Cherokee Windows Double check FWStint he saying we put the wrong tint%"
+    },
+    {
+      "id": "9fc7fc899c7adc31",
+      "timestamp": "2026-09-11T17:19:11.812Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "891a9120cc6819c6",
+      "car": "DG 2003 Ford F350 AllAroundTint&RemoveBack 550-50depo 15%AllAround",
+      "field": "Car/Title",
+      "oldValue": "DG 2003 Ford F350 AllAroundTint&RemoveBack 550-50depo 15%AllAround ",
+      "newValue": "DG 2003 Ford F350 AllAroundTint&RemoveBack 550-50depo 15%AllAround"
+    },
     {
       "id": "d8c2352946844415",
       "timestamp": "2026-09-11T16:49:33.242Z",
@@ -17241,6 +17364,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "c4ddfb14cc9b5ed8",
+      "type": "cardExpense",
+      "amount": 58.12,
+      "category": "Supplies",
+      "note": "",
+      "isOnline": false,
+      "receiptPhoto": "undefined-undefined-undefined-4a20c5149d69d091.jpg",
+      "enteredByType": "owner",
+      "enteredById": "owner",
+      "enteredByName": "Owner",
+      "timestamp": "2026-09-11T18:04:12.489Z"
+    },
     {
       "id": "27542901673d14b6",
       "type": "cardExpense",
