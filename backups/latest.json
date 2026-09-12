@@ -29,13 +29,6 @@
       "pinHash": "aeb32cfe00d196040e9758c276853282721fbd222038a54e9ae04d6686066e1b"
     },
     {
-      "id": "718bcb8dcdfffde1",
-      "name": "John",
-      "commissionRate": 10,
-      "walkInCommissionRate": 10,
-      "pinHash": "2099dfc64a3ea8bf92a11f3cc03da82a76d2fc60005d8652a354ab47dc59de9d"
-    },
-    {
       "id": "791dee90ad560e70",
       "name": "Naomi",
       "commissionRate": 10,
@@ -1874,7 +1867,7 @@
       "id": "bda9ce13d88a5a60",
       "ghlOpportunityId": "zgvUua67ovn4f5CYm8ur",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-15T19:48:48.386Z",
@@ -2108,7 +2101,7 @@
       "id": "cc53faa379ff1ab1",
       "ghlOpportunityId": "iz6RDhmidQ3uZxfUdbBz",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-25T21:34:53.196Z",
@@ -2125,7 +2118,11 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "253fe02c1798f970",
@@ -2461,7 +2458,7 @@
       "id": "b9b739d8994a8086",
       "ghlOpportunityId": "QHGjr3rNJQUgg8pW4gQN",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-07-23T17:00:01.408Z",
@@ -2624,7 +2621,7 @@
       "id": "a6e9addd07f43530",
       "ghlOpportunityId": "bJJeE5cq7Qs5IzEwmyKx",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-21T21:32:37.313Z",
@@ -2634,8 +2631,10 @@
       "customerEmail": "smithzahirah@gmail.com",
       "contactId": "VQh2SM17NJ4CLtlvUiin",
       "car": "DG 2021 Mazda CX-30 S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -4985,7 +4984,7 @@
       "id": "4b0a0ed75336b583",
       "ghlOpportunityId": "OIBC5uoD7gaGMj2q35lS",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-29T15:48:07.149Z",
@@ -5038,7 +5037,7 @@
       "id": "169194e8b1b66770",
       "ghlOpportunityId": "JBz5H0FNGCkteyEdxhJT",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-29T12:41:33.419Z",
@@ -5291,8 +5290,18 @@
     {
       "id": "c106765dc1423bc6",
       "ghlOpportunityId": "LXc55QqvEPbMZnpGzUNs",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "d1700c732574958d",
+          "name": "Front 2 retint",
+          "price": 210,
+          "employeeId": null,
+          "managerId": "2b02987feb841fcd",
+          "salesRepId": null,
+          "salesRepName": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-28T12:58:19.553Z",
@@ -5383,7 +5392,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 1000,
+      "basePrice": 299,
       "syncedFromGHL": true
     },
     {
@@ -5935,7 +5944,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 499,
       "syncedFromGHL": true
     },
     {
@@ -5988,15 +5997,15 @@
     },
     {
       "id": "0233b83a88deffc0",
-      "ghlOpportunityId": "NomK8qrA7VH8aCYDSuoU",
+      "ghlOpportunityId": "OeeGxUgC3JZwhPEJvd0z",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-14T14:42:22.185Z",
-      "date": "2026-09-07T13:00:00.000Z",
+      "date": "2026-09-12T13:00:00.000Z",
       "customerName": "Jason Williams",
-      "customerPhone": "+12013547094",
+      "customerPhone": "(201) 354-7094",
       "customerEmail": "jahquan3@gmail.com",
       "contactId": "OeeGxUgC3JZwhPEJvd0z",
       "car": "DG 2025 Subaru BRZ CeramicCoating 499-95depo",
@@ -6007,7 +6016,8 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "calendarId": null
     },
     {
       "id": "fd9ba1b8f73b4895",
@@ -7149,7 +7159,7 @@
       "id": "c64a14c295a7493e",
       "ghlOpportunityId": "f2mQsywv4IeKd2xqiBAz",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-03T00:11:31.583Z",
@@ -8125,30 +8135,6 @@
       "baseService": "Ceramic Coating",
       "basePrice": 620,
       "syncedFromGHL": true
-    },
-    {
-      "id": "8f214a70041d2a56",
-      "ghlOpportunityId": "9njHbz6AyXDCFJhFSTXe",
-      "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
-      "closedAt": "2026-09-05T13:45:58.761Z",
-      "date": "2026-09-12T17:00:00.000Z",
-      "customerName": "",
-      "customerPhone": "(908) 977-5805",
-      "customerEmail": "",
-      "contactId": "9njHbz6AyXDCFJhFSTXe",
-      "car": "DG 2020 Hyundai Elantra S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
-      "salesRepId": "d160346301cc8a3f",
-      "salesRepName": "Dmitriy Gumenyuk",
-      "isWalkIn": false,
-      "baseService": "Window Tint",
-      "basePrice": 299,
-      "syncedFromGHL": true,
-      "isOnlineBooking": false
     },
     {
       "id": "dbe21149ec6167bd",
@@ -10089,7 +10075,7 @@
       "id": "80c799494508f011",
       "ghlOpportunityId": "Yh73WnFIcrc1DHOK2TpM",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-09T21:47:39.072Z",
@@ -10099,8 +10085,10 @@
       "customerEmail": "",
       "contactId": "Yh73WnFIcrc1DHOK2TpM",
       "car": "DG 2023 Ram 1500 S+RTINT 300-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -10782,7 +10770,7 @@
       "id": "a7692850eb78ea5f",
       "ghlOpportunityId": "XAOxCBNAcEFCAoAl3hQY",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-11T23:34:03.508Z",
@@ -10798,7 +10786,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 499,
+      "basePrice": 550,
       "calendarId": null,
       "syncedFromGHL": true
     },
@@ -10847,6 +10835,30 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
+      "calendarId": null,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "d9b6f39e2cad6445",
+      "ghlOpportunityId": "9OGlP4jPQwsow370AU9y",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-12T13:50:22.531Z",
+      "date": "2026-09-12T15:00:00.000Z",
+      "customerName": "Ian Sontag",
+      "customerPhone": "(856) 283-8399",
+      "customerEmail": "",
+      "contactId": "9OGlP4jPQwsow370AU9y",
+      "car": "DG 2026 NIssan Rogue AllAroundTint 499-50depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 499,
       "calendarId": null,
       "syncedFromGHL": true
     }
@@ -10910,6 +10922,119 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-12T13:50:22.146Z",
+      "endpoint": "sync",
+      "matchedSaleId": "0c7b1148fad1b969",
+      "before": {
+        "basePrice": 1000,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2026 Nissan Rogue",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "9OGlP4jPQwsow370AU9y",
+        "first_name": "Ian",
+        "last_name": "Sontag",
+        "full_name": "Ian Sontag",
+        "email": "kingian22@aol.com",
+        "phone": "+18562838399",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-08-28T01:18:53.165Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Ian Sontag | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "2WfcvJpe2rdARHQlhonU",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "g80 m3 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256307528530011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "g80 m3 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256307528530011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "9OGlP4jPQwsow370AU9y"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-12T00:12:51.370Z",
       "endpoint": "sync",
@@ -15227,63 +15352,6 @@
           "contactId": "zyPtaFQpQHvRYkFC9ieI"
         }
       }
-    },
-    {
-      "receivedAt": "2026-09-10T19:23:01.966Z",
-      "endpoint": "sync",
-      "matchedSaleId": "030578cfd3b4b7c3",
-      "before": {
-        "basePrice": 0,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 495,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "contact_id": "mvDA76lz6xJ6sLZ4fLU6",
-        "full_name": "",
-        "phone": "+12678863343",
-        "tags": "",
-        "country": "US",
-        "date_created": "2026-09-10T01:28:51.266Z",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": " | ",
-        "status": "won",
-        "lead_value": 495,
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "VWim85z0rxOoQlFGRvAb",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "customData": {
-          "basePrice": "495",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "mvDA76lz6xJ6sLZ4fLU6"
-        }
-      }
     }
   ],
   "attendance": [
@@ -16132,6 +16200,87 @@
       "status": "half_day",
       "startTime": "",
       "endTime": ""
+    },
+    {
+      "id": "a15064c81f3123c6",
+      "personType": "employee",
+      "personId": "273b3cdb8e20e0d1",
+      "date": "2026-09-12",
+      "status": "absent",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "24e246e0e6023bf6",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-09-12",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "7e1820b836331178",
+      "personType": "employee",
+      "personId": "f6cf35e1607cb10f",
+      "date": "2026-09-12",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "962c290ae6e149e4",
+      "personType": "manager",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-09-12",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "eef2925140471436",
+      "personType": "manager",
+      "personId": "2b02987feb841fcd",
+      "date": "2026-09-12",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "76ca4a4b34618a3c",
+      "personType": "employee",
+      "personId": "8ee8cc14340b4386",
+      "date": "2026-09-12",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "3c42eb6f70515083",
+      "personType": "employee",
+      "personId": "7bcc22db24b2124f",
+      "date": "2026-09-12",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "55f1edce7ce83735",
+      "personType": "employee",
+      "personId": "791dee90ad560e70",
+      "date": "2026-09-12",
+      "status": "present",
+      "startTime": "10:00",
+      "endTime": ""
+    },
+    {
+      "id": "0a88f2ed8400f593",
+      "personType": "manager",
+      "personId": "19d1389561891623",
+      "date": "2026-09-12",
+      "status": "absent",
+      "startTime": "",
+      "endTime": ""
     }
   ],
   "revenueStartDate": "2026-09-01",
@@ -16140,6 +16289,46 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "7633431de9cb6d25",
+      "timestamp": "2026-09-12T13:50:37.696Z",
+      "actor": "Owner",
+      "saleId": "d9b6f39e2cad6445",
+      "car": "DG 2026 NIssan Rogue AllAroundTint 499-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "98445068ffe73696",
+      "timestamp": "2026-09-12T13:49:58.054Z",
+      "actor": "Owner",
+      "saleId": "9ed2f2a9661a411b",
+      "car": "DG 2018 Honda Civic AllAroundTint 499-75depo",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 499
+    },
+    {
+      "id": "519effa520139596",
+      "timestamp": "2026-09-12T13:47:56.543Z",
+      "actor": "Auto-matched (reschedule)",
+      "saleId": "0233b83a88deffc0",
+      "car": "DG 2025 Subaru BRZ CeramicCoating 499-95depo",
+      "field": "GHL Opportunity ID",
+      "oldValue": "NomK8qrA7VH8aCYDSuoU",
+      "newValue": "OeeGxUgC3JZwhPEJvd0z"
+    },
+    {
+      "id": "3fbc34b1952b0057",
+      "timestamp": "2026-09-12T13:47:26.407Z",
+      "actor": "Owner",
+      "saleId": "a7692850eb78ea5f",
+      "car": "DG 2025 Honda Accord Ceramic Coating/FrontWindSheild 550-95depo He gonna Wait",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 550
+    },
     {
       "id": "c025b437039753db",
       "timestamp": "2026-09-12T00:01:37.868Z",
