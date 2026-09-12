@@ -10942,6 +10942,30 @@
       "basePrice": 480,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "e404fd27dd747bac",
+      "ghlOpportunityId": "W0snbEqnX9I6gYiOnu1M",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-12T16:09:22.914Z",
+      "date": "2026-09-21T13:00:00.000Z",
+      "customerName": "Bill",
+      "customerPhone": "(732) 208-3678",
+      "customerEmail": "",
+      "contactId": "W0snbEqnX9I6gYiOnu1M",
+      "car": "fk bill 2020 jeep wrangler blue 499$-95$ depo plus free w/s coating pick up next day or same day",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "9e7aec4eefe054cc",
+      "salesRepName": "Firdavs Karshiev",
+      "isWalkIn": false,
+      "baseService": "Ceramic Coating",
+      "basePrice": 499,
+      "calendarId": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -11003,6 +11027,66 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-12T16:10:25.221Z",
+      "endpoint": "sync",
+      "matchedSaleId": "e404fd27dd747bac",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Firdavs Karshiev"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Firdavs Karshiev"
+      },
+      "body": {
+        "contact_id": "W0snbEqnX9I6gYiOnu1M",
+        "first_name": "bill",
+        "full_name": "bill",
+        "email": "heynow007@yahoo.com",
+        "phone": "+17322083678",
+        "tags": "",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-09-12T00:46:16.011Z",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Bill | ",
+        "status": "won",
+        "lead_value": 499,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "Vb7lFM1QJMCSrLMrK29m",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "W0snbEqnX9I6gYiOnu1M"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-12T15:46:12.127Z",
       "endpoint": "sync",
@@ -15376,112 +15460,6 @@
           "contactId": "ky9hVnpedIPDbf6LdSWV"
         }
       }
-    },
-    {
-      "receivedAt": "2026-09-11T13:01:16.387Z",
-      "endpoint": "sync",
-      "matchedSaleId": "ca7cfe849ab017f0",
-      "before": {
-        "basePrice": 0,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "2018 Honda civic",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "ky9hVnpedIPDbf6LdSWV",
-        "first_name": "Travis",
-        "last_name": "Marriott",
-        "full_name": "Travis Marriott",
-        "email": "tmarriott64@gmail.com",
-        "phone": "+12678156225",
-        "tags": "tint",
-        "country": "US",
-        "date_created": "2026-09-11T11:49:47.065Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Travis Marriott | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "TzydZiegKiWup7FqPFYf",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "ad 1 299",
-            "adSetId": "120254638050770011",
-            "adId": "120254652145930011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "ad 1 299",
-            "adSetId": "120254638050770011",
-            "adId": "120254652145930011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "",
-          "contactId": "ky9hVnpedIPDbf6LdSWV"
-        }
-      }
     }
   ],
   "attendance": [
@@ -18491,6 +18469,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "0c3dff7439e50343",
+      "type": "cardExpense",
+      "amount": 136.91,
+      "category": "Supplies",
+      "note": "Customer waiting area supplies + trash bags",
+      "isOnline": false,
+      "receiptPhoto": "undefined-undefined-undefined-74aa182a83fb3174.jpeg",
+      "enteredByType": "owner",
+      "enteredById": "owner",
+      "enteredByName": "Owner",
+      "timestamp": "2026-09-12T16:21:47.278Z"
+    },
     {
       "id": "ecc8e61121ea5593",
       "type": "bankDeposit",
