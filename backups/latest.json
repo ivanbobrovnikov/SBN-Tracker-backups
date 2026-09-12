@@ -510,7 +510,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-08-27T17:11:36.111Z",
       "date": "2026-09-11T13:00:00.000Z",
       "customerName": "Steve Lorenz",
@@ -531,7 +531,9 @@
           "walkaround": "2dce8aefbbb7b89d-before-walkaround-4490e73d99112c37.MOV"
         },
         "after": {}
-      }
+      },
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "ad8ca2053e67da5b",
@@ -1025,7 +1027,7 @@
       "ghlOpportunityId": "CVARF7JvNKCRvLjz2Q0B",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-08-23T17:37:41.285Z",
       "date": "2026-09-12T17:00:00.000Z",
@@ -1682,7 +1684,7 @@
       "id": "b5cd4cd825131ca0",
       "ghlOpportunityId": "H93VT0dBEValnxhBy5ca",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-18T00:20:38.238Z",
@@ -2630,7 +2632,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-08-21T21:32:37.313Z",
       "date": "2026-09-12T13:00:00.000Z",
       "customerName": "Zahirah",
@@ -2647,7 +2649,9 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "d77945ee190e80f6",
@@ -5936,8 +5940,8 @@
       "ghlOpportunityId": "hTDteClURGCHQ4lr5u83",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-17T20:20:32.964Z",
       "date": "2026-09-12T15:00:00.000Z",
       "customerName": "Ahzsa Jefferson",
@@ -5955,7 +5959,9 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "2fc991f04950fcee",
@@ -9366,8 +9372,10 @@
       "customerEmail": "",
       "contactId": "uS1p6KfKANrKZVhUGnjm",
       "car": "IB 2026 Honda Accord s+r 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Javier",
       "salesRepId": null,
       "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Window Tint",
@@ -10087,7 +10095,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-09T21:47:39.072Z",
       "date": "2026-09-12T13:00:00.000Z",
       "customerName": "Kane Hilsee",
@@ -10105,7 +10113,9 @@
       "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "38ee36f136663a86",
@@ -10881,8 +10891,11 @@
       "customerEmail": "",
       "contactId": "9OGlP4jPQwsow370AU9y",
       "car": "DG 2026 Nissan Rogue Ceramic Coating 499-100depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "791dee90ad560e70",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Naomi, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -10890,10 +10903,8 @@
       "basePrice": 499,
       "calendarId": null,
       "syncedFromGHL": true,
-      "managerHelperIds": [
-        "ed55d50b916a979a"
-      ],
-      "managerHelperNames": "Aaron"
+      "managerHelperIds": [],
+      "managerHelperNames": ""
     },
     {
       "id": "06a2728ee089cec2",
