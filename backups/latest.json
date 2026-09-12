@@ -2102,7 +2102,7 @@
       "ghlOpportunityId": "iz6RDhmidQ3uZxfUdbBz",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-08-25T21:34:53.196Z",
       "date": "2026-09-12T13:00:00.000Z",
@@ -2111,8 +2111,11 @@
       "customerEmail": "marcusirizarry52@gmail.com",
       "contactId": "WbB94nFd9MucFMvTrN8x",
       "car": "TG 2023 hyundai santa fe S + R = $299.  depo, -50$",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "791dee90ad560e70",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Naomi, Feso",
       "salesRepId": "2c27b621d80b0bc6",
       "salesRepName": "Timothy Gumenyuk",
       "isWalkIn": false,
@@ -2622,7 +2625,7 @@
       "ghlOpportunityId": "bJJeE5cq7Qs5IzEwmyKx",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-08-21T21:32:37.313Z",
       "date": "2026-09-12T13:00:00.000Z",
@@ -10851,7 +10854,7 @@
       "customerPhone": "(856) 283-8399",
       "customerEmail": "",
       "contactId": "9OGlP4jPQwsow370AU9y",
-      "car": "DG 2026 NIssan Rogue AllAroundTint 499-50depo",
+      "car": "DG 2026 Nissan Rogue Ceramic Coating 499-100depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -10861,6 +10864,30 @@
       "basePrice": 499,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "06a2728ee089cec2",
+      "ghlOpportunityId": "bNPQOmA0OD8AQTMwnQsS",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-12T14:04:11.217Z",
+      "date": "2026-09-19T13:00:00.000Z",
+      "customerName": "David Lolio",
+      "customerPhone": "(609) 382-1100",
+      "customerEmail": "",
+      "contactId": "bNPQOmA0OD8AQTMwnQsS",
+      "car": "2012 Honda Civic Detail the back seats",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Walk-in (needs closer assigned)",
+      "baseService": "Ceramic Coating",
+      "basePrice": 0,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "isWalkIn": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -10922,6 +10949,232 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-12T14:04:26.419Z",
+      "endpoint": "sync",
+      "matchedSaleId": "06a2728ee089cec2",
+      "before": {
+        "basePrice": 299,
+        "salesRepName": "Walk-in (needs closer assigned)"
+      },
+      "after": {
+        "basePrice": 0,
+        "salesRepName": "Walk-in (needs closer assigned)"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2012 Honda Civic",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "bNPQOmA0OD8AQTMwnQsS",
+        "first_name": "David",
+        "last_name": "Lolio",
+        "full_name": "David Lolio",
+        "email": "davenmatty@gmail.com",
+        "phone": "+16093821100",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-08-20T14:50:17.733Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "David Lolio | ",
+        "status": "won",
+        "lead_value": 0,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "7SYLKvLga0vcbiYVyqFe",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "g80 m3 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256307528530011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "g80 m3 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256307528530011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "0",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "bNPQOmA0OD8AQTMwnQsS"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-09-12T14:04:12.760Z",
+      "endpoint": "sync",
+      "matchedSaleId": "06a2728ee089cec2",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Walk-in (needs closer assigned)"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2012 Honda Civic",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "bNPQOmA0OD8AQTMwnQsS",
+        "first_name": "David",
+        "last_name": "Lolio",
+        "full_name": "David Lolio",
+        "email": "davenmatty@gmail.com",
+        "phone": "+16093821100",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-08-20T14:50:17.733Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "David Lolio | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "7SYLKvLga0vcbiYVyqFe",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "g80 m3 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256307528530011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "g80 m3 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256307528530011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "bNPQOmA0OD8AQTMwnQsS"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-12T13:50:22.146Z",
       "endpoint": "sync",
@@ -15169,189 +15422,6 @@
           "contactId": "dosr7Uu6zlho5R8e4MC7"
         }
       }
-    },
-    {
-      "receivedAt": "2026-09-10T20:53:49.253Z",
-      "endpoint": "sync",
-      "matchedSaleId": "768eaf6a088e2635",
-      "before": {
-        "basePrice": 0,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 580,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "contact_id": "yXcwSOVgLliQtPMo13tp",
-        "first_name": "C",
-        "last_name": "MCPHERSON",
-        "full_name": "C MCPHERSON",
-        "phone": "+18564267814",
-        "tags": "name via lookup",
-        "city": "CAMDEN",
-        "state": "NJ",
-        "country": "US",
-        "date_created": "2026-09-10T20:42:05.655Z",
-        "postal_code": "08105",
-        "full_address": "CAMDEN NJ 08105",
-        "contact_type": "lead",
-        "opportunity_name": "C MCPHERSON | ",
-        "status": "won",
-        "lead_value": 580,
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "uRtGSF1Qp0IdhrebTsw3",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Other",
-            "medium": "other"
-          },
-          "lastAttributionSource": {}
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "580",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "yXcwSOVgLliQtPMo13tp"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-09-10T19:29:04.936Z",
-      "endpoint": "sync",
-      "matchedSaleId": "2da58b8b9a5074c5",
-      "before": {
-        "basePrice": 140,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "Toyota tacoma 2021 but im interesting in 2 front side, how much is just 2 windows the driver and the passenger?",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "zyPtaFQpQHvRYkFC9ieI",
-        "first_name": "Elkin",
-        "last_name": "Castañeda",
-        "full_name": "Elkin Castañeda",
-        "email": "elkindaniel8@hotmail.com",
-        "phone": "+16097353514",
-        "tags": "tint",
-        "country": "US",
-        "date_created": "2026-09-10T17:59:35.900Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Elkin Castañeda | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "8r4DIcGJvqFCwustgtlS",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "people cant afford ceramic 299",
-            "adSetId": "120254638050770011",
-            "adId": "120256476307680011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "people cant afford ceramic 299",
-            "adSetId": "120254638050770011",
-            "adId": "120256476307680011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "zyPtaFQpQHvRYkFC9ieI"
-        }
-      }
     }
   ],
   "attendance": [
@@ -16289,6 +16359,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "b7c169eea351eac0",
+      "timestamp": "2026-09-12T14:31:26.419Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "06a2728ee089cec2",
+      "car": "2012 Honda Civic Detail the back seats",
+      "field": "Car/Title",
+      "oldValue": "2012 Honda Civic Detail the back seats ",
+      "newValue": "2012 Honda Civic Detail the back seats"
+    },
+    {
+      "id": "f96d323fdba770bb",
+      "timestamp": "2026-09-12T14:01:39.125Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "d9b6f39e2cad6445",
+      "car": "DG 2026 Nissan Rogue Ceramic Coating 499-100depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2026 NIssan Rogue AllAroundTint 499-50depo",
+      "newValue": "DG 2026 Nissan Rogue Ceramic Coating 499-100depo"
+    },
     {
       "id": "7633431de9cb6d25",
       "timestamp": "2026-09-12T13:50:37.696Z",
