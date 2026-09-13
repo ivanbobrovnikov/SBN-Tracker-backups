@@ -8081,7 +8081,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-04T16:30:42.966Z",
       "date": "2026-09-13T15:00:00.000Z",
       "customerName": "Marc Colon",
@@ -8098,7 +8098,9 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "a9fb29b3591f1582",
@@ -11065,11 +11067,16 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 475,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isWalkIn": true,
+      "isOnlineBooking": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "2b02987feb841fcd",
+      "walkInClosedByName": "Ivan"
     },
     {
       "id": "9e48765080a62736",
@@ -11115,9 +11122,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "47dd48bdb7d79ab7",
@@ -11139,9 +11147,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "bd6c459cd93bb490",
@@ -11163,9 +11172,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "3ec8529943c1b39a",
@@ -18968,6 +18978,46 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "00c33a7f4c3bd44f",
+      "timestamp": "2026-09-13T19:12:58.635Z",
+      "actor": "Owner",
+      "saleId": "47dd48bdb7d79ab7",
+      "car": "DG 2024 Honda CRV S+RTINT 299-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "c5d0b370f5ed623d",
+      "timestamp": "2026-09-13T19:12:53.089Z",
+      "actor": "Owner",
+      "saleId": "bd6c459cd93bb490",
+      "car": "DG 2021 Honda Passport CeramicCoating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "d306ba7a25ae96ff",
+      "timestamp": "2026-09-13T19:12:20.528Z",
+      "actor": "Owner",
+      "saleId": "4bc6c969194bbb71",
+      "car": "DG 2014 Range Rover Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "ae2991cd3a948ec6",
+      "timestamp": "2026-09-13T19:12:04.674Z",
+      "actor": "Owner",
+      "saleId": "8a989df862d8028b",
+      "car": "IB Troy 2021 BMW x6 499-25-95depo referral",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 475
+    },
     {
       "id": "6a16c76a2fc111cf",
       "timestamp": "2026-09-13T15:42:49.663Z",
