@@ -2275,29 +2275,6 @@
       "syncedFromGHL": true
     },
     {
-      "id": "879cbf758b36ab5f",
-      "ghlOpportunityId": "m97zdcoXvI0Knb0x4RGV",
-      "upsells": [],
-      "status": "no_show",
-      "completed": false,
-      "paid": false,
-      "closedAt": "2026-08-19T21:02:08.052Z",
-      "date": "2026-09-07T13:00:00.000Z",
-      "customerName": "Danielle DiLuzio",
-      "customerPhone": "+14844010036",
-      "customerEmail": "diluzio86@icloud.com",
-      "contactId": "Toc5P94pUMLnsFfncgfp",
-      "car": "DG 2024 Jeep Waganeer 2front&Windsheild 320-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
-      "salesRepId": "d160346301cc8a3f",
-      "salesRepName": "Dmitriy Gumenyuk",
-      "isWalkIn": false,
-      "baseService": "Window Tint",
-      "basePrice": 320,
-      "syncedFromGHL": true
-    },
-    {
       "id": "dff01d647ebe73f4",
       "ghlOpportunityId": "XPQ2YK1TLKyev2aPfDSs",
       "upsells": [],
@@ -2711,29 +2688,6 @@
       "walkInClosedByName": "Ivan",
       "paidCash": true,
       "paymentMethod": "cash"
-    },
-    {
-      "id": "ddce28af3076b9fb",
-      "ghlOpportunityId": "E5iCdC9YmbbldNsGXjBA",
-      "upsells": [],
-      "status": "no_show",
-      "completed": false,
-      "paid": false,
-      "closedAt": "2026-09-01T00:32:16.994Z",
-      "date": "2026-09-07T16:00:00.000Z",
-      "customerName": "reyy_.856 Velez",
-      "customerPhone": "+18562122553",
-      "customerEmail": "reyvelezpsn@gmail.com",
-      "contactId": "0UtCuaI4ULAxGOHvfwXm",
-      "car": "DG 2020 Tesla 3 S+RTINT&Sunstrip 399-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
-      "salesRepId": "d160346301cc8a3f",
-      "salesRepName": "Dmitriy Gumenyuk",
-      "isWalkIn": false,
-      "baseService": "Window Tint",
-      "basePrice": 299,
-      "syncedFromGHL": true
     },
     {
       "id": "96a3db8f9a374607",
@@ -6870,29 +6824,6 @@
       "paymentMethod": "card"
     },
     {
-      "id": "8a127002e286c170",
-      "ghlOpportunityId": "ozloO7C5c0y536xsUTRM",
-      "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
-      "closedAt": "2026-09-01T20:31:49.628Z",
-      "date": "2026-09-07T17:00:00.000Z",
-      "customerName": "James Colson",
-      "customerPhone": "+18622011832",
-      "customerEmail": "jamescolson11@gmail.com",
-      "contactId": "HHjH5Zr3WO4ZDvVUyLLZ",
-      "car": "DG 2013 Chevy Suburban AllAroundTINT 599-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
-      "salesRepId": "d160346301cc8a3f",
-      "salesRepName": "Dmitriy Gumenyuk",
-      "isWalkIn": false,
-      "baseService": "Window Tint",
-      "basePrice": 299,
-      "syncedFromGHL": true
-    },
-    {
       "id": "ec53555d56db656e",
       "ghlOpportunityId": "IX4aMnrpxidLMKnHs5tV",
       "upsells": [],
@@ -6942,9 +6873,9 @@
       "id": "da1035ab0449e412",
       "ghlOpportunityId": "JVfUWsClMfrxS8J4Rt77",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-01T19:58:24.514Z",
       "date": "2026-09-07T19:00:00.000Z",
       "customerName": "Nicolas Gutierrez",
@@ -6958,8 +6889,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
-      "syncedFromGHL": true
+      "basePrice": 320,
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "ab6d9004a37645cf",
@@ -7893,10 +7826,15 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Online Booking",
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": true,
+      "isWalkIn": false,
+      "walkInClosedByType": null,
+      "walkInClosedById": null,
+      "walkInClosedByName": null
     },
     {
       "id": "4c6e8fa28673d651",
@@ -9766,11 +9704,16 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Online Booking",
       "baseService": "Window Tint",
       "basePrice": 0,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": true,
+      "isWalkIn": false,
+      "walkInClosedByType": null,
+      "walkInClosedById": null,
+      "walkInClosedByName": null
     },
     {
       "id": "91b6870b22059ece",
@@ -10960,7 +10903,7 @@
       "customerPhone": "(856) 283-8399",
       "customerEmail": "",
       "contactId": "9OGlP4jPQwsow370AU9y",
-      "car": "DG 2026 Nissan Rogue Ceramic Coating 499-100depo",
+      "car": "DG 2026 Nissan Rogue All Around 499-100depo",
       "employeeIds": [
         "791dee90ad560e70",
         "f9d9bfc4e797e38b"
@@ -18978,6 +18921,46 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "c9e5787c7212ec93",
+      "timestamp": "2026-09-13T21:08:45.905Z",
+      "actor": "Owner",
+      "saleId": "560fe0203ed1aba3",
+      "car": "Christopher Hewski",
+      "field": "Sales rep",
+      "oldValue": "Unassigned",
+      "newValue": "Online Booking"
+    },
+    {
+      "id": "3e0d4d5e21a18d67",
+      "timestamp": "2026-09-13T21:08:37.808Z",
+      "actor": "Owner",
+      "saleId": "ab726d8a344f89da",
+      "car": "2002 Lincoln Corsair WEBSITE BOOOKING 499$ WE COOKED",
+      "field": "Sales rep",
+      "oldValue": "Unassigned",
+      "newValue": "Online Booking"
+    },
+    {
+      "id": "2ccbf48ebadbef9e",
+      "timestamp": "2026-09-13T21:01:11.047Z",
+      "actor": "Owner",
+      "saleId": "da1035ab0449e412",
+      "car": "DG 2020 Ford Raptor 2 Front Windows&F.W.Sheild 320-50depo",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 320
+    },
+    {
+      "id": "d5e566f42be425a6",
+      "timestamp": "2026-09-13T20:56:22.778Z",
+      "actor": "Owner",
+      "saleId": "d9b6f39e2cad6445",
+      "car": "DG 2026 Nissan Rogue Ceramic Coating 499-100depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2026 Nissan Rogue Ceramic Coating 499-100depo",
+      "newValue": "DG 2026 Nissan Rogue All Around 499-100depo"
+    },
     {
       "id": "00c33a7f4c3bd44f",
       "timestamp": "2026-09-13T19:12:58.635Z",
