@@ -6073,7 +6073,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-08-14T14:42:22.185Z",
       "date": "2026-09-12T13:00:00.000Z",
       "customerName": "Jason Williams",
@@ -6089,7 +6089,9 @@
       "baseService": "Ceramic Coating",
       "basePrice": 499,
       "syncedFromGHL": true,
-      "calendarId": null
+      "calendarId": null,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "fd9ba1b8f73b4895",
@@ -7900,9 +7902,9 @@
       "id": "4c6e8fa28673d651",
       "ghlOpportunityId": "o4lzPyqgtSL4XJ1S73C8",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-04T13:45:05.815Z",
       "date": "2026-09-13T13:00:00.000Z",
       "customerName": "Joshua Del Valle",
@@ -7910,14 +7912,18 @@
       "customerEmail": "",
       "contactId": "o4lzPyqgtSL4XJ1S73C8",
       "car": "DG 2013 Ford F150 S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "e194ba7fe1d824ad",
@@ -8073,7 +8079,7 @@
       "id": "216eb98a26b2e51d",
       "ghlOpportunityId": "xja81xrBu46hXmNND5Ik",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-04T16:30:42.966Z",
@@ -8083,8 +8089,10 @@
       "customerEmail": "",
       "contactId": "xja81xrBu46hXmNND5Ik",
       "car": "DG 2013 Audi S5 AllAroundTint 499-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -11446,6 +11454,30 @@
       "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "14ecb980b9ce89a8",
+      "ghlOpportunityId": "ZZeJDJUseYXGhaCH0TlY",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-13T18:12:40.007Z",
+      "date": "2026-10-10T19:00:00.000Z",
+      "customerName": "Pi",
+      "customerPhone": "(856) 212-2415",
+      "customerEmail": "",
+      "contactId": "ZZeJDJUseYXGhaCH0TlY",
+      "car": "DG 2012 Ford Focus S+RTINT 299-50depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 299,
+      "calendarId": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -11507,6 +11539,106 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-13T18:12:40.678Z",
+      "endpoint": "sync",
+      "matchedSaleId": "14ecb980b9ce89a8",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2012 ford focus sedan",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "ZZeJDJUseYXGhaCH0TlY",
+        "first_name": "Pi",
+        "last_name": "",
+        "full_name": "Pi",
+        "email": "pi.pell314@gmail.com",
+        "phone": "+18562122415",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-09-10T14:37:16.352Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Pi | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "0eGMLXMNhsHwRTNDHXuF",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "people cant afford ceramic 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256476307680011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "instagram",
+            "mediumId": "1103334078884110",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "igSid": "1103334078884110"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "ZZeJDJUseYXGhaCH0TlY"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-13T17:14:33.315Z",
       "endpoint": "sync",
@@ -17890,106 +18022,6 @@
           "contactId": "fRhAFmHK7O54JM22j6EO"
         }
       }
-    },
-    {
-      "receivedAt": "2026-09-12T17:52:42.775Z",
-      "endpoint": "sync",
-      "matchedSaleId": "a3835e9278f8d0e9",
-      "before": {
-        "basePrice": 500,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 200,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "2017 mitsubishi lancer",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "ciCqIcqM8tKB4DAs79jI",
-        "first_name": "Jamarდ",
-        "last_name": "",
-        "full_name": "Jamarდ",
-        "email": "mjpjr35@gmail.com",
-        "phone": "+16098242072",
-        "tags": "tint",
-        "country": "US",
-        "date_created": "2026-08-08T05:29:32.002Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Jamarდ | ",
-        "status": "won",
-        "lead_value": 200,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "2cocn7hQHdLjVMwmjQCM",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "ad 1 299",
-            "adSetId": "120254638050770011",
-            "adId": "120254652145930011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "1367786191435833",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "1367786191435833"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "200",
-          "salesRepName": "",
-          "contactId": "ciCqIcqM8tKB4DAs79jI"
-        }
-      }
     }
   ],
   "attendance": [
@@ -18917,6 +18949,15 @@
       "personId": "19d1389561891623",
       "date": "2026-09-12",
       "status": "absent",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "6bf7e8ddb01c7ad1",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-09-13",
+      "status": "present",
       "startTime": "",
       "endTime": ""
     }
