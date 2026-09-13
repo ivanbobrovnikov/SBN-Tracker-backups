@@ -6349,15 +6349,15 @@
     },
     {
       "id": "2a4fd5a64002f46b",
-      "ghlOpportunityId": "z60tb4RbBKJICzpYSARD",
+      "ghlOpportunityId": "6h36qioNiU5zebz4S1JE",
       "upsells": [],
       "status": "pending",
       "completed": false,
       "paid": false,
       "closedAt": "2026-07-19T02:11:14.772Z",
-      "date": "2026-09-21T16:00:00.000Z",
+      "date": "2026-09-21T19:00:00.000Z",
       "customerName": "Kinh Man",
-      "customerPhone": "+16092267862",
+      "customerPhone": "(609) 226-7862",
       "customerEmail": "baccpit@gmail.com",
       "contactId": "6h36qioNiU5zebz4S1JE",
       "car": "Kinh Man",
@@ -6372,7 +6372,8 @@
       "isWalkIn": false,
       "walkInClosedByType": null,
       "walkInClosedById": null,
-      "walkInClosedByName": null
+      "walkInClosedByName": null,
+      "calendarId": null
     },
     {
       "id": "ecbea9d918bf590d",
@@ -8121,7 +8122,7 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-04T21:16:17.782Z",
-      "date": "2026-09-13T17:00:00.000Z",
+      "date": "2026-09-21T17:00:00.000Z",
       "customerName": "Richard Hinton",
       "customerPhone": "(609) 284-7327",
       "customerEmail": "",
@@ -8134,7 +8135,8 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "calendarId": null
     },
     {
       "id": "6d53fea45714278c",
@@ -18457,6 +18459,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "6a16c76a2fc111cf",
+      "timestamp": "2026-09-13T15:42:49.663Z",
+      "actor": "Auto-matched (reschedule)",
+      "saleId": "2a4fd5a64002f46b",
+      "car": "Kinh Man",
+      "field": "GHL Opportunity ID",
+      "oldValue": "z60tb4RbBKJICzpYSARD",
+      "newValue": "6h36qioNiU5zebz4S1JE"
+    },
     {
       "id": "7755c60acc68ca7c",
       "timestamp": "2026-09-13T13:32:01.070Z",
