@@ -7444,7 +7444,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-03T15:41:22.145Z",
       "date": "2026-09-14T17:00:00.000Z",
       "customerName": "Lisa Cipolone",
@@ -7452,14 +7452,20 @@
       "customerEmail": "",
       "contactId": "FlrCbyQ71Ycnd3P9ztue",
       "car": "DG 2016 Dodge Charger S+RTINT 300-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "f6cf35e1607cb10f",
+        "791dee90ad560e70"
+      ],
+      "employeeNames": "Feso, Javier, Naomi",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "1c9c0ca9cd5224cd",
@@ -7702,8 +7708,8 @@
       "ghlOpportunityId": "M6h7VSOxCgbbrcXKJp87",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-03T22:10:56.396Z",
       "date": "2026-09-14T20:00:00.000Z",
       "customerName": "Gareth D'Amboise",
@@ -7711,14 +7717,22 @@
       "customerEmail": "",
       "contactId": "M6h7VSOxCgbbrcXKJp87",
       "car": "DG 2026 Tesla Y AllAroundTINT 499-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "cash",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "3515c2c8d530e9bf",
@@ -9498,8 +9512,11 @@
       "customerEmail": "",
       "contactId": "jldqsublc3AemgnRE4B2",
       "car": "DG 2019 Chevy Impala S+RTINT&Sunstrip 399-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Angelica, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -10609,8 +10626,8 @@
       "ghlOpportunityId": "TRvZn6kwxfiXecbYlA13",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-11T14:35:54.121Z",
       "date": "2026-09-14T20:00:00.000Z",
       "customerName": "",
@@ -10618,8 +10635,12 @@
       "customerEmail": "",
       "contactId": "TRvZn6kwxfiXecbYlA13",
       "car": "DG 2026 Toyota Grand Highlander AllAroundTint 519-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f6cf35e1607cb10f",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Angelica, Javier, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -10627,7 +10648,9 @@
       "basePrice": 519,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isOnlineBooking": false
+      "isOnlineBooking": false,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "67960aa5bddd9572",
@@ -11625,7 +11648,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-14T16:39:03.658Z",
       "date": "2026-09-14T18:00:00.000Z",
       "customerName": "JB Banks",
@@ -11645,7 +11668,9 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "24c76c8446bea2ec",
@@ -22463,6 +22488,32 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "103ea4b4be9666a5",
+      "type": "cashIn",
+      "amount": 469,
+      "category": "Customer Payment",
+      "note": "",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-14T23:04:20.758Z"
+    },
+    {
+      "id": "c27bc37beaeeba34",
+      "type": "cashIn",
+      "amount": 449,
+      "category": "Customer Payment",
+      "note": "2026 Tesla Model Y",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-14T22:12:31.944Z"
+    },
     {
       "id": "81948b514e5ce634",
       "type": "cashIn",
