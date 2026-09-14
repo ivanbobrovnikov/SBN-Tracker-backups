@@ -5323,7 +5323,7 @@
       ],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-08-28T12:58:19.553Z",
       "date": "2026-09-12T13:00:00.000Z",
       "customerName": "Antonio Pacheco",
@@ -5338,7 +5338,9 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "dde66b4d45d5ea76",
@@ -7173,7 +7175,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-03T00:11:31.583Z",
       "date": "2026-09-12T13:00:00.000Z",
       "customerName": "Lou Amiano",
@@ -7188,7 +7190,9 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "a346c3be0883b465",
@@ -8972,7 +8976,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": true,
+      "paid": false,
       "closedAt": "2026-09-07T22:52:57.987Z",
       "date": "2026-09-14T15:00:00.000Z",
       "customerName": "Furkan",
@@ -8986,10 +8990,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 225,
       "syncedFromGHL": true,
-      "paidCard": true,
-      "paymentMethod": "card",
+      "paidCard": false,
+      "paymentMethod": null,
       "notes": [
         {
           "id": "e66beae6043da1c4",
@@ -19243,6 +19247,16 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "a98dbfc4f3292d80",
+      "timestamp": "2026-09-14T15:39:04.093Z",
+      "actor": "Aaron (manager)",
+      "saleId": "36c3844ff7444565",
+      "car": "DG 2026 Ram 1500 S+RTINT 275-walkin today for second car",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 225
+    },
+    {
       "id": "9cfdf62d35d7ab1c",
       "timestamp": "2026-09-14T15:12:17.412Z",
       "actor": "Owner",
@@ -21625,6 +21639,19 @@
   ],
   "cashEntries": [
     {
+      "id": "7c3cc50d57a30ff5",
+      "type": "cashIn",
+      "amount": 614,
+      "category": "Customer Payment",
+      "note": "BMW M5",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "owner",
+      "enteredById": "owner",
+      "enteredByName": "Owner",
+      "timestamp": "2026-09-14T16:03:30.773Z"
+    },
+    {
       "id": "3348b62db4418201",
       "type": "cashIn",
       "amount": 249,
@@ -21714,19 +21741,6 @@
       "enteredById": "owner",
       "enteredByName": "Owner",
       "timestamp": "2026-09-12T16:21:47.278Z"
-    },
-    {
-      "id": "ecc8e61121ea5593",
-      "type": "bankDeposit",
-      "amount": 13950,
-      "category": "Customer Payment",
-      "note": "Bank depo",
-      "isOnline": false,
-      "receiptPhoto": "undefined-undefined-undefined-1d042338a17e0c70.jpg",
-      "enteredByType": "owner",
-      "enteredById": "owner",
-      "enteredByName": "Owner",
-      "timestamp": "2026-09-12T15:36:10.030Z"
     },
     {
       "id": "c4ddfb14cc9b5ed8",
