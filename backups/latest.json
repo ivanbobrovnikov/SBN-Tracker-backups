@@ -623,7 +623,7 @@
       "id": "28454d5933d0da75",
       "ghlOpportunityId": "47TkdbhDGgAYEhaFwDpP",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-26T19:35:27.872Z",
@@ -2355,7 +2355,7 @@
       "id": "32a8cec939efbb9f",
       "ghlOpportunityId": "dSnTWqT7xbiy6oE7aHxh",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-04T14:54:00.965Z",
@@ -4940,7 +4940,7 @@
       "id": "3eaec9552748b58d",
       "ghlOpportunityId": "a4FKUsB4DcsKLp7Rahty",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-29T18:17:35.295Z",
@@ -4949,7 +4949,7 @@
       "customerPhone": "+18563613592",
       "customerEmail": "",
       "contactId": "xUfj9TCZOYjqh8qQFycw",
-      "car": "DG 2020 VW Jetta CeramicCoating&S+RTINT 800-95depo doorjams swell and might check roof need a step1or2",
+      "car": "DG 2020 VW Jetta CeramicCoating&S+RTINT 20% tint all 800-95depo doorjams swell and might check roof need a step1or2",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -5254,7 +5254,7 @@
       "id": "12aeaa1f0dba6db2",
       "ghlOpportunityId": "KIpL7qBUpUvPAzHvVnwa",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-28T19:44:36.788Z",
@@ -6849,7 +6849,16 @@
     {
       "id": "e1a4dfaf9927bb48",
       "ghlOpportunityId": "K0RYu9j43n1IPjz5q2gO",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "850734e1e9129fef",
+          "name": "Step",
+          "price": 350,
+          "employeeId": null,
+          "managerId": "19d1389561891623",
+          "salesRepId": null
+        }
+      ],
       "status": "pending",
       "completed": false,
       "paid": false,
@@ -7056,7 +7065,7 @@
       "id": "4ecbf04a0c9af61d",
       "ghlOpportunityId": "YtlS7pyiBqnRjsZ4hRK5",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-02T20:50:24.460Z",
@@ -8964,7 +8973,7 @@
       "id": "36c3844ff7444565",
       "ghlOpportunityId": "iphvbZVmffwsk8EWgHna",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-07T22:52:57.987Z",
@@ -8974,8 +8983,11 @@
       "customerEmail": "",
       "contactId": "iphvbZVmffwsk8EWgHna",
       "car": "DG 2023 Honda Civic AllAroundTint 495-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Feso, Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -10350,7 +10362,7 @@
       "id": "0d1ffcb32285a985",
       "ghlOpportunityId": "WUDw101NfIICn6KICElk",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-10T17:47:40.556Z",
@@ -10398,7 +10410,7 @@
       "id": "2da58b8b9a5074c5",
       "ghlOpportunityId": "zyPtaFQpQHvRYkFC9ieI",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-10T18:16:35.828Z",
@@ -10408,8 +10420,10 @@
       "customerEmail": "",
       "contactId": "zyPtaFQpQHvRYkFC9ieI",
       "car": "DG 2021 Toyota Tacoma 2 Front Windows 140-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -11049,7 +11063,7 @@
       "id": "4bc6c969194bbb71",
       "ghlOpportunityId": "uRiCVovjjb2qKGIBVveE",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-12T19:09:26.222Z",
@@ -19386,6 +19400,69 @@
       "status": "present",
       "startTime": "",
       "endTime": ""
+    },
+    {
+      "id": "b03e4e6e83968e57",
+      "personType": "employee",
+      "personId": "273b3cdb8e20e0d1",
+      "date": "2026-09-14",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "dd82e79343641a2e",
+      "personType": "employee",
+      "personId": "7bcc22db24b2124f",
+      "date": "2026-09-14",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "79684bbff748167b",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-09-14",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "450f9e4d4a716c1c",
+      "personType": "employee",
+      "personId": "791dee90ad560e70",
+      "date": "2026-09-14",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "192522654e419486",
+      "personType": "employee",
+      "personId": "f6cf35e1607cb10f",
+      "date": "2026-09-14",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "3973da42772ee310",
+      "personType": "manager",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-09-14",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "012f55691909f807",
+      "personType": "manager",
+      "personId": "19d1389561891623",
+      "date": "2026-09-14",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
     }
   ],
   "revenueStartDate": "2026-09-01",
@@ -19394,6 +19471,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "972eb9697cb1bfcc",
+      "timestamp": "2026-09-14T12:53:59.197Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "3eaec9552748b58d",
+      "car": "DG 2020 VW Jetta CeramicCoating&S+RTINT 20% tint all 800-95depo doorjams swell and might check roof need a step1or2",
+      "field": "Car/Title",
+      "oldValue": "DG 2020 VW Jetta CeramicCoating&S+RTINT 800-95depo doorjams swell and might check roof need a step1or2",
+      "newValue": "DG 2020 VW Jetta CeramicCoating&S+RTINT 20% tint all 800-95depo doorjams swell and might check roof need a step1or2"
+    },
     {
       "id": "c9e5787c7212ec93",
       "timestamp": "2026-09-13T21:08:45.905Z",
