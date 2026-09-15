@@ -10289,12 +10289,12 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-10T13:04:00.922Z",
-      "date": "2026-09-17T15:00:00.000Z",
+      "date": "2026-09-24T15:00:00.000Z",
       "customerName": "8thStreetNWW",
       "customerPhone": "(610) 316-2065",
       "customerEmail": "",
       "contactId": "vA3LqrL3V24hWhCMHGcU",
-      "car": "DG 2027 Toyota Prius S+RTINT 299-75depo",
+      "car": "DG 2027 Toyota Prius S+RTINT 299-100depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -10779,7 +10779,7 @@
       "id": "a3ba85a1fb1e7a83",
       "ghlOpportunityId": "L3KB8iwpxkSxa8Os3SZH",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-11T15:49:15.525Z",
@@ -12469,7 +12469,7 @@
       "salesRepId": null,
       "salesRepName": "Unassigned",
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 499,
       "calendarId": null,
       "syncedFromGHL": true
     },
@@ -12517,9 +12517,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -18082,6 +18083,26 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "4a7b0e25b5967ca2",
+      "timestamp": "2026-09-15T19:54:31.503Z",
+      "actor": "Owner",
+      "saleId": "08265b4cdce0dc27",
+      "car": "GM ceramic Silverado Trail Boss 2026",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "b6ee82a5846acfcd",
+      "timestamp": "2026-09-15T19:54:24.532Z",
+      "actor": "Owner",
+      "saleId": "11bc40d3526d13a7",
+      "car": "DG 2012 VW Jetta S+RTINT 299-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
       "id": "448759a25b2e9306",
       "timestamp": "2026-09-15T18:58:36.263Z",
       "actor": "Owner",
@@ -20803,6 +20824,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "22a751fcba4d1544",
+      "type": "cashOut",
+      "amount": 50,
+      "category": "Customer Payment",
+      "note": "2023 Chevy Suburban deposit refund",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-15T19:59:31.587Z"
+    },
     {
       "id": "103ea4b4be9666a5",
       "type": "cashIn",
