@@ -8974,7 +8974,7 @@
       "status": "arrived",
       "completed": true,
       "paid": true,
-      "closedAt": "2026-09-07T22:52:57.987Z",
+      "closedAt": "2026-09-14T15:25:00.000Z",
       "date": "2026-09-14T15:00:00.000Z",
       "customerName": "Furkan",
       "customerPhone": "(856) 639-6896",
@@ -11724,7 +11724,7 @@
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 0,
       "calendarId": null,
       "syncedFromGHL": true,
       "isWalkIn": false
@@ -11931,7 +11931,7 @@
       "status": "arrived",
       "completed": true,
       "paid": true,
-      "closedAt": "2026-09-15T00:14:11.166Z",
+      "closedAt": "2026-09-07T22:52:00.000Z",
       "date": "2026-09-14T13:00:00.000Z",
       "customerName": "Furkinn",
       "customerPhone": "8566396896",
@@ -18429,6 +18429,46 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "44a06d67b3f11624",
+      "timestamp": "2026-09-15T00:33:42.226Z",
+      "actor": "Owner",
+      "saleId": "794b7fc4bb8c04a2",
+      "car": "2025 Audi Q5 3 windows redo",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 0
+    },
+    {
+      "id": "530a296e12a2c2ef",
+      "timestamp": "2026-09-15T00:28:14.700Z",
+      "actor": "Owner",
+      "saleId": "36c3844ff7444565",
+      "car": "DG 2026 Ram 1500 S+RTINT 275-walkin today for second car",
+      "field": "Closed At",
+      "oldValue": "2026-09-15T03:25:00.000Z",
+      "newValue": "2026-09-14T15:25:00.000Z"
+    },
+    {
+      "id": "5f732a871162fb53",
+      "timestamp": "2026-09-15T00:27:48.533Z",
+      "actor": "Owner",
+      "saleId": "36c3844ff7444565",
+      "car": "DG 2026 Ram 1500 S+RTINT 275-walkin today for second car",
+      "field": "Closed At",
+      "oldValue": "2026-09-07T22:52:57.987Z",
+      "newValue": "2026-09-15T03:25:00.000Z"
+    },
+    {
+      "id": "a0b2056a377e269a",
+      "timestamp": "2026-09-15T00:26:24.164Z",
+      "actor": "Owner",
+      "saleId": "da34cd563245297d",
+      "car": "DG 2023 Honda Civic S+R Tint 299-50",
+      "field": "Closed At",
+      "oldValue": "2026-09-15T00:14:11.166Z",
+      "newValue": "2026-09-07T22:52:00.000Z"
+    },
     {
       "id": "722f06d48c62432b",
       "timestamp": "2026-09-15T00:14:39.125Z",
