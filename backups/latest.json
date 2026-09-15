@@ -7822,8 +7822,8 @@
       "ghlOpportunityId": "SeaR5JIQvIzhDvoNYFzI",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-04T00:54:06.665Z",
       "date": "2026-09-15T13:00:00.000Z",
       "customerName": "Parthiv Patel",
@@ -7840,7 +7840,9 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 810,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "ab726d8a344f89da",
@@ -8135,7 +8137,7 @@
       "ghlOpportunityId": "78m2zr2cWw76lB3p7Xek",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-09-04T21:21:23.701Z",
       "date": "2026-09-15T13:00:00.000Z",
@@ -9995,8 +9997,8 @@
       "ghlOpportunityId": "XBBD4WWziCjj19dcnxGL",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-09T18:43:59.545Z",
       "date": "2026-09-15T13:00:00.000Z",
       "customerName": "John M Bender",
@@ -10018,7 +10020,9 @@
           "walkaround": "4810602fa820e613-before-walkaround-1debfcdf46eabd45.jpg"
         },
         "after": {}
-      }
+      },
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "491d3b92f67e9419",
@@ -10574,7 +10578,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 390,
+      "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true,
       "paidCard": true,
@@ -18097,6 +18101,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "dda802ee3337fc41",
+      "timestamp": "2026-09-15T21:27:17.130Z",
+      "actor": "Aaron (manager)",
+      "saleId": "c76dd6e5feedf991",
+      "car": "DG 2025 Chevy SunStrip&S+RTint 390-50depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 299
+    },
+    {
+      "id": "aefb196d78bc97bf",
+      "timestamp": "2026-09-15T21:27:03.866Z",
+      "actor": "Aaron (manager)",
+      "saleId": "c76dd6e5feedf991",
+      "car": "DG 2025 Chevy SunStrip&S+RTint 390-50depo",
+      "field": "Base price",
+      "oldValue": 390,
+      "newValue": 499
+    },
     {
       "id": "2e24a78253e135fb",
       "timestamp": "2026-09-15T21:20:52.786Z",
