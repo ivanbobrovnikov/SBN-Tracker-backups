@@ -8125,7 +8125,7 @@
       "id": "6d53fea45714278c",
       "ghlOpportunityId": "78m2zr2cWw76lB3p7Xek",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-04T21:21:23.701Z",
@@ -9983,7 +9983,7 @@
       "id": "4810602fa820e613",
       "ghlOpportunityId": "XBBD4WWziCjj19dcnxGL",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-09T18:43:59.545Z",
@@ -10464,7 +10464,17 @@
     {
       "id": "e205d17458510ecd",
       "ghlOpportunityId": "7AkEAiXxpeGd1PMnfGTB",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "3d1d12b2f49fa7c3",
+          "name": "Windshield",
+          "price": 200,
+          "employeeId": "273b3cdb8e20e0d1",
+          "managerId": null,
+          "salesRepId": null,
+          "salesRepName": null
+        }
+      ],
       "status": "arrived",
       "completed": false,
       "paid": false,
@@ -10475,8 +10485,10 @@
       "customerEmail": "",
       "contactId": "7AkEAiXxpeGd1PMnfGTB",
       "car": "DG 2023 Tesla 3 S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -10517,7 +10529,16 @@
     {
       "id": "c76dd6e5feedf991",
       "ghlOpportunityId": "xMZJfVSlQPy8SbVIjXNs",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "283a0b1fc702ee51",
+          "name": "Windshield",
+          "price": 200,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a",
+          "salesRepId": null
+        }
+      ],
       "status": "arrived",
       "completed": false,
       "paid": false,
@@ -11688,7 +11709,7 @@
       "id": "38f1c2cf34b0580d",
       "ghlOpportunityId": "WaxwVUQ2qgY0RTO67kYh",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-14T16:38:47.879Z",
@@ -12323,7 +12344,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true
     },
@@ -12395,6 +12416,29 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 1150,
+      "calendarId": null,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "08265b4cdce0dc27",
+      "ghlOpportunityId": "TppupOFrJUo0MjPH6bML",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-15T17:36:17.031Z",
+      "date": "2026-09-28T13:00:00.000Z",
+      "customerName": "Doug Visconti",
+      "customerPhone": "(609) 220-2180",
+      "customerEmail": "",
+      "contactId": "TppupOFrJUo0MjPH6bML",
+      "car": "GM ceramic Silverado Trail Boss 2026",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Ceramic Coating",
+      "basePrice": 0,
       "calendarId": null,
       "syncedFromGHL": true
     }
@@ -18003,6 +18047,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "7042af4d9c6c3dcf",
+      "timestamp": "2026-09-15T18:00:38.756Z",
+      "actor": "Owner",
+      "saleId": "41099b09114e31c0",
+      "car": "DG 2024 Tesla 3 S+RTINT 299-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
     {
       "id": "8ef022be67b39efa",
       "timestamp": "2026-09-15T16:40:27.699Z",
