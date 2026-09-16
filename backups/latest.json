@@ -7981,21 +7981,29 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-09T19:20:26.079Z",
-      "date": "2026-09-17T15:00:00.000Z",
+      "date": "2026-09-16T15:00:00.000Z",
       "customerName": "Kyle M Anderson",
       "customerPhone": "(201) 220-5128",
       "customerEmail": "",
       "contactId": "PtCpcdlTb0hSn1Sjn9u7",
-      "car": "DG 2020 Toyota Supra S+RTINT 300-50depo",
+      "car": "DG 2022 BMW 7Series S+RTINT 299-50depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 598,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "notes": [
+        {
+          "id": "40cf24287cff4a92",
+          "text": "Customer vehicle was already tinted, did not want to pay for removal so he left",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-09-16T15:52:19.955Z"
+        }
+      ]
     },
     {
       "id": "6d05782c6b4f7c3e",
@@ -8186,34 +8194,6 @@
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card"
-    },
-    {
-      "id": "3100e6389c90236f",
-      "ghlOpportunityId": "NHag7anb8LScCEcODWVq",
-      "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
-      "closedAt": "2026-09-10T12:16:52.013Z",
-      "date": "2026-09-16T21:00:00.000Z",
-      "customerName": "Josh Corvera",
-      "customerPhone": "(856) 535-5271",
-      "customerEmail": "",
-      "contactId": "NHag7anb8LScCEcODWVq",
-      "car": "Josh Corvera",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
-      "salesRepId": null,
-      "salesRepName": "Online Booking",
-      "baseService": "Window Tint",
-      "basePrice": 299,
-      "calendarId": null,
-      "syncedFromGHL": true,
-      "isOnlineBooking": true,
-      "isWalkIn": false,
-      "walkInClosedByType": null,
-      "walkInClosedById": null,
-      "walkInClosedByName": null
     },
     {
       "id": "e2a52db41864ef77",
@@ -8744,8 +8724,8 @@
       "ghlOpportunityId": "ufnjITgCgz37ff7D7Djf",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-11T16:01:00.619Z",
       "date": "2026-09-16T13:00:00.000Z",
       "customerName": "𝕲𝖊𝖓𝖊𝖘𝖎𝖘",
@@ -8763,7 +8743,9 @@
       "baseService": "Window Tint",
       "basePrice": 359,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "bc4bf93e5d3a638d",
@@ -10660,18 +10642,18 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-16T14:41:26.036Z",
-      "date": "2026-09-16T14:00:00.000Z",
+      "date": "2026-09-17T14:00:00.000Z",
       "customerName": "Jim Schafer",
       "customerPhone": "(856) 745-2904",
       "customerEmail": "",
       "contactId": "6Y19DR0IGnPvn8zd2GAi",
-      "car": "Aaron Jim Schafer 2022 Ford F150 2 FrontWindowsNANO ",
+      "car": "Aaron Jim Schafer 2022 Ford F150 2 FrontWindowsNANO",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 175,
       "calendarId": null,
       "syncedFromGHL": true,
       "notes": [
@@ -10681,7 +10663,12 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-09-16T15:10:27.225Z"
         }
-      ]
+      ],
+      "isWalkIn": true,
+      "isOnlineBooking": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "ed55d50b916a979a",
+      "walkInClosedByName": "Aaron"
     },
     {
       "id": "9c6b99ae2386c32e",
@@ -10696,7 +10683,7 @@
       "customerPhone": "(212) 810-7177",
       "customerEmail": "",
       "contactId": "Tj43rwFXVrujdA4XBjj9",
-      "car": "BH 2018 BMW X3 front 2 windows $150-$50 deposit",
+      "car": "BH 2018 BMW X3 front 2 windows $150-$50 deposit (MAYBE WINDSHIELD)",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "e56a9f98597bcb7f",
@@ -10768,6 +10755,113 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-16T15:39:55.511Z",
+      "endpoint": "sync",
+      "matchedSaleId": "83ef0c2f7f3c70d1",
+      "before": {
+        "basePrice": 598,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2022 BMW 740i",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "PtCpcdlTb0hSn1Sjn9u7",
+        "first_name": "Kyle",
+        "last_name": "M Anderson",
+        "full_name": "Kyle M Anderson",
+        "email": "410elmirast@gmail.com",
+        "phone": "+12012205128",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-09-09T18:53:12.890Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Kyle M Anderson | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "zEJWOtL1lkADyZdlhnIi",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "g80 m3 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256307528530011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "instagram",
+            "mediumId": "1829572124725268",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "igSid": "1829572124725268"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "PtCpcdlTb0hSn1Sjn9u7"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-16T14:15:25.143Z",
       "endpoint": "sync",
@@ -14643,113 +14737,6 @@
         "KQVNmywBTK9Jo1xDeQqG",
         "lzeBkhd3gXjSaP14PDNc"
       ]
-    },
-    {
-      "receivedAt": "2026-09-15T13:20:52.994Z",
-      "endpoint": "sync",
-      "matchedSaleId": "d6a5159dfa4833f9",
-      "before": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "2024 Ford Maverick",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "8yfbWtzZ5sENh1jPctdm",
-        "first_name": "jc",
-        "last_name": "Gualan",
-        "full_name": "jc Gualan",
-        "email": "jcgualan@gmail.com",
-        "phone": "+16099701309",
-        "tags": "tint",
-        "country": "US",
-        "date_created": "2026-08-27T00:59:45.873Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Jc Gualan | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "NSt2sfsIYhlAuSOGr7bq",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "g80 m3 299",
-            "adSetId": "120254638050770011",
-            "adId": "120256307528530011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "1744673366721739",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "1744673366721739"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "8yfbWtzZ5sENh1jPctdm"
-        }
-      }
     }
   ],
   "attendance": [
@@ -15885,6 +15872,36 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "befced8de9ba7419",
+      "timestamp": "2026-09-16T15:54:54.186Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "bccfe02ed75a5e67",
+      "car": "Aaron Jim Schafer 2022 Ford F150 2 FrontWindowsNANO",
+      "field": "Car/Title",
+      "oldValue": "Aaron Jim Schafer 2022 Ford F150 2 FrontWindowsNANO ",
+      "newValue": "Aaron Jim Schafer 2022 Ford F150 2 FrontWindowsNANO"
+    },
+    {
+      "id": "1309024aa0ab5b27",
+      "timestamp": "2026-09-16T15:39:08.597Z",
+      "actor": "Owner",
+      "saleId": "bccfe02ed75a5e67",
+      "car": "Aaron Jim Schafer 2022 Ford F150 2 FrontWindowsNANO ",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 175
+    },
+    {
+      "id": "27345f4fb37911fb",
+      "timestamp": "2026-09-16T15:24:59.307Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "9c6b99ae2386c32e",
+      "car": "BH 2018 BMW X3 front 2 windows $150-$50 deposit (MAYBE WINDSHIELD)",
+      "field": "Car/Title",
+      "oldValue": "BH 2018 BMW X3 front 2 windows $150-$50 deposit",
+      "newValue": "BH 2018 BMW X3 front 2 windows $150-$50 deposit (MAYBE WINDSHIELD)"
+    },
     {
       "id": "4e1ef6cdede34090",
       "timestamp": "2026-09-16T15:07:36.431Z",
