@@ -12628,6 +12628,30 @@
       "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "1a17568aa3800992",
+      "ghlOpportunityId": "GxFc8RKbbBTXB6DEZYSw",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-16T00:28:40.307Z",
+      "date": "2026-09-22T20:00:00.000Z",
+      "customerName": "Irvin Pineda",
+      "customerPhone": "(609) 470-0481",
+      "customerEmail": "",
+      "contactId": "GxFc8RKbbBTXB6DEZYSw",
+      "car": "DG 2013 Scion FRS S+RTINT 299-50depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 299,
+      "calendarId": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -12689,6 +12713,106 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-16T00:28:41.160Z",
+      "endpoint": "sync",
+      "matchedSaleId": "1a17568aa3800992",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "Scion frs 2013",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "GxFc8RKbbBTXB6DEZYSw",
+        "first_name": "Irvin",
+        "last_name": "Pineda",
+        "full_name": "Irvin Pineda",
+        "email": "irvinpineda40@gmail.com",
+        "phone": "+16094700481",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-09-15T23:05:37.624Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Irvin Pineda | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "fWQY4K0sef6OHH90Dofi",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "this is no window tint, this is ceramic window tint 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256664322800011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "instagram",
+            "mediumId": "1738055557447021",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "igSid": "1738055557447021"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "GxFc8RKbbBTXB6DEZYSw"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-16T00:11:18.705Z",
       "endpoint": "sync",
@@ -17013,76 +17137,6 @@
           "basePrice": "299",
           "salesRepName": "",
           "contactId": "KQVNmywBTK9Jo1xDeQqG"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-09-15T12:19:02.891Z",
-      "endpoint": "sync",
-      "matchedSaleId": "747da9ec3a5d6c11",
-      "before": {
-        "basePrice": 320,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 320,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "contact_id": "sTBkH3tMcVospCOP5cRC",
-        "first_name": "NAVEED",
-        "last_name": "YOUNIS",
-        "full_name": "NAVEED YOUNIS",
-        "phone": "+15165892155",
-        "tags": "name via lookup",
-        "city": "FLORAL PARK",
-        "state": "NY",
-        "country": "US",
-        "date_created": "2026-09-01T20:01:53.369Z",
-        "postal_code": "11426",
-        "full_address": "FLORAL PARK NY 11426",
-        "contact_type": "lead",
-        "opportunity_name": "NAVEED YOUNIS | ",
-        "status": "won",
-        "lead_value": 320,
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "EsyEN6zGVwt9Md3sqMX6",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Other",
-            "medium": "other"
-          },
-          "lastAttributionSource": {}
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "320",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "sTBkH3tMcVospCOP5cRC"
         }
       }
     }
