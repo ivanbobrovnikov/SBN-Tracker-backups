@@ -5593,25 +5593,23 @@
       "completed": true,
       "paid": true,
       "closedAt": "2026-09-03T20:03:45.711Z",
-      "date": "2026-09-15T13:00:00.000Z",
+      "date": "2026-09-29T13:00:00.000Z",
       "customerName": "NAVEED YOUNIS",
       "customerPhone": "(516) 589-2155",
       "customerEmail": "",
       "contactId": "sTBkH3tMcVospCOP5cRC",
-      "car": "DG 2024 Rav4 FrontWindsheild&2FrontWindows 320-50depo",
-      "employeeIds": [
-        "273b3cdb8e20e0d1",
-        "f6cf35e1607cb10f"
-      ],
-      "employeeNames": "Angelica, Javier",
+      "car": "REDO All Windows 2Front&Windeshild",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 320,
+      "basePrice": 299,
       "syncedFromGHL": true,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "calendarId": null
     },
     {
       "id": "601afd0d5a4ff901",
@@ -8978,7 +8976,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 495,
+      "basePrice": 595,
       "calendarId": null,
       "syncedFromGHL": true
     },
@@ -10980,9 +10978,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "9e6217d592cd8902",
@@ -11164,6 +11163,76 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-17T15:35:31.419Z",
+      "endpoint": "sync",
+      "matchedSaleId": "747da9ec3a5d6c11",
+      "before": {
+        "basePrice": 320,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "sTBkH3tMcVospCOP5cRC",
+        "first_name": "NAVEED",
+        "last_name": "YOUNIS",
+        "full_name": "NAVEED YOUNIS",
+        "phone": "+15165892155",
+        "tags": "name via lookup",
+        "city": "FLORAL PARK",
+        "state": "NY",
+        "country": "US",
+        "date_created": "2026-09-01T20:01:53.369Z",
+        "postal_code": "11426",
+        "full_address": "FLORAL PARK NY 11426",
+        "contact_type": "lead",
+        "opportunity_name": "NAVEED YOUNIS | ",
+        "status": "won",
+        "lead_value": 299,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "EsyEN6zGVwt9Md3sqMX6",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "sTBkH3tMcVospCOP5cRC"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-17T15:15:58.254Z",
       "endpoint": "sync",
@@ -16591,119 +16660,6 @@
           "contactId": "zv8QAff2D2pukQzkrv62"
         }
       }
-    },
-    {
-      "receivedAt": "2026-09-16T14:14:30.644Z",
-      "endpoint": "sync",
-      "matchedSaleId": "f17e0d8102bb1023",
-      "before": {
-        "basePrice": 0,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "2020 Yukon",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "zv8QAff2D2pukQzkrv62",
-        "first_name": "Michael",
-        "last_name": "Horsey",
-        "full_name": "Michael Horsey",
-        "email": "md.horsey@gmail.com",
-        "phone": "+16109310575",
-        "tags": "coating",
-        "country": "US",
-        "date_created": "2026-09-16T08:01:11.367Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Michael Horsey | ",
-        "status": "won",
-        "lead_value": 499,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "kWEni6oevbsiJ5jlsupq",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating",
-            "utm_campaign": "ceramic coating",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "grand opening 499",
-            "adSetId": "120255090573730011",
-            "adId": "120255139145580011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating",
-            "utm_campaign": "ceramic coating",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "grand opening 499",
-            "adSetId": "120255090573730011",
-            "adId": "120255139145580011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "499",
-          "salesRepName": "Roman Goldovsky",
-          "contactId": "zv8QAff2D2pukQzkrv62"
-        }
-      }
     }
   ],
   "attendance": [
@@ -17911,6 +17867,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "f5e41a7838a3bbfa",
+      "timestamp": "2026-09-17T15:39:39.178Z",
+      "actor": "Owner",
+      "saleId": "a4c266545350728d",
+      "car": "DG 2007 Chevy Impala S+RTINT 299-25depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "6d5a5430940974da",
+      "timestamp": "2026-09-17T15:25:35.080Z",
+      "actor": "Owner",
+      "saleId": "2a9e6ad65004068b",
+      "car": "DG 2023 Tesla Y AllAroundTintNANO 595-50depo",
+      "field": "Base price",
+      "oldValue": 495,
+      "newValue": 595
+    },
     {
       "id": "c4749918ac4aa0c2",
       "timestamp": "2026-09-17T15:23:35.701Z",
