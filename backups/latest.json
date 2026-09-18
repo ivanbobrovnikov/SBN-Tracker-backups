@@ -1349,8 +1349,8 @@
       "ghlOpportunityId": "GgCt6mlzOFu4qlmVotdB",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-08-18T21:11:09.921Z",
       "date": "2026-09-18T14:00:00.000Z",
       "customerName": "Anthony Bova",
@@ -1371,7 +1371,9 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "fba714a347b28c45",
@@ -4306,7 +4308,7 @@
       "customerPhone": "(856) 254-4522",
       "customerEmail": "gsoto1127@hotmail.com",
       "contactId": "Ajt8JyrjPnBXs3ZTUiNL",
-      "car": "TG (Gilberts gf=Natalie) jeep wrangler 2019 front windshield 175$ -depo, -100$ ",
+      "car": "TG (Gilberts gf=Natalie) jeep wrangler 2019 front windshield 175$ -depo, -100$",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "2c27b621d80b0bc6",
@@ -7525,7 +7527,7 @@
       "id": "dd32f31e3e388d18",
       "ghlOpportunityId": "HIyDDqdAq7XNZNdmOIAU",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-08T21:48:33.823Z",
@@ -11284,8 +11286,11 @@
       "customerEmail": "",
       "contactId": "dmgHcIHBIxI8lHezXTEM",
       "car": "DG 2022 Honda Accord 2Front&Windshield 319-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f6cf35e1607cb10f",
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Javier, Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -11524,8 +11529,8 @@
       "ghlOpportunityId": "DgQeYiR7CedHBWrApujd",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-18T00:55:34.216Z",
       "date": "2026-09-18T17:00:00.000Z",
       "customerName": "Vinny",
@@ -11533,15 +11538,24 @@
       "customerEmail": "",
       "contactId": "DgQeYiR7CedHBWrApujd",
       "car": "fk vinny 2013 lexus rx350 front 2 mach 150$ -25$ depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "9e7aec4eefe054cc",
       "salesRepName": "Firdavs Karshiev",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 150,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron",
+      "paidCard": false,
+      "paymentMethod": "cash",
+      "paidCash": true
     },
     {
       "id": "8488cca938d86e99",
@@ -18251,6 +18265,16 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "cc37c1b0497605a3",
+      "timestamp": "2026-09-18T18:12:52.926Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "d2ada8f4c7016f88",
+      "car": "TG (Gilberts gf=Natalie) jeep wrangler 2019 front windshield 175$ -depo, -100$",
+      "field": "Car/Title",
+      "oldValue": "TG (Gilberts gf=Natalie) jeep wrangler 2019 front windshield 175$ -depo, -100$ ",
+      "newValue": "TG (Gilberts gf=Natalie) jeep wrangler 2019 front windshield 175$ -depo, -100$"
+    },
+    {
       "id": "56b3491872bf2721",
       "timestamp": "2026-09-18T17:58:05.447Z",
       "actor": "Auto-matched (reschedule)",
@@ -21652,6 +21676,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "0877da7432a7cc82",
+      "type": "cashIn",
+      "amount": 125,
+      "category": "Customer Payment",
+      "note": "2013 Lexus rx350",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-18T18:50:59.081Z"
+    },
     {
       "id": "a05c4e64b8fd880c",
       "type": "cashOut",
