@@ -11489,6 +11489,30 @@
       "basePrice": 0,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "c6720db668efe947",
+      "ghlOpportunityId": "DgQeYiR7CedHBWrApujd",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-18T00:55:34.216Z",
+      "date": "2026-09-18T17:00:00.000Z",
+      "customerName": "Vinny",
+      "customerPhone": "(609) 780-3852",
+      "customerEmail": "",
+      "contactId": "DgQeYiR7CedHBWrApujd",
+      "car": "fk vinny 2013 lexus rx350 front 2 mach 150$ -25$ depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "9e7aec4eefe054cc",
+      "salesRepName": "Firdavs Karshiev",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 150,
+      "calendarId": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -11550,6 +11574,58 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-18T00:55:52.432Z",
+      "endpoint": "sync",
+      "matchedSaleId": "c6720db668efe947",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Firdavs Karshiev"
+      },
+      "after": {
+        "basePrice": 150,
+        "salesRepName": "Firdavs Karshiev"
+      },
+      "body": {
+        "contact_id": "DgQeYiR7CedHBWrApujd",
+        "first_name": "vinny",
+        "full_name": "vinny",
+        "phone": "+16097803852",
+        "tags": "",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-09-18T00:53:01.677Z",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Vinny | ",
+        "status": "won",
+        "lead_value": 150,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "U0DvKKjBpNXsXBcjv7EY",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "customData": {
+          "basePrice": "150",
+          "salesRepName": "",
+          "contactId": "DgQeYiR7CedHBWrApujd"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-17T23:05:27.871Z",
       "endpoint": "sync",
@@ -16901,112 +16977,6 @@
           "contactId": "CNTd5OXUFKTByRJ2QBI1"
         }
       }
-    },
-    {
-      "receivedAt": "2026-09-16T23:40:17.820Z",
-      "endpoint": "sync",
-      "matchedSaleId": "6b16d80fc9c4c1e2",
-      "before": {
-        "basePrice": 0,
-        "salesRepName": "Bobomurod Hamdamov"
-      },
-      "after": {
-        "basePrice": 299,
-        "salesRepName": "Bobomurod Hamdamov"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "2017’ Chevy Camaro",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "CNTd5OXUFKTByRJ2QBI1",
-        "first_name": "Steven",
-        "last_name": "R. Ball",
-        "full_name": "Steven R. Ball",
-        "email": "srball48@yahoo.com",
-        "phone": "+16092214576",
-        "tags": "tint",
-        "country": "US",
-        "date_created": "2026-09-12T08:21:25.085Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Steven R. Ball | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "BdSzFi2zmlziR26qrE1K",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "ad 1 299",
-            "adSetId": "120254638050770011",
-            "adId": "120254652145930011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "ad 1 299",
-            "adSetId": "120254638050770011",
-            "adId": "120254652145930011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "",
-          "contactId": "CNTd5OXUFKTByRJ2QBI1"
-        }
-      }
     }
   ],
   "attendance": [
@@ -18214,6 +18184,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "8a38d1345d48bf23",
+      "timestamp": "2026-09-18T01:14:32.913Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "c6720db668efe947",
+      "car": "fk vinny 2013 lexus rx350 front 2 mach 150$ -25$ depo",
+      "field": "Car/Title",
+      "oldValue": "fk vinny 2013 lexus rx350 front 2 mach 150$ -25$ depo ",
+      "newValue": "fk vinny 2013 lexus rx350 front 2 mach 150$ -25$ depo"
+    },
     {
       "id": "549dda5d01df82ce",
       "timestamp": "2026-09-17T22:14:42.991Z",
