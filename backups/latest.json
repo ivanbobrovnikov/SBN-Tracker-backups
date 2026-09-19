@@ -640,8 +640,10 @@
       "customerEmail": "julientorres1993@gmail.com",
       "contactId": "eaF4sJtzCEHD3AwAQgnM",
       "car": "DG 2002 Benz E430 AllAroundTINT 499-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -4260,8 +4262,11 @@
       "customerEmail": "adamward5516@gmail.com",
       "contactId": "thUocO5p9QZnKPzv0Jv2",
       "car": "DG 2026 Toyota Corolla AllAroundTint 499-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Angelica, Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -4500,7 +4505,7 @@
       "customerPhone": "(609) 970-1309",
       "customerEmail": "jcgualan@gmail.com",
       "contactId": "8yfbWtzZ5sENh1jPctdm",
-      "car": "DG 2024 Ford Mavrick AllAroundTINT 500-50depo",
+      "car": "DG 2024 Ford Mavrick AllAroundTINT 500-100depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -4612,7 +4617,7 @@
       "customerPhone": "(856) 952-1721",
       "customerEmail": "tamillco@msn.com",
       "contactId": "pEBSVIHcbEfqVfYOuDLA",
-      "car": "DG 2022 Kia Sportage S+RTINT 299-50depo",
+      "car": "DG 2022 Kia Sportage S+RTINT 299-75depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -6781,7 +6786,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 499,
+      "basePrice": 299,
       "syncedFromGHL": true
     },
     {
@@ -10323,7 +10328,7 @@
       "id": "5ebc2d6d41ddaed5",
       "ghlOpportunityId": "uXCzKWZJJm0opPmrsCRX",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-15T14:19:19.739Z",
@@ -12143,7 +12148,7 @@
       "customerPhone": "(856) 956-6044",
       "customerEmail": "",
       "contactId": "BCeAAVBUNucfQuQRglca",
-      "car": "REDO 2022 Tesla 3 Back Window and front window ",
+      "car": "REDO 2022 Tesla 3 Back Window and front window",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
@@ -12213,6 +12218,119 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-19T13:45:45.925Z",
+      "endpoint": "sync",
+      "matchedSaleId": "ff4c58def07383f9",
+      "before": {
+        "basePrice": 499,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2026 gmc sierra 1500 AT4",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "yqvC5Vg12EJf3XU75L3f",
+        "first_name": "Michael",
+        "last_name": "D'Arrigo",
+        "full_name": "Michael D'Arrigo",
+        "email": "darrigom1313@gmail.com",
+        "phone": "+16095796135",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-09-07T13:52:43.248Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Michael D'Arrigo | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "yJiXi7wWsIRH2oA6V10c",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "ad 1 299",
+            "adSetId": "120254638050770011",
+            "adId": "120254652145930011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "ad 1 299",
+            "adSetId": "120254638050770011",
+            "adId": "120254652145930011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "yqvC5Vg12EJf3XU75L3f"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-19T12:45:58.068Z",
       "endpoint": "sync",
@@ -19086,119 +19204,6 @@
         "EDd1JR12UofGncIGbdmy",
         "C4hxADKsV2RQ2hQIS60u"
       ]
-    },
-    {
-      "receivedAt": "2026-09-18T14:56:12.734Z",
-      "endpoint": "sync",
-      "matchedSaleId": "12aba5f6bbcce801",
-      "before": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "2026 Kia seltos",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "C4hxADKsV2RQ2hQIS60u",
-        "first_name": "Nellie",
-        "last_name": "Quiles",
-        "full_name": "Nellie Quiles",
-        "email": "mexicuba63@comcast.net",
-        "phone": "+18565585302",
-        "tags": "tint",
-        "country": "US",
-        "date_created": "2026-09-17T23:25:54.235Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Nellie Quiles | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "XuWhBYwt4KOzeZUjKPU2",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "if ur car stock windows a month in 299",
-            "adSetId": "120254638050770011",
-            "adId": "120256710600830011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "if ur car stock windows a month in 299",
-            "adSetId": "120254638050770011",
-            "adId": "120256710600830011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "C4hxADKsV2RQ2hQIS60u"
-        }
-      }
     }
   ],
   "attendance": [
@@ -20541,6 +20546,36 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "bc112e8125ad2d14",
+      "timestamp": "2026-09-19T13:14:04.215Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "a6cc7c8cfb4e894a",
+      "car": "REDO 2022 Tesla 3 Back Window and front window",
+      "field": "Car/Title",
+      "oldValue": "REDO 2022 Tesla 3 Back Window and front window ",
+      "newValue": "REDO 2022 Tesla 3 Back Window and front window"
+    },
+    {
+      "id": "de888f38cd98790a",
+      "timestamp": "2026-09-19T13:12:51.806Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "1871483a11144859",
+      "car": "DG 2022 Kia Sportage S+RTINT 299-75depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2022 Kia Sportage S+RTINT 299-50depo",
+      "newValue": "DG 2022 Kia Sportage S+RTINT 299-75depo"
+    },
+    {
+      "id": "f7a1f56cb963cbae",
+      "timestamp": "2026-09-19T13:12:50.660Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "d6a5159dfa4833f9",
+      "car": "DG 2024 Ford Mavrick AllAroundTINT 500-100depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2024 Ford Mavrick AllAroundTINT 500-50depo",
+      "newValue": "DG 2024 Ford Mavrick AllAroundTINT 500-100depo"
+    },
     {
       "id": "7309d92e8b933e11",
       "timestamp": "2026-09-19T01:14:29.006Z",
