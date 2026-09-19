@@ -11549,9 +11549,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "c6720db668efe947",
@@ -11726,9 +11727,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "129846b90434b44e",
@@ -12036,9 +12038,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "cfbbc7fbb9ebb6bd",
@@ -19988,6 +19991,36 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "7309d92e8b933e11",
+      "timestamp": "2026-09-19T01:14:29.006Z",
+      "actor": "Owner",
+      "saleId": "4c74331c938de4de",
+      "car": "DG 2013 BMW E92 S+RTINT&Removal 499-50depoZelle DropOffTheWholeDAY",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "bd52efc8606ecfa1",
+      "timestamp": "2026-09-19T01:14:22.968Z",
+      "actor": "Owner",
+      "saleId": "ed2100395ee32588",
+      "car": "DG 2026 Mazda CX-90 CeramicCoating&Rims&Frontwindshield 499-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "a109fcc5af51785c",
+      "timestamp": "2026-09-19T01:14:16.725Z",
+      "actor": "Owner",
+      "saleId": "e19128a67994396c",
+      "car": "DG 2017 Lexus NX S+RTINT 299-25depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
     {
       "id": "d78852cd086a3670",
       "timestamp": "2026-09-18T22:13:48.939Z",
