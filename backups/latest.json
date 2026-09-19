@@ -6689,8 +6689,11 @@
       "customerEmail": "",
       "contactId": "9Hce7cnzYSsEqhRjUDGm",
       "car": "DG 2023 Jeep Grand Cherokee AllAroundTint 520-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Angelica, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -8702,8 +8705,8 @@
       "ghlOpportunityId": "mvDA76lz6xJ6sLZ4fLU6",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-10T19:20:28.702Z",
       "date": "2026-09-19T20:00:00.000Z",
       "customerName": "",
@@ -8711,15 +8714,24 @@
       "customerEmail": "",
       "contactId": "mvDA76lz6xJ6sLZ4fLU6",
       "car": "DG 2018 Tesla 3 AllAroundTint 495-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "791dee90ad560e70",
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Naomi, Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 495,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron",
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "768eaf6a088e2635",
@@ -26542,6 +26554,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "a7c9a10bd68eb038",
+      "type": "cashIn",
+      "amount": 445,
+      "category": "Customer Payment",
+      "note": "2018 Tesla Model 3",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-19T22:23:31.695Z"
+    },
     {
       "id": "041d22dcac303533",
       "type": "cashIn",
