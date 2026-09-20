@@ -11979,12 +11979,14 @@
       "car": "JA 2017 Jeep Cherokee Front 2 + Windshield 350-50 dep",
       "employeeIds": [],
       "employeeNames": "Unassigned",
-      "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepId": "3cdd54e91972de02",
+      "salesRepName": "Jared Aigner",
       "baseService": "Window Tint",
       "basePrice": 350,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isWalkIn": false,
+      "isOnlineBooking": false
     },
     {
       "id": "45ffb2875744cf11",
@@ -12004,14 +12006,16 @@
         "f6cf35e1607cb10f"
       ],
       "employeeNames": "Javier",
-      "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepId": "3cdd54e91972de02",
+      "salesRepName": "Jared Aigner",
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 195,
       "calendarId": null,
       "syncedFromGHL": true,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "isWalkIn": false,
+      "isOnlineBooking": false
     },
     {
       "id": "0b2557d5952d601c",
@@ -12174,12 +12178,14 @@
       "car": "JA 2018 Honda CRV Sides Rear Removal  + Sides and rear + Front 2 windows 449-50",
       "employeeIds": [],
       "employeeNames": "Unassigned",
-      "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepId": "3cdd54e91972de02",
+      "salesRepName": "Jared Aigner",
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 449,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isWalkIn": false,
+      "isOnlineBooking": false
     },
     {
       "id": "1a7596583d04391b",
@@ -12245,12 +12251,14 @@
       "car": "REDO 2022 Tesla 3 Back Window and front window",
       "employeeIds": [],
       "employeeNames": "Unassigned",
-      "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepId": "9e7aec4eefe054cc",
+      "salesRepName": "Firdavs Karshiev",
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 0.000001,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isWalkIn": false,
+      "isOnlineBooking": false
     },
     {
       "id": "8af72ccd7318d25e",
@@ -12412,12 +12420,14 @@
       "car": "JA 2024 outlander sides + rear 299-25",
       "employeeIds": [],
       "employeeNames": "Unassigned",
-      "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepId": "3cdd54e91972de02",
+      "salesRepName": "Jared Aigner",
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isWalkIn": false,
+      "isOnlineBooking": false
     },
     {
       "id": "11970e5f7d0d082e",
@@ -12573,6 +12583,14 @@
       "name": "Bobomurod Hamdamov",
       "initials": "BH",
       "pinHash": "7ef45737ddac485934ae911a6da811525324409b94e89cb6c67b066d7aaef772",
+      "commissionRate": 8,
+      "afterHoursCommissionRate": 12
+    },
+    {
+      "id": "3cdd54e91972de02",
+      "name": "Jared Aigner",
+      "initials": "JA",
+      "pinHash": "56a3a46a3ba4fb713fd3e4cfa51a5748abf2c2662fefb0b5a863fdef34572255",
       "commissionRate": 8,
       "afterHoursCommissionRate": 12
     }
@@ -22583,6 +22601,96 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "6e9067b7c1e32a84",
+      "timestamp": "2026-09-20T02:20:27.390Z",
+      "actor": "Owner",
+      "saleId": "a6cc7c8cfb4e894a",
+      "car": "REDO 2022 Tesla 3 Back Window and front window",
+      "field": "Sales rep",
+      "oldValue": "Unassigned",
+      "newValue": "Firdavs Karshiev"
+    },
+    {
+      "id": "7edac7f489b72295",
+      "timestamp": "2026-09-20T02:20:19.818Z",
+      "actor": "Owner",
+      "saleId": "45ffb2875744cf11",
+      "car": "JA 2014 BMW 550i Front Windshield 195 - 50 dep",
+      "field": "Sales rep",
+      "oldValue": "Unassigned",
+      "newValue": "Jared Aigner"
+    },
+    {
+      "id": "e382ffb02ed5dc46",
+      "timestamp": "2026-09-20T02:20:19.818Z",
+      "actor": "Owner",
+      "saleId": "45ffb2875744cf11",
+      "car": "JA 2014 BMW 550i Front Windshield 195 - 50 dep",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 195
+    },
+    {
+      "id": "db3711ba94f4aa08",
+      "timestamp": "2026-09-20T02:20:08.245Z",
+      "actor": "Owner",
+      "saleId": "8c5779e01d0c958b",
+      "car": "JA 2024 outlander sides + rear 299-25",
+      "field": "Sales rep",
+      "oldValue": "Unassigned",
+      "newValue": "Jared Aigner"
+    },
+    {
+      "id": "537e910d258c6189",
+      "timestamp": "2026-09-20T02:20:08.245Z",
+      "actor": "Owner",
+      "saleId": "8c5779e01d0c958b",
+      "car": "JA 2024 outlander sides + rear 299-25",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "cacb877fe38f0a02",
+      "timestamp": "2026-09-20T02:19:59.131Z",
+      "actor": "Owner",
+      "saleId": "cfbbc7fbb9ebb6bd",
+      "car": "JA 2018 Honda CRV Sides Rear Removal  + Sides and rear + Front 2 windows 449-50",
+      "field": "Sales rep",
+      "oldValue": "Unassigned",
+      "newValue": "Jared Aigner"
+    },
+    {
+      "id": "6e8fc0eb539b1a4b",
+      "timestamp": "2026-09-20T02:19:52.488Z",
+      "actor": "Owner",
+      "saleId": "cfbbc7fbb9ebb6bd",
+      "car": "JA 2018 Honda CRV Sides Rear Removal  + Sides and rear + Front 2 windows 449-50",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 449
+    },
+    {
+      "id": "b1f32a98e562b59e",
+      "timestamp": "2026-09-20T02:19:45.725Z",
+      "actor": "Owner",
+      "saleId": "a6cc7c8cfb4e894a",
+      "car": "REDO 2022 Tesla 3 Back Window and front window",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 0.000001
+    },
+    {
+      "id": "6efc81088e3461bc",
+      "timestamp": "2026-09-20T02:19:36.912Z",
+      "actor": "Owner",
+      "saleId": "35af4b5acf54ade8",
+      "car": "JA 2017 Jeep Cherokee Front 2 + Windshield 350-50 dep",
+      "field": "Sales rep",
+      "oldValue": "Unassigned",
+      "newValue": "Jared Aigner"
+    },
     {
       "id": "f75ec42a5cd9bdb0",
       "timestamp": "2026-09-20T00:45:15.271Z",
