@@ -12511,11 +12511,12 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 499,
       "calendarId": null,
       "syncedFromGHL": true,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "isOnlineBooking": false
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -22582,6 +22583,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "f75ec42a5cd9bdb0",
+      "timestamp": "2026-09-20T00:45:15.271Z",
+      "actor": "Owner",
+      "saleId": "09bb4f2dbe872fbc",
+      "car": "DG 2021 NissanAltima CeramicCoating 499-190deposit ",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
     {
       "id": "39fb4321123b7aa0",
       "timestamp": "2026-09-19T14:13:03.340Z",
