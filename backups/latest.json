@@ -7332,9 +7332,9 @@
       "id": "e6096bbbe5fb8a71",
       "ghlOpportunityId": "nKhF9jkSo81nOJFP3emz",
       "upsells": [],
-      "status": "no_show",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-08T17:09:32.660Z",
       "date": "2026-09-18T13:00:00.000Z",
       "customerName": "Hansel Moreno",
@@ -7342,14 +7342,18 @@
       "customerEmail": "",
       "contactId": "nKhF9jkSo81nOJFP3emz",
       "car": "TG 2000 land cruise S+RTINT&Sunstrip 499-100depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "2c27b621d80b0bc6",
       "salesRepName": "Timothy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "34445b5f802c40cf",
