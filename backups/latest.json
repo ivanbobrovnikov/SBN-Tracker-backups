@@ -12576,9 +12576,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -23088,6 +23089,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "858b230ec565527c",
+      "timestamp": "2026-09-20T17:24:56.709Z",
+      "actor": "Owner",
+      "saleId": "b2a1b2bfed3a7289",
+      "car": "DG 2023 Honda Ridgeline S+RTINT 299-25depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
     {
       "id": "6e9067b7c1e32a84",
       "timestamp": "2026-09-20T02:20:27.390Z",
