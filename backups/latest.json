@@ -1760,7 +1760,7 @@
       "id": "eaa41741e1f50f7d",
       "ghlOpportunityId": "Otx640b0wrWnfpvWbXfQ",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-15T22:01:50.824Z",
@@ -4665,7 +4665,16 @@
     {
       "id": "79d373813ed52d6b",
       "ghlOpportunityId": "7RE5DVNURboJ7EwAGhA2",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "b25e48de9f539155",
+          "name": "Sides and rear tint",
+          "price": 299,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a",
+          "salesRepId": null
+        }
+      ],
       "status": "arrived",
       "completed": false,
       "paid": false,
@@ -4676,8 +4685,12 @@
       "customerEmail": "adefeo4519@gmail.com",
       "contactId": "7RE5DVNURboJ7EwAGhA2",
       "car": "DG 2026 Ford F150 Ceramic Coating 499-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b",
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Angelica, Feso, Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "baseService": "Ceramic Coating",
@@ -8808,7 +8821,15 @@
       "baseService": "Ceramic Coating",
       "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "notes": [
+        {
+          "id": "b253cbc8d7ef02c0",
+          "text": "Getting rescheduled wasn’t informed on the curing process",
+          "authorName": "Gio (manager)",
+          "timestamp": "2026-09-21T13:19:53.277Z"
+        }
+      ]
     },
     {
       "id": "ca7cfe849ab017f0",
@@ -9290,7 +9311,7 @@
       "id": "e404fd27dd747bac",
       "ghlOpportunityId": "W0snbEqnX9I6gYiOnu1M",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-12T16:09:22.914Z",
@@ -9497,7 +9518,7 @@
       "id": "47214789188270a1",
       "ghlOpportunityId": "MzaoommtZKySluW7xw3w",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-12T21:11:53.025Z",
@@ -9946,7 +9967,7 @@
       "id": "ca5b992307368123",
       "ghlOpportunityId": "PmBusFUiGsnivGqpTCM1",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-14T16:15:20.170Z",
@@ -9965,7 +9986,13 @@
       "basePrice": 499,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isOnlineBooking": false
+      "isOnlineBooking": false,
+      "photos": {
+        "before": {
+          "walkaround": "ca5b992307368123-before-walkaround-18ce152a5aa7ccc7.MOV"
+        },
+        "after": {}
+      }
     },
     {
       "id": "38f1c2cf34b0580d",
@@ -10129,9 +10156,9 @@
       "id": "19bccd24779b80b0",
       "ghlOpportunityId": "25oRjVYuoj7L57Lcofoc",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-14T18:24:48.860Z",
       "date": "2026-09-21T13:00:00.000Z",
       "customerName": "Charles Kirst",
@@ -10148,7 +10175,13 @@
       "basePrice": 60,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isOnlineBooking": false
+      "isOnlineBooking": false,
+      "paidCash": true,
+      "paymentMethod": "cash",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "b84fb565427af49f",
@@ -12623,6 +12656,30 @@
       "employeeNames": "Unassigned",
       "salesRepId": null,
       "salesRepName": "Unassigned",
+      "baseService": "Window Tint",
+      "basePrice": 0,
+      "calendarId": null,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "a78e5fda7b0f90f4",
+      "ghlOpportunityId": "z4JqCXTa7wzzPFnFzmBx",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-21T13:43:22.479Z",
+      "date": "2026-09-21T14:00:00.000Z",
+      "customerName": "YEISONT MEDINA",
+      "customerPhone": "(609) 722-3767",
+      "customerEmail": "",
+      "contactId": "z4JqCXTa7wzzPFnFzmBx",
+      "car": "DG 2026 Honda Accord AllAroundTint 495-sameday book",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 0,
       "calendarId": null,
@@ -22701,6 +22758,78 @@
       "status": "present",
       "startTime": "",
       "endTime": ""
+    },
+    {
+      "id": "d8e8c19929d0c8d5",
+      "personType": "employee",
+      "personId": "273b3cdb8e20e0d1",
+      "date": "2026-09-21",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "124dd3f9868b6ec6",
+      "personType": "employee",
+      "personId": "8ee8cc14340b4386",
+      "date": "2026-09-21",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "c0052f67887f15e7",
+      "personType": "employee",
+      "personId": "7bcc22db24b2124f",
+      "date": "2026-09-21",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "319ba709652bf99e",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-09-21",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "6920490f60aeef90",
+      "personType": "employee",
+      "personId": "791dee90ad560e70",
+      "date": "2026-09-21",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "285d517d7d9ec089",
+      "personType": "employee",
+      "personId": "f6cf35e1607cb10f",
+      "date": "2026-09-21",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "af5be3acfbb47fee",
+      "personType": "manager",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-09-21",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "2bf82fa99eba97b8",
+      "personType": "manager",
+      "personId": "19d1389561891623",
+      "date": "2026-09-21",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
     }
   ],
   "revenueStartDate": "2026-09-01",
@@ -26331,6 +26460,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "2e0f1d57d6881e0d",
+      "type": "cashIn",
+      "amount": 60,
+      "category": "Customer Payment",
+      "note": "2014 Nissan maxima",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-21T13:31:25.949Z"
+    },
     {
       "id": "a7c9a10bd68eb038",
       "type": "cashIn",
