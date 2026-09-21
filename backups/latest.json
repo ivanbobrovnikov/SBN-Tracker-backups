@@ -9955,7 +9955,7 @@
       "id": "396e1bc8085b03d4",
       "ghlOpportunityId": "ZKW896WhlZlECJ9k7nLm",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-14T14:16:34.692Z",
@@ -10263,8 +10263,25 @@
     {
       "id": "582026627a07793c",
       "ghlOpportunityId": "r26CBTec5Brv33Ybq5HL",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "1db388e4c70b2c89",
+          "name": "Nano",
+          "price": 100,
+          "employeeId": "791dee90ad560e70",
+          "managerId": null,
+          "salesRepId": null
+        },
+        {
+          "id": "40418239dfdfaa35",
+          "name": "Removal",
+          "price": 200,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a",
+          "salesRepId": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-14T20:18:47.587Z",
