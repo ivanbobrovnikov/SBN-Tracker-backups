@@ -6191,7 +6191,7 @@
       "id": "8998e313e3f4b9a5",
       "ghlOpportunityId": "UV7MwWo66Hwc7ghVwvZv",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-04T21:16:17.782Z",
@@ -6201,8 +6201,12 @@
       "customerEmail": "",
       "contactId": "UV7MwWo66Hwc7ghVwvZv",
       "car": "DG 2013 Honda Civic S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "791dee90ad560e70",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Angelica, Naomi, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -7424,7 +7428,7 @@
       "id": "32025454ba39c75a",
       "ghlOpportunityId": "RBarwA4lNADnyLYgytJx",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-08T19:27:59.975Z",
@@ -9600,8 +9604,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-12T21:26:43.042Z",
       "date": "2026-09-21T15:00:00.000Z",
       "customerName": "Chris",
@@ -9621,7 +9625,9 @@
       "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "19d93d63ee988cb9",
