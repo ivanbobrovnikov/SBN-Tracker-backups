@@ -9131,7 +9131,7 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-11T19:41:34.093Z",
-      "date": "2026-09-22T13:00:00.000Z",
+      "date": "2026-09-23T12:00:00.000Z",
       "customerName": "Mike Milillo",
       "customerPhone": "(609) 352-4286",
       "customerEmail": "",
@@ -9567,8 +9567,8 @@
       "ghlOpportunityId": "MzaoommtZKySluW7xw3w",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-12T21:11:53.025Z",
       "date": "2026-09-21T13:00:00.000Z",
       "customerName": "Can Vu",
@@ -9590,7 +9590,9 @@
           "walkaround": "47214789188270a1-before-walkaround-bc40ba1777dce439.MOV"
         },
         "after": {}
-      }
+      },
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "2a15ea79dbf14c4a",
@@ -9932,7 +9934,15 @@
       "walkInClosedById": null,
       "walkInClosedByName": null,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "notes": [
+        {
+          "id": "b540b80f02a33ad5",
+          "text": "Tipped $15",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-09-22T15:31:17.296Z"
+        }
+      ]
     },
     {
       "id": "416030d87cd6ff2a",
@@ -10341,7 +10351,15 @@
       "basePrice": 495,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isOnlineBooking": false
+      "isOnlineBooking": false,
+      "notes": [
+        {
+          "id": "03e012e42c315995",
+          "text": "Tipped $159.26",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-09-22T14:58:58.923Z"
+        }
+      ]
     },
     {
       "id": "7989e93b927833e1",
@@ -10732,7 +10750,7 @@
       "id": "1b7c40e71c9820ad",
       "ghlOpportunityId": "klbRsZIG5bcORy5MsZBd",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-15T16:05:05.662Z",
@@ -13289,7 +13307,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 485,
       "calendarId": null,
       "syncedFromGHL": true
     }
@@ -13361,6 +13379,119 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-22T14:42:15.484Z",
+      "endpoint": "sync",
+      "matchedSaleId": "28bd74eb1dd4840e",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 485,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "Tesla model 3 2026",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "fWl78fnE4bsAGlkO0CAl",
+        "first_name": "Serginio",
+        "last_name": "Innocent",
+        "full_name": "Serginio Innocent",
+        "email": "finity12@gmail.com",
+        "phone": "+19084764332",
+        "tags": "",
+        "country": "US",
+        "date_created": "2026-09-22T00:26:09.484Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Serginio Innocent | ",
+        "status": "won",
+        "lead_value": 485,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "mZDiByVSEQWWrtzj9AxC",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "privacy 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256770250500011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "privacy 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256770250500011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "485",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "fWl78fnE4bsAGlkO0CAl"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-22T14:41:54.401Z",
       "endpoint": "sync",
@@ -20483,67 +20614,6 @@
           "contactId": "qmcEwbYKTorEXINYmf2K"
         }
       }
-    },
-    {
-      "receivedAt": "2026-09-19T20:25:20.410Z",
-      "endpoint": "sync",
-      "matchedSaleId": "740bb97c6094fccb",
-      "before": {
-        "basePrice": 0,
-        "salesRepName": "Unassigned"
-      },
-      "after": {
-        "basePrice": 499,
-        "salesRepName": "Walk-in (needs closer assigned)"
-      },
-      "body": {
-        "contact_id": "QV0yvHkNXOAZMwYmMF38",
-        "first_name": "william",
-        "last_name": "deterding",
-        "full_name": "william deterding",
-        "email": "adgroup1@aol.com",
-        "phone": "+16098709648",
-        "tags": "",
-        "country": "US",
-        "timezone": "America/New_York",
-        "date_created": "2026-09-19T19:47:28.481Z",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "William Deterding | ",
-        "status": "won",
-        "lead_value": 499,
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "OzHtlwnY0JXze6Pp7Xkf",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "customData": {
-          "basePrice": "499",
-          "salesRepName": "Roman Goldovsky",
-          "contactId": "QV0yvHkNXOAZMwYmMF38"
-        }
-      }
     }
   ],
   "attendance": [
@@ -22021,6 +22091,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "d8d90d5a0635ae1c",
+      "timestamp": "2026-09-22T14:47:37.314Z",
+      "actor": "Owner",
+      "saleId": "b9bebcda4f304d9e",
+      "car": "Mike 2021 Ram 1500 Paint Correction + water spot removal + 10yr coating 1000$-95",
+      "field": "Date/Time",
+      "oldValue": "2026-09-22T13:00:00.000Z",
+      "newValue": "2026-09-23T12:00:00.000Z"
+    },
     {
       "id": "72cd757ad7fbe251",
       "timestamp": "2026-09-21T17:52:41.494Z",
