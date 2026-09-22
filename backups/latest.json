@@ -1793,7 +1793,7 @@
       "id": "be02e12629b3f1e3",
       "ghlOpportunityId": "jdA8Pnm23jFTa85T2UO8",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-13T20:45:38.889Z",
@@ -4523,7 +4523,7 @@
       "id": "40b136af95933f98",
       "ghlOpportunityId": "PgJkTgDZeKjbxHesrI2G",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-01T16:30:13.892Z",
@@ -9127,7 +9127,7 @@
       "id": "b9bebcda4f304d9e",
       "ghlOpportunityId": "JMEMnmwLFOJu1B0OTRFI",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-11T19:41:34.093Z",
@@ -9817,7 +9817,7 @@
       "id": "00a3c544afdc0759",
       "ghlOpportunityId": "kilT4d4X78zSJblWpduT",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-13T13:40:34.123Z",
@@ -9827,8 +9827,12 @@
       "customerEmail": "",
       "contactId": "kilT4d4X78zSJblWpduT",
       "car": "DG 2026 Kia Sportage S+RTINT 330-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b",
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Angelica, Feso, Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -10779,7 +10783,7 @@
       "id": "30663fd8eb5b13ed",
       "ghlOpportunityId": "bNAxxGFmqdBbtGBzqCJo",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-15T16:55:47.934Z",
@@ -10797,7 +10801,13 @@
       "baseService": "Ceramic Coating",
       "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "photos": {
+        "before": {
+          "walkaround": "30663fd8eb5b13ed-before-walkaround-dad441454f6c0e5c.MOV"
+        },
+        "after": {}
+      }
     },
     {
       "id": "928601f8eac44196",
@@ -11004,7 +11014,7 @@
       "id": "1a17568aa3800992",
       "ghlOpportunityId": "GxFc8RKbbBTXB6DEZYSw",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-16T00:28:40.307Z",
@@ -11028,7 +11038,7 @@
       "id": "b3350a56eb6bc26b",
       "ghlOpportunityId": "nxhCRQMcNYDiNgO2F0rA",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-16T13:44:14.886Z",
@@ -11046,7 +11056,13 @@
       "baseService": "Ceramic Coating",
       "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "photos": {
+        "before": {
+          "walkaround": "b3350a56eb6bc26b-before-walkaround-3f947c3b035cd69f.MOV"
+        },
+        "after": {}
+      }
     },
     {
       "id": "f17e0d8102bb1023",
@@ -11383,7 +11399,7 @@
       "id": "9e6217d592cd8902",
       "ghlOpportunityId": "8mAcpclXGsK3qGdYvxdR",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-16T23:12:40.600Z",
@@ -11401,7 +11417,13 @@
       "baseService": "Ceramic Coating",
       "basePrice": 620,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "photos": {
+        "before": {
+          "walkaround": "9e6217d592cd8902-before-walkaround-4c188d18deacca41.MOV"
+        },
+        "after": {}
+      }
     },
     {
       "id": "e5ecdd674de2ed3a",
@@ -11936,7 +11958,7 @@
       "id": "bd326f7c93333330",
       "ghlOpportunityId": "EDd1JR12UofGncIGbdmy",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-18T14:46:41.960Z",
@@ -11954,7 +11976,13 @@
       "baseService": "Ceramic Coating",
       "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "photos": {
+        "before": {
+          "walkaround": "bd326f7c93333330-before-walkaround-8c5b55a00bf2338d.MOV"
+        },
+        "after": {}
+      }
     },
     {
       "id": "12aba5f6bbcce801",
@@ -21393,6 +21421,69 @@
       "personType": "manager",
       "personId": "19d1389561891623",
       "date": "2026-09-21",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "7c126bea036e64e6",
+      "personType": "employee",
+      "personId": "273b3cdb8e20e0d1",
+      "date": "2026-09-22",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "c8966260f47c30fe",
+      "personType": "employee",
+      "personId": "8ee8cc14340b4386",
+      "date": "2026-09-22",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "aa2d96997d4f17c8",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-09-22",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "1e74864de49c1062",
+      "personType": "employee",
+      "personId": "f6cf35e1607cb10f",
+      "date": "2026-09-22",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "62e235559d3c0dd4",
+      "personType": "employee",
+      "personId": "2a6751461c5b36ee",
+      "date": "2026-09-22",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "200d858109204b2c",
+      "personType": "manager",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-09-22",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "4ce8fe574db3d067",
+      "personType": "manager",
+      "personId": "19d1389561891623",
+      "date": "2026-09-22",
       "status": "present",
       "startTime": "",
       "endTime": ""
