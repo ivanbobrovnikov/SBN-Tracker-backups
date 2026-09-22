@@ -6475,7 +6475,7 @@
       "id": "f2df0bb0e7d4fa77",
       "ghlOpportunityId": "on5qtdtLSSXbdKKDnk7X",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-05T19:14:03.775Z",
@@ -6485,8 +6485,11 @@
       "customerEmail": "",
       "contactId": "on5qtdtLSSXbdKKDnk7X",
       "car": "DG 2025 Honda Civic S+RTINT 299-100depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f6cf35e1607cb10f",
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Javier, Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -10367,7 +10370,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-14T21:12:42.720Z",
       "date": "2026-09-21T14:00:00.000Z",
       "customerName": "Ralph Hilton",
@@ -10389,7 +10392,9 @@
           "walkaround": "7989e93b927833e1-before-walkaround-5c789ce8a002d44d.MOV"
         },
         "after": {}
-      }
+      },
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "cf06b052ea7c0577",
@@ -10760,8 +10765,12 @@
       "customerEmail": "",
       "contactId": "klbRsZIG5bcORy5MsZBd",
       "car": "DG 2010 Toyota Camry S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "791dee90ad560e70",
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Feso, Naomi, Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -12227,7 +12236,15 @@
       "paidCard": true,
       "paymentMethod": "card",
       "isWalkIn": false,
-      "isOnlineBooking": false
+      "isOnlineBooking": false,
+      "notes": [
+        {
+          "id": "4b07a0dcb9269a71",
+          "text": "Tipped $23.25",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-09-22T15:43:41.024Z"
+        }
+      ]
     },
     {
       "id": "0b2557d5952d601c",
@@ -12500,25 +12517,27 @@
       "id": "95c952bb2d57701a",
       "ghlOpportunityId": "CebLdIrWqnk1rdkL3Lzx",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-19T15:28:52.150Z",
-      "date": "2026-10-01T13:00:00.000Z",
+      "date": "2026-09-22T16:00:00.000Z",
       "customerName": "Berken Tekes",
       "customerPhone": "(609) 289-5858",
       "customerEmail": "",
       "contactId": "CebLdIrWqnk1rdkL3Lzx",
-      "car": "JA 2020 Mercedes C43 Ceramic 425-95 deposit",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
-      "salesRepId": null,
-      "salesRepName": "Walk-in (needs closer assigned)",
-      "baseService": "Ceramic Coating",
+      "car": "JA 2020 Mercedes Benz C43 S+R 299-25",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
+      "salesRepId": "3cdd54e91972de02",
+      "salesRepName": "Jared Aigner",
+      "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isWalkIn": true
+      "isWalkIn": false
     },
     {
       "id": "5020eefa991dac45",
@@ -25813,6 +25832,32 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "407e948c28a6a2ea",
+      "type": "cardExpense",
+      "amount": 115.59,
+      "category": "Tools",
+      "note": "Tint tools 44tools.com order number 254775",
+      "isOnline": true,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-22T15:53:29.236Z"
+    },
+    {
+      "id": "8c3cfc1b87332168",
+      "type": "cardExpense",
+      "amount": 170,
+      "category": "Supplies",
+      "note": "Graphtec Blades",
+      "isOnline": true,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-22T15:47:02.376Z"
+    },
     {
       "id": "d9680b8f4d5c7552",
       "type": "cashIn",
