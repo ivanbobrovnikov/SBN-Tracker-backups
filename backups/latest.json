@@ -10437,7 +10437,7 @@
       "ghlOpportunityId": "S5cH43MAhImuh7bhwsjy",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-09-14T21:24:35.992Z",
       "date": "2026-09-23T13:00:00.000Z",
@@ -10464,7 +10464,7 @@
       "id": "6f2b765877f9bcc6",
       "ghlOpportunityId": "TSLoBfjd9HptHIj8LrUo",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-14T21:52:56.076Z",
@@ -10474,8 +10474,10 @@
       "customerEmail": "",
       "contactId": "TSLoBfjd9HptHIj8LrUo",
       "car": "DG 2014 VW Passat S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -11032,8 +11034,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-15T20:50:08.512Z",
       "date": "2026-09-23T15:00:00.000Z",
       "customerName": "William Bupp",
@@ -11051,7 +11053,9 @@
       "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "204fdb6c78b7bf59",
@@ -11412,8 +11416,11 @@
       "customerEmail": "",
       "contactId": "ZzIqOljBYfXX0PtYv15a",
       "car": "DG 2015 Ford F250 S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Angelica, Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -14149,6 +14156,34 @@
       "basePrice": 275,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "9489db4ab52614e3",
+      "ghlOpportunityId": "2RCnnEhRbQmlAed40RxZ",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-23T17:08:40.458Z",
+      "date": "2026-09-24T14:00:00.000Z",
+      "customerName": "Tony Merlino",
+      "customerPhone": "(856) 236-8075",
+      "customerEmail": "",
+      "contactId": "2RCnnEhRbQmlAed40RxZ",
+      "car": "AG 2019 Ford F-150 two fronts $150",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Walk-in (booked by staff)",
+      "baseService": "Window Tint",
+      "basePrice": 150,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "isWalkIn": true,
+      "isOnlineBooking": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "ed55d50b916a979a",
+      "walkInClosedByName": "Aaron"
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -22463,6 +22498,16 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "39f08c61c8ed3c0f",
+      "timestamp": "2026-09-23T17:09:19.853Z",
+      "actor": "Aaron (manager)",
+      "saleId": "9489db4ab52614e3",
+      "car": "AG 2019 Ford F-150 two fronts $150",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 150
+    },
+    {
       "id": "d119b906a8a9713d",
       "timestamp": "2026-09-23T16:04:32.298Z",
       "actor": "Auto-sync (GHL)",
@@ -26414,6 +26459,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "573b2b48b926a99d",
+      "type": "cashIn",
+      "amount": 349,
+      "category": "Customer Payment",
+      "note": "2026 Ford F350",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-23T17:26:41.900Z"
+    },
     {
       "id": "12383b8aadc09fbb",
       "type": "cardExpense",
