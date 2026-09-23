@@ -7988,8 +7988,8 @@
       "ghlOpportunityId": "LD7iohDVF2D9UoccaP2L",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-09T14:14:37.511Z",
       "date": "2026-09-23T19:00:00.000Z",
       "customerName": "Christopher Hewski",
@@ -7997,8 +7997,10 @@
       "customerEmail": "",
       "contactId": "LD7iohDVF2D9UoccaP2L",
       "car": "Christopher Hewski",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Angelica",
       "salesRepId": null,
       "salesRepName": "Online Booking",
       "baseService": "Window Tint",
@@ -8009,7 +8011,9 @@
       "isWalkIn": false,
       "walkInClosedByType": null,
       "walkInClosedById": null,
-      "walkInClosedByName": null
+      "walkInClosedByName": null,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "91b6870b22059ece",
@@ -8400,8 +8404,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-09T20:02:19.482Z",
       "date": "2026-09-23T17:30:00.000Z",
       "customerName": "Daniel",
@@ -8426,7 +8430,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-09-23T18:33:06.215Z"
         }
-      ]
+      ],
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "82b1c50133c67956",
@@ -10500,8 +10506,8 @@
       "ghlOpportunityId": "TSLoBfjd9HptHIj8LrUo",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-14T21:52:56.076Z",
       "date": "2026-09-23T17:00:00.000Z",
       "customerName": "Daniel Romero Jr.",
@@ -10521,7 +10527,9 @@
       "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "efd6e760419e1b49",
@@ -10587,8 +10595,11 @@
       "customerEmail": "",
       "contactId": "KQVNmywBTK9Jo1xDeQqG",
       "car": "DG 2024 Acura Integra AllAroundTint 495-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Angelica, Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -12244,7 +12255,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-18T15:46:27.840Z",
       "date": "2026-09-23T13:00:00.000Z",
       "customerName": "John McLaughlin",
@@ -12260,7 +12271,9 @@
       "baseService": "Ceramic Coating",
       "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "e5c8d9f00317496f",
@@ -12433,14 +12446,14 @@
       "customerPhone": "(856) 343-9489",
       "customerEmail": "",
       "contactId": "dkQsYc59XsDIsePYCkgA",
-      "car": "DG 2024 Jeep Liberty S+RTINT 360-50depo",
+      "car": "DG 2024 Jeep Liberty S+RTINT&Sunstrip 410-50depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 410,
       "calendarId": null,
       "syncedFromGHL": true
     },
@@ -14203,8 +14216,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-23T16:25:39.108Z",
       "date": "2026-09-23T19:00:00.000Z",
       "customerName": "Randall L Turner",
@@ -14212,15 +14225,27 @@
       "customerEmail": "",
       "contactId": "nk52BBeF9fOvD8PqSvzc",
       "car": "DG 2024 Ford F150 S+RTINT 275-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 275,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "notes": [
+        {
+          "id": "d67fe0ad58c2a697",
+          "text": "Tipped $25",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-09-23T21:17:00.279Z"
+        }
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "9489db4ab52614e3",
@@ -14354,7 +14379,7 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-23T20:07:08.514Z",
-      "date": "2026-09-24T13:00:00.000Z",
+      "date": "2026-09-24T14:00:00.000Z",
       "customerName": "HEMANG PATEL",
       "customerPhone": "(908) 249-1666",
       "customerEmail": "",
@@ -14391,6 +14416,30 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
+      "calendarId": null,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "faf7754312fc0d33",
+      "ghlOpportunityId": "0aCH7c6uPLiXcfBnmBr1",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-23T21:31:10.787Z",
+      "date": "2026-09-29T20:00:00.000Z",
+      "customerName": "",
+      "customerPhone": "(609) 676-6855",
+      "customerEmail": "",
+      "contactId": "0aCH7c6uPLiXcfBnmBr1",
+      "car": "DG 2018 Chevy Malibu S+RTINT 299-50depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 0,
       "calendarId": null,
       "syncedFromGHL": true
     }
@@ -14462,6 +14511,113 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-23T20:42:17.169Z",
+      "endpoint": "sync",
+      "matchedSaleId": "30b719399fe798ba",
+      "before": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 410,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2024 jeep liberty",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "dkQsYc59XsDIsePYCkgA",
+        "first_name": "Keasha",
+        "last_name": "Matthews",
+        "full_name": "Keasha Matthews",
+        "email": "keashamatthews21@gmail.com",
+        "phone": "+18563439489",
+        "tags": "tint",
+        "country": "US",
+        "date_created": "2026-09-18T20:03:24.238Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Keasha Matthews | ",
+        "status": "won",
+        "lead_value": 410,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "9Z4FwEgZayFEoSmP8YLN",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "summer is almost over 299 w/price - Copy",
+            "adSetId": "120254638050770011",
+            "adId": "120256476338090011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "facebook",
+            "mediumId": "28720522044250751",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "pSid": "28720522044250751"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "410",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "dkQsYc59XsDIsePYCkgA"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-23T20:20:33.109Z",
       "endpoint": "sync",
@@ -22022,113 +22178,6 @@
         "dEGLT41AjH8pgzbekfUg",
         null
       ]
-    },
-    {
-      "receivedAt": "2026-09-22T23:24:49.009Z",
-      "endpoint": "sync",
-      "matchedSaleId": "5deaeb9570ff3ca2",
-      "before": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "2024 Ford Explorer",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "dEGLT41AjH8pgzbekfUg",
-        "first_name": "Anthony",
-        "last_name": "DeRosa",
-        "full_name": "Anthony DeRosa",
-        "email": "anthonyvderosa@gmail.com",
-        "phone": "+16092213717",
-        "tags": "",
-        "country": "US",
-        "date_created": "2026-07-07T03:30:30.694Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Anthony DeRosa | ",
-        "status": "won",
-        "lead_value": 499,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "SSQwjRYPcn1M6GqLdX9w",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating",
-            "utm_campaign": "ceramic coating",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "grand opening 499",
-            "adSetId": "120255090573730011",
-            "adId": "120255139145580011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "facebook",
-            "mediumId": "37803403679246648",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "pSid": "37803403679246648"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "499",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "dEGLT41AjH8pgzbekfUg"
-        }
-      }
     }
   ],
   "attendance": [
@@ -23687,6 +23736,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "ee03f6c540043e70",
+      "timestamp": "2026-09-23T21:04:21.681Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "30b719399fe798ba",
+      "car": "DG 2024 Jeep Liberty S+RTINT&Sunstrip 410-50depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2024 Jeep Liberty S+RTINT 360-50depo",
+      "newValue": "DG 2024 Jeep Liberty S+RTINT&Sunstrip 410-50depo"
+    },
     {
       "id": "68e9ef327229d5a4",
       "timestamp": "2026-09-23T20:04:50.161Z",
@@ -27679,6 +27738,45 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "03d2c596c060ab38",
+      "type": "cashIn",
+      "amount": 250,
+      "category": "Customer Payment",
+      "note": "2024 Hyundai Venue",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-23T21:25:44.600Z"
+    },
+    {
+      "id": "0657b653b3363864",
+      "type": "cardExpense",
+      "amount": 120.25,
+      "category": "Supplies",
+      "note": "Walmart",
+      "isOnline": false,
+      "receiptPhoto": "undefined-undefined-undefined-c6827389b791b62b.jpeg",
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-23T20:38:16.093Z"
+    },
+    {
+      "id": "6690f9d0e338cb00",
+      "type": "cashIn",
+      "amount": 325,
+      "category": "Customer Payment",
+      "note": "2014 Mercedes Benz E class",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-23T20:37:26.518Z"
+    },
     {
       "id": "f3dab0b38add6d2b",
       "type": "cardExpense",
