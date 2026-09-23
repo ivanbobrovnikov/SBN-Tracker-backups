@@ -7987,7 +7987,7 @@
       "id": "560fe0203ed1aba3",
       "ghlOpportunityId": "LD7iohDVF2D9UoccaP2L",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-09T14:14:37.511Z",
@@ -8389,7 +8389,16 @@
     {
       "id": "0e11048a7d2b643f",
       "ghlOpportunityId": "YhW0JflckEfWJRNpffp4",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "18131881c039b038",
+          "name": "Visor Strip",
+          "price": 100,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a",
+          "salesRepId": null
+        }
+      ],
       "status": "arrived",
       "completed": false,
       "paid": false,
@@ -10550,7 +10559,7 @@
       "id": "946ea457b2524033",
       "ghlOpportunityId": "KQVNmywBTK9Jo1xDeQqG",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-15T12:36:35.728Z",
@@ -11419,8 +11428,8 @@
       "ghlOpportunityId": "ZzIqOljBYfXX0PtYv15a",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-16T19:58:51.284Z",
       "date": "2026-09-23T16:00:00.000Z",
       "customerName": "Brian",
@@ -11439,7 +11448,9 @@
       "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "289c9021705e3e25",
@@ -14150,8 +14161,17 @@
     {
       "id": "1cedcee5326e6021",
       "ghlOpportunityId": "nk52BBeF9fOvD8PqSvzc",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "930e9da41dca9bf7",
+          "name": "Nano",
+          "price": 100,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a",
+          "salesRepId": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-23T16:25:39.108Z",
@@ -14198,6 +14218,54 @@
       "walkInClosedByType": "manager",
       "walkInClosedById": "ed55d50b916a979a",
       "walkInClosedByName": "Aaron"
+    },
+    {
+      "id": "c108d2c2a9d26638",
+      "ghlOpportunityId": "BpLeiUYG0PU1DWF98FUp",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-23T18:52:59.041Z",
+      "date": "2026-10-06T13:00:00.000Z",
+      "customerName": "Joseph F Chille",
+      "customerPhone": "(609) 226-5399",
+      "customerEmail": "",
+      "contactId": "BpLeiUYG0PU1DWF98FUp",
+      "car": "Gio | 2026 Honda HRV 499$ | 95 Deposit",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Walk-in (needs closer assigned)",
+      "baseService": "Ceramic Coating",
+      "basePrice": 499,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "isWalkIn": true
+    },
+    {
+      "id": "081207884eff2cc8",
+      "ghlOpportunityId": "e1S6UaNxQs1XWnJYotmN",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-23T18:53:47.257Z",
+      "date": "2026-09-30T19:00:00.000Z",
+      "customerName": "PHUONG HUYNH",
+      "customerPhone": "(609) 594-6652",
+      "customerEmail": "",
+      "contactId": "e1S6UaNxQs1XWnJYotmN",
+      "car": "DG 2026 Acura Integra S+RTINT&Sunstrip 380-50depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 0,
+      "calendarId": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -14267,6 +14335,114 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-23T18:52:59.697Z",
+      "endpoint": "sync",
+      "matchedSaleId": "c108d2c2a9d26638",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Walk-in (needs closer assigned)"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "Year, Make, Model of the vehicle.": "2026 Honda HRV Crystal Black",
+        "Where is the damage located on your vehicle?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "BpLeiUYG0PU1DWF98FUp",
+        "first_name": "Joseph",
+        "last_name": "F Chille",
+        "full_name": "Joseph F Chille",
+        "email": "josephfchille@gmail.com",
+        "phone": "+16092265399",
+        "tags": "coating",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-09-16T21:24:28.199Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Joseph F Chille | ",
+        "status": "won",
+        "lead_value": 499,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "BbcwbtlegpjU6PLOhsRe",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "868814779620228",
+            "medium": "facebook",
+            "formId": "868814779620228",
+            "formName": "499 10 year coatijng",
+            "campaign": "ceramic coating",
+            "utm_campaign": "ceramic coating",
+            "campaignId": "120255090573720011",
+            "utmMedium": "10 year 499",
+            "utmContent": "grand opening 499",
+            "adSetId": "120255090573730011",
+            "adId": "120255139145580011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "instagram",
+            "mediumId": "1110402918092487",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "igSid": "1110402918092487"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "BpLeiUYG0PU1DWF98FUp"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-23T16:26:17.639Z",
       "endpoint": "sync",
@@ -20853,106 +21029,6 @@
           "contactId": "RKokzclBZPDZQXSQekZ7"
         }
       }
-    },
-    {
-      "receivedAt": "2026-09-22T22:20:53.618Z",
-      "endpoint": "sync",
-      "matchedSaleId": "599a824fde22e7c0",
-      "before": {
-        "basePrice": 0,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 285,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "2017 Genesis G80",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "RKokzclBZPDZQXSQekZ7",
-        "first_name": "queen_vonie",
-        "last_name": "Gem",
-        "full_name": "queen_vonie Gem",
-        "email": "vonieakacutie@gmail.com",
-        "phone": "+18626680722",
-        "tags": "tint",
-        "country": "US",
-        "date_created": "2026-09-06T14:42:41.570Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Queen_vonie Gem | ",
-        "status": "won",
-        "lead_value": 285,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "s7JCcwlvqXsxVcCsxVXy",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "ad 1 299",
-            "adSetId": "120254638050770011",
-            "adId": "120254652145930011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "1008701412228365",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "1008701412228365"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "285",
-          "salesRepName": "",
-          "contactId": "RKokzclBZPDZQXSQekZ7"
-        }
-      }
     }
   ],
   "attendance": [
@@ -22511,6 +22587,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "0f03efb75225b5a5",
+      "timestamp": "2026-09-23T19:04:46.029Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "c108d2c2a9d26638",
+      "car": "Gio | 2026 Honda HRV 499$ | 95 Deposit",
+      "field": "Car/Title",
+      "oldValue": "Gio | 2026 Honda HRV 499$ | 95 Deposit ",
+      "newValue": "Gio | 2026 Honda HRV 499$ | 95 Deposit"
+    },
     {
       "id": "d75ec1797a3caaeb",
       "timestamp": "2026-09-23T18:33:28.946Z",
@@ -26483,6 +26569,32 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "f3dab0b38add6d2b",
+      "type": "cardExpense",
+      "amount": 120.9,
+      "category": "Customer Payment",
+      "note": "New pump sprayers ours just broke and new clay towels",
+      "isOnline": true,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "19d1389561891623",
+      "enteredByName": "Gio",
+      "timestamp": "2026-09-23T19:09:49.010Z"
+    },
+    {
+      "id": "da01f3f9806bfc77",
+      "type": "cashIn",
+      "amount": 250,
+      "category": "Customer Payment",
+      "note": "2015 Ford F250",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-23T18:39:06.537Z"
+    },
     {
       "id": "573b2b48b926a99d",
       "type": "cashIn",
