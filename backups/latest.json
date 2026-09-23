@@ -9154,7 +9154,7 @@
       "id": "b9bebcda4f304d9e",
       "ghlOpportunityId": "JMEMnmwLFOJu1B0OTRFI",
       "upsells": [],
-      "status": "no_show",
+      "status": "pending",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-11T19:41:34.093Z",
@@ -22862,6 +22862,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "51aa64d503e211a5",
+      "timestamp": "2026-09-23T02:04:01.613Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "b9bebcda4f304d9e",
+      "car": "Mike 2021 Ram 1500 Paint Correction + water spot removal + 10yr coating 1000$-95",
+      "field": "Car/Title",
+      "oldValue": "Mike 2021 Ram 1500 one step + water spot removal + 10yr coating 1000$-95",
+      "newValue": "Mike 2021 Ram 1500 Paint Correction + water spot removal + 10yr coating 1000$-95"
+    },
+    {
+      "id": "fc65b14fe406a97a",
+      "timestamp": "2026-09-23T01:52:01.435Z",
+      "actor": "Gio (manager)",
+      "saleId": "b9bebcda4f304d9e",
+      "car": "Mike 2021 Ram 1500 Paint Correction + water spot removal + 10yr coating 1000$-95",
+      "field": "Car/Title",
+      "oldValue": "Mike 2021 Ram 1500 Paint Correction + water spot removal + 10yr coating 1000$-95",
+      "newValue": "Mike 2021 Ram 1500 one step + water spot removal + 10yr coating 1000$-95"
+    },
     {
       "id": "91b3fa6404a3f2fb",
       "timestamp": "2026-09-23T01:30:54.450Z",
