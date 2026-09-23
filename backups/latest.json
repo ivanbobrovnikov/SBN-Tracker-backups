@@ -10529,7 +10529,15 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "notes": [
+        {
+          "id": "96ab92dd1bc8c740",
+          "text": "Tipped $10",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-09-23T21:38:15.360Z"
+        }
+      ]
     },
     {
       "id": "efd6e760419e1b49",
@@ -10586,8 +10594,8 @@
       "ghlOpportunityId": "KQVNmywBTK9Jo1xDeQqG",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-15T12:36:35.728Z",
       "date": "2026-09-23T19:30:00.000Z",
       "customerName": "Hunter Johnson",
@@ -10597,16 +10605,19 @@
       "car": "DG 2024 Acura Integra AllAroundTint 495-50depo",
       "employeeIds": [
         "273b3cdb8e20e0d1",
-        "f6cf35e1607cb10f"
+        "f6cf35e1607cb10f",
+        "791dee90ad560e70"
       ],
-      "employeeNames": "Angelica, Javier",
+      "employeeNames": "Angelica, Javier, Naomi",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "b5293124e9022a89",
@@ -10796,7 +10807,7 @@
       "id": "8ddd9c16deb470bd",
       "ghlOpportunityId": "K11MXPqgWNjsv1mNjBLe",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-15T15:04:11.732Z",
@@ -10814,7 +10825,13 @@
       "baseService": "Ceramic Coating",
       "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "photos": {
+        "before": {
+          "walkaround": "8ddd9c16deb470bd-before-walkaround-fb38fd1c61c6909d.MOV"
+        },
+        "after": {}
+      }
     },
     {
       "id": "77790a3dd55da3b4",
@@ -11743,8 +11760,10 @@
       "customerEmail": "",
       "contactId": "QNQnGu4dMZQSdJpbzIDs",
       "car": "DG 2021 Benz Aclass 4Doors&FrontWindsheild 435-50dpeo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -12326,8 +12345,18 @@
     {
       "id": "4974af68f1be056a",
       "ghlOpportunityId": "OjY1XnAp03pv9PPq7Fns",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "f1d86854e9f42ab5",
+          "name": "Nano Tint",
+          "price": 399,
+          "employeeId": null,
+          "managerId": "19d1389561891623",
+          "salesRepId": null,
+          "salesRepName": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-18T17:07:33.992Z",
@@ -12345,7 +12374,15 @@
       "baseService": "Ceramic Coating",
       "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "notes": [
+        {
+          "id": "ef5599d18baf03ec",
+          "text": "20% sides and rear",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-09-23T21:42:24.456Z"
+        }
+      ]
     },
     {
       "id": "35af4b5acf54ade8",
@@ -12890,7 +12927,7 @@
       "id": "740bb97c6094fccb",
       "ghlOpportunityId": "QV0yvHkNXOAZMwYmMF38",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-19T19:47:44.043Z",
@@ -12908,7 +12945,13 @@
       "basePrice": 499,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isWalkIn": true
+      "isWalkIn": true,
+      "photos": {
+        "before": {
+          "walkaround": "740bb97c6094fccb-before-walkaround-68a1c391ab5498e9.MOV"
+        },
+        "after": {}
+      }
     },
     {
       "id": "09bb4f2dbe872fbc",
@@ -14433,6 +14476,30 @@
       "customerEmail": "",
       "contactId": "0aCH7c6uPLiXcfBnmBr1",
       "car": "DG 2018 Chevy Malibu S+RTINT 299-50depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 0,
+      "calendarId": null,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "385c9f0485fb72ef",
+      "ghlOpportunityId": "izlIURvyRZXiNhDvZAmp",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-23T22:21:07.502Z",
+      "date": "2026-10-02T20:00:00.000Z",
+      "customerName": "Mohammad Halayqa",
+      "customerPhone": "(267) 901-8439",
+      "customerEmail": "",
+      "contactId": "izlIURvyRZXiNhDvZAmp",
+      "car": "DG 2024 Chevy Trax S+RTINT 260-50depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
