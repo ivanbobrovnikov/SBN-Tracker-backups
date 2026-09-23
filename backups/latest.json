@@ -8390,7 +8390,7 @@
       "id": "0e11048a7d2b643f",
       "ghlOpportunityId": "YhW0JflckEfWJRNpffp4",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-09T20:02:19.482Z",
@@ -8406,10 +8406,18 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 400,
+      "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isOnlineBooking": false
+      "isOnlineBooking": false,
+      "notes": [
+        {
+          "id": "263abdaa476cc2ce",
+          "text": "Changed his mind to Sides, rear, strip",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-09-23T18:33:06.215Z"
+        }
+      ]
     },
     {
       "id": "82b1c50133c67956",
@@ -10475,9 +10483,11 @@
       "contactId": "TSLoBfjd9HptHIj8LrUo",
       "car": "DG 2014 VW Passat S+RTINT 299-50depo",
       "employeeIds": [
-        "f9d9bfc4e797e38b"
+        "f9d9bfc4e797e38b",
+        "791dee90ad560e70",
+        "273b3cdb8e20e0d1"
       ],
-      "employeeNames": "Feso",
+      "employeeNames": "Feso, Naomi, Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -11140,7 +11150,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-16T13:44:14.886Z",
       "date": "2026-09-22T13:00:00.000Z",
       "customerName": "Murray Bauer",
@@ -11162,7 +11172,9 @@
           "walkaround": "b3350a56eb6bc26b-before-walkaround-3f947c3b035cd69f.MOV"
         },
         "after": {}
-      }
+      },
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "f17e0d8102bb1023",
@@ -12084,7 +12096,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-18T14:46:41.960Z",
       "date": "2026-09-22T13:00:00.000Z",
       "customerName": "Eric Swanson",
@@ -12106,7 +12118,9 @@
           "walkaround": "bd326f7c93333330-before-walkaround-8c5b55a00bf2338d.MOV"
         },
         "after": {}
-      }
+      },
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "12aba5f6bbcce801",
@@ -22497,6 +22511,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "d75ec1797a3caaeb",
+      "timestamp": "2026-09-23T18:33:28.946Z",
+      "actor": "Aaron (manager)",
+      "saleId": "0e11048a7d2b643f",
+      "car": "DG 2014 Mercedes-Benz AllAroundTINT 400-75depo",
+      "field": "Base price",
+      "oldValue": 400,
+      "newValue": 299
+    },
     {
       "id": "39f08c61c8ed3c0f",
       "timestamp": "2026-09-23T17:09:19.853Z",
