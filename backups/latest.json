@@ -10358,8 +10358,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-14T20:18:47.587Z",
       "date": "2026-09-21T20:00:00.000Z",
       "customerName": "Will Laws",
@@ -10388,7 +10388,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-09-22T14:58:58.923Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "7989e93b927833e1",
@@ -13149,9 +13151,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "ac0d1f0f36507bfe",
@@ -13245,9 +13248,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 305,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "bb542687a8666d11",
@@ -13269,9 +13273,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 305,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "c023d685b81195bd",
@@ -13293,9 +13298,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "e67ce3da626e91d7",
@@ -13317,9 +13323,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "8d33108a6468d0ce",
@@ -13341,9 +13348,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 120,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "2d3b7dfa5398ccf2",
@@ -13413,9 +13421,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "af308814f94a6234",
@@ -13437,9 +13446,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 485,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "124af0d9c556b6b2",
@@ -13485,9 +13495,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 650,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "01afbe05dd88eb72",
@@ -13581,9 +13592,10 @@
       "salesRepName": "Bobomurod Hamdamov",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "2193b21739bcaff5",
@@ -13677,9 +13689,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "599a824fde22e7c0",
@@ -13755,7 +13768,7 @@
     },
     {
       "id": "0b35afde139c0a58",
-      "date": "2026-09-22T17:00",
+      "date": "2026-09-22T21:00:00.000Z",
       "customerName": "Vincent Perrotta",
       "car": "2022 Ram 1500",
       "employeeIds": [
@@ -13763,15 +13776,22 @@
         "791dee90ad560e70"
       ],
       "employeeNames": "Feso, Naomi",
-      "baseService": "",
+      "baseService": "Window Tint",
       "basePrice": 499,
       "syncedFromGHL": false,
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "isOnlineBooking": true,
+      "salesRepId": null,
+      "salesRepName": "Online Booking",
+      "isWalkIn": false,
+      "walkInClosedByType": null,
+      "walkInClosedById": null,
+      "walkInClosedByName": null
     },
     {
       "id": "49b5d71129377fa1",
@@ -22842,6 +22862,146 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "91b3fa6404a3f2fb",
+      "timestamp": "2026-09-23T01:30:54.450Z",
+      "actor": "Owner",
+      "saleId": "4c668c16f3f6598c",
+      "car": "DG 2022 Porsche Tycan S+RTINT 299-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "cae2ae25cd0db6bd",
+      "timestamp": "2026-09-23T01:30:46.241Z",
+      "actor": "Owner",
+      "saleId": "721252445e8ed3ae",
+      "car": "BH Nana 2023 Ram 1500 S+R $299-$50 deposit",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "fc030a033bfe9fd6",
+      "timestamp": "2026-09-23T01:30:38.049Z",
+      "actor": "Owner",
+      "saleId": "ab9d52a36dd967d6",
+      "car": "DG 2014 Chevy Silverado frontwindshield&2Frontwindows 305-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 305
+    },
+    {
+      "id": "8171556f36a63a8c",
+      "timestamp": "2026-09-23T01:30:12.324Z",
+      "actor": "Owner",
+      "saleId": "bb542687a8666d11",
+      "car": "DG 2014 Chevy Silverado FrontWindsheild and 2 frontwindows 305-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 305
+    },
+    {
+      "id": "22185079188ffc0b",
+      "timestamp": "2026-09-23T01:29:53.692Z",
+      "actor": "Owner",
+      "saleId": "8d33108a6468d0ce",
+      "car": "DG 2006 Honda Accord FrontWindsheildRemoval 120-25depo KeepHisInscpctionStickers",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 120
+    },
+    {
+      "id": "02e47625e3d262ae",
+      "timestamp": "2026-09-23T01:29:42.645Z",
+      "actor": "Owner",
+      "saleId": "c023d685b81195bd",
+      "car": "DG 2020 Lexus LS500 CeramicCoating 499-90depo GIO Makeitshine",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "0b8ad596021cd824",
+      "timestamp": "2026-09-23T01:29:32.645Z",
+      "actor": "Owner",
+      "saleId": "b08443e598290b81",
+      "car": "DG 2019 Black Acura RDX CeramicCoating&Rims 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "ce78e6a7a4f95063",
+      "timestamp": "2026-09-23T01:29:25.841Z",
+      "actor": "Owner",
+      "saleId": "e67ce3da626e91d7",
+      "car": "DG 2022 Honda Civic S+RTINT 299-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "2273f7706ee1fabd",
+      "timestamp": "2026-09-23T01:29:18.602Z",
+      "actor": "Owner",
+      "saleId": "af308814f94a6234",
+      "car": "DG 2026 Toyota Corolla AllAroundTInt 485-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 485
+    },
+    {
+      "id": "6a1400a45e296e2e",
+      "timestamp": "2026-09-23T01:24:00.169Z",
+      "actor": "Owner",
+      "saleId": "173fb64faa23a318",
+      "car": "DG 2018 Jaguar F-Pace CeramicCoating&Step1&Rims&Windshield 650-90depo GIO Remove waterspots",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 650
+    },
+    {
+      "id": "9e3be2605154e7d2",
+      "timestamp": "2026-09-23T01:23:52.529Z",
+      "actor": "Owner",
+      "saleId": "0b35afde139c0a58",
+      "car": "2022 Ram 1500",
+      "field": "Sales rep",
+      "oldValue": null,
+      "newValue": "Online Booking"
+    },
+    {
+      "id": "60f27eb9f379e21a",
+      "timestamp": "2026-09-23T01:23:35.135Z",
+      "actor": "Owner",
+      "saleId": "8198b330883585ec",
+      "car": "DG 2022 Hyundai Elantra N CeramicCoating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "32c1d90cc26ffba0",
+      "timestamp": "2026-09-23T00:49:38.604Z",
+      "actor": "Owner",
+      "saleId": "0b35afde139c0a58",
+      "car": "2022 Ram 1500",
+      "field": "Date/Time",
+      "oldValue": "2026-09-22T17:00",
+      "newValue": "2026-09-22T21:00:00.000Z"
+    },
+    {
+      "id": "159c1bd8ca407a74",
+      "timestamp": "2026-09-23T00:49:15.083Z",
+      "actor": "Owner",
+      "saleId": "0b35afde139c0a58",
+      "car": "2022 Ram 1500",
+      "field": "Service",
+      "oldValue": "",
+      "newValue": "Window Tint"
+    },
     {
       "id": "010edc1d49f19b2d",
       "timestamp": "2026-09-22T20:43:06.646Z",
