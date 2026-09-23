@@ -11661,7 +11661,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-17T16:43:44.738Z",
       "date": "2026-09-19T13:00:00.000Z",
       "customerName": "Raj Hibbert",
@@ -11675,9 +11675,11 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 499,
+      "basePrice": 480,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "28f012b3e9a69b55",
@@ -22862,6 +22864,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "0ba12cf6222ef01c",
+      "timestamp": "2026-09-23T03:57:25.861Z",
+      "actor": "Owner",
+      "saleId": "f01baae839ec0481",
+      "car": "DG 2020 Blue BMW X6 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 480
+    },
     {
       "id": "51aa64d503e211a5",
       "timestamp": "2026-09-23T02:04:01.613Z",
