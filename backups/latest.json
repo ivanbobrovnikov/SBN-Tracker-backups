@@ -11600,7 +11600,7 @@
       "id": "a4c266545350728d",
       "ghlOpportunityId": "jcjVkncmW0N3qTogiaXy",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-16T21:40:00.194Z",
@@ -11706,8 +11706,8 @@
       "ghlOpportunityId": "jGonUz9oeC6gg0ozMeCf",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-17T13:41:22.711Z",
       "date": "2026-09-24T17:00:00.000Z",
       "customerName": "Dave Crossan",
@@ -11717,16 +11717,19 @@
       "car": "DG 2017 Chevy Tahoe S+RTINT&remove2front 450-50depo",
       "employeeIds": [
         "273b3cdb8e20e0d1",
-        "f6cf35e1607cb10f"
+        "f6cf35e1607cb10f",
+        "f9d9bfc4e797e38b"
       ],
-      "employeeNames": "Angelica, Javier",
+      "employeeNames": "Angelica, Javier, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 450,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "229753b77726b261",
@@ -11939,7 +11942,7 @@
       "id": "3d82702590c7fd77",
       "ghlOpportunityId": "MVbaBG5RDx1tqlXV7Cze",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-17T18:55:05.162Z",
@@ -12025,8 +12028,13 @@
       "customerEmail": "",
       "contactId": "CpeEwFFQkMcbwXf4zpc7",
       "car": "DG 2007 Benz E350 S+RTINT&Removal 499-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "791dee90ad560e70",
+        "f6cf35e1607cb10f",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Angelica, Naomi, Javier, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -12193,9 +12201,9 @@
       "id": "c1143411000da69c",
       "ghlOpportunityId": "lfS1GhwVEKJp2tA4wI4w",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-18T14:37:33.094Z",
       "date": "2026-09-24T19:00:00.000Z",
       "customerName": "Chase",
@@ -12203,15 +12211,21 @@
       "customerEmail": "",
       "contactId": "lfS1GhwVEKJp2tA4wI4w",
       "car": "DG 2025 Honda Civic S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "273b3cdb8e20e0d1",
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Feso, Angelica, Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "bd326f7c93333330",
@@ -12379,7 +12393,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-18T16:39:18.792Z",
       "date": "2026-09-24T13:00:00.000Z",
       "customerName": "Siji Anand",
@@ -12401,7 +12415,9 @@
           "walkaround": "68925f099044a841-before-walkaround-fee0966278d8905e.MOV"
         },
         "after": {}
-      }
+      },
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "4974af68f1be056a",
@@ -12418,8 +12434,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-18T17:07:33.992Z",
       "date": "2026-09-24T13:00:00.000Z",
       "customerName": "MICHAE PHILLIPS",
@@ -12427,8 +12443,11 @@
       "customerEmail": "",
       "contactId": "OjY1XnAp03pv9PPq7Fns",
       "car": "DG 2018 Toyota Highlander Ceramic Coating 499-95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "791dee90ad560e70",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Naomi, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -12449,7 +12468,10 @@
           "walkaround": "4974af68f1be056a-before-walkaround-30212de35d9212e2.MOV"
         },
         "after": {}
-      }
+      },
+      "paidCash": true,
+      "paymentMethod": "both",
+      "paidCard": true
     },
     {
       "id": "35af4b5acf54ade8",
@@ -12689,7 +12711,7 @@
       "id": "1a7596583d04391b",
       "ghlOpportunityId": "vcElPv3j40vwTfAC9LDu",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-18T23:05:25.175Z",
@@ -12699,8 +12721,10 @@
       "customerEmail": "",
       "contactId": "vcElPv3j40vwTfAC9LDu",
       "car": "DG 2017 Ram 1500 2frontwindows&Frontwindsheild&Remove2front 379-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -14271,7 +14295,7 @@
       "id": "cb1dbdbb92e989ce",
       "ghlOpportunityId": "CTO9D2Wc3JwzUlPxip0d",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-23T14:45:46.576Z",
@@ -14281,8 +14305,11 @@
       "customerEmail": "",
       "contactId": "CTO9D2Wc3JwzUlPxip0d",
       "car": "DG 2023 Nissan Altima S+RTINT 280-10depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "791dee90ad560e70"
+      ],
+      "employeeNames": "Angelica, Naomi",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -14907,6 +14934,30 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 700,
+      "calendarId": null,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "bccb72cbd6b84ec9",
+      "ghlOpportunityId": "5yOxBtbjlp02xqOygB4v",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-24T21:16:39.243Z",
+      "date": "2026-10-17T17:00:00.000Z",
+      "customerName": "Thurll.antt",
+      "customerPhone": "(856) 916-8534",
+      "customerEmail": "",
+      "contactId": "5yOxBtbjlp02xqOygB4v",
+      "car": "DG 2020 Chevy Silverado FrontWindsheildTint 195-50depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 0,
       "calendarId": null,
       "syncedFromGHL": true
     }
@@ -26451,6 +26502,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "e627e8011b7ef455",
+      "type": "cashIn",
+      "amount": 705,
+      "category": "Customer Payment",
+      "note": "2018 Toyota Highlander",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-24T21:00:01.000Z"
+    },
     {
       "id": "c44ae478f6632b76",
       "type": "cashIn",
