@@ -8125,7 +8125,7 @@
       "ghlOpportunityId": "eXRd9U4y6HEozIKu0dKX",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-09-09T16:08:22.792Z",
       "date": "2026-09-24T13:00:00.000Z",
@@ -8136,9 +8136,10 @@
       "car": "DG 2007 Volvo XC70 Cross Country AllAroundTint 540-50depo",
       "employeeIds": [
         "273b3cdb8e20e0d1",
-        "791dee90ad560e70"
+        "791dee90ad560e70",
+        "f9d9bfc4e797e38b"
       ],
-      "employeeNames": "Angelica, Naomi",
+      "employeeNames": "Angelica, Naomi, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -8529,7 +8530,7 @@
       "id": "e2a52db41864ef77",
       "ghlOpportunityId": "vA3LqrL3V24hWhCMHGcU",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-10T13:04:00.922Z",
@@ -8539,8 +8540,11 @@
       "customerEmail": "",
       "contactId": "vA3LqrL3V24hWhCMHGcU",
       "car": "DG 2027 Toyota Prius S+RTINT 299-100depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "791dee90ad560e70"
+      ],
+      "employeeNames": "Feso, Naomi",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -11087,7 +11091,7 @@
       "id": "11bc40d3526d13a7",
       "ghlOpportunityId": "uxxEv1JaHXWd3KV1TxcU",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-15T19:11:21.150Z",
@@ -11691,7 +11695,7 @@
       "id": "d7e458ffc0a6fe36",
       "ghlOpportunityId": "jGonUz9oeC6gg0ozMeCf",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-17T13:41:22.711Z",
@@ -11701,8 +11705,10 @@
       "customerEmail": "",
       "contactId": "jGonUz9oeC6gg0ozMeCf",
       "car": "DG 2017 Chevy Tahoe S+RTINT&remove2front 450-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -14375,16 +14381,14 @@
       "completed": true,
       "paid": true,
       "closedAt": "2026-09-23T17:08:40.458Z",
-      "date": "2026-09-24T14:00:00.000Z",
+      "date": "2026-09-24T17:00:00.000Z",
       "customerName": "Tony Merlino",
       "customerPhone": "(856) 236-8075",
       "customerEmail": "",
       "contactId": "2RCnnEhRbQmlAed40RxZ",
-      "car": "AG 2019 Ford F-150 two fronts $150",
-      "employeeIds": [
-        "f9d9bfc4e797e38b"
-      ],
-      "employeeNames": "Feso",
+      "car": "AG 2007 Chevy Silverado Back Windshield",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
       "salesRepId": null,
       "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Window Tint",
@@ -14397,7 +14401,11 @@
       "walkInClosedById": "ed55d50b916a979a",
       "walkInClosedByName": "Aaron",
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "c108d2c2a9d26638",
@@ -14782,7 +14790,7 @@
       "customerPhone": "(856) 261-3563",
       "customerEmail": "",
       "contactId": "jNW8TU0XYEBcOyxasP9s",
-      "car": "DG 2026 Acura MDX S+RTINT 340-50depo ",
+      "car": "DG 2026 Acura MDX S+RTINT 340-50depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -22705,6 +22713,36 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "a8874f2b99259f73",
+      "timestamp": "2026-09-24T16:44:19.485Z",
+      "actor": "Aaron (manager)",
+      "saleId": "9489db4ab52614e3",
+      "car": "AG 2019 Ford F-150 two fronts $150",
+      "field": "Base price",
+      "oldValue": 75,
+      "newValue": 150
+    },
+    {
+      "id": "1d67b089051a3642",
+      "timestamp": "2026-09-24T16:27:06.993Z",
+      "actor": "Aaron (manager)",
+      "saleId": "9489db4ab52614e3",
+      "car": "2007 Chevy Silverado Back Windshield",
+      "field": "Base price",
+      "oldValue": 150,
+      "newValue": 75
+    },
+    {
+      "id": "d0008d35803fa147",
+      "timestamp": "2026-09-24T15:57:18.560Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "6b0b47902f7c0f78",
+      "car": "DG 2026 Acura MDX S+RTINT 340-50depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2026 Acura MDX S+RTINT 340-50depo ",
+      "newValue": "DG 2026 Acura MDX S+RTINT 340-50depo"
+    },
     {
       "id": "606c8dc1372fc235",
       "timestamp": "2026-09-24T13:05:07.006Z",
