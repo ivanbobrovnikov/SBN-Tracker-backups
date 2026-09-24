@@ -10479,7 +10479,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-14T21:24:35.992Z",
       "date": "2026-09-23T13:00:00.000Z",
       "customerName": "Ivan Garcia",
@@ -10499,7 +10499,9 @@
       "basePrice": 1e-7,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isOnlineBooking": false
+      "isOnlineBooking": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "6f2b765877f9bcc6",
@@ -14112,9 +14114,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "0b376ca321b16d1d",
@@ -14184,9 +14187,10 @@
       "salesRepName": "Jared Aigner",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 200,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "cb1dbdbb92e989ce",
@@ -14377,9 +14381,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 380,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "c1c0a3f9e56ad1ca",
@@ -14449,9 +14454,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "883217422f882c12",
@@ -14497,9 +14503,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "385c9f0485fb72ef",
@@ -14521,9 +14528,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 260,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "92b4ac1ec22be4f3",
@@ -23366,6 +23374,66 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "84fdd0c6dd2b715a",
+      "timestamp": "2026-09-24T01:33:27.940Z",
+      "actor": "Owner",
+      "saleId": "d685d12086fd9b26",
+      "car": "DG 2024 Genisis GV80 Ceramic Coating&Rims 499-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "3cecd3705f412d29",
+      "timestamp": "2026-09-24T01:33:19.650Z",
+      "actor": "Owner",
+      "saleId": "faf7754312fc0d33",
+      "car": "DG 2018 Chevy Malibu S+RTINT 299-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "837764d72fc9ef37",
+      "timestamp": "2026-09-24T01:33:14.536Z",
+      "actor": "Owner",
+      "saleId": "081207884eff2cc8",
+      "car": "DG 2026 Acura Integra S+RTINT&Sunstrip 380-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 380
+    },
+    {
+      "id": "bdf29aa179e95bfc",
+      "timestamp": "2026-09-24T01:33:09.004Z",
+      "actor": "Owner",
+      "saleId": "6b2be976f2823e87",
+      "car": "DG 2026 Kia K4 S+RTINT 299-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "d73d00e55d428e70",
+      "timestamp": "2026-09-24T01:33:03.057Z",
+      "actor": "Owner",
+      "saleId": "385c9f0485fb72ef",
+      "car": "DG 2024 Chevy Trax S+RTINT 260-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 260
+    },
+    {
+      "id": "d3ab0b6863349a0f",
+      "timestamp": "2026-09-24T01:32:57.544Z",
+      "actor": "Owner",
+      "saleId": "4b1146d4be851fa9",
+      "car": "JA 2026 Nissan Sentra Sides $200-25 dep",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 200
+    },
     {
       "id": "ee03f6c540043e70",
       "timestamp": "2026-09-23T21:04:21.681Z",
