@@ -4641,12 +4641,12 @@
       "customerPhone": "+14057615698",
       "customerEmail": "cklepadlo09@gmail.com",
       "contactId": "vqCwX77f87uasj8qC017",
-      "car": "Carrie Klepadlo",
+      "car": "Carrie Klepadlo Nissan Altima 10yr",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
       "salesRepName": "Online Booking",
-      "baseService": "Window Tint",
+      "baseService": "Ceramic Coating",
       "basePrice": 499,
       "syncedFromGHL": true,
       "isOnlineBooking": true,
@@ -7246,7 +7246,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 495,
       "syncedFromGHL": true,
       "calendarId": null
     },
@@ -7281,7 +7281,7 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-08T13:45:45.969Z",
-      "date": "2026-09-27T17:00:00.000Z",
+      "date": "2026-09-27T16:30:00.000Z",
       "customerName": "Mark",
       "customerPhone": "(609) 364-3915",
       "customerEmail": "",
@@ -7294,7 +7294,8 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "calendarId": null
     },
     {
       "id": "4ac290992d8c31b0",
@@ -9045,7 +9046,13 @@
       "baseService": "Ceramic Coating",
       "basePrice": 699,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "photos": {
+        "before": {
+          "walkaround": "67960aa5bddd9572-before-walkaround-aa401608db337e32.MOV"
+        },
+        "after": {}
+      }
     },
     {
       "id": "a3ba85a1fb1e7a83",
@@ -9942,7 +9949,7 @@
       "id": "300630c5fc1036bf",
       "ghlOpportunityId": "SYUvDmogJxaqL3igbeBu",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-13T17:13:47.508Z",
@@ -10271,7 +10278,7 @@
       "id": "24c76c8446bea2ec",
       "ghlOpportunityId": "OEHtH0itLDs2nev0Lsaz",
       "upsells": [],
-      "status": "pending",
+      "status": "cancelled",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-14T16:47:51.626Z",
@@ -12695,7 +12702,7 @@
       "customerPhone": "(640) 281-6650",
       "customerEmail": "",
       "contactId": "YvvUvVIMt89nKyvgCQSQ",
-      "car": "JA 2018 Honda CRV Sides Rear Removal  + Sides and rear + Front 2 windows 449-50",
+      "car": "JA 2018 Honda CRV Sides Rear Removal  + Sides and rear 449-50",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "3cdd54e91972de02",
@@ -15010,6 +15017,30 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 650,
+      "calendarId": null,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "9f10ccdcba052e01",
+      "ghlOpportunityId": "4avcqkJfB6lQRjIHPbIU",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-25T13:28:09.211Z",
+      "date": "2026-09-25T17:00:00.000Z",
+      "customerName": "David Bentley",
+      "customerPhone": "(856) 343-7609",
+      "customerEmail": "",
+      "contactId": "4avcqkJfB6lQRjIHPbIU",
+      "car": "DG 2021 Tesla 3 S+RTINT 299-50depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true
     }
@@ -22419,6 +22450,56 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "b729d8f1af812f63",
+      "timestamp": "2026-09-25T13:33:00.559Z",
+      "actor": "Owner",
+      "saleId": "b676a488bbe558d9",
+      "car": "Carrie Klepadlo",
+      "field": "Car/Title",
+      "oldValue": "Carrie Klepadlo",
+      "newValue": "Carrie Klepadlo Nissan Altima 10yr"
+    },
+    {
+      "id": "dc47176687b3aca5",
+      "timestamp": "2026-09-25T13:32:20.651Z",
+      "actor": "Owner",
+      "saleId": "b676a488bbe558d9",
+      "car": "Carrie Klepadlo",
+      "field": "Service",
+      "oldValue": "Window Tint",
+      "newValue": "Ceramic Coating"
+    },
+    {
+      "id": "66a4a7563f563dae",
+      "timestamp": "2026-09-25T13:30:24.963Z",
+      "actor": "Owner",
+      "saleId": "710f53a5763f1c16",
+      "car": "DG 2019 Dodge 5500 AllAroundTint 495-75depo",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 495
+    },
+    {
+      "id": "bbcbbb887c787fed",
+      "timestamp": "2026-09-25T13:28:26.527Z",
+      "actor": "Owner",
+      "saleId": "9f10ccdcba052e01",
+      "car": "DG 2021 Tesla 3 S+RTINT 299-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "1b797e4f768bfce2",
+      "timestamp": "2026-09-25T13:26:45.060Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "cfbbc7fbb9ebb6bd",
+      "car": "JA 2018 Honda CRV Sides Rear Removal  + Sides and rear 449-50",
+      "field": "Car/Title",
+      "oldValue": "JA 2018 Honda CRV Sides Rear Removal  + Sides and rear + Front 2 windows 449-50",
+      "newValue": "JA 2018 Honda CRV Sides Rear Removal  + Sides and rear 449-50"
+    },
     {
       "id": "c6243e67c3725388",
       "timestamp": "2026-09-25T04:53:33.512Z",
