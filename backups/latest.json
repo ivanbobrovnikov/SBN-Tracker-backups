@@ -6602,7 +6602,24 @@
     {
       "id": "e0bba8573f9c319b",
       "ghlOpportunityId": "jogWVbck8Gx2pIL65BEW",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "6c333b82ae834005",
+          "name": "Windshield 200",
+          "price": 0,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a",
+          "salesRepId": null
+        },
+        {
+          "id": "624aa8e4924e9fa1",
+          "name": "Nano",
+          "price": 50,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a",
+          "salesRepId": null
+        }
+      ],
       "status": "pending",
       "completed": false,
       "paid": false,
@@ -6620,7 +6637,15 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 785,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "notes": [
+        {
+          "id": "b4d306f3088af0e8",
+          "text": "15% sides & rear 50% windshield",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-09-25T14:25:15.814Z"
+        }
+      ]
     },
     {
       "id": "115f22f8136712db",
@@ -9051,7 +9076,9 @@
         "before": {
           "walkaround": "67960aa5bddd9572-before-walkaround-aa401608db337e32.MOV"
         },
-        "after": {}
+        "after": {
+          "walkaround": "67960aa5bddd9572-after-walkaround-ea722b87a2cc5ef3.MOV"
+        }
       }
     },
     {
@@ -10691,7 +10718,13 @@
       "baseService": "Ceramic Coating",
       "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "photos": {
+        "before": {
+          "walkaround": "2148f42420a361e0-before-walkaround-ef61d42f05766b31.MOV"
+        },
+        "after": {}
+      }
     },
     {
       "id": "1da06d31392b870c",
@@ -11443,7 +11476,7 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-16T17:34:10.208Z",
-      "date": "2026-09-25T19:00:00.000Z",
+      "date": "2026-09-25T19:30:00.000Z",
       "customerName": "Ilyes Touafek",
       "customerPhone": "(609) 854-9754",
       "customerEmail": "",
