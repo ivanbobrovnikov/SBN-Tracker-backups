@@ -14959,9 +14959,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 195,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "2fc98e86a13559b8",
@@ -14983,9 +14984,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     },
     {
       "id": "8d410e733ca712ea",
@@ -22417,6 +22419,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "c6243e67c3725388",
+      "timestamp": "2026-09-25T04:53:33.512Z",
+      "actor": "Owner",
+      "saleId": "2fc98e86a13559b8",
+      "car": "DG 2016 Jaguar XJ S+RTINT 299-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "5396c060aa044b6e",
+      "timestamp": "2026-09-25T04:53:27.685Z",
+      "actor": "Owner",
+      "saleId": "bccb72cbd6b84ec9",
+      "car": "DG 2020 Chevy Silverado FrontWindsheildTint 195-50depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 195
+    },
     {
       "id": "150b824d1b7f94f1",
       "timestamp": "2026-09-24T18:57:19.351Z",
