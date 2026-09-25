@@ -3224,7 +3224,7 @@
       "id": "113ac242bfee6f3f",
       "ghlOpportunityId": "GhbkyPxiNpDu6hGkxtXQ",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-29T00:35:32.191Z",
@@ -7279,8 +7279,17 @@
     {
       "id": "710f53a5763f1c16",
       "ghlOpportunityId": "bHYPnpYx3iqTL9yO943I",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "c6488dc6524f8454",
+          "name": "Nano",
+          "price": 100,
+          "employeeId": "791dee90ad560e70",
+          "managerId": null,
+          "salesRepId": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-08T13:03:55.405Z",
@@ -7290,8 +7299,11 @@
       "customerEmail": "",
       "contactId": "bHYPnpYx3iqTL9yO943I",
       "car": "DG 2019 Dodge 5500 AllAroundTint 495-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "791dee90ad560e70",
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Naomi, Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -9751,7 +9763,7 @@
       "ghlOpportunityId": "hkitOwnOGG72h7DL2CpZ",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-09-12T21:22:16.865Z",
       "date": "2026-09-25T13:00:00.000Z",
@@ -11523,7 +11535,7 @@
       "id": "0d71d9ca33aba043",
       "ghlOpportunityId": "WTPkM85yut2kffCFo3Cg",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-16T17:34:10.208Z",
@@ -11533,8 +11545,10 @@
       "customerEmail": "",
       "contactId": "WTPkM85yut2kffCFo3Cg",
       "car": "DG 2023 Subaru Legacy S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -11549,7 +11563,7 @@
       "ghlOpportunityId": "YW44dNZmHuclF8pHc2Ff",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-09-16T18:41:36.963Z",
       "date": "2026-09-25T19:00:00.000Z",
@@ -13128,8 +13142,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-19T19:47:44.043Z",
       "date": "2026-09-24T13:00:00.000Z",
       "customerName": "William Deterding",
@@ -13151,7 +13165,9 @@
           "walkaround": "740bb97c6094fccb-before-walkaround-68a1c391ab5498e9.MOV"
         },
         "after": {}
-      }
+      },
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "09bb4f2dbe872fbc",
@@ -15282,13 +15298,37 @@
       "customerPhone": "(609) 868-0325",
       "customerEmail": "",
       "contactId": "UG64GBHhHTidDYnbKErh",
-      "car": "AG 2026 Ford F-150 Two Fronts and Windshield",
+      "car": "AG 2026 Ford F-150 Two Fronts and Windshield $50 deposit paid $319",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
       "salesRepName": "Unassigned",
       "baseService": "Window Tint",
       "basePrice": 299,
+      "calendarId": null,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "1055c1eecc644b4b",
+      "ghlOpportunityId": "yzAqyo3jIlo9xOIJKnLr",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-25T20:04:36.116Z",
+      "date": "2026-10-09T13:00:00.000Z",
+      "customerName": "Eric D Williams",
+      "customerPhone": "(856) 625-7251",
+      "customerEmail": "",
+      "contactId": "yzAqyo3jIlo9xOIJKnLr",
+      "car": "DG 2025 Mazda CX-70 ceramic coating&Rims 499-95depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Ceramic Coating",
+      "basePrice": 499,
       "calendarId": null,
       "syncedFromGHL": true
     }
@@ -15344,6 +15384,115 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-25T20:04:37.525Z",
+      "endpoint": "sync",
+      "matchedSaleId": "1055c1eecc644b4b",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2025 Mazda CX 70",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "yzAqyo3jIlo9xOIJKnLr",
+        "first_name": "Eric",
+        "last_name": "D Williams",
+        "full_name": "Eric D Williams",
+        "email": "edw216@gmail.com",
+        "phone": "+18566257251",
+        "tags": "coating",
+        "country": "US",
+        "date_created": "2026-09-25T19:53:54.456Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Eric D Williams | ",
+        "status": "won",
+        "lead_value": 499,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "H0bA2bgIylwZjyAzxLZ1",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "868814779620228",
+            "medium": "facebook",
+            "formId": "868814779620228",
+            "formName": "499 10 year coatijng",
+            "campaign": "ceramic coating testing",
+            "utm_campaign": "ceramic coating testing",
+            "campaignId": "120255090573720011",
+            "utmMedium": "10 year 499",
+            "utmContent": "hey is this sbn auto styling? 499",
+            "adSetId": "120255090573730011",
+            "adId": "120256326229360011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "facebook",
+            "mediumId": "28371517945841774",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "pSid": "28371517945841774"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "yzAqyo3jIlo9xOIJKnLr"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-25T19:16:02.328Z",
       "endpoint": "sync",
@@ -20028,119 +20177,6 @@
           "contactId": "UncXQ9l3cGRBOoZqdfkm"
         }
       }
-    },
-    {
-      "receivedAt": "2026-09-24T00:17:46.825Z",
-      "endpoint": "sync",
-      "matchedSaleId": "32a0ced01fa3cba4",
-      "before": {
-        "basePrice": 0,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "2026 chevy Colorado",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "6OqQw0SWylKXWc7z5937",
-        "first_name": "Jim",
-        "last_name": "Wild",
-        "full_name": "Jim Wild",
-        "email": "1wildgrizzly@comcast.net",
-        "phone": "+16094189091",
-        "tags": "coating",
-        "country": "US",
-        "date_created": "2026-09-23T23:59:33.468Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Jim Wild | ",
-        "status": "won",
-        "lead_value": 499,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "OYWnlulAQLagK98j89gk",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating",
-            "utm_campaign": "ceramic coating",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "grand opening 499 image ad 2",
-            "adSetId": "120255090573730011",
-            "adId": "120255636633390011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating",
-            "utm_campaign": "ceramic coating",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "grand opening 499 image ad 2",
-            "adSetId": "120255090573730011",
-            "adId": "120255636633390011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "499",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "6OqQw0SWylKXWc7z5937"
-        }
-      }
     }
   ],
   "attendance": [
@@ -21852,6 +21888,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "aba5691e4bc57647",
+      "timestamp": "2026-09-25T19:49:34.648Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "5dae1f4a0f154e8e",
+      "car": "AG 2026 Ford F-150 Two Fronts and Windshield $50 deposit paid $319",
+      "field": "Car/Title",
+      "oldValue": "AG 2026 Ford F-150 Two Fronts and Windshield",
+      "newValue": "AG 2026 Ford F-150 Two Fronts and Windshield $50 deposit paid $319"
+    },
     {
       "id": "f2446f1aaa61d933",
       "timestamp": "2026-09-25T18:49:34.304Z",
@@ -26074,6 +26120,32 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "d42bc47a65ef843e",
+      "type": "cashIn",
+      "amount": 650,
+      "category": "Customer Payment",
+      "note": "2023 Mercedes Benz C300",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-25T20:08:37.835Z"
+    },
+    {
+      "id": "1b749d272db98039",
+      "type": "cashIn",
+      "amount": 404,
+      "category": "Customer Payment",
+      "note": "2015 Toyota Sienna",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-25T20:07:21.718Z"
+    },
     {
       "id": "2eff0bd56ff2a478",
       "type": "cashIn",
