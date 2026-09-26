@@ -1102,8 +1102,18 @@
     {
       "id": "aa4a43cc0a0a5b21",
       "ghlOpportunityId": "fgLgMsINTlt3VkcFYRou",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "5220ac6353211b7d",
+          "name": "Nano",
+          "price": 100,
+          "employeeId": "f9d9bfc4e797e38b",
+          "managerId": null,
+          "salesRepId": null,
+          "salesRepName": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-24T21:05:13.812Z",
@@ -7058,7 +7068,7 @@
       "id": "ef3816b0588ff28e",
       "ghlOpportunityId": "sBueGJKKNVfWP5IGISXU",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-07T16:12:40.538Z",
@@ -7075,7 +7085,8 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 800,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "calendarId": null
     },
     {
       "id": "891a9120cc6819c6",
@@ -10751,7 +10762,7 @@
       "id": "b5293124e9022a89",
       "ghlOpportunityId": "lzeBkhd3gXjSaP14PDNc",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-15T12:59:17.736Z",
@@ -15552,6 +15563,115 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-26T13:14:47.372Z",
+      "endpoint": "sync",
+      "matchedSaleId": "ef3816b0588ff28e",
+      "before": {
+        "basePrice": 800,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 800,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2026 Chevy 2500HD",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "sBueGJKKNVfWP5IGISXU",
+        "first_name": "Stephen",
+        "last_name": "Lusk",
+        "full_name": "Stephen Lusk",
+        "email": "scramblinlouie@yahoo.com",
+        "phone": "+18564257724",
+        "tags": "coating,hp sbn auto styling nj,hp aged",
+        "country": "US",
+        "date_created": "2026-09-07T14:55:37.874Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Stephen Lusk | ",
+        "status": "won",
+        "lead_value": 800,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "E5V0mMbhaF6s2xSX75C4",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "868814779620228",
+            "medium": "facebook",
+            "formId": "868814779620228",
+            "formName": "499 10 year coatijng",
+            "campaign": "ceramic coating",
+            "utm_campaign": "ceramic coating",
+            "campaignId": "120255090573720011",
+            "utmMedium": "10 year 499",
+            "utmContent": "truck owners 499",
+            "adSetId": "120255090573730011",
+            "adId": "120256347328180011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "facebook",
+            "mediumId": "28397420813257814",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "pSid": "28397420813257814"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "800",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "sBueGJKKNVfWP5IGISXU"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-26T12:31:11.292Z",
       "endpoint": "sync",
@@ -21786,119 +21906,6 @@
           "contactId": "jNW8TU0XYEBcOyxasP9s"
         }
       }
-    },
-    {
-      "receivedAt": "2026-09-24T15:06:17.155Z",
-      "endpoint": "sync",
-      "matchedSaleId": "3c8e90c1991d2692",
-      "before": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "Year, Make, Model of the vehicle.": "2021 toyota camry",
-        "Where is the damage located on your vehicle?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "rW9Jw74El8Frs7bzbhPB",
-        "first_name": "Akili",
-        "last_name": "Roberson",
-        "full_name": "Akili Roberson",
-        "email": "akilinetwork@gmail.com",
-        "phone": "+19084131004",
-        "tags": "tint",
-        "country": "US",
-        "date_created": "2026-09-22T00:08:11.077Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Akili Roberson | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "fuM1GjNbQoZvm83oQdAH",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "this is no window tint, this is ceramic window tint 299",
-            "adSetId": "120254638050770011",
-            "adId": "120256664322800011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "this is no window tint, this is ceramic window tint 299",
-            "adSetId": "120254638050770011",
-            "adId": "120256664322800011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "rW9Jw74El8Frs7bzbhPB"
-        }
-      }
     }
   ],
   "attendance": [
@@ -23599,6 +23606,78 @@
       "personType": "manager",
       "personId": "ed55d50b916a979a",
       "date": "2026-09-25",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "553280e127f407f7",
+      "personType": "employee",
+      "personId": "273b3cdb8e20e0d1",
+      "date": "2026-09-26",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "a46680eaa1bd8957",
+      "personType": "employee",
+      "personId": "8ee8cc14340b4386",
+      "date": "2026-09-26",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "4363d608a73f75e3",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-09-26",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "ea4f6bb28adbdfd9",
+      "personType": "employee",
+      "personId": "791dee90ad560e70",
+      "date": "2026-09-26",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "ba7e1f2b030b43a3",
+      "personType": "employee",
+      "personId": "f6cf35e1607cb10f",
+      "date": "2026-09-26",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "f3ace20bad4b0224",
+      "personType": "manager",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-09-26",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "48e1b2ffeb52f69f",
+      "personType": "manager",
+      "personId": "19d1389561891623",
+      "date": "2026-09-26",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "eb2e6074385e0ca8",
+      "personType": "employee",
+      "personId": "2a6751461c5b36ee",
+      "date": "2026-09-26",
       "status": "present",
       "startTime": "",
       "endTime": ""
