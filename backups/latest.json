@@ -2804,7 +2804,7 @@
       "id": "806f43ff87b9fc34",
       "ghlOpportunityId": "305wSyYb7IB6iaV3IaRZ",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-31T12:43:29.155Z",
@@ -2814,8 +2814,13 @@
       "customerEmail": "smartinez2389@hotmail.com",
       "contactId": "oMZ3zSX7Mei1DwIFPSCU",
       "car": "DG 2023 Honda HR-V S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "791dee90ad560e70",
+        "f6cf35e1607cb10f",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Angelica, Naomi, Javier, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -4790,8 +4795,11 @@
       "customerEmail": "dyamond.echols@aol.com",
       "contactId": "tMKNS5oN8UKK4kS7porH",
       "car": "DG 2022 Jeep Compass S+RTINT 300-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "791dee90ad560e70",
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Naomi, Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -4799,7 +4807,11 @@
       "basePrice": 299,
       "syncedFromGHL": true,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "f83678d66509eb01",
@@ -4832,25 +4844,33 @@
       "id": "ac4bd207c059dfb8",
       "ghlOpportunityId": "0cLSB5mL0LN1JzztCode",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-01T23:55:07.203Z",
       "date": "2026-09-26T15:00:00.000Z",
       "customerName": "Asif Azad",
       "customerPhone": "(856) 520-9601",
       "customerEmail": "asifnj04@yahoo.com",
       "contactId": "0cLSB5mL0LN1JzztCode",
-      "car": "DG 2013 Toyota Pruis S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
-      "salesRepId": "d160346301cc8a3f",
-      "salesRepName": "Dmitriy Gumenyuk",
-      "isWalkIn": false,
+      "car": "2021 Toyota Sienna two fronts $50 deposit",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
+      "salesRepId": null,
+      "salesRepName": "Walk-in (booked by staff)",
+      "isWalkIn": true,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 150,
       "syncedFromGHL": true,
-      "calendarId": null
+      "calendarId": null,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "isOnlineBooking": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "ed55d50b916a979a",
+      "walkInClosedByName": "Aaron"
     },
     {
       "id": "6d05519d60c5c9c5",
@@ -15541,6 +15561,29 @@
       "basePrice": 140,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "4b90c92a1de85476",
+      "ghlOpportunityId": "9N7WdNi4F08OglkHnWNT",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-26T14:59:22.459Z",
+      "date": "2026-10-07T15:00:00.000Z",
+      "customerName": "Cody Geisser",
+      "customerPhone": "(856) 405-5738",
+      "customerEmail": "",
+      "contactId": "9N7WdNi4F08OglkHnWNT",
+      "car": "Cody Geisser",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Window Tint",
+      "basePrice": 0,
+      "calendarId": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -23709,6 +23752,15 @@
       "status": "present",
       "startTime": "",
       "endTime": ""
+    },
+    {
+      "id": "21c7be708e5b7522",
+      "personType": "employee",
+      "personId": "7bcc22db24b2124f",
+      "date": "2026-09-26",
+      "status": "absent",
+      "startTime": "",
+      "endTime": ""
     }
   ],
   "revenueStartDate": "2026-09-01",
@@ -23717,6 +23769,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "cf0733245075245d",
+      "timestamp": "2026-09-26T14:53:15.130Z",
+      "actor": "Aaron (manager)",
+      "saleId": "ac4bd207c059dfb8",
+      "car": "2021 Toyota Sienna two fronts $50 deposit",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 150
+    },
     {
       "id": "6c6bf2bc49299004",
       "timestamp": "2026-09-26T04:53:22.820Z",
@@ -29081,6 +29143,27 @@
       ],
       "loggedByName": "Aaron",
       "timestamp": "2026-09-25T22:07:01.665Z"
+    },
+    {
+      "id": "828e2d44c83cf8fb",
+      "saleId": "aa4a43cc0a0a5b21",
+      "car": "TG 2026 pathfinder S + R = $299, depo -50$",
+      "date": "2026-09-26T13:00:00.000Z",
+      "amount": 55.96,
+      "split": [
+        {
+          "employeeId": "f9d9bfc4e797e38b",
+          "name": "Feso",
+          "amount": 27.98
+        },
+        {
+          "employeeId": "273b3cdb8e20e0d1",
+          "name": "Angelica",
+          "amount": 27.98
+        }
+      ],
+      "loggedByName": "Aaron",
+      "timestamp": "2026-09-26T14:50:52.496Z"
     }
   ]
 }
