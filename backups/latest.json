@@ -5913,7 +5913,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 0.000001,
       "syncedFromGHL": true,
       "paidCash": true,
       "paymentMethod": "cash",
@@ -11263,16 +11263,16 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Online Booking",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Ceramic Coating",
       "basePrice": 499,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isOnlineBooking": true,
-      "isWalkIn": false,
-      "walkInClosedByType": null,
-      "walkInClosedById": null,
-      "walkInClosedByName": null
+      "isOnlineBooking": false,
+      "isWalkIn": true,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "19d1389561891623",
+      "walkInClosedByName": "Gio"
     },
     {
       "id": "6f8a19729a32c0d7",
@@ -25230,6 +25230,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "6798f41b2f85b990",
+      "timestamp": "2026-09-27T17:05:50.518Z",
+      "actor": "Owner",
+      "saleId": "3fe16b61ed2a1a65",
+      "car": "2026 Tesla Y REDO Windshield",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 0.000001
+    },
     {
       "id": "2bb5f8e2d2cd06d7",
       "timestamp": "2026-09-26T22:36:28.022Z",
