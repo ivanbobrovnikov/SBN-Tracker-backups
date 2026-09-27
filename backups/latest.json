@@ -7399,9 +7399,9 @@
       "id": "325cf487ef16ace0",
       "ghlOpportunityId": "ral9DWqDwOIOHt3W01uo",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-08T13:17:21.543Z",
       "date": "2026-09-27T13:00:00.000Z",
       "customerName": "Josh Cazales",
@@ -7409,22 +7409,26 @@
       "customerEmail": "",
       "contactId": "ral9DWqDwOIOHt3W01uo",
       "car": "DG 2021 Honda Civic AllAroundTint 495-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
-      "syncedFromGHL": true
+      "basePrice": 495,
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "1a17014792c96dc3",
       "ghlOpportunityId": "h25KcDJBvtJQi6TIMkSf",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-08T13:45:45.969Z",
       "date": "2026-09-27T16:30:00.000Z",
       "customerName": "Mark",
@@ -7432,15 +7436,19 @@
       "customerEmail": "",
       "contactId": "h25KcDJBvtJQi6TIMkSf",
       "car": "DG 2024 Chevy Malibu S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
       "syncedFromGHL": true,
-      "calendarId": null
+      "calendarId": null,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "4ac290992d8c31b0",
@@ -8265,9 +8273,9 @@
       "id": "5434db3181e61b7b",
       "ghlOpportunityId": "3kJpXAnCQjI80bTsBIuC",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-09T15:47:48.500Z",
       "date": "2026-09-27T15:00:00.000Z",
       "customerName": "Sheldon Wright",
@@ -8275,15 +8283,19 @@
       "customerEmail": "",
       "contactId": "3kJpXAnCQjI80bTsBIuC",
       "car": "DG 2018 Toyota Camry S+RTINT 300-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "b4ffc28849b69403",
@@ -13572,9 +13584,9 @@
       "id": "68bd4550d5e60d1e",
       "ghlOpportunityId": "ugniSwGl2WHPXHfJKsth",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-21T18:05:50.230Z",
       "date": "2026-09-27T14:00:00.000Z",
       "customerName": "Julian Thompson",
@@ -13582,15 +13594,20 @@
       "customerEmail": "",
       "contactId": "ugniSwGl2WHPXHfJKsth",
       "car": "DG 2020 Hyundai Elantra S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": false,
+      "paymentMethod": "card",
+      "paidCard": true
     },
     {
       "id": "1daad2a6a0e78f94",
@@ -15926,9 +15943,10 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
+      "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -25231,6 +25249,26 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "e2f3e2733801f034",
+      "timestamp": "2026-09-27T21:10:25.215Z",
+      "actor": "Owner",
+      "saleId": "325cf487ef16ace0",
+      "car": "DG 2021 Honda Civic AllAroundTint 495-50depo",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 495
+    },
+    {
+      "id": "83c2f47b06223152",
+      "timestamp": "2026-09-27T21:09:10.681Z",
+      "actor": "Owner",
+      "saleId": "4abea7cfba1d5813",
+      "car": "DG 2026 Hyundai Tuso Ceramic Coating&TireShine 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
       "id": "6798f41b2f85b990",
       "timestamp": "2026-09-27T17:05:50.518Z",
       "actor": "Owner",
@@ -29552,6 +29590,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "afaf0da4fbde90e3",
+      "type": "cashIn",
+      "amount": 249,
+      "category": "Customer Payment",
+      "note": "Chevy Malibu 2024 Sunday",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "owner",
+      "enteredById": "owner",
+      "enteredByName": "Owner",
+      "timestamp": "2026-09-27T21:10:58.181Z"
+    },
     {
       "id": "ff433e7f94020538",
       "type": "cardExpense",
