@@ -15204,7 +15204,7 @@
       "customerPhone": "(201) 306-4723",
       "customerEmail": "",
       "contactId": "4fvNRqRWI16nnva3xPUg",
-      "car": "DG 2026 Chevy Silverado EV S+RTINT 290-50depo",
+      "car": "DG 2026 Chevy Silverado EV S+RTINT 279-50depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -24454,6 +24454,16 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "d5047c98a6d4b296",
+      "timestamp": "2026-09-28T15:16:22.453Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "b54e6fa64d5ee06c",
+      "car": "DG 2026 Chevy Silverado EV S+RTINT 279-50depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2026 Chevy Silverado EV S+RTINT 290-50depo",
+      "newValue": "DG 2026 Chevy Silverado EV S+RTINT 279-50depo"
+    },
+    {
       "id": "26132a832d1602fb",
       "timestamp": "2026-09-28T15:05:39.189Z",
       "actor": "Owner",
@@ -28825,6 +28835,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "8103ba0bc4974708",
+      "type": "cardExpense",
+      "amount": 359.51,
+      "category": "Customer Payment",
+      "note": "Need Polshing And Cutting Pads To corrrect cars",
+      "isOnline": true,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "19d1389561891623",
+      "enteredByName": "Gio",
+      "timestamp": "2026-09-28T15:55:41.697Z"
+    },
     {
       "id": "afaf0da4fbde90e3",
       "type": "cashIn",
