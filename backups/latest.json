@@ -6008,7 +6008,7 @@
       "ghlOpportunityId": "07s2pGZ1D9We4px0zHTI",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-09-04T13:06:47.647Z",
       "date": "2026-09-29T13:00:00.000Z",
@@ -13212,8 +13212,8 @@
       "ghlOpportunityId": "xCzFTx0ywRSeCY3kvtfA",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-19T17:14:17.585Z",
       "date": "2026-09-29T13:00:00.000Z",
       "customerName": "Patrick Riley",
@@ -13229,7 +13229,9 @@
       "baseService": "Ceramic Coating",
       "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "8c5779e01d0c958b",
@@ -13518,7 +13520,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-21T14:36:58.398Z",
       "date": "2026-09-25T13:00:00.000Z",
       "customerName": "Salvatore Your Ground",
@@ -13540,7 +13542,9 @@
           "walkaround": "7e96cdfaa4e08bbc-before-walkaround-3aa6cfca5682709a.MOV"
         },
         "after": {}
-      }
+      },
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "b066a567b6ffa208",
@@ -15322,10 +15326,9 @@
       "car": "DG 2016 Jaguar XJ S+RTINT 299-50depo",
       "employeeIds": [
         "273b3cdb8e20e0d1",
-        "791dee90ad560e70",
         "f6cf35e1607cb10f"
       ],
-      "employeeNames": "Angelica, Naomi, Javier",
+      "employeeNames": "Angelica, Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -15816,7 +15819,7 @@
       "id": "492620aac85b512c",
       "ghlOpportunityId": "g3oDBVdJoTfQ1qyjt4W2",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-26T17:27:32.822Z",
@@ -15889,7 +15892,7 @@
       "ghlOpportunityId": "aaIUcTCccTxQBlXkp0NY",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-09-26T19:25:59.802Z",
       "date": "2026-09-29T13:00:00.000Z",
@@ -16164,7 +16167,7 @@
       "id": "909ac95d1e14862c",
       "ghlOpportunityId": "MQoENlLAUhE1wORfwNwl",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-28T14:30:43.419Z",
@@ -16309,7 +16312,16 @@
     {
       "id": "3f282f2ebb60cd7a",
       "ghlOpportunityId": "DZtTfAuHfcFVPixJi8ly",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "3c3766755e43c602",
+          "name": "Nano",
+          "price": 100,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a",
+          "salesRepId": null
+        }
+      ],
       "status": "pending",
       "completed": false,
       "paid": false,
@@ -16329,7 +16341,15 @@
       "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isOnlineBooking": false
+      "isOnlineBooking": false,
+      "notes": [
+        {
+          "id": "e85651da4ead1810",
+          "text": "20%",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-09-29T18:28:34.240Z"
+        }
+      ]
     },
     {
       "id": "7d7a0146fad59698",
@@ -16731,7 +16751,7 @@
       "id": "eaac6c765d5c23d7",
       "ghlOpportunityId": "lI6sbT91NQnM1UADzHvF",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-29T13:16:53.844Z",
@@ -16741,8 +16761,10 @@
       "customerEmail": "",
       "contactId": "lI6sbT91NQnM1UADzHvF",
       "car": "DG 2012 Chevy Silverado S+RTint 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "791dee90ad560e70"
+      ],
+      "employeeNames": "Naomi",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -29500,6 +29522,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "3891e6cac4eca7e8",
+      "type": "cardExpense",
+      "amount": 73.4,
+      "category": "Customer Payment",
+      "note": "Lacquer thinner",
+      "isOnline": true,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "19d1389561891623",
+      "enteredByName": "Gio",
+      "timestamp": "2026-09-29T18:31:50.357Z"
+    },
     {
       "id": "2fa4bee12398b269",
       "type": "bankDeposit",
