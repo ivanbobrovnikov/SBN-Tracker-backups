@@ -12853,7 +12853,7 @@
       "id": "30b719399fe798ba",
       "ghlOpportunityId": "dkQsYc59XsDIsePYCkgA",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-18T20:11:39.907Z",
@@ -15458,7 +15458,7 @@
       "customerPhone": "(856) 812-3380",
       "customerEmail": "",
       "contactId": "F4iiHK0kzgD06LVwI9VW",
-      "car": "DG 2024 Lexus IS350 S+RTINT 299-50depo",
+      "car": "DG 2024 Lexus IS350 S+RTINT 299-50depo ",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -16701,6 +16701,30 @@
       "basePrice": 0,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "eaac6c765d5c23d7",
+      "ghlOpportunityId": "lI6sbT91NQnM1UADzHvF",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-09-29T13:16:53.844Z",
+      "date": "2026-09-29T19:00:00.000Z",
+      "customerName": "JOSEPH YESNER",
+      "customerPhone": "(609) 769-9287",
+      "customerEmail": "",
+      "contactId": "lI6sbT91NQnM1UADzHvF",
+      "car": "DG 2012 Chevy Silverado S+RTint 299-50depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 299,
+      "calendarId": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -16754,6 +16778,76 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-09-29T13:17:15.141Z",
+      "endpoint": "sync",
+      "matchedSaleId": "eaac6c765d5c23d7",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "lI6sbT91NQnM1UADzHvF",
+        "first_name": "JOSEPH",
+        "last_name": "YESNER",
+        "full_name": "JOSEPH YESNER",
+        "phone": "+16097699287",
+        "tags": "name via lookup,hp fresh,hp sbn auto styling nj",
+        "city": "PLEASANTVILLE",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-09-29T13:09:55.748Z",
+        "postal_code": "08234",
+        "full_address": "PLEASANTVILLE NJ 08234",
+        "contact_type": "lead",
+        "opportunity_name": "JOSEPH YESNER | ",
+        "status": "won",
+        "lead_value": 299,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "dL7x1bJ0ImndczhYIfTh",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "lI6sbT91NQnM1UADzHvF"
+        }
+      }
+    },
     {
       "receivedAt": "2026-09-29T01:10:41.796Z",
       "endpoint": "sync",
@@ -23273,114 +23367,6 @@
           "contactId": "KFGpcBGHVYQoAfxyk2O4"
         }
       }
-    },
-    {
-      "receivedAt": "2026-09-28T16:45:51.300Z",
-      "endpoint": "sync",
-      "matchedSaleId": "5280501dea3f1a22",
-      "before": {
-        "basePrice": 0,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2027 Honda Cr-V",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "KFGpcBGHVYQoAfxyk2O4",
-        "first_name": "Steve",
-        "last_name": "Albarran",
-        "full_name": "Steve Albarran",
-        "email": "dsmalbarran@gmail.com",
-        "phone": "+18482507664",
-        "tags": "coating,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-09-28T01:51:10.117Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Steve Albarran | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "HrSNW38YSQDQRC00wSEL",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "if ur looking for ceramic coating 499",
-            "adSetId": "120255090573730011",
-            "adId": "120256773474890011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "if ur looking for ceramic coating 499",
-            "adSetId": "120255090573730011",
-            "adId": "120256773474890011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "",
-          "contactId": "KFGpcBGHVYQoAfxyk2O4"
-        }
-      }
     }
   ],
   "attendance": [
@@ -25243,6 +25229,87 @@
       "personType": "manager",
       "personId": "19d1389561891623",
       "date": "2026-09-28",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "8aead92786e2e0a7",
+      "personType": "employee",
+      "personId": "273b3cdb8e20e0d1",
+      "date": "2026-09-29",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "2a20ecf508f7ff1f",
+      "personType": "employee",
+      "personId": "8ee8cc14340b4386",
+      "date": "2026-09-29",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "ce7ddd470c191b86",
+      "personType": "employee",
+      "personId": "7bcc22db24b2124f",
+      "date": "2026-09-29",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "82c20bb35ceebdca",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-09-29",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "a1f322ab498e7209",
+      "personType": "employee",
+      "personId": "791dee90ad560e70",
+      "date": "2026-09-29",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "a0ceddd530deb067",
+      "personType": "employee",
+      "personId": "f6cf35e1607cb10f",
+      "date": "2026-09-29",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "b43b68cc78d164ae",
+      "personType": "employee",
+      "personId": "2a6751461c5b36ee",
+      "date": "2026-09-29",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "3b87aafc1a1a36a7",
+      "personType": "manager",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-09-29",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "6c4c4303308d7e01",
+      "personType": "manager",
+      "personId": "19d1389561891623",
+      "date": "2026-09-29",
       "status": "present",
       "startTime": "",
       "endTime": ""
@@ -29696,6 +29763,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "8a4d8d30e00548b0",
+      "type": "cardExpense",
+      "amount": 6416.46,
+      "category": "Supplies",
+      "note": "Tint order UVIRON #U5KRJNQAE",
+      "isOnline": true,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-09-29T14:11:15.660Z"
+    },
     {
       "id": "8b68025240d25b56",
       "type": "cardExpense",
