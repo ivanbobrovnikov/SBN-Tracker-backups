@@ -15097,8 +15097,8 @@
       "ghlOpportunityId": "6OqQw0SWylKXWc7z5937",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-24T00:11:44.614Z",
       "date": "2026-10-01T13:00:00.000Z",
       "customerName": "Jim Wild",
@@ -15122,7 +15122,9 @@
           "authorName": "Paul",
           "timestamp": "2026-10-01T20:27:05.055Z"
         }
-      ]
+      ],
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "467697c93bc6ebdc",
@@ -16853,7 +16855,7 @@
       "customerPhone": "(856) 313-3558",
       "customerEmail": "",
       "contactId": "3VfHp5tpa07QzkFvLjxZ",
-      "car": "Marcus Byrom",
+      "car": "Marcus Byrom 2025 Kia K4 S+RTINT",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
@@ -28762,6 +28764,16 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "793fe2f2616bf63d",
+      "timestamp": "2026-10-01T21:44:56.752Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "26ffceb2ccf72ee6",
+      "car": "Marcus Byrom 2025 Kia K4 S+RTINT",
+      "field": "Car/Title",
+      "oldValue": "Marcus Byrom",
+      "newValue": "Marcus Byrom 2025 Kia K4 S+RTINT"
+    },
+    {
       "id": "5d58a174a8798a4a",
       "timestamp": "2026-10-01T20:15:11.081Z",
       "actor": "Auto-sync (GHL)",
@@ -33483,6 +33495,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "7c105475717b96a3",
+      "type": "cashIn",
+      "amount": 205,
+      "category": "Customer Payment",
+      "note": "2026 Tesla cyber truck & 2026 Nissan rogue",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-10-01T21:53:28.414Z"
+    },
     {
       "id": "c250aeaa7a9af383",
       "type": "cashOut",
