@@ -13741,8 +13741,17 @@
     {
       "id": "ac0d1f0f36507bfe",
       "ghlOpportunityId": "yhGW8K7QTIjBsjFp9n5L",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "545107d5d23ab1ad",
+          "name": "Windshield",
+          "price": 200,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a",
+          "salesRepId": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-21T19:35:27.095Z",
@@ -15006,7 +15015,7 @@
       "customerPhone": "(267) 901-8439",
       "customerEmail": "",
       "contactId": "izlIURvyRZXiNhDvZAmp",
-      "car": "DG 2024 Tesla Cybertruck 2front windows 165-25depo",
+      "car": "DG 2024 Chevy Trax S+RTINT 260-50depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -17716,7 +17725,7 @@
       "id": "3945904d90262f69",
       "ghlOpportunityId": "9vSvvbD1hkWAGNy5phan",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-01T15:29:54.923Z",
@@ -27897,6 +27906,16 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "3040f3052bd6d0ed",
+      "timestamp": "2026-10-01T16:44:22.947Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "385c9f0485fb72ef",
+      "car": "DG 2024 Chevy Trax S+RTINT 260-50depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2024 Tesla Cybertruck 2front windows 165-25depo",
+      "newValue": "DG 2024 Chevy Trax S+RTINT 260-50depo"
+    },
+    {
       "id": "253f929de962555c",
       "timestamp": "2026-10-01T16:10:49.995Z",
       "actor": "Owner",
@@ -32578,6 +32597,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "8f591d92a23c6538",
+      "type": "cashOut",
+      "amount": 478.26,
+      "category": "Customer Payment",
+      "note": "10 gallons of iron remover",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "19d1389561891623",
+      "enteredByName": "Gio",
+      "timestamp": "2026-10-01T16:47:59.804Z"
+    },
     {
       "id": "1d2ed748294b5e32",
       "type": "cashIn",
