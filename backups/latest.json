@@ -12765,7 +12765,7 @@
       "id": "35af4b5acf54ade8",
       "ghlOpportunityId": "qmcEwbYKTorEXINYmf2K",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-18T17:43:44.016Z",
@@ -12775,8 +12775,10 @@
       "customerEmail": "",
       "contactId": "qmcEwbYKTorEXINYmf2K",
       "car": "JA 2017 Jeep Cherokee Front 2 + Windshield 350-50 dep",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "3cdd54e91972de02",
       "salesRepName": "Jared Aigner",
       "baseService": "Window Tint",
@@ -13752,7 +13754,7 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-09-21T19:35:27.095Z",
       "date": "2026-10-01T17:00:00.000Z",
@@ -13773,7 +13775,9 @@
       "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": false,
+      "paymentMethod": null
     },
     {
       "id": "f8fb8dd80ce2b04d",
@@ -16418,13 +16422,13 @@
       "customerPhone": "(203) 376-5201",
       "customerEmail": "",
       "contactId": "DZtTfAuHfcFVPixJi8ly",
-      "car": "reschedule Infiniti Q50 | 299 sides and rear",
+      "car": "DG reschedule Infiniti Q50 | 299 sides and rear",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
-      "baseService": "Ceramic Coating",
+      "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true,
@@ -17730,8 +17734,8 @@
       "ghlOpportunityId": "9vSvvbD1hkWAGNy5phan",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-01T15:29:54.923Z",
       "date": "2026-10-01T17:00:00.000Z",
       "customerName": "Rizwan",
@@ -17750,7 +17754,13 @@
       "basePrice": 195,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isOnlineBooking": false
+      "isOnlineBooking": false,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "e4d495d87288ebfa",
@@ -17918,6 +17928,30 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 399,
+      "calendarId": null,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "48139e16ec948b8a",
+      "ghlOpportunityId": "ZzPN7WVm66gLGnyMOQwC",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-01T19:43:29.015Z",
+      "date": "2026-10-11T17:00:00.000Z",
+      "customerName": "Rulo Vivar",
+      "customerPhone": "(443) 942-7299",
+      "customerEmail": "",
+      "contactId": "ZzPN7WVm66gLGnyMOQwC",
+      "car": "DG 2023 Toyota Tacoma 2FrontWindows 130-25depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 0,
       "calendarId": null,
       "syncedFromGHL": true
     }
@@ -29229,6 +29263,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "4cbb3686a44dd64b",
+      "timestamp": "2026-10-01T19:14:49.455Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "3f282f2ebb60cd7a",
+      "car": "DG reschedule Infiniti Q50 | 299 sides and rear",
+      "field": "Car/Title",
+      "oldValue": "DG reschedule Infiniti Q50 | 299 sides and rear ",
+      "newValue": "DG reschedule Infiniti Q50 | 299 sides and rear"
+    },
     {
       "id": "3040f3052bd6d0ed",
       "timestamp": "2026-10-01T16:44:22.947Z",
