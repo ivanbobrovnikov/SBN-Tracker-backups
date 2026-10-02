@@ -7441,7 +7441,7 @@
       "id": "4ac290992d8c31b0",
       "ghlOpportunityId": "NaKNDqGIYljpU0JR6TF5",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-08T13:55:23.563Z",
@@ -13191,8 +13191,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-19T16:04:20.831Z",
       "date": "2026-10-02T15:00:00.000Z",
       "customerName": "Armondo Espinosa",
@@ -13201,16 +13201,19 @@
       "contactId": "RJLHUWQhcNAs3dqh1wCg",
       "car": "JA 2019 Ram 1500 Front 2 + Windshield 325-25 dep",
       "employeeIds": [
-        "273b3cdb8e20e0d1"
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b"
       ],
-      "employeeNames": "Angelica",
+      "employeeNames": "Angelica, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isWalkIn": false
+      "isWalkIn": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "a47181c512418fd5",
@@ -14289,7 +14292,7 @@
       "id": "db0d33fc5e93de31",
       "ghlOpportunityId": "xx0NeqeThmJFxQd9rt0b",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-22T21:42:33.850Z",
@@ -16860,7 +16863,7 @@
       "id": "daeed2eddb31a2c4",
       "ghlOpportunityId": "RnKBq0ZGWGaUK91IGOq7",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-29T01:08:45.333Z",
@@ -18379,7 +18382,7 @@
       "customerPhone": "(609) 500-1158",
       "customerEmail": "",
       "contactId": "7bw0j5Y8MSndNrzbeEIn",
-      "car": "DG 2014 JEEP Cherokke S+RTINT&Front Windshield ",
+      "car": "TG 2014 JEEP Cherokke S+RTINT&Front Windshield 320-85depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -18435,6 +18438,29 @@
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 700,
+      "calendarId": null,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "512e6932ad1f2903",
+      "ghlOpportunityId": "VGXBY7E90EhLireGIMjG",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-02T18:07:13.477Z",
+      "date": "2026-10-02T20:00:00.000Z",
+      "customerName": "Mark Palmieri",
+      "customerPhone": "(609) 678-5944",
+      "customerEmail": "",
+      "contactId": "VGXBY7E90EhLireGIMjG",
+      "car": "Mark Palmieri",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Window Tint",
+      "basePrice": 0,
       "calendarId": null,
       "syncedFromGHL": true
     }
@@ -26020,6 +26046,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "5ef159e282c7f9fa",
+      "timestamp": "2026-10-02T17:27:22.435Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "3b4b8a2b5282baab",
+      "car": "TG 2014 JEEP Cherokke S+RTINT&Front Windshield 320-85depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2014 JEEP Cherokke S+RTINT&Front Windshield ",
+      "newValue": "TG 2014 JEEP Cherokke S+RTINT&Front Windshield 320-85depo"
+    },
     {
       "id": "823ca7b35145dba3",
       "timestamp": "2026-10-02T17:08:26.892Z",
