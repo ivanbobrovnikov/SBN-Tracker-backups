@@ -5796,8 +5796,8 @@
       "ghlOpportunityId": "nIG88Nq5lguKB2Qy0Qwu",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-03T20:35:43.726Z",
       "date": "2026-10-03T13:00:00.000Z",
       "customerName": "Cesar Rosas",
@@ -5823,7 +5823,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-10-03T13:02:19.991Z"
         }
-      ]
+      ],
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "1b7676f8b98dca90",
@@ -7077,7 +7079,7 @@
       "id": "170b2a6186de2205",
       "ghlOpportunityId": "WheeWiichuC8A8odBaRH",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-07T15:32:11.869Z",
@@ -7094,7 +7096,15 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 495,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "notes": [
+        {
+          "id": "c5ff6814d92c309d",
+          "text": "20% front section 5% rear",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-10-03T14:29:30.058Z"
+        }
+      ]
     },
     {
       "id": "a2975bb4907ec5ab",
@@ -9068,7 +9078,7 @@
       "id": "768eaf6a088e2635",
       "ghlOpportunityId": "yXcwSOVgLliQtPMo13tp",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-10T20:53:15.433Z",
@@ -9086,7 +9096,15 @@
       "baseService": "Window Tint",
       "basePrice": 580,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "notes": [
+        {
+          "id": "496c9d8e2e6a4d63",
+          "text": "35%WS 5% around",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-10-03T15:03:07.978Z"
+        }
+      ]
     },
     {
       "id": "e3a142ad2cda65c9",
@@ -33571,6 +33589,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "d4a85296096cf342",
+      "type": "cashIn",
+      "amount": 250,
+      "category": "Customer Payment",
+      "note": "2026 Mazda 3",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-10-03T15:17:04.604Z"
+    },
     {
       "id": "d4d6fd6c05a952ca",
       "type": "cashIn",
