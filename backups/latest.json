@@ -7089,8 +7089,11 @@
       "customerEmail": "",
       "contactId": "WheeWiichuC8A8odBaRH",
       "car": "DG 2022 Nissan Altima AllAroundTint $495-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Angelica, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -8816,8 +8819,8 @@
       "ghlOpportunityId": "oJLFrM0quQRxX0gLEP9E",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-10T15:45:45.356Z",
       "date": "2026-10-03T13:00:00.000Z",
       "customerName": "Clifton Whitworth",
@@ -8843,7 +8846,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-10-03T13:14:28.092Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "853705a961f8dff9",
@@ -9088,8 +9093,11 @@
       "customerEmail": "",
       "contactId": "yXcwSOVgLliQtPMo13tp",
       "car": "DG 2024 Dodge Durango AllAroundTint 580-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "791dee90ad560e70",
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Naomi, Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -13538,7 +13546,7 @@
       "id": "07bd7d2fa170442e",
       "ghlOpportunityId": "QJGxrDGDy6pC8JNoV70E",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-20T22:15:35.468Z",
@@ -18448,7 +18456,14 @@
       "completed": true,
       "paid": true,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "isOnlineBooking": true,
+      "salesRepId": null,
+      "salesRepName": "Online Booking",
+      "isWalkIn": false,
+      "walkInClosedByType": null,
+      "walkInClosedById": null,
+      "walkInClosedByName": null
     },
     {
       "id": "9f066abdd1ae2fc9",
@@ -18721,7 +18736,7 @@
       "customerPhone": "(856) 676-8776",
       "customerEmail": "",
       "contactId": "lMjZerOBLBGBtCS8VP1s",
-      "car": "DG 2020 Chevy Trevrse S+RTINT 319-50depo",
+      "car": "DG 2020 Cadillac XT6 2FrontWindows&FrontWindsheild 319-50depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -28687,6 +28702,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "fde7d42205ca7cca",
+      "timestamp": "2026-10-03T15:44:37.381Z",
+      "actor": "Owner",
+      "saleId": "65025edb1cf20696",
+      "car": "2025 Hyundai Venue",
+      "field": "Sales rep",
+      "oldValue": null,
+      "newValue": "Online Booking"
+    },
+    {
+      "id": "f20d55129a2d8fd5",
+      "timestamp": "2026-10-03T15:27:19.135Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "7e0b5eef1e442442",
+      "car": "DG 2020 Cadillac XT6 2FrontWindows&FrontWindsheild 319-50depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2020 Chevy Trevrse S+RTINT 319-50depo",
+      "newValue": "DG 2020 Cadillac XT6 2FrontWindows&FrontWindsheild 319-50depo"
+    },
     {
       "id": "d2d51310cc4ba0bd",
       "timestamp": "2026-10-03T14:11:33.744Z",
