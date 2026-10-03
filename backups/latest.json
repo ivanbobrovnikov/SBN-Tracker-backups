@@ -4080,7 +4080,7 @@
       "id": "2fc991f04950fcee",
       "ghlOpportunityId": "73hQKZP7gudChGK4IqV3",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-16T15:29:12.306Z",
@@ -5661,7 +5661,7 @@
       "ghlOpportunityId": "FB25hFbrKbVX5I4YVZQC",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-09-03T17:20:51.708Z",
       "date": "2026-10-03T13:00:00.000Z",
@@ -7240,7 +7240,7 @@
       "id": "f8bc94aaf8524272",
       "ghlOpportunityId": "fgWXUIFIIcQq4aXKINs8",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-07T21:09:06.079Z",
@@ -8857,8 +8857,8 @@
       "ghlOpportunityId": "cWHb0vBrXiUzDGAKzwAC",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-10T17:02:19.641Z",
       "date": "2026-10-03T17:00:00.000Z",
       "customerName": "Jesreel Rodríguez",
@@ -8866,15 +8866,26 @@
       "customerEmail": "",
       "contactId": "cWHb0vBrXiUzDGAKzwAC",
       "car": "DG 2016 Toyota Corolla S+RTINT&RemalRearW.Sheild 389-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f6cf35e1607cb10f",
+        "f9d9bfc4e797e38b",
+        "791dee90ad560e70"
+      ],
+      "employeeNames": "Angelica, Javier, Feso, Naomi",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 389,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "abde48d08c2d8d93",
@@ -9127,8 +9138,8 @@
       "id": "e3a142ad2cda65c9",
       "ghlOpportunityId": "Z5DWK5D0bUxAEYrxljLf",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
+      "status": "arrived",
+      "completed": true,
       "paid": false,
       "closedAt": "2026-09-10T20:59:58.362Z",
       "date": "2026-10-03T19:00:00.000Z",
@@ -9137,8 +9148,10 @@
       "customerEmail": "",
       "contactId": "Z5DWK5D0bUxAEYrxljLf",
       "car": "DG 2020 Toyota Corolla BACK&BACKWINDSHEILD REDO",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -9146,7 +9159,15 @@
       "basePrice": 1e-7,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isOnlineBooking": false
+      "isOnlineBooking": false,
+      "notes": [
+        {
+          "id": "dd109e7c7fadef73",
+          "text": "Only needs quarter windows re done",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-10-03T18:56:10.825Z"
+        }
+      ]
     },
     {
       "id": "83308badb1bada53",
@@ -9672,7 +9693,7 @@
       "id": "8534baaa392cec06",
       "ghlOpportunityId": "wGjmNFKEab5TiNMy5jYS",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-12T15:45:55.802Z",
@@ -11480,7 +11501,7 @@
       "id": "0ad741cb2b9a0807",
       "ghlOpportunityId": "y6LaXSAqaGNhxxsT8U3r",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-16T00:09:02.507Z",
@@ -11490,8 +11511,11 @@
       "customerEmail": "",
       "contactId": "y6LaXSAqaGNhxxsT8U3r",
       "car": "DG 2015 Chevy Silverado S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f6cf35e1607cb10f",
+        "791dee90ad560e70"
+      ],
+      "employeeNames": "Javier, Naomi",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -12043,7 +12067,7 @@
       "id": "229753b77726b261",
       "ghlOpportunityId": "zyEiU0VppvAUOQ2oFpQb",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-17T14:34:34.165Z",
@@ -12053,15 +12077,19 @@
       "customerEmail": "",
       "contactId": "zyEiU0VppvAUOQ2oFpQb",
       "car": "DG 2023 Toyota Tacoma 2 FrontWindows Matchtheback 150-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 150,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "managerHelperIds": [],
+      "managerHelperNames": ""
     },
     {
       "id": "40a7db0aa61a49f4",
@@ -12507,8 +12535,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-18T14:31:35.567Z",
       "date": "2026-10-03T13:00:00.000Z",
       "customerName": "Bruce Horner",
@@ -12524,7 +12552,9 @@
       "baseService": "Ceramic Coating",
       "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "c1143411000da69c",
@@ -12961,7 +12991,7 @@
       "ghlOpportunityId": "zSWpcNtLCunq0tWHzVBd",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-09-18T20:53:05.155Z",
       "date": "2026-10-03T13:00:00.000Z",
@@ -13997,8 +14027,8 @@
       "ghlOpportunityId": "Vr8UC8teNWmfZeEvyvOg",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-21T22:10:31.104Z",
       "date": "2026-10-03T13:00:00.000Z",
       "customerName": "Mikhail Borshchik",
@@ -14015,7 +14045,9 @@
       "basePrice": 499,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isOnlineBooking": false
+      "isOnlineBooking": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "e67ce3da626e91d7",
@@ -18910,8 +18942,8 @@
       "id": "108f5105eb94ce84",
       "ghlOpportunityId": "aM0aEMeKOjw6wwQrL6LT",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
+      "status": "arrived",
+      "completed": true,
       "paid": false,
       "closedAt": "2026-10-03T17:24:55.075Z",
       "date": "2026-10-03T17:40:00.000Z",
@@ -18920,13 +18952,15 @@
       "customerEmail": "",
       "contactId": "aM0aEMeKOjw6wwQrL6LT",
       "car": "DG 2026 Tesla Y S+RTINT NaNo 399 SameDay",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
+      "basePrice": 399,
       "calendarId": null,
       "syncedFromGHL": true
     }
@@ -18982,6 +19016,76 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-03T18:56:04.215Z",
+      "endpoint": "sync",
+      "matchedSaleId": "108f5105eb94ce84",
+      "before": {
+        "basePrice": 399,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 399,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "aM0aEMeKOjw6wwQrL6LT",
+        "first_name": "NOAM",
+        "last_name": "DAVIDOVICH",
+        "full_name": "NOAM DAVIDOVICH",
+        "phone": "+13477760903",
+        "tags": "name via lookup,hp fresh,hp sbn auto styling nj",
+        "city": "WOODSIDE",
+        "state": "NY",
+        "country": "US",
+        "date_created": "2026-10-03T17:05:24.348Z",
+        "postal_code": "11373",
+        "full_address": "WOODSIDE NY 11373",
+        "contact_type": "lead",
+        "opportunity_name": "NOAM DAVIDOVICH | ",
+        "status": "won",
+        "lead_value": 399,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "oDKyH09e2D8U7GasYLFh",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "399",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "aM0aEMeKOjw6wwQrL6LT"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-03T17:12:21.793Z",
       "endpoint": "sync",
@@ -26505,121 +26609,6 @@
         "VGXBY7E90EhLireGIMjG",
         "7YCSAxNzZgqOp21JERcf"
       ]
-    },
-    {
-      "receivedAt": "2026-10-02T18:45:03.273Z",
-      "endpoint": "sync",
-      "matchedSaleId": "bce78013bffc024f",
-      "before": {
-        "basePrice": 0,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2026 buick enclave avenir",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "7YCSAxNzZgqOp21JERcf",
-        "first_name": "Sundhe",
-        "last_name": "Moses",
-        "full_name": "Sundhe Moses",
-        "email": "msundhe@gmail.com",
-        "phone": "+13475670412",
-        "tags": "coating,hp sbn auto styling nj,hp appointment booked with dimitriy",
-        "country": "US",
-        "date_created": "2026-10-02T10:20:02.557Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Sundhe Moses",
-        "status": "open",
-        "lead_value": 499,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "PzfCzLQ0eJd1wT4nDBc0",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating winners",
-            "utm_campaign": "ceramic coating winners",
-            "campaignId": "120256836035700011",
-            "utmMedium": "grand opening 10 year winner",
-            "utmContent": "grand opening 10 year winner",
-            "adSetId": "120256836035550011",
-            "adId": "120256836035570011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating winners",
-            "utm_campaign": "ceramic coating winners",
-            "campaignId": "120256836035700011",
-            "utmMedium": "grand opening 10 year winner",
-            "utmContent": "grand opening 10 year winner",
-            "adSetId": "120256836035550011",
-            "adId": "120256836035570011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "499",
-          "salesRepName": "Roman Goldovsky",
-          "contactId": "7YCSAxNzZgqOp21JERcf"
-        }
-      }
     }
   ],
   "attendance": [
