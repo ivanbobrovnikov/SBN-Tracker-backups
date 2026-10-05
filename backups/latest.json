@@ -16982,13 +16982,17 @@
       "car": "NA 2026 Lexus TX500h 2FRONTS + WINDSHEILD NANO - $418 pickup Wednesday 10/7",
       "employeeIds": [],
       "employeeNames": "Unassigned",
-      "salesRepId": "d160346301cc8a3f",
-      "salesRepName": "Dmitriy Gumenyuk",
+      "salesRepId": null,
+      "salesRepName": "Walk-in (booked by staff)",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 418,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": false,
+      "walkInClosedByType": null,
+      "walkInClosedById": null,
+      "walkInClosedByName": null
     },
     {
       "id": "621b369e8baf0b80",
@@ -29244,6 +29248,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "d1c8a4f735e68ac2",
+      "timestamp": "2026-10-05T23:48:59.233Z",
+      "actor": "Aaron (manager)",
+      "saleId": "7cba0ae8f84e6d0f",
+      "car": "NA 2026 Lexus TX500h 2FRONTS + WINDSHEILD NANO - $418 pickup Wednesday 10/7",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 418
+    },
     {
       "id": "01a837a12b7c6e13",
       "timestamp": "2026-10-05T21:37:47.693Z",
