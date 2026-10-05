@@ -17466,7 +17466,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-29T17:21:31.682Z",
       "date": "2026-10-05T13:00:00.000Z",
       "customerName": "George Fox",
@@ -17482,7 +17482,9 @@
       "baseService": "Ceramic Coating",
       "basePrice": 550,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "0f213d655f5798c1",
@@ -19483,7 +19485,7 @@
       ],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-04T15:12:42.386Z",
       "date": "2026-10-05T14:00:00.000Z",
       "customerName": "",
@@ -19503,7 +19505,9 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "16eb3f5343cdcae6",
