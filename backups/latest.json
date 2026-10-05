@@ -15537,7 +15537,7 @@
       "ghlOpportunityId": "IOnDGrjYk0P75f8rQSKi",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-09-24T14:51:23.929Z",
       "date": "2026-10-05T13:00:00.000Z",
@@ -15902,7 +15902,7 @@
       "ghlOpportunityId": "uVBmZWjdZY2U1TJdxM6U",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-09-25T16:43:04.415Z",
       "date": "2026-10-05T13:00:00.000Z",
@@ -16935,8 +16935,10 @@
       "customerEmail": "",
       "contactId": "dpVX4bqjt8KkQnkuVSRn",
       "car": "DG 2015 BMW 3series 2BAckWindows&BackWindsheild 240-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -18042,8 +18044,8 @@
       "ghlOpportunityId": "E49XZkIaF07pHZsFhg73",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-30T21:20:46.940Z",
       "date": "2026-10-05T15:00:00.000Z",
       "customerName": "",
@@ -18051,8 +18053,10 @@
       "customerEmail": "",
       "contactId": "E49XZkIaF07pHZsFhg73",
       "car": "DG 2026 Acura MDX 2 Front Windows 140-25depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -18060,7 +18064,9 @@
       "basePrice": 140,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isOnlineBooking": false
+      "isOnlineBooking": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "bcbddca31832eac7",
@@ -18247,8 +18253,8 @@
       "ghlOpportunityId": "ls4XyuNv8CGTHWFusc6S",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-01T16:00:07.104Z",
       "date": "2026-10-05T13:00:00.000Z",
       "customerName": "",
@@ -18267,7 +18273,9 @@
       "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isOnlineBooking": false
+      "isOnlineBooking": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "545a6dd4a1e9d400",
