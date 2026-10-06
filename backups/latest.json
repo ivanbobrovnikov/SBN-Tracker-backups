@@ -17822,7 +17822,7 @@
       "ghlOpportunityId": "XdojeD1iIw3ihcshEqAv",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-09-30T15:24:55.345Z",
       "date": "2026-10-06T15:00:00.000Z",
@@ -19255,7 +19255,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-03T17:09:39.550Z",
       "date": "2026-10-06T15:00:00.000Z",
       "customerName": "EDDWAR ARROYO",
@@ -19271,7 +19271,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 399,
+      "basePrice": 385,
       "calendarId": null,
       "syncedFromGHL": true,
       "notes": [
@@ -19281,7 +19281,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-10-06T14:50:57.107Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "108f5105eb94ce84",
@@ -19453,8 +19455,10 @@
       "customerEmail": "",
       "contactId": "47lnfpjBmw6FczeXpd5P",
       "car": "DG 2004 Ram 1500 AllAroundTint 495-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -20244,6 +20248,30 @@
       "basePrice": 299,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "dde18dc914b6d650",
+      "ghlOpportunityId": "UeuiH5hGXV1O2Z7AhIb4",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-06T17:56:13.381Z",
+      "date": "2026-10-07T13:00:00.000Z",
+      "customerName": "Thomas Schnell",
+      "customerPhone": "(973) 809-4882",
+      "customerEmail": "",
+      "contactId": "UeuiH5hGXV1O2Z7AhIb4",
+      "car": "NA 2022 FORD F150 CERAMIC COATING $499 - $95 DEPO",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Ceramic Coating",
+      "basePrice": 499,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "isWalkIn": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -29104,6 +29132,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "769028f94ec3aac7",
+      "timestamp": "2026-10-06T17:51:45.161Z",
+      "actor": "Aaron (manager)",
+      "saleId": "3504bf4581ee0646",
+      "car": "DG 2012 Ford F150 NANO AllAroundTint 585-50depo",
+      "field": "Base price",
+      "oldValue": 399,
+      "newValue": 385
+    },
     {
       "id": "67eb8b40f292d067",
       "timestamp": "2026-10-06T17:01:26.680Z",
