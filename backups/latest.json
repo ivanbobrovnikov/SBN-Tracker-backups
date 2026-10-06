@@ -16169,8 +16169,17 @@
     {
       "id": "9e8b7c700daff3a8",
       "ghlOpportunityId": "P5dUU3Ly4lVRNWWU6lUA",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "c863e6c60517d808",
+          "name": "rims",
+          "price": 80,
+          "employeeId": "8ee8cc14340b4386",
+          "managerId": null,
+          "salesRepId": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-26T12:21:15.247Z",
@@ -16865,8 +16874,17 @@
     {
       "id": "7d7a0146fad59698",
       "ghlOpportunityId": "Bg0prdO30VKTlDsY1AYv",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "5c9107b15290c34d",
+          "name": "Nano",
+          "price": 75,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a",
+          "salesRepId": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-28T18:18:44.957Z",
@@ -16882,9 +16900,17 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 480,
+      "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "notes": [
+        {
+          "id": "6bddd9ec1cf8a78e",
+          "text": "Only wants sides and rear",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-10-06T13:42:33.370Z"
+        }
+      ]
     },
     {
       "id": "29bb0f195f64c447",
@@ -18563,7 +18589,7 @@
       "id": "79b174998e820586",
       "ghlOpportunityId": "ULSkTSjqUmIUX5tFMJVE",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-02T13:43:24.861Z",
@@ -19687,7 +19713,7 @@
       "id": "204cfdc01623c273",
       "ghlOpportunityId": "ghVvaR9CjrQhPQTbwTpN",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-05T16:18:54.068Z",
@@ -19759,7 +19785,7 @@
       "id": "97849ad70d4539bd",
       "ghlOpportunityId": "sxfBoSxa4bYK4ne9fgbH",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-05T18:06:17.902Z",
@@ -29245,6 +29271,24 @@
       "status": "present",
       "startTime": "",
       "endTime": ""
+    },
+    {
+      "id": "b15c1f7ca0bf674d",
+      "personType": "employee",
+      "personId": "8ee8cc14340b4386",
+      "date": "2026-10-06",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "a8394d759fd181cf",
+      "personType": "employee",
+      "personId": "7bcc22db24b2124f",
+      "date": "2026-10-06",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
     }
   ],
   "revenueStartDate": "2026-09-01",
@@ -29253,6 +29297,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "162a248134b7acfb",
+      "timestamp": "2026-10-06T13:42:39.917Z",
+      "actor": "Aaron (manager)",
+      "saleId": "7d7a0146fad59698",
+      "car": "DG 2024 Acura Integra AllAroundTint 480-50dpo",
+      "field": "Base price",
+      "oldValue": 480,
+      "newValue": 299
+    },
     {
       "id": "e24aff509ae09ba3",
       "timestamp": "2026-10-06T00:58:49.537Z",
@@ -34525,6 +34579,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "68ecb37632d9a9bd",
+      "type": "bankDeposit",
+      "amount": 2435,
+      "category": "Customer Payment",
+      "note": "",
+      "isOnline": false,
+      "receiptPhoto": "undefined-undefined-undefined-c83ddb5c05e58174.jpg",
+      "enteredByType": "manager",
+      "enteredById": "19d1389561891623",
+      "enteredByName": "Gio",
+      "timestamp": "2026-10-06T13:53:55.723Z"
+    },
     {
       "id": "fddeb0cab40fb8ea",
       "type": "cashIn",
