@@ -12184,7 +12184,7 @@
       ],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-16T23:40:17.811Z",
       "date": "2026-10-06T17:00:00.000Z",
       "customerName": "Steven R. Ball",
@@ -12200,7 +12200,9 @@
       "baseService": "Window Tint",
       "basePrice": 100,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "d7e458ffc0a6fe36",
@@ -16855,7 +16857,7 @@
           "salesRepId": null
         }
       ],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-28T18:02:29.599Z",
@@ -17073,14 +17075,14 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-28T21:18:45.132Z",
       "date": "2026-10-06T15:00:00.000Z",
       "customerName": "Rayfield Rambert Jr.",
       "customerPhone": "(610) 877-2529",
       "customerEmail": "",
       "contactId": "T98pGpZBLxEiwbOS6aZW",
-      "car": "DG 2017 Genesis G80 AllAroundTint 480-50depo",
+      "car": "DG 2017 Genesis G80 AllAroundTint 460-50depo",
       "employeeIds": [
         "f6cf35e1607cb10f"
       ],
@@ -17089,9 +17091,13 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 480,
+      "basePrice": 460,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "titleLocked": true,
+      "paidCard": true,
+      "paymentMethod": "both",
+      "paidCash": true
     },
     {
       "id": "7d1e4125b77bf46e",
@@ -17285,7 +17291,7 @@
       "id": "26ffceb2ccf72ee6",
       "ghlOpportunityId": "3VfHp5tpa07QzkFvLjxZ",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-29T03:42:43.330Z",
@@ -17307,7 +17313,15 @@
       "isWalkIn": false,
       "walkInClosedByType": null,
       "walkInClosedById": null,
-      "walkInClosedByName": null
+      "walkInClosedByName": null,
+      "notes": [
+        {
+          "id": "eed4b1a0e2f7db12",
+          "text": "15%",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-10-06T20:00:34.607Z"
+        }
+      ]
     },
     {
       "id": "774b6eed8c9eb5af",
@@ -17747,7 +17761,16 @@
     {
       "id": "2ae66caa630ee218",
       "ghlOpportunityId": "HB873JWxDGFxN4EXqZx9",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "4abdb31030187ef9",
+          "name": "Removal",
+          "price": 150,
+          "employeeId": null,
+          "managerId": "791dee90ad560e70",
+          "salesRepId": null
+        }
+      ],
       "status": "arrived",
       "completed": false,
       "paid": false,
@@ -18527,7 +18550,7 @@
       "customerPhone": "(443) 942-7299",
       "customerEmail": "",
       "contactId": "ZzPN7WVm66gLGnyMOQwC",
-      "car": "DG 2025 TOYOTA 4RUNNER 2Front Windows 130-25depo",
+      "car": "DG 2023 Toyota Tacoma 2FrontWindows 130-25depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -19124,7 +19147,7 @@
       "customerPhone": "(856) 676-8776",
       "customerEmail": "",
       "contactId": "lMjZerOBLBGBtCS8VP1s",
-      "car": "DG 2020 Cadillac XT6 2FrontWindows&FrontWindsheild 319-50depo",
+      "car": "DG 2020 Chevy Trevrse S+RTINT 319-50depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -19458,7 +19481,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-03T23:19:24.115Z",
       "date": "2026-10-06T17:00:00.000Z",
       "customerName": "Su'Kari Reid",
@@ -19476,13 +19499,15 @@
       "baseService": "Window Tint",
       "basePrice": 495,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "517fedcf9f1852bf",
       "ghlOpportunityId": "6O6WKz8Kc1G2LgJLqDq0",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-04T13:40:22.874Z",
@@ -19754,7 +19779,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-05T16:18:54.068Z",
       "date": "2026-10-06T13:00:00.000Z",
       "customerName": "Nancy Crowder",
@@ -19770,7 +19795,9 @@
       "baseService": "Ceramic Coating",
       "basePrice": 650,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "4da5de4382ef71f0",
@@ -20024,7 +20051,7 @@
       "id": "50fa00caca7c2eea",
       "ghlOpportunityId": "VSw58hVT2Z4FGObsvGr5",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-05T22:37:17.293Z",
@@ -20376,6 +20403,114 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-06T19:40:41.740Z",
+      "endpoint": "sync",
+      "matchedSaleId": "50fa00caca7c2eea",
+      "before": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2020 Volkswagen Jetta GLI",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "VSw58hVT2Z4FGObsvGr5",
+        "first_name": "AM",
+        "last_name": "",
+        "full_name": "AM",
+        "email": "alexited22@gmail.com",
+        "phone": "+18565061029",
+        "tags": "tint,hp sbn auto styling nj,hp appointment booked with dimitriy",
+        "country": "US",
+        "date_created": "2026-10-03T22:28:03.646Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "AM ",
+        "status": "open",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "GhbT1SfPwWkWEET2XdlP",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ testing",
+            "utm_campaign": "window tint camp NJ testing",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "right now your sitting inside my car 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256849686940011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ testing",
+            "utm_campaign": "window tint camp NJ testing",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "right now your sitting inside my car 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256849686940011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "VSw58hVT2Z4FGObsvGr5"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-06T18:51:27.266Z",
       "endpoint": "sync",
@@ -26108,121 +26243,6 @@
           "contactId": "2ICq9I57R7S9koJywfMO"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-06T13:59:08.524Z",
-      "endpoint": "sync",
-      "matchedSaleId": "ef582fafc807885a",
-      "before": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2017 golf gti",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "zMHjUBoEUATvFWqJeeWH",
-        "first_name": "Hakan",
-        "last_name": "Cakir",
-        "full_name": "Hakan Cakir",
-        "email": "manias_welters3r@icloud.com",
-        "phone": "+18563040500",
-        "tags": "tint,hp sbn auto styling nj,hp appointment booked with dimitriy",
-        "country": "US",
-        "date_created": "2026-10-05T05:50:38.155Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Hakan Cakir | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "dONUAhzxKFkfX3JRDCkR",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "right now your sitting inside my car 299",
-            "adSetId": "120254638050770011",
-            "adId": "120256849686940011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "right now your sitting inside my car 299",
-            "adSetId": "120254638050770011",
-            "adId": "120256849686940011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "zMHjUBoEUATvFWqJeeWH"
-        }
-      }
     }
   ],
   "attendance": [
@@ -28492,6 +28512,56 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "f78b152bb8400dcd",
+      "timestamp": "2026-10-06T19:36:23.928Z",
+      "actor": "Naomi (manager)",
+      "saleId": "6ca1f49690ebb17c",
+      "car": "DG 2017 Genesis G80 AllAroundTint 460-50depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 120
+    },
+    {
+      "id": "796509ef4ef6a01a",
+      "timestamp": "2026-10-06T19:34:22.463Z",
+      "actor": "Naomi (manager)",
+      "saleId": "6ca1f49690ebb17c",
+      "car": "DG 2017 Genesis G80 AllAroundTint 480-50depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2017 Genesis G80 AllAroundTint 480-50depo",
+      "newValue": "DG 2017 Genesis G80 AllAroundTint 460-50depo"
+    },
+    {
+      "id": "f5b1b2960a1b9bdb",
+      "timestamp": "2026-10-06T19:31:59.172Z",
+      "actor": "Naomi (manager)",
+      "saleId": "6ca1f49690ebb17c",
+      "car": "DG 2017 Genesis G80 AllAroundTint 480-50depo",
+      "field": "Base price",
+      "oldValue": 480,
+      "newValue": 460
+    },
+    {
+      "id": "f86acbc2d0f97520",
+      "timestamp": "2026-10-06T19:29:08.401Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "7e0b5eef1e442442",
+      "car": "DG 2020 Chevy Trevrse S+RTINT 319-50depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2020 Cadillac XT6 2FrontWindows&FrontWindsheild 319-50depo",
+      "newValue": "DG 2020 Chevy Trevrse S+RTINT 319-50depo"
+    },
+    {
+      "id": "cb944886a1ef0f09",
+      "timestamp": "2026-10-06T19:29:02.868Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "48139e16ec948b8a",
+      "car": "DG 2023 Toyota Tacoma 2FrontWindows 130-25depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2025 TOYOTA 4RUNNER 2Front Windows 130-25depo",
+      "newValue": "DG 2023 Toyota Tacoma 2FrontWindows 130-25depo"
+    },
     {
       "id": "d911ecb8dc4719a0",
       "timestamp": "2026-10-06T18:39:55.848Z",
@@ -33894,6 +33964,21 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "0218cf0209f72f0c",
+      "type": "cashIn",
+      "amount": 120,
+      "category": "Customer Payment",
+      "note": "DG 2017 Genesis G80 AllAroundTint 460-50depo — Rayfield Rambert Jr.",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "6ca1f49690ebb17c",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-10-06T19:36:23.928Z"
+    },
     {
       "id": "68ecb37632d9a9bd",
       "type": "bankDeposit",
