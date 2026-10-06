@@ -9224,7 +9224,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-10T20:59:58.362Z",
       "date": "2026-10-03T19:00:00.000Z",
       "customerName": "Hersh Desai",
@@ -9251,7 +9251,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-10-03T18:56:10.825Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "83308badb1bada53",
@@ -15181,7 +15183,10 @@
       "basePrice": 499,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isWalkIn": true
+      "isWalkIn": true,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "19d1389561891623",
+      "walkInClosedByName": "Gio"
     },
     {
       "id": "081207884eff2cc8",
@@ -16522,7 +16527,7 @@
       "ghlOpportunityId": "S51urqIh80Yh5LwrJFV4",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-09-27T15:40:42.273Z",
       "date": "2026-10-05T13:00:00.000Z",
@@ -16629,7 +16634,7 @@
       "ghlOpportunityId": "emLkSJRHvd603rev1pkl",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-09-28T14:18:15.581Z",
       "date": "2026-10-05T13:00:00.000Z",
@@ -16898,7 +16903,7 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-28T18:52:01.308Z",
-      "date": "2026-10-05T13:00:00.000Z",
+      "date": "2026-10-06T13:00:00.000Z",
       "customerName": "Minh Pho",
       "customerPhone": "(732) 331-0221",
       "customerEmail": "",
@@ -16910,7 +16915,7 @@
       "salesRepName": "Walk-in (needs closer assigned)",
       "isWalkIn": true,
       "baseService": "Ceramic Coating",
-      "basePrice": 998,
+      "basePrice": 499,
       "calendarId": null,
       "syncedFromGHL": true
     },
@@ -16984,15 +16989,15 @@
       "employeeNames": "Unassigned",
       "salesRepId": null,
       "salesRepName": "Walk-in (booked by staff)",
-      "isWalkIn": false,
+      "isWalkIn": true,
       "baseService": "Window Tint",
       "basePrice": 418,
       "calendarId": null,
       "syncedFromGHL": true,
       "isOnlineBooking": false,
-      "walkInClosedByType": null,
-      "walkInClosedById": null,
-      "walkInClosedByName": null
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi"
     },
     {
       "id": "621b369e8baf0b80",
@@ -17482,7 +17487,7 @@
       "ghlOpportunityId": "ywzynipY8uWVeNnbBeQe",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-09-29T17:21:31.682Z",
       "date": "2026-10-05T13:00:00.000Z",
@@ -29248,6 +29253,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "9a382fa0d776bc79",
+      "timestamp": "2026-10-06T00:37:20.114Z",
+      "actor": "Owner",
+      "saleId": "29bb0f195f64c447",
+      "car": "Gio Defender Land Rover 499 ",
+      "field": "Date/Time",
+      "oldValue": "2026-10-05T13:00:00.000Z",
+      "newValue": "2026-10-06T13:00:00.000Z"
+    },
+    {
+      "id": "64e82b5b28edc52c",
+      "timestamp": "2026-10-06T00:37:13.792Z",
+      "actor": "Owner",
+      "saleId": "29bb0f195f64c447",
+      "car": "Gio Defender Land Rover 499 ",
+      "field": "Base price",
+      "oldValue": 998,
+      "newValue": 499
+    },
     {
       "id": "d1c8a4f735e68ac2",
       "timestamp": "2026-10-05T23:48:59.233Z",
