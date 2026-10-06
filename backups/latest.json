@@ -16870,8 +16870,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-28T18:02:29.599Z",
       "date": "2026-10-06T19:00:00.000Z",
       "customerName": "ALY SAID",
@@ -16900,7 +16900,9 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "7d7a0146fad59698",
@@ -17312,8 +17314,8 @@
       "ghlOpportunityId": "3VfHp5tpa07QzkFvLjxZ",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-29T03:42:43.330Z",
       "date": "2026-10-06T20:00:00.000Z",
       "customerName": "Marcus Byrom",
@@ -17321,8 +17323,11 @@
       "customerEmail": "",
       "contactId": "3VfHp5tpa07QzkFvLjxZ",
       "car": "Marcus Byrom 2025 Kia K4 S+RTINT",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f6cf35e1607cb10f",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Javier, Feso",
       "salesRepId": null,
       "salesRepName": "Online Booking",
       "baseService": "Window Tint",
@@ -17342,10 +17347,10 @@
           "timestamp": "2026-10-06T20:00:34.607Z"
         }
       ],
-      "managerHelperIds": [
-        "ed55d50b916a979a"
-      ],
-      "managerHelperNames": "Aaron"
+      "managerHelperIds": [],
+      "managerHelperNames": "",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "774b6eed8c9eb5af",
@@ -19542,7 +19547,7 @@
       "ghlOpportunityId": "6O6WKz8Kc1G2LgJLqDq0",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-10-04T13:40:22.874Z",
       "date": "2026-10-06T19:00:00.000Z",
