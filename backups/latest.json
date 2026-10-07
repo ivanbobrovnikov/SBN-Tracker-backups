@@ -20504,6 +20504,30 @@
       "basePrice": 700,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "16b9b80e76357818",
+      "ghlOpportunityId": "ulNgEQexL9g4757wg5O3",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-07T01:35:34.982Z",
+      "date": "2026-10-22T13:00:00.000Z",
+      "customerName": "Connor Schwartz",
+      "customerPhone": "(856) 448-5120",
+      "customerEmail": "",
+      "contactId": "ulNgEQexL9g4757wg5O3",
+      "car": "Connor Schwartz",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Walk-in (needs closer assigned)",
+      "baseService": "Ceramic Coating",
+      "basePrice": 499,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "isWalkIn": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -20573,6 +20597,119 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-07T01:55:03.638Z",
+      "endpoint": "sync",
+      "matchedSaleId": "16b9b80e76357818",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Walk-in (needs closer assigned)"
+      },
+      "body": {
+        "contact_id": "ulNgEQexL9g4757wg5O3",
+        "first_name": "Connor",
+        "last_name": "Schwartz",
+        "full_name": "Connor Schwartz",
+        "email": "cschwartz726@gmail.com",
+        "phone": "+18564485120",
+        "tags": "hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-10-07T01:35:18.517Z",
+        "contact_source": "Ceramic Coating Booking",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Connor Schwartz | ",
+        "status": "won",
+        "lead_value": 499,
+        "opportunity_source": "Ceramic Coating Booking",
+        "source": "Ceramic Coating Booking",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "hETjKqRfTWyIZBImmgZL",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Direct traffic",
+            "url": "https://api.leadconnectorhq.com/widget/booking/l6p0Wai2C60MLpMeBerd",
+            "utmSource": null,
+            "utmMedium": null,
+            "utmContent": null,
+            "utmTerm": null,
+            "utmKeyword": null,
+            "utmMatchtype": null,
+            "gclid": null,
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+            "ip": "2600:4040:a0c2:a700:68f7:136c:8e36:2a56",
+            "gaClientId": null,
+            "gaSessionId": null,
+            "medium": "calendar",
+            "mediumId": "l6p0Wai2C60MLpMeBerd",
+            "adName": null,
+            "adGroupId": null,
+            "adId": null,
+            "gbraid": null,
+            "wbraid": null,
+            "fbEventId": "413a2213-b218-40d0-a5ff-c3710423028f"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Direct traffic",
+            "url": "https://api.leadconnectorhq.com/widget/booking/l6p0Wai2C60MLpMeBerd",
+            "utmSource": null,
+            "utmMedium": null,
+            "utmContent": null,
+            "utmTerm": null,
+            "utmKeyword": null,
+            "utmMatchtype": null,
+            "referrer": null,
+            "gclid": null,
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+            "ip": "2600:4040:a0c2:a700:68f7:136c:8e36:2a56",
+            "gaClientId": null,
+            "gaSessionId": null,
+            "medium": "calendar",
+            "mediumId": "l6p0Wai2C60MLpMeBerd",
+            "adName": null,
+            "adGroupId": null,
+            "adId": null,
+            "gbraid": null,
+            "wbraid": null
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "ulNgEQexL9g4757wg5O3"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-06T22:18:26.365Z",
       "endpoint": "sync",
@@ -25713,115 +25850,6 @@
           "basePrice": "490",
           "salesRepName": "Dmitriy Gumenyuk",
           "contactId": "avCm2aLU8sD6YN60ZKCx"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-10-06T15:51:53.752Z",
-      "endpoint": "sync",
-      "matchedSaleId": "ef103aae6051c900",
-      "before": {
-        "basePrice": 750,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 850,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2026 Ford Ranger Raptor",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "v2D37No3mgoKXYLAbS5x",
-        "first_name": "Nick",
-        "last_name": "Marchisello",
-        "full_name": "Nick Marchisello",
-        "email": "nmarchisello@gmail.com",
-        "phone": "+17326643565",
-        "tags": "coating,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-10-05T20:29:20.350Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Nick Marchisello | ",
-        "status": "won",
-        "lead_value": 850,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "uXSuRqyjDxbzgwFXOBPu",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "grand opening 499 image 2",
-            "adSetId": "120255090573730011",
-            "adId": "120255760073430011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "facebook",
-            "mediumId": "29313822981557035",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "pSid": "29313822981557035"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "850",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "v2D37No3mgoKXYLAbS5x"
         }
       }
     }
