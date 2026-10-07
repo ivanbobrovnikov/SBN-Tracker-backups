@@ -13651,7 +13651,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-19T19:45:11.810Z",
       "date": "2026-10-07T13:00:00.000Z",
       "customerName": "Chad",
@@ -13659,15 +13659,24 @@
       "customerEmail": "",
       "contactId": "PN5jFbzJTPUAjLeNyLc7",
       "car": "DG 2026 GMC Yukon Ceramic Coating 499-95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio"
     },
     {
       "id": "740bb97c6094fccb",
@@ -13850,7 +13859,11 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-10-07T20:39:35.974Z"
         }
-      ]
+      ],
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "a78e5fda7b0f90f4",
@@ -16190,7 +16203,7 @@
       "id": "ef829154685d9637",
       "ghlOpportunityId": "MhCalbo3g0ArPfHn6pgQ",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-26T01:55:03.866Z",
@@ -16284,7 +16297,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-26T14:59:22.459Z",
       "date": "2026-10-07T15:00:00.000Z",
       "customerName": "Cody Geisser",
@@ -16310,14 +16323,16 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "2388988b2fd7eff0",
       "ghlOpportunityId": "yqtboVNKODrtfggpcPJ6",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-09-26T16:13:12.858Z",
       "date": "2026-10-07T17:00:00.000Z",
@@ -16326,8 +16341,11 @@
       "customerEmail": "",
       "contactId": "yqtboVNKODrtfggpcPJ6",
       "car": "DG 2015 Acura ILX AllAroundTINT 480-25depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f6cf35e1607cb10f",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Javier, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -16338,7 +16356,11 @@
       "paidCard": true,
       "paymentMethod": "both",
       "paidCash": true,
-      "titleLocked": true
+      "titleLocked": true,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "85101c6e40761769",
@@ -16834,8 +16856,11 @@
       "customerEmail": "",
       "contactId": "jjmO0hQBCyzyZS4nbCPX",
       "car": "DG 2023 Ford F350 AllAroundTint 495-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Feso, Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -18388,7 +18413,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-01T14:23:30.583Z",
       "date": "2026-10-07T13:00:00.000Z",
       "customerName": "JOHN FALCIANO",
@@ -18404,7 +18429,9 @@
       "baseService": "Ceramic Coating",
       "basePrice": 499,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "3945904d90262f69",
@@ -18661,8 +18688,17 @@
     {
       "id": "c50721bcc5b44ec5",
       "ghlOpportunityId": "vsPKiSxpNnF9rSsp6EpS",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "97005a17cd064958",
+          "name": "Orange",
+          "price": 250,
+          "employeeId": null,
+          "managerId": "19d1389561891623",
+          "salesRepId": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-01T19:54:40.444Z",
@@ -18672,15 +18708,22 @@
       "customerEmail": "",
       "contactId": "vsPKiSxpNnF9rSsp6EpS",
       "car": "DG 2009 Burgundy Corvette C6 Ceramic Coating&Step1 650-95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
       "basePrice": 650,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio"
     },
     {
       "id": "a191a7d880f98514",
@@ -19224,23 +19267,33 @@
       ],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-02T20:28:43.420Z",
       "date": "2026-10-07T19:00:00.000Z",
       "customerName": "Pham Vu",
       "customerPhone": "(346) 669-3593",
       "customerEmail": "",
       "contactId": "tErS0TLeRu693206z5LS",
-      "car": "DG 2026 Ram 1500 AllAroundTINT 495-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "car": "DG 2026 Ram 1500 AllAroundTINT 395-50depo",
+      "employeeIds": [
+        "f6cf35e1607cb10f",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Javier, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 495,
+      "basePrice": 395,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "titleLocked": true,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "7e0b5eef1e442442",
@@ -19493,8 +19546,10 @@
       "customerEmail": "",
       "contactId": "mjNljDkFrnmusZhVgcCH",
       "car": "DG 2019 Audi A7 S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f6cf35e1607cb10f"
+      ],
+      "employeeNames": "Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -20112,8 +20167,10 @@
       "customerEmail": "",
       "contactId": "9Hce7cnzYSsEqhRjUDGm",
       "car": "DG 2025 Chevy Equonix AllAroundTint 510-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -20525,7 +20582,7 @@
       "ghlOpportunityId": "g3NAxBbOD1RaHHhtQ13p~earlier-6f8c689082aae0d8",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-10-06T21:36:45.271Z",
       "date": "2026-10-07T15:00:00.000Z",
@@ -20993,6 +21050,54 @@
       "basePrice": 0,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "fa5332b2a82fc20b",
+      "ghlOpportunityId": "58t1LQmDbOQMJKgaxE11",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-07T21:46:33.465Z",
+      "date": "2026-10-17T15:00:00.000Z",
+      "customerName": "",
+      "customerPhone": "(609) 509-8467",
+      "customerEmail": "",
+      "contactId": "58t1LQmDbOQMJKgaxE11",
+      "car": "DG 2026 BMW M340i S+RTINT 299-50depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 0,
+      "calendarId": null,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "7aa7f338f50185d3",
+      "ghlOpportunityId": "TGopMgbey7wApv8Y26Aa",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-07T21:49:12.482Z",
+      "date": "2026-10-09T15:00:00.000Z",
+      "customerName": "Tony Mike",
+      "customerPhone": "(609) 969-0369",
+      "customerEmail": "",
+      "contactId": "TGopMgbey7wApv8Y26Aa",
+      "car": "DG 2015 BMW 5series FrontWindsheild 195-25depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 195,
+      "calendarId": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -21062,6 +21167,88 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-07T21:49:50.269Z",
+      "endpoint": "sync",
+      "matchedSaleId": "7aa7f338f50185d3",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 195,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "TGopMgbey7wApv8Y26Aa",
+        "first_name": "Tony",
+        "last_name": "Mike",
+        "full_name": "Tony Mike",
+        "phone": "+16099690369",
+        "tags": "couldn't find caller name,hp fresh,hp sbn auto styling nj",
+        "city": "MEDFORD",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-10-07T15:07:30.307Z",
+        "postal_code": "08055",
+        "full_address": "MEDFORD NJ 08055",
+        "contact_type": "lead",
+        "opportunity_name": "Tony Mike | ",
+        "status": "won",
+        "lead_value": 195,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "Cbq12ZtGbuEBG5pKQfl5",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "instagram",
+            "mediumId": "1658405668966722",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "igSid": "1658405668966722"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "195",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "TGopMgbey7wApv8Y26Aa"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-07T21:13:41.949Z",
       "endpoint": "sync",
@@ -27475,115 +27662,6 @@
           "contactId": "ulNgEQexL9g4757wg5O3"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-06T22:18:26.365Z",
-      "endpoint": "sync",
-      "matchedSaleId": "57552dc4d2460b0b",
-      "before": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 700,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2023 BMW M240i",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "JJEiqHL9lOp6S3EMxavH",
-        "first_name": "dj",
-        "last_name": "b",
-        "full_name": "dj b",
-        "email": "djbuonanno@gmail.com",
-        "phone": "+16095313949",
-        "tags": "coating",
-        "country": "US",
-        "date_created": "2026-10-06T21:44:00.587Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Dj B | ",
-        "status": "won",
-        "lead_value": 700,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "NSRWfD9BAZVSHkGVaIYh",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "u shouldnt have to overpay to get ur vechile protected 499",
-            "adSetId": "120255090573730011",
-            "adId": "120256998714060011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "1454059779952285",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "1454059779952285"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "700",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "JJEiqHL9lOp6S3EMxavH"
-        }
-      }
     }
   ],
   "attendance": [
@@ -29934,6 +30012,36 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "d767f7d63c49422f",
+      "timestamp": "2026-10-07T21:43:12.081Z",
+      "actor": "Naomi (manager)",
+      "saleId": "2ceae09dc1d50c1e",
+      "car": "DG 2026 Ram 1500 AllAroundTINT 395-50depo",
+      "field": "Base price",
+      "oldValue": 495,
+      "newValue": 395
+    },
+    {
+      "id": "63b2f1383c38c200",
+      "timestamp": "2026-10-07T21:43:06.180Z",
+      "actor": "Naomi (manager)",
+      "saleId": "2ceae09dc1d50c1e",
+      "car": "DG 2026 Ram 1500 AllAroundTINT 495-50depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2026 Ram 1500 AllAroundTINT 495-50depo",
+      "newValue": "DG 2026 Ram 1500 AllAroundTINT 395-50depo"
+    },
+    {
+      "id": "b06c8bab7578adf4",
+      "timestamp": "2026-10-07T21:28:30.767Z",
+      "actor": "Naomi (manager)",
+      "saleId": "767b2e4b5c8226be",
+      "car": "DG 2027 Infiniti QX65 CeramicCoating&Rims 499-50depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 405
+    },
     {
       "id": "4a1224579017a565",
       "timestamp": "2026-10-07T21:11:21.613Z",
@@ -35617,6 +35725,21 @@
   ],
   "cashEntries": [
     {
+      "id": "97f40ce753572a6e",
+      "type": "cashIn",
+      "amount": 405,
+      "category": "Customer Payment",
+      "note": "DG 2027 Infiniti QX65 CeramicCoating&Rims 499-50depo — JOHN FALCIANO",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "767b2e4b5c8226be",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-10-07T21:28:30.767Z"
+    },
+    {
       "id": "efd2fe1dd573bab8",
       "type": "cashIn",
       "amount": 150,
@@ -38309,6 +38432,35 @@
       ],
       "loggedByName": "Aaron",
       "timestamp": "2026-10-06T22:20:55.790Z"
+    },
+    {
+      "id": "4ccbe35a21eb8076",
+      "saleId": "822061c62df61a80",
+      "car": "DG 2026 GMC Yukon Ceramic Coating 499-95depo",
+      "date": "2026-10-07T13:00:00.000Z",
+      "amount": 30,
+      "split": [
+        {
+          "personType": "employee",
+          "personId": "8ee8cc14340b4386",
+          "name": "Nick",
+          "amount": 10
+        },
+        {
+          "personType": "employee",
+          "personId": "7bcc22db24b2124f",
+          "name": "Paul",
+          "amount": 10
+        },
+        {
+          "personType": "manager",
+          "personId": "19d1389561891623",
+          "name": "Gio",
+          "amount": 10
+        }
+      ],
+      "loggedByName": "Naomi",
+      "timestamp": "2026-10-07T21:41:08.447Z"
     }
   ]
 }
