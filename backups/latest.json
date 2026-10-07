@@ -20453,7 +20453,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 475,
       "calendarId": null,
       "syncedFromGHL": true
     },
@@ -20477,7 +20477,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 1235,
+      "basePrice": 765,
       "calendarId": null,
       "syncedFromGHL": true
     },
@@ -28093,6 +28093,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "1a22620fdf6a008c",
+      "timestamp": "2026-10-06T23:37:20.249Z",
+      "actor": "Rep tracker (owner)",
+      "saleId": "69c7ffef09fc262a",
+      "car": "DG 2025 Mecedes Cla 250 CeramicCoating&S+RTINT 765-25depo",
+      "field": "Base price",
+      "oldValue": 1235,
+      "newValue": 765
+    },
+    {
+      "id": "2ffb4bd9091169a9",
+      "timestamp": "2026-10-06T23:37:12.286Z",
+      "actor": "Rep tracker (owner)",
+      "saleId": "6f8c689082aae0d8",
+      "car": "DG 2023 Benz GLC AllAroundTINT 475-25depo",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 475
+    },
     {
       "id": "1873b74eee289bd9",
       "timestamp": "2026-10-06T22:00:54.527Z",
