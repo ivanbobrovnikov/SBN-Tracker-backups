@@ -17157,7 +17157,7 @@
       "id": "730ed17faa8a9ca1",
       "ghlOpportunityId": "wUiooM39pbUShjbjp2iZ",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-28T22:13:03.285Z",
@@ -20528,6 +20528,30 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "isWalkIn": true
+    },
+    {
+      "id": "154c04e2d41b772a",
+      "ghlOpportunityId": "kWrakDVEg4246iiczm3z",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-07T12:41:13.736Z",
+      "date": "2026-10-30T14:00:00.000Z",
+      "customerName": "Shaquan Mincer",
+      "customerPhone": "(215) 783-8768",
+      "customerEmail": "",
+      "contactId": "kWrakDVEg4246iiczm3z",
+      "car": "Shaquan Mincer",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Walk-in (needs closer assigned)",
+      "baseService": "Ceramic Coating",
+      "basePrice": 499,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "isWalkIn": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -20597,6 +20621,126 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-07T12:41:13.947Z",
+      "endpoint": "sync",
+      "matchedSaleId": "154c04e2d41b772a",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Walk-in (needs closer assigned)"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2017 honda accord hybrid",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "kWrakDVEg4246iiczm3z",
+        "first_name": "Shaquan",
+        "last_name": "Mincer",
+        "full_name": "Shaquan Mincer",
+        "email": "shaquanmincer24@gmail.com",
+        "phone": "+12157838768",
+        "tags": "coating,hp fresh,hp sbn auto styling nj,hp pending deposit",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-10-05T23:43:20.649Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Shaquan Mincer | ",
+        "status": "won",
+        "lead_value": 499,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "FL2HZnyzbGIGwr7msFBJ",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "868814779620228",
+            "medium": "facebook",
+            "formId": "868814779620228",
+            "formName": "499 10 year coatijng",
+            "campaign": "ceramic coating testing",
+            "utm_campaign": "ceramic coating testing",
+            "campaignId": "120255090573720011",
+            "utmMedium": "10 year 499",
+            "utmContent": "grand opening 499 image 2",
+            "adSetId": "120255090573730011",
+            "adId": "120255760073430011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Direct traffic",
+            "url": "https://api.leadconnectorhq.com/widget/booking/l6p0Wai2C60MLpMeBerd",
+            "utmSource": null,
+            "utmMedium": null,
+            "utmContent": null,
+            "utmTerm": null,
+            "utmKeyword": null,
+            "utmMatchtype": null,
+            "referrer": null,
+            "gclid": null,
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+            "ip": "2600:1002:b1eb:c4eb:cea:5265:ff75:6b62",
+            "gaClientId": null,
+            "gaSessionId": null,
+            "medium": "calendar",
+            "mediumId": "l6p0Wai2C60MLpMeBerd",
+            "adName": null,
+            "adGroupId": null,
+            "adId": null,
+            "gbraid": null,
+            "wbraid": null
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "kWrakDVEg4246iiczm3z"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-07T01:55:03.638Z",
       "endpoint": "sync",
@@ -25792,66 +25936,6 @@
           "contactId": "r4YXZpxY7sMnfksNpSMf"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-06T16:02:41.777Z",
-      "endpoint": "sync",
-      "matchedSaleId": "e7656c95314ebb58",
-      "before": {
-        "basePrice": 0,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 490,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "contact_id": "avCm2aLU8sD6YN60ZKCx",
-        "first_name": "Amrit",
-        "full_name": "Amrit",
-        "email": "amritbenipal2005@gmail.com",
-        "phone": "+16092277027",
-        "tags": "hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "timezone": "America/New_York",
-        "date_created": "2026-10-06T15:57:56.282Z",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Amrit | ",
-        "status": "won",
-        "lead_value": 490,
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "yvKyNzlDzWXIZBHPLbFe",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "customData": {
-          "basePrice": "490",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "avCm2aLU8sD6YN60ZKCx"
-        }
-      }
     }
   ],
   "attendance": [
@@ -28110,7 +28194,88 @@
       "personType": "employee",
       "personId": "f9d9bfc4e797e38b",
       "date": "2026-10-06",
+      "status": "half_day",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "2546eafd680bf618",
+      "personType": "employee",
+      "personId": "273b3cdb8e20e0d1",
+      "date": "2026-10-07",
       "status": "absent",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "a657ff448962679e",
+      "personType": "employee",
+      "personId": "8ee8cc14340b4386",
+      "date": "2026-10-07",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "29b599390ed9a1d9",
+      "personType": "employee",
+      "personId": "7bcc22db24b2124f",
+      "date": "2026-10-07",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "fe0a5bbdf78c954d",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-10-07",
+      "status": "half_day",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "bfbed76f105b27f0",
+      "personType": "employee",
+      "personId": "f6cf35e1607cb10f",
+      "date": "2026-10-07",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "745f195ab5d20d6b",
+      "personType": "employee",
+      "personId": "2a6751461c5b36ee",
+      "date": "2026-10-07",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "51743433fab46fff",
+      "personType": "manager",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-10-07",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "40ed0c3d8a4175de",
+      "personType": "manager",
+      "personId": "19d1389561891623",
+      "date": "2026-10-07",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "8e64a5acf3d39ac1",
+      "personType": "manager",
+      "personId": "791dee90ad560e70",
+      "date": "2026-10-07",
+      "status": "present",
       "startTime": "",
       "endTime": ""
     }
