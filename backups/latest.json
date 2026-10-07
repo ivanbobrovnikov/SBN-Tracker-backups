@@ -12276,7 +12276,7 @@
       "id": "40a7db0aa61a49f4",
       "ghlOpportunityId": "eb1LY0eTNdj2jQYY1W8q",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-17T15:46:23.012Z",
@@ -16490,8 +16490,8 @@
       "id": "049f6740cff221da",
       "ghlOpportunityId": "khI5nJHBvFrzq1LGku6D",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
+      "status": "arrived",
+      "completed": true,
       "paid": false,
       "closedAt": "2026-09-26T22:06:09.279Z",
       "date": "2026-10-07T13:00:00.000Z",
@@ -16500,15 +16500,22 @@
       "customerEmail": "",
       "contactId": "khI5nJHBvFrzq1LGku6D",
       "car": "DG 2024 Mazda CX-5 S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f6cf35e1607cb10f",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Javier, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "5af349d2c5ed1e57",
@@ -28248,7 +28255,7 @@
       "personType": "employee",
       "personId": "2a6751461c5b36ee",
       "date": "2026-10-07",
-      "status": "present",
+      "status": "absent",
       "startTime": "",
       "endTime": ""
     },
