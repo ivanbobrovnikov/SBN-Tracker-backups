@@ -16256,9 +16256,9 @@
     },
     {
       "id": "4b90c92a1de85476",
-      "ghlOpportunityId": "9N7WdNi4F08OglkHnWNT",
+      "ghlOpportunityId": "9N7WdNi4F08OglkHnWNT~earlier-4b90c92a1de85476",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-26T14:59:22.459Z",
@@ -16492,7 +16492,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-26T22:06:09.279Z",
       "date": "2026-10-07T13:00:00.000Z",
       "customerName": "Ernest Lee McCoy Sr",
@@ -16515,7 +16515,9 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "5af349d2c5ed1e57",
@@ -17164,7 +17166,7 @@
       "id": "730ed17faa8a9ca1",
       "ghlOpportunityId": "wUiooM39pbUShjbjp2iZ",
       "upsells": [],
-      "status": "arrived",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-28T22:13:03.285Z",
@@ -20444,7 +20446,7 @@
       "id": "6f8c689082aae0d8",
       "ghlOpportunityId": "g3NAxBbOD1RaHHhtQ13p~earlier-6f8c689082aae0d8",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-06T21:36:45.271Z",
@@ -20559,6 +20561,52 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "isWalkIn": true
+    },
+    {
+      "id": "f8def6c68dc0cb85",
+      "ghlOpportunityId": "9N7WdNi4F08OglkHnWNT",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-07T14:50:28.695Z",
+      "date": "2026-10-15T15:00:00.000Z",
+      "customerName": "Cody Geisser",
+      "customerPhone": "(856) 405-5738",
+      "customerEmail": "",
+      "contactId": "9N7WdNi4F08OglkHnWNT",
+      "car": "AG 2013 Toyota Tundra Extended Cab $299; $50 deposit paid",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Window Tint",
+      "basePrice": 299,
+      "calendarId": null,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "80b0b1ef807506d0",
+      "ghlOpportunityId": "Pc1I9CzXRZM7GaS6DDMj",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-07T15:13:17.913Z",
+      "date": "2026-10-14T21:00:00.000Z",
+      "customerName": "Victor Medina",
+      "customerPhone": "(917) 683-0596",
+      "customerEmail": "",
+      "contactId": "Pc1I9CzXRZM7GaS6DDMj",
+      "car": "Victor Medina",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Window Tint",
+      "basePrice": 0,
+      "calendarId": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -20628,6 +20676,112 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-07T14:50:29.995Z",
+      "endpoint": "sync",
+      "matchedSaleId": "f8def6c68dc0cb85",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Unassigned"
+      },
+      "body": {
+        "contact_id": "9N7WdNi4F08OglkHnWNT",
+        "first_name": "Cody",
+        "last_name": "Geisser",
+        "full_name": "Cody Geisser",
+        "email": "codymack323@gmail.com",
+        "phone": "+18564055738",
+        "tags": "hp sbn auto styling nj,hp appointment booked with dimitriy",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-09-26T14:59:11.235Z",
+        "contact_source": "Window Tint Booking ",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Cody Geisser | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Window Tint Booking",
+        "source": "Window Tint Booking",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "IrREhrIIay6hmWMd5Ihh",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Direct traffic",
+            "url": "https://api.leadconnectorhq.com/widget/booking/kd3E4bCR56IMR1GAZWQL",
+            "utmSource": null,
+            "utmMedium": null,
+            "utmContent": null,
+            "utmTerm": null,
+            "utmKeyword": null,
+            "utmMatchtype": null,
+            "gclid": null,
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/22H352 Safari/604.1 [FBAN/FBIOS;FBAV/580.0.0.47.72;FBBV/1074444153;FBDV/iPhone14,5;FBMD/iPhone;FBSN/iOS;FBSV/18.7.8;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5;FBRV/1077330995;IABMV/1]",
+            "ip": "2600:4040:e0ad:cd00:b50a:a446:d3e0:3c7d",
+            "gaClientId": null,
+            "gaSessionId": null,
+            "medium": "calendar",
+            "mediumId": "kd3E4bCR56IMR1GAZWQL",
+            "adName": null,
+            "adGroupId": null,
+            "adId": null,
+            "gbraid": null,
+            "wbraid": null,
+            "fbEventId": "8b4f673d-50e6-44a4-a656-979d36aa9009"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Direct traffic",
+            "url": "https://api.leadconnectorhq.com/widget/booking/kd3E4bCR56IMR1GAZWQL",
+            "utmSource": null,
+            "utmMedium": null,
+            "utmContent": null,
+            "utmTerm": null,
+            "utmKeyword": null,
+            "utmMatchtype": null,
+            "referrer": null,
+            "gclid": null,
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/22H352 Safari/604.1 [FBAN/FBIOS;FBAV/580.0.0.47.72;FBBV/1074444153;FBDV/iPhone14,5;FBMD/iPhone;FBSN/iOS;FBSV/18.7.8;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5;FBRV/1077330995;IABMV/1]",
+            "ip": "2600:4040:e0ad:cd00:b50a:a446:d3e0:3c7d",
+            "gaClientId": null,
+            "gaSessionId": null,
+            "medium": "calendar",
+            "mediumId": "kd3E4bCR56IMR1GAZWQL",
+            "adName": null,
+            "adGroupId": null,
+            "adId": null,
+            "gbraid": null,
+            "wbraid": null
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "9N7WdNi4F08OglkHnWNT"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-07T12:41:13.947Z",
       "endpoint": "sync",
@@ -25828,121 +25982,6 @@
         "o3gTqJ5mglm4stK1Mbz3",
         "avCm2aLU8sD6YN60ZKCx"
       ]
-    },
-    {
-      "receivedAt": "2026-10-06T16:07:46.407Z",
-      "endpoint": "sync",
-      "matchedSaleId": "7cba0ae8f84e6d0f",
-      "before": {
-        "basePrice": 418,
-        "salesRepName": "Walk-in (booked by staff)"
-      },
-      "after": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2026 Lexus TX500h",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "r4YXZpxY7sMnfksNpSMf",
-        "first_name": "Alan",
-        "last_name": "Belcher",
-        "full_name": "Alan Belcher",
-        "email": "diana@dbelcher.net",
-        "phone": "+16092479632",
-        "tags": "coating",
-        "country": "US",
-        "date_created": "2026-09-28T02:19:05.237Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Alan Belcher | ",
-        "status": "won",
-        "lead_value": 499,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "mRwL7dDZaTrwSSXsppOb",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "hey is this sbn auto styling? 499",
-            "adSetId": "120255090573730011",
-            "adId": "120256326229360011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "hey is this sbn auto styling? 499",
-            "adSetId": "120255090573730011",
-            "adId": "120256326229360011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "499",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "r4YXZpxY7sMnfksNpSMf"
-        }
-      }
     }
   ],
   "attendance": [
@@ -28293,6 +28332,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "11ed6e754415cfc2",
+      "timestamp": "2026-10-07T14:50:28.695Z",
+      "actor": "Auto-split (new appointment)",
+      "saleId": "4b90c92a1de85476",
+      "car": "Cody Geisser",
+      "field": "GHL Opportunity ID",
+      "oldValue": "9N7WdNi4F08OglkHnWNT",
+      "newValue": "9N7WdNi4F08OglkHnWNT~earlier-4b90c92a1de85476"
+    },
     {
       "id": "1a22620fdf6a008c",
       "timestamp": "2026-10-06T23:37:20.249Z",
