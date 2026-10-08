@@ -13830,23 +13830,32 @@
     {
       "id": "49d547dcca8d4c50",
       "ghlOpportunityId": "opiSy8WO78YCl2nf3WLw",
-      "upsells": [],
-      "status": "arrived",
+      "upsells": [
+        {
+          "id": "8f13ef5d179aa040",
+          "name": "Nano",
+          "price": 100,
+          "employeeId": null,
+          "managerId": "791dee90ad560e70",
+          "salesRepId": null
+        }
+      ],
+      "status": "pending",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-21T00:35:30.240Z",
-      "date": "2026-10-08T20:30:00.000Z",
+      "date": "2026-10-08T13:00:00.000Z",
       "customerName": "Timothy Vojtecky",
       "customerPhone": "(609) 866-8879",
       "customerEmail": "",
       "contactId": "opiSy8WO78YCl2nf3WLw",
-      "car": "Timothy Vojtecky",
+      "car": "Timothy Vojtecky S +RTINT $249",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
       "salesRepName": "Online Booking",
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 249,
       "calendarId": null,
       "syncedFromGHL": true,
       "isOnlineBooking": true,
@@ -13865,7 +13874,8 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "titleLocked": true
     },
     {
       "id": "a78e5fda7b0f90f4",
@@ -30004,6 +30014,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "86a733fbcd6074bc",
+      "timestamp": "2026-10-08T11:49:52.357Z",
+      "actor": "Naomi (manager)",
+      "saleId": "49d547dcca8d4c50",
+      "car": "Timothy Vojtecky S +RTINT $249 ",
+      "field": "Car/Title",
+      "oldValue": "Timothy Vojtecky S +RTINT $249 ",
+      "newValue": "Timothy Vojtecky S +RTINT $249"
+    },
+    {
+      "id": "39f95ef6f2da1217",
+      "timestamp": "2026-10-08T11:49:49.368Z",
+      "actor": "Naomi (manager)",
+      "saleId": "49d547dcca8d4c50",
+      "car": "Timothy Vojtecky S +RTINT $249 ",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 249
+    },
     {
       "id": "d767f7d63c49422f",
       "timestamp": "2026-10-07T21:43:12.081Z",
