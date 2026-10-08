@@ -12554,8 +12554,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-15T17:08:35.318Z",
       "date": "2026-10-06T15:00:00.000Z",
       "customerName": "Elizabeth Friedman",
@@ -12580,13 +12580,14 @@
       "walkInClosedById": "19d1389561891623",
       "walkInClosedByName": "Gio",
       "paidCash": false,
-      "paymentMethod": null,
+      "paymentMethod": "card",
       "managerHelperIds": [
         "19d1389561891623"
       ],
       "managerHelperNames": "Gio",
       "titlePrice": null,
-      "titleDeposit": null
+      "titleDeposit": null,
+      "paidCard": true
     },
     {
       "id": "6ed7324ab4f5ac6b",
@@ -17675,7 +17676,7 @@
       "id": "1055c1eecc644b4b",
       "ghlOpportunityId": "yzAqyo3jIlo9xOIJKnLr",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-25T20:04:36.116Z",
@@ -17703,11 +17704,11 @@
       "id": "082934a788286389",
       "ghlOpportunityId": "tADq18cny9b04kCaqKJL",
       "upsells": [],
-      "status": "no_show",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-25T21:38:27.160Z",
-      "date": "2026-10-02T13:00:00.000Z",
+      "date": "2026-10-09T13:00:00.000Z",
       "customerName": "Jarvin Funez",
       "customerPhone": "(609) 457-5512",
       "customerEmail": "",
@@ -20800,7 +20801,7 @@
       "id": "536942283e00e4c6",
       "ghlOpportunityId": "ICTQEsyoYpDgB07Xjyfa",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-02T15:00:35.056Z",
@@ -20988,7 +20989,7 @@
       "id": "3b4b8a2b5282baab",
       "ghlOpportunityId": "7bw0j5Y8MSndNrzbeEIn",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-02T17:00:10.951Z",
@@ -20997,7 +20998,7 @@
       "customerPhone": "(609) 500-1158",
       "customerEmail": "",
       "contactId": "7bw0j5Y8MSndNrzbeEIn",
-      "car": "TG 2014 JEEP Cherokke S+RTINT&Front Windshield 320-85depo",
+      "car": "TG 2014 JEEP Cherokke Two Fronts & Windshield 320-85depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -21011,7 +21012,8 @@
       "priceMismatchDismissed": false,
       "titlePrice": 320,
       "titleDeposit": 85,
-      "priceSource": "title"
+      "priceSource": "title",
+      "titleLocked": true
     },
     {
       "id": "7a8fce7c7ca58b5d",
@@ -22009,7 +22011,7 @@
       "priceMismatchDismissed": false,
       "titlePrice": 299,
       "titleDeposit": 50,
-      "priceSource": "ghl"
+      "priceSource": "title"
     },
     {
       "id": "e7643921b94ef70e",
@@ -23498,7 +23500,7 @@
       "id": "6d51f785e5b14b2f",
       "ghlOpportunityId": "UQtdbTEELuA0x6oauUQq",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-08T14:04:24.605Z",
@@ -23865,17 +23867,17 @@
       "customerPhone": "(856) 520-2614",
       "customerEmail": "",
       "contactId": "Ggb84oiWa7UErHRwt4rl",
-      "car": "DG 2026 BMW 430i Black Ceramic Coating 499-95depo",
+      "car": "DG 2026 BMW 430i Black Ceramic Coating&Rims&Windows 600-95depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 499,
+      "basePrice": 600,
       "priceSource": "title",
       "priceMismatchDismissed": false,
-      "titlePrice": 499,
+      "titlePrice": 600,
       "titleDeposit": 95,
       "calendarId": null,
       "syncedFromGHL": true,
@@ -33026,6 +33028,46 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "fb9a0b1cd0534747",
+      "timestamp": "2026-10-08T20:20:14.665Z",
+      "actor": "Aaron (manager)",
+      "saleId": "3b4b8a2b5282baab",
+      "car": "TG 2014 JEEP Cherokke S+RTINT&Front Windshield 320-85depo",
+      "field": "Car/Title",
+      "oldValue": "TG 2014 JEEP Cherokke S+RTINT&Front Windshield 320-85depo",
+      "newValue": "TG 2014 JEEP Cherokke Two Fronts & Windshield 320-85depo"
+    },
+    {
+      "id": "f5ae1f344a7719bc",
+      "timestamp": "2026-10-08T20:14:54.750Z",
+      "actor": "Aaron (manager)",
+      "saleId": "082934a788286389",
+      "car": "DG 2024 Ford Raptor Ceramic Coating 499-95depo",
+      "field": "Date/Time",
+      "oldValue": "2026-10-02T13:00:00.000Z",
+      "newValue": "2026-10-09T13:00:00.000Z"
+    },
+    {
+      "id": "20bc952d95f01a0a",
+      "timestamp": "2026-10-08T20:00:39.107Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "cc6a6135e565ac67",
+      "car": "DG 2026 BMW 430i Black Ceramic Coating&Rims&Windows 600-95depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2026 BMW 430i Black Ceramic Coating 499-95depo",
+      "newValue": "DG 2026 BMW 430i Black Ceramic Coating&Rims&Windows 600-95depo"
+    },
+    {
+      "id": "582f5f01e2f5d11a",
+      "timestamp": "2026-10-08T20:00:39.107Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "cc6a6135e565ac67",
+      "car": "DG 2026 BMW 430i Black Ceramic Coating&Rims&Windows 600-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 600
+    },
+    {
       "id": "d46a9b8f84e077d6",
       "timestamp": "2026-10-08T19:51:44.284Z",
       "actor": "Naomi (manager)",
@@ -39017,6 +39059,19 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "c2a27e1266cb2c50",
+      "type": "bankDeposit",
+      "amount": 1656,
+      "category": "Other",
+      "note": "",
+      "isOnline": false,
+      "receiptPhoto": "undefined-undefined-undefined-489c1a099ffd4bef.jpg",
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-10-08T20:27:49.922Z"
+    },
     {
       "id": "6ed7cf6fffbb6b50",
       "type": "cashIn",
