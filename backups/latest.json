@@ -16051,16 +16051,16 @@
       "id": "db0d33fc5e93de31",
       "ghlOpportunityId": "xx0NeqeThmJFxQd9rt0b",
       "upsells": [],
-      "status": "no_show",
+      "status": "pending",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-22T21:42:33.850Z",
-      "date": "2026-10-02T17:00:00.000Z",
+      "date": "2026-10-16T19:00:00.000Z",
       "customerName": "Rav_jay🐦‍⬛ Pee",
       "customerPhone": "(856) 443-3558",
       "customerEmail": "",
       "contactId": "xx0NeqeThmJFxQd9rt0b",
-      "car": "DG 2013 BMW 3Serires S+RTINT 299-25depo",
+      "car": "DG 2013 BMW 3Series S+RTINT 299-25depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -16072,7 +16072,8 @@
       "syncedFromGHL": true,
       "priceMismatchDismissed": false,
       "titlePrice": 299,
-      "titleDeposit": 25
+      "titleDeposit": 25,
+      "priceSource": "title"
     },
     {
       "id": "bae5a8f091ae171b",
@@ -33868,6 +33869,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "dc66fd0dfc4e410e",
+      "timestamp": "2026-10-08T23:38:06.081Z",
+      "actor": "Auto-matched (reschedule)",
+      "saleId": "db0d33fc5e93de31",
+      "car": "DG 2013 BMW 3Serires S+RTINT 299-25depo",
+      "field": "Status",
+      "oldValue": "no_show",
+      "newValue": "pending"
+    },
     {
       "id": "fb9a0b1cd0534747",
       "timestamp": "2026-10-08T20:20:14.665Z",
