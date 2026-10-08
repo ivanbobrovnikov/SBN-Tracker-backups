@@ -13833,7 +13833,7 @@
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-21T00:35:30.240Z",
-      "date": "2026-10-07T20:30:00.000Z",
+      "date": "2026-10-08T20:30:00.000Z",
       "customerName": "Timothy Vojtecky",
       "customerPhone": "(609) 866-8879",
       "customerEmail": "",
@@ -20162,8 +20162,8 @@
       "ghlOpportunityId": "9Hce7cnzYSsEqhRjUDGm",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-05T20:04:02.025Z",
       "date": "2026-10-07T20:00:00.000Z",
       "customerName": "Dom",
@@ -20189,7 +20189,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-10-07T20:59:49.867Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "d108512ed642734c",
