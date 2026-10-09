@@ -34,16 +34,6 @@
       "commissionRate": 10,
       "walkInCommissionRate": 10,
       "pinHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
-    },
-    {
-      "id": "2a6751461c5b36ee",
-      "name": "John Corson",
-      "commissionRate": 0,
-      "walkInCommissionRate": 0,
-      "pinHash": "2099dfc64a3ea8bf92a11f3cc03da82a76d2fc60005d8652a354ab47dc59de9d",
-      "payType": null,
-      "salaryPerPeriod": 0,
-      "hourlyRate": 0
     }
   ],
   "sales": [
@@ -18338,7 +18328,7 @@
       ],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-26T23:03:39.702Z",
       "date": "2026-10-09T19:00:00.000Z",
       "customerName": "𝕶𝖊𝖑 🕷️",
@@ -18347,9 +18337,10 @@
       "contactId": "XUz08AWDjw6dDRq8kbbr",
       "car": "DG 2016 Honda Accord 299-50depo",
       "employeeIds": [
-        "f6cf35e1607cb10f"
+        "f6cf35e1607cb10f",
+        "273b3cdb8e20e0d1"
       ],
-      "employeeNames": "Javier",
+      "employeeNames": "Javier, Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -18360,7 +18351,9 @@
       "priceMismatchDismissed": false,
       "titlePrice": 299,
       "titleDeposit": 50,
-      "priceSource": "title"
+      "priceSource": "title",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "4abea7cfba1d5813",
@@ -18865,8 +18858,10 @@
       "customerEmail": "",
       "contactId": "nqLq9XKTEg5vxIsxdxHZ",
       "car": "DG 2023 Hyundai Sante Fe AllAroundTint 475-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -20117,8 +20112,10 @@
       "customerEmail": "",
       "contactId": "tB5oPLk0GCWWpHg86mFG",
       "car": "DG 2007 Honda Accord S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -20922,8 +20919,11 @@
       "customerEmail": "",
       "contactId": "ICTQEsyoYpDgB07Xjyfa",
       "car": "DG 2022 Ram 1500 Ceramic Coating 499-95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -21139,7 +21139,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-02T17:03:07.418Z",
       "date": "2026-10-09T20:00:00.000Z",
       "customerName": "Bec",
@@ -21161,7 +21161,9 @@
       "priceMismatchDismissed": false,
       "titlePrice": 299,
       "titleDeposit": 50,
-      "priceSource": "title"
+      "priceSource": "title",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "522ca2e4b72f2512",
@@ -21177,8 +21179,11 @@
       "customerEmail": "",
       "contactId": "QRXjCQUrn93VfaDD4UVJ",
       "car": "DG 2015 Benz E350 Ceramic Coating&Rims&AllWindows 700-95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -21243,8 +21248,11 @@
       "customerEmail": "",
       "contactId": "7YCSAxNzZgqOp21JERcf",
       "car": "DG 2026 Buick Eonclave CeramicCoating&Sunstrip&2FrontWindows 729-95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
