@@ -7707,8 +7707,17 @@
     {
       "id": "180fa1a29c887210",
       "ghlOpportunityId": "sAWY7HtvK2r6hrW8cIz5",
-      "upsells": [],
-      "status": "no_show",
+      "upsells": [
+        {
+          "id": "584f71aac811efef",
+          "name": "Wheels",
+          "price": 100,
+          "employeeId": null,
+          "managerId": "791dee90ad560e70",
+          "salesRepId": null
+        }
+      ],
+      "status": "pending",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-07T00:12:31.287Z",
@@ -7723,13 +7732,18 @@
       "salesRepId": null,
       "salesRepName": "Walk-in (needs closer assigned)",
       "baseService": "Ceramic Coating",
-      "basePrice": 299,
+      "basePrice": 499,
       "syncedFromGHL": true,
       "isWalkIn": true,
       "calendarId": null,
       "titlePrice": null,
       "titleDeposit": null,
-      "priceMismatchDismissed": false
+      "priceMismatchDismissed": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi",
+      "priceLocked": true,
+      "priceSource": "manual"
     },
     {
       "id": "fa3f05e7990955ad",
@@ -33288,6 +33302,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "03240c282aa7b6ac",
+      "timestamp": "2026-10-09T12:45:04.667Z",
+      "actor": "Naomi (manager)",
+      "saleId": "180fa1a29c887210",
+      "car": "NA 2026 HONDA CIVIC 10YR CERAMIC COATING + WHEEL COATING $599 $95 DEPO",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 499
+    },
     {
       "id": "dc66fd0dfc4e410e",
       "timestamp": "2026-10-08T23:38:06.081Z",
