@@ -5,35 +5,45 @@
       "name": "Angelica",
       "commissionRate": 10,
       "pinHash": "cbd542e4e0644115214759abc68630dbc7f10ceed83af70cef27d0563e37f904",
-      "walkInCommissionRate": 10
+      "walkInCommissionRate": 10,
+      "payType": "salary",
+      "salaryPerPeriod": 3000
     },
     {
       "id": "8ee8cc14340b4386",
       "name": "Nick",
       "commissionRate": 10,
       "pinHash": "c1f330d0aff31c1c87403f1e4347bcc21aff7c179908723535f2b31723702525",
-      "walkInCommissionRate": 10
+      "walkInCommissionRate": 10,
+      "payType": "salary",
+      "salaryPerPeriod": 1500
     },
     {
       "id": "7bcc22db24b2124f",
       "name": "Paul",
       "commissionRate": 10,
       "pinHash": "b1229e69f1343fab3d278c9ca258fef7746630d3eccb6b3ba78ce1daee15567a",
-      "walkInCommissionRate": 10
+      "walkInCommissionRate": 10,
+      "payType": "salary",
+      "salaryPerPeriod": 1600
     },
     {
       "id": "f9d9bfc4e797e38b",
       "name": "Feso",
       "commissionRate": 10,
       "walkInCommissionRate": 10,
-      "pinHash": "aeb32cfe00d196040e9758c276853282721fbd222038a54e9ae04d6686066e1b"
+      "pinHash": "aeb32cfe00d196040e9758c276853282721fbd222038a54e9ae04d6686066e1b",
+      "payType": "commission",
+      "carCommissionRate": 25
     },
     {
       "id": "f6cf35e1607cb10f",
       "name": "Javier",
       "commissionRate": 10,
       "walkInCommissionRate": 10,
-      "pinHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+      "pinHash": "eec957ed8f011070901be1ea41bed631ba581e488c97730e5b20f0b3fae84c8a",
+      "payType": "salary",
+      "salaryPerPeriod": 2125
     }
   ],
   "sales": [
@@ -24772,7 +24782,9 @@
       "name": "Aaron",
       "pinHash": "a1fb4e703a9ef1fa4936801721ff285a97ac85330856674412e054892afe6972",
       "commissionRate": 10,
-      "walkInCommissionRate": 10
+      "walkInCommissionRate": 10,
+      "payType": "salary",
+      "salaryPerPeriod": 2700
     },
     {
       "id": "2b02987feb841fcd",
@@ -24786,7 +24798,9 @@
       "name": "Gio",
       "pinHash": "13c6f7d6022a155ce7e38d7485faf6830594bae46f2120dbe04c795ec4cc0e20",
       "commissionRate": 10,
-      "walkInCommissionRate": 10
+      "walkInCommissionRate": 10,
+      "payType": "salary",
+      "salaryPerPeriod": 2000
     },
     {
       "id": "791dee90ad560e70",
@@ -24794,7 +24808,9 @@
       "commissionRate": 10,
       "walkInCommissionRate": 10,
       "pinHash": "7834541aeb2127e4e67d9cff30a7e8cf1640863b202e73415f5e93a0c56c5670",
-      "promotedFromEmployeeAt": "2026-10-04T21:16:02.263Z"
+      "promotedFromEmployeeAt": "2026-10-04T21:16:02.263Z",
+      "payType": "salary",
+      "salaryPerPeriod": 2076
     }
   ],
   "salesReps": [
