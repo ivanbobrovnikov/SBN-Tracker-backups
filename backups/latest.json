@@ -24371,8 +24371,8 @@
       "car": "AG 2024 BMW 540 S+R $299; $50 deposit paid",
       "employeeIds": [],
       "employeeNames": "Unassigned",
-      "salesRepId": "d160346301cc8a3f",
-      "salesRepName": "Dmitriy Gumenyuk",
+      "salesRepId": null,
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Window Tint",
       "basePrice": 299,
       "priceSource": "title",
@@ -24382,7 +24382,8 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 299,
-      "isWalkIn": false
+      "isWalkIn": true,
+      "isOnlineBooking": false
     },
     {
       "id": "b63a8fcacfc6ac88",
@@ -24440,7 +24441,9 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 299
+      "ghlValue": 299,
+      "rescheduleAutoFlagged": false,
+      "isReschedule": true
     },
     {
       "id": "5e954ad4c06fb784",
@@ -31662,6 +31665,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "79518372b7941744",
+      "timestamp": "2026-10-10T00:00:13.631Z",
+      "actor": "Rep tracker (owner)",
+      "saleId": "f1353fa650ea4c44",
+      "car": "DG 2013 BMW 3Series 299-50depo",
+      "field": "Reschedule (not a new close)",
+      "oldValue": false,
+      "newValue": true
+    },
     {
       "id": "32e38ce368d066b2",
       "timestamp": "2026-10-09T22:28:09.773Z",
