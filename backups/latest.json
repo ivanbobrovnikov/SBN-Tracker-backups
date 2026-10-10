@@ -16229,7 +16229,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-22T22:20:42.553Z",
       "date": "2026-10-10T20:00:00.000Z",
       "customerName": "Queen_vonie Gem",
@@ -16249,7 +16249,10 @@
       "priceMismatchDismissed": false,
       "titlePrice": 285,
       "titleDeposit": 50,
-      "priceSource": "title"
+      "priceSource": "title",
+      "paidCard": true,
+      "paymentMethod": "both",
+      "paidCash": true
     },
     {
       "id": "3df8140c7e62ba35",
@@ -32604,6 +32607,16 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "d5b337a00951f774",
+      "timestamp": "2026-10-10T21:56:47.877Z",
+      "actor": "Naomi (manager)",
+      "saleId": "599a824fde22e7c0",
+      "car": "DG 2017 Genesis G80 S+RTINT 285-50depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 200
+    },
+    {
       "id": "3361f9a485b6606e",
       "timestamp": "2026-10-10T21:26:02.294Z",
       "actor": "Auto-split (new appointment)",
@@ -39215,6 +39228,21 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "93c3477138a41bfb",
+      "type": "cashIn",
+      "amount": 200,
+      "category": "Customer Payment",
+      "note": "DG 2017 Genesis G80 S+RTINT 285-50depo — Queen_vonie Gem",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "599a824fde22e7c0",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-10-10T21:56:47.877Z"
+    },
     {
       "id": "93dba3eee31c8002",
       "type": "cashIn",
