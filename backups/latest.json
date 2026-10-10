@@ -24734,6 +24734,35 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 350
+    },
+    {
+      "id": "5c2f3b49062ee126",
+      "ghlOpportunityId": "v0u2zNEYg7GZGBSp0rSK",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-10T00:35:10.723Z",
+      "date": "2026-10-15T13:00:00.000Z",
+      "customerName": "Davis",
+      "customerPhone": "(609) 636-8461",
+      "customerEmail": "",
+      "contactId": "v0u2zNEYg7GZGBSp0rSK",
+      "car": "fk davis 2008 jagaur xj8 black  499$ plus wheels and windows 100$ 599$ -95$ depo drop off day before maybe 1 step 150$",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "9e7aec4eefe054cc",
+      "salesRepName": "Firdavs Karshiev",
+      "isWalkIn": false,
+      "baseService": "Ceramic Coating",
+      "basePrice": 499,
+      "priceSource": "title",
+      "priceMismatchDismissed": false,
+      "titlePrice": 499,
+      "titleDeposit": 95,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "ghlValue": 599
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -24803,6 +24832,66 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-10T00:35:39.114Z",
+      "endpoint": "sync",
+      "matchedSaleId": "5c2f3b49062ee126",
+      "before": {
+        "basePrice": 499,
+        "salesRepName": "Firdavs Karshiev"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Firdavs Karshiev"
+      },
+      "body": {
+        "contact_id": "v0u2zNEYg7GZGBSp0rSK",
+        "first_name": "davis",
+        "full_name": "davis",
+        "email": "ddavis2580@gmail.com",
+        "phone": "+16096368461",
+        "tags": "hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-10-10T00:24:16.145Z",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Davis | ",
+        "status": "won",
+        "lead_value": 599,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "1aYlwGUOQBGbrryrp86I",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "customData": {
+          "basePrice": "599",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "v0u2zNEYg7GZGBSp0rSK"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-09T21:49:56.633Z",
       "endpoint": "sync",
@@ -29038,121 +29127,6 @@
           "contactId": "TGopMgbey7wApv8Y26Aa"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-09T14:48:29.051Z",
-      "endpoint": "sync",
-      "matchedSaleId": "49f98ed9ec09d55d",
-      "before": {
-        "basePrice": 300,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 300,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2023",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "APL7KkjlWstwpUy2CTNO",
-        "first_name": "Gerard",
-        "last_name": "Rus",
-        "full_name": "Gerard Rus",
-        "email": "jnco0097@aol.com",
-        "phone": "+17323122884",
-        "tags": "tint,hp sbn auto styling nj,hp aged,hp remove booked stage",
-        "country": "US",
-        "date_created": "2026-09-11T21:40:41.118Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Gerard Rus | ",
-        "status": "won",
-        "lead_value": 300,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "AQynwntsSp5tzy4L16yc",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "ad 1 299",
-            "adSetId": "120254638050770011",
-            "adId": "120254652145930011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "ad 1 299",
-            "adSetId": "120254638050770011",
-            "adId": "120254652145930011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "300",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "APL7KkjlWstwpUy2CTNO"
-        }
-      }
     }
   ],
   "attendance": [
@@ -31665,6 +31639,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "71c51bb03bf6ecb6",
+      "timestamp": "2026-10-10T01:03:39.217Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "5c2f3b49062ee126",
+      "car": "fk davis 2008 jagaur xj8 black  499$ plus wheels and windows 100$ 599$ -95$ depo drop off day before maybe 1 step 150$",
+      "field": "Car/Title",
+      "oldValue": "fk davis 2008 jagaur xj8 black  499$ plus wheels and windows 100$ 599$ -95$ depo drop off day before maybe 1 step 150$ ",
+      "newValue": "fk davis 2008 jagaur xj8 black  499$ plus wheels and windows 100$ 599$ -95$ depo drop off day before maybe 1 step 150$"
+    },
     {
       "id": "79518372b7941744",
       "timestamp": "2026-10-10T00:00:13.631Z",
