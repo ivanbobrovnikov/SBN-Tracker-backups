@@ -11536,7 +11536,7 @@
       "id": "416030d87cd6ff2a",
       "ghlOpportunityId": "zmXTzAcprUxm5Kt1PrYk",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-14T12:47:20.146Z",
@@ -11546,8 +11546,10 @@
       "customerEmail": "",
       "contactId": "zmXTzAcprUxm5Kt1PrYk",
       "car": "DG 2026 Toyota Camry NANOAllAroundTint 595-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -15939,7 +15941,7 @@
       "id": "af308814f94a6234",
       "ghlOpportunityId": "YzisSFRn3TTXPyCAok19",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-22T17:27:57.662Z",
@@ -15949,8 +15951,10 @@
       "customerEmail": "",
       "contactId": "YzisSFRn3TTXPyCAok19",
       "car": "DG 2026 Toyota Corolla AllAroundTInt 485-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -20805,7 +20809,7 @@
       "id": "48139e16ec948b8a",
       "ghlOpportunityId": "ZzPN7WVm66gLGnyMOQwC",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-01T19:43:29.015Z",
@@ -20815,8 +20819,10 @@
       "customerEmail": "",
       "contactId": "ZzPN7WVm66gLGnyMOQwC",
       "car": "DG 2023 Toyota Tacoma 2FrontWindows 130-25depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -20827,7 +20833,8 @@
       "priceMismatchDismissed": false,
       "titlePrice": 130,
       "titleDeposit": 25,
-      "priceSource": "title"
+      "priceSource": "title",
+      "ghlValue": 299
     },
     {
       "id": "c50721bcc5b44ec5",
@@ -24705,7 +24712,7 @@
       "id": "4458ad4e78c70a36",
       "ghlOpportunityId": "PetPhGjSUu2Dd5iu8yuH",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-09T16:30:43.651Z",
@@ -24715,8 +24722,10 @@
       "customerEmail": "",
       "contactId": "PetPhGjSUu2Dd5iu8yuH",
       "car": "NA 2016 F150 NANO S+RTINT + STRIP $499 - $50DEPO",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": null,
       "salesRepName": "Walk-in (needs closer assigned)",
       "baseService": "Window Tint",
@@ -24728,7 +24737,10 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 299,
-      "isWalkIn": true
+      "isWalkIn": true,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi"
     },
     {
       "id": "553b7968cd403915",
@@ -25634,29 +25646,6 @@
       "walkInClosedById": null,
       "walkInClosedByName": null,
       "priceLocked": true
-    },
-    {
-      "id": "8cdda59a6e052e32",
-      "date": "2026-10-11T13:00:00.000Z",
-      "closedAt": "2026-10-11T07:00:00.000Z",
-      "customerName": "Del Woodard",
-      "car": "NA 2016 F150 NANO S+RTINT + STRIP $499 - $50DEPO",
-      "employeeIds": [
-        "f9d9bfc4e797e38b"
-      ],
-      "employeeNames": "Feso",
-      "baseService": "Window Tint",
-      "basePrice": 499,
-      "syncedFromGHL": false,
-      "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
-      "priceLocked": true,
-      "priceSource": "manual",
-      "priceMismatchDismissed": false,
-      "titlePrice": 499,
-      "titleDeposit": 50
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -25732,6 +25721,108 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-11T19:52:38.984Z",
+      "endpoint": "sync",
+      "matchedSaleId": "48139e16ec948b8a",
+      "before": {
+        "basePrice": 130,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 130,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "Tacoma",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "ZzPN7WVm66gLGnyMOQwC",
+        "first_name": "Rulo",
+        "last_name": "Vivar",
+        "full_name": "Rulo Vivar",
+        "email": "rulog4l1@gmail.com",
+        "phone": "+14439427299",
+        "tags": "tint,hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "date_created": "2026-09-29T21:08:17.252Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Rulo Vivar | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "c1lP7m4aKZGVXRoLPJlk",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ testing",
+            "utm_campaign": "window tint camp NJ testing",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "west berlin all aroudn for 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256729578620011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "facebook",
+            "mediumId": "28651670667800314",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "pSid": "28651670667800314"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "ZzPN7WVm66gLGnyMOQwC"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-11T19:47:49.779Z",
       "endpoint": "sync",
@@ -30951,76 +31042,6 @@
           "contactId": "YGQFRlJCyU42En9Rby8l"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-10T16:55:28.505Z",
-      "endpoint": "sync",
-      "matchedSaleId": "7902fe558e0dcd4d",
-      "before": {
-        "basePrice": 570,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 570,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "contact_id": "FCcchiD9hQVOWvwIj2Wg",
-        "first_name": "TIANTAE",
-        "last_name": "BENNETT",
-        "full_name": "TIANTAE BENNETT",
-        "phone": "+12158088090",
-        "tags": "name via lookup,hp sbn auto styling nj,hp appointment booked with dimitriy",
-        "city": "FORT WASHINGTON",
-        "state": "PA",
-        "country": "US",
-        "date_created": "2026-10-10T15:59:45.921Z",
-        "postal_code": "19477",
-        "full_address": "FORT WASHINGTON PA 19477",
-        "contact_type": "lead",
-        "opportunity_name": "TIANTAE BENNETT",
-        "status": "open",
-        "lead_value": 299,
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "tNNAGIPjsqEXXzYsYW73",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Other",
-            "medium": "other"
-          },
-          "lastAttributionSource": {}
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "FCcchiD9hQVOWvwIj2Wg"
-        }
-      }
     }
   ],
   "attendance": [
@@ -33605,6 +33626,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "c0d311537a3ccee7",
+      "timestamp": "2026-10-11T19:54:38.640Z",
+      "actor": "Owner",
+      "saleId": "48d3e972c477e31e",
+      "car": "DG 2025 TOYOTA 4RUNNER 2Front Windows 130-25depo",
+      "field": "Date/Time",
+      "oldValue": "2026-10-11T05:30:00.000Z",
+      "newValue": "2026-10-11T17:30:00.000Z"
+    },
+    {
+      "id": "86949bbe0eb61506",
+      "timestamp": "2026-10-11T19:54:32.202Z",
+      "actor": "Owner",
+      "saleId": "48d3e972c477e31e",
+      "car": "DG 2025 TOYOTA 4RUNNER 2Front Windows 130-25depo",
+      "field": "Date/Time",
+      "oldValue": "2026-10-11T19:54:10.680Z",
+      "newValue": "2026-10-11T05:30:00.000Z"
+    },
     {
       "id": "e2a8f99c42e6fcc2",
       "timestamp": "2026-10-11T19:50:28.906Z",
