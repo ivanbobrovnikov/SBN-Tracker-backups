@@ -125,7 +125,7 @@
       "isWalkIn": false,
       "paidCard": true,
       "paymentMethod": "card",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 500,
       "titleDeposit": 100
     },
@@ -399,7 +399,7 @@
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 499,
       "titleDeposit": 95
     },
@@ -463,13 +463,15 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 900,
+      "basePrice": 899,
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 899,
-      "titleDeposit": 95
+      "titleDeposit": 95,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "e0a2be0c69117928",
@@ -501,14 +503,16 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 499,
+      "basePrice": 299,
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "both",
       "paidCash": true,
       "priceMismatchDismissed": false,
       "titlePrice": 299,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "0fc758639610b645",
@@ -710,7 +714,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 500,
+      "basePrice": 499,
       "syncedFromGHL": true,
       "notes": [
         {
@@ -724,7 +728,9 @@
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 499,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "c714c94732586de6",
@@ -822,7 +828,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 420,
       "syncedFromGHL": true,
       "managerHelperIds": [
         "ed55d50b916a979a",
@@ -833,7 +839,9 @@
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 420,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "770dade2d9962b79",
@@ -861,7 +869,7 @@
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -1112,7 +1120,7 @@
       "paymentMethod": "card",
       "titlePrice": 95,
       "titleDeposit": 0,
-      "priceMismatchDismissed": false
+      "priceMismatchDismissed": true
     },
     {
       "id": "f6c771e84ea2979e",
@@ -1241,7 +1249,7 @@
       "paymentMethod": "card",
       "titlePrice": 50,
       "titleDeposit": 0,
-      "priceMismatchDismissed": false
+      "priceMismatchDismissed": true
     },
     {
       "id": "0bb203bed054f1b9",
@@ -1392,7 +1400,7 @@
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -1450,7 +1458,7 @@
         "ed55d50b916a979a"
       ],
       "managerHelperNames": "Aaron",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -1532,7 +1540,7 @@
       "syncedFromGHL": true,
       "paidCash": true,
       "paymentMethod": "cash",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 599,
       "titleDeposit": 50
     },
@@ -1568,7 +1576,7 @@
       "paymentMethod": "card",
       "titlePrice": 50,
       "titleDeposit": 0,
-      "priceMismatchDismissed": false
+      "priceMismatchDismissed": true
     },
     {
       "id": "fba714a347b28c45",
@@ -1757,7 +1765,7 @@
       "paidCash": true,
       "paymentMethod": "both",
       "paidCard": true,
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -1820,7 +1828,7 @@
       "paidCard": true,
       "titlePrice": 95,
       "titleDeposit": 0,
-      "priceMismatchDismissed": false
+      "priceMismatchDismissed": true
     },
     {
       "id": "9c170b23e35d8b3d",
@@ -1907,7 +1915,7 @@
       "managerHelperNames": "Aaron",
       "paidCard": true,
       "paymentMethod": "card",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -2152,7 +2160,7 @@
       "paymentMethod": "card",
       "titlePrice": 50,
       "titleDeposit": 0,
-      "priceMismatchDismissed": false
+      "priceMismatchDismissed": true
     },
     {
       "id": "253fe02c1798f970",
@@ -2250,7 +2258,7 @@
       "paymentMethod": "card",
       "titlePrice": 150,
       "titleDeposit": 0,
-      "priceMismatchDismissed": false
+      "priceMismatchDismissed": true
     },
     {
       "id": "129f29679fe498e4",
@@ -2892,7 +2900,7 @@
         "791dee90ad560e70"
       ],
       "managerHelperNames": "Naomi",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 499,
       "titleDeposit": 50
     },
@@ -3027,7 +3035,7 @@
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 499,
       "titleDeposit": 95
     },
@@ -3402,7 +3410,7 @@
       "paymentMethod": "card",
       "titlePrice": 50,
       "titleDeposit": 0,
-      "priceMismatchDismissed": false
+      "priceMismatchDismissed": true
     },
     {
       "id": "4b0a0ed75336b583",
@@ -3520,7 +3528,7 @@
       "syncedFromGHL": true,
       "paymentMethod": "card",
       "paidCard": true,
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 399,
       "titleDeposit": 50
     },
@@ -3666,7 +3674,7 @@
         "791dee90ad560e70"
       ],
       "managerHelperNames": "Aaron, Naomi",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -3819,13 +3827,15 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 380,
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 380,
-      "titleDeposit": 100
+      "titleDeposit": 100,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "4086709f997905dc",
@@ -3979,7 +3989,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 599,
+      "basePrice": 650,
       "syncedFromGHL": true,
       "photos": {
         "before": {
@@ -3991,7 +4001,9 @@
       "paymentMethod": "cash",
       "priceMismatchDismissed": false,
       "titlePrice": 650,
-      "titleDeposit": 95
+      "titleDeposit": 95,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "89f1113e4be8acdc",
@@ -4075,7 +4087,7 @@
       "paymentMethod": "cash",
       "titlePrice": 200,
       "titleDeposit": 100,
-      "priceMismatchDismissed": false
+      "priceMismatchDismissed": true
     },
     {
       "id": "a01d7c5827f76236",
@@ -4101,7 +4113,7 @@
       "syncedFromGHL": true,
       "paymentMethod": "card",
       "paidCard": true,
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 499,
       "titleDeposit": 50
     },
@@ -4429,7 +4441,7 @@
       "syncedFromGHL": true,
       "paymentMethod": "card",
       "paidCard": true,
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 600,
       "titleDeposit": 95
     },
@@ -4764,7 +4776,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 499,
       "syncedFromGHL": true,
       "calendarId": null,
       "notes": [
@@ -4783,7 +4795,9 @@
       "managerHelperNames": "Naomi",
       "priceMismatchDismissed": false,
       "titlePrice": 499,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "7ec0e8eb6c6171d6",
@@ -4878,7 +4892,7 @@
       "paymentMethod": "card",
       "titlePrice": 100,
       "titleDeposit": 0,
-      "priceMismatchDismissed": false
+      "priceMismatchDismissed": true
     },
     {
       "id": "2a4fd5a64002f46b",
@@ -5007,7 +5021,7 @@
       "syncedFromGHL": true,
       "paidCash": true,
       "paymentMethod": "cash",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 599,
       "titleDeposit": 50
     },
@@ -5271,7 +5285,7 @@
       "syncedFromGHL": true,
       "paidCash": true,
       "paymentMethod": "cash",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 799,
       "titleDeposit": 50
     },
@@ -5306,7 +5320,7 @@
         "791dee90ad560e70"
       ],
       "managerHelperNames": "Aaron, Naomi",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -5397,7 +5411,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 400,
+      "basePrice": 399,
       "syncedFromGHL": true,
       "paidCash": true,
       "paymentMethod": "cash",
@@ -5407,7 +5421,9 @@
       "managerHelperNames": "Naomi",
       "priceMismatchDismissed": false,
       "titlePrice": 399,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "d8284bf1e568f013",
@@ -5436,7 +5452,7 @@
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -5661,13 +5677,15 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 650,
+      "basePrice": 499,
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 499,
-      "titleDeposit": 95
+      "titleDeposit": 95,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "259649030233ed9d",
@@ -5817,7 +5835,7 @@
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -5992,7 +6010,7 @@
           "timestamp": "2026-09-10T22:14:12.706Z"
         }
       ],
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 24
     },
@@ -6150,7 +6168,7 @@
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -6185,7 +6203,7 @@
         "791dee90ad560e70"
       ],
       "managerHelperNames": "Naomi",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -6284,14 +6302,16 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 700,
+      "basePrice": 699,
       "syncedFromGHL": true,
       "calendarId": null,
       "paidCard": true,
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 699,
-      "titleDeposit": 120
+      "titleDeposit": 120,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "ddc4c4b3148c379f",
@@ -6346,7 +6366,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 300,
       "syncedFromGHL": true,
       "managerHelperIds": [
         "ed55d50b916a979a"
@@ -6356,7 +6376,9 @@
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 300,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "454f28df6f0339f6",
@@ -6503,7 +6525,7 @@
         "791dee90ad560e70"
       ],
       "managerHelperNames": "Naomi",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -6732,7 +6754,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 1120,
+      "basePrice": 620,
       "syncedFromGHL": true,
       "notes": [
         {
@@ -6747,7 +6769,9 @@
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 620,
-      "titleDeposit": 95
+      "titleDeposit": 95,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "b42b9b152bdf10df",
@@ -7011,7 +7035,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 500,
+      "basePrice": 499,
       "syncedFromGHL": true,
       "photos": {
         "before": {
@@ -7023,7 +7047,9 @@
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 499,
-      "titleDeposit": 95
+      "titleDeposit": 95,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "95675b8f56aa6b81",
@@ -7077,13 +7103,15 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 600,
+      "basePrice": 620,
       "syncedFromGHL": true,
       "paidCash": true,
       "paymentMethod": "cash",
       "priceMismatchDismissed": false,
       "titlePrice": 620,
-      "titleDeposit": 95
+      "titleDeposit": 95,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "dbe21149ec6167bd",
@@ -7660,13 +7688,15 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 350,
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 350,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "c1a56280344de2bf",
@@ -7944,14 +7974,16 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 800,
+      "basePrice": 799,
       "syncedFromGHL": true,
       "calendarId": null,
       "paidCard": true,
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 799,
-      "titleDeposit": 95
+      "titleDeposit": 95,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "891a9120cc6819c6",
@@ -8459,13 +8491,15 @@
       "salesRepName": "Timothy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 499,
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 499,
-      "titleDeposit": 100
+      "titleDeposit": 100,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "34445b5f802c40cf",
@@ -8700,7 +8734,7 @@
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -8801,14 +8835,16 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 485,
       "calendarId": null,
       "syncedFromGHL": true,
       "paidCash": true,
       "paymentMethod": "cash",
       "priceMismatchDismissed": false,
       "titlePrice": 485,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "0ba3d6416909e21a",
@@ -9233,7 +9269,7 @@
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -9461,7 +9497,7 @@
         "791dee90ad560e70"
       ],
       "managerHelperNames": "Naomi",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 300,
       "titleDeposit": 50
     },
@@ -9582,7 +9618,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 400,
       "calendarId": null,
       "syncedFromGHL": true,
       "isOnlineBooking": false,
@@ -9598,7 +9634,9 @@
       "paymentMethod": "cash",
       "priceMismatchDismissed": false,
       "titlePrice": 400,
-      "titleDeposit": 75
+      "titleDeposit": 75,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "82b1c50133c67956",
@@ -9812,7 +9850,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 495,
       "calendarId": null,
       "syncedFromGHL": true,
       "notes": [
@@ -9827,7 +9865,9 @@
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 495,
-      "titleDeposit": 75
+      "titleDeposit": 75,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "853705a961f8dff9",
@@ -10048,14 +10088,16 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 390,
       "calendarId": null,
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 390,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "030578cfd3b4b7c3",
@@ -10370,14 +10412,16 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 150,
+      "basePrice": 140,
       "calendarId": null,
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 140,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "3f540aa7017b527b",
@@ -10651,7 +10695,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 595,
       "calendarId": null,
       "syncedFromGHL": true,
       "paidCard": true,
@@ -10659,7 +10703,9 @@
       "priceMismatchDismissed": false,
       "titlePrice": 595,
       "titleDeposit": 50,
-      "ghlValue": 299
+      "ghlValue": 299,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "776df387db903744",
@@ -12167,7 +12213,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 495,
       "calendarId": null,
       "syncedFromGHL": true,
       "paidCard": true,
@@ -12178,7 +12224,9 @@
       "managerHelperNames": "Naomi",
       "priceMismatchDismissed": false,
       "titlePrice": 495,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "b5293124e9022a89",
@@ -12331,7 +12379,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 500,
+      "basePrice": 585,
       "calendarId": null,
       "syncedFromGHL": true,
       "managerHelperIds": [
@@ -12350,7 +12398,9 @@
       ],
       "priceMismatchDismissed": false,
       "titlePrice": 585,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "ea329b1b619ca02e",
@@ -13624,14 +13674,16 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 480,
+      "basePrice": 499,
       "calendarId": null,
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 499,
-      "titleDeposit": 95
+      "titleDeposit": 95,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "28f012b3e9a69b55",
@@ -14140,14 +14192,16 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 140,
       "calendarId": null,
       "syncedFromGHL": true,
       "paidCash": true,
       "paymentMethod": "cash",
       "priceMismatchDismissed": false,
       "titlePrice": 140,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "e19128a67994396c",
@@ -16679,7 +16733,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 275,
+      "basePrice": 280,
       "calendarId": null,
       "syncedFromGHL": true,
       "paidCash": true,
@@ -16690,7 +16744,9 @@
       "managerHelperNames": "Naomi",
       "priceMismatchDismissed": false,
       "titlePrice": 280,
-      "titleDeposit": 10
+      "titleDeposit": 10,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "6e95a0cf6e6b29ec",
@@ -16898,7 +16954,7 @@
         "791dee90ad560e70"
       ],
       "managerHelperNames": "Naomi",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 299,
       "titleDeposit": 50
     },
@@ -17077,7 +17133,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 260,
+      "basePrice": 165,
       "calendarId": null,
       "syncedFromGHL": true,
       "isOnlineBooking": false,
@@ -17101,7 +17157,9 @@
       "paymentMethod": "cash",
       "priceMismatchDismissed": false,
       "titlePrice": 165,
-      "titleDeposit": 25
+      "titleDeposit": 25,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "92b4ac1ec22be4f3",
@@ -19515,14 +19573,16 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 360,
+      "basePrice": 499,
       "calendarId": null,
       "syncedFromGHL": true,
       "paidCard": true,
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 499,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "57269294b20295a7",
@@ -21695,7 +21755,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 385,
+      "basePrice": 585,
       "calendarId": null,
       "syncedFromGHL": true,
       "notes": [
@@ -21710,7 +21770,9 @@
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 585,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "108f5105eb94ce84",
@@ -23135,7 +23197,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 475,
       "calendarId": null,
       "syncedFromGHL": true,
       "notes": [
@@ -23150,7 +23212,9 @@
       "paymentMethod": "card",
       "priceMismatchDismissed": false,
       "titlePrice": 475,
-      "titleDeposit": 25
+      "titleDeposit": 25,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "69c7ffef09fc262a",
@@ -24074,8 +24138,8 @@
       "salesRepId": null,
       "salesRepName": "Walk-in (needs closer assigned)",
       "baseService": "Ceramic Coating",
-      "basePrice": 798,
-      "priceSource": "manual",
+      "basePrice": 399,
+      "priceSource": "title",
       "priceMismatchDismissed": false,
       "titlePrice": 399,
       "titleDeposit": 145,
@@ -24083,7 +24147,7 @@
       "syncedFromGHL": true,
       "ghlValue": 978,
       "isWalkIn": true,
-      "priceLocked": true
+      "priceLocked": false
     },
     {
       "id": "03543562d26fa01c",
@@ -24810,8 +24874,8 @@
       "salesRepId": null,
       "salesRepName": "Walk-in (needs closer assigned)",
       "baseService": "Window Tint",
-      "basePrice": 199,
-      "priceSource": "manual",
+      "basePrice": 299,
+      "priceSource": "title",
       "priceMismatchDismissed": false,
       "titlePrice": 299,
       "titleDeposit": 50,
@@ -24819,7 +24883,7 @@
       "syncedFromGHL": true,
       "ghlValue": 299,
       "isWalkIn": true,
-      "priceLocked": true,
+      "priceLocked": false,
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
@@ -24930,16 +24994,19 @@
       "car": "JA 2026 Nissan Sentra 299-75depo reschdule",
       "employeeIds": [],
       "employeeNames": "Unassigned",
-      "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepId": "3cdd54e91972de02",
+      "salesRepName": "Jared Aigner",
       "baseService": "Window Tint",
       "basePrice": 299,
-      "priceSource": "title",
+      "priceSource": "manual",
       "priceMismatchDismissed": false,
       "titlePrice": 299,
       "titleDeposit": 75,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "priceLocked": true,
+      "isWalkIn": false,
+      "isOnlineBooking": false
     },
     {
       "id": "1632e2262303476a",
@@ -25016,15 +25083,21 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Ceramic Coating",
-      "basePrice": 499,
-      "priceSource": "title",
+      "basePrice": 619,
+      "priceSource": "manual",
       "priceMismatchDismissed": false,
       "titlePrice": 499,
       "titleDeposit": 120,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "priceLocked": true,
+      "isWalkIn": true,
+      "isOnlineBooking": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi"
     },
     {
       "id": "5f8b4d3b3711a830",
@@ -25362,15 +25435,21 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "priceSource": "title",
+      "priceSource": "manual",
       "priceMismatchDismissed": false,
       "titlePrice": 499,
       "titleDeposit": 95,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "priceLocked": true,
+      "isWalkIn": true,
+      "isOnlineBooking": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi"
     },
     {
       "id": "8c908564e5fc53bf",
@@ -25389,15 +25468,21 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Window Tint",
       "basePrice": 319,
-      "priceSource": "title",
+      "priceSource": "manual",
       "priceMismatchDismissed": false,
       "titlePrice": 319,
       "titleDeposit": 50,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "priceLocked": true,
+      "isWalkIn": true,
+      "isOnlineBooking": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi"
     },
     {
       "id": "c6e65647df526120",
@@ -25416,7 +25501,7 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Online Booking",
       "baseService": "Window Tint",
       "basePrice": 299,
       "priceSource": "ghl",
@@ -25424,7 +25509,12 @@
       "titleDeposit": null,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 299
+      "ghlValue": 299,
+      "isOnlineBooking": true,
+      "isWalkIn": false,
+      "walkInClosedByType": null,
+      "walkInClosedById": null,
+      "walkInClosedByName": null
     },
     {
       "id": "b101a48c8b0ca0ce",
@@ -33502,6 +33592,376 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "94a88b6f8a7fcae4",
+      "timestamp": "2026-10-11T18:39:46.805Z",
+      "actor": "Owner",
+      "saleId": "1065875f16aa632d",
+      "car": "JA 2026 Nissan Sentra 299-75depo reschdule",
+      "field": "Sales rep",
+      "oldValue": "Unassigned",
+      "newValue": "Jared Aigner"
+    },
+    {
+      "id": "9ee9d9b380499ce6",
+      "timestamp": "2026-10-11T18:39:28.178Z",
+      "actor": "Owner",
+      "saleId": "c6e65647df526120",
+      "car": "Demarco Edwards",
+      "field": "Sales rep",
+      "oldValue": "Unassigned",
+      "newValue": "Online Booking"
+    },
+    {
+      "id": "2258c664de78d72d",
+      "timestamp": "2026-10-11T18:39:18.259Z",
+      "actor": "Owner",
+      "saleId": "8380cad70e27b9e1",
+      "car": "NA 2026 Toyota Highlander Ceramic Coating $499 - $120 windshield ceramic - $95DEPO",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 619
+    },
+    {
+      "id": "73c12716ba189a87",
+      "timestamp": "2026-10-11T18:38:40.045Z",
+      "actor": "Owner",
+      "saleId": "e0a2be0c69117928",
+      "car": "DG 2025 Mitsubishi Outlander S+RTINT 299-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 499,
+      "newValue": 299
+    },
+    {
+      "id": "740edba7a75ab57a",
+      "timestamp": "2026-10-11T18:38:25.612Z",
+      "actor": "Owner",
+      "saleId": "dde66b4d45d5ea76",
+      "car": "DG 2026 Jeep Grand Cherokee S+RTINT 380-100depo",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 380
+    },
+    {
+      "id": "1b18865a327b8632",
+      "timestamp": "2026-10-11T18:38:06.049Z",
+      "actor": "Owner",
+      "saleId": "55c91dd663a0dbc7",
+      "car": "DG 2025 Chevy Silverado Ceramic Coating&Rim tire shin 499-95depo",
+      "field": "Base price (from the title)",
+      "oldValue": 650,
+      "newValue": 499
+    },
+    {
+      "id": "b831b8a2daf8aa00",
+      "timestamp": "2026-10-11T18:37:47.214Z",
+      "actor": "Owner",
+      "saleId": "d858fbfc8b133346",
+      "car": "DG 2025 Black Ford350Transit Ceramic Coating 650-95depo",
+      "field": "Base price (from the title)",
+      "oldValue": 599,
+      "newValue": 650
+    },
+    {
+      "id": "cce9b7eccbe7b336",
+      "timestamp": "2026-10-11T18:37:38.613Z",
+      "actor": "Owner",
+      "saleId": "00a9395f20665fef",
+      "car": "DG 2016 Hyundai Velostor S+RTINT&Remove3windows 420-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 420
+    },
+    {
+      "id": "ba13f07c54b1d4f3",
+      "timestamp": "2026-10-11T18:37:32.254Z",
+      "actor": "Owner",
+      "saleId": "6d53fea45714278c",
+      "car": "DG 2027 Kia Telluride Ceramic Coating 499-95depo",
+      "field": "Base price (from the title)",
+      "oldValue": 500,
+      "newValue": 499
+    },
+    {
+      "id": "26350c721de24216",
+      "timestamp": "2026-10-11T18:37:29.187Z",
+      "actor": "Owner",
+      "saleId": "62f8dacf98db4327",
+      "car": "DG 2023 Chevy Suburban AllAroundTINT 585-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 500,
+      "newValue": 585
+    },
+    {
+      "id": "c2f3e3489c3d5e2a",
+      "timestamp": "2026-10-11T18:37:26.120Z",
+      "actor": "Owner",
+      "saleId": "c76dd6e5feedf991",
+      "car": "DG 2025 Chevy SunStrip&S+RTint 390-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 390
+    },
+    {
+      "id": "4ee1b3ef37931d57",
+      "timestamp": "2026-10-11T18:37:23.345Z",
+      "actor": "Owner",
+      "saleId": "89494dbf68fba694",
+      "car": "DG 2026 Ford Mavrick S+RTINT 300-50depo 2Front15%andBack5%",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 300
+    },
+    {
+      "id": "522cf59a04be3c13",
+      "timestamp": "2026-10-11T18:37:19.768Z",
+      "actor": "Owner",
+      "saleId": "a3ba85a1fb1e7a83",
+      "car": "DG 2013 GMC Terrain 2 front windows 140-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 150,
+      "newValue": 140
+    },
+    {
+      "id": "7ba7fd7d96354d42",
+      "timestamp": "2026-10-11T18:37:16.487Z",
+      "actor": "Owner",
+      "saleId": "2a9e6ad65004068b",
+      "car": "DG 2023 Tesla Y AllAroundTintNANO 595-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 595
+    },
+    {
+      "id": "e8e9f4ee4f9c439b",
+      "timestamp": "2026-10-11T18:37:10.552Z",
+      "actor": "Owner",
+      "saleId": "85682d7c7d678b7c",
+      "car": "DG 2024 HOnda HRV Ceramic Coating+S+RTINT 899-95depo",
+      "field": "Base price (from the title)",
+      "oldValue": 900,
+      "newValue": 899
+    },
+    {
+      "id": "237f813338568151",
+      "timestamp": "2026-10-11T18:37:06.457Z",
+      "actor": "Owner",
+      "saleId": "e194ba7fe1d824ad",
+      "car": "DG 2026 Genisis GV80 2Frontwindows&Ceramic Coating&Rims 620-95depo PLZFinish it that same day",
+      "field": "Base price (from the title)",
+      "oldValue": 1120,
+      "newValue": 620
+    },
+    {
+      "id": "c933e58e0a93ecd4",
+      "timestamp": "2026-10-11T18:36:54.581Z",
+      "actor": "Owner",
+      "saleId": "e6096bbbe5fb8a71",
+      "car": "TG 2000 land cruise S+RTINT&Sunstrip 499-100depo",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 499
+    },
+    {
+      "id": "1614df3a62deb352",
+      "timestamp": "2026-10-11T18:36:45.881Z",
+      "actor": "Owner",
+      "saleId": "dd32f31e3e388d18",
+      "car": "DG 2020 Ford Fusion 485-50depo NANOS+RTINT&Sunstrip",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 485
+    },
+    {
+      "id": "6138df654b1269b3",
+      "timestamp": "2026-10-11T18:36:42.589Z",
+      "actor": "Owner",
+      "saleId": "991d066a7bb7fb74",
+      "car": "DG 2002 Benz E430 AllAroundTINT 499-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 500,
+      "newValue": 499
+    },
+    {
+      "id": "69f707c01ab5b0c4",
+      "timestamp": "2026-10-11T18:36:38.706Z",
+      "actor": "Owner",
+      "saleId": "e1f6773ded2dd179",
+      "car": "DG 2026 Toyota Corolla AllAroundTint 499-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 499
+    },
+    {
+      "id": "94e2ff91d9176734",
+      "timestamp": "2026-10-11T18:36:34.620Z",
+      "actor": "Owner",
+      "saleId": "f01baae839ec0481",
+      "car": "DG 2020 Blue BMW X6 Ceramic Coating 499-95depo",
+      "field": "Base price (from the title)",
+      "oldValue": 480,
+      "newValue": 499
+    },
+    {
+      "id": "2a56479b260207af",
+      "timestamp": "2026-10-11T18:36:26.820Z",
+      "actor": "Owner",
+      "saleId": "6d05519d60c5c9c5",
+      "car": "DG 2020 Jeep Renegade S+RTINT&Sunstrip 399-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 400,
+      "newValue": 399
+    },
+    {
+      "id": "b9922dac326fb11b",
+      "timestamp": "2026-10-11T18:35:56.429Z",
+      "actor": "Owner",
+      "saleId": "12aba5f6bbcce801",
+      "car": "DG 2026 Kia Seltros 2 front widows 140-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 140
+    },
+    {
+      "id": "d25db130fc91294c",
+      "timestamp": "2026-10-11T18:35:37.777Z",
+      "actor": "Owner",
+      "saleId": "0e11048a7d2b643f",
+      "car": "DG 2014 Mercedes-Benz AllAroundTINT 400-75depo",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 400
+    },
+    {
+      "id": "e3f63b94382b42a5",
+      "timestamp": "2026-10-11T18:35:33.877Z",
+      "actor": "Owner",
+      "saleId": "946ea457b2524033",
+      "car": "DG 2024 Acura Integra AllAroundTint 495-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 495
+    },
+    {
+      "id": "066616f2db50412f",
+      "timestamp": "2026-10-11T18:35:29.682Z",
+      "actor": "Owner",
+      "saleId": "cb1dbdbb92e989ce",
+      "car": "DG 2023 Nissan Altima S+RTINT 280-10depo",
+      "field": "Base price (from the title)",
+      "oldValue": 275,
+      "newValue": 280
+    },
+    {
+      "id": "b747cd67eefcc601",
+      "timestamp": "2026-10-11T18:35:18.014Z",
+      "actor": "Owner",
+      "saleId": "ef3816b0588ff28e",
+      "car": "DG 2026 Chevy 2500 Ceramic Coating&S+RTINT 799-95depo",
+      "field": "Base price (from the title)",
+      "oldValue": 800,
+      "newValue": 799
+    },
+    {
+      "id": "69b54c40afbc08a3",
+      "timestamp": "2026-10-11T18:35:12.269Z",
+      "actor": "Owner",
+      "saleId": "eea1937e1b14b94f",
+      "car": "DG 2024 Dodge Durango S+RTINT 350-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 350
+    },
+    {
+      "id": "756fceff6987a8b1",
+      "timestamp": "2026-10-11T18:34:55.178Z",
+      "actor": "Owner",
+      "saleId": "f2f56edbe51890a4",
+      "car": "DG 2019 Volvo XC60 CeramicCoating&Interior wipe down 620-95depo",
+      "field": "Base price (from the title)",
+      "oldValue": 600,
+      "newValue": 620
+    },
+    {
+      "id": "b94347e5d0dc656e",
+      "timestamp": "2026-10-11T18:34:38.375Z",
+      "actor": "Owner",
+      "saleId": "385c9f0485fb72ef",
+      "car": "DG 2024 Tesla Cybertruck 2front windows 165-25depo",
+      "field": "Base price (from the title)",
+      "oldValue": 260,
+      "newValue": 165
+    },
+    {
+      "id": "47000f40f4f3e18e",
+      "timestamp": "2026-10-11T18:34:34.900Z",
+      "actor": "Owner",
+      "saleId": "395cc08a81ddfbf1",
+      "car": "DG 2023 Black Porsche Cayenne CeramicCoating&Step1 699-120depo",
+      "field": "Base price (from the title)",
+      "oldValue": 700,
+      "newValue": 699
+    },
+    {
+      "id": "1d1d12348d0bdfbe",
+      "timestamp": "2026-10-11T18:34:28.594Z",
+      "actor": "Owner",
+      "saleId": "8a44b60b362e5996",
+      "car": "DG 2024 Ram 1500 AllAroundTINT 495-75depo",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 495
+    },
+    {
+      "id": "eaae7bf4b7149424",
+      "timestamp": "2026-10-11T18:34:25.076Z",
+      "actor": "Owner",
+      "saleId": "bf015b7ef940934f",
+      "car": "DG 2023 Kia Soranto AllAroundTINT 499-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 360,
+      "newValue": 499
+    },
+    {
+      "id": "cdbda695ae907419",
+      "timestamp": "2026-10-11T18:34:21.994Z",
+      "actor": "Owner",
+      "saleId": "3504bf4581ee0646",
+      "car": "DG 2012 Ford F150 NANO AllAroundTint 585-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 385,
+      "newValue": 585
+    },
+    {
+      "id": "d052fed048c77bd7",
+      "timestamp": "2026-10-11T18:34:19.099Z",
+      "actor": "Owner",
+      "saleId": "6f8c689082aae0d8",
+      "car": "DG 2023 Benz GLC AllAroundTINT 475-25depo",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 475
+    },
+    {
+      "id": "6a4cb6e643b89b78",
+      "timestamp": "2026-10-11T18:34:13.798Z",
+      "actor": "Owner",
+      "saleId": "83effb920c592609",
+      "car": "NA 2025 NISSAN MURANO Sunroof Nano $299 - $50DEPO",
+      "field": "Base price (from the title)",
+      "oldValue": 199,
+      "newValue": 299
+    },
+    {
+      "id": "825c4a29cc02089a",
+      "timestamp": "2026-10-11T18:34:08.377Z",
+      "actor": "Owner",
+      "saleId": "ca6c8bc4379ecd40",
+      "car": "NA 2026 FORD F150 XLT CERAMIC COATING +WHEELS+ 4 WINDOWS $579 2FRONT+ WINDSHIELD NANO $399 - $145DEPO",
+      "field": "Base price (from the title)",
+      "oldValue": 798,
+      "newValue": 399
+    },
     {
       "id": "3e783a3f2a653fa3",
       "timestamp": "2026-10-11T14:51:43.910Z",
