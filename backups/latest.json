@@ -11537,8 +11537,8 @@
       "ghlOpportunityId": "zmXTzAcprUxm5Kt1PrYk",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-14T12:47:20.146Z",
       "date": "2026-10-11T15:00:00.000Z",
       "customerName": "BrandonG",
@@ -11561,7 +11561,9 @@
       "priceMismatchDismissed": false,
       "titlePrice": 595,
       "titleDeposit": 50,
-      "priceSource": "title"
+      "priceSource": "title",
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "523ea2ea3737e8bc",
@@ -15941,7 +15943,7 @@
       "id": "af308814f94a6234",
       "ghlOpportunityId": "YzisSFRn3TTXPyCAok19",
       "upsells": [],
-      "status": "arrived",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-22T17:27:57.662Z",
@@ -20807,11 +20809,21 @@
     },
     {
       "id": "48139e16ec948b8a",
-      "ghlOpportunityId": "ZzPN7WVm66gLGnyMOQwC",
-      "upsells": [],
+      "ghlOpportunityId": "ZzPN7WVm66gLGnyMOQwC~earlier-48139e16ec948b8a",
+      "upsells": [
+        {
+          "id": "9a3d60df186d9441",
+          "name": "strip",
+          "price": 90,
+          "employeeId": "f9d9bfc4e797e38b",
+          "managerId": null,
+          "salesRepId": null,
+          "salesRepName": null
+        }
+      ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-01T19:43:29.015Z",
       "date": "2026-10-11T17:00:00.000Z",
       "customerName": "Rulo Vivar",
@@ -20834,7 +20846,10 @@
       "titlePrice": 130,
       "titleDeposit": 25,
       "priceSource": "title",
-      "ghlValue": 299
+      "ghlValue": 299,
+      "paidCard": false,
+      "paymentMethod": "cash",
+      "paidCash": true
     },
     {
       "id": "c50721bcc5b44ec5",
@@ -24713,8 +24728,8 @@
       "ghlOpportunityId": "PetPhGjSUu2Dd5iu8yuH",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-09T16:30:43.651Z",
       "date": "2026-10-11T13:00:00.000Z",
       "customerName": "Del Woodard",
@@ -24740,7 +24755,9 @@
       "isWalkIn": true,
       "walkInClosedByType": "manager",
       "walkInClosedById": "791dee90ad560e70",
-      "walkInClosedByName": "Naomi"
+      "walkInClosedByName": "Naomi",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "553b7968cd403915",
@@ -25646,6 +25663,49 @@
       "walkInClosedById": null,
       "walkInClosedByName": null,
       "priceLocked": true
+    },
+    {
+      "id": "733300ab24f07455",
+      "ghlOpportunityId": "ZzPN7WVm66gLGnyMOQwC",
+      "upsells": [
+        {
+          "id": "bd48b476c9c7f38e",
+          "name": "strip",
+          "price": 90,
+          "employeeId": null,
+          "managerId": null,
+          "salesRepId": null
+        }
+      ],
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
+      "closedAt": "2026-10-01T19:41:00.000Z",
+      "closedAtSource": "owner",
+      "closedAtCheck": false,
+      "date": "2026-10-11T17:30:00.000Z",
+      "customerName": "Rulo Vivar",
+      "customerPhone": "(443) 942-7299",
+      "customerEmail": "",
+      "contactId": "ZzPN7WVm66gLGnyMOQwC",
+      "car": "DG 2025 TOYOTA 4RUNNER 2Front Windows 130-25depo",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 130,
+      "priceSource": "title",
+      "priceMismatchDismissed": false,
+      "titlePrice": 130,
+      "titleDeposit": 25,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "paidCash": true,
+      "paymentMethod": "cash"
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -25721,6 +25781,126 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-11T20:35:54.689Z",
+      "endpoint": "sync",
+      "matchedSaleId": "6872fd88d0791290",
+      "before": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "rfP6HzvYNCthzwxRnmL5",
+        "first_name": "Jeff",
+        "full_name": "Jeff",
+        "email": "jeff2@gmail.com",
+        "phone": "+12156691001",
+        "tags": "hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-10-11T20:35:06.260Z",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Jeff | ",
+        "status": "won",
+        "lead_value": 0,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "bVtJCgjlvcoVbK0Vbant",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "customData": {
+          "basePrice": "0",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "rfP6HzvYNCthzwxRnmL5"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-10-11T20:35:45.944Z",
+      "endpoint": "sync",
+      "matchedSaleId": "6872fd88d0791290",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 1,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "rfP6HzvYNCthzwxRnmL5",
+        "first_name": "Jeff",
+        "full_name": "Jeff",
+        "email": "jeff2@gmail.com",
+        "phone": "+12156691001",
+        "tags": "hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-10-11T20:35:06.260Z",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Jeff | ",
+        "status": "won",
+        "lead_value": 1,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "bVtJCgjlvcoVbK0Vbant",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "customData": {
+          "basePrice": "1",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "rfP6HzvYNCthzwxRnmL5"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-11T19:52:38.984Z",
       "endpoint": "sync",
@@ -30825,223 +31005,6 @@
           "contactId": "je6NDpEtYd4HomNCfvkH"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-10T18:24:59.020Z",
-      "endpoint": "sync",
-      "matchedSaleId": "f919e07a5af65061",
-      "before": {
-        "basePrice": 485,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 485,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2018 VolksWagon Passat SE TSI",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "je6NDpEtYd4HomNCfvkH",
-        "first_name": "𝓙✝️",
-        "last_name": "",
-        "full_name": "𝓙✝️",
-        "email": "jaechai8166@gmail.com",
-        "phone": "+16406964587",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-10-08T19:33:45.035Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "𝓙✝️ | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "RsFMet6AH1JmIUuXA63x",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "ceramic tint 599 and now 299",
-            "adSetId": "120254638050770011",
-            "adId": "120257025869610011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "1091272340282816",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "1091272340282816"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "",
-          "contactId": "je6NDpEtYd4HomNCfvkH"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-10-10T17:57:13.464Z",
-      "endpoint": "sync",
-      "matchedSaleId": "81cb5dbedf2c3a65",
-      "before": {
-        "basePrice": 145,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 145,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2004 Toyota Tundra Double Cab",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "YGQFRlJCyU42En9Rby8l",
-        "first_name": "Jonathan",
-        "last_name": "Serad",
-        "full_name": "Jonathan Serad",
-        "email": "jonathan.serad@gmail.com",
-        "phone": "+18569040159",
-        "tags": "hp sbn auto styling nj,hp aged,hp fresh",
-        "country": "US",
-        "date_created": "2026-10-10T17:18:13.235Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Jonathan Serad | ",
-        "status": "won",
-        "lead_value": 145,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "tG0bH7FIAsPHIwkIEOy2",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "Open Door. Grand opening special 299 EDITED",
-            "adSetId": "120254638050770011",
-            "adId": "120256880722990011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "Open Door. Grand opening special 299 EDITED",
-            "adSetId": "120254638050770011",
-            "adId": "120256880722990011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "145",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "YGQFRlJCyU42En9Rby8l"
-        }
-      }
     }
   ],
   "attendance": [
@@ -33626,6 +33589,76 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "f1393e1eadf82fed",
+      "timestamp": "2026-10-11T21:19:01.674Z",
+      "actor": "Owner",
+      "saleId": "733300ab24f07455",
+      "car": "DG 2025 TOYOTA 4RUNNER 2Front Windows 130-25depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 195
+    },
+    {
+      "id": "02bea43045e32f06",
+      "timestamp": "2026-10-11T21:18:37.990Z",
+      "actor": "Owner",
+      "saleId": "48139e16ec948b8a",
+      "car": "DG 2023 Toyota Tacoma 2FrontWindows 130-25depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 195
+    },
+    {
+      "id": "bfd10455e1d45dec",
+      "timestamp": "2026-10-11T21:17:45.760Z",
+      "actor": "Owner",
+      "saleId": "416030d87cd6ff2a",
+      "car": "DG 2026 Toyota Camry NANOAllAroundTint 595-50depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 545
+    },
+    {
+      "id": "6381dfd09b1f7267",
+      "timestamp": "2026-10-11T20:45:27.030Z",
+      "actor": "Owner",
+      "saleId": "733300ab24f07455",
+      "car": "DG 2025 TOYOTA 4RUNNER 2Front Windows 130-25depo",
+      "field": "Closed At",
+      "oldValue": "2026-10-11T20:41:54.880Z",
+      "newValue": "2026-10-01T19:41:00.000Z"
+    },
+    {
+      "id": "2c1f5d9fe69855b8",
+      "timestamp": "2026-10-11T20:41:54.880Z",
+      "actor": "Auto (second car, same day)",
+      "saleId": "733300ab24f07455",
+      "car": "DG 2025 TOYOTA 4RUNNER 2Front Windows 130-25depo",
+      "field": "Closed At",
+      "oldValue": "",
+      "newValue": "2026-10-11T20:41:54.880Z (when it reached the tracker: please check)"
+    },
+    {
+      "id": "e43daf5a8391acdd",
+      "timestamp": "2026-10-11T20:41:54.879Z",
+      "actor": "Auto-split (new appointment)",
+      "saleId": "48139e16ec948b8a",
+      "car": "DG 2023 Toyota Tacoma 2FrontWindows 130-25depo",
+      "field": "GHL Opportunity ID",
+      "oldValue": "ZzPN7WVm66gLGnyMOQwC",
+      "newValue": "ZzPN7WVm66gLGnyMOQwC~earlier-48139e16ec948b8a"
+    },
+    {
+      "id": "496c257e2b1ad12d",
+      "timestamp": "2026-10-11T20:35:47.018Z",
+      "actor": "Rep tracker (owner)",
+      "saleId": "6872fd88d0791290",
+      "car": "DG audi R8",
+      "field": "Base price",
+      "oldValue": 1,
+      "newValue": 299
+    },
     {
       "id": "c0d311537a3ccee7",
       "timestamp": "2026-10-11T19:54:38.640Z",
@@ -40678,6 +40711,51 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "f1413123002c5065",
+      "type": "cashIn",
+      "amount": 195,
+      "category": "Customer Payment",
+      "note": "DG 2025 TOYOTA 4RUNNER 2Front Windows 130-25depo — Rulo Vivar",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "733300ab24f07455",
+      "autoFromJob": true,
+      "enteredByType": "owner",
+      "enteredById": "owner",
+      "enteredByName": "Owner",
+      "timestamp": "2026-10-11T21:19:01.674Z"
+    },
+    {
+      "id": "2a87b0f216a7f423",
+      "type": "cashIn",
+      "amount": 195,
+      "category": "Customer Payment",
+      "note": "DG 2023 Toyota Tacoma 2FrontWindows 130-25depo — Rulo Vivar",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "48139e16ec948b8a",
+      "autoFromJob": true,
+      "enteredByType": "owner",
+      "enteredById": "owner",
+      "enteredByName": "Owner",
+      "timestamp": "2026-10-11T21:18:37.990Z"
+    },
+    {
+      "id": "87a7719b2780a2a8",
+      "type": "cashIn",
+      "amount": 545,
+      "category": "Customer Payment",
+      "note": "DG 2026 Toyota Camry NANOAllAroundTint 595-50depo — BrandonG",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "416030d87cd6ff2a",
+      "autoFromJob": true,
+      "enteredByType": "owner",
+      "enteredById": "owner",
+      "enteredByName": "Owner",
+      "timestamp": "2026-10-11T21:17:45.760Z"
+    },
     {
       "id": "93c3477138a41bfb",
       "type": "cashIn",
