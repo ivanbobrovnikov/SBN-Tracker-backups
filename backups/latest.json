@@ -24727,7 +24727,7 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 499,
+      "ghlValue": 299,
       "isWalkIn": true
     },
     {
@@ -25087,7 +25087,7 @@
       "baseService": "Ceramic Coating",
       "basePrice": 619,
       "priceSource": "manual",
-      "priceMismatchDismissed": false,
+      "priceMismatchDismissed": true,
       "titlePrice": 499,
       "titleDeposit": 120,
       "calendarId": null,
@@ -25602,6 +25602,61 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 798
+    },
+    {
+      "id": "4ce45cc9ceb2e2cc",
+      "ghlOpportunityId": "UAau4RyJrtdiVChVCwJM",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-11T19:00:42.838Z",
+      "date": "2026-10-20T17:00:00.000Z",
+      "customerName": "Steven Force",
+      "customerPhone": "(609) 579-5935",
+      "customerEmail": "",
+      "contactId": "UAau4RyJrtdiVChVCwJM",
+      "car": "Steven Force",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Online Booking",
+      "baseService": "Window Tint",
+      "basePrice": 299,
+      "priceSource": "manual",
+      "titlePrice": null,
+      "titleDeposit": null,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "isOnlineBooking": true,
+      "isWalkIn": false,
+      "walkInClosedByType": null,
+      "walkInClosedById": null,
+      "walkInClosedByName": null,
+      "priceLocked": true
+    },
+    {
+      "id": "8cdda59a6e052e32",
+      "date": "2026-10-11T13:00:00.000Z",
+      "closedAt": "2026-10-11T07:00:00.000Z",
+      "customerName": "Del Woodard",
+      "car": "NA 2016 F150 NANO S+RTINT + STRIP $499 - $50DEPO",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
+      "baseService": "Window Tint",
+      "basePrice": 499,
+      "syncedFromGHL": false,
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "priceLocked": true,
+      "priceSource": "manual",
+      "priceMismatchDismissed": false,
+      "titlePrice": 499,
+      "titleDeposit": 50
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -25677,6 +25732,66 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-11T19:47:49.779Z",
+      "endpoint": "sync",
+      "matchedSaleId": "4458ad4e78c70a36",
+      "before": {
+        "basePrice": 499,
+        "salesRepName": "Walk-in (needs closer assigned)"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Walk-in (needs closer assigned)"
+      },
+      "body": {
+        "contact_id": "PetPhGjSUu2Dd5iu8yuH",
+        "first_name": "Del",
+        "last_name": "Woodard",
+        "full_name": "Del Woodard",
+        "phone": "+18563570732",
+        "tags": "hp sbn auto styling nj,hp appointment booked with dimitriy",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-10-09T16:26:44.086Z",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Del Woodard | ",
+        "status": "won",
+        "lead_value": 299,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "bPUCNx3axkVcAF0M6z3w",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "PetPhGjSUu2Dd5iu8yuH"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-11T15:36:24.141Z",
       "endpoint": "sync",
@@ -30906,108 +31021,6 @@
           "contactId": "FCcchiD9hQVOWvwIj2Wg"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-10T16:53:46.313Z",
-      "endpoint": "sync",
-      "matchedSaleId": "55b1d4af43aec399",
-      "before": {
-        "basePrice": 350,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 350,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "ASAP (within 7 days)",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2026 jeep wrangler",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "sLNQFPLaJHbvU4antgrz",
-        "first_name": "Michael",
-        "last_name": "",
-        "full_name": "Michael",
-        "email": "swagmuscle10@gmail.com",
-        "phone": "+16095564754",
-        "tags": "hp sbn auto styling nj,hp aged,tint,hp appointment booked with dimitriy",
-        "country": "US",
-        "date_created": "2026-07-03T02:03:20.642Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Michael ",
-        "status": "open",
-        "lead_value": 350,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "JQKPCAKLs81dSquhlHsJ",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1521577853048463",
-            "medium": "facebook",
-            "formId": "1521577853048463",
-            "formName": "window tint 299-copy",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "ad 1 299",
-            "adSetId": "120254638050770011",
-            "adId": "120254652145930011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "29113637298253737",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "29113637298253737"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "350",
-          "salesRepName": "",
-          "contactId": "sLNQFPLaJHbvU4antgrz"
-        }
-      }
     }
   ],
   "attendance": [
@@ -33592,6 +33605,36 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "e2a8f99c42e6fcc2",
+      "timestamp": "2026-10-11T19:50:28.906Z",
+      "actor": "Owner",
+      "saleId": "8cdda59a6e052e32",
+      "car": "NA 2016 F150 NANO S+RTINT + STRIP $499 - $50DEPO",
+      "field": "Date/Time",
+      "oldValue": "2026-10-11T07:00:00.000Z",
+      "newValue": "2026-10-11T13:00:00.000Z"
+    },
+    {
+      "id": "9cb1290997441ec1",
+      "timestamp": "2026-10-11T19:46:50.153Z",
+      "actor": "Owner",
+      "saleId": "4ce45cc9ceb2e2cc",
+      "car": "Steven Force",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "4ec22ec98552a004",
+      "timestamp": "2026-10-11T19:46:38.161Z",
+      "actor": "Owner",
+      "saleId": "4ce45cc9ceb2e2cc",
+      "car": "Steven Force",
+      "field": "Sales rep",
+      "oldValue": "Unassigned",
+      "newValue": "Online Booking"
+    },
     {
       "id": "94a88b6f8a7fcae4",
       "timestamp": "2026-10-11T18:39:46.805Z",
