@@ -23006,7 +23006,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-06T16:00:31.577Z",
       "date": "2026-10-12T13:00:00.000Z",
       "customerName": "Amrit",
@@ -23031,7 +23031,9 @@
       "priceSource": "manual",
       "ghlValue": 299,
       "priceLocked": true,
-      "titleLocked": true
+      "titleLocked": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "2c9510e4b3efa2e9",
@@ -23709,7 +23711,7 @@
       "id": "2849bfc5225923c1",
       "ghlOpportunityId": "9UX8yogfm2Vv9ixmqD7r",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-07T19:27:03.687Z",
@@ -23733,7 +23735,15 @@
       "titleDeposit": null,
       "isRedo": true,
       "redoAuto": true,
-      "priceSource": "redo"
+      "priceSource": "redo",
+      "notes": [
+        {
+          "id": "78d72e6d319716ee",
+          "text": "Needs to reschedule",
+          "authorName": "Naomi (manager)",
+          "timestamp": "2026-10-12T18:06:41.536Z"
+        }
+      ]
     },
     {
       "id": "552a0c83dc600127",
@@ -25327,8 +25337,8 @@
       "ghlOpportunityId": "qgLdRaESK0OITQ278PQL",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-10T18:29:14.688Z",
       "date": "2026-10-12T15:00:00.000Z",
       "customerName": "William Dabney",
@@ -25349,7 +25359,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 299,
-      "isWalkIn": true
+      "isWalkIn": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "b9ac4509ee843fdb",
@@ -26011,7 +26023,7 @@
       "customerPhone": "(856) 625-9159",
       "customerEmail": "",
       "contactId": "9aEEi9maGdzkaAsVwL7b",
-      "car": "Gio 2023 Range Rover HSE Ceramic coat Acod wash And 2 door rotary work ",
+      "car": "Gio 2023 Range Rover HSE Ceramic coat Acod wash And 2 door rotary work",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
@@ -35551,6 +35563,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "10da39e11ceccc1d",
+      "timestamp": "2026-10-12T17:33:40.196Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "14f1b18b3c7df94d",
+      "car": "Gio 2023 Range Rover HSE Ceramic coat Acod wash And 2 door rotary work",
+      "field": "Car/Title",
+      "oldValue": "Gio 2023 Range Rover HSE Ceramic coat Acod wash And 2 door rotary work ",
+      "newValue": "Gio 2023 Range Rover HSE Ceramic coat Acod wash And 2 door rotary work"
+    },
     {
       "id": "790a9274ad64773e",
       "timestamp": "2026-10-12T16:57:03.680Z",
