@@ -16983,7 +16983,7 @@
       "id": "c1c0a3f9e56ad1ca",
       "ghlOpportunityId": "lKjdlvNobIYryAlMypEZ",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-23T19:35:56.804Z",
@@ -22385,7 +22385,7 @@
       "id": "e7643921b94ef70e",
       "ghlOpportunityId": "rveOdfvnfMNItiuVrP6K",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-05T13:46:18.412Z",
@@ -23005,7 +23005,7 @@
       "ghlOpportunityId": "avCm2aLU8sD6YN60ZKCx",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-10-06T16:00:31.577Z",
       "date": "2026-10-12T13:00:00.000Z",
@@ -23013,7 +23013,7 @@
       "customerPhone": "(609) 227-7027",
       "customerEmail": "",
       "contactId": "avCm2aLU8sD6YN60ZKCx",
-      "car": "DG 2025 Tesla 3 AllAroundTint 490-50depo Reschedule",
+      "car": "DG 2025 Tesla 3 AllAroundTint 470-50depo Reschedule",
       "employeeIds": [
         "f6cf35e1607cb10f"
       ],
@@ -23022,14 +23022,16 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 490,
+      "basePrice": 470,
       "calendarId": null,
       "syncedFromGHL": true,
       "priceMismatchDismissed": false,
-      "titlePrice": 490,
+      "titlePrice": 470,
       "titleDeposit": 50,
-      "priceSource": "title",
-      "ghlValue": 299
+      "priceSource": "manual",
+      "ghlValue": 299,
+      "priceLocked": true,
+      "titleLocked": true
     },
     {
       "id": "2c9510e4b3efa2e9",
@@ -25083,7 +25085,7 @@
       "ghlOpportunityId": "LPbl0UHtJsaw1oWpQfBm",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-10-10T14:36:50.278Z",
       "date": "2026-10-12T15:00:00.000Z",
@@ -25107,7 +25109,11 @@
       "syncedFromGHL": true,
       "ghlValue": 140,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "8e6e418ab4ddd797",
@@ -25990,6 +25996,33 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 465
+    },
+    {
+      "id": "14f1b18b3c7df94d",
+      "ghlOpportunityId": "9aEEi9maGdzkaAsVwL7b",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-12T17:12:27.367Z",
+      "closedAtSource": "tracker",
+      "date": "2026-10-20T13:00:00.000Z",
+      "customerName": "Robin Mehta",
+      "customerPhone": "(856) 625-9159",
+      "customerEmail": "",
+      "contactId": "9aEEi9maGdzkaAsVwL7b",
+      "car": "Gio 2023 Range Rover HSE Ceramic coat Acod wash And 2 door rotary work ",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Ceramic Coating",
+      "basePrice": 0,
+      "priceSource": "ghl",
+      "titlePrice": null,
+      "titleDeposit": null,
+      "calendarId": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -35518,6 +35551,36 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "790a9274ad64773e",
+      "timestamp": "2026-10-12T16:57:03.680Z",
+      "actor": "Naomi (manager)",
+      "saleId": "e7656c95314ebb58",
+      "car": "DG 2025 Tesla 3 AllAroundTint 470-50depo Reschedule",
+      "field": "Base price",
+      "oldValue": 440,
+      "newValue": 470
+    },
+    {
+      "id": "77eca142c5d7d5e7",
+      "timestamp": "2026-10-12T16:56:59.471Z",
+      "actor": "Naomi (manager)",
+      "saleId": "e7656c95314ebb58",
+      "car": "DG 2025 Tesla 3 AllAroundTint 490-50depo Reschedule",
+      "field": "Car/Title",
+      "oldValue": "DG 2025 Tesla 3 AllAroundTint 490-50depo Reschedule",
+      "newValue": "DG 2025 Tesla 3 AllAroundTint 470-50depo Reschedule"
+    },
+    {
+      "id": "472ee8adf1fc798a",
+      "timestamp": "2026-10-12T16:56:18.111Z",
+      "actor": "Naomi (manager)",
+      "saleId": "e7656c95314ebb58",
+      "car": "DG 2025 Tesla 3 AllAroundTint 490-50depo Reschedule",
+      "field": "Base price",
+      "oldValue": 490,
+      "newValue": 440
+    },
     {
       "id": "4621be6d1c3284ab",
       "timestamp": "2026-10-12T15:45:37.105Z",
