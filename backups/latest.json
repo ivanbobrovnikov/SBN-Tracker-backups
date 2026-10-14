@@ -20468,8 +20468,10 @@
       "customerEmail": "",
       "contactId": "NdPCMJEMUoU1X6d25gz3",
       "car": "DG 2020 Ram 1500 Ceramic Coating&Rims 499-95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -20521,7 +20523,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-01T02:24:20.476Z",
       "date": "2026-10-13T20:00:00.000Z",
       "customerName": "Eddie Cook",
@@ -20552,7 +20554,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-10-13T21:55:50.911Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "2daa511b4b83faff",
@@ -21546,7 +21550,7 @@
       "ghlOpportunityId": "iKSRJHnRZKABuQ0jT1Bx",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-10-02T19:20:06.036Z",
       "date": "2026-10-13T13:00:00.000Z",
@@ -21555,8 +21559,11 @@
       "customerEmail": "",
       "contactId": "iKSRJHnRZKABuQ0jT1Bx",
       "car": "fk russell 2020 ford f150 black 499$ plus wheels and windows 100$ 599$-95$ depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "9e7aec4eefe054cc",
       "salesRepName": "Firdavs Karshiev",
       "isWalkIn": false,
@@ -21771,8 +21778,11 @@
       "customerEmail": "",
       "contactId": "UJqmEvvPWA8js7w4oOFN",
       "car": "DG 2024 Lexus RX350 CermaicCoating&Rims&AllWindows 700-95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -24504,7 +24514,8 @@
       "managerHelperIds": [
         "19d1389561891623"
       ],
-      "managerHelperNames": "Gio"
+      "managerHelperNames": "Gio",
+      "arrivedByComplete": false
     },
     {
       "id": "e14077657ab24c01",
