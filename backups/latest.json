@@ -26186,8 +26186,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-12T14:56:32.462Z",
       "closedAtSource": "tracker",
       "date": "2026-10-14T15:00:00.000Z",
@@ -26195,19 +26195,20 @@
       "customerPhone": "(609) 315-7383",
       "customerEmail": "",
       "contactId": "W3MtW71IyTWj4tGc3cbN",
-      "car": "DG 2025 BMW M240i AllAroundTint 475-50depo",
+      "car": "DG 2025 BMW M240i S +RTINT 269-50depo",
       "employeeIds": [
-        "273b3cdb8e20e0d1"
+        "273b3cdb8e20e0d1",
+        "f6cf35e1607cb10f"
       ],
-      "employeeNames": "Angelica",
+      "employeeNames": "Angelica, Javier",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 475,
-      "priceSource": "title",
+      "basePrice": 269,
+      "priceSource": "manual",
       "priceMismatchDismissed": false,
-      "titlePrice": 475,
+      "titlePrice": 269,
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
@@ -26216,7 +26217,19 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "titleLocked": true,
+      "priceLocked": true,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "notes": [
+        {
+          "id": "74ef69c961f92542",
+          "text": "$300 OFF NEXT TIME HE COMES IN FOR WINDSHEILD",
+          "authorName": "Naomi (manager)",
+          "timestamp": "2026-10-14T17:00:45.847Z"
+        }
+      ]
     },
     {
       "id": "4a52c820261c9877",
@@ -26851,7 +26864,7 @@
       "id": "f2ac1d2b3f4eed47",
       "ghlOpportunityId": "n34OBqIlHJV2d4zsmEfD",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-13T17:42:17.195Z",
@@ -26874,7 +26887,8 @@
       "titlePrice": 299,
       "titleDeposit": 25,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "arrivedByComplete": false
     },
     {
       "id": "ea6e2f06dec9e334",
@@ -27710,7 +27724,7 @@
       "customerPhone": "(856) 889-9587",
       "customerEmail": "",
       "contactId": "7AZhQuaYOFCRhlOFPZfy",
-      "car": "fk joe 2026 kia sorento  white 499$ plus front 3 320$ plus wheels and windows 100$  919$ -95$  depo ",
+      "car": "fk joe 2026 kia sorento  white 499$ plus front 3 320$ plus wheels and windows 100$  919$ -95$  depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "9e7aec4eefe054cc",
@@ -37793,6 +37807,78 @@
       "status": "absent",
       "startTime": "",
       "endTime": ""
+    },
+    {
+      "id": "b02098968163963d",
+      "personType": "employee",
+      "personId": "273b3cdb8e20e0d1",
+      "date": "2026-10-14",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "d8d5ae051a420217",
+      "personType": "employee",
+      "personId": "8ee8cc14340b4386",
+      "date": "2026-10-14",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "98360326d6548d00",
+      "personType": "employee",
+      "personId": "7bcc22db24b2124f",
+      "date": "2026-10-14",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "e07387237c727c18",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-10-14",
+      "status": "absent",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "c99219e6b2593e5d",
+      "personType": "employee",
+      "personId": "f6cf35e1607cb10f",
+      "date": "2026-10-14",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "daecf7019f191b58",
+      "personType": "manager",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-10-14",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "8833768ec35ec16e",
+      "personType": "manager",
+      "personId": "19d1389561891623",
+      "date": "2026-10-14",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "8c4fa79dce4ff523",
+      "personType": "manager",
+      "personId": "791dee90ad560e70",
+      "date": "2026-10-14",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
     }
   ],
   "revenueStartDate": "2026-09-01",
@@ -37801,6 +37887,96 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "b191f74bf5bf4cae",
+      "timestamp": "2026-10-14T16:59:53.101Z",
+      "actor": "Naomi (manager)",
+      "saleId": "41723d6c8a1450db",
+      "car": "DG 2025 BMW M240i S +RTINT 269-50depo",
+      "field": "Base price",
+      "oldValue": 445,
+      "newValue": 269
+    },
+    {
+      "id": "c932282a13b86be6",
+      "timestamp": "2026-10-14T16:59:47.940Z",
+      "actor": "Naomi (manager)",
+      "saleId": "41723d6c8a1450db",
+      "car": "DG 2025 BMW M240i AllAroundTint 445-50depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2025 BMW M240i AllAroundTint 445-50depo",
+      "newValue": "DG 2025 BMW M240i S +RTINT 269-50depo"
+    },
+    {
+      "id": "50436379d9a0f117",
+      "timestamp": "2026-10-14T16:57:41.371Z",
+      "actor": "Naomi (manager)",
+      "saleId": "41723d6c8a1450db",
+      "car": "DG 2025 BMW M240i AllAroundTint 445-50depo",
+      "field": "Base price",
+      "oldValue": 415,
+      "newValue": 445
+    },
+    {
+      "id": "71785692591d6941",
+      "timestamp": "2026-10-14T16:57:38.455Z",
+      "actor": "Naomi (manager)",
+      "saleId": "41723d6c8a1450db",
+      "car": "DG 2025 BMW M240i AllAroundTint 415-50depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2025 BMW M240i AllAroundTint 415-50depo",
+      "newValue": "DG 2025 BMW M240i AllAroundTint 445-50depo"
+    },
+    {
+      "id": "b69d31db14fe1937",
+      "timestamp": "2026-10-14T16:57:03.673Z",
+      "actor": "Naomi (manager)",
+      "saleId": "41723d6c8a1450db",
+      "car": "DG 2025 BMW M240i AllAroundTint 460-50depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2025 BMW M240i AllAroundTint 460-50depo",
+      "newValue": "DG 2025 BMW M240i AllAroundTint 415-50depo"
+    },
+    {
+      "id": "8b889e6578e7ff92",
+      "timestamp": "2026-10-14T16:56:57.521Z",
+      "actor": "Naomi (manager)",
+      "saleId": "41723d6c8a1450db",
+      "car": "DG 2025 BMW M240i AllAroundTint 460-50depo",
+      "field": "Base price",
+      "oldValue": 460,
+      "newValue": 415
+    },
+    {
+      "id": "621fe8b31937fc2b",
+      "timestamp": "2026-10-14T16:55:27.807Z",
+      "actor": "Naomi (manager)",
+      "saleId": "41723d6c8a1450db",
+      "car": "DG 2025 BMW M240i AllAroundTint 460-50depo",
+      "field": "Base price",
+      "oldValue": 475,
+      "newValue": 460
+    },
+    {
+      "id": "91abbfa2413ef8b7",
+      "timestamp": "2026-10-14T16:55:24.452Z",
+      "actor": "Naomi (manager)",
+      "saleId": "41723d6c8a1450db",
+      "car": "DG 2025 BMW M240i AllAroundTint 475-50depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2025 BMW M240i AllAroundTint 475-50depo",
+      "newValue": "DG 2025 BMW M240i AllAroundTint 460-50depo"
+    },
+    {
+      "id": "46471147092afecb",
+      "timestamp": "2026-10-14T16:14:39.931Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "553fdcca4aac58a5",
+      "car": "fk joe 2026 kia sorento  white 499$ plus front 3 320$ plus wheels and windows 100$  919$ -95$  depo",
+      "field": "Car/Title",
+      "oldValue": "fk joe 2026 kia sorento  white 499$ plus front 3 320$ plus wheels and windows 100$  919$ -95$  depo ",
+      "newValue": "fk joe 2026 kia sorento  white 499$ plus front 3 320$ plus wheels and windows 100$  919$ -95$  depo"
+    },
     {
       "id": "564d907eaecf0c3b",
       "timestamp": "2026-10-14T15:51:21.113Z",
