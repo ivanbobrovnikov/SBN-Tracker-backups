@@ -2339,7 +2339,8 @@
       "titlePrice": 499,
       "titleDeposit": 145,
       "priceSource": "title",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "ghlValue": 500
     },
     {
       "id": "b0f41670ab76a811",
@@ -6866,7 +6867,7 @@
       "id": "33891afb1ee97618",
       "ghlOpportunityId": "DwXo9xgsNme00rJbavX7",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-04T15:32:53.963Z",
@@ -6875,7 +6876,7 @@
       "customerPhone": "(907) 201-5495",
       "customerEmail": "",
       "contactId": "DwXo9xgsNme00rJbavX7",
-      "car": "Jon Cruz",
+      "car": "Jon Cruz 2026 Honda civic hatchback sport S+ RTINT",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
@@ -6889,7 +6890,9 @@
       "walkInClosedById": null,
       "walkInClosedByName": null,
       "titlePrice": null,
-      "titleDeposit": null
+      "titleDeposit": null,
+      "arrivedByComplete": false,
+      "titleLocked": true
     },
     {
       "id": "3e4fce7758ae0bbe",
@@ -15981,7 +15984,7 @@
       "id": "173fb64faa23a318",
       "ghlOpportunityId": "ZRUqRsjmb680Ma1ezM5s",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-22T18:41:25.897Z",
@@ -16004,7 +16007,8 @@
       "priceMismatchDismissed": false,
       "titlePrice": 650,
       "titleDeposit": 90,
-      "priceSource": "title"
+      "priceSource": "title",
+      "arrivedByComplete": false
     },
     {
       "id": "01afbe05dd88eb72",
@@ -27451,7 +27455,7 @@
       "id": "f714a8a3e5951394",
       "ghlOpportunityId": "uFwGca1CwcsjZR3S4XGg",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-13T22:57:18.508Z",
@@ -27475,7 +27479,8 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 275
+      "ghlValue": 275,
+      "arrivedByComplete": false
     },
     {
       "id": "4ab88f39752c4645",
@@ -28088,6 +28093,76 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-15T13:04:22.272Z",
+      "endpoint": "sync",
+      "matchedSaleId": "0520d8ce83a5f876",
+      "before": {
+        "basePrice": 499,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "Z9EkwmDs1Nnhz0Sv1Y91",
+        "first_name": "REGINA",
+        "last_name": "CHIODI",
+        "full_name": "REGINA CHIODI",
+        "phone": "+18565356911",
+        "tags": "name via lookup,hp sbn auto styling nj,hp aged,hp remove booked stage",
+        "city": "STRATFORD",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-07-31T18:11:08.940Z",
+        "postal_code": "08026",
+        "full_address": "STRATFORD NJ 08026",
+        "contact_type": "lead",
+        "opportunity_name": "REGINA CHIODI | ",
+        "status": "won",
+        "lead_value": 500,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "fXfKByHcf17zxpLnNSuP",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "500",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "Z9EkwmDs1Nnhz0Sv1Y91"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-14T22:20:26.275Z",
       "endpoint": "sync",
@@ -33448,115 +33523,6 @@
           "contactId": "SCRJIbyQA4qR8a4Dxx39"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-14T14:30:23.130Z",
-      "endpoint": "sync",
-      "matchedSaleId": "b0fdae9cbf33d24c",
-      "before": {
-        "basePrice": 580,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 580,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2020 mecedes s560",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "lEgDSBPNQSkJAXE70kk2",
-        "first_name": "Ergi",
-        "last_name": "Rakic",
-        "full_name": "Ergi Rakic",
-        "email": "info@amodomionj.com",
-        "phone": "+12158695222",
-        "tags": "coating,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-10-14T14:21:11.759Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Ergi Rakic | ",
-        "status": "won",
-        "lead_value": 580,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "lB3cToYPLAoI9hnd6LX6",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "hey is this sbn auto styling? 499",
-            "adSetId": "120255090573730011",
-            "adId": "120256326229360011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "facebook",
-            "mediumId": "28773328658952966",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "pSid": "28773328658952966"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "580",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "lEgDSBPNQSkJAXE70kk2"
-        }
-      }
     }
   ],
   "attendance": [
@@ -36366,6 +36332,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "2c69efe2c4f0df68",
+      "timestamp": "2026-10-15T13:03:15.751Z",
+      "actor": "Naomi (manager)",
+      "saleId": "33891afb1ee97618",
+      "car": "Jon Cruz",
+      "field": "Car/Title",
+      "oldValue": "Jon Cruz",
+      "newValue": "Jon Cruz 2026 Honda civic hatchback sport S+ RTINT"
+    },
     {
       "id": "fdc0d4a041227c50",
       "timestamp": "2026-10-14T22:10:35.412Z",
