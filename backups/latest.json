@@ -14367,7 +14367,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 299,
+      "basePrice": 950,
       "calendarId": null,
       "syncedFromGHL": true,
       "paidCash": true,
@@ -14375,7 +14375,9 @@
       "priceMismatchDismissed": false,
       "titlePrice": 950,
       "titleDeposit": 95,
-      "ghlValue": 299
+      "ghlValue": 299,
+      "priceLocked": false,
+      "priceSource": "title"
     },
     {
       "id": "68925f099044a841",
@@ -23041,16 +23043,16 @@
       "id": "0f861f0a65e70cb8",
       "ghlOpportunityId": "EYH82szAIZIOSe3ia6Le",
       "upsells": [],
-      "status": "no_show",
+      "status": "pending",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-06T14:44:54.407Z",
-      "date": "2026-10-15T13:00:00.000Z",
+      "date": "2026-10-16T18:00:00.000Z",
       "customerName": "Cheech Colon",
       "customerPhone": "(609) 481-8399",
       "customerEmail": "",
       "contactId": "EYH82szAIZIOSe3ia6Le",
-      "car": "DG 200 Ram 1500 S+RTINT S+RTINT 299-20depo Drop off the whole day",
+      "car": "DG Resceduled 2006 Ram 1500 S+RTINT S+RTINT 299-20depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -23064,7 +23066,8 @@
       "titlePrice": 299,
       "titleDeposit": 20,
       "priceSource": "title",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "ghlValue": 299
     },
     {
       "id": "ef103aae6051c900",
@@ -24893,7 +24896,7 @@
       "id": "ec45f931230c860b",
       "ghlOpportunityId": "xf6idZMFZcYXJf6OKU7w",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-09T14:35:00.866Z",
@@ -24916,7 +24919,8 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 490
+      "ghlValue": 490,
+      "arrivedByComplete": false
     },
     {
       "id": "49f98ed9ec09d55d",
@@ -26526,16 +26530,21 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Walk-in (needs closer assigned)",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
-      "priceSource": "ghl",
+      "basePrice": 1e-7,
+      "priceSource": "manual",
       "titlePrice": null,
       "titleDeposit": null,
       "calendarId": null,
       "syncedFromGHL": true,
       "isWalkIn": true,
-      "ghlValue": 0
+      "ghlValue": 0,
+      "priceLocked": true,
+      "isOnlineBooking": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "19d1389561891623",
+      "walkInClosedByName": "Gio"
     },
     {
       "id": "7488832854b5adfd",
@@ -27173,12 +27182,14 @@
       "salesRepId": null,
       "salesRepName": "Unassigned",
       "baseService": "Window Tint",
-      "basePrice": 0,
-      "priceSource": "ghl",
+      "basePrice": 299,
+      "priceSource": "manual",
       "titlePrice": null,
       "titleDeposit": null,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": true,
+      "priceLocked": true
     },
     {
       "id": "1d4a96959be7dd8c",
@@ -27878,7 +27889,8 @@
       "titlePrice": 400,
       "titleDeposit": 50,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "isOnlineBooking": true
     },
     {
       "id": "442c9f984ffcbe0d",
@@ -28374,7 +28386,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-15T15:47:38.066Z",
       "closedAtSource": "tracker",
       "date": "2026-10-15T13:00:00.000Z",
@@ -28396,7 +28408,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 200,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "46355fa4f3059b3e",
@@ -28509,15 +28523,16 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
-      "priceSource": "ghl",
+      "basePrice": 50,
+      "priceSource": "manual",
       "titlePrice": null,
       "titleDeposit": null,
       "calendarId": null,
       "syncedFromGHL": true,
       "arrivedByComplete": false,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "priceLocked": true
     },
     {
       "id": "09765b7e5ca58e61",
@@ -28822,6 +28837,35 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 740
+    },
+    {
+      "id": "9b94780d604ecd67",
+      "ghlOpportunityId": "sBI07ud6TLoo7WUX4gJo",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-16T18:04:33.937Z",
+      "closedAtSource": "tracker",
+      "date": "2026-10-16T20:00:00.000Z",
+      "customerName": "EDWARD DOUGLAS",
+      "customerPhone": "(917) 213-0774",
+      "customerEmail": "",
+      "contactId": "sBI07ud6TLoo7WUX4gJo",
+      "car": "DG 2018 Dodge Charger AllAroundTInt 495-50depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 495,
+      "priceSource": "title",
+      "priceMismatchDismissed": false,
+      "titlePrice": 495,
+      "titleDeposit": 50,
+      "calendarId": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -28897,6 +28941,114 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-16T17:45:30.694Z",
+      "endpoint": "sync",
+      "matchedSaleId": "0f861f0a65e70cb8",
+      "before": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2001 dodge ram 1500",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "EYH82szAIZIOSe3ia6Le",
+        "first_name": "Cheech",
+        "last_name": "Colon",
+        "full_name": "Cheech Colon",
+        "email": "eusebiocolon1@gmail.com",
+        "phone": "+16094818399",
+        "tags": "tint,hp sbn auto styling nj,hp appointment booked with dimitriy",
+        "country": "US",
+        "date_created": "2026-10-06T14:29:43.067Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Cheech Colon | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "vnrLnUXPJfEJykzIyVLe",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ testing",
+            "utm_campaign": "window tint camp NJ testing",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "all sides and rear 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256832936210011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ testing",
+            "utm_campaign": "window tint camp NJ testing",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "all sides and rear 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256832936210011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "EYH82szAIZIOSe3ia6Le"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-16T17:06:40.785Z",
       "endpoint": "sync",
@@ -36257,76 +36409,6 @@
           "contactId": "4psIWGQP2vewwPnJijjk"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-15T17:21:56.978Z",
-      "endpoint": "sync",
-      "matchedSaleId": "8efa182121dd63a8",
-      "before": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "contact_id": "vpwiYYsorJPMvDEwTHjC",
-        "first_name": "RANDY",
-        "last_name": "THOMPSON",
-        "full_name": "RANDY THOMPSON",
-        "phone": "+16092209044",
-        "tags": "name via lookup,hp sbn auto styling nj,hp appointment booked with dimitriy",
-        "city": "HADDONFIELD",
-        "state": "NJ",
-        "country": "US",
-        "date_created": "2026-10-15T15:34:37.905Z",
-        "postal_code": "08093",
-        "full_address": "HADDONFIELD NJ 08093",
-        "contact_type": "lead",
-        "opportunity_name": "RANDY THOMPSON",
-        "status": "open",
-        "lead_value": 499,
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "DGy0uspcaEUrLCms1x9F",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Other",
-            "medium": "other"
-          },
-          "lastAttributionSource": {}
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "499",
-          "salesRepName": "Roman Goldovsky",
-          "contactId": "vpwiYYsorJPMvDEwTHjC"
-        }
-      }
     }
   ],
   "attendance": [
@@ -39280,6 +39362,56 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "92029d7f1a7d90a0",
+      "timestamp": "2026-10-16T17:52:56.261Z",
+      "actor": "Naomi (manager)",
+      "saleId": "607c9a909e977807",
+      "car": "DG 2005 Ford F150 WASH 200-SameDay",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 200
+    },
+    {
+      "id": "2193816279286414",
+      "timestamp": "2026-10-16T17:45:28.666Z",
+      "actor": "Auto-matched (reschedule)",
+      "saleId": "0f861f0a65e70cb8",
+      "car": "DG 200 Ram 1500 S+RTINT S+RTINT 299-20depo Drop off the whole day",
+      "field": "Status",
+      "oldValue": "no_show",
+      "newValue": "pending"
+    },
+    {
+      "id": "6b2ecc39c46ea56e",
+      "timestamp": "2026-10-16T17:25:51.410Z",
+      "actor": "Owner",
+      "saleId": "14f1b18b3c7df94d",
+      "car": "Gio 2023 Range Rover HSE Ceramic coat Acod wash And 2 door rotary work",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 1e-7
+    },
+    {
+      "id": "6679a53cc0768237",
+      "timestamp": "2026-10-16T17:25:37.128Z",
+      "actor": "Owner",
+      "saleId": "de491614060917a5",
+      "car": "Gabriel Silva",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "41ab9ff370fc4151",
+      "timestamp": "2026-10-16T17:25:30.020Z",
+      "actor": "Owner",
+      "saleId": "e5c8d9f00317496f",
+      "car": "DG 2026 Hyundai Palisade Ceramic Coating&S+RTINT&Sunstrip 950-95depo",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 950
+    },
     {
       "id": "4953ef5cb066b457",
       "timestamp": "2026-10-16T14:44:28.026Z",
@@ -47222,6 +47354,21 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "86b8d88cea8b21c4",
+      "type": "cashIn",
+      "amount": 200,
+      "category": "Customer Payment",
+      "note": "DG 2005 Ford F150 WASH 200-SameDay — Mark Miller",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "607c9a909e977807",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-10-16T17:52:56.261Z"
+    },
     {
       "id": "a6e55987fb71cd35",
       "type": "cashIn",
