@@ -15434,7 +15434,7 @@
       "id": "b066a567b6ffa208",
       "ghlOpportunityId": "SCRJIbyQA4qR8a4Dxx39",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-21T15:11:29.996Z",
@@ -15458,7 +15458,8 @@
       "titlePrice": 499,
       "titleDeposit": 95,
       "priceSource": "title",
-      "ghlValue": 499
+      "ghlValue": 499,
+      "arrivedByComplete": false
     },
     {
       "id": "020bb3a5719feaf0",
@@ -20128,9 +20129,9 @@
     },
     {
       "id": "50817c618f5c7765",
-      "ghlOpportunityId": "66lB96EPLSdN1XZOlMkQ",
+      "ghlOpportunityId": "66lB96EPLSdN1XZOlMkQ~earlier-50817c618f5c7765",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-30T16:18:14.143Z",
@@ -20152,7 +20153,16 @@
       "priceMismatchDismissed": false,
       "titlePrice": 499,
       "titleDeposit": 95,
-      "priceSource": "title"
+      "priceSource": "title",
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "dee3b1f61de2509a",
+          "text": "Reschedule",
+          "authorName": "Gio (manager)",
+          "timestamp": "2026-10-17T13:40:51.687Z"
+        }
+      ]
     },
     {
       "id": "58e621ef3a8d3893",
@@ -29135,6 +29145,35 @@
       "titleDeposit": null,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "c240d57386a2234c",
+      "ghlOpportunityId": "66lB96EPLSdN1XZOlMkQ",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-17T13:17:24.732Z",
+      "closedAtSource": "tracker",
+      "date": "2026-10-31T13:00:00.000Z",
+      "customerName": "Akin Kawondre Randolph",
+      "customerPhone": "(646) 423-1980",
+      "customerEmail": "",
+      "contactId": "66lB96EPLSdN1XZOlMkQ",
+      "car": "reschedule Gio/  white q50 wheels and windshield",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Walk-in (needs closer assigned)",
+      "baseService": "Ceramic Coating",
+      "basePrice": 499,
+      "priceSource": "ghl",
+      "titlePrice": null,
+      "titleDeposit": null,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "ghlValue": 499,
+      "isWalkIn": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -29210,6 +29249,116 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-17T13:17:25.578Z",
+      "endpoint": "sync",
+      "matchedSaleId": "c240d57386a2234c",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Walk-in (needs closer assigned)"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "Within 2 weeks",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2020 Q50 Infiniti",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "66lB96EPLSdN1XZOlMkQ",
+        "first_name": "Akin",
+        "last_name": "Kawondre Randolph",
+        "full_name": "Akin Kawondre Randolph",
+        "email": "kawondre29@yahoo.com",
+        "phone": "+16464231980",
+        "tags": "tint,hp sbn auto styling nj,hp aged,coating,hp appointment booked with dimitriy",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-07-21T22:39:48.411Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Akin Kawondre Randolph | ",
+        "status": "won",
+        "lead_value": 499,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "3dkg2ZxDycsxQ9HC0yeb",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "1521577853048463",
+            "medium": "facebook",
+            "formId": "1521577853048463",
+            "formName": "window tint 299-copy",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "ad 1 299",
+            "adSetId": "120254638050770011",
+            "adId": "120254652145930011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "instagram",
+            "mediumId": "1968377297453344",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "igSid": "1968377297453344"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "66lB96EPLSdN1XZOlMkQ"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-16T21:56:01.920Z",
       "endpoint": "sync",
@@ -35613,115 +35762,6 @@
           "contactId": "bBhIsv5ysYMtW60LdB9g"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-16T14:26:36.398Z",
-      "endpoint": "sync",
-      "matchedSaleId": "6ee580ccf42ce96d",
-      "before": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2025 Lexus ES350",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "Eb54EFUudiYwkhux8e50",
-        "first_name": "Brian",
-        "last_name": "Richardson",
-        "full_name": "Brian Richardson",
-        "email": "bkrich923@gmail.com",
-        "phone": "+12155282497",
-        "tags": "coating,hp sbn auto styling nj,hp appointment booked with dimitriy",
-        "country": "US",
-        "date_created": "2026-10-15T11:41:51.126Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Brian Richardson",
-        "status": "open",
-        "lead_value": 600,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "4NKu8Lu5vdvTrQmQ5Erc",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "grand opening 499 image 2",
-            "adSetId": "120255090573730011",
-            "adId": "120255760073430011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "facebook",
-            "mediumId": "39288313500783152",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "pSid": "39288313500783152"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "600",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "Eb54EFUudiYwkhux8e50"
-        }
-      }
     }
   ],
   "attendance": [
@@ -38667,6 +38707,78 @@
       "status": "present",
       "startTime": "",
       "endTime": ""
+    },
+    {
+      "id": "171d13dff60501b9",
+      "personType": "employee",
+      "personId": "273b3cdb8e20e0d1",
+      "date": "2026-10-17",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "aaeb1dc2c5b28920",
+      "personType": "employee",
+      "personId": "8ee8cc14340b4386",
+      "date": "2026-10-17",
+      "status": "absent",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "0b0e059445201a92",
+      "personType": "employee",
+      "personId": "7bcc22db24b2124f",
+      "date": "2026-10-17",
+      "status": "absent",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "f7e81a8709cf1e14",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-10-17",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "0b933c65af533c8c",
+      "personType": "employee",
+      "personId": "f6cf35e1607cb10f",
+      "date": "2026-10-17",
+      "status": "absent",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "eb3d4a2a275de87b",
+      "personType": "manager",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-10-17",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "98a86aefd018fd29",
+      "personType": "manager",
+      "personId": "19d1389561891623",
+      "date": "2026-10-17",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "2319c3f6f4bb618d",
+      "personType": "manager",
+      "personId": "791dee90ad560e70",
+      "date": "2026-10-17",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
     }
   ],
   "revenueStartDate": "2026-09-01",
@@ -38675,6 +38787,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "7478a711ac0de286",
+      "timestamp": "2026-10-17T13:44:26.232Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "c240d57386a2234c",
+      "car": "reschedule Gio/  white q50 wheels and windshield",
+      "field": "Car/Title",
+      "oldValue": "reschedule Gio/  white q50 wheels and windshield ",
+      "newValue": "reschedule Gio/  white q50 wheels and windshield"
+    },
+    {
+      "id": "9a1eb9c5015a47a6",
+      "timestamp": "2026-10-17T13:17:24.731Z",
+      "actor": "Auto-split (new appointment)",
+      "saleId": "50817c618f5c7765",
+      "car": "DG 2020 Infiniti Q50 Ceramic Coating&Rims 499-95depo",
+      "field": "GHL Opportunity ID",
+      "oldValue": "66lB96EPLSdN1XZOlMkQ",
+      "newValue": "66lB96EPLSdN1XZOlMkQ~earlier-50817c618f5c7765"
+    },
     {
       "id": "d57baaed2f098e7d",
       "timestamp": "2026-10-16T21:54:30.869Z",
