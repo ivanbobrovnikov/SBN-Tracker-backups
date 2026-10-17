@@ -22423,10 +22423,19 @@
     {
       "id": "60c41705c15d8a56",
       "ghlOpportunityId": "xyDpOWQZHMmWuO0KqCxy",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "defd13f64b4c4bcb",
+          "name": "all around",
+          "price": 304,
+          "employeeId": null,
+          "managerId": "791dee90ad560e70",
+          "salesRepId": null
+        }
+      ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-05T00:22:03.887Z",
       "date": "2026-10-16T20:00:00.000Z",
       "customerName": "Daniel Cabaza",
@@ -22447,7 +22456,9 @@
       "titlePrice": null,
       "titleDeposit": null,
       "ghlValue": 195,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "ef582fafc807885a",
@@ -28326,7 +28337,7 @@
       ],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-15T14:59:50.322Z",
       "closedAtSource": "tracker",
       "date": "2026-10-16T17:00:00.000Z",
@@ -28350,7 +28361,9 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "a118a9f187d499ea",
@@ -28885,8 +28898,8 @@
       "ghlOpportunityId": "sBI07ud6TLoo7WUX4gJo",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-16T18:04:33.937Z",
       "closedAtSource": "tracker",
       "date": "2026-10-16T20:00:00.000Z",
@@ -28909,7 +28922,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 299,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "422a691e9aeffb17",
