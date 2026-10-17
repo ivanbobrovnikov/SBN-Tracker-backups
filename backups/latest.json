@@ -18847,8 +18847,8 @@
       "ghlOpportunityId": "vz7ZWbXu2VgMwzhaj6nY",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-28T15:07:56.152Z",
       "date": "2026-10-17T20:00:00.000Z",
       "customerName": "CH!NX 💵",
@@ -18856,8 +18856,11 @@
       "customerEmail": "",
       "contactId": "vz7ZWbXu2VgMwzhaj6nY",
       "car": "DG 2018 BWW 5series AllAroundTINT 475-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Angelica, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -18869,7 +18872,17 @@
       "titlePrice": 475,
       "titleDeposit": 50,
       "priceSource": "title",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "notes": [
+        {
+          "id": "872a9e169eb99f60",
+          "text": "$299 no windshield",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-10-17T23:07:35.209Z"
+        }
+      ]
     },
     {
       "id": "b596b945b154ffba",
