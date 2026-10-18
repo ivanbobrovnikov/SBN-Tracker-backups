@@ -29921,6 +29921,66 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 275
+    },
+    {
+      "id": "52474514f366472d",
+      "ghlOpportunityId": "Rx28LkfyvB7lr070bmuB",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-18T20:38:31.024Z",
+      "closedAtSource": "tracker",
+      "date": "2026-11-09T14:00:00.000Z",
+      "customerName": "Kevin Lopez",
+      "customerPhone": "(609) 500-8376",
+      "customerEmail": "",
+      "contactId": "Rx28LkfyvB7lr070bmuB",
+      "car": "Kevin Lopez 2022 honda accord 499 -95 depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Walk-in (needs closer assigned)",
+      "baseService": "Ceramic Coating",
+      "basePrice": 499,
+      "priceSource": "title",
+      "titlePrice": 499,
+      "titleDeposit": 95,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "ghlValue": 499,
+      "isWalkIn": true,
+      "priceMismatchDismissed": false
+    },
+    {
+      "id": "d52404e4ec6953de",
+      "ghlOpportunityId": "CmhR5Gy5EH7yoRQaXZHG",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-18T21:12:17.144Z",
+      "closedAtSource": "tracker",
+      "date": "2026-10-31T14:00:00.000Z",
+      "customerName": "David Chuong",
+      "customerPhone": "(267) 322-1129",
+      "customerEmail": "",
+      "contactId": "CmhR5Gy5EH7yoRQaXZHG",
+      "car": "DG 2025 Lexus NX350 Ceramic Coating&FrontWindsheild&FrontWindows 819-125Depo ",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Ceramic Coating",
+      "basePrice": 819,
+      "priceSource": "title",
+      "priceMismatchDismissed": false,
+      "titlePrice": 819,
+      "titleDeposit": 125,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "ghlValue": 499
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -29996,6 +30056,235 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-18T21:12:17.255Z",
+      "endpoint": "sync",
+      "matchedSaleId": "d52404e4ec6953de",
+      "before": {
+        "basePrice": 819,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 819,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "Lexus GX 550 and NX350",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "CmhR5Gy5EH7yoRQaXZHG",
+        "first_name": "David",
+        "last_name": "Chuong",
+        "full_name": "David Chuong",
+        "email": "dave.chuong@gmail.com",
+        "phone": "+12673221129",
+        "tags": "coating,hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "date_created": "2026-10-18T20:57:37.995Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "David Chuong | ",
+        "status": "won",
+        "lead_value": 499,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "clzF1BRS8XOyfiy7svcM",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "868814779620228",
+            "medium": "facebook",
+            "formId": "868814779620228",
+            "formName": "499 10 year coatijng",
+            "campaign": "ceramic coating testing",
+            "utm_campaign": "ceramic coating testing",
+            "campaignId": "120255090573720011",
+            "utmMedium": "10 year 499",
+            "utmContent": "hey is this sbn auto styling? 499",
+            "adSetId": "120255090573730011",
+            "adId": "120256326229360011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "facebook",
+            "mediumId": "28573918205606944",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "pSid": "28573918205606944"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "CmhR5Gy5EH7yoRQaXZHG"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T20:38:34.273Z",
+      "endpoint": "sync",
+      "matchedSaleId": "52474514f366472d",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Walk-in (needs closer assigned)"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2022 honda accord",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "Rx28LkfyvB7lr070bmuB",
+        "first_name": "Kevin",
+        "last_name": "Lopez",
+        "full_name": "Kevin Lopez",
+        "email": "56kevlop@gmail.com",
+        "phone": "+16095008376",
+        "tags": "coating,hp sbn auto styling nj",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-10-18T20:30:36.458Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Kevin Lopez | ",
+        "status": "won",
+        "lead_value": 499,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "0GR74fnNJOhxcNqEhDBC",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "868814779620228",
+            "medium": "facebook",
+            "formId": "868814779620228",
+            "formName": "499 10 year coatijng",
+            "campaign": "ceramic coating testing",
+            "utm_campaign": "ceramic coating testing",
+            "campaignId": "120255090573720011",
+            "utmMedium": "10 year 499",
+            "utmContent": "hey is this sbn auto styling? 499",
+            "adSetId": "120255090573730011",
+            "adId": "120256326229360011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Direct traffic",
+            "url": "https://api.leadconnectorhq.com/widget/booking/l6p0Wai2C60MLpMeBerd",
+            "utmSource": null,
+            "utmMedium": null,
+            "utmContent": null,
+            "utmTerm": null,
+            "utmKeyword": null,
+            "utmMatchtype": null,
+            "referrer": null,
+            "gclid": null,
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Mobile/15E148 Safari/604.1",
+            "ip": "2601:80:4902:a070:c18d:754e:8b83:296",
+            "gaClientId": null,
+            "gaSessionId": null,
+            "medium": "calendar",
+            "mediumId": "l6p0Wai2C60MLpMeBerd",
+            "adName": null,
+            "adGroupId": null,
+            "adId": null,
+            "gbraid": null,
+            "wbraid": null
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "Rx28LkfyvB7lr070bmuB"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-18T18:49:23.685Z",
       "endpoint": "sync",
@@ -38227,174 +38516,6 @@
           "basePrice": "299",
           "salesRepName": "Dmitriy Gumenyuk",
           "contactId": "KOEH3g0dKvjk5eZRpDTB"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-10-17T17:40:29.177Z",
-      "endpoint": "sync",
-      "matchedSaleId": "553fdcca4aac58a5",
-      "before": {
-        "basePrice": 919,
-        "salesRepName": "Firdavs Karshiev"
-      },
-      "after": {
-        "basePrice": 919,
-        "salesRepName": "Firdavs Karshiev"
-      },
-      "body": {
-        "contact_id": "7AZhQuaYOFCRhlOFPZfy",
-        "first_name": "joe",
-        "full_name": "joe",
-        "email": "hotstove64@aol.com",
-        "phone": "+18568899587",
-        "tags": "hp sbn auto styling nj,hp appointment booked with dimitriy",
-        "country": "US",
-        "timezone": "America/New_York",
-        "date_created": "2026-10-14T15:51:51.477Z",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Joe ",
-        "status": "open",
-        "lead_value": 919,
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "4kYmHIYfBAMXbByZ0hFj",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "customData": {
-          "basePrice": "919",
-          "salesRepName": "Roman Goldovsky",
-          "contactId": "7AZhQuaYOFCRhlOFPZfy"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-10-17T17:38:09.575Z",
-      "endpoint": "sync",
-      "matchedSaleId": "eb98fdb370877aa7",
-      "before": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2009 Honda accord",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "dteEJPyPpfHmEXvD6OXb",
-        "first_name": "Cesar",
-        "last_name": "Diaz",
-        "full_name": "Cesar Diaz",
-        "email": "cesar19951826@gmail.com",
-        "phone": "+18562462157",
-        "tags": "tint,hp sbn auto styling nj,hp appointment booked with dimitriy",
-        "country": "US",
-        "date_created": "2026-10-08T19:11:09.312Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Cesar Diaz | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "fAd3DkFbfpTCnnjYjnNZ",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "if ur getting quotes in west berlin stop scrolling",
-            "adSetId": "120254638050770011",
-            "adId": "120257032015730011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "if ur getting quotes in west berlin stop scrolling",
-            "adSetId": "120254638050770011",
-            "adId": "120257032015730011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "",
-          "contactId": "dteEJPyPpfHmEXvD6OXb"
         }
       }
     }
