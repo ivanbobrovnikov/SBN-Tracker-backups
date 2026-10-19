@@ -27121,7 +27121,15 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 969,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "e20ecf381f78c742",
+          "text": "35WS 15S+R",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-10-19T18:37:10.760Z"
+        }
+      ]
     },
     {
       "id": "965ea29520db1e10",
@@ -28509,8 +28517,8 @@
       "ghlOpportunityId": "yL8wxyg1yzZUZYn5iQuj",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-15T14:06:49.029Z",
       "closedAtSource": "tracker",
       "date": "2026-10-19T15:00:00.000Z",
@@ -28519,8 +28527,10 @@
       "customerEmail": "",
       "contactId": "yL8wxyg1yzZUZYn5iQuj",
       "car": "DG 2022 Dodge Charger S+RTINT 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -28532,7 +28542,13 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "453311e10b57085b",
@@ -29639,7 +29655,7 @@
       "ghlOpportunityId": "IKJcCMfFxMQ5Fklru2DT",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-10-17T19:10:21.300Z",
       "closedAtSource": "tracker",
@@ -56834,6 +56850,29 @@
       ],
       "loggedByName": "Aaron",
       "timestamp": "2026-10-17T17:25:14.364Z"
+    },
+    {
+      "id": "095aad85121a91dc",
+      "saleId": "9814549957a7c940",
+      "car": "DG 2022 Dodge Charger S+RTINT 299-50depo",
+      "date": "2026-10-19T15:00:00.000Z",
+      "amount": 39.92,
+      "split": [
+        {
+          "personType": "employee",
+          "personId": "f9d9bfc4e797e38b",
+          "name": "Feso",
+          "amount": 19.96
+        },
+        {
+          "personType": "manager",
+          "personId": "ed55d50b916a979a",
+          "name": "Aaron",
+          "amount": 19.96
+        }
+      ],
+      "loggedByName": "Aaron",
+      "timestamp": "2026-10-19T18:21:45.418Z"
     }
   ]
 }
