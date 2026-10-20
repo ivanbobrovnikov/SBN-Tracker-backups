@@ -23939,7 +23939,15 @@
       "titlePrice": 470,
       "titleDeposit": 50,
       "priceSource": "title",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "64a0258fd79b4e77",
+          "text": "Feso, zay",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-20T19:57:18.671Z"
+        }
+      ]
     },
     {
       "id": "45d0e7ae6d84ddea",
@@ -29499,7 +29507,7 @@
       "id": "66c7895ea644890f",
       "ghlOpportunityId": "DTpvhDjHxqTWyFbbdPsT",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-17T14:54:40.252Z",
@@ -29523,7 +29531,8 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 299
+      "ghlValue": 299,
+      "arrivedByComplete": false
     },
     {
       "id": "47bd7a8a33905ecf",
@@ -30645,7 +30654,21 @@
       "walkInClosedByType": "manager",
       "walkInClosedById": "791dee90ad560e70",
       "walkInClosedByName": "Naomi",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "38dc8e88391c4c33",
+          "text": "Aaron, Angie, Eddie",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-20T19:56:17.517Z"
+        },
+        {
+          "id": "b4e722747c90949f",
+          "text": "Paid cash",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-20T20:29:38.287Z"
+        }
+      ]
     },
     {
       "id": "d556244b0b68bee0",
@@ -31153,7 +31176,7 @@
       "id": "69ac6ec2575282b8",
       "ghlOpportunityId": "kkhkL6MJD3iZUdXSBd23",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-20T13:40:58.476Z",
@@ -31177,7 +31200,16 @@
       "titleDeposit": 75,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 185
+      "ghlValue": 185,
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "8b53fbf971160180",
+          "text": "Angie & Eddie",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-20T20:30:15.269Z"
+        }
+      ]
     },
     {
       "id": "37a6763f4d2816e0",
@@ -31537,6 +31569,36 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 499
+    },
+    {
+      "id": "b2a6e56651f40717",
+      "ghlOpportunityId": "yEte23agHanBWgWy254g",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-20T20:12:17.713Z",
+      "closedAtSource": "tracker",
+      "date": "2026-11-20T14:00:00.000Z",
+      "customerName": "",
+      "customerPhone": "(609) 287-2814",
+      "customerEmail": "",
+      "contactId": "yEte23agHanBWgWy254g",
+      "car": "DG 2026 Silver Ford Mustang Ceramic Coating&Rims 580-150depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Ceramic Coating",
+      "basePrice": 580,
+      "priceSource": "title",
+      "priceMismatchDismissed": false,
+      "titlePrice": 580,
+      "titleDeposit": 150,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "ghlValue": 580
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -31594,6 +31656,74 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-20T20:12:56.653Z",
+      "endpoint": "sync",
+      "matchedSaleId": "b2a6e56651f40717",
+      "before": {
+        "basePrice": 580,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 580,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "yEte23agHanBWgWy254g",
+        "full_name": "",
+        "phone": "+16092872814",
+        "tags": "couldn't find caller name,hp fresh,hp sbn auto styling nj,couldnt find caller name",
+        "city": "ATLANTIC CITY",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-10-20T19:46:58.354Z",
+        "postal_code": "08406",
+        "full_address": "ATLANTIC CITY NJ 08406",
+        "contact_type": "lead",
+        "opportunity_name": " | ",
+        "status": "won",
+        "lead_value": 580,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "KLrcMoWLbuQproze60uI",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "580",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "yEte23agHanBWgWy254g"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-20T19:17:28.181Z",
       "endpoint": "sync",
@@ -39129,121 +39259,6 @@
         "5Q2m5NDHgOXPUQbTYEKd",
         "GonnQ4euMXJo1yHwHcCl"
       ]
-    },
-    {
-      "receivedAt": "2026-10-19T22:59:18.089Z",
-      "endpoint": "sync",
-      "matchedSaleId": "21ea220745b190b2",
-      "before": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 299,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2024 polestar 2",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "GonnQ4euMXJo1yHwHcCl",
-        "first_name": "Alfred",
-        "last_name": "Rizzo",
-        "full_name": "Alfred Rizzo",
-        "email": "whos.alfred@gmail.com",
-        "phone": "+12152662654",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-10-19T22:53:10.939Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Alfred Rizzo | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "va3OUZQHatmUMNkJXNCo",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "people cant afford ceramic 299",
-            "adSetId": "120254638050770011",
-            "adId": "120256476307680011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "people cant afford ceramic 299",
-            "adSetId": "120254638050770011",
-            "adId": "120256476307680011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "GonnQ4euMXJo1yHwHcCl"
-        }
-      }
     }
   ],
   "attendance": [
