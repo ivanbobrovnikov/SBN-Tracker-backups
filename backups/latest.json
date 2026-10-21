@@ -14055,8 +14055,11 @@
       "customerEmail": "",
       "contactId": "BkpquMXfoUa7tjUEbAQP",
       "car": "DG 2026 Mazda CX-90 CeramicCoating&Rims&Frontwindshield 499-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -14069,7 +14072,11 @@
       "titlePrice": 499,
       "titleDeposit": 50,
       "priceSource": "title",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio"
     },
     {
       "id": "c6720db668efe947",
@@ -19844,8 +19851,12 @@
       "customerEmail": "",
       "contactId": "38pZppbm7JzmWIGAvnTw",
       "car": "DG 2019 Toyota Tundra Ceramic Coating&Rims 499-95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f",
+        "ed55d50b916a979a"
+      ],
+      "employeeNames": "Nick, Paul, Aaron",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -27696,8 +27707,8 @@
       "ghlOpportunityId": "PcdC9Snua4PWZxcwjEPj",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-13T20:14:31.781Z",
       "closedAtSource": "tracker",
       "date": "2026-10-21T14:30:00.000Z",
@@ -27729,7 +27740,10 @@
           "authorName": "Naomi (manager)",
           "timestamp": "2026-10-21T15:22:25.812Z"
         }
-      ]
+      ],
+      "paidCash": true,
+      "paymentMethod": "both",
+      "paidCard": true
     },
     {
       "id": "2c0240596b941d71",
@@ -28807,7 +28821,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": true,
+      "paid": false,
       "closedAt": "2026-10-15T15:40:01.266Z",
       "closedAtSource": "tracker",
       "date": "2026-10-20T13:00:00.000Z",
@@ -28816,11 +28830,8 @@
       "customerEmail": "",
       "contactId": "vpwiYYsorJPMvDEwTHjC",
       "car": "DG 2018 Ram 2500 Rim coat 50 upsell",
-      "employeeIds": [
-        "8ee8cc14340b4386",
-        "7bcc22db24b2124f"
-      ],
-      "employeeNames": "Nick, Paul",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -28834,12 +28845,10 @@
       "syncedFromGHL": true,
       "ghlValue": 550,
       "arrivedByComplete": false,
-      "managerHelperIds": [
-        "19d1389561891623"
-      ],
-      "managerHelperNames": "Gio",
-      "paidCard": true,
-      "paymentMethod": "card"
+      "managerHelperIds": [],
+      "managerHelperNames": "",
+      "paidCard": false,
+      "paymentMethod": null
     },
     {
       "id": "607c9a909e977807",
@@ -29512,7 +29521,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-16T21:36:11.557Z",
       "closedAtSource": "tracker",
       "date": "2026-10-20T13:00:00.000Z",
@@ -29542,7 +29551,9 @@
       "managerHelperIds": [
         "19d1389561891623"
       ],
-      "managerHelperNames": "Gio"
+      "managerHelperNames": "Gio",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "8ed6eb158c96263d",
@@ -31173,8 +31184,8 @@
       "ghlOpportunityId": "Ptqt8YQn8867NbrZsUNN",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-19T22:07:28.952Z",
       "closedAtSource": "tracker",
       "date": "2026-10-21T19:00:00.000Z",
@@ -31197,7 +31208,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 475,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "05fc09cb49d4fb78",
@@ -31687,7 +31700,7 @@
       "ghlOpportunityId": "3OXWoBnXtFALmjDmj3Bb",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-10-20T18:46:05.251Z",
       "closedAtSource": "tracker",
@@ -32136,7 +32149,7 @@
       "ghlOpportunityId": "OutuRxLGsuGO5usKbKpI",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-10-21T15:28:40.603Z",
       "closedAtSource": "tracker",
@@ -32417,7 +32430,15 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 299,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "f407d14f4eecbd28",
+          "text": "Aaron & angie",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-21T21:02:51.645Z"
+        }
+      ]
     },
     {
       "id": "fdf25c20c7989935",
@@ -43802,6 +43823,16 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "931f259faf43f7a8",
+      "timestamp": "2026-10-21T21:11:55.479Z",
+      "actor": "Naomi (manager)",
+      "saleId": "8905003d1f9c11b4",
+      "car": "MR 2001 Audi A4 Wagon S+RTINT $299 -$50DEPO",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 120
+    },
+    {
       "id": "6b1f5fa2c21638bb",
       "timestamp": "2026-10-21T20:17:49.500Z",
       "actor": "Naomi (manager)",
@@ -52604,6 +52635,21 @@
   ],
   "cashEntries": [
     {
+      "id": "325320621290a734",
+      "type": "cashIn",
+      "amount": 120,
+      "category": "Customer Payment",
+      "note": "MR 2001 Audi A4 Wagon S+RTINT $299 -$50DEPO — Neil Patel",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "8905003d1f9c11b4",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-10-21T21:11:55.479Z"
+    },
+    {
       "id": "0e653c1c397d93f3",
       "type": "cashIn",
       "amount": 200,
@@ -56455,6 +56501,34 @@
     "fallbackPhone": "+12679122701"
   },
   "textLog": [
+    {
+      "id": "73357978211ab116",
+      "at": "2026-10-21T21:16:08.881Z",
+      "attempts": 1,
+      "kind": "test",
+      "toName": "Test",
+      "toPhone": "+12679122701",
+      "message": "SBN West Berlin, NJ: TEST - this is what a missed-appointment text will look like. Sent 5:16 PM.",
+      "customerName": "",
+      "status": "sent",
+      "nextAt": 1792617368881,
+      "sentAt": "2026-10-21T21:16:09.611Z",
+      "reason": ""
+    },
+    {
+      "id": "8fa84f2ea4f531ac",
+      "at": "2026-10-21T21:14:44.740Z",
+      "attempts": 1,
+      "kind": "test",
+      "toName": "Test",
+      "toPhone": "+12679122701",
+      "message": "SBN West Berlin, NJ: TEST - this is what a missed-appointment text will look like. Sent 5:14 PM.",
+      "customerName": "",
+      "status": "sent",
+      "nextAt": 1792617284740,
+      "sentAt": "2026-10-21T21:14:45.510Z",
+      "reason": ""
+    },
     {
       "id": "76fcb6fc369082a7",
       "at": "2026-10-21T19:55:53.270Z",
