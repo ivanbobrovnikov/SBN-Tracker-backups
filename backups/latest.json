@@ -31175,7 +31175,7 @@
       "titleDeposit": 75,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 350
+      "ghlValue": 299
     },
     {
       "id": "1290ac16f0ce78f6",
@@ -32803,6 +32803,74 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-21T23:19:12.332Z",
+      "endpoint": "sync",
+      "matchedSaleId": "330057cf9b6cdc3a",
+      "before": {
+        "basePrice": 350,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 350,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "g84izjmlSZLJFXLyhxGr",
+        "full_name": "",
+        "phone": "+16093212152",
+        "tags": "couldn't find caller name,hp fresh,hp sbn auto styling nj,couldnt find caller name",
+        "city": "PEMBERTON",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-10-19T21:34:57.749Z",
+        "postal_code": "08068",
+        "full_address": "PEMBERTON NJ 08068",
+        "contact_type": "lead",
+        "opportunity_name": " | ",
+        "status": "won",
+        "lead_value": 299,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "yzFX7h3cMf3mmPVDZI5C",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "g84izjmlSZLJFXLyhxGr"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-21T22:25:30.860Z",
       "endpoint": "sync",
@@ -40565,115 +40633,6 @@
         "customData": {
           "basePrice": "550",
           "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "1D955LXfqhHd8veDRw8D"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-10-21T15:34:11.540Z",
-      "endpoint": "sync",
-      "matchedSaleId": "2321532799cbaca8",
-      "before": {
-        "basePrice": 550,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 550,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2002 Maserati 4200 spyder",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "1D955LXfqhHd8veDRw8D",
-        "first_name": "Heinz",
-        "last_name": "Mayer",
-        "full_name": "Heinz Mayer",
-        "email": "hmayer0330@gmail.com",
-        "phone": "+12679443777",
-        "tags": "coating,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-10-21T01:26:35.524Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Heinz Mayer | ",
-        "status": "won",
-        "lead_value": 550,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "Wu3kgimOtQ4X4FVp2rVL",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "hey is this sbn auto styling? 499",
-            "adSetId": "120255090573730011",
-            "adId": "120256326229360011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "1610095127250813",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "1610095127250813"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "550",
-          "salesRepName": "Roman Goldovsky",
           "contactId": "1D955LXfqhHd8veDRw8D"
         }
       }
