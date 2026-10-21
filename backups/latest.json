@@ -14046,8 +14046,8 @@
       "ghlOpportunityId": "BkpquMXfoUa7tjUEbAQP",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-17T23:05:29.446Z",
       "date": "2026-10-21T13:00:00.000Z",
       "customerName": "Ric O'Hagan",
@@ -14076,7 +14076,9 @@
       "managerHelperIds": [
         "19d1389561891623"
       ],
-      "managerHelperNames": "Gio"
+      "managerHelperNames": "Gio",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "c6720db668efe947",
@@ -19842,8 +19844,8 @@
       "ghlOpportunityId": "38pZppbm7JzmWIGAvnTw",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-29T17:46:44.371Z",
       "date": "2026-10-21T13:00:00.000Z",
       "customerName": "Thomas M Majusiak",
@@ -19853,10 +19855,9 @@
       "car": "DG 2019 Toyota Tundra Ceramic Coating&Rims 499-95depo",
       "employeeIds": [
         "8ee8cc14340b4386",
-        "7bcc22db24b2124f",
-        "ed55d50b916a979a"
+        "7bcc22db24b2124f"
       ],
-      "employeeNames": "Nick, Paul, Aaron",
+      "employeeNames": "Nick, Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -19868,7 +19869,13 @@
       "titlePrice": 499,
       "titleDeposit": 95,
       "priceSource": "title",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio"
     },
     {
       "id": "6ae5975a1fd38aa3",
@@ -23653,7 +23660,7 @@
       "ghlOpportunityId": "JJEiqHL9lOp6S3EMxavH",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-10-06T22:17:45.620Z",
       "date": "2026-10-17T13:00:00.000Z",
@@ -23662,8 +23669,11 @@
       "customerEmail": "",
       "contactId": "JJEiqHL9lOp6S3EMxavH",
       "car": "DG 2023 BMW M240i Ceramic Coating&Step2&Rims 700-95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -23677,7 +23687,11 @@
       "priceSource": "title",
       "arrivedByComplete": false,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio"
     },
     {
       "id": "16b9b80e76357818",
@@ -27739,6 +27753,12 @@
           "text": "Feso & isaha",
           "authorName": "Naomi (manager)",
           "timestamp": "2026-10-21T15:22:25.812Z"
+        },
+        {
+          "id": "acc213ce238969bf",
+          "text": "Aaron",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-21T22:05:42.632Z"
         }
       ],
       "paidCash": true,
@@ -28820,8 +28840,8 @@
       "ghlOpportunityId": "vpwiYYsorJPMvDEwTHjC",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-15T15:40:01.266Z",
       "closedAtSource": "tracker",
       "date": "2026-10-20T13:00:00.000Z",
@@ -28836,8 +28856,8 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 550,
-      "priceSource": "ghl",
+      "basePrice": 450,
+      "priceSource": "manual",
       "priceMismatchDismissed": false,
       "titlePrice": null,
       "titleDeposit": null,
@@ -28847,8 +28867,9 @@
       "arrivedByComplete": false,
       "managerHelperIds": [],
       "managerHelperNames": "",
-      "paidCard": false,
-      "paymentMethod": null
+      "paidCard": true,
+      "paymentMethod": "card",
+      "priceLocked": true
     },
     {
       "id": "607c9a909e977807",
@@ -29732,7 +29753,7 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-10-17T15:48:06.108Z",
       "closedAtSource": "tracker",
@@ -29742,8 +29763,11 @@
       "customerEmail": "",
       "contactId": "D7qq7l0BtXCWgKclP0S4",
       "car": "JA 2017 Honda Oddessy Coating + Rims + Windows - S + R TINT $998-$95 (drop off night before)",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "3cdd54e91972de02",
       "salesRepName": "Jared Aigner",
       "isWalkIn": false,
@@ -29756,7 +29780,11 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 998,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio"
     },
     {
       "id": "79d9550e3cc4ad77",
@@ -31210,7 +31238,15 @@
       "ghlValue": 475,
       "arrivedByComplete": false,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "notes": [
+        {
+          "id": "1e34566aa67cfea4",
+          "text": "Feso",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-21T22:04:25.950Z"
+        }
+      ]
     },
     {
       "id": "05fc09cb49d4fb78",
@@ -31353,7 +31389,15 @@
       "paidCash": true,
       "paymentMethod": "cash",
       "titleLocked": true,
-      "priceLocked": true
+      "priceLocked": true,
+      "notes": [
+        {
+          "id": "202a02a3781a7070",
+          "text": "Zay, Eddie",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-21T22:05:19.149Z"
+        }
+      ]
     },
     {
       "id": "69ac6ec2575282b8",
@@ -31882,7 +31926,15 @@
       "ghlValue": 490,
       "arrivedByComplete": false,
       "paidCash": true,
-      "paymentMethod": "cash"
+      "paymentMethod": "cash",
+      "notes": [
+        {
+          "id": "45f3f47891f55fc5",
+          "text": "Eddie, Angie",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-21T22:04:55.409Z"
+        }
+      ]
     },
     {
       "id": "ffaf4ce3243da1d7",
@@ -32316,8 +32368,8 @@
       "ghlOpportunityId": "JvkxvHTjjFhUz46HMuYk",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-21T17:11:50.252Z",
       "closedAtSource": "tracker",
       "date": "2026-10-21T19:00:00.000Z",
@@ -32326,8 +32378,10 @@
       "customerEmail": "",
       "contactId": "JvkxvHTjjFhUz46HMuYk",
       "car": "DG 2021 Audi S4 S+RTint 250-SDay",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -32339,7 +32393,17 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 250,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "a09b9375aea4d1ab",
+          "text": "Feso, zay",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-21T22:03:39.451Z"
+        }
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "45a216f3b1b1307f",
@@ -32376,8 +32440,8 @@
       "ghlOpportunityId": "4MIuPD0SRh1DsAJJPkkC",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-21T18:25:51.191Z",
       "closedAtSource": "tracker",
       "date": "2026-10-21T20:00:00.000Z",
@@ -32386,8 +32450,12 @@
       "customerEmail": "",
       "contactId": "4MIuPD0SRh1DsAJJPkkC",
       "car": "DG 2025 Tesla 3 AllAroundTint 470-SDay",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "273b3cdb8e20e0d1",
+        "ed55d50b916a979a"
+      ],
+      "employeeNames": "Feso, Angelica, Aaron",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -32399,7 +32467,17 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 470,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "4ae906310a5daeb0",
+          "text": "Eddie, feso, Angie, Aaron",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-21T22:04:01.219Z"
+        }
+      ],
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "cfa5aaa533efec51",
@@ -32407,7 +32485,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-21T18:32:58.868Z",
       "closedAtSource": "tracker",
       "date": "2026-10-21T19:30:00.000Z",
@@ -32416,8 +32494,11 @@
       "customerEmail": "",
       "contactId": "pEhzkzeAJREWvKcgx3ev",
       "car": "DG 2017 Honda CRV S+RTINT 275-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "ed55d50b916a979a"
+      ],
+      "employeeNames": "Angelica, Aaron",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -32438,7 +32519,9 @@
           "authorName": "Aaron",
           "timestamp": "2026-10-21T21:02:51.645Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "fdf25c20c7989935",
@@ -32618,6 +32701,36 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 130
+    },
+    {
+      "id": "e90182b47ecbdcdf",
+      "ghlOpportunityId": "l7o7NYt18mpCFCnB8L0P",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-21T22:24:46.689Z",
+      "closedAtSource": "tracker",
+      "date": "2026-10-27T13:00:00.000Z",
+      "customerName": "",
+      "customerPhone": "(856) 579-0943",
+      "customerEmail": "",
+      "contactId": "l7o7NYt18mpCFCnB8L0P",
+      "car": "DG 2025 White Ford F150 Ceramc Coating&Rims&Windows&AllAroundTint 1184-200depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Ceramic Coating",
+      "basePrice": 1184,
+      "priceSource": "title",
+      "priceMismatchDismissed": false,
+      "titlePrice": 1184,
+      "titleDeposit": 200,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "ghlValue": 1184
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -32690,6 +32803,144 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-21T22:25:30.860Z",
+      "endpoint": "sync",
+      "matchedSaleId": "e90182b47ecbdcdf",
+      "before": {
+        "basePrice": 1184,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 1184,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "l7o7NYt18mpCFCnB8L0P",
+        "full_name": "",
+        "phone": "+18565790943",
+        "tags": "couldn't find caller name,hp fresh,hp sbn auto styling nj,couldnt find caller name",
+        "city": "CAMDEN",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-10-21T20:14:38.498Z",
+        "postal_code": "08105",
+        "full_address": "CAMDEN NJ 08105",
+        "contact_type": "lead",
+        "opportunity_name": " | ",
+        "status": "won",
+        "lead_value": 1184,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "9cPbCMwjyudIVFWhD28a",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "1184",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "l7o7NYt18mpCFCnB8L0P"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-10-21T21:41:48.039Z",
+      "endpoint": "sync",
+      "matchedSaleId": "7b9657bda1959f5c",
+      "before": {
+        "basePrice": 399,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 399,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "yiCA0E4R1A4kZnJ9opSw",
+        "first_name": "BRIT",
+        "last_name": "CHESERONI",
+        "full_name": "BRIT CHESERONI",
+        "phone": "+18562651086",
+        "tags": "name via lookup,hp fresh,hp sbn auto styling nj",
+        "city": "MILLVILLE",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-10-18T22:16:11.381Z",
+        "postal_code": "08332",
+        "full_address": "MILLVILLE NJ 08332",
+        "contact_type": "lead",
+        "opportunity_name": "BRIT CHESERONI | ",
+        "status": "won",
+        "lead_value": 299,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "byfo5CNS3ekR6sERWOkZ",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "yiCA0E4R1A4kZnJ9opSw"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-21T20:39:55.370Z",
       "endpoint": "sync",
@@ -40426,224 +40677,6 @@
           "contactId": "1D955LXfqhHd8veDRw8D"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-21T15:34:00.172Z",
-      "endpoint": "sync",
-      "matchedSaleId": "2321532799cbaca8",
-      "before": {
-        "basePrice": 550,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 550,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2002 Maserati 4200 spyder",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "1D955LXfqhHd8veDRw8D",
-        "first_name": "Heinz",
-        "last_name": "Mayer",
-        "full_name": "Heinz Mayer",
-        "email": "hmayer0330@gmail.com",
-        "phone": "+12679443777",
-        "tags": "coating,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-10-21T01:26:35.524Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Heinz Mayer | ",
-        "status": "won",
-        "lead_value": 499,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "Wu3kgimOtQ4X4FVp2rVL",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "hey is this sbn auto styling? 499",
-            "adSetId": "120255090573730011",
-            "adId": "120256326229360011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "1610095127250813",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "1610095127250813"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "499",
-          "salesRepName": "Roman Goldovsky",
-          "contactId": "1D955LXfqhHd8veDRw8D"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-10-21T15:20:11.652Z",
-      "endpoint": "sync",
-      "matchedSaleId": "d9e379526811a9b5",
-      "before": {
-        "basePrice": 445,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 445,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2008 impala",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "ARafS3PnfVUlpSl1yeNR",
-        "first_name": "Yamil",
-        "last_name": "santos",
-        "full_name": "Yamil santos",
-        "email": "santos.yamil@yahoo.com",
-        "phone": "+13864055259",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-10-21T03:20:44.687Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Yamil Santos | ",
-        "status": "won",
-        "lead_value": 445,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "xJOg4tmHrec6sP5ZWNtR",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "laying tint 299",
-            "adSetId": "120254638050770011",
-            "adId": "120257198222880011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "facebook",
-            "mediumId": "29525929770346442",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "pSid": "29525929770346442"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "445",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "ARafS3PnfVUlpSl1yeNR"
-        }
-      }
     }
   ],
   "attendance": [
@@ -43822,6 +43855,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "7d07febeadf070f9",
+      "timestamp": "2026-10-21T22:05:43.030Z",
+      "actor": "Naomi (manager)",
+      "saleId": "09ae6b6dc176027c",
+      "car": "DG 2025 Tesla 3 AllAroundTint 470-SDay",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 470
+    },
+    {
+      "id": "e40b28449962ab9e",
+      "timestamp": "2026-10-21T21:49:59.698Z",
+      "actor": "Naomi (manager)",
+      "saleId": "8efa182121dd63a8",
+      "car": "DG 2018 Ram 2500 Rim coat 50 upsell",
+      "field": "Base price",
+      "oldValue": 550,
+      "newValue": 450
+    },
     {
       "id": "931f259faf43f7a8",
       "timestamp": "2026-10-21T21:11:55.479Z",
@@ -52634,6 +52687,21 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "8ca9a1f8e3447763",
+      "type": "cashIn",
+      "amount": 470,
+      "category": "Customer Payment",
+      "note": "DG 2025 Tesla 3 AllAroundTint 470-SDay — Anjan Kundu",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "09ae6b6dc176027c",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-10-21T22:05:43.030Z"
+    },
     {
       "id": "325320621290a734",
       "type": "cashIn",
