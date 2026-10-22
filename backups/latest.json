@@ -23697,7 +23697,7 @@
       "id": "16b9b80e76357818",
       "ghlOpportunityId": "ulNgEQexL9g4757wg5O3",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-07T01:35:34.982Z",
@@ -23706,7 +23706,7 @@
       "customerPhone": "(856) 448-5120",
       "customerEmail": "",
       "contactId": "ulNgEQexL9g4757wg5O3",
-      "car": "Connor Schwartz",
+      "car": "Connor Schwartz Chevy",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
@@ -23718,7 +23718,9 @@
       "isWalkIn": true,
       "titlePrice": null,
       "titleDeposit": null,
-      "ghlValue": 499
+      "ghlValue": 499,
+      "arrivedByComplete": false,
+      "titleLocked": true
     },
     {
       "id": "154c04e2d41b772a",
@@ -27692,7 +27694,7 @@
           "salesRepId": null
         }
       ],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-13T19:42:20.584Z",
@@ -27716,7 +27718,8 @@
       "titleDeposit": 95,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 650
+      "ghlValue": 650,
+      "arrivedByComplete": false
     },
     {
       "id": "8905003d1f9c11b4",
@@ -28481,7 +28484,7 @@
       "id": "f98a1e10bd8d86da",
       "ghlOpportunityId": "JDZlsbl1hEvrGP8PRc3a",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-14T16:03:13.637Z",
@@ -28505,7 +28508,8 @@
       "titleDeposit": 75,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 499
+      "ghlValue": 499,
+      "arrivedByComplete": false
     },
     {
       "id": "f00c57207325b7fb",
@@ -30411,7 +30415,7 @@
       "id": "1b4fb845fb6d41d3",
       "ghlOpportunityId": "GV1lYedRIawxSW8P3vEF",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-18T21:43:42.350Z",
@@ -30434,7 +30438,8 @@
       "titlePrice": 499,
       "titleDeposit": 150,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "arrivedByComplete": false
     },
     {
       "id": "e7da837a0c820cd4",
@@ -30763,7 +30768,7 @@
       "id": "e91a3f2d9d36fa3f",
       "ghlOpportunityId": "PAVl6gZR3tzjSpCfwy2V",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-19T15:43:43.495Z",
@@ -30787,7 +30792,8 @@
       "titleDeposit": 150,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 550
+      "ghlValue": 550,
+      "arrivedByComplete": false
     },
     {
       "id": "39c7f567d7a1041a",
@@ -32037,8 +32043,8 @@
       "ghlOpportunityId": "wGZA21c9y9yhMnYr8ZrB",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-20T23:13:21.180Z",
       "closedAtSource": "tracker",
       "closedAtCheck": true,
@@ -32048,8 +32054,11 @@
       "customerEmail": "",
       "contactId": "wGZA21c9y9yhMnYr8ZrB",
       "car": "DG 2003 White Benz E320 Ceramic Coating&Step1 599-95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -32062,7 +32071,13 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 1349,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio"
     },
     {
       "id": "5d5f705ddf44afce",
@@ -32782,7 +32797,7 @@
       "customerPhone": "(609) 300-8983",
       "customerEmail": "",
       "contactId": "8u6TnJcGhUnDFbeAHZKE",
-      "car": "DG 2015 Audi Q7 S+RTint 319-SDay ",
+      "car": "DG 2015 Audi Q7 S+RTint 319-SDay",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -44707,6 +44722,69 @@
       "status": "absent",
       "startTime": "",
       "endTime": ""
+    },
+    {
+      "id": "d68a436fbb22ef01",
+      "personType": "employee",
+      "personId": "273b3cdb8e20e0d1",
+      "date": "2026-10-22",
+      "status": "absent",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "f850f8bc1522eec0",
+      "personType": "employee",
+      "personId": "8ee8cc14340b4386",
+      "date": "2026-10-22",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "cd6658b53d443355",
+      "personType": "employee",
+      "personId": "7bcc22db24b2124f",
+      "date": "2026-10-22",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "95643b1b69a5913e",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-10-22",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "16f041fa0047de1f",
+      "personType": "employee",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-10-22",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "2eb0a629fcfda46a",
+      "personType": "manager",
+      "personId": "791dee90ad560e70",
+      "date": "2026-10-22",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "0f5b057abb50c86d",
+      "personType": "manager",
+      "personId": "19d1389561891623",
+      "date": "2026-10-22",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
     }
   ],
   "revenueStartDate": "2026-09-01",
@@ -44715,6 +44793,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "2c3e6b935e9b3be7",
+      "timestamp": "2026-10-22T13:47:53.292Z",
+      "actor": "Naomi (manager)",
+      "saleId": "16b9b80e76357818",
+      "car": "Connor Schwartz",
+      "field": "Car/Title",
+      "oldValue": "Connor Schwartz",
+      "newValue": "Connor Schwartz Chevy"
+    },
+    {
+      "id": "24ab59779796f282",
+      "timestamp": "2026-10-22T13:41:44.489Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "57c185f07efefad2",
+      "car": "DG 2015 Audi Q7 S+RTint 319-SDay",
+      "field": "Car/Title",
+      "oldValue": "DG 2015 Audi Q7 S+RTint 319-SDay ",
+      "newValue": "DG 2015 Audi Q7 S+RTint 319-SDay"
+    },
     {
       "id": "7d07febeadf070f9",
       "timestamp": "2026-10-21T22:05:43.030Z",
