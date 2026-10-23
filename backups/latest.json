@@ -32803,8 +32803,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-21T20:09:01.308Z",
       "closedAtSource": "tracker",
       "date": "2026-10-22T20:00:00.000Z",
@@ -32813,8 +32813,11 @@
       "customerEmail": "",
       "contactId": "yiCA0E4R1A4kZnJ9opSw",
       "car": "DG 2026 Acura Integra S+RTint&Sunstrip 399",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "1050c9240f87fa5f"
+      ],
+      "employeeNames": "Feso, Isseyah",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -32828,7 +32831,10 @@
       "syncedFromGHL": true,
       "ghlValue": 399,
       "arrivedByComplete": false,
-      "titleLocked": true
+      "titleLocked": true,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "notes": []
     },
     {
       "id": "f40f80199909c5dd",
