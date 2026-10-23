@@ -31374,7 +31374,7 @@
       "id": "330057cf9b6cdc3a",
       "ghlOpportunityId": "g84izjmlSZLJFXLyhxGr",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-19T21:44:11.894Z",
@@ -31398,7 +31398,9 @@
       "titleDeposit": 75,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 350
+      "ghlValue": 350,
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-10-23T20:47:02.734Z"
     },
     {
       "id": "1290ac16f0ce78f6",
@@ -60816,6 +60818,22 @@
   },
   "textLog": [
     {
+      "id": "8da06f4580106c6c",
+      "at": "2026-10-23T20:47:02.735Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "330057cf9b6cdc3a",
+      "customerName": "",
+      "car": "2021 Jeep Wrangler S+RTINT",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - A customer, 2021 Jeep Wrangler S+RTINT, was due 3:00 PM today. Call (609) 321-2152.",
+      "status": "sent",
+      "nextAt": 1792788442734,
+      "sentAt": "2026-10-23T20:47:23.528Z",
+      "reason": ""
+    },
+    {
       "id": "00904e17cca1654a",
       "at": "2026-10-23T20:05:28.559Z",
       "attempts": 0,
@@ -61448,5 +61466,6 @@
       "createdBy": "Owner",
       "appliedRunId": null
     }
-  ]
+  ],
+  "removedTips": []
 }
