@@ -28400,8 +28400,11 @@
       "customerEmail": "",
       "contactId": "wbMmEesW09WhzLhWiUA5",
       "car": "DG 2027 Grey Mercedes GLS450 Ceramic Coating $499 - 95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -28430,7 +28433,11 @@
         }
       ],
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio"
     },
     {
       "id": "6a29f5db7d1925a4",
@@ -29036,8 +29043,11 @@
       "customerEmail": "",
       "contactId": "vpwiYYsorJPMvDEwTHjC",
       "car": "DG 2018 Ram 2500 Rim coat 50 upsell",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -29051,8 +29061,10 @@
       "syncedFromGHL": true,
       "ghlValue": 550,
       "arrivedByComplete": false,
-      "managerHelperIds": [],
-      "managerHelperNames": "",
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio",
       "paidCard": true,
       "paymentMethod": "card",
       "priceLocked": true
@@ -30336,8 +30348,10 @@
       "customerEmail": "",
       "contactId": "zdgQxLI7mYjzOPO8xK5X",
       "car": "DG 2023 Honda Accord S+RTINTNANO 385-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "1050c9240f87fa5f"
+      ],
+      "employeeNames": "Isseyah",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -30419,8 +30433,8 @@
       "ghlOpportunityId": "0NuqSEnJf0U4CDCBG2pZ",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-18T14:38:28.410Z",
       "closedAtSource": "tracker",
       "date": "2026-10-19T13:00:00.000Z",
@@ -30429,8 +30443,11 @@
       "customerEmail": "",
       "contactId": "0NuqSEnJf0U4CDCBG2pZ",
       "car": "DG 2010 Ford Mustang CeramicCoating 499-95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -30444,7 +30461,13 @@
       "syncedFromGHL": true,
       "rescheduleAutoFlagged": false,
       "isReschedule": true,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio"
     },
     {
       "id": "a4730f3dee2a348f",
@@ -32149,7 +32172,7 @@
           "salesRepId": null
         }
       ],
-      "status": "arrived",
+      "status": "pending",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-20T19:17:12.370Z",
@@ -50170,6 +50193,16 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "fbd9b0bd152e5cde",
+      "timestamp": "2026-10-24T16:12:22.859Z",
+      "actor": "Naomi (manager)",
+      "saleId": "25a1931c04774758",
+      "car": "DG 2017 GMC Sierra Nano AllAroundTint 590-50depo",
+      "field": "Tip",
+      "oldValue": "",
+      "newValue": "added $86.58: Angelica $86.58"
+    },
+    {
       "id": "6277e8cdddd3c499",
       "timestamp": "2026-10-24T15:38:11.264Z",
       "actor": "Naomi (manager)",
@@ -63609,6 +63642,25 @@
       ],
       "loggedByName": "Owner",
       "timestamp": "2026-10-22T22:17:34.452Z"
+    },
+    {
+      "id": "85b4d8bd512b6e45",
+      "saleId": "25a1931c04774758",
+      "car": "DG 2017 GMC Sierra Nano AllAroundTint 590-50depo",
+      "date": "2026-10-24T13:00:00.000Z",
+      "amount": 86.58,
+      "split": [
+        {
+          "personType": "employee",
+          "personId": "273b3cdb8e20e0d1",
+          "name": "Angelica",
+          "amount": 86.58
+        }
+      ],
+      "loggedByName": "Naomi",
+      "loggedById": "791dee90ad560e70",
+      "loggedByRole": "manager",
+      "timestamp": "2026-10-24T16:12:22.859Z"
     }
   ],
   "textSettings": {
