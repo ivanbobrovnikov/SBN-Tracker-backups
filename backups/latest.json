@@ -18699,7 +18699,7 @@
       "id": "e77bfa9a98bd3fa2",
       "ghlOpportunityId": "KJmrt1OVgjxXs0BMJ95w",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-28T00:01:51.793Z",
@@ -18722,7 +18722,8 @@
       "titlePrice": 499,
       "titleDeposit": 95,
       "priceSource": "title",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-10-24T15:18:39.686Z"
     },
     {
       "id": "585e382b079d632b",
@@ -20024,7 +20025,7 @@
       "id": "14b8549369148b67",
       "ghlOpportunityId": "FF34ZM2fft7fKjdazNpH",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-29T20:47:48.647Z",
@@ -20046,7 +20047,8 @@
       "priceMismatchDismissed": false,
       "titlePrice": 495,
       "titleDeposit": 50,
-      "priceSource": "title"
+      "priceSource": "title",
+      "arrivedByComplete": false
     },
     {
       "id": "e2b1d0194fd91bf7",
@@ -21896,7 +21898,7 @@
       "id": "7e0b5eef1e442442",
       "ghlOpportunityId": "lMjZerOBLBGBtCS8VP1s",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-02T21:50:36.915Z",
@@ -21918,7 +21920,8 @@
       "priceMismatchDismissed": false,
       "titlePrice": 319,
       "titleDeposit": 50,
-      "priceSource": "title"
+      "priceSource": "title",
+      "arrivedByComplete": false
     },
     {
       "id": "8fbcbbbb1542cb3e",
@@ -24605,8 +24608,8 @@
       "ghlOpportunityId": "CJpwZwTk6l6KluZz4dHj",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-08T15:15:18.648Z",
       "date": "2026-10-24T13:00:00.000Z",
       "customerName": "Famousavis",
@@ -24614,8 +24617,10 @@
       "customerEmail": "",
       "contactId": "CJpwZwTk6l6KluZz4dHj",
       "car": "DG 2017 GMC Sierra Nano AllAroundTint 590-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -24628,7 +24633,9 @@
       "titleDeposit": 50,
       "priceSource": "title",
       "ghlValue": 590,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "6c2d58e13d22e17b",
@@ -24788,10 +24795,20 @@
     {
       "id": "03543562d26fa01c",
       "ghlOpportunityId": "f9fhwRhoVxEEf2sXR99j",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "d40197f0347d66d4",
+          "name": "While windshield",
+          "price": 100,
+          "employeeId": "b17bb44f6faf1ff2",
+          "managerId": null,
+          "salesRepId": null,
+          "salesRepName": null
+        }
+      ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-08T17:30:26.269Z",
       "date": "2026-10-24T13:00:00.000Z",
       "customerName": "Jeremiah Sabo",
@@ -24799,8 +24816,11 @@
       "customerEmail": "",
       "contactId": "f9fhwRhoVxEEf2sXR99j",
       "car": "DG 2026 Ford F150 S+RTINT&Sunstrip 390-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Feso, Edward",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -24813,7 +24833,10 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 390,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCash": true,
+      "paymentMethod": "both",
+      "paidCard": true
     },
     {
       "id": "649d1a498d52958f",
@@ -25006,7 +25029,7 @@
       "id": "2b205b95656963fb",
       "ghlOpportunityId": "H84u2MvCz4z68Vv3Hd63",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-08T22:43:22.859Z",
@@ -25029,7 +25052,9 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 299
+      "ghlValue": 299,
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-10-24T15:38:51.724Z"
     },
     {
       "id": "f40811fff223f6f8",
@@ -25553,8 +25578,17 @@
     {
       "id": "9aa87b16156933bf",
       "ghlOpportunityId": "gjSx9tNDRkt9i1JJVGZR",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "a956eb6017a8b566",
+          "name": "Nano",
+          "price": 100,
+          "employeeId": null,
+          "managerId": "791dee90ad560e70",
+          "salesRepId": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-09T18:57:37.213Z",
@@ -25563,21 +25597,23 @@
       "customerPhone": "(856) 882-6204",
       "customerEmail": "",
       "contactId": "gjSx9tNDRkt9i1JJVGZR",
-      "car": "DG 2020 Hyundai Elantra S+RTINT&Sunstrip 380-50depo",
+      "car": "DG 2023 Hyundai Elantra S+RTINT $299 -50depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 380,
+      "basePrice": 299,
       "priceSource": "title",
       "priceMismatchDismissed": false,
-      "titlePrice": 380,
+      "titlePrice": 299,
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 380
+      "ghlValue": 380,
+      "titleLocked": true,
+      "arrivedByComplete": false
     },
     {
       "id": "af53a394a1445fd0",
@@ -28176,7 +28212,7 @@
       "id": "4ab88f39752c4645",
       "ghlOpportunityId": "DYQjEvellZIP47ROwIp4~earlier-4ab88f39752c4645",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-14T13:04:56.610Z",
@@ -28199,7 +28235,9 @@
       "titlePrice": 480,
       "titleDeposit": 90,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-10-24T15:18:42.579Z"
     },
     {
       "id": "091d418cb7e09768",
@@ -30276,10 +30314,20 @@
     {
       "id": "b0dc3e739474d95f",
       "ghlOpportunityId": "zdgQxLI7mYjzOPO8xK5X",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "20eb883e14b5dd1d",
+          "name": "Nano",
+          "price": 100,
+          "employeeId": "273b3cdb8e20e0d1",
+          "managerId": null,
+          "salesRepId": null,
+          "salesRepName": null
+        }
+      ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-17T20:49:39.514Z",
       "closedAtSource": "tracker",
       "date": "2026-10-24T13:00:00.000Z",
@@ -30302,7 +30350,10 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 385,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCash": true,
+      "paymentMethod": "both",
+      "paidCard": true
     },
     {
       "id": "5680aa2919827200",
@@ -33854,12 +33905,12 @@
       "paid": false,
       "closedAt": "2026-10-23T13:39:25.204Z",
       "closedAtSource": "tracker",
-      "date": "2026-11-12T14:00:00.000Z",
+      "date": "2026-11-27T14:00:00.000Z",
       "customerName": "Dyamond Weeks",
       "customerPhone": "(856) 631-3433",
       "customerEmail": "",
       "contactId": "AVnSiguvFaP2jFhFww4H",
-      "car": "DG 2023 Acura Integra AllAroundTINT 495-70depo",
+      "car": "DG Reschedule 2023 Acura Integra AllAroundTINT 495-70depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -34472,7 +34523,7 @@
       "id": "f55971a46dacb33d",
       "ghlOpportunityId": "GJNPuUi4ffIhQcDSNh6y",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-24T14:12:05.952Z",
@@ -34495,7 +34546,8 @@
       "titleDeposit": null,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 170
+      "ghlValue": 170,
+      "arrivedByComplete": false
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -50028,6 +50080,87 @@
       "status": "present",
       "startTime": "",
       "endTime": ""
+    },
+    {
+      "id": "598e7308e4a4215d",
+      "personType": "employee",
+      "personId": "273b3cdb8e20e0d1",
+      "date": "2026-10-24",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "ff2f725671ba42e7",
+      "personType": "employee",
+      "personId": "8ee8cc14340b4386",
+      "date": "2026-10-24",
+      "status": "absent",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "eb6f529030082891",
+      "personType": "employee",
+      "personId": "7bcc22db24b2124f",
+      "date": "2026-10-24",
+      "status": "absent",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "d8fb906b17ffaac6",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-10-24",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "0847769f9438ba8a",
+      "personType": "employee",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-10-24",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "a73538321dbafcb2",
+      "personType": "employee",
+      "personId": "1050c9240f87fa5f",
+      "date": "2026-10-24",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "4900c2894e525b18",
+      "personType": "employee",
+      "personId": "b17bb44f6faf1ff2",
+      "date": "2026-10-24",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "edce9b97afdfc5e4",
+      "personType": "manager",
+      "personId": "791dee90ad560e70",
+      "date": "2026-10-24",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "40915ed60bb84afa",
+      "personType": "manager",
+      "personId": "19d1389561891623",
+      "date": "2026-10-24",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
     }
   ],
   "revenueStartDate": "2026-09-01",
@@ -50036,6 +50169,76 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "6277e8cdddd3c499",
+      "timestamp": "2026-10-24T15:38:11.264Z",
+      "actor": "Naomi (manager)",
+      "saleId": "03543562d26fa01c",
+      "car": "DG 2026 Ford F150 S+RTINT&Sunstrip 390-50depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 400
+    },
+    {
+      "id": "3204291d38889c22",
+      "timestamp": "2026-10-24T15:38:05.567Z",
+      "actor": "Naomi (manager)",
+      "saleId": "03543562d26fa01c",
+      "car": "DG 2026 Ford F150 S+RTINT&Sunstrip 390-50depo",
+      "field": "Cash received",
+      "oldValue": 390,
+      "newValue": 0
+    },
+    {
+      "id": "57fcdb7e183d05f4",
+      "timestamp": "2026-10-24T15:36:14.320Z",
+      "actor": "Naomi (manager)",
+      "saleId": "03543562d26fa01c",
+      "car": "DG 2026 Ford F150 S+RTINT&Sunstrip 390-50depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 390
+    },
+    {
+      "id": "cefb4ae8747de286",
+      "timestamp": "2026-10-24T15:21:21.296Z",
+      "actor": "Naomi (manager)",
+      "saleId": "b0dc3e739474d95f",
+      "car": "DG 2023 Honda Accord S+RTINTNANO 385-75depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 100
+    },
+    {
+      "id": "40d5d4076a8c79e9",
+      "timestamp": "2026-10-24T14:55:45.116Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "9aa87b16156933bf",
+      "car": "DG 2023 Hyundai Elantra S+RTINT $299 -50depo",
+      "field": "Base price",
+      "oldValue": 380,
+      "newValue": 299
+    },
+    {
+      "id": "c9359fda51d3b6bc",
+      "timestamp": "2026-10-24T14:55:45.115Z",
+      "actor": "Naomi (manager)",
+      "saleId": "9aa87b16156933bf",
+      "car": "DG 2023 Hyundai Elantra S+RTINT&Sunstrip 380-50depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2023 Hyundai Elantra S+RTINT&Sunstrip 380-50depo",
+      "newValue": "DG 2023 Hyundai Elantra S+RTINT $299 -50depo"
+    },
+    {
+      "id": "be052bc9ccf0f811",
+      "timestamp": "2026-10-24T14:54:54.340Z",
+      "actor": "Naomi (manager)",
+      "saleId": "9aa87b16156933bf",
+      "car": "DG 2020 Hyundai Elantra S+RTINT&Sunstrip 380-50depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2020 Hyundai Elantra S+RTINT&Sunstrip 380-50depo",
+      "newValue": "DG 2023 Hyundai Elantra S+RTINT&Sunstrip 380-50depo"
+    },
     {
       "id": "97e7a2b5f856780a",
       "timestamp": "2026-10-24T14:21:09.316Z",
@@ -59329,6 +59532,36 @@
   ],
   "cashEntries": [
     {
+      "id": "8c76631f047d5260",
+      "type": "cashIn",
+      "amount": 400,
+      "category": "Customer Payment",
+      "note": "DG 2026 Ford F150 S+RTINT&Sunstrip 390-50depo — Jeremiah Sabo",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "03543562d26fa01c",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-10-24T15:38:11.262Z"
+    },
+    {
+      "id": "8041e1eb5bf97f02",
+      "type": "cashIn",
+      "amount": 100,
+      "category": "Customer Payment",
+      "note": "DG 2023 Honda Accord S+RTINTNANO 385-75depo — Joel Morici",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "b0dc3e739474d95f",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-10-24T15:21:21.296Z"
+    },
+    {
       "id": "cbd92273f07ecb0c",
       "type": "cashIn",
       "amount": 404,
@@ -63384,6 +63617,54 @@
     "fallbackPhone": "+12679122701"
   },
   "textLog": [
+    {
+      "id": "3121bc29aa9f23be",
+      "at": "2026-10-24T15:38:51.725Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "2b205b95656963fb",
+      "customerName": "Lewis Fiord",
+      "car": "2017 Kia Sportage S+RTINT",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Lewis Fiord, 2017 Kia Sportage S+RTINT, was due 11:00 AM today. Call (609) 661-1955.",
+      "status": "sent",
+      "nextAt": 1792856351725,
+      "sentAt": "2026-10-24T15:39:12.499Z",
+      "reason": ""
+    },
+    {
+      "id": "78c184565113a561",
+      "at": "2026-10-24T15:18:42.580Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "4ab88f39752c4645",
+      "customerName": "Albert Orabona",
+      "car": "2018 Honda Civic Ceramic Coating",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Albert Orabona, 2018 Honda Civic Ceramic Coating, was due 9:00 AM today. Call (267) 980-6136.",
+      "status": "sent",
+      "nextAt": 1792855142580,
+      "sentAt": "2026-10-24T15:19:03.404Z",
+      "reason": ""
+    },
+    {
+      "id": "634df9d12a139a2e",
+      "at": "2026-10-24T15:18:39.687Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "e77bfa9a98bd3fa2",
+      "customerName": "Michael Dignan",
+      "car": "2026 Tesla Y Ceramic Coating",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Michael Dignan, 2026 Tesla Y Ceramic Coating, was due 9:00 AM today. Call (302) 544-1896.",
+      "status": "sent",
+      "nextAt": 1792855139687,
+      "sentAt": "2026-10-24T15:19:00.420Z",
+      "reason": ""
+    },
     {
       "id": "8da06f4580106c6c",
       "at": "2026-10-23T20:47:02.735Z",
