@@ -30699,7 +30699,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-19T00:07:46.376Z",
       "closedAtSource": "tracker",
       "date": "2026-10-23T20:00:00.000Z",
@@ -30723,7 +30723,9 @@
       "syncedFromGHL": true,
       "ghlValue": 299,
       "arrivedByComplete": false,
-      "missedTextAt": null
+      "missedTextAt": null,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "4ddedc993c1e4027",
@@ -30940,8 +30942,11 @@
       "customerEmail": "",
       "contactId": "cdMJPOqMkUXwdpEtSevG",
       "car": "DG 2026 Toyota Camry Ceramic Coating RIMS + WINDSHEILD + 1 STEP 889 - $150depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
