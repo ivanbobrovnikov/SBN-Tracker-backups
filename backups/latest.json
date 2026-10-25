@@ -21990,7 +21990,7 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 299,
+      "basePrice": 319,
       "calendarId": null,
       "syncedFromGHL": true,
       "priceMismatchDismissed": false,
@@ -22000,7 +22000,8 @@
       "arrivedByComplete": false,
       "paidCard": true,
       "paymentMethod": "card",
-      "ghlValue": 299
+      "ghlValue": 299,
+      "priceLocked": false
     },
     {
       "id": "8fbcbbbb1542cb3e",
@@ -34969,11 +34970,11 @@
       "titleLocked": true,
       "paidCash": true,
       "paymentMethod": "cash",
-      "isWalkIn": false,
+      "isWalkIn": true,
       "isOnlineBooking": false,
-      "walkInClosedByType": null,
-      "walkInClosedById": null,
-      "walkInClosedByName": null
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi"
     },
     {
       "id": "0f838dac19727693",
@@ -35053,15 +35054,21 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Online Booking",
       "baseService": "Window Tint",
-      "basePrice": 299,
-      "priceSource": "ghl",
+      "basePrice": 0.000001,
+      "priceSource": "manual",
       "titlePrice": null,
       "titleDeposit": null,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 299
+      "ghlValue": 299,
+      "priceLocked": true,
+      "isOnlineBooking": true,
+      "isWalkIn": false,
+      "walkInClosedByType": null,
+      "walkInClosedById": null,
+      "walkInClosedByName": null
     },
     {
       "id": "b91930bce33906d2",
@@ -35205,15 +35212,21 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Ceramic Coating",
       "basePrice": 499,
-      "priceSource": "title",
+      "priceSource": "manual",
       "priceMismatchDismissed": false,
       "titlePrice": 499,
       "titleDeposit": 95,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "priceLocked": true,
+      "isWalkIn": true,
+      "isOnlineBooking": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi"
     },
     {
       "id": "5e36ccc0bc44db4b",
@@ -47065,6 +47078,36 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "bd0e4b4f978bba1f",
+      "timestamp": "2026-10-25T23:46:44.418Z",
+      "actor": "Owner",
+      "saleId": "4736ed6fab417807",
+      "car": "Finish Windshield From First Appointment",
+      "field": "Sales rep",
+      "oldValue": "Unassigned",
+      "newValue": "Online Booking"
+    },
+    {
+      "id": "cbc17da9c9593301",
+      "timestamp": "2026-10-25T23:46:39.997Z",
+      "actor": "Owner",
+      "saleId": "4736ed6fab417807",
+      "car": "Finish Windshield From First Appointment",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 0.000001
+    },
+    {
+      "id": "dfdaf886ee2ec4fa",
+      "timestamp": "2026-10-25T23:46:16.167Z",
+      "actor": "Owner",
+      "saleId": "7e0b5eef1e442442",
+      "car": "DG 2020 Chevy Trevrse S+RTINT 319-50depo",
+      "field": "Base price (from the title)",
+      "oldValue": 299,
+      "newValue": 319
+    },
     {
       "id": "0fd656e61e9a1090",
       "timestamp": "2026-10-25T21:53:46.200Z",
