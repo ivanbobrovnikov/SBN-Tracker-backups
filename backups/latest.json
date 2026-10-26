@@ -35046,12 +35046,12 @@
       "id": "ac4617a9cb6cc6f9",
       "ghlOpportunityId": "FLkoEvP1lbMTX93PikZk",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-24T17:09:39.420Z",
       "closedAtSource": "tracker",
-      "date": "2026-10-27T03:00:00.000Z",
+      "date": "2026-10-26T15:00:00.000Z",
       "customerName": "Corey",
       "customerPhone": "(215) 380-5832",
       "customerEmail": "",
@@ -35070,7 +35070,8 @@
       "titleDeposit": 75,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 220
+      "ghlValue": 220,
+      "arrivedByComplete": false
     },
     {
       "id": "a66a5ab84f9ecf53",
@@ -48751,6 +48752,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "8d6aa90eade793d3",
+      "timestamp": "2026-10-26T16:15:10.864Z",
+      "actor": "Naomi (manager)",
+      "saleId": "ac4617a9cb6cc6f9",
+      "car": "DG 2021 Chevy Silverado 2FrontWindows&Sunstrip 220-75depo",
+      "field": "Date/Time",
+      "oldValue": "2026-10-27T03:00:00.000Z",
+      "newValue": "2026-10-26T15:00:00.000Z"
+    },
     {
       "id": "8d86130112bca0b3",
       "timestamp": "2026-10-26T15:42:43.101Z",
