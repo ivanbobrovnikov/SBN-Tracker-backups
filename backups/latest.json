@@ -26226,7 +26226,7 @@
       "id": "5f8b4d3b3711a830",
       "ghlOpportunityId": "gWcbqaegPUbXHdFjZdrS",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-10T15:58:30.099Z",
@@ -26249,7 +26249,8 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 499
+      "ghlValue": 499,
+      "arrivedByComplete": false
     },
     {
       "id": "472737feec04728a",
@@ -34138,8 +34139,8 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 150,
-      "priceSource": "manual",
+      "basePrice": 300,
+      "priceSource": "title",
       "priceMismatchDismissed": false,
       "titlePrice": 300,
       "titleDeposit": 75,
@@ -34155,7 +34156,7 @@
           "timestamp": "2026-10-26T14:27:15.140Z"
         }
       ],
-      "priceLocked": true,
+      "priceLocked": false,
       "paidCard": true,
       "paymentMethod": "card"
     },
@@ -35047,8 +35048,8 @@
       "ghlOpportunityId": "FLkoEvP1lbMTX93PikZk",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-24T17:09:39.420Z",
       "closedAtSource": "tracker",
       "date": "2026-10-26T15:00:00.000Z",
@@ -35071,7 +35072,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 220,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "a66a5ab84f9ecf53",
@@ -35652,8 +35655,8 @@
       "ghlOpportunityId": "c5FOyTT1mevBZxwglYGZ",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-26T13:28:24.337Z",
       "closedAtSource": "tracker",
       "date": "2026-10-26T15:00:00.000Z",
@@ -35675,7 +35678,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 299,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "d51dd9a4a72e7952",
@@ -48753,6 +48758,26 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "ec319e298d86d9f1",
+      "timestamp": "2026-10-26T16:39:41.123Z",
+      "actor": "Naomi (manager)",
+      "saleId": "d5271f6abce55172",
+      "car": "DG 2025 Chevy Equaonix S+RTINT 299-SDAY",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 299
+    },
+    {
+      "id": "b9b29178fe4e7f8f",
+      "timestamp": "2026-10-26T16:21:11.236Z",
+      "actor": "Owner",
+      "saleId": "18bd7a7bce29f19b",
+      "car": "DG 2020 Volkswgen Tiguan 2Front&WindsheildTINT 300-75depo",
+      "field": "Base price (from the title)",
+      "oldValue": 150,
+      "newValue": 300
+    },
+    {
       "id": "8d6aa90eade793d3",
       "timestamp": "2026-10-26T16:15:10.864Z",
       "actor": "Naomi (manager)",
@@ -58524,6 +58549,34 @@
     }
   ],
   "cashEntries": [
+    {
+      "id": "086ac29001378d16",
+      "type": "cashIn",
+      "amount": 299,
+      "category": "Customer Payment",
+      "note": "DG 2025 Chevy Equaonix S+RTINT 299-SDAY — Jeff Parker",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "d5271f6abce55172",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-10-26T16:39:41.122Z"
+    },
+    {
+      "id": "f95b0f58992ac415",
+      "type": "cardExpense",
+      "amount": 6.25,
+      "category": "Other",
+      "note": "Baby soap",
+      "isOnline": false,
+      "receiptPhoto": "undefined-undefined-undefined-f9e5fd85d5fd90a4.jpg",
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-10-26T16:33:12.619Z"
+    },
     {
       "id": "92b40029b84a817a",
       "type": "cashIn",
