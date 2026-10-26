@@ -25234,9 +25234,9 @@
       "id": "f40811fff223f6f8",
       "ghlOpportunityId": "kfzjQE71lNabR7ZMtke1",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-09T04:52:09.042Z",
       "date": "2026-10-26T20:00:00.000Z",
       "customerName": "Luke Koenig",
@@ -25257,7 +25257,10 @@
       "syncedFromGHL": true,
       "ghlValue": 399,
       "isOnlineBooking": true,
-      "isWalkIn": false
+      "isWalkIn": false,
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "e33c587359ae3aba",
@@ -34225,7 +34228,7 @@
       "id": "5c5a1248e79705bd",
       "ghlOpportunityId": "T7l7MhtFPzLy8RpW0Pvh",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-22T21:28:37.731Z",
@@ -34249,7 +34252,8 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 279
+      "ghlValue": 279,
+      "arrivedByComplete": false
     },
     {
       "id": "33c5be2c5e1c7ac0",
@@ -34399,7 +34403,7 @@
       "titleDeposit": 150,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 580
+      "ghlValue": 625
     },
     {
       "id": "35377be6ecad7cb3",
@@ -35966,7 +35970,7 @@
       "customerPhone": "(856) 651-9674",
       "customerEmail": "",
       "contactId": "gkVlk2QgBQhCRb0fN6Co",
-      "car": "DG 2020 Audi RS3 S+RTINT 360-75depo ",
+      "car": "DG 2020 Audi RS3 S+RTINT 360-75depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -36053,6 +36057,121 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-26T21:11:00.286Z",
+      "endpoint": "sync",
+      "matchedSaleId": "d175e56fc77d4514",
+      "before": {
+        "basePrice": 625,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 625,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2022 Tesla Model 3",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "WRHQvKpZ6EzjlwxcY3t1",
+        "first_name": "PJ",
+        "last_name": "Kelley",
+        "full_name": "PJ Kelley",
+        "email": "pjameskelley@yahoo.com",
+        "phone": "+17326734417",
+        "tags": "tint,hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "date_created": "2026-10-23T11:37:47.177Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "PJ Kelley",
+        "status": "won",
+        "lead_value": 625,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "lOJCn2TH6tLJdQpmUVCw",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ testing",
+            "utm_campaign": "window tint camp NJ testing",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "rn u can get the sides and rear done 299",
+            "adSetId": "120254638050770011",
+            "adId": "120257100823720011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ testing",
+            "utm_campaign": "window tint camp NJ testing",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "rn u can get the sides and rear done 299",
+            "adSetId": "120254638050770011",
+            "adId": "120257100823720011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "625",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "WRHQvKpZ6EzjlwxcY3t1"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-26T20:11:28.634Z",
       "endpoint": "sync",
@@ -44232,115 +44351,6 @@
           "contactId": "lBaUt2y4uTErnFyticjt"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-25T18:45:01.895Z",
-      "endpoint": "sync",
-      "matchedSaleId": "b1fe1270f00a5d30",
-      "before": {
-        "basePrice": 349,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 349,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2022 Dodge Durango SRT",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "grkLXKsUg4JzZznkrl5y",
-        "first_name": "Cam",
-        "last_name": "✂️ em",
-        "full_name": "Cam ✂️ em",
-        "email": "clmhero97@gmail.com",
-        "phone": "+12152512554",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-10-22T14:03:01.721Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Cam ✂️ Em | ",
-        "status": "won",
-        "lead_value": 319,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "rq9D2PnagUetxQVSuSTP",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "would you believe you can premium ceramic tint for 299?",
-            "adSetId": "120254638050770011",
-            "adId": "120257207976630011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "1907192183777611",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "1907192183777611"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "319",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "grkLXKsUg4JzZznkrl5y"
-        }
-      }
     }
   ],
   "attendance": [
@@ -47834,6 +47844,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "5329c7b1c23617c9",
+      "timestamp": "2026-10-26T20:17:06.847Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "68f6286e7a6b3669",
+      "car": "DG 2020 Audi RS3 S+RTINT 360-75depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2020 Audi RS3 S+RTINT 360-75depo ",
+      "newValue": "DG 2020 Audi RS3 S+RTINT 360-75depo"
+    },
     {
       "id": "14f8b80a3d4d541a",
       "timestamp": "2026-10-26T19:24:32.930Z",
