@@ -2212,7 +2212,7 @@
       "id": "a3835e9278f8d0e9",
       "ghlOpportunityId": "ciCqIcqM8tKB4DAs79jI",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-08-14T18:42:37.839Z",
@@ -2234,7 +2234,9 @@
       "priceMismatchDismissed": false,
       "titlePrice": 200,
       "titleDeposit": 50,
-      "priceSource": "title"
+      "priceSource": "title",
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-10-27T18:08:57.884Z"
     },
     {
       "id": "76a00663640f4e43",
@@ -33760,7 +33762,15 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 1184,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "1cd1869e12597684",
+          "text": "Aaron and Angie",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-27T17:32:35.095Z"
+        }
+      ]
     },
     {
       "id": "33607dda76156c2a",
@@ -35470,8 +35480,8 @@
       "ghlOpportunityId": "WoTIImrRPiz4xFmGP6ca",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-24T19:09:42.119Z",
       "closedAtSource": "tracker",
       "date": "2026-10-27T15:00:00.000Z",
@@ -35480,8 +35490,11 @@
       "customerEmail": "",
       "contactId": "WoTIImrRPiz4xFmGP6ca",
       "car": "NA 2019 Tesla Series 3 All Around  $498 -$50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "1050c9240f87fa5f",
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Isseyah, Edward",
       "salesRepId": null,
       "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Window Tint",
@@ -35493,11 +35506,11 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "priceLocked": true,
-      "isWalkIn": true,
+      "isWalkIn": false,
       "isOnlineBooking": false,
-      "walkInClosedByType": "manager",
-      "walkInClosedById": "791dee90ad560e70",
-      "walkInClosedByName": "Naomi",
+      "walkInClosedByType": null,
+      "walkInClosedById": null,
+      "walkInClosedByName": null,
       "arrivedByComplete": false,
       "notes": [
         {
@@ -35506,7 +35519,9 @@
           "authorName": "Aaron",
           "timestamp": "2026-10-27T16:09:49.844Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "10cce217090dbee4",
@@ -35829,7 +35844,7 @@
       "ghlOpportunityId": "DxVq9FLbpGEcKD8o2Cjw",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-10-25T21:36:01.107Z",
       "closedAtSource": "tracker",
@@ -36183,7 +36198,7 @@
       "ghlOpportunityId": "gkVlk2QgBQhCRb0fN6Co",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-10-26T20:11:12.054Z",
       "closedAtSource": "tracker",
@@ -36193,8 +36208,11 @@
       "customerEmail": "",
       "contactId": "gkVlk2QgBQhCRb0fN6Co",
       "car": "DG 2020 Audi RS3 S+RTINT 360-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "ed55d50b916a979a",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Aaron, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -36258,7 +36276,7 @@
       "ghlOpportunityId": "iUgv2F2GRwROiQ5Pv5Ao",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-10-26T21:47:02.581Z",
       "closedAtSource": "tracker",
@@ -36268,8 +36286,11 @@
       "customerEmail": "",
       "contactId": "iUgv2F2GRwROiQ5Pv5Ao",
       "car": "DG 2021 Ford Bronco AllAroundNANOTint 575-575FullPayment",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "ed55d50b916a979a"
+      ],
+      "employeeNames": "Angelica, Aaron",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -36382,8 +36403,8 @@
       "id": "350ec67419afa532",
       "ghlOpportunityId": "f6PbRgV8MZkDJhoIbKxq",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
+      "status": "arrived",
+      "completed": true,
       "paid": false,
       "closedAt": "2026-10-27T00:16:30.114Z",
       "closedAtSource": "tracker",
@@ -36392,21 +36413,33 @@
       "customerPhone": "(856) 371-7716",
       "customerEmail": "",
       "contactId": "f6PbRgV8MZkDJhoIbKxq",
-      "car": "DG 2026 Chevy Colarado S+RTINT 250-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "car": "DG 2026 Chevy Colarado 2Fronts  150-75depo",
+      "employeeIds": [
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 250,
+      "basePrice": 150,
       "priceSource": "title",
       "priceMismatchDismissed": false,
-      "titlePrice": 250,
+      "titlePrice": 150,
       "titleDeposit": 75,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 250
+      "ghlValue": 250,
+      "notes": [
+        {
+          "id": "d0c17478ab159376",
+          "text": "Angie",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-27T17:34:29.879Z"
+        }
+      ],
+      "titleLocked": true,
+      "arrivedByComplete": false
     },
     {
       "id": "10c435d2cd0eeaf0",
@@ -36731,7 +36764,7 @@
       "customerPhone": "(609) 221-0741",
       "customerEmail": "",
       "contactId": "REOnnnwov40BiUlZbsMV",
-      "car": "Gio Redo 2020 Toyota 4Runner CeramicCoating + wheels + roof  ",
+      "car": "Gio Redo 2020 Toyota 4Runner CeramicCoating + wheels + roof",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
@@ -36747,6 +36780,64 @@
       "syncedFromGHL": true,
       "ghlValue": 760,
       "isWalkIn": true
+    },
+    {
+      "id": "40e922d467bf1afe",
+      "ghlOpportunityId": "OFbkc3zTsSBv7ZV6Dpmt",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-27T18:08:27.383Z",
+      "closedAtSource": "tracker",
+      "date": "2026-10-30T19:00:00.000Z",
+      "customerName": "Dominique Becoate",
+      "customerPhone": "(267) 235-1223",
+      "customerEmail": "",
+      "contactId": "OFbkc3zTsSBv7ZV6Dpmt",
+      "car": "NA 2023 ford bronco wide track S+ RTINT $299 ",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Ceramic Coating",
+      "basePrice": 299,
+      "priceSource": "title",
+      "priceMismatchDismissed": false,
+      "titlePrice": 299,
+      "titleDeposit": 0,
+      "calendarId": null,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "ee7f66aa3df34ca8",
+      "ghlOpportunityId": "uUQyl9itn6yNdVijJ97F",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-27T18:17:03.876Z",
+      "closedAtSource": "tracker",
+      "date": "2026-10-28T13:00:00.000Z",
+      "customerName": "KEVIN ABBEY",
+      "customerPhone": "(609) 227-3096",
+      "customerEmail": "",
+      "contactId": "uUQyl9itn6yNdVijJ97F",
+      "car": "DG 2022 Chevy Tahoe S+RTINT 340-75depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 340,
+      "priceSource": "title",
+      "priceMismatchDismissed": false,
+      "titlePrice": 340,
+      "titleDeposit": 75,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "ghlValue": 340
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -36819,6 +36910,76 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-27T18:17:22.277Z",
+      "endpoint": "sync",
+      "matchedSaleId": "ee7f66aa3df34ca8",
+      "before": {
+        "basePrice": 340,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 340,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "uUQyl9itn6yNdVijJ97F",
+        "first_name": "KEVIN",
+        "last_name": "ABBEY",
+        "full_name": "KEVIN ABBEY",
+        "phone": "+16092273096",
+        "tags": "name via lookup,hp fresh,hp sbn auto styling nj",
+        "city": "BORDENTOWN",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-10-27T18:01:14.388Z",
+        "postal_code": "08505",
+        "full_address": "BORDENTOWN NJ 08505",
+        "contact_type": "lead",
+        "opportunity_name": "KEVIN ABBEY | ",
+        "status": "won",
+        "lead_value": 340,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "3Cmkzm2bYIZFyiBgplmS",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "340",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "uUQyl9itn6yNdVijJ97F"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-27T17:11:56.500Z",
       "endpoint": "sync",
@@ -45090,108 +45251,6 @@
           "contactId": "XdoRCUHMf5ES0IlnFM5X"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-26T22:07:17.358Z",
-      "endpoint": "sync",
-      "matchedSaleId": "6760c352b32e8672",
-      "before": {
-        "basePrice": 440,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 440,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2019 Toyota tundra",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "XdoRCUHMf5ES0IlnFM5X",
-        "first_name": "Kelly",
-        "last_name": "Biglin",
-        "full_name": "Kelly Biglin",
-        "email": "kb1926745@gmail.com",
-        "phone": "+16092211272",
-        "tags": "tint,coating,hp sbn auto styling nj,hp aged",
-        "country": "US",
-        "date_created": "2026-08-05T14:43:52.557Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Kelly Biglin | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "cXhbsQ4CMY8r28vZLTE9",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "ad 1 299",
-            "adSetId": "120254638050770011",
-            "adId": "120254652145930011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "1056975303471857",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "1056975303471857"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "",
-          "contactId": "XdoRCUHMf5ES0IlnFM5X"
-        }
-      }
     }
   ],
   "attendance": [
@@ -48766,6 +48825,36 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "4d153c60dd4fddb5",
+      "timestamp": "2026-10-27T18:10:26.795Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "350ec67419afa532",
+      "car": "DG 2026 Chevy Colarado 2Fronts  150-75depo",
+      "field": "Base price",
+      "oldValue": 250,
+      "newValue": 150
+    },
+    {
+      "id": "8a7021f427f77d42",
+      "timestamp": "2026-10-27T18:10:26.794Z",
+      "actor": "Naomi (manager)",
+      "saleId": "350ec67419afa532",
+      "car": "DG 2026 Chevy Colarado S+RTINT 250-75depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2026 Chevy Colarado S+RTINT 250-75depo",
+      "newValue": "DG 2026 Chevy Colarado 2Fronts  150-75depo"
+    },
+    {
+      "id": "c09b049ac4addf94",
+      "timestamp": "2026-10-27T17:18:59.608Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "cde155871b0ee892",
+      "car": "Gio Redo 2020 Toyota 4Runner CeramicCoating + wheels + roof",
+      "field": "Car/Title",
+      "oldValue": "Gio Redo 2020 Toyota 4Runner CeramicCoating + wheels + roof  ",
+      "newValue": "Gio Redo 2020 Toyota 4Runner CeramicCoating + wheels + roof"
+    },
     {
       "id": "ea7af4fa9598c3c9",
       "timestamp": "2026-10-27T17:11:56.500Z",
@@ -58735,36 +58824,6 @@
       "field": "Sales rep",
       "oldValue": "Unassigned",
       "newValue": "Dmitriy Gumenyuk"
-    },
-    {
-      "id": "9bf485d519eeb3d6",
-      "timestamp": "2026-09-03T20:49:04.614Z",
-      "actor": "Owner",
-      "saleId": "bd657755b91e38b7",
-      "car": "DG 2019 Mini Cooper S+RTINT 299-50depo",
-      "field": "Sales rep",
-      "oldValue": "Unassigned",
-      "newValue": "Dmitriy Gumenyuk"
-    },
-    {
-      "id": "4497c5a829fc8d62",
-      "timestamp": "2026-09-03T20:49:04.614Z",
-      "actor": "Owner",
-      "saleId": "21cdd277ce89945b",
-      "car": "DG 2023 Ford Bronco S+RTINT 359-50depo",
-      "field": "Sales rep",
-      "oldValue": "Unassigned",
-      "newValue": "Dmitriy Gumenyuk"
-    },
-    {
-      "id": "b2c9534ad235cbf9",
-      "timestamp": "2026-09-03T20:49:04.614Z",
-      "actor": "Owner",
-      "saleId": "1adc01ca5038e1dd",
-      "car": "DG 2016 Ford Fusion S+RTINT&Sunstrip 399-50depo",
-      "field": "Sales rep",
-      "oldValue": "Unassigned",
-      "newValue": "Dmitriy Gumenyuk"
     }
   ],
   "cashEntries": [
@@ -63100,6 +63159,22 @@
     "fallbackPhone": "+12679122701"
   },
   "textLog": [
+    {
+      "id": "01ba8cdad3b1ac12",
+      "at": "2026-10-27T18:08:57.885Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "a3835e9278f8d0e9",
+      "customerName": "Jamarდ",
+      "car": "2017 Mitsubishi Lancer FrontwindshieldTint",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Jamarდ, 2017 Mitsubishi Lancer FrontwindshieldTint, was due 1:00 PM today. Call (609) 824-2072.",
+      "status": "sent",
+      "nextAt": 1793124557885,
+      "sentAt": "2026-10-27T18:09:18.838Z",
+      "reason": ""
+    },
     {
       "id": "360a7d1aee2b8c89",
       "at": "2026-10-27T14:53:14.837Z",
