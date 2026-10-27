@@ -31185,7 +31185,7 @@
       "id": "254e29f49326e6b4",
       "ghlOpportunityId": "tF4VMk791bZMpYbOz5WV",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-18T23:01:18.292Z",
@@ -31209,7 +31209,9 @@
       "titleDeposit": 75,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 299
+      "ghlValue": 299,
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-10-27T20:26:32.038Z"
     },
     {
       "id": "67f13dbf7e9dab52",
@@ -36333,7 +36335,7 @@
       "id": "4a71bb6aef682e09",
       "ghlOpportunityId": "hodXZ14bUPKuUSHEEJ6k",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-26T21:57:33.053Z",
@@ -36356,7 +36358,9 @@
       "titleDeposit": null,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 299
+      "ghlValue": 299,
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-10-27T20:26:36.921Z"
     },
     {
       "id": "6760c352b32e8672",
@@ -36610,7 +36614,7 @@
       "id": "b1091a3b0abcf44f",
       "ghlOpportunityId": "I01iPWy46P6EXQ5wpPFA",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-27T14:48:53.526Z",
@@ -36634,7 +36638,8 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 350
+      "ghlValue": 350,
+      "arrivedByComplete": false
     },
     {
       "id": "b4f836d9d03e6c98",
@@ -58890,6 +58895,19 @@
   ],
   "cashEntries": [
     {
+      "id": "25c20a0f97636cd1",
+      "type": "bankDeposit",
+      "amount": 920,
+      "category": "Other",
+      "note": "",
+      "isOnline": false,
+      "receiptPhoto": "undefined-undefined-undefined-db7c9f8cf2deaf91.jpg",
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-10-27T20:25:16.572Z"
+    },
+    {
       "id": "773242e89a668593",
       "type": "cashIn",
       "amount": 250,
@@ -63251,6 +63269,38 @@
     "fallbackPhone": "+12679122701"
   },
   "textLog": [
+    {
+      "id": "2ac7ed7f788ea180",
+      "at": "2026-10-27T20:26:36.922Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "4a71bb6aef682e09",
+      "customerName": "Austin Ahart",
+      "car": "2011 Audi A4 S+RTINT 299-SDay",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Austin Ahart, 2011 Audi A4 S+RTINT 299-SDay, was due 4:00 PM today. Call (856) 357-7024.",
+      "status": "sent",
+      "nextAt": 1793132816922,
+      "sentAt": "2026-10-27T20:26:57.734Z",
+      "reason": ""
+    },
+    {
+      "id": "9df0d59516620bb6",
+      "at": "2026-10-27T20:26:32.039Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "254e29f49326e6b4",
+      "customerName": "Chris",
+      "car": "2021 Genesis G70 S+RTINT",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Chris, 2021 Genesis G70 S+RTINT, was due 4:00 PM today. Call (267) 957-6990.",
+      "status": "sent",
+      "nextAt": 1793132812038,
+      "sentAt": "2026-10-27T20:26:52.935Z",
+      "reason": ""
+    },
     {
       "id": "01ba8cdad3b1ac12",
       "at": "2026-10-27T18:08:57.885Z",
