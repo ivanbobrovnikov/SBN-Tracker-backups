@@ -29087,7 +29087,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-14T18:00:21.335Z",
       "closedAtSource": "tracker",
       "date": "2026-10-26T13:00:00.000Z",
@@ -29119,7 +29119,9 @@
       ],
       "managerHelperNames": "Gio",
       "titleLocked": true,
-      "priceLocked": true
+      "priceLocked": true,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "a86a378b361b1e90",
@@ -35845,7 +35847,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-25T21:36:01.107Z",
       "closedAtSource": "tracker",
       "date": "2026-10-27T17:00:00.000Z",
@@ -35868,7 +35870,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 275,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "d5271f6abce55172",
@@ -36405,7 +36409,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-27T00:16:30.114Z",
       "closedAtSource": "tracker",
       "date": "2026-10-27T20:00:00.000Z",
@@ -36439,7 +36443,9 @@
         }
       ],
       "titleLocked": true,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "10c435d2cd0eeaf0",
@@ -36783,7 +36789,7 @@
     },
     {
       "id": "40e922d467bf1afe",
-      "ghlOpportunityId": "OFbkc3zTsSBv7ZV6Dpmt",
+      "ghlOpportunityId": "OFbkc3zTsSBv7ZV6Dpmt~earlier-40e922d467bf1afe",
       "upsells": [],
       "status": "pending",
       "completed": false,
@@ -36795,11 +36801,11 @@
       "customerPhone": "(267) 235-1223",
       "customerEmail": "",
       "contactId": "OFbkc3zTsSBv7ZV6Dpmt",
-      "car": "NA 2023 ford bronco wide track S+ RTINT $299 ",
+      "car": "NA 2023 ford bronco wide track S+ RTINT $299",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (needs closer assigned)",
       "baseService": "Ceramic Coating",
       "basePrice": 299,
       "priceSource": "title",
@@ -36807,7 +36813,9 @@
       "titlePrice": 299,
       "titleDeposit": 0,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "ghlValue": 299,
+      "isWalkIn": true
     },
     {
       "id": "ee7f66aa3df34ca8",
@@ -36838,6 +36846,34 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 340
+    },
+    {
+      "id": "596102499fb87d21",
+      "ghlOpportunityId": "OFbkc3zTsSBv7ZV6Dpmt",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-27T19:17:07.905Z",
+      "closedAtSource": "tracker",
+      "date": "2026-10-28T07:00:00.000Z",
+      "customerName": "Dominique Becoate",
+      "customerPhone": "(267) 235-1223",
+      "customerEmail": "",
+      "contactId": "OFbkc3zTsSBv7ZV6Dpmt",
+      "car": "NA 2023 Bronco Nano $399",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Window Tint",
+      "basePrice": 399,
+      "priceSource": "title",
+      "priceMismatchDismissed": false,
+      "titlePrice": 399,
+      "titleDeposit": 0,
+      "calendarId": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -36910,6 +36946,66 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-27T19:17:07.345Z",
+      "endpoint": "sync",
+      "matchedSaleId": "40e922d467bf1afe",
+      "before": {
+        "basePrice": 299,
+        "salesRepName": "Unassigned"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Walk-in (needs closer assigned)"
+      },
+      "body": {
+        "contact_id": "OFbkc3zTsSBv7ZV6Dpmt",
+        "first_name": "Dominique",
+        "last_name": "Becoate",
+        "full_name": "Dominique Becoate",
+        "phone": "+12672351223",
+        "tags": "hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-10-27T17:55:29.465Z",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Dominique Becoate | ",
+        "status": "won",
+        "lead_value": 299,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "HPC6TbFlYHVcRy9eZzp0",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "OFbkc3zTsSBv7ZV6Dpmt"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-27T18:17:22.277Z",
       "endpoint": "sync",
@@ -45142,115 +45238,6 @@
           "contactId": "WRHQvKpZ6EzjlwxcY3t1"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-26T22:08:22.783Z",
-      "endpoint": "sync",
-      "matchedSaleId": "6760c352b32e8672",
-      "before": {
-        "basePrice": 440,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 440,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2019 Toyota tundra",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "XdoRCUHMf5ES0IlnFM5X",
-        "first_name": "Kelly",
-        "last_name": "Biglin",
-        "full_name": "Kelly Biglin",
-        "email": "kb1926745@gmail.com",
-        "phone": "+16092211272",
-        "tags": "tint,coating,hp sbn auto styling nj,hp aged",
-        "country": "US",
-        "date_created": "2026-08-05T14:43:52.557Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Kelly Biglin | ",
-        "status": "won",
-        "lead_value": 440,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "cXhbsQ4CMY8r28vZLTE9",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ",
-            "utm_campaign": "window tint camp NJ",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "ad 1 299",
-            "adSetId": "120254638050770011",
-            "adId": "120254652145930011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "1056975303471857",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "1056975303471857"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "440",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "XdoRCUHMf5ES0IlnFM5X"
-        }
-      }
     }
   ],
   "attendance": [
@@ -48825,6 +48812,36 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "7c7ba7c0f8ccf164",
+      "timestamp": "2026-10-27T19:17:07.904Z",
+      "actor": "Auto-split (new appointment)",
+      "saleId": "40e922d467bf1afe",
+      "car": "NA 2023 ford bronco wide track S+ RTINT $299",
+      "field": "GHL Opportunity ID",
+      "oldValue": "OFbkc3zTsSBv7ZV6Dpmt",
+      "newValue": "OFbkc3zTsSBv7ZV6Dpmt~earlier-40e922d467bf1afe"
+    },
+    {
+      "id": "4bd253a38a67eca4",
+      "timestamp": "2026-10-27T18:46:40.431Z",
+      "actor": "Naomi (manager)",
+      "saleId": "5b2465a2fde872e6",
+      "car": "DG 2020 Toyota 4Runner CeramicCoating $499 -95depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 404
+    },
+    {
+      "id": "afd941d7d9bf296d",
+      "timestamp": "2026-10-27T18:19:04.554Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "40e922d467bf1afe",
+      "car": "NA 2023 ford bronco wide track S+ RTINT $299",
+      "field": "Car/Title",
+      "oldValue": "NA 2023 ford bronco wide track S+ RTINT $299 ",
+      "newValue": "NA 2023 ford bronco wide track S+ RTINT $299"
+    },
     {
       "id": "4d153c60dd4fddb5",
       "timestamp": "2026-10-27T18:10:26.795Z",
@@ -58794,39 +58811,24 @@
       "field": "Sales rep",
       "oldValue": "Unassigned",
       "newValue": "Timothy Gumenyuk"
-    },
-    {
-      "id": "599b027e6fd3a7b4",
-      "timestamp": "2026-09-03T20:49:04.614Z",
-      "actor": "Owner",
-      "saleId": "ca1626b486d3c562",
-      "car": "DG 2022 Jeep Overland S+RTINT 590-50depo",
-      "field": "Sales rep",
-      "oldValue": "Unassigned",
-      "newValue": "Dmitriy Gumenyuk"
-    },
-    {
-      "id": "d67ae035969e7db7",
-      "timestamp": "2026-09-03T20:49:04.614Z",
-      "actor": "Owner",
-      "saleId": "feef6c79c128d573",
-      "car": "DG 2027 Honda HRV S+RTINT 299-50depo",
-      "field": "Sales rep",
-      "oldValue": "Unassigned",
-      "newValue": "Dmitriy Gumenyuk"
-    },
-    {
-      "id": "ddbd334bbc24fc59",
-      "timestamp": "2026-09-03T20:49:04.614Z",
-      "actor": "Owner",
-      "saleId": "81d87bdb1f7875a4",
-      "car": "DG 2014 Benz E350 S+RTINT 299",
-      "field": "Sales rep",
-      "oldValue": "Unassigned",
-      "newValue": "Dmitriy Gumenyuk"
     }
   ],
   "cashEntries": [
+    {
+      "id": "c15b42f07433aa5d",
+      "type": "cashIn",
+      "amount": 404,
+      "category": "Customer Payment",
+      "note": "DG 2020 Toyota 4Runner CeramicCoating $499 -95depo — George Lawrence",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "5b2465a2fde872e6",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-10-27T18:46:40.431Z"
+    },
     {
       "id": "a6db75527380bd23",
       "type": "cashIn",
