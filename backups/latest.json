@@ -29842,7 +29842,7 @@
       "paid": false,
       "closedAt": "2026-10-16T13:53:35.487Z",
       "closedAtSource": "tracker",
-      "date": "2026-10-30T13:00:00.000Z",
+      "date": "2026-11-13T14:00:00.000Z",
       "customerName": "Santina Norman",
       "customerPhone": "(856) 553-2075",
       "customerEmail": "",
@@ -32450,7 +32450,7 @@
       "customerPhone": "(609) 424-7321",
       "customerEmail": "",
       "contactId": "p2jT5zcw0jlE38bqjHBX",
-      "car": "DG 2022 Cadillac CTV CeramicCoating&Frontwindsheild 550-150depo",
+      "car": "NA 2023 Mazda CX-5 Ceramic Coating & FrontWIndshield 550-150depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -33614,9 +33614,9 @@
           "salesRepId": null
         }
       ],
-      "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "status": "no_show",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-21T20:05:58.115Z",
       "closedAtSource": "tracker",
       "date": "2026-10-26T13:00:00.000Z",
@@ -33625,8 +33625,11 @@
       "customerEmail": "",
       "contactId": "7Dq77YNyWp7wHrEs6qsy",
       "car": "MR 2022 Mercedes GLS - Ceramic Coating - $499 - $95 depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "7bcc22db24b2124f"
+      ],
+      "employeeNames": "Nick, Paul",
       "salesRepId": "2f9e6dafbac5febf",
       "salesRepName": "Matthew Rutledge",
       "isWalkIn": false,
@@ -33638,7 +33641,13 @@
       "titleDeposit": 95,
       "calendarId": null,
       "syncedFromGHL": true,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio"
     },
     {
       "id": "7b9657bda1959f5c",
@@ -36898,7 +36907,7 @@
       "id": "ee7f66aa3df34ca8",
       "ghlOpportunityId": "uUQyl9itn6yNdVijJ97F",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-27T18:17:03.876Z",
@@ -36922,7 +36931,8 @@
       "titleDeposit": 75,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 340
+      "ghlValue": 340,
+      "arrivedByComplete": false
     },
     {
       "id": "596102499fb87d21",
@@ -37379,6 +37389,114 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-28T13:20:43.289Z",
+      "endpoint": "sync",
+      "matchedSaleId": "cda142ec00686a2a",
+      "before": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "Honda civic",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "zrvsZHnnMWqdxIY8dCqA",
+        "first_name": "Santina",
+        "last_name": "norman",
+        "full_name": "Santina norman",
+        "email": "santinanorman1@gmail.com",
+        "phone": "+18565532075",
+        "tags": "tint,hp sbn auto styling nj,hp appointment booked with dimitriy",
+        "country": "US",
+        "date_created": "2026-10-16T06:11:36.189Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Santina Norman | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "pvl3AwmKQ8TrbxgmUSlh",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ testing",
+            "utm_campaign": "window tint camp NJ testing",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "tint ad 1 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256155075150011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ testing",
+            "utm_campaign": "window tint camp NJ testing",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "tint ad 1 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256155075150011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "zrvsZHnnMWqdxIY8dCqA"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-27T23:33:24.093Z",
       "endpoint": "sync",
@@ -46485,115 +46603,6 @@
           "contactId": "CpeEwFFQkMcbwXf4zpc7"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-27T14:49:23.008Z",
-      "endpoint": "sync",
-      "matchedSaleId": "b1091a3b0abcf44f",
-      "before": {
-        "basePrice": 350,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 350,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2026 Toyota Tacoma",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "I01iPWy46P6EXQ5wpPFA",
-        "first_name": "Charles",
-        "last_name": "Miller",
-        "full_name": "Charles Miller",
-        "email": "cmiller104@yahoo.com",
-        "phone": "+16098052291",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-10-13T02:12:00.279Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Charles Miller | ",
-        "status": "won",
-        "lead_value": 350,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "4SQcILRUdt5zMLv9Kvam",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "msot tint shops need ur car all day, we need less then a hour",
-            "adSetId": "120254638050770011",
-            "adId": "120257058378180011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "facebook",
-            "mediumId": "26846601228370827",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "pSid": "26846601228370827"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "350",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "I01iPWy46P6EXQ5wpPFA"
-        }
-      }
     }
   ],
   "attendance": [
@@ -50168,6 +50177,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "702250f74b7e628b",
+      "timestamp": "2026-10-28T13:13:13.449Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "12d31519479e89d2",
+      "car": "NA 2023 Mazda CX-5 Ceramic Coating & FrontWIndshield 550-150depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2022 Cadillac CTV CeramicCoating&Frontwindsheild 550-150depo",
+      "newValue": "NA 2023 Mazda CX-5 Ceramic Coating & FrontWIndshield 550-150depo"
+    },
     {
       "id": "9e335d010d5e934d",
       "timestamp": "2026-10-27T22:43:46.027Z",
@@ -60157,16 +60176,6 @@
       "field": "Service",
       "oldValue": "",
       "newValue": "Window Tint"
-    },
-    {
-      "id": "c823276e1cb07ad9",
-      "timestamp": "2026-09-03T20:50:23.675Z",
-      "actor": "Owner",
-      "saleId": "d2ada8f4c7016f88",
-      "car": "TG (Gilberts gf=Natalie) jeep wrangler 2019 front windshield 175$ -depo, -50$ ",
-      "field": "Base price",
-      "oldValue": 299,
-      "newValue": 175
     }
   ],
   "cashEntries": [
@@ -65562,7 +65571,9 @@
         "adjustments": 0,
         "total": 6530.73
       },
-      "carried": {}
+      "carried": {
+        "manager:791dee90ad560e70": 108
+      }
     }
   ],
   "payrollAdjustments": [
@@ -65576,6 +65587,19 @@
       "source": "carried",
       "fromRunId": "abbc5c7030f020ec",
       "createdAt": "2026-10-27T14:31:25.246Z",
+      "createdBy": "Owner",
+      "appliedRunId": null
+    },
+    {
+      "id": "41d644f39af6e4b4",
+      "personType": "manager",
+      "personId": "791dee90ad560e70",
+      "personName": "Naomi",
+      "amount": 108,
+      "note": "Change since Oct 8 - Oct 12 payroll was run",
+      "source": "carried",
+      "fromRunId": "cb3321cd266957ca",
+      "createdAt": "2026-10-28T13:28:32.399Z",
       "createdBy": "Owner",
       "appliedRunId": null
     }
