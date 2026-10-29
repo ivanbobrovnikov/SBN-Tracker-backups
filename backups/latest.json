@@ -16373,16 +16373,16 @@
       "id": "db0d33fc5e93de31",
       "ghlOpportunityId": "xx0NeqeThmJFxQd9rt0b",
       "upsells": [],
-      "status": "no_show",
+      "status": "pending",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-22T21:42:33.850Z",
-      "date": "2026-10-16T19:00:00.000Z",
+      "date": "2026-10-30T20:00:00.000Z",
       "customerName": "Rav_jay🐦‍⬛ Pee",
       "customerPhone": "(856) 443-3558",
       "customerEmail": "",
       "contactId": "xx0NeqeThmJFxQd9rt0b",
-      "car": "DG 2013 BMW 3Series S+RTINT 299-25depo",
+      "car": "DG 2013 BMW 3Series S+RTINT 299-25depo paid 291.50",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -16686,7 +16686,7 @@
       "id": "43236e239a0cee99",
       "ghlOpportunityId": "FJkqtE6SKKR1qsgWu0NG",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-23T09:34:04.523Z",
@@ -16706,7 +16706,9 @@
       "syncedFromGHL": true,
       "isWalkIn": true,
       "titlePrice": null,
-      "titleDeposit": null
+      "titleDeposit": null,
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-10-29T17:20:46.139Z"
     },
     {
       "id": "43eb1382345bbe88",
@@ -25238,7 +25240,7 @@
     },
     {
       "id": "f40811fff223f6f8",
-      "ghlOpportunityId": "kfzjQE71lNabR7ZMtke1",
+      "ghlOpportunityId": "kfzjQE71lNabR7ZMtke1~earlier-f40811fff223f6f8",
       "upsells": [],
       "status": "arrived",
       "completed": true,
@@ -26231,11 +26233,11 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "priceLocked": true,
-      "isWalkIn": false,
+      "isWalkIn": true,
       "isOnlineBooking": false,
-      "walkInClosedByType": null,
-      "walkInClosedById": null,
-      "walkInClosedByName": null,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi",
       "ghlValue": 299,
       "arrivedByComplete": false,
       "managerHelperIds": [
@@ -27682,7 +27684,7 @@
       "id": "965ea29520db1e10",
       "ghlOpportunityId": "qrxxaeqyUAMqAfyItT7i",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-13T12:56:05.009Z",
@@ -27706,7 +27708,9 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 319
+      "ghlValue": 319,
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-10-29T17:31:24.266Z"
     },
     {
       "id": "8324dea01e722b28",
@@ -33177,11 +33181,11 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "priceLocked": true,
-      "isWalkIn": false,
+      "isWalkIn": true,
       "isOnlineBooking": false,
-      "walkInClosedByType": null,
-      "walkInClosedById": null,
-      "walkInClosedByName": null,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "19d1389561891623",
+      "walkInClosedByName": "Gio",
       "arrivedByComplete": false,
       "paidCard": true,
       "paymentMethod": "card",
@@ -33931,7 +33935,7 @@
       "id": "3bed425ef8f43373",
       "ghlOpportunityId": "OhYiQXn1xYCuryTn7LVT",
       "upsells": [],
-      "status": "arrived",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-22T16:35:52.543Z",
@@ -33956,7 +33960,8 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 299,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-10-29T17:30:33.925Z"
     },
     {
       "id": "93d6db9a06aba118",
@@ -33988,7 +33993,15 @@
       "syncedFromGHL": true,
       "ghlValue": 300,
       "arrivedByComplete": false,
-      "missedTextAt": "2026-10-29T16:35:48.236Z"
+      "missedTextAt": "2026-10-29T16:35:48.236Z",
+      "notes": [
+        {
+          "id": "5224f42677734cae",
+          "text": "Needs to reschedule",
+          "authorName": "Naomi (manager)",
+          "timestamp": "2026-10-29T17:24:23.227Z"
+        }
+      ]
     },
     {
       "id": "264f59ca33e5e59d",
@@ -34433,7 +34446,7 @@
       "paid": false,
       "closedAt": "2026-10-22T20:57:39.881Z",
       "closedAtSource": "tracker",
-      "date": "2026-11-07T16:00:00.000Z",
+      "date": "2026-11-14T16:00:00.000Z",
       "customerName": "Philip",
       "customerPhone": "(610) 955-2864",
       "customerEmail": "",
@@ -34705,10 +34718,19 @@
     {
       "id": "35377be6ecad7cb3",
       "ghlOpportunityId": "QH8wqChhP1PeLS6hKcJb",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "4762841934537238",
+          "name": "Windshield",
+          "price": 195,
+          "employeeId": null,
+          "managerId": "791dee90ad560e70",
+          "salesRepId": null
+        }
+      ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-23T14:47:50.721Z",
       "closedAtSource": "tracker",
       "date": "2026-10-29T15:00:00.000Z",
@@ -34731,7 +34753,17 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 350,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "notes": [
+        {
+          "id": "7e60431ad5c67a91",
+          "text": "Feso & Eddie",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-29T17:58:41.230Z"
+        }
+      ]
     },
     {
       "id": "376c9ccfc6988835",
@@ -34855,7 +34887,7 @@
       "id": "8fde069d1377215b",
       "ghlOpportunityId": "r6O2FlkQNp0SJvCMz6pm",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-23T18:51:52.215Z",
@@ -34879,7 +34911,8 @@
       "titleDeposit": 150,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 599
+      "ghlValue": 599,
+      "arrivedByComplete": false
     },
     {
       "id": "c2bcd3b0c22a294f",
@@ -37114,7 +37147,7 @@
     },
     {
       "id": "40e922d467bf1afe",
-      "ghlOpportunityId": "OFbkc3zTsSBv7ZV6Dpmt~earlier-40e922d467bf1afe",
+      "ghlOpportunityId": "OFbkc3zTsSBv7ZV6Dpmt",
       "upsells": [],
       "status": "pending",
       "completed": false,
@@ -37131,7 +37164,7 @@
       "employeeNames": "Unassigned",
       "salesRepId": null,
       "salesRepName": "Walk-in (needs closer assigned)",
-      "baseService": "Ceramic Coating",
+      "baseService": "Window Tint",
       "basePrice": 299,
       "priceSource": "title",
       "priceMismatchDismissed": false,
@@ -37140,7 +37173,8 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 299,
-      "isWalkIn": true
+      "isWalkIn": true,
+      "notes": []
     },
     {
       "id": "ee7f66aa3df34ca8",
@@ -37272,7 +37306,7 @@
       "id": "7b678ab02dd4b45e",
       "ghlOpportunityId": "msYLXKuGlN825aNV33TH",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-27T19:26:29.813Z",
@@ -37296,11 +37330,12 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "priceLocked": true,
-      "isWalkIn": false,
+      "isWalkIn": true,
       "isOnlineBooking": false,
-      "walkInClosedByType": null,
-      "walkInClosedById": null,
-      "walkInClosedByName": null
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi",
+      "arrivedByComplete": false
     },
     {
       "id": "e3f0fee163b19a66",
@@ -37331,11 +37366,11 @@
       "syncedFromGHL": true,
       "arrivedByComplete": false,
       "priceLocked": true,
-      "isWalkIn": false,
+      "isWalkIn": true,
       "isOnlineBooking": false,
-      "walkInClosedByType": null,
-      "walkInClosedById": null,
-      "walkInClosedByName": null,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi",
       "paidCash": true,
       "paymentMethod": "cash"
     },
@@ -37458,36 +37493,6 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 699
-    },
-    {
-      "id": "4626a85011d30190",
-      "ghlOpportunityId": "OFbkc3zTsSBv7ZV6Dpmt",
-      "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
-      "closedAt": "2026-10-27T21:58:45.327Z",
-      "closedAtSource": "tracker",
-      "date": "2026-10-30T19:00:00.000Z",
-      "customerName": "Dominique Becoate",
-      "customerPhone": "(267) 235-1223",
-      "customerEmail": "",
-      "contactId": "OFbkc3zTsSBv7ZV6Dpmt",
-      "car": "NA 2023 ford bronco wide track S+ RTINT $299 ",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
-      "salesRepId": null,
-      "salesRepName": "Walk-in (needs closer assigned)",
-      "baseService": "Window Tint",
-      "basePrice": 299,
-      "priceSource": "title",
-      "priceMismatchDismissed": false,
-      "titlePrice": 299,
-      "titleDeposit": 0,
-      "calendarId": null,
-      "syncedFromGHL": true,
-      "ghlValue": 299,
-      "isWalkIn": true
     },
     {
       "id": "e17d042e7cb17093",
@@ -37767,8 +37772,8 @@
       "ghlOpportunityId": "uygHSG4RrVNSE1RhJbdN",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-28T16:13:55.263Z",
       "closedAtSource": "tracker",
       "date": "2026-10-29T13:00:00.000Z",
@@ -37777,8 +37782,12 @@
       "customerEmail": "",
       "contactId": "uygHSG4RrVNSE1RhJbdN",
       "car": "DG 2023 Honda Ridgeline S+RTINT 299-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "ed55d50b916a979a",
+        "f9d9bfc4e797e38b",
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Aaron, Feso, Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -37799,7 +37808,9 @@
           "authorName": "Aaron",
           "timestamp": "2026-10-29T14:46:34.725Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "f6d47593efd1b733",
@@ -37925,8 +37936,8 @@
       "id": "b1e4af4172ceaebc",
       "ghlOpportunityId": "wc1ZXO2RCAkiX6UKEv2c",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
+      "status": "arrived",
+      "completed": true,
       "paid": false,
       "closedAt": "2026-10-28T19:39:38.721Z",
       "closedAtSource": "tracker",
@@ -37949,7 +37960,8 @@
       "titleDeposit": 75,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 495
+      "ghlValue": 495,
+      "arrivedByComplete": false
     },
     {
       "id": "225c6310ee021bdd",
@@ -38029,14 +38041,20 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Ceramic Coating",
-      "basePrice": 0,
-      "priceSource": "ghl",
+      "basePrice": 624,
+      "priceSource": "manual",
       "titlePrice": null,
       "titleDeposit": null,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "priceLocked": true,
+      "isWalkIn": true,
+      "isOnlineBooking": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "19d1389561891623",
+      "walkInClosedByName": "Gio"
     },
     {
       "id": "e1378d8860925ffb",
@@ -38086,10 +38104,10 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Walk-in (needs closer assigned)",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Window Tint",
       "basePrice": 399,
-      "priceSource": "title",
+      "priceSource": "manual",
       "priceMismatchDismissed": false,
       "titlePrice": 399,
       "titleDeposit": 50,
@@ -38100,7 +38118,17 @@
       "arrivedByComplete": false,
       "walkInClosedByType": null,
       "walkInClosedById": null,
-      "walkInClosedByName": null
+      "walkInClosedByName": null,
+      "priceLocked": true,
+      "isOnlineBooking": false,
+      "notes": [
+        {
+          "id": "4ca7a0e3c063e5ac",
+          "text": "Feso",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-29T17:58:53.789Z"
+        }
+      ]
     },
     {
       "id": "83a40389e4d256f2",
@@ -38168,7 +38196,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-29T14:00:50.389Z",
       "closedAtSource": "tracker",
       "date": "2026-10-29T14:30:00.000Z",
@@ -38177,8 +38205,11 @@
       "customerEmail": "",
       "contactId": "pVGYzrrVarfnuXuhumRQ",
       "car": "DG 2023 Dodge Charger S+Rtint $299 -SDAY",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "ed55d50b916a979a",
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Aaron, Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -38192,7 +38223,9 @@
       "ghlValue": 460,
       "titleLocked": true,
       "priceLocked": true,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "71540fbf2197818f",
@@ -38294,7 +38327,15 @@
       "arrivedByComplete": false,
       "isRedo": false,
       "redoAuto": false,
-      "redoDismissed": true
+      "redoDismissed": true,
+      "notes": [
+        {
+          "id": "1392e227602a68eb",
+          "text": "Eddie & feso",
+          "authorName": "Aaron",
+          "timestamp": "2026-10-29T17:59:04.514Z"
+        }
+      ]
     },
     {
       "id": "81d00b9b65cf392d",
@@ -38449,7 +38490,7 @@
     },
     {
       "id": "eca0daeccc5c08cd",
-      "ghlOpportunityId": "AtUY2xxuNmjhEGES4Lqd~earlier-eca0daeccc5c08cd",
+      "ghlOpportunityId": "AtUY2xxuNmjhEGES4Lqd",
       "upsells": [],
       "status": "pending",
       "completed": false,
@@ -38466,7 +38507,7 @@
       "employeeNames": "Unassigned",
       "salesRepId": null,
       "salesRepName": "Walk-in (needs closer assigned)",
-      "baseService": "Ceramic Coating",
+      "baseService": "Window Tint",
       "basePrice": 1357,
       "priceSource": "title",
       "priceMismatchDismissed": false,
@@ -38475,36 +38516,66 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 299,
-      "isWalkIn": true
+      "isWalkIn": true,
+      "notes": []
     },
     {
-      "id": "37e87a194a4b0536",
-      "ghlOpportunityId": "AtUY2xxuNmjhEGES4Lqd",
+      "id": "c8ae75cf19f04deb",
+      "ghlOpportunityId": "4Fao8CxNVw81AUgP4MC7",
       "upsells": [],
       "status": "pending",
       "completed": false,
       "paid": false,
-      "closedAt": "2026-10-29T16:27:26.542Z",
+      "closedAt": "2026-10-29T17:43:43.010Z",
       "closedAtSource": "tracker",
-      "closedAtCheck": true,
-      "date": "2026-12-07T14:00:00.000Z",
-      "customerName": "Paul Robinson",
-      "customerPhone": "(609) 865-7192",
+      "date": "2026-11-16T13:00:00.000Z",
+      "customerName": "Trinity Silva",
+      "customerPhone": "(856) 226-1222",
       "customerEmail": "",
-      "contactId": "AtUY2xxuNmjhEGES4Lqd",
-      "car": "NA 2026 CADILAC CT5 BLACK WING CERAMIC COATING: RIMS,WINDOWS,TRIMS + TINT: ALL AROUND $1,357 - $145DEPO",
+      "contactId": "4Fao8CxNVw81AUgP4MC7",
+      "car": "Trinity Silva",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
       "salesRepName": "Unassigned",
       "baseService": "Window Tint",
-      "basePrice": 1357,
-      "priceSource": "title",
-      "priceMismatchDismissed": false,
-      "titlePrice": 1357,
-      "titleDeposit": 145,
+      "basePrice": 0,
+      "priceSource": "ghl",
+      "titlePrice": null,
+      "titleDeposit": null,
       "calendarId": null,
       "syncedFromGHL": true
+    },
+    {
+      "id": "d052f73c937f7844",
+      "ghlOpportunityId": "kfzjQE71lNabR7ZMtke1",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-29T17:52:44.559Z",
+      "closedAtSource": "tracker",
+      "date": "2026-10-30T20:00:00.000Z",
+      "customerName": "Luke Koenig",
+      "customerPhone": "(609) 690-0824",
+      "customerEmail": "",
+      "contactId": "kfzjQE71lNabR7ZMtke1",
+      "car": "DG 2022 Ram 1500 Redo 2 Front Windows 155PAID IN FULL",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 0,
+      "priceSource": "redo",
+      "titlePrice": null,
+      "titleDeposit": null,
+      "isRedo": true,
+      "redoAuto": true,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "ghlValue": 155
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -38577,6 +38648,232 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-29T17:53:08.167Z",
+      "endpoint": "sync",
+      "matchedSaleId": "d052f73c937f7844",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "kfzjQE71lNabR7ZMtke1",
+        "first_name": "Luke",
+        "last_name": "Koenig",
+        "full_name": "Luke Koenig",
+        "email": "lukekonig02@gmail.com",
+        "phone": "+16096900824",
+        "tags": "hp sbn auto styling nj,hp appointment booked with dimitriy",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-10-09T04:51:58.419Z",
+        "contact_source": "Window Tint Booking ",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Luke Koenig | ",
+        "status": "won",
+        "lead_value": 155,
+        "opportunity_source": "Window Tint Booking",
+        "source": "Window Tint Booking",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "KblUxpBFigal31pUuWfP",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Direct traffic",
+            "url": "https://api.leadconnectorhq.com/widget/booking/kd3E4bCR56IMR1GAZWQL",
+            "utmSource": null,
+            "utmMedium": null,
+            "utmContent": null,
+            "utmTerm": null,
+            "utmKeyword": null,
+            "utmMatchtype": null,
+            "gclid": null,
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+            "ip": "2601:80:c101:39f0:3047:1a25:2920:e01e",
+            "gaClientId": null,
+            "gaSessionId": null,
+            "medium": "calendar",
+            "mediumId": "kd3E4bCR56IMR1GAZWQL",
+            "adName": null,
+            "adGroupId": null,
+            "adId": null,
+            "gbraid": null,
+            "wbraid": null,
+            "fbEventId": "43d38268-abdb-4356-a8ae-b4df8f4dd7ac"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Direct traffic",
+            "url": "https://api.leadconnectorhq.com/widget/booking/kd3E4bCR56IMR1GAZWQL",
+            "utmSource": null,
+            "utmMedium": null,
+            "utmContent": null,
+            "utmTerm": null,
+            "utmKeyword": null,
+            "utmMatchtype": null,
+            "referrer": null,
+            "gclid": null,
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+            "ip": "2601:80:c101:39f0:3047:1a25:2920:e01e",
+            "gaClientId": null,
+            "gaSessionId": null,
+            "medium": "calendar",
+            "mediumId": "kd3E4bCR56IMR1GAZWQL",
+            "adName": null,
+            "adGroupId": null,
+            "adId": null,
+            "gbraid": null,
+            "wbraid": null
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "155",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "kfzjQE71lNabR7ZMtke1"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-10-29T17:52:44.801Z",
+      "endpoint": "sync",
+      "matchedSaleId": "d052f73c937f7844",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "kfzjQE71lNabR7ZMtke1",
+        "first_name": "Luke",
+        "last_name": "Koenig",
+        "full_name": "Luke Koenig",
+        "email": "lukekonig02@gmail.com",
+        "phone": "+16096900824",
+        "tags": "hp sbn auto styling nj,hp appointment booked with dimitriy",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-10-09T04:51:58.419Z",
+        "contact_source": "Window Tint Booking ",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Luke Koenig | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Window Tint Booking",
+        "source": "Window Tint Booking",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "KblUxpBFigal31pUuWfP",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Direct traffic",
+            "url": "https://api.leadconnectorhq.com/widget/booking/kd3E4bCR56IMR1GAZWQL",
+            "utmSource": null,
+            "utmMedium": null,
+            "utmContent": null,
+            "utmTerm": null,
+            "utmKeyword": null,
+            "utmMatchtype": null,
+            "gclid": null,
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+            "ip": "2601:80:c101:39f0:3047:1a25:2920:e01e",
+            "gaClientId": null,
+            "gaSessionId": null,
+            "medium": "calendar",
+            "mediumId": "kd3E4bCR56IMR1GAZWQL",
+            "adName": null,
+            "adGroupId": null,
+            "adId": null,
+            "gbraid": null,
+            "wbraid": null,
+            "fbEventId": "43d38268-abdb-4356-a8ae-b4df8f4dd7ac"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Direct traffic",
+            "url": "https://api.leadconnectorhq.com/widget/booking/kd3E4bCR56IMR1GAZWQL",
+            "utmSource": null,
+            "utmMedium": null,
+            "utmContent": null,
+            "utmTerm": null,
+            "utmKeyword": null,
+            "utmMatchtype": null,
+            "referrer": null,
+            "gclid": null,
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+            "ip": "2601:80:c101:39f0:3047:1a25:2920:e01e",
+            "gaClientId": null,
+            "gaSessionId": null,
+            "medium": "calendar",
+            "mediumId": "kd3E4bCR56IMR1GAZWQL",
+            "adName": null,
+            "adGroupId": null,
+            "adId": null,
+            "gbraid": null,
+            "wbraid": null
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "kfzjQE71lNabR7ZMtke1"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-29T16:27:26.362Z",
       "endpoint": "sync",
@@ -44823,133 +45120,6 @@
           "contactId": "vpwiYYsorJPMvDEwTHjC"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-28T20:21:29.228Z",
-      "endpoint": "sync",
-      "matchedSaleId": "225c6310ee021bdd",
-      "before": {
-        "basePrice": 600,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 600,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "contact_id": "Kzzxz4SIz4l8VOkIO4bO",
-        "full_name": "",
-        "phone": "+18569449099",
-        "tags": "couldn't find caller name,hp fresh,hp sbn auto styling nj,couldnt find caller name",
-        "state": "NJ",
-        "country": "US",
-        "date_created": "2026-10-28T19:52:17.073Z",
-        "full_address": "NJ ",
-        "contact_type": "lead",
-        "opportunity_name": " | ",
-        "status": "won",
-        "lead_value": 299,
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "EXHiTVkZ097hQWo4dnUQ",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Other",
-            "medium": "other"
-          },
-          "lastAttributionSource": {}
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "Roman Goldovsky",
-          "contactId": "Kzzxz4SIz4l8VOkIO4bO"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-10-28T19:40:07.394Z",
-      "endpoint": "sync",
-      "matchedSaleId": "b1e4af4172ceaebc",
-      "before": {
-        "basePrice": 495,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 495,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "contact_id": "wc1ZXO2RCAkiX6UKEv2c",
-        "first_name": "Dominic",
-        "last_name": "Ward",
-        "full_name": "Dominic Ward",
-        "email": "domward25@gmail.com",
-        "phone": "+18567459117",
-        "tags": "hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "timezone": "America/New_York",
-        "date_created": "2026-10-28T19:37:57.662Z",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Dominic Ward | ",
-        "status": "won",
-        "lead_value": 495,
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "InpEaOux8zsDTBVZVVpq",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "customData": {
-          "basePrice": "495",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "wc1ZXO2RCAkiX6UKEv2c"
-        }
-      }
     }
   ],
   "attendance": [
@@ -48686,6 +48856,66 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "04399e880af01213",
+      "timestamp": "2026-10-29T17:53:08.167Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "d052f73c937f7844",
+      "car": "DG 2022 Ram 1500 Redo 2 Front Windows 155PAID IN FULL",
+      "field": "Base price",
+      "oldValue": 155,
+      "newValue": 0
+    },
+    {
+      "id": "28e24e7bff33af3d",
+      "timestamp": "2026-10-29T17:52:44.801Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "d052f73c937f7844",
+      "car": "DG 2022 Ram 1500 Redo 2 Front Windows 155PAID IN FULL",
+      "field": "Base price",
+      "oldValue": 299,
+      "newValue": 0
+    },
+    {
+      "id": "f4cc47ae8bff4741",
+      "timestamp": "2026-10-29T17:52:44.559Z",
+      "actor": "Auto-split (new appointment)",
+      "saleId": "f40811fff223f6f8",
+      "car": "DG 2022 Ram 1500 Sunstrip 100-Upsell",
+      "field": "GHL Opportunity ID",
+      "oldValue": "kfzjQE71lNabR7ZMtke1",
+      "newValue": "kfzjQE71lNabR7ZMtke1~earlier-f40811fff223f6f8"
+    },
+    {
+      "id": "110cebd345c4e22f",
+      "timestamp": "2026-10-29T17:42:55.669Z",
+      "actor": "Auto-matched (reschedule)",
+      "saleId": "db0d33fc5e93de31",
+      "car": "DG 2013 BMW 3Series S+RTINT 299-25depo",
+      "field": "Status",
+      "oldValue": "no_show",
+      "newValue": "pending"
+    },
+    {
+      "id": "9cacfd1ce055e498",
+      "timestamp": "2026-10-29T17:27:40.181Z",
+      "actor": "Owner",
+      "saleId": "d1838e56ab4900fb",
+      "car": "Gio|  2025 Model Y Silver 499 125 windshield",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 624
+    },
+    {
+      "id": "5999cc5892d33812",
+      "timestamp": "2026-10-29T17:13:11.129Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "40e922d467bf1afe",
+      "car": "NA 2023 ford bronco wide track S+ RTINT $299",
+      "field": "Car/Title",
+      "oldValue": "NA 2023 ford bronco wide track S+ RTINT $299 ",
+      "newValue": "NA 2023 ford bronco wide track S+ RTINT $299"
+    },
     {
       "id": "1256aed3a33df011",
       "timestamp": "2026-10-29T16:58:33.586Z",
@@ -58625,66 +58855,6 @@
       "field": "Service",
       "oldValue": "",
       "newValue": "Ceramic Coating"
-    },
-    {
-      "id": "b8a3c4ba38177068",
-      "timestamp": "2026-09-03T20:59:25.878Z",
-      "actor": "Owner",
-      "saleId": "b4b78222abf310de",
-      "car": "4runner windshield redo ",
-      "field": "Base price",
-      "oldValue": 299,
-      "newValue": 0
-    },
-    {
-      "id": "884d0272e43991d0",
-      "timestamp": "2026-09-03T20:59:15.459Z",
-      "actor": "Owner",
-      "saleId": "595228d9b6b69fd2",
-      "car": "DG 2025 Mazda MiataMX-5 499-120depo",
-      "field": "Service",
-      "oldValue": "",
-      "newValue": "Ceramic Coating"
-    },
-    {
-      "id": "19433b003779d523",
-      "timestamp": "2026-09-03T20:59:06.899Z",
-      "actor": "Owner",
-      "saleId": "09468ae49b2b6c98",
-      "car": "Buick Cascade Redo 2 step 350$",
-      "field": "Service",
-      "oldValue": "",
-      "newValue": "Ceramic Coating"
-    },
-    {
-      "id": "dd235016c3783f2b",
-      "timestamp": "2026-09-03T20:59:06.899Z",
-      "actor": "Owner",
-      "saleId": "09468ae49b2b6c98",
-      "car": "Buick Cascade Redo 2 step 350$",
-      "field": "Base price",
-      "oldValue": 500,
-      "newValue": 350
-    },
-    {
-      "id": "9342f66e610596f9",
-      "timestamp": "2026-09-03T20:58:49.725Z",
-      "actor": "Owner",
-      "saleId": "5551a63c2e1f4437",
-      "car": "fk patrick 2022 jeep wagoneer black 499$ maybe one step send vid -95$  depo ",
-      "field": "Service",
-      "oldValue": "",
-      "newValue": "Ceramic Coating"
-    },
-    {
-      "id": "5b91b914e78ad738",
-      "timestamp": "2026-09-03T20:58:43.130Z",
-      "actor": "Owner",
-      "saleId": "7803f68cc8599860",
-      "car": "TG 2006 ford f350 crew cab.   S + R + SunStrip = $399, Depo-50$",
-      "field": "Service",
-      "oldValue": "",
-      "newValue": "Window Tint"
     }
   ],
   "cashEntries": [
@@ -62746,6 +62916,54 @@
     "fallbackPhone": "+12679122701"
   },
   "textLog": [
+    {
+      "id": "3fc45ee6d747dee1",
+      "at": "2026-10-29T17:31:24.267Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "965ea29520db1e10",
+      "customerName": "Stone",
+      "car": "2026 Subaru Crosstrek 2Front&FrontWindshield",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Stone, 2026 Subaru Crosstrek 2Front&FrontWindshield, was due 1:00 PM today. Call (856) 777-2991.",
+      "status": "sent",
+      "nextAt": 1793295104267,
+      "sentAt": "2026-10-29T17:31:45.239Z",
+      "reason": ""
+    },
+    {
+      "id": "b73e9ce49ebb16a6",
+      "at": "2026-10-29T17:30:33.926Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "3bed425ef8f43373",
+      "customerName": "Rick Castellar Rivera Jr.",
+      "car": "2008 Benz C300 S+RTINT",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Rick Castellar Rivera Jr., 2008 Benz C300 S+RTINT, was due 11:00 AM today. Call (646) 866-0913.",
+      "status": "sent",
+      "nextAt": 1793295053926,
+      "sentAt": "2026-10-29T17:30:54.710Z",
+      "reason": ""
+    },
+    {
+      "id": "21b11373e0823d00",
+      "at": "2026-10-29T17:20:46.143Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "43236e239a0cee99",
+      "customerName": "Richard Kaz",
+      "car": "Richard Kaz",
+      "toName": "Fallback number",
+      "toPhone": "+12679122701",
+      "message": "SBN West Berlin, NJ: (no sales rep on this job) MISSED - Richard Kaz, Richard Kaz, was due 10:00 AM today. Call (609) 760-8383.",
+      "status": "sent",
+      "nextAt": 1793294466143,
+      "sentAt": "2026-10-29T17:21:06.999Z",
+      "reason": ""
+    },
     {
       "id": "a4b5f4ed47586d5f",
       "at": "2026-10-29T16:51:47.185Z",
