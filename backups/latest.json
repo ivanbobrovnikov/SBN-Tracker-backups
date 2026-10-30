@@ -32596,9 +32596,9 @@
         "7bcc22db24b2124f"
       ],
       "employeeNames": "Nick, Paul",
-      "salesRepId": "d160346301cc8a3f",
-      "salesRepName": "Dmitriy Gumenyuk",
-      "isWalkIn": false,
+      "salesRepId": null,
+      "salesRepName": "Walk-in (booked by staff)",
+      "isWalkIn": true,
       "baseService": "Ceramic Coating",
       "basePrice": 550,
       "priceSource": "title",
@@ -32613,7 +32613,11 @@
       ],
       "managerHelperNames": "Gio",
       "paidCash": true,
-      "paymentMethod": "cash"
+      "paymentMethod": "cash",
+      "isOnlineBooking": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi"
     },
     {
       "id": "12d31519479e89d2",
