@@ -11701,8 +11701,8 @@
       "ghlOpportunityId": "ZKW896WhlZlECJ9k7nLm",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-09-14T14:16:34.692Z",
       "date": "2026-10-30T15:00:00.000Z",
       "customerName": "Christian Chuls Toro",
@@ -11736,7 +11736,9 @@
           "timestamp": "2026-10-30T15:15:10.504Z"
         }
       ],
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "c30e629818b3bd40",
@@ -34781,8 +34783,8 @@
       "ghlOpportunityId": "BtslB77mGdgVYNoYcnP7",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-22T22:41:53.656Z",
       "closedAtSource": "tracker",
       "date": "2026-10-30T19:00:00.000Z",
@@ -34791,8 +34793,11 @@
       "customerEmail": "",
       "contactId": "BtslB77mGdgVYNoYcnP7",
       "car": "DG 2020 Tesla 3 S+RTINT 299-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Feso, Edward",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -34805,7 +34810,13 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 299,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "b42190fe9e6768b1",
@@ -37377,7 +37388,7 @@
       "id": "40e922d467bf1afe",
       "ghlOpportunityId": "OFbkc3zTsSBv7ZV6Dpmt",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-27T18:08:27.383Z",
@@ -37402,7 +37413,9 @@
       "syncedFromGHL": true,
       "ghlValue": 299,
       "isWalkIn": true,
-      "notes": []
+      "notes": [],
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-10-30T22:21:53.146Z"
     },
     {
       "id": "ee7f66aa3df34ca8",
@@ -37669,7 +37682,15 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 550,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "b0ec63ed3c89818c",
+          "text": "Wants deposit refunded",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-10-30T22:32:03.176Z"
+        }
+      ]
     },
     {
       "id": "e920987df1d1501c",
@@ -37736,8 +37757,8 @@
       "ghlOpportunityId": "i7Qs10up6OF0eMTGcLyT",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-27T22:06:20.094Z",
       "closedAtSource": "tracker",
       "date": "2026-10-30T19:00:00.000Z",
@@ -37746,8 +37767,10 @@
       "customerEmail": "",
       "contactId": "i7Qs10up6OF0eMTGcLyT",
       "car": "DG 2019 Linclon Nautilus AllAroundTINT 450-150depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -37760,7 +37783,14 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 450,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron",
+      "paidCard": false,
+      "paymentMethod": "cash",
+      "paidCash": true
     },
     {
       "id": "1dcbec42292e9b1d",
@@ -38174,7 +38204,15 @@
       "titleDeposit": 75,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 299
+      "ghlValue": 299,
+      "notes": [
+        {
+          "id": "b0e17916f4e2c652",
+          "text": "Reschedule",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-10-30T22:31:26.322Z"
+        }
+      ]
     },
     {
       "id": "b1e4af4172ceaebc",
@@ -50984,6 +51022,78 @@
       "status": "present",
       "startTime": "",
       "endTime": ""
+    },
+    {
+      "id": "6457a243d55021c8",
+      "personType": "employee",
+      "personId": "273b3cdb8e20e0d1",
+      "date": "2026-10-30",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "1632867070f5f703",
+      "personType": "employee",
+      "personId": "8ee8cc14340b4386",
+      "date": "2026-10-30",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "bb3ab78444571b84",
+      "personType": "employee",
+      "personId": "7bcc22db24b2124f",
+      "date": "2026-10-30",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "4a8e332d5f3d1aea",
+      "personType": "employee",
+      "personId": "f9d9bfc4e797e38b",
+      "date": "2026-10-30",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "9352f119adfb2573",
+      "personType": "employee",
+      "personId": "1050c9240f87fa5f",
+      "date": "2026-10-30",
+      "status": "absent",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "7f091797da4a1a2a",
+      "personType": "employee",
+      "personId": "b17bb44f6faf1ff2",
+      "date": "2026-10-30",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "a820b6cb44752eca",
+      "personType": "manager",
+      "personId": "791dee90ad560e70",
+      "date": "2026-10-30",
+      "status": "absent",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "cab3869715d95d7c",
+      "personType": "manager",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-10-30",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
     }
   ],
   "revenueStartDate": "2026-09-01",
@@ -50992,6 +51102,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "036afe19f1210a35",
+      "timestamp": "2026-10-30T22:21:36.219Z",
+      "actor": "Aaron (manager)",
+      "saleId": "e17d042e7cb17093",
+      "car": "DG 2019 Linclon Nautilus AllAroundTINT 450-150depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 300
+    },
     {
       "id": "c88f849a6421059a",
       "timestamp": "2026-10-30T19:07:02.566Z",
@@ -60981,19 +61101,24 @@
       "field": "Service",
       "oldValue": "",
       "newValue": "Window Tint"
-    },
-    {
-      "id": "b07308c49c50d9c2",
-      "timestamp": "2026-09-03T21:05:07.166Z",
-      "actor": "Owner",
-      "saleId": "c27e34e719b1bbdf",
-      "car": "DG 2019 Ram1500 Front Windsheild 199-50depo",
-      "field": "Service",
-      "oldValue": "",
-      "newValue": "Window Tint"
     }
   ],
   "cashEntries": [
+    {
+      "id": "069ad12db70555d4",
+      "type": "cashIn",
+      "amount": 300,
+      "category": "Customer Payment",
+      "note": "DG 2019 Linclon Nautilus AllAroundTINT 450-150depo — Matthew Oconnell",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "e17d042e7cb17093",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-10-30T22:21:36.219Z"
+    },
     {
       "id": "a7876954133d1b91",
       "type": "cashIn",
@@ -65185,6 +65310,22 @@
     "fallbackPhone": "+12679122701"
   },
   "textLog": [
+    {
+      "id": "e9c6383fd39cc37d",
+      "at": "2026-10-30T22:21:53.146Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "40e922d467bf1afe",
+      "customerName": "Dominique Becoate",
+      "car": "2023 ford bronco wide track S+ RTINT",
+      "toName": "Fallback number",
+      "toPhone": "+12679122701",
+      "message": "SBN West Berlin, NJ: (no sales rep on this job) MISSED - Dominique Becoate, 2023 ford bronco wide track S+ RTINT, was due 3:00 PM today. Call (267) 235-1223.",
+      "status": "sent",
+      "nextAt": 1793398933146,
+      "sentAt": "2026-10-30T22:22:13.986Z",
+      "reason": ""
+    },
     {
       "id": "9408151561767a99",
       "at": "2026-10-30T16:59:32.618Z",
