@@ -19259,7 +19259,11 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "titlePrice": null,
-      "titleDeposit": null
+      "titleDeposit": null,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "19d1389561891623",
+      "walkInClosedByName": "Gio",
+      "walkInClosedAuto": "title"
     },
     {
       "id": "83bf60d592db23ae",
@@ -19601,7 +19605,11 @@
       "isWalkIn": true,
       "priceMismatchDismissed": false,
       "titlePrice": 650,
-      "titleDeposit": 50
+      "titleDeposit": 50,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "19d1389561891623",
+      "walkInClosedByName": "Gio",
+      "walkInClosedAuto": "title"
     },
     {
       "id": "105444f7144b4911",
@@ -49752,6 +49760,26 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "0552468d5413d18f",
+      "timestamp": "2026-10-30T16:49:45.822Z",
+      "actor": "Auto (title)",
+      "saleId": "1946d4e4ddd1f385",
+      "car": "Gio 2013 WRX Full Removal FAZO DO THIS All Around 650 -50 deposit",
+      "field": "Walk-in closer",
+      "oldValue": "",
+      "newValue": "Gio"
+    },
+    {
+      "id": "ba77bfd4b1ead8cd",
+      "timestamp": "2026-10-30T16:49:45.822Z",
+      "actor": "Auto (title)",
+      "saleId": "29bb0f195f64c447",
+      "car": "Gio Defender Land Rover 499",
+      "field": "Walk-in closer",
+      "oldValue": "",
+      "newValue": "Gio"
+    },
+    {
       "id": "6fddc7185733d54d",
       "timestamp": "2026-10-30T16:38:38.891Z",
       "actor": "Auto-sync (GHL)",
@@ -59730,26 +59758,6 @@
       "field": "Base price",
       "oldValue": 299,
       "newValue": 0
-    },
-    {
-      "id": "f6dff220c9eb25c0",
-      "timestamp": "2026-09-03T21:03:11.363Z",
-      "actor": "Owner",
-      "saleId": "9f0d610a8d63ab73",
-      "car": "DG 2026 Mazda CX90 2 front Windows 145-25depo",
-      "field": "Service",
-      "oldValue": "",
-      "newValue": "Window Tint"
-    },
-    {
-      "id": "b9eb00dc9769e3c6",
-      "timestamp": "2026-09-03T21:03:05.759Z",
-      "actor": "Owner",
-      "saleId": "8f93b284563d2ade",
-      "car": "TG 2023 Tesla model 3  4Sides only 240-75depo",
-      "field": "Service",
-      "oldValue": "",
-      "newValue": "Window Tint"
     }
   ],
   "cashEntries": [
