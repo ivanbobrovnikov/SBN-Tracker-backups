@@ -35053,7 +35053,7 @@
       "id": "ee23d892ae92e985",
       "ghlOpportunityId": "tmjXXa6dobwLxfFdX9y0",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-23T17:42:24.520Z",
@@ -35076,7 +35076,8 @@
       "titlePrice": 299,
       "titleDeposit": 75,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "arrivedByComplete": false
     },
     {
       "id": "8fde069d1377215b",
@@ -36009,7 +36010,15 @@
       "titleDeposit": 75,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 530
+      "ghlValue": 530,
+      "notes": [
+        {
+          "id": "56259374d5389b69",
+          "text": "Wants refund on deposit",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-10-30T18:25:46.662Z"
+        }
+      ]
     },
     {
       "id": "3d221d02c8af9895",
@@ -38402,7 +38411,7 @@
       "id": "83a40389e4d256f2",
       "ghlOpportunityId": "1POxWhRyprIH7TasyJXf",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-29T13:35:44.150Z",
@@ -38426,7 +38435,8 @@
       "titleDeposit": 75,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 390
+      "ghlValue": 390,
+      "arrivedByComplete": false
     },
     {
       "id": "bcb50db259431fc4",
@@ -39439,6 +39449,35 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 495
+    },
+    {
+      "id": "443670271915de77",
+      "ghlOpportunityId": "dhcBNletCYn4a7nKmNp4",
+      "upsells": [],
+      "status": "arrived",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-30T18:25:40.044Z",
+      "closedAtSource": "tracker",
+      "date": "2026-10-30T18:30:00.000Z",
+      "customerName": "JOHN TATE",
+      "customerPhone": "(609) 352-2525",
+      "customerEmail": "",
+      "contactId": "dhcBNletCYn4a7nKmNp4",
+      "car": "DG 2023 Ram 1500 2FrontWindows 145-SDay ",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 0,
+      "priceSource": "ghl",
+      "titlePrice": null,
+      "titleDeposit": null,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "arrivedByComplete": false
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
