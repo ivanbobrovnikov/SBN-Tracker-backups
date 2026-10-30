@@ -5964,7 +5964,7 @@
     },
     {
       "id": "7134a4dd96a0447b",
-      "ghlOpportunityId": "nlyTwCHF0HD9cN7do6jL",
+      "ghlOpportunityId": "nlyTwCHF0HD9cN7do6jL~earlier-7134a4dd96a0447b",
       "upsells": [],
       "status": "arrived",
       "completed": true,
@@ -11710,8 +11710,11 @@
       "customerEmail": "",
       "contactId": "ZKW896WhlZlECJ9k7nLm",
       "car": "DG 2015 BMW 528i S+RTINT&Removal 499-150depo Reschdule",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Feso, Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -24468,8 +24471,8 @@
       "ghlOpportunityId": "rKnkMxnJGRBYMTmF9tcT",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-07T20:54:13.227Z",
       "date": "2026-10-30T15:00:00.000Z",
       "customerName": "Dedicated💯",
@@ -24494,7 +24497,9 @@
       "titlePrice": 299,
       "titleDeposit": 50,
       "priceSource": "title",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "1adc9606c467d535",
@@ -28688,14 +28693,14 @@
     },
     {
       "id": "4ab88f39752c4645",
-      "ghlOpportunityId": "DYQjEvellZIP47ROwIp4~earlier-4ab88f39752c4645",
+      "ghlOpportunityId": "DYQjEvellZIP47ROwIp4",
       "upsells": [],
-      "status": "no_show",
+      "status": "pending",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-14T13:04:56.610Z",
       "closedAtSource": "tracker",
-      "date": "2026-10-24T13:00:00.000Z",
+      "date": "2026-10-31T13:00:00.000Z",
       "customerName": "Albert Orabona",
       "customerPhone": "(267) 980-6136",
       "customerEmail": "",
@@ -28715,7 +28720,8 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "arrivedByComplete": false,
-      "missedTextAt": "2026-10-24T15:18:42.579Z"
+      "missedTextAt": "2026-10-24T15:18:42.579Z",
+      "notes": []
     },
     {
       "id": "091d418cb7e09768",
@@ -28826,35 +28832,6 @@
       "arrivedByComplete": false,
       "paidCard": true,
       "paymentMethod": "card"
-    },
-    {
-      "id": "62b0fee9caec99fb",
-      "ghlOpportunityId": "DYQjEvellZIP47ROwIp4",
-      "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
-      "closedAt": "2026-10-14T13:42:04.357Z",
-      "closedAtSource": "tracker",
-      "date": "2026-10-31T13:00:00.000Z",
-      "customerName": "Albert Orabona",
-      "customerPhone": "(267) 980-6136",
-      "customerEmail": "",
-      "contactId": "DYQjEvellZIP47ROwIp4",
-      "car": "DG 2018 Honda Civic Ceramic Coating 480-90depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
-      "salesRepId": "d160346301cc8a3f",
-      "salesRepName": "Dmitriy Gumenyuk",
-      "isWalkIn": false,
-      "baseService": "Ceramic Coating",
-      "basePrice": 480,
-      "priceSource": "title",
-      "priceMismatchDismissed": false,
-      "titlePrice": 480,
-      "titleDeposit": 90,
-      "calendarId": null,
-      "syncedFromGHL": true
     },
     {
       "id": "44584f53923d3575",
@@ -35064,8 +35041,10 @@
       "customerEmail": "",
       "contactId": "tmjXXa6dobwLxfFdX9y0",
       "car": "DG 2009 Volkswagen Jetta S+RTINT 299-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -37748,7 +37727,7 @@
       "id": "e17d042e7cb17093",
       "ghlOpportunityId": "i7Qs10up6OF0eMTGcLyT",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-27T22:06:20.094Z",
@@ -37772,7 +37751,8 @@
       "titleDeposit": 150,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 450
+      "ghlValue": 450,
+      "arrivedByComplete": false
     },
     {
       "id": "1dcbec42292e9b1d",
@@ -38412,8 +38392,8 @@
       "ghlOpportunityId": "1POxWhRyprIH7TasyJXf",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-29T13:35:44.150Z",
       "closedAtSource": "tracker",
       "date": "2026-10-30T17:00:00.000Z",
@@ -38422,8 +38402,10 @@
       "customerEmail": "",
       "contactId": "1POxWhRyprIH7TasyJXf",
       "car": "DG 2021 Benz GLE 2FrontWindows&FrontWindsheildNANO TINT 390-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Edward",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -38436,7 +38418,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 390,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "bcb50db259431fc4",
@@ -39455,8 +39439,8 @@
       "ghlOpportunityId": "dhcBNletCYn4a7nKmNp4",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-30T18:25:40.044Z",
       "closedAtSource": "tracker",
       "date": "2026-10-30T18:30:00.000Z",
@@ -39464,20 +39448,57 @@
       "customerPhone": "(609) 352-2525",
       "customerEmail": "",
       "contactId": "dhcBNletCYn4a7nKmNp4",
-      "car": "DG 2023 Ram 1500 2FrontWindows 145-SDay ",
+      "car": "DG 2023 Ram 1500 2FrontWindows 145-SDay",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 0,
-      "priceSource": "ghl",
+      "basePrice": 145,
+      "priceSource": "manual",
       "titlePrice": null,
       "titleDeposit": null,
       "calendarId": null,
       "syncedFromGHL": true,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "priceLocked": true,
+      "paidCash": true,
+      "paymentMethod": "cash",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
+    },
+    {
+      "id": "be61e87b41ae2325",
+      "ghlOpportunityId": "nlyTwCHF0HD9cN7do6jL",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-10-30T18:39:11.055Z",
+      "closedAtSource": "tracker",
+      "date": "2026-10-31T20:00:00.000Z",
+      "customerName": "Nicholas BU",
+      "customerPhone": "(609) 433-8355",
+      "customerEmail": "",
+      "contactId": "nlyTwCHF0HD9cN7do6jL",
+      "car": "DG 2027 Chevy Treverse 2Front&Windsheild 319-75Depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 319,
+      "priceSource": "title",
+      "priceMismatchDismissed": false,
+      "titlePrice": 319,
+      "titleDeposit": 75,
+      "calendarId": null,
+      "syncedFromGHL": true,
+      "ghlValue": 319
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -39561,6 +39582,115 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-10-30T18:44:45.460Z",
+      "endpoint": "sync",
+      "matchedSaleId": "be61e87b41ae2325",
+      "before": {
+        "basePrice": 319,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 319,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2027 chevy equinox",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "nlyTwCHF0HD9cN7do6jL",
+        "first_name": "Nicholas",
+        "last_name": "BU",
+        "full_name": "Nicholas BU",
+        "email": "flyerfan0922@aol.com",
+        "phone": "+16094338355",
+        "tags": "tint,hp sbn auto styling nj,hp aged,hp remove booked stage",
+        "country": "US",
+        "date_created": "2026-09-03T00:24:13.283Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Nicholas BU | ",
+        "status": "won",
+        "lead_value": 319,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "Nsh4zFuBKTodSkFSZup8",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "g80 m3 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256307528530011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "facebook",
+            "mediumId": "38623997567191448",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "pSid": "38623997567191448"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "319",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "nlyTwCHF0HD9cN7do6jL"
+        }
+      }
+    },
     {
       "receivedAt": "2026-10-30T17:31:04.418Z",
       "endpoint": "sync",
@@ -45957,114 +46087,6 @@
           "contactId": "w9aRcrkdkKWkhx75oNpo"
         }
       }
-    },
-    {
-      "receivedAt": "2026-10-29T19:59:48.388Z",
-      "endpoint": "sync",
-      "matchedSaleId": "467dac26deaeed83",
-      "before": {
-        "basePrice": 480,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 480,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2020 ford f150 platinum",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "w9aRcrkdkKWkhx75oNpo",
-        "first_name": "Maceo",
-        "last_name": "Samero",
-        "full_name": "Maceo Samero",
-        "email": "maceos007@icloud.com",
-        "phone": "+16095778415",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-10-29T19:31:01.364Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Maceo Samero | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "WXApyetP5m0vu4wel1p0",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "299! dumpboyz",
-            "adSetId": "120254638050770011",
-            "adId": "120257262484390011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "299! dumpboyz",
-            "adSetId": "120254638050770011",
-            "adId": "120257262484390011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "",
-          "contactId": "w9aRcrkdkKWkhx75oNpo"
-        }
-      }
     }
   ],
   "attendance": [
@@ -49801,6 +49823,56 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "c88f849a6421059a",
+      "timestamp": "2026-10-30T19:07:02.566Z",
+      "actor": "Aaron (manager)",
+      "saleId": "443670271915de77",
+      "car": "DG 2023 Ram 1500 2FrontWindows 145-SDay",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 145
+    },
+    {
+      "id": "02ed4739edb1f90b",
+      "timestamp": "2026-10-30T18:46:18.920Z",
+      "actor": "Rep tracker (owner)",
+      "saleId": "443670271915de77",
+      "car": "DG 2023 Ram 1500 2FrontWindows 145-SDay",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 145
+    },
+    {
+      "id": "a94fc2de0ac1d049",
+      "timestamp": "2026-10-30T18:39:11.054Z",
+      "actor": "Auto-split (new appointment)",
+      "saleId": "7134a4dd96a0447b",
+      "car": "DG 2027 Chevy Equinox Sunstrip&2FrontWindows 240-50depo",
+      "field": "GHL Opportunity ID",
+      "oldValue": "nlyTwCHF0HD9cN7do6jL",
+      "newValue": "nlyTwCHF0HD9cN7do6jL~earlier-7134a4dd96a0447b"
+    },
+    {
+      "id": "ba804625bce82b71",
+      "timestamp": "2026-10-30T18:29:35.910Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "443670271915de77",
+      "car": "DG 2023 Ram 1500 2FrontWindows 145-SDay",
+      "field": "Car/Title",
+      "oldValue": "DG 2023 Ram 1500 2FrontWindows 145-SDay ",
+      "newValue": "DG 2023 Ram 1500 2FrontWindows 145-SDay"
+    },
+    {
+      "id": "8da9dc166cca4daf",
+      "timestamp": "2026-10-30T18:28:40.219Z",
+      "actor": "Auto (same appointment edited)",
+      "saleId": "4ab88f39752c4645",
+      "car": "DG 2018 Honda Civic Ceramic Coating 480-90depo",
+      "field": "Merged back (the same appointment was edited)",
+      "oldValue": "2026-10-24",
+      "newValue": "2026-10-31"
+    },
     {
       "id": "0552468d5413d18f",
       "timestamp": "2026-10-30T16:49:45.822Z",
@@ -59750,59 +59822,24 @@
       "field": "Service",
       "oldValue": "",
       "newValue": "Window Tint"
-    },
-    {
-      "id": "ea037ce263f1a5e5",
-      "timestamp": "2026-09-03T21:05:07.166Z",
-      "actor": "Owner",
-      "saleId": "c27e34e719b1bbdf",
-      "car": "DG 2019 Ram1500 Front Windsheild 199-50depo",
-      "field": "Base price",
-      "oldValue": 299,
-      "newValue": 199
-    },
-    {
-      "id": "081010ec15e57cba",
-      "timestamp": "2026-09-03T21:04:34.158Z",
-      "actor": "Owner",
-      "saleId": "7cf94189f375d8f2",
-      "car": "2013 GMC Sierra 499+100 windows 95depo ",
-      "field": "Service",
-      "oldValue": "",
-      "newValue": "Ceramic Coating"
-    },
-    {
-      "id": "b68de8cfc807eb00",
-      "timestamp": "2026-09-03T21:04:34.158Z",
-      "actor": "Owner",
-      "saleId": "7cf94189f375d8f2",
-      "car": "2013 GMC Sierra 499+100 windows 95depo ",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 599
-    },
-    {
-      "id": "9cf2347f6f860d22",
-      "timestamp": "2026-09-03T21:04:18.417Z",
-      "actor": "Owner",
-      "saleId": "d8da0192ce14894c",
-      "car": "2021 Honda Accord Redo driver back window",
-      "field": "Service",
-      "oldValue": "",
-      "newValue": "Window Tint"
-    },
-    {
-      "id": "25e35681aa41a757",
-      "timestamp": "2026-09-03T21:04:18.417Z",
-      "actor": "Owner",
-      "saleId": "d8da0192ce14894c",
-      "car": "2021 Honda Accord Redo driver back window",
-      "field": "Base price",
-      "oldValue": 299,
-      "newValue": 0
     }
   ],
   "cashEntries": [
+    {
+      "id": "a7876954133d1b91",
+      "type": "cashIn",
+      "amount": 145,
+      "category": "Customer Payment",
+      "note": "DG 2023 Ram 1500 2FrontWindows 145-SDay — JOHN TATE",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "443670271915de77",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-10-30T19:07:02.566Z"
+    },
     {
       "id": "3a56a9f1515ce202",
       "type": "cashIn",
