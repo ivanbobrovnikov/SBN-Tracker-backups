@@ -29004,7 +29004,7 @@
       "id": "71ff77d75672a867",
       "ghlOpportunityId": "DOY3nTcGBVW9R0qCJ4W0",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-14T14:18:30.050Z",
@@ -29027,7 +29027,8 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "isOnlineBooking": true
+      "isOnlineBooking": true,
+      "arrivedByComplete": false
     },
     {
       "id": "442c9f984ffcbe0d",
@@ -32722,7 +32723,7 @@
       "id": "266f4389bffcaaba",
       "ghlOpportunityId": "k57MyufY859nmH0aiBYJ",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-20T14:48:27.740Z",
@@ -32746,7 +32747,9 @@
       "titleDeposit": 75,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 299
+      "ghlValue": 299,
+      "notes": [],
+      "arrivedByComplete": false
     },
     {
       "id": "56c417047bb2dad6",
@@ -33685,7 +33688,7 @@
       "id": "45a216f3b1b1307f",
       "ghlOpportunityId": "fbIVfMyuoJdp8Spn35u6",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-21T18:00:05.837Z",
@@ -33709,7 +33712,8 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 200
+      "ghlValue": 200,
+      "arrivedByComplete": false
     },
     {
       "id": "09ae6b6dc176027c",
@@ -33811,7 +33815,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-21T19:08:58.635Z",
       "closedAtSource": "tracker",
       "date": "2026-10-31T13:00:00.000Z",
@@ -33834,7 +33838,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 499,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "540fad4a449cf5bd",
@@ -56222,6 +56228,16 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "3170bfc08efe936f",
+      "timestamp": "2026-10-31T17:08:06.385Z",
+      "actor": "Gio (manager)",
+      "saleId": "fdf25c20c7989935",
+      "car": "DG 2024 Chevy Silverado Ceramic Coating 499-300depo CASH",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 199
+    },
+    {
       "id": "63cdc6ca06f607e8",
       "timestamp": "2026-10-31T15:34:00.235Z",
       "actor": "Auto-sync (GHL)",
@@ -66210,19 +66226,24 @@
       "field": "Service",
       "oldValue": "",
       "newValue": "Window Tint"
-    },
-    {
-      "id": "1a825f819ae66199",
-      "timestamp": "2026-09-03T21:06:31.957Z",
-      "actor": "Owner",
-      "saleId": "3af2a8dd802ab1ad",
-      "car": "fk Dominics friend 2016 subaru front 2 150$ -50 depo ",
-      "field": "Service",
-      "oldValue": "",
-      "newValue": "Window Tint"
     }
   ],
   "cashEntries": [
+    {
+      "id": "94d884ec22f645bf",
+      "type": "cashIn",
+      "amount": 199,
+      "category": "Customer Payment",
+      "note": "DG 2024 Chevy Silverado Ceramic Coating 499-300depo CASH — William Larkey",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "fdf25c20c7989935",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "19d1389561891623",
+      "enteredByName": "Gio",
+      "timestamp": "2026-10-31T17:08:06.385Z"
+    },
     {
       "id": "069ad12db70555d4",
       "type": "cashIn",
