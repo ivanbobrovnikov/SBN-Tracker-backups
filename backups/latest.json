@@ -7,7 +7,8 @@
       "pinHash": "cbd542e4e0644115214759abc68630dbc7f10ceed83af70cef27d0563e37f904",
       "walkInCommissionRate": 10,
       "payType": "salary",
-      "salaryPerPeriod": 3000
+      "salaryPerPeriod": 3000,
+      "initials": "ANG"
     },
     {
       "id": "8ee8cc14340b4386",
@@ -16,7 +17,8 @@
       "pinHash": "c1f330d0aff31c1c87403f1e4347bcc21aff7c179908723535f2b31723702525",
       "walkInCommissionRate": 10,
       "payType": "salary",
-      "salaryPerPeriod": 1500
+      "salaryPerPeriod": 1500,
+      "initials": "NICK"
     },
     {
       "id": "7bcc22db24b2124f",
@@ -37422,7 +37424,11 @@
       "isWalkIn": true,
       "notes": [],
       "arrivedByComplete": false,
-      "missedTextAt": "2026-10-30T22:21:53.146Z"
+      "missedTextAt": "2026-10-30T22:21:53.146Z",
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi",
+      "walkInClosedAuto": "title"
     },
     {
       "id": "ee7f66aa3df34ca8",
@@ -38894,7 +38900,11 @@
       "syncedFromGHL": true,
       "ghlValue": 299,
       "isWalkIn": true,
-      "notes": []
+      "notes": [],
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi",
+      "walkInClosedAuto": "title"
     },
     {
       "id": "c8ae75cf19f04deb",
@@ -39573,15 +39583,23 @@
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
-      "salesRepName": "Unassigned",
+      "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Window Tint",
       "basePrice": 299,
-      "priceSource": "ghl",
+      "priceSource": "manual",
       "titlePrice": null,
       "titleDeposit": null,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 299
+      "ghlValue": 299,
+      "priceLocked": true,
+      "isWalkIn": true,
+      "isOnlineBooking": false,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "ed55d50b916a979a",
+      "walkInClosedByName": "Aaron",
+      "closerLocked": true,
+      "walkInClosedAuto": null
     },
     {
       "id": "4593a9deabbcffc0",
@@ -39721,7 +39739,8 @@
       "pinHash": "7834541aeb2127e4e67d9cff30a7e8cf1640863b202e73415f5e93a0c56c5670",
       "promotedFromEmployeeAt": "2026-10-04T21:16:02.263Z",
       "payType": "salary",
-      "salaryPerPeriod": 2400
+      "salaryPerPeriod": 2400,
+      "initials": "NA"
     },
     {
       "id": "19d1389561891623",
@@ -39732,7 +39751,8 @@
       "payType": "salary",
       "salaryPerPeriod": 2000,
       "demotedFromManagerAt": "2026-10-19T20:42:53.218Z",
-      "promotedFromEmployeeAt": "2026-10-21T13:06:35.668Z"
+      "promotedFromEmployeeAt": "2026-10-21T13:06:35.668Z",
+      "initials": "GM"
     },
     {
       "id": "ed55d50b916a979a",
@@ -39743,7 +39763,8 @@
       "payType": "salary",
       "salaryPerPeriod": 2700,
       "demotedFromManagerAt": "2026-10-19T20:42:45.789Z",
-      "promotedFromEmployeeAt": "2026-10-30T13:23:15.770Z"
+      "promotedFromEmployeeAt": "2026-10-30T13:23:15.770Z",
+      "initials": "AG"
     }
   ],
   "salesReps": [
@@ -51230,6 +51251,26 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "8ae5a8d3867468d3",
+      "timestamp": "2026-10-31T03:03:08.248Z",
+      "actor": "Auto (title)",
+      "saleId": "eca0daeccc5c08cd",
+      "car": "NA 2026 CADILAC CT5 BLACK WING CERAMIC COATING: RIMS,WINDOWS,TRIMS + TINT: ALL AROUND $1,357 - $145DEPO",
+      "field": "Walk-in closer",
+      "oldValue": "",
+      "newValue": "Naomi"
+    },
+    {
+      "id": "4f362f61c41068db",
+      "timestamp": "2026-10-31T03:03:08.248Z",
+      "actor": "Auto (title)",
+      "saleId": "40e922d467bf1afe",
+      "car": "NA 2023 ford bronco wide track S+ RTINT $299",
+      "field": "Walk-in closer",
+      "oldValue": "",
+      "newValue": "Naomi"
+    },
+    {
       "id": "036afe19f1210a35",
       "timestamp": "2026-10-30T22:21:36.219Z",
       "actor": "Aaron (manager)",
@@ -61205,26 +61246,6 @@
       "actor": "Owner",
       "saleId": "362d4e15765d5c77",
       "car": "TG 2006 silverado 2 front sides and rear window = $180 Depo, -50$ (To roll down the Driver side window, its different)",
-      "field": "Service",
-      "oldValue": "",
-      "newValue": "Window Tint"
-    },
-    {
-      "id": "39d5f5f72aead54c",
-      "timestamp": "2026-09-03T21:05:20.136Z",
-      "actor": "Owner",
-      "saleId": "362d4e15765d5c77",
-      "car": "TG 2006 silverado 2 front sides and rear window = $180 Depo, -50$ (To roll down the Driver side window, its different)",
-      "field": "Base price",
-      "oldValue": 299,
-      "newValue": 180
-    },
-    {
-      "id": "6f44d728a84d0c17",
-      "timestamp": "2026-09-03T21:05:12.928Z",
-      "actor": "Owner",
-      "saleId": "adc3069d5bbdfeed",
-      "car": "DG 2026 Dodge Durango 2 front windows 150-50depo",
       "field": "Service",
       "oldValue": "",
       "newValue": "Window Tint"
