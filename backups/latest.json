@@ -16721,7 +16721,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-09-23T09:34:04.523Z",
       "date": "2026-10-29T14:00:00.000Z",
       "customerName": "Richard Kaz",
@@ -16745,7 +16745,9 @@
       "walkInClosedByType": null,
       "walkInClosedById": null,
       "walkInClosedByName": null,
-      "isOnlineBooking": true
+      "isOnlineBooking": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "43eb1382345bbe88",
@@ -27347,8 +27349,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-12T15:29:24.207Z",
       "closedAtSource": "tracker",
       "date": "2026-10-31T19:00:00.000Z",
@@ -27357,8 +27359,12 @@
       "customerEmail": "",
       "contactId": "PiULZPFY3zSIQmIgHB6R",
       "car": "DG 2026 Infiniti QX80 2FrontWindows&Frontwindsheild 319-35depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b",
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Angelica, Feso, Edward",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -27371,7 +27377,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 319,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "e7ed0c723135a04f",
@@ -29032,8 +29040,8 @@
       "ghlOpportunityId": "DOY3nTcGBVW9R0qCJ4W0",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-14T14:18:30.050Z",
       "closedAtSource": "tracker",
       "date": "2026-10-31T17:00:00.000Z",
@@ -29042,8 +29050,12 @@
       "customerEmail": "",
       "contactId": "DOY3nTcGBVW9R0qCJ4W0",
       "car": "online booking tsx wagon S+R+sun 400$-50$ depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "273b3cdb8e20e0d1",
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Feso, Angelica, Edward",
       "salesRepId": null,
       "salesRepName": "Unassigned",
       "baseService": "Window Tint",
@@ -29055,7 +29067,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "isOnlineBooking": true,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "442c9f984ffcbe0d",
@@ -31298,8 +31312,8 @@
       "ghlOpportunityId": "CmhR5Gy5EH7yoRQaXZHG~earlier-d52404e4ec6953de",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-18T21:12:17.144Z",
       "closedAtSource": "tracker",
       "date": "2026-10-31T14:00:00.000Z",
@@ -31322,7 +31336,17 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 499,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "616cd6a0ffc36a35",
+          "text": "Strip* not windshield",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-10-31T22:25:12.097Z"
+        }
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "b98f5814f1de414f",
@@ -32635,7 +32659,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-20T14:26:35.731Z",
       "closedAtSource": "tracker",
       "date": "2026-10-27T13:00:00.000Z",
@@ -32662,8 +32686,8 @@
       "syncedFromGHL": true,
       "ghlValue": 499,
       "arrivedByComplete": false,
-      "paidCard": false,
-      "paymentMethod": null,
+      "paidCard": true,
+      "paymentMethod": "card",
       "managerHelperIds": [
         "19d1389561891623"
       ],
@@ -33342,7 +33366,7 @@
       "id": "5d5f705ddf44afce",
       "ghlOpportunityId": "Cs1ngMdFhCL3cWY0XJF2",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-21T13:28:14.664Z",
@@ -33366,7 +33390,9 @@
       "titleDeposit": 75,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 480
+      "ghlValue": 480,
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-10-31T23:10:30.799Z"
     },
     {
       "id": "3c227c793f2cdcb4",
@@ -33565,7 +33591,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-21T15:33:59.818Z",
       "closedAtSource": "tracker",
       "date": "2026-10-30T13:00:00.000Z",
@@ -33588,7 +33614,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 550,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "bc9cd9c93735aae0",
@@ -36916,7 +36944,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-26T21:47:02.581Z",
       "closedAtSource": "tracker",
       "date": "2026-10-27T13:00:00.000Z",
@@ -36959,7 +36987,9 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "4a71bb6aef682e09",
@@ -37808,7 +37838,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-27T20:45:48.780Z",
       "closedAtSource": "tracker",
       "date": "2026-10-30T13:00:00.000Z",
@@ -37841,7 +37871,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-10-30T22:32:03.176Z"
         }
-      ]
+      ],
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "e920987df1d1501c",
@@ -40085,8 +40117,8 @@
       "ghlOpportunityId": "y7rOwJxQNUQNh07KSgGY",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-31T15:12:13.852Z",
       "closedAtSource": "tracker",
       "date": "2026-10-31T20:00:00.000Z",
@@ -40095,8 +40127,11 @@
       "customerEmail": "",
       "contactId": "y7rOwJxQNUQNh07KSgGY",
       "car": "DG 2018 Dodge Charger S+RTINTNANO 299-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Angelica, Edward",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -40108,7 +40143,13 @@
       "titlePrice": 299,
       "titleDeposit": 50,
       "syncedFromGHL": true,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "7ca60c92bf047503",
@@ -56573,6 +56614,16 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "69e6a1264da980b6",
+      "timestamp": "2026-10-31T23:19:53.599Z",
+      "actor": "Owner",
+      "saleId": "a2129bb574eb6d86",
+      "car": "DG 2011 Corvette C6 S+RTINT 550-75depo DropOff Whole Day",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 475
+    },
+    {
       "id": "5bb331402472aadb",
       "timestamp": "2026-10-31T21:30:22.176Z",
       "actor": "Aaron (manager)",
@@ -66561,19 +66612,24 @@
       "field": "Service",
       "oldValue": "",
       "newValue": "Window Tint"
-    },
-    {
-      "id": "32c259082cd262e7",
-      "timestamp": "2026-09-03T21:26:25.028Z",
-      "actor": "Owner",
-      "saleId": "dbfd60a92ae50a0e",
-      "car": "COREY FRANCIS",
-      "field": "Service",
-      "oldValue": "",
-      "newValue": "Window Tint"
     }
   ],
   "cashEntries": [
+    {
+      "id": "8e548505e9a5120f",
+      "type": "cashIn",
+      "amount": 475,
+      "category": "Customer Payment",
+      "note": "DG 2011 Corvette C6 S+RTINT 550-75depo DropOff Whole Day — Nick Iannelli",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "a2129bb574eb6d86",
+      "autoFromJob": true,
+      "enteredByType": "owner",
+      "enteredById": "owner",
+      "enteredByName": "Owner",
+      "timestamp": "2026-10-31T23:19:53.599Z"
+    },
     {
       "id": "b60785da08d0a5ac",
       "type": "cashIn",
@@ -70879,6 +70935,22 @@
     "fallbackPhone": "+12679122701"
   },
   "textLog": [
+    {
+      "id": "90944a34be93a6b1",
+      "at": "2026-10-31T23:10:30.800Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "5d5f705ddf44afce",
+      "customerName": "Brittney 💓",
+      "car": "2015 Acura TLX AllAroundTint",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Brittney 💓, 2015 Acura TLX AllAroundTint, was due 4:00 PM today. Call (609) 676-7729.",
+      "status": "sent",
+      "nextAt": 1793488250800,
+      "sentAt": "2026-10-31T23:10:51.712Z",
+      "reason": ""
+    },
     {
       "id": "e9c6383fd39cc37d",
       "at": "2026-10-30T22:21:53.146Z",
