@@ -34098,8 +34098,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-21T20:38:15.827Z",
       "closedAtSource": "tracker",
       "date": "2026-10-31T19:00:00.000Z",
@@ -34108,8 +34108,10 @@
       "customerEmail": "",
       "contactId": "HxrvEZmZdwhs9Zc9fMRR",
       "car": "DG 2021 Toyota Highlander 2Frontwindows 130-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -34122,7 +34124,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 130,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "e90182b47ecbdcdf",
@@ -39683,8 +39687,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-30T18:39:11.055Z",
       "closedAtSource": "tracker",
       "date": "2026-10-31T20:00:00.000Z",
@@ -39717,7 +39721,13 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-10-31T19:54:38.084Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "78d64d556d7a945d",
@@ -56563,6 +56573,16 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "5bb331402472aadb",
+      "timestamp": "2026-10-31T21:30:22.176Z",
+      "actor": "Aaron (manager)",
+      "saleId": "be61e87b41ae2325",
+      "car": "DG 2027 Chevy Treverse 2Front&Windsheild 319-75Depo",
+      "field": "Tip",
+      "oldValue": "",
+      "newValue": "added $25.00: Angelica $12.50, Aaron $12.50"
+    },
+    {
       "id": "db331287fb1a6fa1",
       "timestamp": "2026-10-31T20:46:01.062Z",
       "actor": "Auto-split (new appointment)",
@@ -66551,16 +66571,6 @@
       "field": "Service",
       "oldValue": "",
       "newValue": "Window Tint"
-    },
-    {
-      "id": "4bc09a834da0b5f0",
-      "timestamp": "2026-09-03T21:26:19.480Z",
-      "actor": "Owner",
-      "saleId": "6733d924a77acd37",
-      "car": "DG 2023 Toyota RAV4 Front Windsheild 199-50depo",
-      "field": "Service",
-      "oldValue": "",
-      "newValue": "Window Tint"
     }
   ],
   "cashEntries": [
@@ -70836,6 +70846,31 @@
       "loggedById": "ed55d50b916a979a",
       "loggedByRole": "manager",
       "timestamp": "2026-10-31T19:26:58.833Z"
+    },
+    {
+      "id": "49f555dfbc18ab5f",
+      "saleId": "be61e87b41ae2325",
+      "car": "DG 2027 Chevy Treverse 2Front&Windsheild 319-75Depo",
+      "date": "2026-10-31T20:00:00.000Z",
+      "amount": 25,
+      "split": [
+        {
+          "personType": "employee",
+          "personId": "273b3cdb8e20e0d1",
+          "name": "Angelica",
+          "amount": 12.5
+        },
+        {
+          "personType": "manager",
+          "personId": "ed55d50b916a979a",
+          "name": "Aaron",
+          "amount": 12.5
+        }
+      ],
+      "loggedByName": "Aaron",
+      "loggedById": "ed55d50b916a979a",
+      "loggedByRole": "manager",
+      "timestamp": "2026-10-31T21:30:22.176Z"
     }
   ],
   "textSettings": {
