@@ -18809,16 +18809,16 @@
       "id": "e77bfa9a98bd3fa2",
       "ghlOpportunityId": "KJmrt1OVgjxXs0BMJ95w",
       "upsells": [],
-      "status": "no_show",
+      "status": "pending",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-28T00:01:51.793Z",
-      "date": "2026-10-24T13:00:00.000Z",
+      "date": "2026-11-21T14:00:00.000Z",
       "customerName": "Michael Dignan",
       "customerPhone": "(302) 544-1896",
       "customerEmail": "",
       "contactId": "KJmrt1OVgjxXs0BMJ95w",
-      "car": "DG 2026 Tesla Y Ceramic Coating 499-95depo",
+      "car": "DG 2026 Tesla Y Ceramic Coating 499-120depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -18830,10 +18830,11 @@
       "syncedFromGHL": true,
       "priceMismatchDismissed": false,
       "titlePrice": 499,
-      "titleDeposit": 95,
+      "titleDeposit": 120,
       "priceSource": "title",
       "arrivedByComplete": false,
-      "missedTextAt": "2026-10-24T15:18:39.686Z"
+      "missedTextAt": "2026-10-24T15:18:39.686Z",
+      "ghlValue": 499
     },
     {
       "id": "585e382b079d632b",
@@ -40615,18 +40616,18 @@
       "customerPhone": "(609) 775-7504",
       "customerEmail": "",
       "contactId": "Iuf55bh5wXAuaD9ooHUW",
-      "car": "DG 2027 Tesla Y 2FrontWindows 125-75depo",
+      "car": "DG 2027 Tesla Y 2FrontWindowsNANO 155-75depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 125,
+      "basePrice": 155,
       "priceSource": "title",
       "calendarId": null,
       "priceMismatchDismissed": false,
-      "titlePrice": 125,
+      "titlePrice": 155,
       "titleDeposit": 75,
       "syncedFromGHL": true,
       "ghlValue": 155
@@ -40716,6 +40717,121 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-11-01T16:44:08.559Z",
+      "endpoint": "sync",
+      "matchedSaleId": "e77bfa9a98bd3fa2",
+      "before": {
+        "basePrice": 499,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2026 tesla model y",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "KJmrt1OVgjxXs0BMJ95w",
+        "first_name": "Michael",
+        "last_name": "Dignan",
+        "full_name": "Michael Dignan",
+        "email": "md1258@msn.com",
+        "phone": "+13025441896",
+        "tags": "coating,hp fresh,hp sbn auto styling nj,hp remove booked stage",
+        "country": "US",
+        "date_created": "2026-09-27T22:39:06.498Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Michael Dignan | ",
+        "status": "won",
+        "lead_value": 499,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "zykmo34GojpZuXt7DR1s",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "868814779620228",
+            "medium": "facebook",
+            "formId": "868814779620228",
+            "formName": "499 10 year coatijng",
+            "campaign": "ceramic coating testing",
+            "utm_campaign": "ceramic coating testing",
+            "campaignId": "120255090573720011",
+            "utmMedium": "10 year 499",
+            "utmContent": "hey is this sbn auto styling? 499",
+            "adSetId": "120255090573730011",
+            "adId": "120256326229360011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "868814779620228",
+            "medium": "facebook",
+            "formId": "868814779620228",
+            "formName": "499 10 year coatijng",
+            "campaign": "ceramic coating testing",
+            "utm_campaign": "ceramic coating testing",
+            "campaignId": "120255090573720011",
+            "utmMedium": "10 year 499",
+            "utmContent": "hey is this sbn auto styling? 499",
+            "adSetId": "120255090573730011",
+            "adId": "120256326229360011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "KJmrt1OVgjxXs0BMJ95w"
+        }
+      }
+    },
     {
       "receivedAt": "2026-11-01T16:19:14.189Z",
       "endpoint": "sync",
@@ -50482,115 +50598,6 @@
         "7AdPioENGGidFGdZUnBe",
         "y7rOwJxQNUQNh07KSgGY"
       ]
-    },
-    {
-      "receivedAt": "2026-10-31T14:54:21.972Z",
-      "endpoint": "sync",
-      "matchedSaleId": "7d21020a81642e46",
-      "before": {
-        "basePrice": 700,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 700,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2027 BMW X5",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "7AdPioENGGidFGdZUnBe",
-        "first_name": "Dawaine",
-        "last_name": "W",
-        "full_name": "Dawaine W",
-        "email": "whetstone85@yahoo.com",
-        "phone": "+16098391173",
-        "tags": "coating,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-10-31T14:43:25.773Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Dawaine W | ",
-        "status": "won",
-        "lead_value": 700,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "EoQMGaNm7WEo5Ws1UHCd",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating winners",
-            "utm_campaign": "ceramic coating winners",
-            "campaignId": "120256836035700011",
-            "utmMedium": "grand opening 10 year winner",
-            "utmContent": "grand opening 10 year winner",
-            "adSetId": "120256836035550011",
-            "adId": "120256836035570011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "1436133781928960",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "1436133781928960"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "700",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "7AdPioENGGidFGdZUnBe"
-        }
-      }
     }
   ],
   "attendance": [
@@ -54480,6 +54487,36 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "012ceac044784708",
+      "timestamp": "2026-11-01T16:44:07.104Z",
+      "actor": "Auto-matched (reschedule)",
+      "saleId": "e77bfa9a98bd3fa2",
+      "car": "DG 2026 Tesla Y Ceramic Coating 499-95depo",
+      "field": "Status",
+      "oldValue": "no_show",
+      "newValue": "pending"
+    },
+    {
+      "id": "fc3743e7a5f4aa7d",
+      "timestamp": "2026-11-01T16:23:59.562Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "bcb035e421a5df98",
+      "car": "DG 2027 Tesla Y 2FrontWindowsNANO 155-75depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2027 Tesla Y 2FrontWindows 125-75depo",
+      "newValue": "DG 2027 Tesla Y 2FrontWindowsNANO 155-75depo"
+    },
+    {
+      "id": "876ccd4eb570089a",
+      "timestamp": "2026-11-01T16:23:59.562Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "bcb035e421a5df98",
+      "car": "DG 2027 Tesla Y 2FrontWindowsNANO 155-75depo",
+      "field": "Base price",
+      "oldValue": 125,
+      "newValue": 155
+    },
     {
       "id": "69e6a1264da980b6",
       "timestamp": "2026-10-31T23:19:53.599Z",
@@ -64449,36 +64486,6 @@
       "field": "Base price",
       "oldValue": 500,
       "newValue": 499
-    },
-    {
-      "id": "6605cc99417ea8f9",
-      "timestamp": "2026-09-03T21:26:46.045Z",
-      "actor": "Owner",
-      "saleId": "0442f9f8c3214081",
-      "car": "IB raghu 2026 Tesla model Y 499 10yr + r/s tint 229$",
-      "field": "Service",
-      "oldValue": "Window Tint",
-      "newValue": "Ceramic Coating"
-    },
-    {
-      "id": "e94697595f9fc557",
-      "timestamp": "2026-09-03T21:26:46.045Z",
-      "actor": "Owner",
-      "saleId": "0442f9f8c3214081",
-      "car": "IB raghu 2026 Tesla model Y 499 10yr + r/s tint 229$",
-      "field": "Base price",
-      "oldValue": 728,
-      "newValue": 499
-    },
-    {
-      "id": "bdd01d9a6f8fd687",
-      "timestamp": "2026-09-03T21:26:33.727Z",
-      "actor": "Owner",
-      "saleId": "75522b64f161e7f9",
-      "car": "DG 2009 Honda Civic S+R&Sunstrip 399-50depo",
-      "field": "Service",
-      "oldValue": "",
-      "newValue": "Window Tint"
     }
   ],
   "cashEntries": [
