@@ -31201,7 +31201,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-18T17:37:37.880Z",
       "closedAtSource": "tracker",
       "date": "2026-11-02T14:00:00.000Z",
@@ -31224,7 +31224,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 599,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "5584360911e4a019",
@@ -33118,8 +33120,8 @@
       "ghlOpportunityId": "3j2WMO5FDxYOzuVy6Wny",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-20T21:19:05.187Z",
       "closedAtSource": "tracker",
       "date": "2026-11-02T21:00:00.000Z",
@@ -33128,8 +33130,10 @@
       "customerEmail": "",
       "contactId": "3j2WMO5FDxYOzuVy6Wny",
       "car": "DG 2001 Ford F350 2FrontWindows&Sunstrip 250-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -33142,7 +33146,13 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 250,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCash": true,
+      "paymentMethod": "cash",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "fb58cf4197d39e46",
@@ -34923,8 +34933,8 @@
       "ghlOpportunityId": "JhibLtL9cRzC6x9Dr5Sl",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-22T22:33:13.681Z",
       "closedAtSource": "tracker",
       "date": "2026-11-02T15:00:00.000Z",
@@ -34947,7 +34957,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 499,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "0278f520686c72bd",
@@ -36378,7 +36390,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-25T17:29:55.115Z",
       "closedAtSource": "tracker",
       "date": "2026-11-02T14:00:00.000Z",
@@ -36401,7 +36413,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 565,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "a31cf2caacc457b5",
@@ -36409,7 +36423,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-25T18:18:33.162Z",
       "closedAtSource": "tracker",
       "date": "2026-11-02T14:00:00.000Z",
@@ -36431,7 +36445,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 1150,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "bb3c0b8515832580",
@@ -56463,6 +56479,26 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "cdcea88ca15a4511",
+      "timestamp": "2026-11-02T22:58:12.114Z",
+      "actor": "Aaron (manager)",
+      "saleId": "9c2777fae5db7d3d",
+      "car": "DG 2001 Ford F350 2FrontWindows&Sunstrip 250-75depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 175
+    },
+    {
+      "id": "eeb93e97012e9118",
+      "timestamp": "2026-11-02T22:52:54.859Z",
+      "actor": "Gio (manager)",
+      "saleId": "a31cf2caacc457b5",
+      "car": "DG 2027 Corvette C8&2023 Chevy Camaro Ceramic Coating&Rims&AllWindows 1150-300depoCash",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 1150
+    },
+    {
       "id": "5c7ebba2382a285b",
       "timestamp": "2026-11-02T22:13:01.688Z",
       "actor": "Aaron (manager)",
@@ -66441,29 +66477,39 @@
       "field": "Base price",
       "oldValue": 0,
       "newValue": 299
-    },
-    {
-      "id": "5e6cda1b101b8282",
-      "timestamp": "2026-09-09T13:55:45.411Z",
-      "actor": "Owner",
-      "saleId": "fbf0fd2aa2680c05",
-      "car": "DG 2024 Tesla 3 AllAroundTINT 495-50depo He will pick up at 5:00PM",
-      "field": "Car/Title",
-      "oldValue": "DG 2024 Tesla 3 AllAroundTINT 495-50depo He will pick up at 5:00PM",
-      "newValue": "DG 2024 Tesla 3 S+R 299-50depo He will pick up at 5:00PM"
-    },
-    {
-      "id": "bb7bc8314acaf4c5",
-      "timestamp": "2026-09-09T13:55:33.703Z",
-      "actor": "Owner",
-      "saleId": "fbf0fd2aa2680c05",
-      "car": "DG 2024 Tesla 3 AllAroundTINT 495-50depo He will pick up at 5:00PM",
-      "field": "Base price",
-      "oldValue": 495,
-      "newValue": 299
     }
   ],
   "cashEntries": [
+    {
+      "id": "d5d8943c5ae5ec16",
+      "type": "cashIn",
+      "amount": 175,
+      "category": "Customer Payment",
+      "note": "DG 2001 Ford F350 2FrontWindows&Sunstrip 250-75depo — Joe Galvin",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "9c2777fae5db7d3d",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-11-02T22:58:12.114Z"
+    },
+    {
+      "id": "a9f80489b90e40b8",
+      "type": "cashIn",
+      "amount": 1150,
+      "category": "Customer Payment",
+      "note": "DG 2027 Corvette C8&2023 Chevy Camaro Ceramic Coating&Rims&AllWindows 1150-300depoCash — Andy_babymikes",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "a31cf2caacc457b5",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "19d1389561891623",
+      "enteredByName": "Gio",
+      "timestamp": "2026-11-02T22:52:54.859Z"
+    },
     {
       "id": "8e548505e9a5120f",
       "type": "cashIn",
