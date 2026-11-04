@@ -30279,9 +30279,10 @@
       "titlePrice": null,
       "titleDeposit": null,
       "isRedo": true,
-      "redoAuto": true,
+      "redoAuto": false,
       "calendarId": null,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "redoDismissed": false
     },
     {
       "id": "963442a1e247c281",
@@ -37820,7 +37821,12 @@
       "managerHelperIds": [
         "19d1389561891623"
       ],
-      "managerHelperNames": "Gio"
+      "managerHelperNames": "Gio",
+      "closerLocked": true,
+      "walkInClosedAuto": null,
+      "isRedo": false,
+      "redoAuto": false,
+      "redoDismissed": true
     },
     {
       "id": "e3f0fee163b19a66",
@@ -52807,6 +52813,66 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "2a08b8d64f943047",
+      "timestamp": "2026-11-04T14:02:34.953Z",
+      "actor": "Naomi (manager)",
+      "saleId": "7b678ab02dd4b45e",
+      "car": "NA 2016 mustang GT Ceramic coating - 2 step  $849 -$95depo",
+      "field": "Redo (no charge)",
+      "oldValue": true,
+      "newValue": false
+    },
+    {
+      "id": "793dde899d1b5bf4",
+      "timestamp": "2026-11-04T14:02:32.386Z",
+      "actor": "Naomi (manager)",
+      "saleId": "7b678ab02dd4b45e",
+      "car": "NA 2016 mustang GT Ceramic coating - 2 step  $849 -$95depo",
+      "field": "Redo (no charge)",
+      "oldValue": false,
+      "newValue": true
+    },
+    {
+      "id": "15852ce89849d637",
+      "timestamp": "2026-11-04T14:02:31.253Z",
+      "actor": "Naomi (manager)",
+      "saleId": "7b678ab02dd4b45e",
+      "car": "NA 2016 mustang GT Ceramic coating - 2 step  $849 -$95depo",
+      "field": "Redo (no charge)",
+      "oldValue": true,
+      "newValue": false
+    },
+    {
+      "id": "d41359573619ba2d",
+      "timestamp": "2026-11-04T14:02:27.532Z",
+      "actor": "Naomi (manager)",
+      "saleId": "7b678ab02dd4b45e",
+      "car": "NA 2016 mustang GT Ceramic coating - 2 step  $849 -$95depo",
+      "field": "Redo (no charge)",
+      "oldValue": false,
+      "newValue": true
+    },
+    {
+      "id": "76989f10e1ab5f48",
+      "timestamp": "2026-11-04T13:56:46.223Z",
+      "actor": "Owner",
+      "saleId": "4e5c001c3b4aadcb",
+      "car": "Kane Hilsee REDO Sides&Rear",
+      "field": "Redo (no charge)",
+      "oldValue": false,
+      "newValue": true
+    },
+    {
+      "id": "16a7e7b7541231f6",
+      "timestamp": "2026-11-04T13:56:44.105Z",
+      "actor": "Owner",
+      "saleId": "4e5c001c3b4aadcb",
+      "car": "Kane Hilsee REDO Sides&Rear",
+      "field": "Redo (no charge)",
+      "oldValue": true,
+      "newValue": false
+    },
+    {
       "id": "8a1167f9e11a0b50",
       "timestamp": "2026-11-04T00:39:15.719Z",
       "actor": "Rep tracker (owner)",
@@ -62745,66 +62811,6 @@
       "field": "Car/Title",
       "oldValue": "2002 Lincoln Corsair WEBSITE BOOOKING 499$ WE COOKED ",
       "newValue": "2002 Lincoln Corsair WEBSITE BOOOKING 499$ WE COOKED"
-    },
-    {
-      "id": "17641765e9921b4e",
-      "timestamp": "2026-09-09T19:15:34.836Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "4ecbf04a0c9af61d",
-      "car": "DG S+RTINT5%Back&20%Front2 $300 2019 A6 CeramicCoating REDO ASAP CLEANIT Claybar and Irondecom",
-      "field": "Car/Title",
-      "oldValue": "DG S+RTINT5%Back&20%Front2 $300 2019 A6 Ceramic Coating REDO ASAP CLEAN IT ",
-      "newValue": "DG S+RTINT5%Back&20%Front2 $300 2019 A6 CeramicCoating REDO ASAP CLEANIT Claybar and Irondecom"
-    },
-    {
-      "id": "1159d3e13b77eefd",
-      "timestamp": "2026-09-09T19:15:29.674Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "0fbb663cfd558d6b",
-      "car": "Justin Klepadlo",
-      "field": "Car/Title",
-      "oldValue": "Justin Klepadlo ",
-      "newValue": "Justin Klepadlo"
-    },
-    {
-      "id": "8c72ee9abeb94779",
-      "timestamp": "2026-09-09T19:15:28.035Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "ecbea9d918bf590d",
-      "car": "IB Ivan GMC Sierra 480-100$ 10yr coating referral",
-      "field": "Car/Title",
-      "oldValue": "IB Ivan GMC Sierra 480-100$ 10yr coating referral ",
-      "newValue": "IB Ivan GMC Sierra 480-100$ 10yr coating referral"
-    },
-    {
-      "id": "dfa56e63e3ab4af9",
-      "timestamp": "2026-09-09T19:15:27.219Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "d2ada8f4c7016f88",
-      "car": "TG (Gilberts gf=Natalie) jeep wrangler 2019 front windshield 175$ -depo, -50$",
-      "field": "Car/Title",
-      "oldValue": "TG (Gilberts gf=Natalie) jeep wrangler 2019 front windshield 175$ -depo, -50$ ",
-      "newValue": "TG (Gilberts gf=Natalie) jeep wrangler 2019 front windshield 175$ -depo, -50$"
-    },
-    {
-      "id": "91d9a98d87f6a115",
-      "timestamp": "2026-09-09T19:15:22.914Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "9797a0ee46f3abe1",
-      "car": "fk luis 2021 toyota tundra  black 499$ -95 depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2025 White Toyota Tundra Ceramic Coating 490-95depo",
-      "newValue": "fk luis 2021 toyota tundra  black 499$ -95 depo"
-    },
-    {
-      "id": "8d5568aee2e04b80",
-      "timestamp": "2026-09-09T19:15:20.692Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "113ac242bfee6f3f",
-      "car": "Nitailia  McLaughlin",
-      "field": "Car/Title",
-      "oldValue": "Nitailia  McLaughlin ",
-      "newValue": "Nitailia  McLaughlin"
     }
   ],
   "cashEntries": [
