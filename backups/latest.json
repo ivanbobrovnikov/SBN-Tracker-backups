@@ -59,6 +59,42 @@
       "salaryPerPeriod": 3180,
       "hourlyRate": 0,
       "carCommissionRate": 0
+    },
+    {
+      "initials": "",
+      "id": "c2ad905af8951e80",
+      "name": "Devonte",
+      "commissionRate": 10,
+      "walkInCommissionRate": 10,
+      "pinHash": "d1a8801225ff219730258f0ddc1febee76e5da87df82dbee33b8eac1ab146140",
+      "payType": null,
+      "salaryPerPeriod": 0,
+      "hourlyRate": 0,
+      "carCommissionRate": 0
+    },
+    {
+      "initials": "",
+      "id": "4066ba038b9e1c0c",
+      "name": "Brian",
+      "commissionRate": 10,
+      "walkInCommissionRate": 10,
+      "pinHash": "923460afd903841a21363fb1ae650e8d624aaea62efe94c043dced07673a52e3",
+      "payType": null,
+      "salaryPerPeriod": 0,
+      "hourlyRate": 0,
+      "carCommissionRate": 0
+    },
+    {
+      "initials": "",
+      "id": "d34a56ef18af3bd5",
+      "name": "Austin",
+      "commissionRate": 10,
+      "walkInCommissionRate": 10,
+      "pinHash": "6395d074384a7076ef14af955956d3ea38952a9d7781a321b74c954da32f2dd6",
+      "payType": null,
+      "salaryPerPeriod": 0,
+      "hourlyRate": 0,
+      "carCommissionRate": 0
     }
   ],
   "sales": [
@@ -34825,7 +34861,7 @@
       "ghlOpportunityId": "vlxMlZD0Jt76v9Q5r6Vu",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-10-22T21:11:40.196Z",
       "closedAtSource": "tracker",
@@ -36899,8 +36935,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-26T18:45:58.611Z",
       "closedAtSource": "tracker",
       "date": "2026-11-03T20:00:00.000Z",
@@ -36909,8 +36945,12 @@
       "customerEmail": "",
       "contactId": "MqPENM4zxldrSHkkM6AT",
       "car": "DG 2026 Volkswagen Jetta AllAround NANOTINT 550-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b",
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Angelica, Feso, Edward",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -36923,7 +36963,13 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 550,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "68f6286e7a6b3669",
@@ -37821,7 +37867,7 @@
       "ghlOpportunityId": "msYLXKuGlN825aNV33TH",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-10-27T19:26:29.813Z",
       "closedAtSource": "tracker",
@@ -37831,8 +37877,11 @@
       "customerEmail": "",
       "contactId": "msYLXKuGlN825aNV33TH",
       "car": "NA 2016 mustang GT Ceramic coating - 2 step  $849 -$95depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "7bcc22db24b2124f",
+        "8ee8cc14340b4386"
+      ],
+      "employeeNames": "Paul, Nick",
       "salesRepId": null,
       "salesRepName": "Walk-in (booked by staff)",
       "baseService": "Ceramic Coating",
@@ -37851,7 +37900,11 @@
       "walkInClosedByName": "Naomi",
       "arrivedByComplete": false,
       "paidCash": true,
-      "paymentMethod": "cash"
+      "paymentMethod": "cash",
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio"
     },
     {
       "id": "e3f0fee163b19a66",
@@ -38290,7 +38343,7 @@
       "ghlOpportunityId": "IdixRsDLVbWgO8ydwUm6",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-10-28T15:53:27.580Z",
       "closedAtSource": "tracker",
@@ -38300,8 +38353,11 @@
       "customerEmail": "",
       "contactId": "IdixRsDLVbWgO8ydwUm6",
       "car": "DG 2024 Grey Porsche Macan Ceramic Coating&FrontWindshield 560-150depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "7bcc22db24b2124f",
+        "8ee8cc14340b4386"
+      ],
+      "employeeNames": "Paul, Nick",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -38316,7 +38372,11 @@
       "ghlValue": 560,
       "arrivedByComplete": false,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio"
     },
     {
       "id": "bcf3c7637a767de7",
@@ -40824,7 +40884,7 @@
       "ghlOpportunityId": "yCvtW2O6nNBOZSyQnzpz",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-11-01T18:38:38.489Z",
       "closedAtSource": "tracker",
@@ -41767,7 +41827,7 @@
       "id": "c31194209010ff2b",
       "ghlOpportunityId": "thiDgkZHQqtB54SjzW4I",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-03T18:21:20.765Z",
@@ -41790,7 +41850,17 @@
       "titlePrice": null,
       "titleDeposit": null,
       "syncedFromGHL": true,
-      "ghlValue": 185
+      "ghlValue": 185,
+      "notes": [
+        {
+          "id": "c4e48d8762c1a200",
+          "text": "Did not want to wait because he came in when we were backed up",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-11-04T00:07:07.613Z"
+        }
+      ],
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-11-04T00:07:34.456Z"
     },
     {
       "id": "335d285893044776",
@@ -41945,7 +42015,7 @@
       "id": "5caaaa4479442f72",
       "ghlOpportunityId": "Mtf5TZrB8cDPUt6LNrWX",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-03T21:55:43.878Z",
@@ -41968,7 +42038,8 @@
       "priceMismatchDismissed": false,
       "titlePrice": 615,
       "titleDeposit": 75,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "arrivedByComplete": false
     },
     {
       "id": "471c77b90df8c167",
@@ -41998,6 +42069,35 @@
       "titleDeposit": null,
       "syncedFromGHL": true,
       "ghlValue": 299
+    },
+    {
+      "id": "d6bbf7ed1accb857",
+      "ghlOpportunityId": "M3pRNdxO2w0BuIpyUheh",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-04T00:12:46.677Z",
+      "closedAtSource": "tracker",
+      "date": "2026-11-14T20:00:00.000Z",
+      "customerName": "John",
+      "customerPhone": "(732) 519-7990",
+      "customerEmail": "",
+      "contactId": "M3pRNdxO2w0BuIpyUheh",
+      "car": "DG 2016 Audi A6 AllAroundTint 450-75depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 450,
+      "priceSource": "title",
+      "calendarId": null,
+      "priceMismatchDismissed": false,
+      "titlePrice": 450,
+      "titleDeposit": 75,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -42074,13 +42174,12 @@
       "phone": "+12679815104"
     },
     {
-      "id": "2f9e6dafbac5febf",
-      "name": "Matthew Rutledge",
-      "initials": "MR",
-      "pinHash": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "id": "b77cab2b0cf8a1ba",
+      "name": "Kevin Quintero",
+      "initials": "KQ",
+      "pinHash": "f8b40ff421c5607a72a3850306b3e25c70b36e0544c09bcb49e85db8a8fe6924",
       "commissionRate": 8,
-      "afterHoursCommissionRate": 12,
-      "phone": "+16318712994"
+      "afterHoursCommissionRate": 12
     }
   ],
   "debugLog": [
@@ -67467,6 +67566,22 @@
   },
   "textLog": [
     {
+      "id": "f08673d97623f0cf",
+      "at": "2026-11-04T00:07:34.456Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "c31194209010ff2b",
+      "customerName": "",
+      "car": "2015 Ford F150 FrontWindsheild 185-Sday",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - A customer, 2015 Ford F150 FrontWindsheild 185-Sday, was due 3:00 PM today. Call (856) 723-3840.",
+      "status": "sent",
+      "nextAt": 1793750874456,
+      "sentAt": "2026-11-04T00:07:55.257Z",
+      "reason": ""
+    },
+    {
       "id": "24d1a330dcc4f285",
       "at": "2026-11-03T21:19:18.581Z",
       "attempts": 1,
@@ -69425,6 +69540,24 @@
     }
   ],
   "hookLog": [
+    {
+      "id": "a76936e8c805faeb",
+      "at": "2026-11-04T00:15:03.001Z",
+      "route": "cancelled",
+      "outcome": "refused",
+      "reason": "no opportunity ID in what GHL sent"
+    },
+    {
+      "id": "68daab4e05673499",
+      "at": "2026-11-04T00:12:46.681Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "M3pRNdxO2w0BuIpyUheh",
+      "customer": "John",
+      "car": "DG 2016 Audi A6 AllAroundTint 450-75depo",
+      "saleId": "d6bbf7ed1accb857",
+      "merged": false
+    },
     {
       "id": "225670b2992c91ab",
       "at": "2026-11-03T23:01:00.581Z",
