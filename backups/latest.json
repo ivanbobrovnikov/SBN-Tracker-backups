@@ -43804,6 +43804,34 @@
       "titleDeposit": 75,
       "syncedFromGHL": true,
       "ghlValue": 275
+    },
+    {
+      "id": "3d23b3282eae8a46",
+      "ghlOpportunityId": "EvF2UCl14yBFuQ2hB15B",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-04T23:32:32.505Z",
+      "closedAtSource": "tracker",
+      "closeApptDate": "2026-11-30T13:00:00.000Z",
+      "date": "2026-11-30T13:00:00.000Z",
+      "customerName": "Jeff Hummel",
+      "customerPhone": "(856) 229-1751",
+      "customerEmail": "",
+      "contactId": "EvF2UCl14yBFuQ2hB15B",
+      "car": "Jeff Hummel",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Ceramic Coating",
+      "basePrice": 0,
+      "priceSource": "ghl",
+      "calendarId": null,
+      "titlePrice": null,
+      "titleDeposit": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -72739,6 +72767,17 @@
     }
   ],
   "hookLog": [
+    {
+      "id": "da28fd449eb72e4b",
+      "at": "2026-11-04T23:32:32.508Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "EvF2UCl14yBFuQ2hB15B",
+      "customer": "Jeff Hummel",
+      "car": "Jeff Hummel",
+      "saleId": "3d23b3282eae8a46",
+      "merged": false
+    },
     {
       "id": "c50e2371074f5ac4",
       "at": "2026-11-04T22:43:23.032Z",
