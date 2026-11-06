@@ -16951,7 +16951,8 @@
           "timestamp": "2026-11-02T15:27:36.194Z"
         }
       ],
-      "closeApptDate": "2026-11-06T20:00:00.000Z"
+      "closeApptDate": "2026-11-06T20:00:00.000Z",
+      "missedTextAt": null
     },
     {
       "id": "bae5a8f091ae171b",
@@ -29643,7 +29644,7 @@
       "id": "091d418cb7e09768",
       "ghlOpportunityId": "DYQjEvellZIP47ROwIp4~earlier-091d418cb7e09768",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-14T13:05:47.219Z",
@@ -29668,7 +29669,8 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 960,
-      "closeApptDate": "2026-11-07T14:00:00.000Z"
+      "closeApptDate": "2026-11-07T14:00:00.000Z",
+      "arrivedByComplete": false
     },
     {
       "id": "6ca7784d505cd9f4",
@@ -30255,7 +30257,7 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-10-14T22:20:26.860Z",
       "closedAtSource": "tracker",
@@ -30265,8 +30267,10 @@
       "customerEmail": "",
       "contactId": "Gltzcx8ek47rWjEpKQXK",
       "car": "DG 2019 Honda Accord S+RTINT 299-75depo Reschedule",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -31590,7 +31594,7 @@
       "id": "79d9550e3cc4ad77",
       "ghlOpportunityId": "GPHnNKN2qXQ679I0cvUa",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-17T16:36:55.751Z",
@@ -31615,7 +31619,8 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 200,
-      "closeApptDate": "2026-11-06T21:00:00.000Z"
+      "closeApptDate": "2026-11-06T21:00:00.000Z",
+      "arrivedByComplete": false
     },
     {
       "id": "66cbcdf76ab9dd72",
@@ -42336,7 +42341,7 @@
       "id": "9e5ce3773582911b",
       "ghlOpportunityId": "fTCyEUpUcskkbmVRGGE2",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-01T22:04:09.452Z",
@@ -42361,7 +42366,8 @@
       "titleDeposit": 75,
       "syncedFromGHL": true,
       "ghlValue": 249,
-      "closeApptDate": "2026-11-06T21:00:00.000Z"
+      "closeApptDate": "2026-11-06T21:00:00.000Z",
+      "arrivedByComplete": false
     },
     {
       "id": "d4c4375ff623e9d6",
@@ -43726,7 +43732,7 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-11-04T15:55:54.129Z",
       "closedAtSource": "tracker",
@@ -43736,8 +43742,10 @@
       "customerEmail": "",
       "contactId": "LPagifHVHNOvO46ccZ3M",
       "car": "DG 2005 Honda Accord AllAroundTINT&Sunroof 550-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "ed55d50b916a979a"
+      ],
+      "employeeNames": "Aaron",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -44734,8 +44742,11 @@
       "customerEmail": "",
       "contactId": "ArKUItUEyazcaK3qIEsB",
       "car": "DG 2026 Toyota Rav4 2FrontWindows 135-Walkin",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "1050c9240f87fa5f",
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Isseyah, Edward",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -45103,6 +45114,37 @@
       "titleDeposit": 50,
       "syncedFromGHL": true,
       "ghlValue": 299
+    },
+    {
+      "id": "ce87a745c5d16b73",
+      "ghlOpportunityId": "RMGeBbNn29C5TT0buxrf",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-06T21:28:11.928Z",
+      "closedAtSource": "tracker",
+      "closeApptDate": "2026-11-07T14:00:00.000Z",
+      "date": "2026-11-07T14:00:00.000Z",
+      "customerName": "Dave",
+      "customerPhone": "(856) 419-8308",
+      "customerEmail": "",
+      "contactId": "RMGeBbNn29C5TT0buxrf",
+      "car": "DG 2018 Black Corvette C7 Ceramic Coating&Rims 599-150depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Ceramic Coating",
+      "basePrice": 599,
+      "priceSource": "title",
+      "calendarId": null,
+      "priceMismatchDismissed": false,
+      "titlePrice": 599,
+      "titleDeposit": 150,
+      "syncedFromGHL": true,
+      "ghlValue": 599
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -45176,6 +45218,66 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-11-06T21:28:50.753Z",
+      "endpoint": "sync",
+      "matchedSaleId": "ce87a745c5d16b73",
+      "before": {
+        "basePrice": 599,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 599,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "RMGeBbNn29C5TT0buxrf",
+        "first_name": "Dave",
+        "full_name": "Dave",
+        "email": "davec7@gmail.com",
+        "phone": "+18564198308",
+        "tags": "hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-11-06T21:25:39.113Z",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Dave | ",
+        "status": "won",
+        "lead_value": 599,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "pb54CXMCZLCg135xWce6",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "customData": {
+          "basePrice": "599",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "RMGeBbNn29C5TT0buxrf"
+        }
+      }
+    },
     {
       "receivedAt": "2026-11-06T20:14:44.887Z",
       "endpoint": "sync",
@@ -56525,108 +56627,6 @@
         "customData": {
           "basePrice": "380",
           "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "JKTkEDQFi26NmkECShM9"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-11-05T17:39:29.067Z",
-      "endpoint": "sync",
-      "matchedSaleId": "b2a595fa45c4355a",
-      "before": {
-        "basePrice": 380,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 380,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2026 Kia K5 LXS",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "JKTkEDQFi26NmkECShM9",
-        "first_name": "Jaiden",
-        "last_name": "da Silva",
-        "full_name": "Jaiden da Silva",
-        "email": "jaidendasilva17@gmail.com",
-        "phone": "+19084992398",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-11-05T00:40:35.320Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Jaiden Da Silva | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "HRCvOM5zmcQmJvMwV7gd",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "black friday edit 1 299",
-            "adSetId": "120254638050770011",
-            "adId": "120257492571330011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "2378944339573572",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "2378944339573572"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "",
           "contactId": "JKTkEDQFi26NmkECShM9"
         }
       }
@@ -75848,6 +75848,21 @@
   },
   "textLog": [
     {
+      "id": "f05de6c19b8331c3",
+      "at": "2026-11-06T21:15:45.581Z",
+      "attempts": 0,
+      "kind": "no_show",
+      "saleId": "db0d33fc5e93de31",
+      "customerName": "Rav_jay🐦‍⬛ Pee",
+      "car": "2013 BMW 3Series S+RTINT&Removal 450-depo291.50",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Rav_jay🐦‍⬛ Pee, 2013 BMW 3Series S+RTINT&Removal 450-depo291.50, was due 3:00 PM today. Call (856) 443-3558.",
+      "status": "skipped",
+      "nextAt": 1793999765581,
+      "reason": "It was changed back before the text went out."
+    },
+    {
       "id": "3d1081d829134fbf",
       "at": "2026-11-05T21:57:12.396Z",
       "attempts": 1,
@@ -77957,6 +77972,17 @@
     }
   ],
   "hookLog": [
+    {
+      "id": "af5f8cf23195ba1b",
+      "at": "2026-11-06T21:28:11.932Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "RMGeBbNn29C5TT0buxrf",
+      "customer": "Dave",
+      "car": "DG 2018 Black Corvette C7 Ceramic Coating&Rims 599-150depo",
+      "saleId": "ce87a745c5d16b73",
+      "merged": false
+    },
     {
       "id": "8a1f1e3ad15eb8f9",
       "at": "2026-11-06T20:14:44.388Z",
