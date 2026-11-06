@@ -40790,7 +40790,15 @@
       "managerHelperIds": [
         "19d1389561891623"
       ],
-      "managerHelperNames": "Gio"
+      "managerHelperNames": "Gio",
+      "notes": [
+        {
+          "id": "9ec14c26af79dbbc",
+          "text": "Tipped $20",
+          "authorName": "Aaron",
+          "timestamp": "2026-11-06T18:38:51.425Z"
+        }
+      ]
     },
     {
       "id": "5f10f3614926c33d",
@@ -43920,8 +43928,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-04T20:14:55.868Z",
       "closedAtSource": "tracker",
       "date": "2026-11-05T14:00:00.000Z",
@@ -43929,9 +43937,14 @@
       "customerPhone": "(856) 373-1022",
       "customerEmail": "",
       "contactId": "Gu5TjLyIaTKGaD6S0GZu",
-      "car": "NA BROWN 2016 MERCEDES S5 CERAMIC COATING + 2 STEP + RIMS -$969 -$95DEPO",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "car": "NA BROWN 2016 MERCEDES S5 CERAMIC COATING + RIMS -$619 -$95DEPO",
+      "employeeIds": [
+        "8ee8cc14340b4386",
+        "c2ad905af8951e80",
+        "4066ba038b9e1c0c",
+        "d34a56ef18af3bd5"
+      ],
+      "employeeNames": "Nick, Devonte, Brian, Austin",
       "salesRepId": null,
       "salesRepName": "Walk-in (booked by staff)",
       "isWalkIn": true,
@@ -43940,11 +43953,11 @@
       "walkInClosedByName": "Naomi",
       "walkInClosedAuto": null,
       "baseService": "Ceramic Coating",
-      "basePrice": 969,
+      "basePrice": 619,
       "priceSource": "manual",
       "calendarId": null,
       "priceMismatchDismissed": false,
-      "titlePrice": 969,
+      "titlePrice": 619,
       "titleDeposit": 95,
       "syncedFromGHL": true,
       "ghlValue": 499,
@@ -43952,7 +43965,14 @@
       "closeApptDate": "2026-11-05T14:00:00.000Z",
       "priceLocked": true,
       "isOnlineBooking": false,
-      "closerLocked": true
+      "closerLocked": true,
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio",
+      "titleLocked": true,
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "659b4db1dcc65eac",
@@ -60909,6 +60929,46 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "4de5cde434e60d99",
+      "timestamp": "2026-11-06T18:51:41.776Z",
+      "actor": "Naomi (manager)",
+      "saleId": "c8ed9f6baa65b431",
+      "car": "NA BROWN 2016 MERCEDES S5 CERAMIC COATING + RIMS -$619 -$95DEPO",
+      "field": "Cash received",
+      "oldValue": 1124.9,
+      "newValue": 1124
+    },
+    {
+      "id": "c0d4f1769d55bc6b",
+      "timestamp": "2026-11-06T18:51:34.502Z",
+      "actor": "Naomi (manager)",
+      "saleId": "c8ed9f6baa65b431",
+      "car": "NA BROWN 2016 MERCEDES S5 CERAMIC COATING + RIMS -$619 -$95DEPO",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 1124.9
+    },
+    {
+      "id": "29c03b65cfd30e19",
+      "timestamp": "2026-11-06T18:51:21.438Z",
+      "actor": "Naomi (manager)",
+      "saleId": "c8ed9f6baa65b431",
+      "car": "NA BROWN 2016 MERCEDES S5 CERAMIC COATING + RIMS -$619 -$95DEPO",
+      "field": "Base price",
+      "oldValue": 969,
+      "newValue": 619
+    },
+    {
+      "id": "42049fc4ccafe594",
+      "timestamp": "2026-11-06T18:51:16.693Z",
+      "actor": "Naomi (manager)",
+      "saleId": "c8ed9f6baa65b431",
+      "car": "NA BROWN 2016 MERCEDES S5 CERAMIC COATING + 2 STEP + RIMS -$969 -$95DEPO",
+      "field": "Car/Title",
+      "oldValue": "NA BROWN 2016 MERCEDES S5 CERAMIC COATING + 2 STEP + RIMS -$969 -$95DEPO",
+      "newValue": "NA BROWN 2016 MERCEDES S5 CERAMIC COATING + RIMS -$619 -$95DEPO"
+    },
+    {
       "id": "97b33b79283c9735",
       "timestamp": "2026-11-06T18:37:28.638Z",
       "actor": "Owner",
@@ -70867,49 +70927,24 @@
       "field": "Base price",
       "oldValue": 0,
       "newValue": 299
-    },
-    {
-      "id": "eaa2966d9d3afbe3",
-      "timestamp": "2026-09-11T22:29:37.753Z",
-      "actor": "Owner",
-      "saleId": "ab726d8a344f89da",
-      "car": "2002 Lincoln Corsair WEBSITE BOOOKING 499$ WE COOKED",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "1e7d07fff960ffb6",
-      "timestamp": "2026-09-11T22:29:22.082Z",
-      "actor": "Owner",
-      "saleId": "0e11048a7d2b643f",
-      "car": "DG 2014 Mercedes-Benz AllAroundTINT 400-75depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 400
-    },
-    {
-      "id": "a42295c250d99c60",
-      "timestamp": "2026-09-11T22:29:08.470Z",
-      "actor": "Owner",
-      "saleId": "4ac290992d8c31b0",
-      "car": "FK 2016 BMW X5M AllAroundTintNaNo 599-100depo DG 100 For NaNo Upsell",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 599
-    },
-    {
-      "id": "921cc840835e3fac",
-      "timestamp": "2026-09-11T22:29:04.305Z",
-      "actor": "Owner",
-      "saleId": "961630cff283374c",
-      "car": "DG 2026 HONDA ACCORD S+RTINT&SUNSTRIP 399-50DEPO",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 399
     }
   ],
   "cashEntries": [
+    {
+      "id": "86cfdaa5375d8f0d",
+      "type": "cashIn",
+      "amount": 1124,
+      "category": "Customer Payment",
+      "note": "NA BROWN 2016 MERCEDES S5 CERAMIC COATING + RIMS -$619 -$95DEPO — Randy",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "c8ed9f6baa65b431",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-11-06T18:51:34.502Z"
+    },
     {
       "id": "62e7fd70ee08be9c",
       "type": "cashIn",
