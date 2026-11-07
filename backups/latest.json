@@ -31627,7 +31627,15 @@
       "closeApptDate": "2026-11-06T21:00:00.000Z",
       "arrivedByComplete": false,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "notes": [
+        {
+          "id": "1f29ddbf955c1a55",
+          "text": "Eddie",
+          "authorName": "Aaron",
+          "timestamp": "2026-11-06T23:56:30.127Z"
+        }
+      ]
     },
     {
       "id": "66cbcdf76ab9dd72",
@@ -38411,7 +38419,7 @@
       "ghlOpportunityId": "tgqzRz9kIimonGIJ9Yu6",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-10-27T00:26:37.629Z",
       "closedAtSource": "tracker",
@@ -41028,7 +41036,7 @@
       "ghlOpportunityId": "2MuBgvKPVEMRB5H37iar",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-10-30T15:25:53.621Z",
       "closedAtSource": "tracker",
@@ -41061,7 +41069,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-30T15:59:23.097Z",
       "closedAtSource": "tracker",
       "date": "2026-11-06T21:00:00.000Z",
@@ -41070,8 +41078,10 @@
       "customerEmail": "",
       "contactId": "x0LQ5gPqikqRcfWXc9a7",
       "car": "DG 2011 Subaru Legacy AllAroundTINT 460-65depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -41085,7 +41095,17 @@
       "syncedFromGHL": true,
       "ghlValue": 299,
       "closeApptDate": "2026-11-06T20:00:00.000Z",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card",
+      "notes": [
+        {
+          "id": "32be8e6c727f2b01",
+          "text": "Feso",
+          "authorName": "Aaron",
+          "timestamp": "2026-11-06T23:56:23.830Z"
+        }
+      ]
     },
     {
       "id": "06f73005aee5b389",
@@ -42389,14 +42409,22 @@
       "closeApptDate": "2026-11-06T21:00:00.000Z",
       "arrivedByComplete": false,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "notes": [
+        {
+          "id": "2290791d9629a462",
+          "text": "Isseyah",
+          "authorName": "Aaron",
+          "timestamp": "2026-11-06T23:56:16.724Z"
+        }
+      ]
     },
     {
       "id": "d4c4375ff623e9d6",
       "ghlOpportunityId": "pQ1x6FjqxdgWhC3ymqbG",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-11-01T22:22:32.944Z",
       "closedAtSource": "tracker",
@@ -42406,8 +42434,13 @@
       "customerEmail": "",
       "contactId": "pQ1x6FjqxdgWhC3ymqbG",
       "car": "DG 2023 Honda Accord Ceramic Coating&Step1&AcidWash 650-650fullpayment",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "c2ad905af8951e80",
+        "4066ba038b9e1c0c",
+        "d34a56ef18af3bd5",
+        "8ee8cc14340b4386"
+      ],
+      "employeeNames": "Devonte, Brian, Austin, Nick",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -42420,7 +42453,11 @@
       "syncedFromGHL": true,
       "ghlValue": 650,
       "closeApptDate": "2026-11-06T16:00:00.000Z",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "managerHelperIds": [
+        "19d1389561891623"
+      ],
+      "managerHelperNames": "Gio"
     },
     {
       "id": "d9438185ad280622",
@@ -43775,7 +43812,7 @@
       ],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-04T15:55:54.129Z",
       "closedAtSource": "tracker",
       "date": "2026-11-06T18:00:00.000Z",
@@ -43783,7 +43820,7 @@
       "customerPhone": "(856) 993-9787",
       "customerEmail": "",
       "contactId": "LPagifHVHNOvO46ccZ3M",
-      "car": "DG 2005 Honda Accord AllAroundTINT&Sunroof 550-75depo",
+      "car": "DG 2005 Honda Accord AllAroundTINT 350-75depo",
       "employeeIds": [
         "ed55d50b916a979a"
       ],
@@ -43792,11 +43829,11 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 550,
-      "priceSource": "title",
+      "basePrice": 350,
+      "priceSource": "manual",
       "calendarId": null,
       "priceMismatchDismissed": false,
-      "titlePrice": 550,
+      "titlePrice": 350,
       "titleDeposit": 75,
       "syncedFromGHL": true,
       "ghlValue": 299,
@@ -43809,7 +43846,12 @@
           "authorName": "Aaron",
           "timestamp": "2026-11-06T20:22:59.515Z"
         }
-      ]
+      ],
+      "titleLocked": true,
+      "priceLocked": true,
+      "paidCash": true,
+      "paymentMethod": "both",
+      "paidCard": true
     },
     {
       "id": "131a8add3ee266a4",
@@ -44848,7 +44890,15 @@
       "priceLocked": true,
       "arrivedByComplete": false,
       "paidCard": true,
-      "paymentMethod": "card"
+      "paymentMethod": "card",
+      "notes": [
+        {
+          "id": "ca11054129333cf8",
+          "text": "Isseyah and feso",
+          "authorName": "Aaron",
+          "timestamp": "2026-11-06T23:56:39.915Z"
+        }
+      ]
     },
     {
       "id": "2afc2b310861c6f3",
@@ -61179,6 +61229,46 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "dc3d2454f1bd8cec",
+      "timestamp": "2026-11-06T23:43:14.667Z",
+      "actor": "Naomi (manager)",
+      "saleId": "c43d5e4214af92f1",
+      "car": "DG 2005 Honda Accord AllAroundTINT 350-75depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 400
+    },
+    {
+      "id": "af3490bd318b3263",
+      "timestamp": "2026-11-06T23:38:52.835Z",
+      "actor": "Naomi (manager)",
+      "saleId": "c43d5e4214af92f1",
+      "car": "DG 2005 Honda Accord AllAroundTINT&Sunroof 350-75depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2005 Honda Accord AllAroundTINT&Sunroof 350-75depo",
+      "newValue": "DG 2005 Honda Accord AllAroundTINT 350-75depo"
+    },
+    {
+      "id": "665f9ed14b30e12d",
+      "timestamp": "2026-11-06T23:38:40.917Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "c43d5e4214af92f1",
+      "car": "DG 2005 Honda Accord AllAroundTINT&Sunroof 350-75depo",
+      "field": "Base price",
+      "oldValue": 550,
+      "newValue": 350
+    },
+    {
+      "id": "1f01a9c577d83d8e",
+      "timestamp": "2026-11-06T23:38:40.917Z",
+      "actor": "Naomi (manager)",
+      "saleId": "c43d5e4214af92f1",
+      "car": "DG 2005 Honda Accord AllAroundTINT&Sunroof 550-75depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2005 Honda Accord AllAroundTINT&Sunroof 550-75depo",
+      "newValue": "DG 2005 Honda Accord AllAroundTINT&Sunroof 350-75depo"
+    },
+    {
       "id": "cf1a23587d403459",
       "timestamp": "2026-11-06T23:33:44.276Z",
       "actor": "Naomi (manager)",
@@ -71137,49 +71227,24 @@
       "field": "Car/Title",
       "oldValue": "DG 2020 CeramicCoating&S+RTINT 800-95depo doorjams swell and might check roof need a step1or2",
       "newValue": "DG 2020 VW Jetta CeramicCoating&S+RTINT 800-95depo doorjams swell and might check roof need a step1or2"
-    },
-    {
-      "id": "48bcce2e6959e09b",
-      "timestamp": "2026-09-12T19:02:24.570Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "8a989df862d8028b",
-      "car": "IB Troy 2021 BMW x6 499-25-95depo referral",
-      "field": "Car/Title",
-      "oldValue": "IB Troy 2021 BMW x6 499-25referral ",
-      "newValue": "IB Troy 2021 BMW x6 499-25-95depo referral"
-    },
-    {
-      "id": "68fbcc1285ee839b",
-      "timestamp": "2026-09-12T18:22:16.037Z",
-      "actor": "Owner",
-      "saleId": "d858fbfc8b133346",
-      "car": "DG 2025 Black Ford350Transit Ceramic Coating 650-95depo",
-      "field": "Base price",
-      "oldValue": 650,
-      "newValue": 599
-    },
-    {
-      "id": "ecc43cf0d01857b6",
-      "timestamp": "2026-09-12T18:01:21.009Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "a3835e9278f8d0e9",
-      "car": "DG 2017 Mitsubishi Lancer FrontwindshieldTint 200-50depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2017 Mitsubishi Lancer AllAroundTint 499-50depo",
-      "newValue": "DG 2017 Mitsubishi Lancer FrontwindshieldTint 200-50depo"
-    },
-    {
-      "id": "b7c169eea351eac0",
-      "timestamp": "2026-09-12T14:31:26.419Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "06a2728ee089cec2",
-      "car": "2012 Honda Civic Detail the back seats",
-      "field": "Car/Title",
-      "oldValue": "2012 Honda Civic Detail the back seats ",
-      "newValue": "2012 Honda Civic Detail the back seats"
     }
   ],
   "cashEntries": [
+    {
+      "id": "7e871f0a9ff20251",
+      "type": "cashIn",
+      "amount": 400,
+      "category": "Customer Payment",
+      "note": "DG 2005 Honda Accord AllAroundTINT 350-75depo — Terrell Lawrence",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "c43d5e4214af92f1",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-11-06T23:43:14.667Z"
+    },
     {
       "id": "13e51f97ade8aa9b",
       "type": "cashIn",
