@@ -22144,7 +22144,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-02T13:58:01.381Z",
       "date": "2026-11-06T14:00:00.000Z",
       "customerName": "Emma Suggs",
@@ -22184,7 +22184,9 @@
           "timestamp": "2026-11-06T16:45:31.055Z"
         }
       ],
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "3af1a33744ce0650",
