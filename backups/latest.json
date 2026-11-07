@@ -22885,7 +22885,7 @@
       "id": "73f8cb6f38c9b4f9",
       "ghlOpportunityId": "KOEH3g0dKvjk5eZRpDTB",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-02T23:28:22.357Z",
@@ -22910,7 +22910,8 @@
       "priceSource": "title",
       "arrivedByComplete": false,
       "ghlValue": 299,
-      "closeApptDate": "2026-11-07T18:00:00.000Z"
+      "closeApptDate": "2026-11-07T18:00:00.000Z",
+      "missedTextAt": "2026-11-07T12:40:28.451Z"
     },
     {
       "id": "5f98e8dd22aeb589",
@@ -28250,7 +28251,7 @@
       "id": "7488832854b5adfd",
       "ghlOpportunityId": "y4irJfg73J9mRPeKHdH8",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-12T19:35:01.080Z",
@@ -28275,7 +28276,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 150,
-      "closeApptDate": "2026-11-07T14:00:00.000Z"
+      "closeApptDate": "2026-11-07T14:00:00.000Z",
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-11-07T12:42:29.464Z"
     },
     {
       "id": "63781b62016bb007",
@@ -33026,7 +33029,7 @@
       "id": "c401a02a1e1f861a",
       "ghlOpportunityId": "Z2ZSmWc8ILJypNiBfP9n",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-19T18:01:40.224Z",
@@ -33051,7 +33054,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 495,
-      "closeApptDate": "2026-11-07T14:00:00.000Z"
+      "closeApptDate": "2026-11-07T14:00:00.000Z",
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-11-07T12:40:44.159Z"
     },
     {
       "id": "f2942c5564423510",
@@ -43191,7 +43196,7 @@
       "id": "43b8ec50eff69b9d",
       "ghlOpportunityId": "odDgIi8WD1XdGtNd6Jac",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-03T16:51:58.401Z",
@@ -43215,7 +43220,9 @@
       "titleDeposit": null,
       "syncedFromGHL": true,
       "priceLocked": true,
-      "closeApptDate": "2026-11-07T14:00:00.000Z"
+      "closeApptDate": "2026-11-07T14:00:00.000Z",
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-11-07T12:48:34.865Z"
     },
     {
       "id": "40fbb58e76ba668a",
@@ -45086,7 +45093,9 @@
       "priceMismatchDismissed": false,
       "titlePrice": 299,
       "titleDeposit": 75,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-11-07T12:41:01.403Z"
     },
     {
       "id": "292f0606a5d72c27",
@@ -76219,6 +76228,86 @@
   },
   "textLog": [
     {
+      "id": "2adcdd05912ea561",
+      "at": "2026-11-07T12:48:34.865Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "43b8ec50eff69b9d",
+      "customerName": "Henry Valent",
+      "car": "2007 Honda Accord FrontWindshield 150-Upsell",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Henry Valent, 2007 Honda Accord FrontWindshield 150-Upsell, was due 9:00 AM today. Call (215) 943-9451.",
+      "status": "sent",
+      "nextAt": 1794055734865,
+      "sentAt": "2026-11-07T12:48:55.785Z",
+      "reason": ""
+    },
+    {
+      "id": "ad6f91ba331397af",
+      "at": "2026-11-07T12:42:29.465Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "7488832854b5adfd",
+      "customerName": "Chuck Johnston",
+      "car": "2007 Honda Accord FrontWindshield 150-upsell",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Chuck Johnston, 2007 Honda Accord FrontWindshield 150-upsell, was due 9:00 AM today. Call (609) 372-3267.",
+      "status": "sent",
+      "nextAt": 1794055369465,
+      "sentAt": "2026-11-07T12:42:50.370Z",
+      "reason": ""
+    },
+    {
+      "id": "b34c179a31112251",
+      "at": "2026-11-07T12:41:01.404Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "ff48b9ee1bbcfd2b",
+      "customerName": "ELIZABETH PAGEL",
+      "car": "2016 Toyota Camry S+RTINT",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - ELIZABETH PAGEL, 2016 Toyota Camry S+RTINT, was due 9:00 AM today. Call (856) 725-9991.",
+      "status": "sent",
+      "nextAt": 1794055281404,
+      "sentAt": "2026-11-07T12:41:22.286Z",
+      "reason": ""
+    },
+    {
+      "id": "837ebdb78c401603",
+      "at": "2026-11-07T12:40:44.160Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "c401a02a1e1f861a",
+      "customerName": "Greyriderr Walton",
+      "car": "2011 BMW 5Series AllAroundTint",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Greyriderr Walton, 2011 BMW 5Series AllAroundTint, was due 9:00 AM today. Call (609) 439-6106.",
+      "status": "sent",
+      "nextAt": 1794055264160,
+      "sentAt": "2026-11-07T12:41:04.887Z",
+      "reason": ""
+    },
+    {
+      "id": "2cee41579f343476",
+      "at": "2026-11-07T12:40:28.455Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "73f8cb6f38c9b4f9",
+      "customerName": "Black Man",
+      "car": "2024 Nissan Sentra AllAroundTint",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Black Man, 2024 Nissan Sentra AllAroundTint, was due 1:00 PM today. Call (302) 467-0198.",
+      "status": "sent",
+      "nextAt": 1794055248451,
+      "sentAt": "2026-11-07T12:40:49.382Z",
+      "reason": ""
+    },
+    {
       "id": "456d0e7e8e4437b5",
       "at": "2026-11-06T23:33:07.546Z",
       "attempts": 1,
@@ -78359,6 +78448,13 @@
     }
   ],
   "hookLog": [
+    {
+      "id": "d389693215335c31",
+      "at": "2026-11-07T12:53:55.447Z",
+      "route": "cancelled",
+      "outcome": "refused",
+      "reason": "no opportunity ID in what GHL sent"
+    },
     {
       "id": "592f670df8a0d82c",
       "at": "2026-11-06T23:11:04.557Z",
