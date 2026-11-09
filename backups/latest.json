@@ -46445,6 +46445,34 @@
       "titleDeposit": 70,
       "syncedFromGHL": true,
       "ghlValue": 425
+    },
+    {
+      "id": "9b8cca410f8762a6",
+      "ghlOpportunityId": "zsovRFIDIJp2LvMg2mzv",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-09T05:13:18.941Z",
+      "closedAtSource": "tracker",
+      "closeApptDate": "2026-11-24T13:00:00.000Z",
+      "date": "2026-11-24T13:00:00.000Z",
+      "customerName": "Andrew Bonaventura",
+      "customerPhone": "(609) 300-6057",
+      "customerEmail": "",
+      "contactId": "zsovRFIDIJp2LvMg2mzv",
+      "car": "Andrew Bonaventura",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Ceramic Coating",
+      "basePrice": 0,
+      "priceSource": "none",
+      "calendarId": null,
+      "titlePrice": null,
+      "titleDeposit": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -80228,6 +80256,17 @@
     }
   ],
   "hookLog": [
+    {
+      "id": "c1a96427a0e876d3",
+      "at": "2026-11-09T05:13:18.946Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "zsovRFIDIJp2LvMg2mzv",
+      "customer": "Andrew Bonaventura",
+      "car": "Andrew Bonaventura",
+      "saleId": "9b8cca410f8762a6",
+      "merged": false
+    },
     {
       "id": "a853bf46dadb4f5b",
       "at": "2026-11-08T19:11:47.194Z",
