@@ -40058,7 +40058,7 @@
       "id": "e1378d8860925ffb",
       "ghlOpportunityId": "U4Iuitc8YBic7OBqYIg6",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-28T23:23:31.941Z",
@@ -40083,7 +40083,9 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 499,
-      "closeApptDate": "2026-11-09T14:00:00.000Z"
+      "closeApptDate": "2026-11-09T14:00:00.000Z",
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-11-09T18:47:25.411Z"
     },
     {
       "id": "9c0b3a5cf184f038",
@@ -41004,7 +41006,7 @@
       "id": "1ddddc1429fb9c30",
       "ghlOpportunityId": "GSXoZHBYirzkJwf718B5",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-29T22:17:27.138Z",
@@ -41029,7 +41031,8 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 819,
-      "closeApptDate": "2026-11-09T15:30:00.000Z"
+      "closeApptDate": "2026-11-09T15:30:00.000Z",
+      "arrivedByComplete": false
     },
     {
       "id": "c1934b08c67e3e34",
@@ -43130,7 +43133,7 @@
       "id": "d14ba59dae07b913",
       "ghlOpportunityId": "X5TFSQK3jXXxxTEU4YbU",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-03T00:11:03.591Z",
@@ -43155,7 +43158,8 @@
       "titleDeposit": 150,
       "syncedFromGHL": true,
       "ghlValue": 499,
-      "closeApptDate": "2026-11-09T15:00:00.000Z"
+      "closeApptDate": "2026-11-09T15:00:00.000Z",
+      "arrivedByComplete": false
     },
     {
       "id": "b28ced90edaf47be",
@@ -44919,7 +44923,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-05T17:52:32.169Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-09T16:00:00.000Z",
@@ -44957,7 +44961,9 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "1a8aaa2cdba794fd",
@@ -45808,9 +45814,10 @@
       "contactId": "hv3iCPey2NsZSJgwaQlD",
       "car": "NA 2020 ECLIPSE CROSS MITSUBISHI ALL AROUND 449 - $50DEPO",
       "employeeIds": [
-        "273b3cdb8e20e0d1"
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b"
       ],
-      "employeeNames": "Angelica",
+      "employeeNames": "Angelica, Feso",
       "salesRepId": null,
       "salesRepName": "Walk-in (booked by staff)",
       "isWalkIn": true,
@@ -46768,8 +46775,17 @@
     {
       "id": "8599b384cee9c974",
       "ghlOpportunityId": "rnlAH5kNfJF3jRA4vXbk",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "6158f1e98b51e907",
+          "name": "Nano",
+          "price": 100,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a",
+          "salesRepId": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-09T15:52:29.636Z",
@@ -46793,7 +46809,16 @@
       "priceMismatchDismissed": false,
       "titlePrice": 299,
       "titleDeposit": 50,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "e77c6030786f329e",
+          "text": "30% front windows 5% rear NANO",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-11-09T18:11:59.074Z"
+        }
+      ]
     },
     {
       "id": "c734fe947ff32696",
@@ -46985,7 +47010,7 @@
       "id": "c013057d0b4287ae",
       "ghlOpportunityId": "uE4OCLuGVhUYvE7GJEzh",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-09T17:54:52.837Z",
@@ -46997,8 +47022,10 @@
       "customerEmail": "",
       "contactId": "uE4OCLuGVhUYvE7GJEzh",
       "car": "AG 2023 Honda Accord S&R $299",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": null,
       "salesRepName": "Walk-in (booked by staff)",
       "isWalkIn": true,
@@ -47013,7 +47040,39 @@
       "priceMismatchDismissed": false,
       "titlePrice": 299,
       "titleDeposit": 0,
-      "syncedFromGHL": true
+      "syncedFromGHL": true,
+      "arrivedByComplete": false
+    },
+    {
+      "id": "bdd3515a401b3c21",
+      "ghlOpportunityId": "wDfa0KpVwjqIfliJwqLT",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-09T18:14:29.180Z",
+      "closedAtSource": "tracker",
+      "closeApptDate": "2026-11-13T14:00:00.000Z",
+      "date": "2026-11-13T14:00:00.000Z",
+      "customerName": "DEBRA CRANE",
+      "customerPhone": "(856) 498-4601",
+      "customerEmail": "",
+      "contactId": "wDfa0KpVwjqIfliJwqLT",
+      "car": "DG 2025 Blue Cadillac ATS Ceramic Coating 499-150depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Ceramic Coating",
+      "basePrice": 499,
+      "priceSource": "title",
+      "calendarId": null,
+      "priceMismatchDismissed": false,
+      "titlePrice": 499,
+      "titleDeposit": 150,
+      "syncedFromGHL": true,
+      "ghlValue": 499
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -47099,6 +47158,76 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-11-09T18:15:21.554Z",
+      "endpoint": "sync",
+      "matchedSaleId": "bdd3515a401b3c21",
+      "before": {
+        "basePrice": 499,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "wDfa0KpVwjqIfliJwqLT",
+        "first_name": "DEBRA",
+        "last_name": "CRANE",
+        "full_name": "DEBRA CRANE",
+        "phone": "+18564984601",
+        "tags": "name via lookup,hp fresh,hp sbn auto styling nj",
+        "city": "VINELAND",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-11-09T18:03:53.470Z",
+        "postal_code": "08361",
+        "full_address": "VINELAND NJ 08361",
+        "contact_type": "lead",
+        "opportunity_name": "DEBRA CRANE",
+        "status": "won",
+        "lead_value": 499,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "8Cqnhg2Etu0PsR7vxvrY",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "wDfa0KpVwjqIfliJwqLT"
+        }
+      }
+    },
     {
       "receivedAt": "2026-11-09T17:27:33.149Z",
       "endpoint": "sync",
@@ -58781,120 +58910,6 @@
         "uYOofjhujJ5efURQR1fb",
         "B9T0YgUZh7Dgq7cUeaEc"
       ]
-    },
-    {
-      "receivedAt": "2026-11-08T18:22:04.878Z",
-      "endpoint": "sync",
-      "matchedSaleId": "c90729698858baa1",
-      "before": {
-        "basePrice": 599,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 599,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "Bmw",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "B9T0YgUZh7Dgq7cUeaEc",
-        "first_name": "Naseer",
-        "last_name": "S Ahmed",
-        "full_name": "Naseer S Ahmed",
-        "email": "nahmed55@gmail.com",
-        "phone": "+16093548166",
-        "tags": "coating,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-11-08T02:40:35.182Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Naseer S Ahmed | ",
-        "status": "won",
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "nJALapYUwPqJm1jkyd29",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "hey is this sbn auto styling? 499",
-            "adSetId": "120255090573730011",
-            "adId": "120256326229360011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "hey is this sbn auto styling? 499",
-            "adSetId": "120255090573730011",
-            "adId": "120256326229360011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "0",
-          "salesRepName": "Roman Goldovsky",
-          "contactId": "B9T0YgUZh7Dgq7cUeaEc"
-        }
-      }
     }
   ],
   "attendance": [
@@ -63315,6 +63330,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "25f12db8568c5ad8",
+      "timestamp": "2026-11-09T18:05:51.708Z",
+      "actor": "Aaron (manager)",
+      "saleId": "9d3bae43468506e7",
+      "car": "DG 2017 Ford Taurs S+RTINT 299-75depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 224
+    },
     {
       "id": "63482dead38bc9c9",
       "timestamp": "2026-11-09T17:54:52.837Z",
@@ -73304,19 +73329,24 @@
       "field": "Base price",
       "oldValue": 0,
       "newValue": 495
-    },
-    {
-      "id": "7506b772341b6eef",
-      "timestamp": "2026-09-14T16:43:48.146Z",
-      "actor": "Owner",
-      "saleId": "0c7b1148fad1b969",
-      "car": "DG 2026 Nissan Rogue Ceramic Coating 499-100depo",
-      "field": "Base price",
-      "oldValue": 299,
-      "newValue": 499
     }
   ],
   "cashEntries": [
+    {
+      "id": "4d381775ac72c795",
+      "type": "cashIn",
+      "amount": 224,
+      "category": "Customer Payment",
+      "note": "DG 2017 Ford Taurs S+RTINT 299-75depo — JACKSON MARK",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "9d3bae43468506e7",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-11-09T18:05:51.708Z"
+    },
     {
       "id": "ce3765b5dc9d6696",
       "type": "cashIn",
@@ -78545,6 +78575,22 @@
   },
   "textLog": [
     {
+      "id": "6031db6802084738",
+      "at": "2026-11-09T18:47:25.411Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "e1378d8860925ffb",
+      "customerName": "Carmen Morgan-Mapp",
+      "car": "2025 Green Lexus NX450h Ceramic Coating",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Carmen Morgan-Mapp, 2025 Green Lexus NX450h Ceramic Coating, was due 9:00 AM today. Call (610) 476-8708.",
+      "status": "sent",
+      "nextAt": 1794250065411,
+      "sentAt": "2026-11-09T18:47:46.364Z",
+      "reason": ""
+    },
+    {
       "id": "0846535e6fc9451d",
       "at": "2026-11-08T23:36:08.745Z",
       "attempts": 1,
@@ -80829,6 +80875,17 @@
     }
   ],
   "hookLog": [
+    {
+      "id": "b15ae4f4d4436ee1",
+      "at": "2026-11-09T18:14:29.185Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "wDfa0KpVwjqIfliJwqLT",
+      "customer": "DEBRA CRANE",
+      "car": "DG 2025 Blue Cadillac ATS Ceramic Coating 499-150depo",
+      "saleId": "bdd3515a401b3c21",
+      "merged": false
+    },
     {
       "id": "11a42b0c5d380f0d",
       "at": "2026-11-09T17:54:52.844Z",
