@@ -47686,6 +47686,37 @@
       "titleDeposit": 75,
       "syncedFromGHL": true,
       "ghlValue": 199
+    },
+    {
+      "id": "0b7913d5b2c2393f",
+      "ghlOpportunityId": "qa9a48yIfa5uDcswoMO8",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-09T23:53:47.926Z",
+      "closedAtSource": "tracker",
+      "closeApptDate": "2026-11-13T21:00:00.000Z",
+      "date": "2026-11-13T21:00:00.000Z",
+      "customerName": "Aryi Peebles",
+      "customerPhone": "(862) 412-7163",
+      "customerEmail": "",
+      "contactId": "qa9a48yIfa5uDcswoMO8",
+      "car": "DG 2024 Hyundai Tuscon AllAroundTint 400-75depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 400,
+      "priceSource": "title",
+      "calendarId": null,
+      "priceMismatchDismissed": false,
+      "titlePrice": 400,
+      "titleDeposit": 75,
+      "syncedFromGHL": true,
+      "ghlValue": 299
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -47771,6 +47802,114 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-11-09T23:53:48.288Z",
+      "endpoint": "sync",
+      "matchedSaleId": "0b7913d5b2c2393f",
+      "before": {
+        "basePrice": 400,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 400,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "Hyundai Tucson 2024",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "qa9a48yIfa5uDcswoMO8",
+        "first_name": "Aryi",
+        "last_name": "Peebles",
+        "full_name": "Aryi Peebles",
+        "email": "blakkbuddhasuun@gmail.com",
+        "phone": "+18624127163",
+        "tags": "tint,hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "date_created": "2026-11-01T19:47:35.132Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Aryi Peebles | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "FvP3NIb18jzLnbfuw1q7",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "$299 TINT MANAUL BID",
+            "utm_campaign": "$299 TINT MANAUL BID",
+            "campaignId": "120257406944840011",
+            "utmMedium": "this is no window tint this is ceramic tint $299 $15 bid cap ABO",
+            "utmContent": "this is no window tint this is ceramic tint $299 $15 bid cap ABO",
+            "adSetId": "120257407318820011",
+            "adId": "120257407318830011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "$299 TINT MANAUL BID",
+            "utm_campaign": "$299 TINT MANAUL BID",
+            "campaignId": "120257406944840011",
+            "utmMedium": "this is no window tint this is ceramic tint $299 $15 bid cap ABO",
+            "utmContent": "this is no window tint this is ceramic tint $299 $15 bid cap ABO",
+            "adSetId": "120257407318820011",
+            "adId": "120257407318830011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "qa9a48yIfa5uDcswoMO8"
+        }
+      }
+    },
     {
       "receivedAt": "2026-11-09T22:33:47.890Z",
       "endpoint": "sync",
@@ -57068,127 +57207,6 @@
           "basePrice": "299",
           "salesRepName": "",
           "contactId": "Oksb9uGIoIPq89KJe1ds"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-11-09T19:16:27.396Z",
-      "endpoint": "sync",
-      "matchedSaleId": "c285be23508d8fee",
-      "before": {
-        "basePrice": 675,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 675,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2014 Toyota Yaris LE",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "SMJ1QxQRnSNB1v5l0m9S",
-        "first_name": "Micah",
-        "last_name": "Hight",
-        "full_name": "Micah Hight",
-        "email": "mhight0310@gmail.com",
-        "phone": "+13026682803",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-11-08T22:25:05.176Z",
-        "date_of_birth": "1995-06-08T00:00:00.000Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Micah Hight | ",
-        "status": "won",
-        "lead_value": 675,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "LRmDQcAP72fLTdtxKfhf",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint ABO",
-            "utm_campaign": "window tint ABO",
-            "campaignId": "120257561128010011",
-            "utmMedium": "Cars coming in and out 299 ABO",
-            "utmContent": "Cars coming in and out 299 ABO",
-            "adSetId": "120257561127820011",
-            "adId": "120257561128090011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "url": "https://sbn-autostyling.com/?fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJmZGlkFlEdqfJQE6zh3eXhm6iRey1UH8Q8qZ5zcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAac3dFmslsnUfz56Ik_FFeO93huFV4MMp10mhjwOT87o2JqW-kkgeSFxt6l9FQ_aem_La5IHpoeOF5EzVRD5_K_qg&utm_source=ig&utm_medium=social&utm_content=link_in_bio",
-            "utmSource": "ig",
-            "utmMedium": "social",
-            "utmContent": "link_in_bio",
-            "utmTerm": null,
-            "utmKeyword": null,
-            "utmMatchtype": null,
-            "referrer": "https://l.instagram.com",
-            "fbclid": "PAZXh0bgNhZW0CMTEAcGRvZgJmZGlkFlEdqfJQE6zh3eXhm6iRey1UH8Q8qZ5zcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAac3dFmslsnUfz56Ik_FFeO93huFV4MMp10mhjwOT87o2JqW-kkgeSFxt6l9FQ_aem_La5IHpoeOF5EzVRD5_K_qg",
-            "gclid": null,
-            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/24A446 Instagram 454.1.0.41.71 (iPhone18,3; iOS 27_0_1; en_US; en; scale=3.00; 1206x2622; IABMV/1; 1106185088) Safari/604.1",
-            "ip": "2607:fb91:e92:8219:6d85:852e:8c77:8f15",
-            "gaClientId": "GA1.1.1982435648.1794178511",
-            "gaSessionId": null,
-            "medium": "chat_widget",
-            "mediumId": null,
-            "adName": null,
-            "adGroupId": null,
-            "adId": null,
-            "gbraid": null,
-            "wbraid": null
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "675",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "SMJ1QxQRnSNB1v5l0m9S"
         }
       }
     }
@@ -79241,6 +79259,17 @@
     }
   ],
   "hookLog": [
+    {
+      "id": "a389641ea7d8fb4d",
+      "at": "2026-11-09T23:53:47.932Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "qa9a48yIfa5uDcswoMO8",
+      "customer": "Aryi Peebles",
+      "car": "DG 2024 Hyundai Tuscon AllAroundTint 400-75depo",
+      "saleId": "0b7913d5b2c2393f",
+      "merged": false
+    },
     {
       "id": "4efbf35751ae5aca",
       "at": "2026-11-09T22:32:52.302Z",
