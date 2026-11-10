@@ -28368,7 +28368,7 @@
       "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
-      "ghlValue": 150,
+      "ghlValue": 299,
       "closeApptDate": "2026-11-07T14:00:00.000Z",
       "arrivedByComplete": false,
       "missedTextAt": "2026-11-07T12:42:29.464Z",
@@ -45579,9 +45579,9 @@
       "id": "3fb6e83e74e248c7",
       "ghlOpportunityId": "cFbQd6on28cPvtlpmWQa",
       "upsells": [],
-      "status": "no_show",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-06T19:49:36.536Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-09T14:00:00.000Z",
@@ -45608,7 +45608,9 @@
       "syncedFromGHL": true,
       "ghlValue": 450,
       "arrivedByComplete": false,
-      "missedTextAt": "2026-11-09T20:42:15.701Z"
+      "missedTextAt": "2026-11-09T20:42:15.701Z",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "718d38b42e53a0e4",
@@ -46645,8 +46647,8 @@
       "ghlOpportunityId": "uYOofjhujJ5efURQR1fb",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-08T16:56:51.257Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-10T21:00:00.000Z",
@@ -46656,8 +46658,11 @@
       "customerEmail": "",
       "contactId": "uYOofjhujJ5efURQR1fb",
       "car": "DG 2003 Dodge Dakota S+RTINT 275-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "1050c9240f87fa5f",
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Isseyah, Edward",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -46670,7 +46675,9 @@
       "titleDeposit": 75,
       "syncedFromGHL": true,
       "ghlValue": 275,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "c90729698858baa1",
@@ -46848,8 +46855,8 @@
       "ghlOpportunityId": "ur4NlyVFsxp6UPCAJLk8",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-09T14:56:08.448Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-10T21:00:00.000Z",
@@ -46859,8 +46866,11 @@
       "customerEmail": "",
       "contactId": "ur4NlyVFsxp6UPCAJLk8",
       "car": "fk tyree 2023 chevy malibu S+R+SUN NANO 450$-50$ depo apple cash might be late 5%",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Angelica, Edward",
       "salesRepId": "9e7aec4eefe054cc",
       "salesRepName": "Firdavs Karshiev",
       "isWalkIn": false,
@@ -46873,7 +46883,13 @@
       "titleDeposit": 50,
       "syncedFromGHL": true,
       "ghlValue": 450,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "755ab100d4983e6a",
@@ -47443,7 +47459,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-09T20:24:35.163Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-10T14:00:00.000Z",
@@ -47480,7 +47496,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-11-10T19:06:51.786Z"
         }
-      ]
+      ],
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "6ef62cc61136b349",
@@ -47719,7 +47737,7 @@
       ],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-09T21:35:50.209Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-10T18:00:00.000Z",
@@ -47746,7 +47764,9 @@
       "titleDeposit": 75,
       "syncedFromGHL": true,
       "ghlValue": 199,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "51063343f9716c52",
@@ -48111,7 +48131,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-10T17:58:29.163Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-10T19:00:00.000Z",
@@ -48136,22 +48156,21 @@
       "syncedFromGHL": true,
       "ghlValue": 299,
       "arrivedByComplete": false,
-      "notes": [
-        {
-          "id": "acca4118a5b1d042",
-          "text": "Arron",
-          "authorName": "Angelica",
-          "timestamp": "2026-11-10T21:26:48.258Z"
-        }
-      ]
+      "notes": [],
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "b05d6b4ff1016a01",
       "ghlOpportunityId": "VOje9WPkMs3FX0qLTU4Q",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-10T17:59:16.963Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-10T20:00:00.000Z",
@@ -48184,7 +48203,13 @@
           "authorName": "Angelica",
           "timestamp": "2026-11-10T21:27:05.349Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card",
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "edc371ba2f2d2334",
@@ -48446,18 +48471,6 @@
       "demotedFromManagerAt": "2026-11-04T01:23:28.680Z",
       "initials": "AG",
       "promotedFromEmployeeAt": "2026-11-09T13:39:43.115Z"
-    },
-    {
-      "id": "19d1389561891623",
-      "name": "Gio",
-      "pinHash": "13c6f7d6022a155ce7e38d7485faf6830594bae46f2120dbe04c795ec4cc0e20",
-      "commissionRate": 10,
-      "walkInCommissionRate": 10,
-      "payType": "salary",
-      "salaryPerPeriod": 2000,
-      "demotedFromManagerAt": "2026-10-19T20:42:53.218Z",
-      "promotedFromEmployeeAt": "2026-10-21T13:06:35.668Z",
-      "initials": "GM"
     }
   ],
   "salesReps": [
@@ -48498,6 +48511,115 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-11-10T22:08:08.944Z",
+      "endpoint": "sync",
+      "matchedSaleId": "7488832854b5adfd",
+      "before": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2007 honda accord lx 4door",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "y4irJfg73J9mRPeKHdH8",
+        "first_name": "Chuck",
+        "last_name": "Johnston",
+        "full_name": "Chuck Johnston",
+        "email": "chuckjohnston81@gmail.com",
+        "phone": "+16093723267",
+        "tags": "tint,hp sbn auto styling nj,hp appointment booked with bobomurod",
+        "country": "US",
+        "date_created": "2026-10-11T23:11:37.732Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Chuck Johnston | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "piM8ZoWWwOsQ4srq2a5W",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ testing",
+            "utm_campaign": "window tint camp NJ testing",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "msot tint shops need ur car all day, we need less then a hour",
+            "adSetId": "120254638050770011",
+            "adId": "120257058378180011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "instagram",
+            "mediumId": "1161765810103057",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "igSid": "1161765810103057"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "y4irJfg73J9mRPeKHdH8"
+        }
+      }
+    },
     {
       "receivedAt": "2026-11-10T21:28:08.150Z",
       "endpoint": "sync",
@@ -59041,115 +59163,6 @@
           "contactId": "3outMXv1kkZEbsQvPvVL"
         }
       }
-    },
-    {
-      "receivedAt": "2026-11-10T00:21:31.501Z",
-      "endpoint": "sync",
-      "matchedSaleId": "dc3c3fe8b4b0641e",
-      "before": {
-        "basePrice": 425,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 425,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "23 genesis g70",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "zu5Q6pIKErkpDmuYiFBZ",
-        "first_name": "Nico",
-        "last_name": "Martorell",
-        "full_name": "Nico Martorell",
-        "email": "nicomartorell95@gmail.com",
-        "phone": "+18566936487",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-11-10T00:02:23.306Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Nico Martorell | ",
-        "status": "won",
-        "lead_value": 425,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "sS4UvhB6dcBUOAEIDRtF",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "cars coming in and out 299",
-            "adSetId": "120254638050770011",
-            "adId": "120257423715490011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "2264873947420494",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "2264873947420494"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "425",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "zu5Q6pIKErkpDmuYiFBZ"
-        }
-      }
     }
   ],
   "attendance": [
@@ -63921,6 +63934,36 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "72d7479aa95138d0",
+      "timestamp": "2026-11-10T22:43:25.224Z",
+      "actor": "Naomi (manager)",
+      "saleId": "3fb6e83e74e248c7",
+      "car": "DG 2019 Toyota Avalon AllAroundTint 450-75depo 5%Back3 and 15%Front2 and 50%Windsheild",
+      "field": "Tip",
+      "oldValue": "",
+      "newValue": "added $80.17: Feso $80.17"
+    },
+    {
+      "id": "fc14571893c4afc7",
+      "timestamp": "2026-11-10T22:36:34.400Z",
+      "actor": "Aaron (manager)",
+      "saleId": "45ac842cfa7a54b0",
+      "car": "NA 2010 Nissan maxima all around +removal $648 -$50 depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 598
+    },
+    {
+      "id": "99b32c5cc15e6335",
+      "timestamp": "2026-11-10T22:06:08.679Z",
+      "actor": "Owner",
+      "saleId": null,
+      "car": "Gio",
+      "field": "Manager removed",
+      "oldValue": "Gio",
+      "newValue": "kept in Removed people"
+    },
     {
       "id": "ca513b5263a2f04f",
       "timestamp": "2026-11-10T21:52:04.906Z",
@@ -73890,39 +73933,24 @@
       "field": "Car/Title",
       "oldValue": "DG 2024 Tesla Y Ceramic Coating 499-95depo",
       "newValue": "DG 2024 White Tesla Y Ceramic Coating 499-95depo Do it ASAP 3 hours"
-    },
-    {
-      "id": "3502c5f891a97c2e",
-      "timestamp": "2026-09-16T13:54:49.694Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "b3350a56eb6bc26b",
-      "car": "fk murray 2025 lexus es white plus w/s  499$-95 deposit",
-      "field": "Car/Title",
-      "oldValue": "fk murray 2025 lexus es white plus w/s  499$-95 deposit ",
-      "newValue": "fk murray 2025 lexus es white plus w/s  499$-95 deposit"
-    },
-    {
-      "id": "2227a1f3399b3370",
-      "timestamp": "2026-09-16T12:36:31.062Z",
-      "actor": "Auto-matched (reschedule)",
-      "saleId": "a3835e9278f8d0e9",
-      "car": "DG 2017 Mitsubishi Lancer FrontwindshieldTint 200-50depo",
-      "field": "GHL Opportunity ID",
-      "oldValue": "2cocn7hQHdLjVMwmjQCM",
-      "newValue": "ciCqIcqM8tKB4DAs79jI"
-    },
-    {
-      "id": "b2a636419930954f",
-      "timestamp": "2026-09-16T02:38:20.332Z",
-      "actor": "Aaron (manager)",
-      "saleId": "9e48765080a62736",
-      "car": "DG 2024 Acura Integra AllAroundTint 495-50depo",
-      "field": "Base price",
-      "oldValue": 299,
-      "newValue": 495
     }
   ],
   "cashEntries": [
+    {
+      "id": "c3235a1e2400fe92",
+      "type": "cashIn",
+      "amount": 598,
+      "category": "Customer Payment",
+      "note": "NA 2010 Nissan maxima all around +removal $648 -$50 depo",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "45ac842cfa7a54b0",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-11-10T22:36:34.400Z"
+    },
     {
       "id": "86a2048383dc988f",
       "type": "cashIn",
@@ -79328,6 +79356,25 @@
       "loggedById": "ed55d50b916a979a",
       "loggedByRole": "manager",
       "timestamp": "2026-11-10T18:02:53.200Z"
+    },
+    {
+      "id": "5e715cffae8305f4",
+      "saleId": "3fb6e83e74e248c7",
+      "car": "DG 2019 Toyota Avalon AllAroundTint 450-75depo 5%Back3 and 15%Front2 and 50%Windsheild",
+      "date": "2026-11-09T14:00:00.000Z",
+      "amount": 80.17,
+      "split": [
+        {
+          "personType": "employee",
+          "personId": "f9d9bfc4e797e38b",
+          "name": "Feso",
+          "amount": 80.17
+        }
+      ],
+      "loggedByName": "Naomi",
+      "loggedById": "791dee90ad560e70",
+      "loggedByRole": "manager",
+      "timestamp": "2026-11-10T22:43:25.224Z"
     }
   ],
   "textSettings": {
@@ -84319,5 +84366,26 @@
   ],
   "ghlIdsAreAppointments": true,
   "sameDayRuleFrom": "2026-11-04T05:00:00.000Z",
-  "removedPeople": []
+  "removedPeople": [
+    {
+      "key": "323844c9824cf4ac",
+      "type": "manager",
+      "id": "19d1389561891623",
+      "name": "Gio",
+      "removedAt": "2026-11-10T22:06:08.679Z",
+      "removedBy": "Owner",
+      "record": {
+        "id": "19d1389561891623",
+        "name": "Gio",
+        "pinHash": "13c6f7d6022a155ce7e38d7485faf6830594bae46f2120dbe04c795ec4cc0e20",
+        "commissionRate": 10,
+        "walkInCommissionRate": 10,
+        "payType": "salary",
+        "salaryPerPeriod": 2000,
+        "demotedFromManagerAt": "2026-10-19T20:42:53.218Z",
+        "promotedFromEmployeeAt": "2026-10-21T13:06:35.668Z",
+        "initials": "GM"
+      }
+    }
+  ]
 }
