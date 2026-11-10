@@ -21375,7 +21375,7 @@
       "id": "6eda4bfa92e6c1f3",
       "ghlOpportunityId": "moWEWsuJ1Leda20Sy3ES",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-09-30T19:12:12.170Z",
@@ -35352,8 +35352,11 @@
       "customerEmail": "",
       "contactId": "BdN6tpiCEa2ZaCq6SqbF",
       "car": "DG 2025 Genesis G70 S+RTINT 299-150depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Angelica, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -40879,7 +40882,7 @@
       "id": "60063e64f813d1e0",
       "ghlOpportunityId": "MCfGUr90i9MSoNKEEXSF",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-29T19:37:02.819Z",
@@ -40905,7 +40908,8 @@
       "syncedFromGHL": true,
       "ghlValue": 700,
       "closeApptDate": "2026-11-10T14:00:00.000Z",
-      "titleLocked": true
+      "titleLocked": true,
+      "arrivedByComplete": false
     },
     {
       "id": "467dac26deaeed83",
@@ -41778,7 +41782,7 @@
       "id": "a293e44d8be92beb",
       "ghlOpportunityId": "ddFlFu609ZTM5n7rAfFD",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-31T14:13:31.312Z",
@@ -41803,7 +41807,8 @@
       "titleDeposit": 150,
       "syncedFromGHL": true,
       "ghlValue": 499,
-      "closeApptDate": "2026-11-10T14:00:00.000Z"
+      "closeApptDate": "2026-11-10T14:00:00.000Z",
+      "arrivedByComplete": false
     },
     {
       "id": "9c064e85a6baad14",
@@ -43452,7 +43457,7 @@
       "id": "fdfd3ccf22594fcd",
       "ghlOpportunityId": "HgpOdVn4zof1hdmEsjW0",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-03T16:05:21.929Z",
@@ -43477,7 +43482,8 @@
       "titleDeposit": 150,
       "syncedFromGHL": true,
       "ghlValue": 0,
-      "closeApptDate": "2026-11-10T14:00:00.000Z"
+      "closeApptDate": "2026-11-10T14:00:00.000Z",
+      "arrivedByComplete": false
     },
     {
       "id": "40fbb58e76ba668a",
@@ -44534,8 +44540,11 @@
       "customerEmail": "",
       "contactId": "qMxqR0DAv9V6tRcwExDI",
       "car": "DG 2025 Audi Etron Ceramic Coating&FrontWindsheildCoating&Rims&2FrontWindowsNANO 750-150depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Angelica, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -46797,8 +46806,11 @@
       "customerEmail": "",
       "contactId": "4OFTPwgQjyjtop6ha1Rk",
       "car": "DG 2024 Honda Accord AllAroundTINT 480-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "1050c9240f87fa5f",
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Isseyah, Edward",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -47559,7 +47571,11 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-11-10T14:44:47.800Z"
         }
-      ]
+      ],
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "c1b68d07cb9fb2e6",
@@ -47628,8 +47644,8 @@
       "ghlOpportunityId": "KlNTAXCfn2DdPSI4ev7v",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-09T21:56:39.622Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-10T14:00:00.000Z",
@@ -47639,8 +47655,10 @@
       "customerEmail": "",
       "contactId": "KlNTAXCfn2DdPSI4ev7v",
       "car": "DG 2026 Benz Gle AMG 2FrontWindows 140-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Edward",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -47653,7 +47671,9 @@
       "titleDeposit": 50,
       "syncedFromGHL": true,
       "ghlValue": 140,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "391d12da47be6b1b",
@@ -61774,6 +61794,15 @@
       "id": "6a9a4e68b0e3efc3",
       "personType": "manager",
       "personId": "19d1389561891623",
+      "date": "2026-11-10",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "5a4c5d6a63d723ea",
+      "personType": "manager",
+      "personId": "791dee90ad560e70",
       "date": "2026-11-10",
       "status": "present",
       "startTime": "",
