@@ -34046,9 +34046,9 @@
       "car": "DG 2027 Tesla 3 AllAroundTINT 485-75Depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
-      "salesRepId": "d160346301cc8a3f",
-      "salesRepName": "Dmitriy Gumenyuk",
-      "isWalkIn": false,
+      "salesRepId": null,
+      "salesRepName": "Walk-in (booked by staff)",
+      "isWalkIn": true,
       "baseService": "Window Tint",
       "basePrice": 485,
       "priceSource": "title",
@@ -34059,7 +34059,8 @@
       "syncedFromGHL": true,
       "ghlValue": 485,
       "closeApptDate": "2026-11-11T20:00:00.000Z",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "isOnlineBooking": false
     },
     {
       "id": "ff86c907dd3aa4ad",
@@ -43378,7 +43379,7 @@
       ],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-03T14:27:31.538Z",
       "closedAtSource": "tracker",
       "date": "2026-11-11T14:00:00.000Z",
@@ -43414,7 +43415,9 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "09759b49febbfb14",
@@ -47472,8 +47475,10 @@
       "customerEmail": "",
       "contactId": "Oksb9uGIoIPq89KJe1ds",
       "car": "DG 2023 Jeep Grand Cherkee AllAroundTINT 450-75depo 5%AllAround",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -47537,7 +47542,11 @@
           "timestamp": "2026-11-11T17:27:27.852Z"
         }
       ],
-      "priceLocked": true
+      "priceLocked": true,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "f939b398c6646549",
@@ -48034,8 +48043,8 @@
       "ghlOpportunityId": "EFq28pNrrHsw8IeuMdiR",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-09T22:06:00.824Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-11T18:00:00.000Z",
@@ -48044,22 +48053,28 @@
       "customerPhone": "(570) 956-8669",
       "customerEmail": "",
       "contactId": "EFq28pNrrHsw8IeuMdiR",
-      "car": "DG 2012 Honda Pilot S+RTINT&Sunstrip 345-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "car": "DG 2012 Honda Pilot S+RTINT&Sunstrip 249-75depo",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Angelica, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 345,
+      "basePrice": 249,
       "priceSource": "title",
       "calendarId": null,
       "priceMismatchDismissed": false,
-      "titlePrice": 345,
+      "titlePrice": 249,
       "titleDeposit": 75,
       "syncedFromGHL": true,
       "ghlValue": 345,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "titleLocked": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "3893d9bfbb820b85",
@@ -48664,7 +48679,7 @@
       "ghlOpportunityId": "perfhSSLiuMGdad9oPcp",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-11-10T23:42:46.741Z",
       "closedAtSource": "tracker",
@@ -48675,8 +48690,10 @@
       "customerEmail": "",
       "contactId": "perfhSSLiuMGdad9oPcp",
       "car": "DG 2021 Honda Accord 3BackWindowsTINT&Removal 350-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "1050c9240f87fa5f"
+      ],
+      "employeeNames": "Isseyah",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -48818,7 +48835,7 @@
       "id": "8e478025c85ee7ed",
       "ghlOpportunityId": "f7n0r9XnC0XfgsNZfP42",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-11T14:24:18.195Z",
@@ -48843,7 +48860,8 @@
       "titlePrice": 595,
       "titleDeposit": 75,
       "syncedFromGHL": true,
-      "ghlValue": 299
+      "ghlValue": 299,
+      "arrivedByComplete": false
     },
     {
       "id": "9297b91edf45ae36",
@@ -48892,8 +48910,10 @@
       "customerEmail": "",
       "contactId": "GqZ9hHljUxM0zWYcqSX4",
       "car": "DG 2019 Acurca RDX S+RTINT 199-50depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -48944,7 +48964,7 @@
       "id": "6463245693fe096e",
       "ghlOpportunityId": "zOIGQa2GwOAee9S7smSJ",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-11T15:46:07.952Z",
@@ -48969,7 +48989,8 @@
       "titlePrice": 250,
       "titleDeposit": 50,
       "syncedFromGHL": true,
-      "ghlValue": 250
+      "ghlValue": 250,
+      "arrivedByComplete": false
     },
     {
       "id": "9c56712c82ac8ca7",
@@ -49079,7 +49100,7 @@
       "id": "a8d265ba03ac7154",
       "ghlOpportunityId": "twfCPw6JNI5w9ErMdPUF",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-11T16:27:14.552Z",
@@ -49104,7 +49125,8 @@
       "titlePrice": 320,
       "titleDeposit": 75,
       "syncedFromGHL": true,
-      "ghlValue": 320
+      "ghlValue": 320,
+      "arrivedByComplete": false
     },
     {
       "id": "e4b753b1f3b7aa4d",
@@ -49477,6 +49499,106 @@
       "titleDeposit": 75,
       "syncedFromGHL": true,
       "ghlValue": 199
+    },
+    {
+      "id": "d3968427d10d41da",
+      "ghlOpportunityId": "vLshn7LnMeqQAsAlGDcb~earlier-d3968427d10d41da",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-11T20:25:45.153Z",
+      "closedAtSource": "tracker",
+      "closeApptDate": "2026-11-12T14:00:00.000Z",
+      "date": "2026-11-12T14:00:00.000Z",
+      "customerName": "",
+      "customerPhone": "(315) 603-7103",
+      "customerEmail": "",
+      "contactId": "vLshn7LnMeqQAsAlGDcb",
+      "car": "NA 2025 Hond civic sport sedan s+rtint $299- $50depo ",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Walk-in (booked by staff)",
+      "isWalkIn": true,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi",
+      "walkInClosedAuto": "title",
+      "baseService": "Window Tint",
+      "basePrice": 299,
+      "priceSource": "title",
+      "calendarId": null,
+      "priceMismatchDismissed": false,
+      "titlePrice": 299,
+      "titleDeposit": 50,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "8e13776934eb3bbe",
+      "ghlOpportunityId": "vLshn7LnMeqQAsAlGDcb",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-11T20:27:21.689Z",
+      "closedAtSource": "tracker",
+      "closeApptDate": "2026-11-12T14:00:00.000Z",
+      "closedAtCheck": true,
+      "date": "2026-11-12T14:00:00.000Z",
+      "customerName": "",
+      "customerPhone": "(315) 603-7103",
+      "customerEmail": "",
+      "contactId": "vLshn7LnMeqQAsAlGDcb",
+      "car": "NA 2026 TOYOTA CAMRY HYBRID XSE S+RTINT $299 - $50DEPO",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Walk-in (booked by staff)",
+      "isWalkIn": true,
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "791dee90ad560e70",
+      "walkInClosedByName": "Naomi",
+      "walkInClosedAuto": "title",
+      "baseService": "Window Tint",
+      "basePrice": 299,
+      "priceSource": "title",
+      "calendarId": null,
+      "priceMismatchDismissed": false,
+      "titlePrice": 299,
+      "titleDeposit": 50,
+      "syncedFromGHL": true
+    },
+    {
+      "id": "bfa173d60efaf5e7",
+      "ghlOpportunityId": "fuBdvNJjGKsPRlq5FIe3",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-11T20:58:39.935Z",
+      "closedAtSource": "tracker",
+      "closeApptDate": "2026-11-13T18:00:00.000Z",
+      "date": "2026-11-13T18:00:00.000Z",
+      "customerName": "LUIS RODRIGUEZ",
+      "customerPhone": "(609) 571-0303",
+      "customerEmail": "",
+      "contactId": "fuBdvNJjGKsPRlq5FIe3",
+      "car": "DG 2020 Camaro AllAroundTintDiddy 350-75depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 350,
+      "priceSource": "title",
+      "calendarId": null,
+      "priceMismatchDismissed": false,
+      "titlePrice": 350,
+      "titleDeposit": 75,
+      "syncedFromGHL": true,
+      "ghlValue": 350
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -49550,6 +49672,191 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-11-11T20:59:05.048Z",
+      "endpoint": "sync",
+      "matchedSaleId": "bfa173d60efaf5e7",
+      "before": {
+        "basePrice": 350,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 350,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "fuBdvNJjGKsPRlq5FIe3",
+        "first_name": "LUIS",
+        "last_name": "RODRIGUEZ",
+        "full_name": "LUIS RODRIGUEZ",
+        "phone": "+16095710303",
+        "tags": "name via lookup,hp fresh,hp sbn auto styling nj",
+        "city": "TRENTON",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-11-11T20:47:15.716Z",
+        "postal_code": "08536",
+        "full_address": "TRENTON NJ 08536",
+        "contact_type": "lead",
+        "opportunity_name": "LUIS RODRIGUEZ | ",
+        "status": "won",
+        "lead_value": 350,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "9t4SvrIECZC0sfmPA9CG",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "350",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "fuBdvNJjGKsPRlq5FIe3"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-11-11T20:45:45.335Z",
+      "endpoint": "sync",
+      "matchedSaleId": "e7f2103e5b6fbb1d",
+      "before": {
+        "basePrice": 620,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 620,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2022, Acura MDX",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "gGb9F2lhUcFQ8Tv1LsZx",
+        "first_name": "Freddie",
+        "last_name": "Marin",
+        "full_name": "Freddie Marin",
+        "email": "steeelers@comcast.net",
+        "phone": "+18568899245",
+        "tags": "coating,hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "date_created": "2026-10-22T16:45:26.976Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Freddie Marin | ",
+        "status": "won",
+        "lead_value": 620,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "unOl0hClUbbcIAkDTNB2",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "868814779620228",
+            "medium": "facebook",
+            "formId": "868814779620228",
+            "formName": "499 10 year coatijng",
+            "campaign": "ceramic coating winners",
+            "utm_campaign": "ceramic coating winners",
+            "campaignId": "120256836035700011",
+            "utmMedium": "luxury car 2020 or newer 499 winner",
+            "utmContent": "luxury car 2020 or newer 499 winner",
+            "adSetId": "120256836086210011",
+            "adId": "120256836086220011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "868814779620228",
+            "medium": "facebook",
+            "formId": "868814779620228",
+            "formName": "499 10 year coatijng",
+            "campaign": "ceramic coating winners",
+            "utm_campaign": "ceramic coating winners",
+            "campaignId": "120256836035700011",
+            "utmMedium": "luxury car 2020 or newer 499 winner",
+            "utmContent": "luxury car 2020 or newer 499 winner",
+            "adSetId": "120256836086210011",
+            "adId": "120256836086220011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "620",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "gGb9F2lhUcFQ8Tv1LsZx"
+        }
+      }
+    },
     {
       "receivedAt": "2026-11-11T20:18:29.724Z",
       "endpoint": "sync",
@@ -63015,211 +63322,6 @@
           "contactId": "vJnTLbW8Oh2zZywjW29F"
         }
       }
-    },
-    {
-      "receivedAt": "2026-11-11T16:12:50.461Z",
-      "endpoint": "sync",
-      "matchedSaleId": "579493fedc378356",
-      "before": {
-        "basePrice": 450,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 450,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2027 Kia Telluride",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "vJnTLbW8Oh2zZywjW29F",
-        "first_name": "Ronald",
-        "last_name": "Williams",
-        "full_name": "Ronald Williams",
-        "email": "ronaldw791@gmail.com",
-        "phone": "+12672580896",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-11-11T13:24:03.809Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Ronald Williams | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "2z2VH8atgQkEUun6afaF",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "cars coming in and out 299",
-            "adSetId": "120254638050770011",
-            "adId": "120257410839630011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "2463146954098159",
-            "medium": "facebook",
-            "formId": "2463146954098159",
-            "formName": "window tint 299",
-            "campaign": "window tint camp NJ testing",
-            "utm_campaign": "window tint camp NJ testing",
-            "campaignId": "120254638050750011",
-            "utmMedium": "ad set 1",
-            "utmContent": "cars coming in and out 299",
-            "adSetId": "120254638050770011",
-            "adId": "120257410839630011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "",
-          "contactId": "vJnTLbW8Oh2zZywjW29F"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-11-11T16:10:58.227Z",
-      "endpoint": "sync",
-      "matchedSaleId": "a55aa5aefc56f40c",
-      "before": {
-        "basePrice": 499,
-        "salesRepName": "Walk-in (booked by staff)"
-      },
-      "after": {
-        "basePrice": 499,
-        "salesRepName": "Walk-in (booked by staff)"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2023 Yukon Denali",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "9RPZXmcCJrXEVtCcEkcB",
-        "first_name": "Lance",
-        "last_name": "Saunders",
-        "full_name": "Lance Saunders",
-        "email": "lsaun32154@verizon.net",
-        "phone": "+16096215324",
-        "tags": "couldn't find caller name,hp sbn auto styling nj,hp aged,coating",
-        "city": "PEMBERTON",
-        "state": "NJ",
-        "country": "US",
-        "date_created": "2026-07-29T14:20:13.596Z",
-        "postal_code": "08068",
-        "contact_source": "Facebook",
-        "full_address": "PEMBERTON NJ 08068",
-        "contact_type": "lead",
-        "opportunity_name": "Lance Saunders | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "7M3zP4BvzRHMI4CBvs7b",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Other",
-            "medium": "other"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "facebook",
-            "mediumId": "29146210768370861",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "pSid": "29146210768370861"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "Roman Goldovsky",
-          "contactId": "9RPZXmcCJrXEVtCcEkcB"
-        }
-      }
     }
   ],
   "attendance": [
@@ -68090,6 +68192,66 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "8676fe92445932ca",
+      "timestamp": "2026-11-11T20:43:13.383Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "391d12da47be6b1b",
+      "car": "DG 2012 Honda Pilot S+RTINT&Sunstrip 249-75depo",
+      "field": "Base price",
+      "oldValue": 345,
+      "newValue": 249
+    },
+    {
+      "id": "621eb6822dad4f5e",
+      "timestamp": "2026-11-11T20:43:13.382Z",
+      "actor": "Naomi (manager)",
+      "saleId": "391d12da47be6b1b",
+      "car": "DG 2012 Honda Pilot S+RTINT&Sunstrip 345-75depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2012 Honda Pilot S+RTINT&Sunstrip 345-75depo",
+      "newValue": "DG 2012 Honda Pilot S+RTINT&Sunstrip 249-75depo"
+    },
+    {
+      "id": "e8cbc46c9fe5385f",
+      "timestamp": "2026-11-11T20:27:21.689Z",
+      "actor": "Auto (title)",
+      "saleId": "8e13776934eb3bbe",
+      "car": "NA 2026 TOYOTA CAMRY HYBRID XSE S+RTINT $299 - $50DEPO",
+      "field": "Walk-in closer",
+      "oldValue": "",
+      "newValue": "Naomi"
+    },
+    {
+      "id": "a45a9816043de102",
+      "timestamp": "2026-11-11T20:27:21.689Z",
+      "actor": "Auto (second car, same day)",
+      "saleId": "8e13776934eb3bbe",
+      "car": "NA 2026 TOYOTA CAMRY HYBRID XSE S+RTINT $299 - $50DEPO",
+      "field": "Closed At",
+      "oldValue": "",
+      "newValue": "2026-11-11T20:27:21.689Z (when it reached the tracker: please check)"
+    },
+    {
+      "id": "2bc6d75e97e91e51",
+      "timestamp": "2026-11-11T20:27:21.689Z",
+      "actor": "Auto-split (new appointment)",
+      "saleId": "d3968427d10d41da",
+      "car": "NA 2025 Hond civic sport sedan s+rtint $299- $50depo ",
+      "field": "GHL Opportunity ID",
+      "oldValue": "vLshn7LnMeqQAsAlGDcb",
+      "newValue": "vLshn7LnMeqQAsAlGDcb~earlier-d3968427d10d41da"
+    },
+    {
+      "id": "3c56b2a864b2c7e6",
+      "timestamp": "2026-11-11T20:25:45.153Z",
+      "actor": "Auto (title)",
+      "saleId": "d3968427d10d41da",
+      "car": "NA 2025 Hond civic sport sedan s+rtint $299- $50depo ",
+      "field": "Walk-in closer",
+      "oldValue": "",
+      "newValue": "Naomi"
+    },
     {
       "id": "2e50e9692faf866f",
       "timestamp": "2026-11-11T20:16:23.844Z",
@@ -78029,66 +78191,6 @@
       "field": "Base price",
       "oldValue": 0,
       "newValue": 175
-    },
-    {
-      "id": "27345f4fb37911fb",
-      "timestamp": "2026-09-16T15:24:59.307Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "9c6b99ae2386c32e",
-      "car": "BH 2018 BMW X3 front 2 windows $150-$50 deposit (MAYBE WINDSHIELD)",
-      "field": "Car/Title",
-      "oldValue": "BH 2018 BMW X3 front 2 windows $150-$50 deposit",
-      "newValue": "BH 2018 BMW X3 front 2 windows $150-$50 deposit (MAYBE WINDSHIELD)"
-    },
-    {
-      "id": "4e1ef6cdede34090",
-      "timestamp": "2026-09-16T15:07:36.431Z",
-      "actor": "Owner",
-      "saleId": "3afce30768d26c77",
-      "car": "Ford f350 front windshield already paid",
-      "field": "Sales rep",
-      "oldValue": "Unassigned",
-      "newValue": "Online Booking"
-    },
-    {
-      "id": "c13f9f1d984412e0",
-      "timestamp": "2026-09-16T15:07:36.431Z",
-      "actor": "Owner",
-      "saleId": "eb2c5e0afee15039",
-      "car": "Rolando Lucas",
-      "field": "Sales rep",
-      "oldValue": "Unassigned",
-      "newValue": "Online Booking"
-    },
-    {
-      "id": "da6c2ab697536f3c",
-      "timestamp": "2026-09-16T15:07:36.431Z",
-      "actor": "Owner",
-      "saleId": "6b38eb29a74905e6",
-      "car": "Honda Civic Si Ceramic Coating 499-95depo ",
-      "field": "Sales rep",
-      "oldValue": "Unassigned",
-      "newValue": "Online Booking"
-    },
-    {
-      "id": "58cab315e825e473",
-      "timestamp": "2026-09-16T15:06:39.609Z",
-      "actor": "Owner",
-      "saleId": "6eefb2ffb08c7b4e",
-      "car": "Deztiny Mclaughlin 2023LexusIS350 S+RTInt 299-50depo",
-      "field": "Sales rep",
-      "oldValue": "Unassigned",
-      "newValue": "Online Booking"
-    },
-    {
-      "id": "820755c865035e4e",
-      "timestamp": "2026-09-16T15:06:31.914Z",
-      "actor": "Owner",
-      "saleId": "b4b78222abf310de",
-      "car": "4runner windshield redo ",
-      "field": "Sales rep",
-      "oldValue": "Unassigned",
-      "newValue": "Dmitriy Gumenyuk"
     }
   ],
   "cashEntries": [
@@ -86502,6 +86604,39 @@
   ],
   "hookLog": [
     {
+      "id": "a0ac62691d1774dc",
+      "at": "2026-11-11T20:58:39.941Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "fuBdvNJjGKsPRlq5FIe3",
+      "customer": "LUIS RODRIGUEZ",
+      "car": "DG 2020 Camaro AllAroundTintDiddy 350-75depo",
+      "saleId": "bfa173d60efaf5e7",
+      "merged": false
+    },
+    {
+      "id": "5cfddbe789158582",
+      "at": "2026-11-11T20:27:21.696Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "vLshn7LnMeqQAsAlGDcb",
+      "customer": "",
+      "car": "NA 2026 TOYOTA CAMRY HYBRID XSE S+RTINT $299 - $50DEPO",
+      "saleId": "8e13776934eb3bbe",
+      "merged": false
+    },
+    {
+      "id": "980d6f8d0da131ee",
+      "at": "2026-11-11T20:25:45.158Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "vLshn7LnMeqQAsAlGDcb",
+      "customer": "",
+      "car": "NA 2025 Hond civic sport sedan s+rtint $299- $50depo ",
+      "saleId": "d3968427d10d41da",
+      "merged": false
+    },
+    {
       "id": "5a5fab04d33f00c9",
       "at": "2026-11-11T20:17:19.123Z",
       "route": "booking",
@@ -88647,39 +88782,6 @@
       "customer": "Ronda McCall",
       "car": "DG 2015 Benz Cclass AllAroundTINT&Removal 615-75depo",
       "saleId": "5caaaa4479442f72",
-      "merged": false
-    },
-    {
-      "id": "b5499f03acdc3c45",
-      "at": "2026-11-03T21:07:51.104Z",
-      "route": "booking",
-      "outcome": "created",
-      "appt": "to4vKrqtCb5eaARnSWV9",
-      "customer": "Nene Russell",
-      "car": "DG 2025 KIA K4 S+RTINT 249-75depo",
-      "saleId": "47525d62cf7e8f5a",
-      "merged": false
-    },
-    {
-      "id": "e029a0496d0df500",
-      "at": "2026-11-03T20:53:41.127Z",
-      "route": "booking",
-      "outcome": "created",
-      "appt": "Z9gTsDy0Wbo7w1773d0y",
-      "customer": "Kristopher D'Erasmo",
-      "car": "DG 2016 Audi SQ5 Ceramic Coating 499-150depo",
-      "saleId": "a0b1f87775c7423e",
-      "merged": false
-    },
-    {
-      "id": "e8a89c54394b5562",
-      "at": "2026-11-03T20:44:54.187Z",
-      "route": "booking",
-      "outcome": "created",
-      "appt": "VIxbPUgEvzkmOZ7Z6u73",
-      "customer": "MAURICE NASH",
-      "car": "DG 2014 Ram 1500 S+RTINT 299-75depo",
-      "saleId": "1b311b20294e9f8c",
       "merged": false
     }
   ],
