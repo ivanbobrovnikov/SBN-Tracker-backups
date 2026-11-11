@@ -41845,7 +41845,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-31T14:13:31.312Z",
       "closedAtSource": "tracker",
       "date": "2026-11-10T14:00:00.000Z",
@@ -41869,7 +41869,9 @@
       "syncedFromGHL": true,
       "ghlValue": 499,
       "closeApptDate": "2026-11-10T14:00:00.000Z",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "9c064e85a6baad14",
@@ -43544,7 +43546,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-03T16:05:21.929Z",
       "closedAtSource": "tracker",
       "date": "2026-11-10T14:00:00.000Z",
@@ -43568,7 +43570,9 @@
       "syncedFromGHL": true,
       "ghlValue": 0,
       "closeApptDate": "2026-11-10T14:00:00.000Z",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "40fbb58e76ba668a",
@@ -44325,7 +44329,9 @@
           "walkaround": null
         },
         "after": {}
-      }
+      },
+      "managerHelperIds": [],
+      "managerHelperNames": ""
     },
     {
       "id": "901d18c4dbd26d3b",
@@ -46257,7 +46263,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-07T18:54:00.267Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-10T14:00:00.000Z",
@@ -46281,7 +46287,9 @@
       "titleDeposit": 150,
       "syncedFromGHL": true,
       "ghlValue": 650,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "ee8d3ac88c6b8650",
@@ -47179,17 +47187,17 @@
       "ghlOpportunityId": "JOuMPes25YErqhU8EbtK",
       "upsells": [
         {
-          "id": "14cbd909c069babe",
-          "name": "Windshield",
-          "price": 150,
+          "id": "908dab5ce0a88b39",
+          "name": "Removal",
+          "price": 50,
           "employeeId": null,
           "managerId": "ed55d50b916a979a",
           "salesRepId": null
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-09T16:49:39.304Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-11T16:00:00.000Z",
@@ -47214,7 +47222,13 @@
       "syncedFromGHL": true,
       "ghlValue": 399,
       "arrivedByComplete": false,
-      "priceLocked": false
+      "priceLocked": false,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "9e993a96f3dc7a40",
@@ -48016,7 +48030,7 @@
       "id": "391d12da47be6b1b",
       "ghlOpportunityId": "EFq28pNrrHsw8IeuMdiR",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-09T22:06:00.824Z",
@@ -48041,7 +48055,8 @@
       "titlePrice": 345,
       "titleDeposit": 75,
       "syncedFromGHL": true,
-      "ghlValue": 345
+      "ghlValue": 345,
+      "arrivedByComplete": false
     },
     {
       "id": "3893d9bfbb820b85",
@@ -48103,7 +48118,7 @@
       "titlePrice": 400,
       "titleDeposit": 50,
       "syncedFromGHL": true,
-      "ghlValue": 299
+      "ghlValue": 400
     },
     {
       "id": "dc3c3fe8b4b0641e",
@@ -49375,6 +49390,121 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-11-11T19:03:40.952Z",
+      "endpoint": "sync",
+      "matchedSaleId": "0b7913d5b2c2393f",
+      "before": {
+        "basePrice": 400,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 400,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "Hyundai Tucson 2024",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "qa9a48yIfa5uDcswoMO8",
+        "first_name": "Aryi",
+        "last_name": "Peebles",
+        "full_name": "Aryi Peebles",
+        "email": "blakkbuddhasuun@gmail.com",
+        "phone": "+18624127163",
+        "tags": "tint,hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "date_created": "2026-11-01T19:47:35.132Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Aryi Peebles | ",
+        "status": "won",
+        "lead_value": 400,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "FvP3NIb18jzLnbfuw1q7",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "$299 TINT MANAUL BID",
+            "utm_campaign": "$299 TINT MANAUL BID",
+            "campaignId": "120257406944840011",
+            "utmMedium": "this is no window tint this is ceramic tint $299 $15 bid cap ABO",
+            "utmContent": "this is no window tint this is ceramic tint $299 $15 bid cap ABO",
+            "adSetId": "120257407318820011",
+            "adId": "120257407318830011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "$299 TINT MANAUL BID",
+            "utm_campaign": "$299 TINT MANAUL BID",
+            "campaignId": "120257406944840011",
+            "utmMedium": "this is no window tint this is ceramic tint $299 $15 bid cap ABO",
+            "utmContent": "this is no window tint this is ceramic tint $299 $15 bid cap ABO",
+            "adSetId": "120257407318820011",
+            "adId": "120257407318830011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "400",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "qa9a48yIfa5uDcswoMO8"
+        }
+      }
+    },
     {
       "receivedAt": "2026-11-11T18:13:01.126Z",
       "endpoint": "sync",
@@ -58942,121 +59072,6 @@
           "contactId": "GqZ9hHljUxM0zWYcqSX4"
         }
       }
-    },
-    {
-      "receivedAt": "2026-11-11T14:50:30.835Z",
-      "endpoint": "sync",
-      "matchedSaleId": "9297b91edf45ae36",
-      "before": {
-        "basePrice": 375,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 375,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2018 Hyundai Tucson",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "ub7klalaCR0vvsRjQNTL",
-        "first_name": "Melvin",
-        "last_name": "Medina",
-        "full_name": "Melvin Medina",
-        "email": "medinamelvin29@yahoo.com",
-        "phone": "+18568315304",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-11-11T14:19:59.304Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Melvin Medina | ",
-        "status": "won",
-        "lead_value": 375,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "zor1VckaQwjBhQUCcuPL",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1132988729106051",
-            "medium": "facebook",
-            "formId": "1132988729106051",
-            "formName": "window tint 199 diddy ceramic",
-            "campaign": "window tint ABO",
-            "utm_campaign": "window tint ABO",
-            "campaignId": "120257561128010011",
-            "utmMedium": "why you paying $500 dollars for tint when you can get it for 199",
-            "utmContent": "why you paying $500 dollars for tint when you can get it for 199 - Copy 3",
-            "adSetId": "120257605102890011",
-            "adId": "120257605116700011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1132988729106051",
-            "medium": "facebook",
-            "formId": "1132988729106051",
-            "formName": "window tint 199 diddy ceramic",
-            "campaign": "window tint ABO",
-            "utm_campaign": "window tint ABO",
-            "campaignId": "120257561128010011",
-            "utmMedium": "why you paying $500 dollars for tint when you can get it for 199",
-            "utmContent": "why you paying $500 dollars for tint when you can get it for 199 - Copy 3",
-            "adSetId": "120257605102890011",
-            "adId": "120257605116700011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "375",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "ub7klalaCR0vvsRjQNTL"
-        }
-      }
     }
   ],
   "attendance": [
@@ -63927,6 +63942,16 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "7cf09b78a2169087",
+      "timestamp": "2026-11-11T19:21:52.100Z",
+      "actor": "Aaron (manager)",
+      "saleId": "e60848546c80ba31",
+      "car": "DG 2016 Nissan Maxima S+RTINT&Sunstrip 399-75depo",
+      "field": "Tip",
+      "oldValue": "",
+      "newValue": "added $79.95: Aaron $79.95"
+    },
     {
       "id": "820b9ca88f8f3df2",
       "timestamp": "2026-11-11T17:35:38.739Z",
@@ -73916,16 +73941,6 @@
       "field": "Sales rep",
       "oldValue": "Unassigned",
       "newValue": "Online Booking"
-    },
-    {
-      "id": "f2a607aa45c15c09",
-      "timestamp": "2026-09-16T15:06:03.863Z",
-      "actor": "Owner",
-      "saleId": "b9b739d8994a8086",
-      "car": "DG 2026 Mitsubishi Eclipse front bumper not coated he says",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 1e-7
     }
   ],
   "cashEntries": [
@@ -79430,6 +79445,25 @@
       "loggedById": "ed55d50b916a979a",
       "loggedByRole": "manager",
       "timestamp": "2026-11-11T15:00:15.447Z"
+    },
+    {
+      "id": "5df6f0bb8a82b352",
+      "saleId": "e60848546c80ba31",
+      "car": "DG 2016 Nissan Maxima S+RTINT&Sunstrip 399-75depo",
+      "date": "2026-11-11T16:00:00.000Z",
+      "amount": 79.95,
+      "split": [
+        {
+          "personType": "manager",
+          "personId": "ed55d50b916a979a",
+          "name": "Aaron",
+          "amount": 79.95
+        }
+      ],
+      "loggedByName": "Aaron",
+      "loggedById": "ed55d50b916a979a",
+      "loggedByRole": "manager",
+      "timestamp": "2026-11-11T19:21:52.100Z"
     }
   ],
   "textSettings": {
