@@ -41179,7 +41179,7 @@
       ],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-10-30T06:22:10.348Z",
       "closedAtSource": "tracker",
       "date": "2026-11-11T14:00:00.000Z",
@@ -41217,7 +41217,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-11-11T14:17:04.481Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "80d50ff069bc8541",
@@ -43276,7 +43278,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-03T00:11:03.591Z",
       "closedAtSource": "tracker",
       "date": "2026-11-09T15:00:00.000Z",
@@ -43300,7 +43302,9 @@
       "syncedFromGHL": true,
       "ghlValue": 499,
       "closeApptDate": "2026-11-09T15:00:00.000Z",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "b28ced90edaf47be",
@@ -44349,7 +44353,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-04T17:30:42.902Z",
       "closedAtSource": "tracker",
       "date": "2026-11-11T14:00:00.000Z",
@@ -44385,7 +44389,9 @@
         "after": {}
       },
       "managerHelperIds": [],
-      "managerHelperNames": ""
+      "managerHelperNames": "",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "901d18c4dbd26d3b",
@@ -45368,7 +45374,7 @@
       ],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-05T20:28:08.646Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-11T14:00:00.000Z",
@@ -45404,7 +45410,9 @@
         "after": {
           "walkaround": "629d463cda0712bc-after-walkaround-a7438c4375218746.mov"
         }
-      }
+      },
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "7db18d637ea0541c",
@@ -46109,8 +46117,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-06T23:11:04.552Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-12T21:00:00.000Z",
@@ -46135,7 +46143,9 @@
       "syncedFromGHL": true,
       "ghlValue": 299,
       "arrivedByComplete": false,
-      "missedTextAt": null
+      "missedTextAt": null,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "2d6395ade2adf762",
