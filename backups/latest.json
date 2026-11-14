@@ -46213,7 +46213,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-06T21:48:45.598Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-13T14:00:00.000Z",
@@ -46248,7 +46248,9 @@
         "after": {
           "walkaround": "1a4e3ea8f74c3395-after-walkaround-e8c4c9a45916f648.MOV"
         }
-      }
+      },
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "169f138b3f481810",
@@ -53011,6 +53013,37 @@
         "791dee90ad560e70"
       ],
       "managerHelperNames": "Naomi"
+    },
+    {
+      "id": "80798d77acfcde7d",
+      "ghlOpportunityId": "T5ltPFfwwSde0bWHHUmD",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-14T23:21:51.008Z",
+      "closedAtSource": "tracker",
+      "closeApptDate": "2026-11-20T20:00:00.000Z",
+      "date": "2026-11-20T20:00:00.000Z",
+      "customerName": "Mark Lucca",
+      "customerPhone": "(609) 226-0569",
+      "customerEmail": "",
+      "contactId": "T5ltPFfwwSde0bWHHUmD",
+      "car": "fk mark 2026 ford f150 single S+R 199$-50$ depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "9e7aec4eefe054cc",
+      "salesRepName": "Firdavs Karshiev",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 199,
+      "priceSource": "title",
+      "calendarId": null,
+      "priceMismatchDismissed": false,
+      "titlePrice": 199,
+      "titleDeposit": 50,
+      "syncedFromGHL": true,
+      "ghlValue": 199
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -53084,6 +53117,210 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-11-14T23:22:12.067Z",
+      "endpoint": "sync",
+      "matchedSaleId": "80798d77acfcde7d",
+      "before": {
+        "basePrice": 199,
+        "salesRepName": "Firdavs Karshiev"
+      },
+      "after": {
+        "basePrice": 199,
+        "salesRepName": "Firdavs Karshiev"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2026 f150",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "T5ltPFfwwSde0bWHHUmD",
+        "first_name": "Mark",
+        "last_name": "Lucca",
+        "full_name": "Mark Lucca",
+        "email": "marklucca119@gmail.com",
+        "phone": "+16092260569",
+        "tags": "tint,hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "date_created": "2026-11-14T22:41:33.507Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Mark Lucca | ",
+        "status": "won",
+        "lead_value": 199,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "EmKMqM0VawECYWhiq5nF",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "1132988729106051",
+            "medium": "facebook",
+            "formId": "1132988729106051",
+            "formName": "window tint 199 diddy ceramic",
+            "campaign": "window tint ABO",
+            "utm_campaign": "window tint ABO",
+            "campaignId": "120257561128010011",
+            "utmMedium": "why you paying $500 dollars for tint when you can get it for 199",
+            "utmContent": "why you paying $500 dollars for tint when you can get it for 199 - Copy 3",
+            "adSetId": "120257605102890011",
+            "adId": "120257605116700011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "facebook",
+            "mediumId": "40074357668877180",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "pSid": "40074357668877180"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "199",
+          "salesRepName": "",
+          "contactId": "T5ltPFfwwSde0bWHHUmD"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-11-14T23:21:57.124Z",
+      "endpoint": "sync",
+      "matchedSaleId": "80798d77acfcde7d",
+      "before": {
+        "basePrice": 199,
+        "salesRepName": "Firdavs Karshiev"
+      },
+      "after": {
+        "basePrice": 199,
+        "salesRepName": "Firdavs Karshiev"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2026 f150",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "T5ltPFfwwSde0bWHHUmD",
+        "first_name": "Mark",
+        "last_name": "Lucca",
+        "full_name": "Mark Lucca",
+        "email": "marklucca119@gmail.com",
+        "phone": "+16092260569",
+        "tags": "tint,hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "date_created": "2026-11-14T22:41:33.507Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Mark Lucca | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "EmKMqM0VawECYWhiq5nF",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "1132988729106051",
+            "medium": "facebook",
+            "formId": "1132988729106051",
+            "formName": "window tint 199 diddy ceramic",
+            "campaign": "window tint ABO",
+            "utm_campaign": "window tint ABO",
+            "campaignId": "120257561128010011",
+            "utmMedium": "why you paying $500 dollars for tint when you can get it for 199",
+            "utmContent": "why you paying $500 dollars for tint when you can get it for 199 - Copy 3",
+            "adSetId": "120257605102890011",
+            "adId": "120257605116700011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "facebook",
+            "mediumId": "40074357668877180",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "pSid": "40074357668877180"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "T5ltPFfwwSde0bWHHUmD"
+        }
+      }
+    },
     {
       "receivedAt": "2026-11-14T22:28:52.275Z",
       "endpoint": "sync",
@@ -65838,185 +66075,6 @@
           "basePrice": "475",
           "salesRepName": "Dmitriy Gumenyuk",
           "contactId": "ieaTwud7yiHVT5l1Vl17"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-11-14T15:22:57.624Z",
-      "endpoint": "sync",
-      "matchedSaleId": "6cb0a6535e558e80",
-      "before": {
-        "basePrice": 475,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 475,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2021 acura tlx a spec",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "ieaTwud7yiHVT5l1Vl17",
-        "first_name": "jo",
-        "full_name": "jo",
-        "email": "jonathan123lore@gmail.com",
-        "phone": "+16094988983",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-11-13T03:38:40.187Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Jo | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "bo0LkFYp82rKjkNYXb56",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1132988729106051",
-            "medium": "facebook",
-            "formId": "1132988729106051",
-            "formName": "window tint 199 diddy ceramic",
-            "campaign": "window tint ABO",
-            "utm_campaign": "window tint ABO",
-            "campaignId": "120257561128010011",
-            "utmMedium": "199! yes you heard me correctyl edited v2",
-            "utmContent": "199! yes you heard me correctyl edited v2 - Copy 2",
-            "adSetId": "120257605038400011",
-            "adId": "120257605099350011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1132988729106051",
-            "medium": "facebook",
-            "formId": "1132988729106051",
-            "formName": "window tint 199 diddy ceramic",
-            "campaign": "window tint ABO",
-            "utm_campaign": "window tint ABO",
-            "campaignId": "120257561128010011",
-            "utmMedium": "199! yes you heard me correctyl edited v2",
-            "utmContent": "199! yes you heard me correctyl edited v2 - Copy 2",
-            "adSetId": "120257605038400011",
-            "adId": "120257605099350011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "",
-          "contactId": "ieaTwud7yiHVT5l1Vl17"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-11-14T15:14:56.468Z",
-      "endpoint": "sync",
-      "matchedSaleId": "1ba338034031a74c",
-      "before": {
-        "basePrice": 460,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 460,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": [],
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "hGQbRV5TkrzTrLiImdWB",
-        "first_name": "LYDELL",
-        "last_name": "GIDDINS",
-        "full_name": "LYDELL GIDDINS",
-        "phone": "+18563432001",
-        "tags": "google ads,nj location,hp fresh,hp sbn auto styling nj,name via lookup",
-        "country": "US",
-        "date_created": "2026-11-05T22:29:22.740Z",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "LYDELL GIDDINS | ",
-        "status": "won",
-        "lead_value": 299,
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "6fsRn9qaALuchDy6urHl",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "CRM Workflows",
-            "medium": "Manual",
-            "mediumId": null
-          },
-          "lastAttributionSource": {}
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "",
-          "contactId": "hGQbRV5TkrzTrLiImdWB"
         }
       }
     }
@@ -90223,6 +90281,17 @@
     }
   ],
   "hookLog": [
+    {
+      "id": "cc63b441ed27083a",
+      "at": "2026-11-14T23:21:51.020Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "T5ltPFfwwSde0bWHHUmD",
+      "customer": "Mark Lucca",
+      "car": "fk mark 2026 ford f150 single S+R 199$-50$ depo",
+      "saleId": "80798d77acfcde7d",
+      "merged": false
+    },
     {
       "id": "8a289b153c59d686",
       "at": "2026-11-14T22:31:29.702Z",
