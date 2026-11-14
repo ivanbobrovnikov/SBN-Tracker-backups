@@ -35669,8 +35669,8 @@
       "ghlOpportunityId": "5zoQfK6rPPYYaCGUs0Oq",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-22T19:15:34.851Z",
       "closedAtSource": "tracker",
       "date": "2026-11-14T16:00:00.000Z",
@@ -35696,7 +35696,9 @@
       "syncedFromGHL": true,
       "ghlValue": 299,
       "closeApptDate": "2026-11-14T16:00:00.000Z",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "ea0ed3a01c49a96e",
@@ -41771,7 +41773,7 @@
       "id": "3c5fda4b4a21336b",
       "ghlOpportunityId": "ydHQgP2mEgbHiBno2l6e",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-30T23:06:14.190Z",
@@ -41796,7 +41798,16 @@
       "titleDeposit": 75,
       "syncedFromGHL": true,
       "ghlValue": 275,
-      "closeApptDate": "2026-11-14T18:00:00.000Z"
+      "closeApptDate": "2026-11-14T18:00:00.000Z",
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "079163d442cda174",
+          "text": "15% no ws",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-11-14T18:24:41.154Z"
+        }
+      ]
     },
     {
       "id": "a2eed20aa775198f",
@@ -42244,7 +42255,15 @@
       "titleDeposit": 75,
       "syncedFromGHL": true,
       "ghlValue": 495,
-      "closeApptDate": "2026-11-14T18:00:00.000Z"
+      "closeApptDate": "2026-11-14T18:00:00.000Z",
+      "notes": [
+        {
+          "id": "0dce6223642a014d",
+          "text": "No WS",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-11-14T18:24:23.435Z"
+        }
+      ]
     },
     {
       "id": "c413f64c9048a1c7",
@@ -51525,8 +51544,8 @@
       "ghlOpportunityId": "VACIjnuJfsKxfhxxg877",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-13T14:23:19.275Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-14T16:00:00.000Z",
@@ -51556,7 +51575,9 @@
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
-      "managerHelperNames": "Aaron"
+      "managerHelperNames": "Aaron",
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "064f8c635c694eef",
@@ -51596,7 +51617,7 @@
       "id": "8f42c98ec5ab5b0c",
       "ghlOpportunityId": "MNiA3BOHpNBJHqEYTCEt",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-13T14:44:47.187Z",
@@ -51622,7 +51643,8 @@
       "titlePrice": 485,
       "titleDeposit": 50,
       "syncedFromGHL": true,
-      "ghlValue": 804
+      "ghlValue": 804,
+      "arrivedByComplete": false
     },
     {
       "id": "248fda8b010df9d3",
@@ -52583,7 +52605,7 @@
       "titlePrice": 199,
       "titleDeposit": 70,
       "syncedFromGHL": true,
-      "ghlValue": 299
+      "ghlValue": 199
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -52657,6 +52679,121 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-11-14T18:23:54.548Z",
+      "endpoint": "sync",
+      "matchedSaleId": "40dc5bdfead373d3",
+      "before": {
+        "basePrice": 199,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 199,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2020, Mazda, Mazda 3",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "jlSxuJgfZvanWJityNgq",
+        "first_name": "marcus/mj",
+        "last_name": "",
+        "full_name": "marcus/mj",
+        "email": "lorenzanamarcus96@gmail.com",
+        "phone": "+16094729171",
+        "tags": "hp fresh,hp sbn auto styling nj,tint",
+        "country": "US",
+        "date_created": "2026-11-14T03:31:53.767Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Marcus/mj | ",
+        "status": "won",
+        "lead_value": 199,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "gmjVOS8YqfZbyONJ0n7R",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Dmitriy",
+          "lastName": "Gumenyuk",
+          "email": "dmitriygvb@gmail.com",
+          "phone": "+18562390185"
+        },
+        "owner": "Dmitriy Gumenyuk",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "1132988729106051",
+            "medium": "facebook",
+            "formId": "1132988729106051",
+            "formName": "window tint 199 diddy ceramic",
+            "campaign": "window tint ABO",
+            "utm_campaign": "window tint ABO",
+            "campaignId": "120257561128010011",
+            "utmMedium": "199! yes you heard me correctyl edited v2",
+            "utmContent": "199! yes you heard me correctyl edited v2 - Copy 1",
+            "adSetId": "120257605038400011",
+            "adId": "120257605099340011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "1132988729106051",
+            "medium": "facebook",
+            "formId": "1132988729106051",
+            "formName": "window tint 199 diddy ceramic",
+            "campaign": "window tint ABO",
+            "utm_campaign": "window tint ABO",
+            "campaignId": "120257561128010011",
+            "utmMedium": "199! yes you heard me correctyl edited v2",
+            "utmContent": "199! yes you heard me correctyl edited v2 - Copy 1",
+            "adSetId": "120257605038400011",
+            "adId": "120257605099340011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "199",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "jlSxuJgfZvanWJityNgq"
+        }
+      }
+    },
     {
       "receivedAt": "2026-11-14T18:23:28.735Z",
       "endpoint": "sync",
@@ -65351,114 +65488,6 @@
         "customData": {
           "basePrice": "325",
           "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "J6A0sFzrSKeVZ4e5OYwf"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-11-13T21:58:33.557Z",
-      "endpoint": "sync",
-      "matchedSaleId": "7e1e5dc2f16eccfe",
-      "before": {
-        "basePrice": 325,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 325,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2012,Volkswagen,Jetta",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "J6A0sFzrSKeVZ4e5OYwf",
-        "first_name": "Brandon",
-        "last_name": "Patterson",
-        "full_name": "Brandon Patterson",
-        "email": "brandona1215@gmail.com",
-        "phone": "+18562619300",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-11-13T15:24:58.427Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Brandon Patterson | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "OqyuoZKqeQe1Zz14qxof",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1132988729106051",
-            "medium": "facebook",
-            "formId": "1132988729106051",
-            "formName": "window tint 199 diddy ceramic",
-            "campaign": "window tint ABO",
-            "utm_campaign": "window tint ABO",
-            "campaignId": "120257561128010011",
-            "utmMedium": "199! yes you heard me correctyl edited v2",
-            "utmContent": "199! yes you heard me correctyl edited v2 - Copy 1",
-            "adSetId": "120257605038400011",
-            "adId": "120257605099340011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1132988729106051",
-            "medium": "facebook",
-            "formId": "1132988729106051",
-            "formName": "window tint 199 diddy ceramic",
-            "campaign": "window tint ABO",
-            "utm_campaign": "window tint ABO",
-            "campaignId": "120257561128010011",
-            "utmMedium": "199! yes you heard me correctyl edited v2",
-            "utmContent": "199! yes you heard me correctyl edited v2 - Copy 1",
-            "adSetId": "120257605038400011",
-            "adId": "120257605099340011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "",
           "contactId": "J6A0sFzrSKeVZ4e5OYwf"
         }
       }
