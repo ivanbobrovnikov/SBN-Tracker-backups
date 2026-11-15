@@ -53109,6 +53109,34 @@
       "titleDeposit": 150,
       "syncedFromGHL": true,
       "ghlValue": 499
+    },
+    {
+      "id": "86b017784c12565c",
+      "ghlOpportunityId": "Egadv0g6VZ9r3d35IaOk",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-15T03:07:21.362Z",
+      "closedAtSource": "tracker",
+      "closeApptDate": "2026-11-26T13:00:00.000Z",
+      "date": "2026-11-26T13:00:00.000Z",
+      "customerName": "Levi  Starkey",
+      "customerPhone": "(316) 559-1679",
+      "customerEmail": "",
+      "contactId": "Egadv0g6VZ9r3d35IaOk",
+      "car": "Levi  Starkey",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": null,
+      "salesRepName": "Unassigned",
+      "baseService": "Window Tint",
+      "basePrice": 0,
+      "priceSource": "none",
+      "calendarId": null,
+      "titlePrice": null,
+      "titleDeposit": null,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -91797,6 +91825,17 @@
     }
   ],
   "hookLog": [
+    {
+      "id": "f3e83f31398bcc6b",
+      "at": "2026-11-15T03:07:21.369Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "Egadv0g6VZ9r3d35IaOk",
+      "customer": "Levi  Starkey",
+      "car": "Levi  Starkey",
+      "saleId": "86b017784c12565c",
+      "merged": false
+    },
     {
       "id": "a7f8d19c10b82790",
       "at": "2026-11-15T00:22:50.060Z",
