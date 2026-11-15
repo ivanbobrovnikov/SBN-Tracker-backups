@@ -39342,9 +39342,9 @@
           "salesRepId": null
         }
       ],
-      "status": "arrived",
-      "completed": true,
-      "paid": true,
+      "status": "pending",
+      "completed": false,
+      "paid": false,
       "closedAt": "2026-10-27T19:22:50.291Z",
       "closedAtSource": "tracker",
       "date": "2026-11-16T19:00:00.000Z",
@@ -39369,8 +39369,8 @@
       "ghlValue": 299,
       "closeApptDate": "2026-11-07T20:00:00.000Z",
       "arrivedByComplete": false,
-      "paidCard": true,
-      "paymentMethod": "card",
+      "paidCard": false,
+      "paymentMethod": null,
       "managerHelperIds": [
         "ed55d50b916a979a"
       ],
