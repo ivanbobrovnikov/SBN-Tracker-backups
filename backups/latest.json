@@ -27145,18 +27145,18 @@
     },
     {
       "id": "8e6e418ab4ddd797",
-      "ghlOpportunityId": "saHyoAt7WZwToWCV3hqR~earlier-8e6e418ab4ddd797",
+      "ghlOpportunityId": "saHyoAt7WZwToWCV3hqR",
       "upsells": [],
-      "status": "no_show",
+      "status": "pending",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-10T15:04:10.260Z",
-      "date": "2026-10-21T20:00:00.000Z",
+      "date": "2026-11-17T16:00:00.000Z",
       "customerName": "Kee_2is",
       "customerPhone": "(332) 254-3567",
       "customerEmail": "",
       "contactId": "saHyoAt7WZwToWCV3hqR",
-      "car": "DG 2012 Lexus IS250 S+RTINT 299-25depo",
+      "car": "AG 2012 Lexus IS250 s&r + removal $299 ; $50 deposit",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
@@ -27164,16 +27164,18 @@
       "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
-      "priceSource": "title",
+      "priceSource": "manual",
       "priceMismatchDismissed": false,
       "titlePrice": 299,
-      "titleDeposit": 25,
+      "titleDeposit": 50,
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 299,
       "arrivedByComplete": false,
       "missedTextAt": "2026-10-21T19:52:37.483Z",
-      "closeApptDate": "2026-10-21T20:00:00.000Z"
+      "closeApptDate": "2026-10-21T20:00:00.000Z",
+      "notes": [],
+      "priceLocked": true
     },
     {
       "id": "8380cad70e27b9e1",
@@ -34303,38 +34305,6 @@
       "closeApptDate": "2026-11-20T14:00:00.000Z"
     },
     {
-      "id": "09b822f2e98ee8d7",
-      "ghlOpportunityId": "saHyoAt7WZwToWCV3hqR",
-      "upsells": [],
-      "status": "no_show",
-      "completed": false,
-      "paid": false,
-      "closedAt": "2026-10-20T21:00:55.616Z",
-      "closedAtSource": "tracker",
-      "date": "2026-10-21T19:30:00.000Z",
-      "customerName": "Kee_2is",
-      "customerPhone": "(332) 254-3567",
-      "customerEmail": "",
-      "contactId": "saHyoAt7WZwToWCV3hqR",
-      "car": "DG 2012 Lexus is250 S+RTINT 325-SameDay",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
-      "salesRepId": "d160346301cc8a3f",
-      "salesRepName": "Dmitriy Gumenyuk",
-      "isWalkIn": false,
-      "baseService": "Window Tint",
-      "basePrice": 325,
-      "priceSource": "manual",
-      "titlePrice": null,
-      "titleDeposit": null,
-      "calendarId": null,
-      "syncedFromGHL": true,
-      "priceLocked": true,
-      "arrivedByComplete": false,
-      "missedTextAt": "2026-10-21T19:48:53.806Z",
-      "closeApptDate": "2026-10-21T19:30:00.000Z"
-    },
-    {
       "id": "9c2777fae5db7d3d",
       "ghlOpportunityId": "3j2WMO5FDxYOzuVy6Wny",
       "upsells": [],
@@ -40839,8 +40809,8 @@
         }
       ],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-29T17:43:43.010Z",
       "closedAtSource": "tracker",
       "date": "2026-11-16T14:00:00.000Z",
@@ -40879,7 +40849,9 @@
         }
       ],
       "titleLocked": true,
-      "priceLocked": true
+      "priceLocked": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "d052f73c937f7844",
@@ -45862,7 +45834,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-06T15:49:08.379Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-13T14:00:00.000Z",
@@ -45871,7 +45843,7 @@
       "customerPhone": "(609) 668-8936",
       "customerEmail": "",
       "contactId": "39g1izzxhXC9kcNfUsqh",
-      "car": "DG 2023 Mazda CX-50 Ceramic Coating&Touchup paint&Step2&Rims 800-150depo",
+      "car": "DG 2023 Mazda CX-50 Ceramic Coating&Touchup paint&Step2&Rims 750-150depo",
       "employeeIds": [
         "c2ad905af8951e80",
         "d34a56ef18af3bd5"
@@ -45881,11 +45853,11 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 800,
+      "basePrice": 750,
       "priceSource": "title",
       "calendarId": null,
       "priceMismatchDismissed": false,
-      "titlePrice": 800,
+      "titlePrice": 750,
       "titleDeposit": 150,
       "syncedFromGHL": true,
       "ghlValue": 800,
@@ -45893,7 +45865,10 @@
       "managerHelperIds": [
         "791dee90ad560e70"
       ],
-      "managerHelperNames": "Naomi"
+      "managerHelperNames": "Naomi",
+      "titleLocked": true,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "90b482a4b64b3d4f",
@@ -46254,7 +46229,7 @@
       "ghlOpportunityId": "daXMgPXNxBJCvzPxQCBJ",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-11-06T21:48:45.598Z",
       "closedAtSource": "tracker",
@@ -46472,7 +46447,7 @@
       "ghlOpportunityId": "MpT5mmDfspOVvZrAeJCt",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": true,
       "closedAt": "2026-11-07T15:07:40.889Z",
       "closedAtSource": "tracker",
@@ -46890,8 +46865,8 @@
       "ghlOpportunityId": "QNweiaym5RjX66TVCTze",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-07T21:11:23.268Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-16T16:00:00.000Z",
@@ -46917,7 +46892,9 @@
       "titleDeposit": 75,
       "syncedFromGHL": true,
       "ghlValue": 299,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "4d75bd7e5eb2c340",
@@ -49251,8 +49228,8 @@
       "ghlOpportunityId": "nfVVLRRTX1KTIZj8ldxK",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-10T23:28:44.864Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-16T16:00:00.000Z",
@@ -49262,8 +49239,11 @@
       "customerEmail": "",
       "contactId": "nfVVLRRTX1KTIZj8ldxK",
       "car": "DG 2025 Chevy Equanlix S+RTINT 240-75depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "1050c9240f87fa5f",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Isseyah, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -49276,7 +49256,9 @@
       "titleDeposit": 75,
       "syncedFromGHL": true,
       "ghlValue": 240,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "125d1a6e3c65b32f",
@@ -50395,7 +50377,7 @@
       "id": "3129845c6725ae0f",
       "ghlOpportunityId": "EbcMHXTCKzXbOrejzF1I",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-11T21:56:31.641Z",
@@ -50420,7 +50402,16 @@
       "titlePrice": 300,
       "titleDeposit": 75,
       "syncedFromGHL": true,
-      "ghlValue": 300
+      "ghlValue": 300,
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "5cb03fc8b5f1b846",
+          "text": "15 fronts 5 rear",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-11-16T17:52:49.222Z"
+        }
+      ]
     },
     {
       "id": "7735759dd2b72b8f",
@@ -50994,7 +50985,7 @@
       "closedAt": "2026-11-12T18:33:53.242Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-16T14:00:00.000Z",
-      "date": "2026-11-16T14:00:00.000Z",
+      "date": "2026-12-01T14:00:00.000Z",
       "customerName": "Tyler Matthew",
       "customerPhone": "(609) 203-4663",
       "customerEmail": "",
@@ -52092,7 +52083,13 @@
       "syncedFromGHL": true,
       "ghlValue": 499,
       "arrivedByComplete": false,
-      "titleLocked": true
+      "titleLocked": true,
+      "photos": {
+        "before": {
+          "walkaround": "07a1e65a46960fe3-before-walkaround-b5539aa9118dc5f6.MOV"
+        },
+        "after": {}
+      }
     },
     {
       "id": "b7fbdcdc5d8e7dce",
@@ -53536,6 +53533,41 @@
       "titleDeposit": 150,
       "syncedFromGHL": true,
       "ghlValue": 700
+    },
+    {
+      "id": "d9745504fe0165b4",
+      "ghlOpportunityId": "KURzxH9kVzmznJ8i2nWZ",
+      "upsells": [],
+      "status": "arrived",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-16T16:56:47.488Z",
+      "closedAtSource": "tracker",
+      "closeApptDate": "2026-11-16T17:00:00.000Z",
+      "date": "2026-11-16T17:00:00.000Z",
+      "customerName": "Matthew Inman",
+      "customerPhone": "(856) 520-0038",
+      "customerEmail": "",
+      "contactId": "KURzxH9kVzmznJ8i2nWZ",
+      "car": "DG 2016 Chevy Malibu S+RTINT 260-Walkindepo",
+      "employeeIds": [
+        "1050c9240f87fa5f",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Isseyah, Feso",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 260,
+      "priceSource": "manual",
+      "calendarId": null,
+      "titlePrice": null,
+      "titleDeposit": null,
+      "syncedFromGHL": true,
+      "ghlValue": 299,
+      "priceLocked": true,
+      "arrivedByComplete": false
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -53609,6 +53641,217 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-11-16T17:50:24.809Z",
+      "endpoint": "sync",
+      "matchedSaleId": "8e6e418ab4ddd797",
+      "before": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 299,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2012 Lexus is250",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "saHyoAt7WZwToWCV3hqR",
+        "first_name": "Keanu",
+        "last_name": "",
+        "full_name": "Keanu",
+        "email": "newmankeanu14@gmail.com",
+        "phone": "+13322543567",
+        "tags": "tint,hp sbn auto styling nj,hp appointment booked with dimitriy",
+        "country": "US",
+        "timezone": "America/New_York",
+        "date_created": "2026-10-09T04:43:39.273Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Keanu | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "6rLCysHyl9gWrZpd20NM",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ testing",
+            "utm_campaign": "window tint camp NJ testing",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "privacy 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256770250500011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "instagram",
+            "mediumId": "918691751106711",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "igSid": "918691751106711"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "saHyoAt7WZwToWCV3hqR"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-11-16T16:57:21.534Z",
+      "endpoint": "sync",
+      "matchedSaleId": "d9745504fe0165b4",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2016 malibu",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "KURzxH9kVzmznJ8i2nWZ",
+        "first_name": "Matthew",
+        "last_name": "Inman",
+        "full_name": "Matthew Inman",
+        "email": "inmanmatt123@yahoo.com",
+        "phone": "+18565200038",
+        "tags": "tint,hp sbn auto styling nj,hp aged",
+        "country": "US",
+        "date_created": "2026-09-17T21:05:11.753Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Matthew Inman | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "j5WjXEcenayYgCHky9la",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "2463146954098159",
+            "medium": "facebook",
+            "formId": "2463146954098159",
+            "formName": "window tint 299",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 1",
+            "utmContent": "people cant afford ceramic 299",
+            "adSetId": "120254638050770011",
+            "adId": "120256476307680011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "1132988729106051",
+            "medium": "facebook",
+            "formId": "1132988729106051",
+            "formName": "window tint 199 diddy ceramic",
+            "campaign": "window tint ABO",
+            "utm_campaign": "window tint ABO",
+            "campaignId": "120257561128010011",
+            "utmMedium": "199! yes you heard me correctyl edited v2 - Copy",
+            "utmContent": "199! yes you heard me correctyl edited v2 - Copy 1",
+            "adSetId": "120257690067900011",
+            "adId": "120257691748350011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "KURzxH9kVzmznJ8i2nWZ"
+        }
+      }
+    },
     {
       "receivedAt": "2026-11-16T16:47:58.212Z",
       "endpoint": "sync",
@@ -63572,205 +63815,6 @@
           "contactId": "T5ltPFfwwSde0bWHHUmD"
         }
       }
-    },
-    {
-      "receivedAt": "2026-11-14T23:21:57.124Z",
-      "endpoint": "sync",
-      "matchedSaleId": "80798d77acfcde7d",
-      "before": {
-        "basePrice": 199,
-        "salesRepName": "Firdavs Karshiev"
-      },
-      "after": {
-        "basePrice": 199,
-        "salesRepName": "Firdavs Karshiev"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2026 f150",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "T5ltPFfwwSde0bWHHUmD",
-        "first_name": "Mark",
-        "last_name": "Lucca",
-        "full_name": "Mark Lucca",
-        "email": "marklucca119@gmail.com",
-        "phone": "+16092260569",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-11-14T22:41:33.507Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Mark Lucca | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "EmKMqM0VawECYWhiq5nF",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1132988729106051",
-            "medium": "facebook",
-            "formId": "1132988729106051",
-            "formName": "window tint 199 diddy ceramic",
-            "campaign": "window tint ABO",
-            "utm_campaign": "window tint ABO",
-            "campaignId": "120257561128010011",
-            "utmMedium": "why you paying $500 dollars for tint when you can get it for 199",
-            "utmContent": "why you paying $500 dollars for tint when you can get it for 199 - Copy 3",
-            "adSetId": "120257605102890011",
-            "adId": "120257605116700011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "facebook",
-            "mediumId": "40074357668877180",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "pSid": "40074357668877180"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "",
-          "contactId": "T5ltPFfwwSde0bWHHUmD"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-11-14T22:28:52.275Z",
-      "endpoint": "sync",
-      "matchedSaleId": "c3035e25d772a41a",
-      "before": {
-        "basePrice": 240,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 240,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": [
-          "i need my back and sides re tinted 5%"
-        ],
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2011 honda accord exl v6",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "ELMt28FOAPnpNDs7XisT",
-        "first_name": "Jesus",
-        "last_name": "Is King✝️🙏🏾",
-        "full_name": "Jesus Is King✝️🙏🏾",
-        "email": "chrismarz48@gmail.com",
-        "phone": "+16097601396",
-        "tags": "google ads,nj location,hp fresh,hp sbn auto styling nj,tint",
-        "country": "US",
-        "date_created": "2026-11-09T21:32:28.047Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Jesus Is King✝️🙏🏾 | ",
-        "status": "won",
-        "lead_value": 240,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "HRPchAu3OmhQyW2WsXJr",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "CRM Workflows",
-            "medium": "Manual",
-            "mediumId": null
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "instagram",
-            "mediumId": "2352091625529128",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "igSid": "2352091625529128"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "240",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "ELMt28FOAPnpNDs7XisT"
-        }
-      }
     }
   ],
   "attendance": [
@@ -68983,6 +69027,106 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "8aea53bc1f8611a7",
+      "timestamp": "2026-11-16T17:51:35.208Z",
+      "actor": "Aaron (manager)",
+      "saleId": "8e6e418ab4ddd797",
+      "car": "AG 2012 Lexus IS250 s&r + removal $299 ; $50 deposit",
+      "field": "Base price",
+      "oldValue": 325,
+      "newValue": 299
+    },
+    {
+      "id": "d71f6cac11f4f73b",
+      "timestamp": "2026-11-16T17:50:29.101Z",
+      "actor": "Auto (same appointment edited)",
+      "saleId": "8e6e418ab4ddd797",
+      "car": "AG 2012 Lexus IS250 s&r + removal $299 ; $50 deposit",
+      "field": "Merged back (the same appointment was edited)",
+      "oldValue": "2026-10-21",
+      "newValue": "2026-11-17"
+    },
+    {
+      "id": "5269bad438108e3e",
+      "timestamp": "2026-11-16T17:50:29.096Z",
+      "actor": "Auto (title)",
+      "saleId": "09b822f2e98ee8d7",
+      "car": "AG 2012 Lexus IS250 s&r + removal $299 ; $50 deposit",
+      "field": "Walk-in closer",
+      "oldValue": "",
+      "newValue": "Aaron"
+    },
+    {
+      "id": "a58f59146d413162",
+      "timestamp": "2026-11-16T17:50:29.096Z",
+      "actor": "GHL booking message",
+      "saleId": "09b822f2e98ee8d7",
+      "car": "AG 2012 Lexus IS250 s&r + removal $299 ; $50 deposit",
+      "field": "Car/Title",
+      "oldValue": "DG 2012 Lexus is250 S+RTINT 325-SameDay",
+      "newValue": "AG 2012 Lexus IS250 s&r + removal $299 ; $50 deposit"
+    },
+    {
+      "id": "29886d7694708330",
+      "timestamp": "2026-11-16T17:50:29.096Z",
+      "actor": "Auto-matched (reschedule)",
+      "saleId": "09b822f2e98ee8d7",
+      "car": "DG 2012 Lexus is250 S+RTINT 325-SameDay",
+      "field": "Status",
+      "oldValue": "no_show",
+      "newValue": "pending"
+    },
+    {
+      "id": "031a90088f56105a",
+      "timestamp": "2026-11-16T17:44:15.427Z",
+      "actor": "Naomi (manager)",
+      "saleId": "15ab2b04d230daed",
+      "car": "DG 2023 Mazda CX-50 Ceramic Coating&Touchup paint&Step2&Rims 750-150depo",
+      "field": "Base price (from the title)",
+      "oldValue": 800,
+      "newValue": 750
+    },
+    {
+      "id": "d21cc8d4f436bba4",
+      "timestamp": "2026-11-16T17:44:15.426Z",
+      "actor": "Naomi (manager)",
+      "saleId": "15ab2b04d230daed",
+      "car": "DG 2023 Mazda CX-50 Ceramic Coating&Touchup paint&Step2&Rims 800-150depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2023 Mazda CX-50 Ceramic Coating&Touchup paint&Step2&Rims 800-150depo",
+      "newValue": "DG 2023 Mazda CX-50 Ceramic Coating&Touchup paint&Step2&Rims 750-150depo"
+    },
+    {
+      "id": "d82224c9c07c130d",
+      "timestamp": "2026-11-16T17:08:38.127Z",
+      "actor": "Aaron (manager)",
+      "saleId": "c8ae75cf19f04deb",
+      "car": "Trinity Silva $50 deposit",
+      "field": "Tip",
+      "oldValue": "",
+      "newValue": "added $71.99: Feso $71.99"
+    },
+    {
+      "id": "a6880a03d998e7e9",
+      "timestamp": "2026-11-16T16:58:55.905Z",
+      "actor": "Naomi (manager)",
+      "saleId": "1274746c42eb27d0",
+      "car": "DG 2026 Black Chevy Silverdo Ceramic Coating&Trim&Rims&2FrontTint 650-150depo",
+      "field": "Date/Time",
+      "oldValue": "2026-11-16T14:00:00.000Z",
+      "newValue": "2026-12-01T14:00:00.000Z"
+    },
+    {
+      "id": "dea7688cd9c9bb63",
+      "timestamp": "2026-11-16T16:58:14.245Z",
+      "actor": "Owner",
+      "saleId": "d9745504fe0165b4",
+      "car": "DG 2016 Chevy Malibu S+RTINT 260-Walkindepo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 260
+    },
     {
       "id": "7154bd2341c6f6d5",
       "timestamp": "2026-11-16T16:21:37.748Z",
@@ -85200,6 +85344,25 @@
       "loggedById": "791dee90ad560e70",
       "loggedByRole": "manager",
       "timestamp": "2026-11-14T23:13:21.753Z"
+    },
+    {
+      "id": "e1076202882881e2",
+      "saleId": "c8ae75cf19f04deb",
+      "car": "Trinity Silva $50 deposit",
+      "date": "2026-11-16T14:00:00.000Z",
+      "amount": 71.99,
+      "split": [
+        {
+          "personType": "employee",
+          "personId": "f9d9bfc4e797e38b",
+          "name": "Feso",
+          "amount": 71.99
+        }
+      ],
+      "loggedByName": "Aaron",
+      "loggedById": "ed55d50b916a979a",
+      "loggedByRole": "manager",
+      "timestamp": "2026-11-16T17:08:38.127Z"
     }
   ],
   "textSettings": {
@@ -88346,6 +88509,28 @@
     }
   ],
   "hookLog": [
+    {
+      "id": "a9db16237e2bf80c",
+      "at": "2026-11-16T17:50:29.105Z",
+      "route": "booking",
+      "outcome": "updated",
+      "appt": "saHyoAt7WZwToWCV3hqR",
+      "customer": "Keanu",
+      "car": "AG 2012 Lexus IS250 s&r + removal $299 ; $50 deposit",
+      "saleId": "09b822f2e98ee8d7",
+      "merged": true
+    },
+    {
+      "id": "2fdec21ef0cc12ba",
+      "at": "2026-11-16T16:56:47.493Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "KURzxH9kVzmznJ8i2nWZ",
+      "customer": "Matthew Inman",
+      "car": "DG 2016 Chevy Malibu S+RTINT 260-Walkindepo",
+      "saleId": "d9745504fe0165b4",
+      "merged": false
+    },
     {
       "id": "2f82ddf5957e7961",
       "at": "2026-11-16T16:47:17.415Z",
