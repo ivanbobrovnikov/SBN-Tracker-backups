@@ -49345,7 +49345,7 @@
       "id": "b6d75e3853a8703d",
       "ghlOpportunityId": "VJ4HQmTqd6eTDXYtg6BR",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-11T01:04:21.158Z",
@@ -53531,18 +53531,18 @@
       "customerPhone": "(610) 207-6651",
       "customerEmail": "",
       "contactId": "2LeYe9TTWWFEor5ux7At",
-      "car": "DG 2022 Black Audi A6 Ceramic Coating&Step2 699-150depo",
+      "car": "DG 2022 Black Audi A6 Ceramic Coating&Step2 810-150depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Ceramic Coating",
-      "basePrice": 699,
+      "basePrice": 810,
       "priceSource": "manual",
       "calendarId": null,
       "priceMismatchDismissed": false,
-      "titlePrice": 699,
+      "titlePrice": 810,
       "titleDeposit": 150,
       "syncedFromGHL": true,
       "ghlValue": 810,
@@ -53681,6 +53681,37 @@
       "titlePrice": 275,
       "titleDeposit": 50,
       "syncedFromGHL": true
+    },
+    {
+      "id": "ca65283c8e9bda6c",
+      "ghlOpportunityId": "xZLKer7b8REf5XalUI6n",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-16T19:29:11.746Z",
+      "closedAtSource": "tracker",
+      "closeApptDate": "2026-11-21T14:00:00.000Z",
+      "date": "2026-11-21T14:00:00.000Z",
+      "customerName": "Thomas Washington",
+      "customerPhone": "(215) 460-5081",
+      "customerEmail": "",
+      "contactId": "xZLKer7b8REf5XalUI6n",
+      "car": "DG 2022 Jeep Grand Waganeer Ceramic Coating&Rims&FWindsheildCoat 499-150depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Ceramic Coating",
+      "basePrice": 499,
+      "priceSource": "title",
+      "calendarId": null,
+      "priceMismatchDismissed": false,
+      "titlePrice": 499,
+      "titleDeposit": 150,
+      "syncedFromGHL": true,
+      "ghlValue": 499
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -53754,6 +53785,75 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-11-16T19:29:41.564Z",
+      "endpoint": "sync",
+      "matchedSaleId": "ca65283c8e9bda6c",
+      "before": {
+        "basePrice": 499,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 499,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "xZLKer7b8REf5XalUI6n",
+        "first_name": "Thomas",
+        "last_name": "Washington",
+        "full_name": "Thomas Washington",
+        "email": "moebeta121@yahoo.com",
+        "phone": "+12154605081",
+        "tags": "hp sbn auto styling nj,hp aged",
+        "country": "US",
+        "date_created": "2026-08-17T19:06:15.817Z",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Thomas Washington | ",
+        "status": "won",
+        "lead_value": 499,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "nRx1xurXDlRClldNg2Zk",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "CRM UI",
+            "medium": "manual",
+            "mediumId": null
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "499",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "xZLKer7b8REf5XalUI6n"
+        }
+      }
+    },
     {
       "receivedAt": "2026-11-16T18:38:46.909Z",
       "endpoint": "sync",
@@ -62276,115 +62376,6 @@
           "contactId": "puPxqfksfuTem0bDAaGx"
         }
       }
-    },
-    {
-      "receivedAt": "2026-11-15T16:18:49.828Z",
-      "endpoint": "sync",
-      "matchedSaleId": "d1838e56ab4900fb",
-      "before": {
-        "basePrice": 624,
-        "salesRepName": "Walk-in (booked by staff)"
-      },
-      "after": {
-        "basePrice": 624,
-        "salesRepName": "Walk-in (needs closer assigned)"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2013 Mercedes 550SL",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "X3qpm95zypromd3jrgS5",
-        "first_name": "Michael",
-        "last_name": "Bergen",
-        "full_name": "Michael Bergen",
-        "email": "veteransconstructionsvcs@gmail.com",
-        "phone": "+16095012824",
-        "tags": "coating,hp sbn auto styling nj,hp appointment booked with dimitriy",
-        "country": "US",
-        "timezone": "America/New_York",
-        "date_created": "2026-10-16T00:40:33.994Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Michael Bergen | ",
-        "status": "won",
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "3WWdmHW60vx5Csj6OgnD",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "hey is this sbn auto styling? 499",
-            "adSetId": "120255090573730011",
-            "adId": "120256326229360011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Social media",
-            "medium": "facebook",
-            "mediumId": "29003989185934384",
-            "adId": null,
-            "utmContent": null,
-            "photoUrl": null,
-            "videoUrl": null,
-            "postId": null,
-            "productId": null,
-            "flowId": null,
-            "pSid": "29003989185934384"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "0",
-          "salesRepName": "Roman Goldovsky",
-          "contactId": "X3qpm95zypromd3jrgS5"
-        }
-      }
     }
   ],
   "attendance": [
@@ -67597,6 +67588,26 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "d31a7d99a8eb4636",
+      "timestamp": "2026-11-16T19:31:14.550Z",
+      "actor": "Rep tracker (owner)",
+      "saleId": "e540ca56958bc627",
+      "car": "DG 2022 Black Audi A6 Ceramic Coating&Step2 699-150depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2022 Black Audi A6 Ceramic Coating&Step2 699-150depo",
+      "newValue": "DG 2022 Black Audi A6 Ceramic Coating&Step2 810-150depo"
+    },
+    {
+      "id": "3340080a6f100ca7",
+      "timestamp": "2026-11-16T19:30:54.566Z",
+      "actor": "Rep tracker (owner)",
+      "saleId": "e540ca56958bc627",
+      "car": "DG 2022 Black Audi A6 Ceramic Coating&Step2 699-150depo",
+      "field": "Base price",
+      "oldValue": 699,
+      "newValue": 810
+    },
     {
       "id": "1b60ed5493cfc30f",
       "timestamp": "2026-11-16T18:43:08.027Z",
@@ -78065,19 +78076,6 @@
       "timestamp": "2026-11-14T22:51:22.647Z"
     },
     {
-      "id": "cd331408047d368d",
-      "type": "cashOut",
-      "amount": 75,
-      "category": "Other",
-      "note": "Deposit refund. Had a 3pm appointment and we couldn’t get in until 5",
-      "isOnline": false,
-      "receiptPhoto": "undefined-undefined-undefined-90727d9d1fb1d09a.png",
-      "enteredByType": "manager",
-      "enteredById": "ed55d50b916a979a",
-      "enteredByName": "Aaron",
-      "timestamp": "2026-11-14T22:03:09.636Z"
-    },
-    {
       "id": "f602daef3697ff3d",
       "type": "cashIn",
       "amount": 190,
@@ -87186,6 +87184,17 @@
   ],
   "hookLog": [
     {
+      "id": "dbb099a5a60ba475",
+      "at": "2026-11-16T19:29:11.751Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "xZLKer7b8REf5XalUI6n",
+      "customer": "Thomas Washington",
+      "car": "DG 2022 Jeep Grand Waganeer Ceramic Coating&Rims&FWindsheildCoat 499-150depo",
+      "saleId": "ca65283c8e9bda6c",
+      "merged": false
+    },
+    {
       "id": "1e5d8681ef590e78",
       "at": "2026-11-16T18:43:08.033Z",
       "route": "booking",
@@ -88471,5 +88480,7 @@
         "initials": "GM"
       }
     }
-  ]
+  ],
+  "cashOpeningBalance": 0,
+  "cashOpeningSetAt": "2026-11-16T19:20:16.789Z"
 }
