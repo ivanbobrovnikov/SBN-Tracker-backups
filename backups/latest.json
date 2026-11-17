@@ -27148,8 +27148,8 @@
       "ghlOpportunityId": "saHyoAt7WZwToWCV3hqR",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-10-10T15:04:10.260Z",
       "date": "2026-11-17T16:00:00.000Z",
       "customerName": "Keanu",
@@ -27163,7 +27163,7 @@
       "employeeNames": "Angelica",
       "salesRepId": null,
       "salesRepName": "Walk-in (booked by staff)",
-      "isWalkIn": true,
+      "isWalkIn": false,
       "baseService": "Window Tint",
       "basePrice": 299,
       "priceSource": "manual",
@@ -27185,10 +27185,12 @@
         }
       ],
       "priceLocked": true,
-      "walkInClosedByType": "manager",
-      "walkInClosedById": "ed55d50b916a979a",
-      "walkInClosedByName": "Aaron",
-      "walkInClosedAuto": "title"
+      "walkInClosedByType": null,
+      "walkInClosedById": null,
+      "walkInClosedByName": null,
+      "walkInClosedAuto": "title",
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "8380cad70e27b9e1",
@@ -42366,7 +42368,7 @@
       "id": "3577298da89fb7cf",
       "ghlOpportunityId": "7vNH3JZ99ugW0L0lLzD7",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-10-31T18:57:30.317Z",
@@ -42391,7 +42393,16 @@
       "titleDeposit": 75,
       "syncedFromGHL": true,
       "ghlValue": 349,
-      "closeApptDate": "2026-11-17T20:00:00.000Z"
+      "closeApptDate": "2026-11-17T20:00:00.000Z",
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "a3ee2fe044ba9c46",
+          "text": "15 Two fronts 5 rear",
+          "authorName": "Aaron (manager)",
+          "timestamp": "2026-11-17T20:16:23.409Z"
+        }
+      ]
     },
     {
       "id": "f40ba32e62bc99c2",
@@ -50767,7 +50778,7 @@
       "ghlOpportunityId": "q325Yi3uIMMaWprKzz19",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-11-12T15:00:51.043Z",
       "closedAtSource": "tracker",
@@ -50796,7 +50807,9 @@
       "titleDeposit": 150,
       "syncedFromGHL": true,
       "ghlValue": 0,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCash": false,
+      "paymentMethod": null
     },
     {
       "id": "5f670cf215e8a00e",
@@ -50910,8 +50923,8 @@
       "ghlOpportunityId": "gO532mtlC65MtljLpol5",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-12T16:00:04.884Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-17T18:00:00.000Z",
@@ -50943,7 +50956,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-11-17T17:56:53.180Z"
         }
-      ]
+      ],
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "1823d981b13dae9e",
@@ -51345,7 +51360,7 @@
       "id": "d4b8c12df056058e",
       "ghlOpportunityId": "gp9L1kJx01bQZ4Grozte",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-12T20:05:31.627Z",
@@ -51370,7 +51385,9 @@
       "titlePrice": 425,
       "titleDeposit": 75,
       "syncedFromGHL": true,
-      "ghlValue": 425
+      "ghlValue": 425,
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-11-17T20:31:21.354Z"
     },
     {
       "id": "07db5f879cf8d064",
@@ -51408,8 +51425,8 @@
       "ghlOpportunityId": "qyoHAqitGpeOTe5fiooM",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-12T20:19:37.168Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-17T18:00:00.000Z",
@@ -51447,7 +51464,10 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-11-17T17:57:24.325Z"
         }
-      ]
+      ],
+      "paidCard": false,
+      "paymentMethod": "cash",
+      "paidCash": true
     },
     {
       "id": "9ad028d40388ce57",
@@ -51516,7 +51536,7 @@
       "id": "78ad930ea0eee860",
       "ghlOpportunityId": "R3lTdPIENF8ErdecPWwZ",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-12T21:22:03.700Z",
@@ -51541,7 +51561,8 @@
       "titlePrice": 199,
       "titleDeposit": 70,
       "syncedFromGHL": true,
-      "ghlValue": 199
+      "ghlValue": 199,
+      "arrivedByComplete": false
     },
     {
       "id": "0d75c3eb4f335291",
@@ -53519,8 +53540,8 @@
       "ghlOpportunityId": "DGlVd4um0OXMKTFoxahD",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-16T14:58:25.146Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-17T14:00:00.000Z",
@@ -53548,7 +53569,9 @@
       "titleDeposit": 150,
       "syncedFromGHL": true,
       "ghlValue": 0,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "c81d772530c1b5b5",
@@ -54094,7 +54117,7 @@
       "id": "5559ab2ee60939ab",
       "ghlOpportunityId": "Cx0uaBHlBEIPA1I8pSpR",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-16T21:31:31.640Z",
@@ -54119,7 +54142,8 @@
       "titlePrice": 199,
       "titleDeposit": 70,
       "syncedFromGHL": true,
-      "ghlValue": 199
+      "ghlValue": 199,
+      "arrivedByComplete": false
     },
     {
       "id": "8901ec6bb4c9db8a",
@@ -54168,7 +54192,7 @@
       "id": "1728932d288a69c5",
       "ghlOpportunityId": "QF5xwEtRXsRUH8UzyAGX",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-16T21:36:56.310Z",
@@ -54193,7 +54217,8 @@
       "titlePrice": 450,
       "titleDeposit": 70,
       "syncedFromGHL": true,
-      "ghlValue": 450
+      "ghlValue": 450,
+      "arrivedByComplete": false
     },
     {
       "id": "3a00a1a1cd64ca4c",
@@ -54230,7 +54255,7 @@
       "id": "86d78cb6a7c69d1a",
       "ghlOpportunityId": "TdzktIApMngPKAVSpT1D",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-17T00:26:06.886Z",
@@ -54270,7 +54295,8 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-11-17T15:10:32.584Z"
         }
-      ]
+      ],
+      "missedTextAt": "2026-11-17T20:31:19.713Z"
     },
     {
       "id": "280cd0261e94faa0",
@@ -70531,6 +70557,56 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "78cdb042cc900e1b",
+      "timestamp": "2026-11-17T20:59:46.438Z",
+      "actor": "Naomi (manager)",
+      "saleId": "6a1d5588d696411b",
+      "car": "AG 2024 GMC sierra Denali $499 coating, $80 wheel coating; $150 deposit paid",
+      "field": "Cash received",
+      "oldValue": 349,
+      "newValue": 0
+    },
+    {
+      "id": "883d95792d7cbcec",
+      "timestamp": "2026-11-17T20:58:49.101Z",
+      "actor": "Naomi (manager)",
+      "saleId": "6a1d5588d696411b",
+      "car": "AG 2024 GMC sierra Denali $499 coating, $80 wheel coating; $150 deposit paid",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 349
+    },
+    {
+      "id": "160f99af7007564b",
+      "timestamp": "2026-11-17T20:42:56.472Z",
+      "actor": "Naomi (manager)",
+      "saleId": "8e6e418ab4ddd797",
+      "car": "AG 2012 Lexus IS250 s&r + removal $299 ; $50 deposit",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 249
+    },
+    {
+      "id": "671ace1c3eda0c43",
+      "timestamp": "2026-11-17T20:31:08.227Z",
+      "actor": "Naomi (manager)",
+      "saleId": "5ec1873a903f0db4",
+      "car": "DG 2022 Audi A3 AllAroundTINTdiddy 350-75depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 275
+    },
+    {
+      "id": "ae176e7cb501a955",
+      "timestamp": "2026-11-17T20:26:29.850Z",
+      "actor": "Aaron (manager)",
+      "saleId": "bfa77bda9017142f",
+      "car": "DG 2024 Lexus IS350 S+RTINT 285-75depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 210
+    },
+    {
       "id": "f04f33ac0749d5ab",
       "timestamp": "2026-11-17T20:10:48.586Z",
       "actor": "Auto (title)",
@@ -81263,6 +81339,51 @@
   ],
   "cashEntries": [
     {
+      "id": "e1d2aa416f594f60",
+      "type": "cashIn",
+      "amount": 249,
+      "category": "Customer Payment",
+      "note": "AG 2012 Lexus IS250 s&r + removal $299 ; $50 deposit — Keanu",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "8e6e418ab4ddd797",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-11-17T20:42:56.472Z"
+    },
+    {
+      "id": "5530e78e58f3ce00",
+      "type": "cashIn",
+      "amount": 275,
+      "category": "Customer Payment",
+      "note": "DG 2022 Audi A3 AllAroundTINTdiddy 350-75depo — Danny Vela-Peña",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "5ec1873a903f0db4",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-11-17T20:31:08.227Z"
+    },
+    {
+      "id": "6c68a668a1da4149",
+      "type": "cashIn",
+      "amount": 210,
+      "category": "Customer Payment",
+      "note": "DG 2024 Lexus IS350 S+RTINT 285-75depo — Hadi Ahmad.",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "bfa77bda9017142f",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-11-17T20:26:29.850Z"
+    },
+    {
       "id": "e93f00230e2f86fc",
       "type": "cashIn",
       "amount": 110,
@@ -87378,6 +87499,38 @@
     "fallbackPhone": "+12679122701"
   },
   "textLog": [
+    {
+      "id": "a165bb996266342c",
+      "at": "2026-11-17T20:31:21.354Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "d4b8c12df056058e",
+      "customerName": "DIEGO CASTILLO",
+      "car": "2024 Kia K4 AllAroundTINT",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - DIEGO CASTILLO, 2024 Kia K4 AllAroundTINT, was due 1:00 PM today. Call (267) 307-2894.",
+      "status": "sent",
+      "nextAt": 1794947501354,
+      "sentAt": "2026-11-17T20:31:42.249Z",
+      "reason": ""
+    },
+    {
+      "id": "eda9ba0f9bfc67fe",
+      "at": "2026-11-17T20:31:19.714Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "86d78cb6a7c69d1a",
+      "customerName": "Dawan Patel Stratford",
+      "car": "2019 Fishker Karma 4Doors",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Dawan Patel Stratford, 2019 Fishker Karma 4Doors, was due 9:00 AM today. Call (609) 200-2273.",
+      "status": "sent",
+      "nextAt": 1794947499714,
+      "sentAt": "2026-11-17T20:31:41.053Z",
+      "reason": ""
+    },
     {
       "id": "a3f62b9b3e1fa220",
       "at": "2026-11-16T23:08:06.158Z",
