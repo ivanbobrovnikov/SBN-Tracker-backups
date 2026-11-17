@@ -27163,7 +27163,7 @@
       "employeeNames": "Angelica",
       "salesRepId": null,
       "salesRepName": "Walk-in (booked by staff)",
-      "isWalkIn": false,
+      "isWalkIn": true,
       "baseService": "Window Tint",
       "basePrice": 299,
       "priceSource": "manual",
@@ -27185,12 +27185,14 @@
         }
       ],
       "priceLocked": true,
-      "walkInClosedByType": null,
-      "walkInClosedById": null,
-      "walkInClosedByName": null,
-      "walkInClosedAuto": "title",
+      "walkInClosedByType": "manager",
+      "walkInClosedById": "ed55d50b916a979a",
+      "walkInClosedByName": "Aaron",
+      "walkInClosedAuto": null,
       "paidCash": true,
-      "paymentMethod": "cash"
+      "paymentMethod": "cash",
+      "isOnlineBooking": false,
+      "closerLocked": true
     },
     {
       "id": "8380cad70e27b9e1",
@@ -48278,8 +48280,8 @@
       "ghlOpportunityId": "BxaEYOhE3npbmC1OAi3w",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-09T20:16:01.507Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-17T14:00:00.000Z",
@@ -48289,8 +48291,12 @@
       "customerEmail": "",
       "contactId": "BxaEYOhE3npbmC1OAi3w",
       "car": "NA 2024 kia Teludirde ceramic coating $499 -$95 depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "d34a56ef18af3bd5",
+        "c2ad905af8951e80",
+        "8ee8cc14340b4386"
+      ],
+      "employeeNames": "Austin, Devonte, Nick",
       "salesRepId": null,
       "salesRepName": "Walk-in (booked by staff)",
       "isWalkIn": true,
@@ -48307,7 +48313,9 @@
       "titleDeposit": 95,
       "syncedFromGHL": true,
       "ghlValue": 0,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "45ac842cfa7a54b0",
@@ -50779,7 +50787,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-12T15:00:51.043Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-17T14:00:00.000Z",
@@ -50808,8 +50816,8 @@
       "syncedFromGHL": true,
       "ghlValue": 0,
       "arrivedByComplete": false,
-      "paidCash": false,
-      "paymentMethod": null
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "5f670cf215e8a00e",
@@ -51058,8 +51066,8 @@
       "ghlOpportunityId": "36OaIIGNLAYnj7VYFODU",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-12T16:47:38.267Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-17T16:00:00.000Z",
@@ -51095,7 +51103,9 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-11-17T15:59:11.273Z"
         }
-      ]
+      ],
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "2f037933fbbcc475",
@@ -51259,8 +51269,8 @@
       "ghlOpportunityId": "ACkOfFZEqodwwqhjYW5o~earlier-d92a4440f1e6e506",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-12T18:50:16.804Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-17T18:00:00.000Z",
@@ -51292,7 +51302,10 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-11-16T21:32:57.236Z"
         }
-      ]
+      ],
+      "paidCard": false,
+      "paymentMethod": "cash",
+      "paidCash": true
     },
     {
       "id": "b8c2eeff119bc858",
@@ -51485,8 +51498,11 @@
       "customerEmail": "",
       "contactId": "I0UXiFofgdBhkFomT4sc",
       "car": "DG 2021 Chevy Silverado S+RTINT&Sunstrip 275-70depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Angelica, Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -51548,8 +51564,10 @@
       "customerEmail": "",
       "contactId": "R3lTdPIENF8ErdecPWwZ",
       "car": "DG 2023 Toyota Tundra S+RTINT 199-70depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -52527,7 +52545,7 @@
       "closedAt": "2026-11-13T21:53:09.735Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-28T16:00:00.000Z",
-      "date": "2026-11-28T16:00:00.000Z",
+      "date": "2026-11-27T16:00:00.000Z",
       "customerName": "Angel L. Rios",
       "customerPhone": "(856) 304-2538",
       "customerEmail": "",
@@ -52546,7 +52564,7 @@
       "titlePrice": 290,
       "titleDeposit": 70,
       "syncedFromGHL": true,
-      "ghlValue": 290
+      "ghlValue": 299
     },
     {
       "id": "7e1e5dc2f16eccfe",
@@ -54143,13 +54161,17 @@
       "titleDeposit": 70,
       "syncedFromGHL": true,
       "ghlValue": 199,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "8901ec6bb4c9db8a",
       "ghlOpportunityId": "ACkOfFZEqodwwqhjYW5o",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-16T21:35:19.684Z",
@@ -54160,7 +54182,7 @@
       "customerPhone": "(215) 909-3960",
       "customerEmail": "",
       "contactId": "ACkOfFZEqodwwqhjYW5o",
-      "car": "AG 2017 Audi Q7 two fronts and windshield $185",
+      "car": "AG 2017 Audi Q7 two fronts and windshield $185 remaining balance $230 from 2 jobs",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": null,
@@ -54175,8 +54197,8 @@
       "priceSource": "title",
       "calendarId": null,
       "priceMismatchDismissed": false,
-      "titlePrice": 185,
-      "titleDeposit": 0,
+      "titlePrice": null,
+      "titleDeposit": null,
       "syncedFromGHL": true,
       "ghlValue": 299,
       "notes": [
@@ -54186,14 +54208,16 @@
           "authorName": "Aaron (manager)",
           "timestamp": "2026-11-16T21:35:49.374Z"
         }
-      ]
+      ],
+      "arrivedByComplete": false,
+      "titleLocked": true
     },
     {
       "id": "1728932d288a69c5",
       "ghlOpportunityId": "QF5xwEtRXsRUH8UzyAGX",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-11-16T21:36:56.310Z",
       "closedAtSource": "tracker",
@@ -54204,8 +54228,11 @@
       "customerEmail": "",
       "contactId": "QF5xwEtRXsRUH8UzyAGX",
       "car": "DG 2021 Chevy Silverado AllAroundTINT 450-70depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "1050c9240f87fa5f",
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Isseyah, Edward",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -54763,6 +54790,36 @@
       "titlePrice": 349,
       "titleDeposit": 50,
       "syncedFromGHL": true
+    },
+    {
+      "id": "8ba9bcff27d3cd10",
+      "ghlOpportunityId": "tW31fewurMqGOrpeUBup",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-17T21:52:50.804Z",
+      "closedAtSource": "tracker",
+      "closeApptDate": "2026-11-21T20:00:00.000Z",
+      "date": "2026-11-21T20:00:00.000Z",
+      "customerName": "KRISTIN ROSANO",
+      "customerPhone": "(856) 515-3215",
+      "customerEmail": "",
+      "contactId": "tW31fewurMqGOrpeUBup",
+      "car": "DG 2022 Kia Forte S+RTINT 299-70depo",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Window Tint",
+      "basePrice": 299,
+      "priceSource": "title",
+      "calendarId": null,
+      "priceMismatchDismissed": false,
+      "titlePrice": 299,
+      "titleDeposit": 70,
+      "syncedFromGHL": true
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -54836,6 +54893,114 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-11-17T21:54:35.990Z",
+      "endpoint": "sync",
+      "matchedSaleId": "ab894d4dad9e4be8",
+      "before": {
+        "basePrice": 290,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 290,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "2012 Mazda 3",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "x1TkHswr0Ut4QaXzQNtN",
+        "first_name": "Angel",
+        "last_name": "L. Rios",
+        "full_name": "Angel L. Rios",
+        "email": "ein5rios@comcast.net",
+        "phone": "+18563042538",
+        "tags": "tint,hp fresh,hp sbn auto styling nj",
+        "country": "US",
+        "date_created": "2026-11-13T02:11:13.485Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Angel L. Rios | ",
+        "status": "won",
+        "lead_value": 299,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "M4XLJHp0Vm0KjunJkyHg",
+        "pipeline_name": "Main Pipeline",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "1132988729106051",
+            "medium": "facebook",
+            "formId": "1132988729106051",
+            "formName": "window tint 199 diddy ceramic",
+            "campaign": "window tint ABO",
+            "utm_campaign": "window tint ABO",
+            "campaignId": "120257561128010011",
+            "utmMedium": "bro what's going on? no we have no bookings 199 - Copy",
+            "utmContent": "bro what's going on? no we have no bookings 199",
+            "adSetId": "120257622785920011",
+            "adId": "120257622785940011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "1132988729106051",
+            "medium": "facebook",
+            "formId": "1132988729106051",
+            "formName": "window tint 199 diddy ceramic",
+            "campaign": "window tint ABO",
+            "utm_campaign": "window tint ABO",
+            "campaignId": "120257561128010011",
+            "utmMedium": "bro what's going on? no we have no bookings 199 - Copy",
+            "utmContent": "bro what's going on? no we have no bookings 199",
+            "adSetId": "120257622785920011",
+            "adId": "120257622785940011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "299",
+          "salesRepName": "",
+          "contactId": "x1TkHswr0Ut4QaXzQNtN"
+        }
+      }
+    },
     {
       "receivedAt": "2026-11-17T20:10:48.547Z",
       "endpoint": "sync",
@@ -65139,121 +65304,6 @@
           "contactId": "BOnTkCFQbzrYKAAosdZx"
         }
       }
-    },
-    {
-      "receivedAt": "2026-11-17T01:01:02.720Z",
-      "endpoint": "sync",
-      "matchedSaleId": "280cd0261e94faa0",
-      "before": {
-        "basePrice": 260,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 260,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2021 Acura TLX",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "a66bvUiSNs9OHoTDrk3w",
-        "first_name": "Joshua",
-        "last_name": "Nieves Williams",
-        "full_name": "Joshua Nieves Williams",
-        "email": "jwillbatman@yahoo.com",
-        "phone": "+16092009674",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-11-15T14:21:19.426Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Joshua Nieves Williams | ",
-        "status": "won",
-        "lead_value": 260,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "i476f1k6jqkROfVmoIqB",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1132988729106051",
-            "medium": "facebook",
-            "formId": "1132988729106051",
-            "formName": "window tint 199 diddy ceramic",
-            "campaign": "window tint ABO",
-            "utm_campaign": "window tint ABO",
-            "campaignId": "120257561128010011",
-            "utmMedium": "west berlin we're openin 20 more",
-            "utmContent": "west berlin we're openin 20 more",
-            "adSetId": "120257641732000011",
-            "adId": "120257641731960011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1132988729106051",
-            "medium": "facebook",
-            "formId": "1132988729106051",
-            "formName": "window tint 199 diddy ceramic",
-            "campaign": "window tint ABO",
-            "utm_campaign": "window tint ABO",
-            "campaignId": "120257561128010011",
-            "utmMedium": "west berlin we're openin 20 more",
-            "utmContent": "west berlin we're openin 20 more",
-            "adSetId": "120257641732000011",
-            "adId": "120257641731960011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "260",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "a66bvUiSNs9OHoTDrk3w"
-        }
-      }
     }
   ],
   "attendance": [
@@ -70556,6 +70606,36 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "a6f42852ce7d01a0",
+      "timestamp": "2026-11-17T21:46:32.674Z",
+      "actor": "Naomi (manager)",
+      "saleId": "8901ec6bb4c9db8a",
+      "car": "AG 2017 Audi Q7 two fronts and windshield $185",
+      "field": "Car/Title",
+      "oldValue": "AG 2017 Audi Q7 two fronts and windshield $185",
+      "newValue": "AG 2017 Audi Q7 two fronts and windshield $185 remaining balance $230 from 2 jobs"
+    },
+    {
+      "id": "eab890275adc352b",
+      "timestamp": "2026-11-17T21:45:35.653Z",
+      "actor": "Naomi (manager)",
+      "saleId": "d92a4440f1e6e506",
+      "car": "DG 2021 Ram 1500 AllAroundDiddy&Removal 515-70depo",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 400
+    },
+    {
+      "id": "d51db64e58a07185",
+      "timestamp": "2026-11-17T21:27:38.920Z",
+      "actor": "Naomi (manager)",
+      "saleId": "6a1d5588d696411b",
+      "car": "AG 2024 GMC sierra Denali $499 coating, $80 wheel coating; $150 deposit paid",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 349
+    },
     {
       "id": "78cdb042cc900e1b",
       "timestamp": "2026-11-17T20:59:46.438Z",
@@ -81339,6 +81419,36 @@
   ],
   "cashEntries": [
     {
+      "id": "1ef838170a071c43",
+      "type": "cashIn",
+      "amount": 400,
+      "category": "Customer Payment",
+      "note": "DG 2021 Ram 1500 AllAroundDiddy&Removal 515-70depo — Titles_on_deck DelValle",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "d92a4440f1e6e506",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-11-17T21:45:35.653Z"
+    },
+    {
+      "id": "d488aab091b69256",
+      "type": "cashIn",
+      "amount": 349,
+      "category": "Customer Payment",
+      "note": "AG 2024 GMC sierra Denali $499 coating, $80 wheel coating; $150 deposit paid — Bill Karwoski",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "6a1d5588d696411b",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-11-17T21:27:38.920Z"
+    },
+    {
       "id": "e1d2aa416f594f60",
       "type": "cashIn",
       "amount": 249,
@@ -90701,6 +90811,28 @@
     }
   ],
   "hookLog": [
+    {
+      "id": "74291b2267246b6b",
+      "at": "2026-11-17T21:54:35.097Z",
+      "route": "booking",
+      "outcome": "updated",
+      "appt": "x1TkHswr0Ut4QaXzQNtN",
+      "customer": "Angel L. Rios",
+      "car": "DG 2012 Mazda 3 S+RTINT 290-70depo",
+      "saleId": "ab894d4dad9e4be8",
+      "merged": false
+    },
+    {
+      "id": "4f7ba7e9a68f3241",
+      "at": "2026-11-17T21:52:50.810Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "tW31fewurMqGOrpeUBup",
+      "customer": "KRISTIN ROSANO",
+      "car": "DG 2022 Kia Forte S+RTINT 299-70depo",
+      "saleId": "8ba9bcff27d3cd10",
+      "merged": false
+    },
     {
       "id": "d219064fe6bc3aab",
       "at": "2026-11-17T20:10:48.594Z",
