@@ -44071,7 +44071,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-03T19:29:07.477Z",
       "closedAtSource": "tracker",
       "date": "2026-11-16T15:00:00.000Z",
@@ -44097,7 +44097,9 @@
       "syncedFromGHL": true,
       "ghlValue": 0,
       "closeApptDate": "2026-11-16T15:00:00.000Z",
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "e2be6698c79a7e39",
