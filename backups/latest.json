@@ -51634,7 +51634,7 @@
       "id": "2ee386232f02cb55",
       "ghlOpportunityId": "1ROaCf0BOekS4it6JTmu",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-12T21:45:23.350Z",
@@ -51659,7 +51659,8 @@
       "titlePrice": 199,
       "titleDeposit": 70,
       "syncedFromGHL": true,
-      "ghlValue": 199
+      "ghlValue": 199,
+      "arrivedByComplete": false
     },
     {
       "id": "eb305f3cc9e2f702",
@@ -52841,8 +52842,17 @@
     {
       "id": "04f26447cbc919a6",
       "ghlOpportunityId": "VNdv5sNMRo1XSogURkiw",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "3cdc00659579e26f",
+          "name": "Full vehicle",
+          "price": 110,
+          "employeeId": null,
+          "managerId": "ed55d50b916a979a",
+          "salesRepId": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-14T15:04:46.424Z",
@@ -52867,7 +52877,8 @@
       "titlePrice": 140,
       "titleDeposit": 70,
       "syncedFromGHL": true,
-      "ghlValue": 140
+      "ghlValue": 140,
+      "arrivedByComplete": false
     },
     {
       "id": "6cb0a6535e558e80",
@@ -95485,6 +95496,13 @@
     }
   ],
   "hookLog": [
+    {
+      "id": "655d332fa0a7e21f",
+      "at": "2026-11-18T14:04:45.086Z",
+      "route": "cancelled",
+      "outcome": "refused",
+      "reason": "no opportunity ID in what GHL sent"
+    },
     {
       "id": "0d05594a4a9404e6",
       "at": "2026-11-18T01:09:21.603Z",
