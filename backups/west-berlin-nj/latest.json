@@ -38160,7 +38160,16 @@
     {
       "id": "644d2606eaed6303",
       "ghlOpportunityId": "EDzk4CuEF0dgjU99B4fN",
-      "upsells": [],
+      "upsells": [
+        {
+          "id": "55a6b5a30a49dfd4",
+          "name": "Nano",
+          "price": 100,
+          "employeeId": null,
+          "managerId": "791dee90ad560e70",
+          "salesRepId": null
+        }
+      ],
       "status": "pending",
       "completed": false,
       "paid": false,
@@ -38186,7 +38195,15 @@
       "calendarId": null,
       "syncedFromGHL": true,
       "ghlValue": 789,
-      "closeApptDate": "2026-12-03T14:00:00.000Z"
+      "closeApptDate": "2026-12-03T14:00:00.000Z",
+      "notes": [
+        {
+          "id": "f8284cc85ebf7cd1",
+          "text": "50% sides rear",
+          "authorName": "Naomi (manager)",
+          "timestamp": "2026-11-18T21:16:53.401Z"
+        }
+      ]
     },
     {
       "id": "ee3185edc31d5daa",
@@ -46395,21 +46412,21 @@
       "customerPhone": "(856) 404-4752",
       "customerEmail": "",
       "contactId": "npa2fnQC9h7JZkvFRdIi",
-      "car": "DG 2021 Ford F250 2FrontWindows&Sunstrip 230-75depo",
+      "car": "DG 2021 Ford F250 S+RTINT&Sunstrip 349-75depo",
       "employeeIds": [],
       "employeeNames": "Unassigned",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 230,
+      "basePrice": 349,
       "priceSource": "title",
       "calendarId": null,
       "priceMismatchDismissed": false,
-      "titlePrice": 230,
+      "titlePrice": 349,
       "titleDeposit": 75,
       "syncedFromGHL": true,
-      "ghlValue": 230,
+      "ghlValue": 349,
       "notes": []
     },
     {
@@ -52689,7 +52706,7 @@
       "id": "be335eeed89732c7",
       "ghlOpportunityId": "Pz6mWnEd2grlh2IEoH6n",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-13T23:01:38.442Z",
@@ -52714,7 +52731,8 @@
       "titlePrice": 319,
       "titleDeposit": 70,
       "syncedFromGHL": true,
-      "ghlValue": 319
+      "ghlValue": 319,
+      "arrivedByComplete": false
     },
     {
       "id": "20c57acaba65b451",
@@ -52993,7 +53011,7 @@
       "id": "34a18833e01917f4",
       "ghlOpportunityId": "r1oE9RChE4WTyVmpdef5",
       "upsells": [],
-      "status": "pending",
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-14T16:26:51.826Z",
@@ -53018,7 +53036,8 @@
       "titlePrice": 300,
       "titleDeposit": 70,
       "syncedFromGHL": true,
-      "ghlValue": 300
+      "ghlValue": 300,
+      "arrivedByComplete": false
     },
     {
       "id": "eae633689cdedc6b",
@@ -54127,7 +54146,7 @@
       "id": "d418d3aecb01d1ba",
       "ghlOpportunityId": "NpbvYUXg015yai0KznwG",
       "upsells": [],
-      "status": "arrived",
+      "status": "pending",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-16T20:15:29.928Z",
@@ -55543,14 +55562,39 @@
     {
       "id": "a94862aff0758da1",
       "ghlOpportunityId": "g6fVG0o2HBWOoAHPTH8o",
-      "upsells": [],
-      "status": "pending",
+      "upsells": [
+        {
+          "id": "c98201c4ce7c2354",
+          "name": "Nano",
+          "price": 100,
+          "employeeId": null,
+          "managerId": "791dee90ad560e70",
+          "salesRepId": null
+        },
+        {
+          "id": "972d52b599cf5f7b",
+          "name": "All around",
+          "price": 488,
+          "employeeId": null,
+          "managerId": "791dee90ad560e70",
+          "salesRepId": null
+        },
+        {
+          "id": "aa1139153039421f",
+          "name": "Sunroof",
+          "price": 100,
+          "employeeId": null,
+          "managerId": "791dee90ad560e70",
+          "salesRepId": null
+        }
+      ],
+      "status": "arrived",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-18T18:50:39.891Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-18T21:00:00.000Z",
-      "date": "2026-11-18T21:00:00.000Z",
+      "date": "2026-11-20T20:00:00.000Z",
       "customerName": "Paul",
       "customerPhone": "(914) 494-5196",
       "customerEmail": "",
@@ -55562,14 +55606,16 @@
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
       "baseService": "Window Tint",
-      "basePrice": 110,
-      "priceSource": "title",
+      "basePrice": 698,
+      "priceSource": "manual",
       "calendarId": null,
       "priceMismatchDismissed": false,
       "titlePrice": 110,
       "titleDeposit": 50,
       "syncedFromGHL": true,
-      "ghlValue": 110
+      "ghlValue": 110,
+      "arrivedByComplete": false,
+      "priceLocked": true
     },
     {
       "id": "98d06c57af061247",
@@ -55798,6 +55844,115 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-11-18T21:01:52.636Z",
+      "endpoint": "sync",
+      "matchedSaleId": "9aeb316f53fac5c0",
+      "before": {
+        "basePrice": 230,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 230,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "Street address": "",
+        "How many years of professional window tint experience do you have?": "",
+        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "ASAP (within 7 days)",
+        "When are you planning to get the work done?": "",
+        "What type of dent repair do you need?": "",
+        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
+        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "Year, Make, Model of the vehicle.": "I am already booked will I get this special",
+        "Where is the damage located on your vehicle?": "",
+        "How many years of professional ceramic coating experience do you have?": "",
+        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
+        "contact_id": "npa2fnQC9h7JZkvFRdIi",
+        "first_name": "Raymond",
+        "last_name": "Ocejo",
+        "full_name": "Raymond Ocejo",
+        "email": "hdrhi80@yahoo.com",
+        "phone": "+18564044752",
+        "tags": "tint,hp sbn auto styling nj,hp aged",
+        "country": "US",
+        "date_created": "2026-06-27T02:24:20.837Z",
+        "contact_source": "Facebook",
+        "full_address": "",
+        "contact_type": "lead",
+        "opportunity_name": "Raymond Ocejo | ",
+        "status": "won",
+        "lead_value": 349,
+        "opportunity_source": "Facebook",
+        "source": "Facebook",
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "UeixPUvRNjQ71N0BpFGl",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Paid Social",
+            "mediumId": "1521577853048463",
+            "medium": "facebook",
+            "formId": "1521577853048463",
+            "formName": "window tint 299-copy",
+            "campaign": "window tint camp NJ",
+            "utm_campaign": "window tint camp NJ",
+            "campaignId": "120254638050750011",
+            "utmMedium": "ad set 2",
+            "utmContent": "ad 2 299",
+            "adSetId": "120254655817560011",
+            "adId": "120254655817540011",
+            "utmSource": "facebook",
+            "source": "facebook",
+            "referrer": "",
+            "keyword": null,
+            "adSource": "facebook"
+          },
+          "lastAttributionSource": {
+            "sessionSource": "Social media",
+            "medium": "facebook",
+            "mediumId": "27275786858782205",
+            "adId": null,
+            "utmContent": null,
+            "photoUrl": null,
+            "videoUrl": null,
+            "postId": null,
+            "productId": null,
+            "flowId": null,
+            "pSid": "27275786858782205"
+          }
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "349",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "npa2fnQC9h7JZkvFRdIi"
+        }
+      }
+    },
     {
       "receivedAt": "2026-11-18T20:11:22.082Z",
       "endpoint": "sync",
@@ -66034,121 +66189,6 @@
           "contactId": "mvofXEUnXqCtgIA40S8R"
         }
       }
-    },
-    {
-      "receivedAt": "2026-11-18T14:49:14.537Z",
-      "endpoint": "sync",
-      "matchedSaleId": "2de815048e56f9b3",
-      "before": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 499,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2020 range rover",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "mvofXEUnXqCtgIA40S8R",
-        "first_name": "Donald",
-        "last_name": "Carroll",
-        "full_name": "Donald Carroll",
-        "email": "snike.dc@gmail.com",
-        "phone": "+18567452950",
-        "tags": "coating,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-10-20T10:37:50.429Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Donald Carroll | ",
-        "status": "won",
-        "lead_value": 499,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "IG8kcpja4kNlvyFGYYEw",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Roman",
-          "lastName": "Goldovsky",
-          "email": "romangoldovsky@gmail.com",
-          "phone": "+12673998158"
-        },
-        "owner": "Roman Goldovsky",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "u shouldnt have to overpay to get ur vechile protected 499",
-            "adSetId": "120255090573730011",
-            "adId": "120256998714060011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "868814779620228",
-            "medium": "facebook",
-            "formId": "868814779620228",
-            "formName": "499 10 year coatijng",
-            "campaign": "ceramic coating testing",
-            "utm_campaign": "ceramic coating testing",
-            "campaignId": "120255090573720011",
-            "utmMedium": "10 year 499",
-            "utmContent": "u shouldnt have to overpay to get ur vechile protected 499",
-            "adSetId": "120255090573730011",
-            "adId": "120256998714060011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "499",
-          "salesRepName": "Roman Goldovsky",
-          "contactId": "mvofXEUnXqCtgIA40S8R"
-        }
-      }
     }
   ],
   "attendance": [
@@ -71541,6 +71581,46 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "095ae37fe19f0802",
+      "timestamp": "2026-11-18T21:14:08.067Z",
+      "actor": "Naomi (manager)",
+      "saleId": "a94862aff0758da1",
+      "car": "DG 2023 Volkswagen Atlas 2front tint 110-50depo",
+      "field": "Date/Time",
+      "oldValue": "2026-11-18T21:00:00.000Z",
+      "newValue": "2026-11-20T20:00:00.000Z"
+    },
+    {
+      "id": "7bd3af803096a3b9",
+      "timestamp": "2026-11-18T21:13:52.543Z",
+      "actor": "Naomi (manager)",
+      "saleId": "a94862aff0758da1",
+      "car": "DG 2023 Volkswagen Atlas 2front tint 110-50depo",
+      "field": "Base price",
+      "oldValue": 110,
+      "newValue": 698
+    },
+    {
+      "id": "153e3bb8cb233552",
+      "timestamp": "2026-11-18T21:07:45.649Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "9aeb316f53fac5c0",
+      "car": "DG 2021 Ford F250 S+RTINT&Sunstrip 349-75depo",
+      "field": "Car/Title",
+      "oldValue": "DG 2021 Ford F250 2FrontWindows&Sunstrip 230-75depo",
+      "newValue": "DG 2021 Ford F250 S+RTINT&Sunstrip 349-75depo"
+    },
+    {
+      "id": "41d4c57e33d1493b",
+      "timestamp": "2026-11-18T21:07:45.648Z",
+      "actor": "Auto-sync (GHL)",
+      "saleId": "9aeb316f53fac5c0",
+      "car": "DG 2021 Ford F250 S+RTINT&Sunstrip 349-75depo",
+      "field": "Base price (from the title)",
+      "oldValue": 230,
+      "newValue": 349
+    },
     {
       "id": "7cb135a52aba53f7",
       "timestamp": "2026-11-18T19:38:24.610Z",
@@ -94232,7 +94312,7 @@
   "_backup": {
     "shop": "West Berlin, NJ",
     "folder": "west-berlin-nj",
-    "at": "2026-11-18T20:17:34.328Z",
+    "at": "2026-11-18T21:17:34.328Z",
     "build": "2026-11-18-backupfolder"
   }
 }
