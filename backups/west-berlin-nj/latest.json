@@ -47847,7 +47847,7 @@
       "ghlOpportunityId": "D5u7Va5n2b0CR4UV9Kul",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
+      "completed": true,
       "paid": false,
       "closedAt": "2026-11-09T16:27:03.147Z",
       "closedAtSource": "tracker",
@@ -47858,8 +47858,11 @@
       "customerEmail": "",
       "contactId": "D5u7Va5n2b0CR4UV9Kul",
       "car": "DG 2023 Vette C8 Ceramic Coating 499-150depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "d34a56ef18af3bd5",
+        "8ee8cc14340b4386"
+      ],
+      "employeeNames": "Austin, Nick",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -47872,7 +47875,15 @@
       "titleDeposit": 150,
       "syncedFromGHL": true,
       "ghlValue": 0,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "notes": [
+        {
+          "id": "985ba4b08858fa3b",
+          "text": "Add Típ Marg",
+          "authorName": "Naomi (manager)",
+          "timestamp": "2026-11-18T22:26:57.478Z"
+        }
+      ]
     },
     {
       "id": "f99cecfd23886797",
@@ -50029,7 +50040,7 @@
       "id": "844a92edb572c97a",
       "ghlOpportunityId": "jJ0yA8aAO8c0ecWEuVJz",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-11T16:44:03.668Z",
@@ -50054,7 +50065,9 @@
       "titlePrice": 199,
       "titleDeposit": 75,
       "syncedFromGHL": true,
-      "ghlValue": 199
+      "ghlValue": 199,
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-11-18T23:07:16.686Z"
     },
     {
       "id": "c16dde96bacc427f",
@@ -51801,9 +51814,10 @@
       "contactId": "yoSTlMoXYcYn9MDEUIYQ",
       "car": "DG 2019 Jeep Wrangler 2Fronttint 125-125depo",
       "employeeIds": [
-        "d34a56ef18af3bd5"
+        "1050c9240f87fa5f",
+        "273b3cdb8e20e0d1"
       ],
-      "employeeNames": "Austin",
+      "employeeNames": "Isseyah, Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -52067,7 +52081,7 @@
       "id": "ebae76e2d4ff171e",
       "ghlOpportunityId": "m0YpRxPkaIjwml7UnJ5J",
       "upsells": [],
-      "status": "pending",
+      "status": "no_show",
       "completed": false,
       "paid": false,
       "closedAt": "2026-11-13T00:28:44.301Z",
@@ -52092,7 +52106,9 @@
       "titlePrice": 299,
       "titleDeposit": 75,
       "syncedFromGHL": true,
-      "ghlValue": 299
+      "ghlValue": 299,
+      "arrivedByComplete": false,
+      "missedTextAt": "2026-11-18T23:07:13.368Z"
     },
     {
       "id": "7e12f3c1182edf50",
@@ -52722,8 +52738,10 @@
       "customerEmail": "",
       "contactId": "J6A0sFzrSKeVZ4e5OYwf",
       "car": "DG 2012 Volkswagen S+RTINT&SunroofDD 325-70depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "1050c9240f87fa5f"
+      ],
+      "employeeNames": "Isseyah",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -52754,8 +52772,10 @@
       "customerEmail": "",
       "contactId": "Pz6mWnEd2grlh2IEoH6n",
       "car": "DG 2025 Rivian Truck FrontWindsheild&2Front 319-70depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b"
+      ],
+      "employeeNames": "Feso",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -52768,7 +52788,11 @@
       "titleDeposit": 70,
       "syncedFromGHL": true,
       "ghlValue": 319,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron"
     },
     {
       "id": "20c57acaba65b451",
@@ -53048,8 +53072,8 @@
       "ghlOpportunityId": "r1oE9RChE4WTyVmpdef5",
       "upsells": [],
       "status": "arrived",
-      "completed": false,
-      "paid": false,
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-14T16:26:51.826Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-18T21:00:00.000Z",
@@ -53059,8 +53083,11 @@
       "customerEmail": "",
       "contactId": "r1oE9RChE4WTyVmpdef5",
       "car": "DG 2026 Toyota Corolla S+RTINT&Sunstrip 300-70depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "273b3cdb8e20e0d1",
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Angelica, Edward",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -53073,7 +53100,9 @@
       "titleDeposit": 70,
       "syncedFromGHL": true,
       "ghlValue": 300,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "eae633689cdedc6b",
@@ -54216,7 +54245,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": false,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-16T20:20:12.444Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-18T20:00:00.000Z",
@@ -54226,8 +54255,10 @@
       "customerEmail": "",
       "contactId": "jfddP2teXuH3Fa2j7WoJ",
       "car": "AG 2007 Mazda Miata s&r $199; $100 deposit ",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "b17bb44f6faf1ff2"
+      ],
+      "employeeNames": "Edward",
       "salesRepId": null,
       "salesRepName": "Walk-in (booked by staff)",
       "isWalkIn": true,
@@ -54244,7 +54275,13 @@
       "titleDeposit": 100,
       "syncedFromGHL": true,
       "ghlValue": 299,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "managerHelperIds": [
+        "ed55d50b916a979a"
+      ],
+      "managerHelperNames": "Aaron",
+      "paidCash": true,
+      "paymentMethod": "cash"
     },
     {
       "id": "a1fe9e40802929b5",
@@ -73145,6 +73182,16 @@
   "ghlRepairFixedCount": 0,
   "auditLog": [
     {
+      "id": "553781bf1a2dee0c",
+      "timestamp": "2026-11-18T23:15:32.439Z",
+      "actor": "Aaron (manager)",
+      "saleId": "78c9ac03d07fc046",
+      "car": "AG 2007 Mazda Miata s&r $199; $100 deposit ",
+      "field": "Cash received",
+      "oldValue": 0,
+      "newValue": 99
+    },
+    {
       "id": "4a9f76262bbd8e19",
       "timestamp": "2026-11-18T21:55:20.152Z",
       "actor": "Naomi (manager)",
@@ -84307,6 +84354,21 @@
   ],
   "cashEntries": [
     {
+      "id": "dc7ec7bf773fd333",
+      "type": "cashIn",
+      "amount": 99,
+      "category": "Customer Payment",
+      "note": "AG 2007 Mazda Miata s&r $199; $100 deposit  — Anthony Howell",
+      "isOnline": false,
+      "receiptPhoto": null,
+      "saleId": "78c9ac03d07fc046",
+      "autoFromJob": true,
+      "enteredByType": "manager",
+      "enteredById": "ed55d50b916a979a",
+      "enteredByName": "Aaron",
+      "timestamp": "2026-11-18T23:15:32.439Z"
+    },
+    {
       "id": "b24fc947769f7d7c",
       "type": "cashIn",
       "amount": 230,
@@ -90594,6 +90656,38 @@
   },
   "textLog": [
     {
+      "id": "a4ac3d8c54f430dd",
+      "at": "2026-11-18T23:07:16.686Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "844a92edb572c97a",
+      "customerName": "Xavier",
+      "car": "2023 Chevy Malibu S+RTINTdiddy",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Xavier, 2023 Chevy Malibu S+RTINTdiddy, was due 4:00 PM today. Call (267) 773-0175.",
+      "status": "sent",
+      "nextAt": 1795043256686,
+      "sentAt": "2026-11-18T23:07:37.575Z",
+      "reason": ""
+    },
+    {
+      "id": "665fbe6bad059f7b",
+      "at": "2026-11-18T23:07:13.369Z",
+      "attempts": 1,
+      "kind": "no_show",
+      "saleId": "ebae76e2d4ff171e",
+      "customerName": "Humbleguy_jon Nathan",
+      "car": "2022 Ram 1500 S+RTINT",
+      "toName": "Dmitriy Gumenyuk",
+      "toPhone": "+12675304006",
+      "message": "SBN West Berlin, NJ: MISSED - Humbleguy_jon Nathan, 2022 Ram 1500 S+RTINT, was due 3:00 PM today. Call (973) 991-5726.",
+      "status": "sent",
+      "nextAt": 1795043253369,
+      "sentAt": "2026-11-18T23:07:34.287Z",
+      "reason": ""
+    },
+    {
       "id": "2527d08af36f8e28",
       "at": "2026-11-18T19:04:30.047Z",
       "attempts": 1,
@@ -95927,7 +96021,7 @@
   "_backup": {
     "shop": "West Berlin, NJ",
     "folder": "west-berlin-nj",
-    "at": "2026-11-18T22:17:34.328Z",
+    "at": "2026-11-18T23:17:34.340Z",
     "build": "2026-11-18-backupfolder"
   }
 }
