@@ -86,6 +86,14 @@
       "salaryPerPeriod": 2700,
       "demotedFromManagerAt": "2026-11-19T22:42:13.900Z",
       "initials": "AG"
+    },
+    {
+      "id": "2b02987feb841fcd",
+      "name": "Ivan",
+      "pinHash": "8cee7c089ae28cd5b43949ada8a93a6a343baf4e7efd8b9bbae686a2dbbdddeb",
+      "commissionRate": 10,
+      "walkInCommissionRate": 10,
+      "demotedFromManagerAt": "2026-11-20T01:06:13.825Z"
     }
   ],
   "sales": [
@@ -2734,8 +2742,8 @@
           "id": "4cd3f775059ef067",
           "name": "Removal",
           "price": 60,
-          "employeeId": null,
-          "managerId": "2b02987feb841fcd",
+          "employeeId": "2b02987feb841fcd",
+          "managerId": null,
           "salesRepId": null,
           "salesRepName": null
         }
@@ -2890,7 +2898,7 @@
       "basePrice": 475,
       "syncedFromGHL": true,
       "isWalkIn": true,
-      "walkInClosedByType": "manager",
+      "walkInClosedByType": "employee",
       "walkInClosedById": "2b02987feb841fcd",
       "walkInClosedByName": "Ivan",
       "paidCash": true,
@@ -3584,7 +3592,7 @@
       "basePrice": 299,
       "syncedFromGHL": true,
       "isWalkIn": true,
-      "walkInClosedByType": "manager",
+      "walkInClosedByType": "employee",
       "walkInClosedById": "2b02987feb841fcd",
       "walkInClosedByName": "Ivan",
       "paidCard": true,
@@ -3895,7 +3903,7 @@
       "managerHelperIds": [],
       "managerHelperNames": "",
       "isWalkIn": true,
-      "walkInClosedByType": "manager",
+      "walkInClosedByType": "employee",
       "walkInClosedById": "2b02987feb841fcd",
       "walkInClosedByName": "Ivan",
       "paidCard": true,
@@ -3970,8 +3978,8 @@
           "id": "d1700c732574958d",
           "name": "Front 2 retint",
           "price": 210,
-          "employeeId": null,
-          "managerId": "2b02987feb841fcd",
+          "employeeId": "2b02987feb841fcd",
+          "managerId": null,
           "salesRepId": null,
           "salesRepName": null
         }
@@ -4135,8 +4143,8 @@
           "id": "626433a3ba0929f9",
           "name": "Window Ceramic Coating",
           "price": 100,
-          "employeeId": null,
-          "managerId": "2b02987feb841fcd",
+          "employeeId": "2b02987feb841fcd",
+          "managerId": null,
           "salesRepId": null,
           "salesRepName": null
         }
@@ -4844,7 +4852,7 @@
       "syncedFromGHL": true,
       "paymentMethod": "card",
       "isWalkIn": true,
-      "walkInClosedByType": "manager",
+      "walkInClosedByType": "employee",
       "walkInClosedById": "2b02987feb841fcd",
       "walkInClosedByName": "Ivan",
       "paidCard": true,
@@ -5187,7 +5195,7 @@
       "basePrice": 299,
       "syncedFromGHL": true,
       "isWalkIn": true,
-      "walkInClosedByType": "manager",
+      "walkInClosedByType": "employee",
       "walkInClosedById": "2b02987feb841fcd",
       "walkInClosedByName": "Ivan",
       "photos": {
@@ -5836,7 +5844,7 @@
       "basePrice": 499,
       "syncedFromGHL": true,
       "isWalkIn": true,
-      "walkInClosedByType": "manager",
+      "walkInClosedByType": "employee",
       "walkInClosedById": "2b02987feb841fcd",
       "walkInClosedByName": "Ivan",
       "managerHelperIds": [],
@@ -6067,8 +6075,8 @@
           "id": "cb5c9f36f998e017",
           "name": "Windshield",
           "price": 200,
-          "employeeId": null,
-          "managerId": "2b02987feb841fcd",
+          "employeeId": "2b02987feb841fcd",
+          "managerId": null,
           "salesRepId": null,
           "salesRepName": null
         }
@@ -6920,7 +6928,7 @@
       "basePrice": 460,
       "syncedFromGHL": true,
       "isWalkIn": true,
-      "walkInClosedByType": "manager",
+      "walkInClosedByType": "employee",
       "walkInClosedById": "2b02987feb841fcd",
       "walkInClosedByName": "Ivan",
       "managerHelperIds": [
@@ -9130,7 +9138,7 @@
       "syncedFromGHL": true,
       "isWalkIn": true,
       "isOnlineBooking": false,
-      "walkInClosedByType": "manager",
+      "walkInClosedByType": "employee",
       "walkInClosedById": "2b02987feb841fcd",
       "walkInClosedByName": "Ivan",
       "paidCash": true,
@@ -11338,7 +11346,7 @@
       "syncedFromGHL": true,
       "isWalkIn": true,
       "isOnlineBooking": false,
-      "walkInClosedByType": "manager",
+      "walkInClosedByType": "employee",
       "walkInClosedById": "2b02987feb841fcd",
       "walkInClosedByName": "Ivan",
       "paidCard": true,
@@ -57171,13 +57179,6 @@
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
   "managers": [
     {
-      "id": "2b02987feb841fcd",
-      "name": "Ivan",
-      "pinHash": "81dc948cd3fa9ec2064515b4267ef9a339993233dbdc0e984ce7b0fde6e1a0a9",
-      "commissionRate": 10,
-      "walkInCommissionRate": 10
-    },
-    {
       "id": "791dee90ad560e70",
       "name": "Naomi",
       "commissionRate": 10,
@@ -73888,7 +73889,7 @@
     },
     {
       "id": "56e648650c6e7d11",
-      "personType": "manager",
+      "personType": "employee",
       "personId": "2b02987feb841fcd",
       "date": "2026-09-01",
       "status": "present"
@@ -73951,7 +73952,7 @@
     },
     {
       "id": "4df1f5c72c6db3a8",
-      "personType": "manager",
+      "personType": "employee",
       "personId": "2b02987feb841fcd",
       "date": "2026-09-02",
       "status": "present"
@@ -74102,7 +74103,7 @@
     },
     {
       "id": "d15324a1ae2e62de",
-      "personType": "manager",
+      "personType": "employee",
       "personId": "2b02987feb841fcd",
       "date": "2026-09-04",
       "status": "present",
@@ -74183,7 +74184,7 @@
     },
     {
       "id": "d7e393409d2c2490",
-      "personType": "manager",
+      "personType": "employee",
       "personId": "2b02987feb841fcd",
       "date": "2026-09-05",
       "status": "present",
@@ -74264,7 +74265,7 @@
     },
     {
       "id": "dd7d87eaf813a983",
-      "personType": "manager",
+      "personType": "employee",
       "personId": "2b02987feb841fcd",
       "date": "2026-09-07",
       "status": "absent",
@@ -74345,7 +74346,7 @@
     },
     {
       "id": "ae450529953d168b",
-      "personType": "manager",
+      "personType": "employee",
       "personId": "2b02987feb841fcd",
       "date": "2026-09-08",
       "status": "present",
@@ -74426,7 +74427,7 @@
     },
     {
       "id": "3334273604d6b7fd",
-      "personType": "manager",
+      "personType": "employee",
       "personId": "2b02987feb841fcd",
       "date": "2026-09-09",
       "status": "present",
@@ -74507,7 +74508,7 @@
     },
     {
       "id": "5cf09bc2a33a8241",
-      "personType": "manager",
+      "personType": "employee",
       "personId": "2b02987feb841fcd",
       "date": "2026-09-10",
       "status": "present",
@@ -74597,7 +74598,7 @@
     },
     {
       "id": "caa1e47a7c4e03df",
-      "personType": "manager",
+      "personType": "employee",
       "personId": "2b02987feb841fcd",
       "date": "2026-09-11",
       "status": "present",
@@ -74651,7 +74652,7 @@
     },
     {
       "id": "eef2925140471436",
-      "personType": "manager",
+      "personType": "employee",
       "personId": "2b02987feb841fcd",
       "date": "2026-09-12",
       "status": "present",
@@ -76928,7 +76929,7 @@
     },
     {
       "id": "6872ed174a290fd3",
-      "personType": "manager",
+      "personType": "employee",
       "personId": "2b02987feb841fcd",
       "date": "2026-10-20",
       "status": "absent",
@@ -79237,6 +79238,246 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "5ac6dd8702fb6a9d",
+      "timestamp": "2026-11-20T01:40:57.264Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "3557c18883297732",
+      "timestamp": "2026-11-20T01:40:57.264Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "918fd1d5da0df72a",
+      "timestamp": "2026-11-20T01:40:57.263Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "0de36b86d7f0b34f",
+      "timestamp": "2026-11-20T01:40:57.263Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "4e7a45ae9f8ab8a6",
+      "timestamp": "2026-11-20T01:31:00.947Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "4b161805c84d8c25",
+      "timestamp": "2026-11-20T01:31:00.947Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "cac0a18d33574fff",
+      "timestamp": "2026-11-20T01:31:00.946Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "18d26d267be291e8",
+      "timestamp": "2026-11-20T01:31:00.946Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "eb6df7a3e502bb72",
+      "timestamp": "2026-11-20T01:20:58.508Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "0221d9ddc2bf71db",
+      "timestamp": "2026-11-20T01:20:58.508Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "b019bb771451101c",
+      "timestamp": "2026-11-20T01:20:58.507Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "8852071021605c16",
+      "timestamp": "2026-11-20T01:20:58.507Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "aa0b07144bbb28de",
+      "timestamp": "2026-11-20T01:10:57.845Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "d646dd234b0cccfa",
+      "timestamp": "2026-11-20T01:10:57.845Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "a36230095eb56638",
+      "timestamp": "2026-11-20T01:10:57.844Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "e6b5db7796e682ce",
+      "timestamp": "2026-11-20T01:10:57.843Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "1df7065fd6a02a1c",
+      "timestamp": "2026-11-20T01:01:02.443Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "7b95efe7510cbd8b",
+      "timestamp": "2026-11-20T01:01:02.443Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "78fff6ab46f6d63d",
+      "timestamp": "2026-11-20T01:01:02.442Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "2ed15bd57aeadf44",
+      "timestamp": "2026-11-20T01:01:02.442Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "cac9286c6f1e592e",
+      "timestamp": "2026-11-20T00:50:59.620Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "714629062534da5c",
+      "timestamp": "2026-11-20T00:50:59.620Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "4be88ce0c4566386",
+      "timestamp": "2026-11-20T00:50:59.619Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "bc89c58003e8b8a4",
+      "timestamp": "2026-11-20T00:50:59.619Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
     {
       "id": "e2f39ab2882274ad",
       "timestamp": "2026-11-20T00:40:58.242Z",
@@ -102434,7 +102675,7 @@
   "_backup": {
     "shop": "West Berlin, NJ",
     "folder": "west-berlin-nj",
-    "at": "2026-11-20T00:49:55.878Z",
+    "at": "2026-11-20T01:49:55.890Z",
     "build": "2026-11-19-payperiodfix"
   }
 }
