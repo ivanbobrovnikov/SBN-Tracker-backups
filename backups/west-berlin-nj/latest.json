@@ -91129,6 +91129,24 @@
       "status": "present",
       "startTime": "",
       "endTime": ""
+    },
+    {
+      "id": "9734db8dcdfc84d1",
+      "personType": "manager",
+      "personId": "791dee90ad560e70",
+      "date": "2026-11-24",
+      "status": "present",
+      "startTime": "",
+      "endTime": ""
+    },
+    {
+      "id": "c15a139783bde015",
+      "personType": "employee",
+      "personId": "ed55d50b916a979a",
+      "date": "2026-11-24",
+      "status": "absent",
+      "startTime": "",
+      "endTime": ""
     }
   ],
   "revenueStartDate": "2026-09-01",
@@ -91137,6 +91155,926 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "8fbb9014f8af3768",
+      "timestamp": "2026-11-24T13:05:42.716Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "b551ea62d5787b0e",
+      "timestamp": "2026-11-24T13:05:42.716Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "d73f56c77f58aa45",
+      "timestamp": "2026-11-24T13:05:42.714Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "4c69682f675c1dea",
+      "timestamp": "2026-11-24T13:05:42.714Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "1ce5c13612780781",
+      "timestamp": "2026-11-24T13:02:42.705Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "cd4a9ac7767f3bcd",
+      "timestamp": "2026-11-24T13:02:42.705Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "88794d42581dbf30",
+      "timestamp": "2026-11-24T13:02:42.703Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "849eb4dd8408e573",
+      "timestamp": "2026-11-24T13:02:42.703Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "8c22c0befaf164dc",
+      "timestamp": "2026-11-24T12:59:46.857Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "167942ba3e7d6b8d",
+      "timestamp": "2026-11-24T12:59:46.857Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "4f8eaf173f0e31fe",
+      "timestamp": "2026-11-24T12:59:46.850Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "27bae0e1829ce190",
+      "timestamp": "2026-11-24T12:59:46.850Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "2e97f9f850412a1f",
+      "timestamp": "2026-11-24T12:56:42.722Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "af18df65a26ae7bc",
+      "timestamp": "2026-11-24T12:56:42.722Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "677410584a7e6ca5",
+      "timestamp": "2026-11-24T12:56:42.719Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "306ca511d380ac8d",
+      "timestamp": "2026-11-24T12:56:42.718Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "c445d464dc1707fa",
+      "timestamp": "2026-11-24T12:53:42.708Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "c427a1863493a7da",
+      "timestamp": "2026-11-24T12:53:42.708Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "018f6d01f595fbd3",
+      "timestamp": "2026-11-24T12:53:42.705Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "5e71aa755dc9572f",
+      "timestamp": "2026-11-24T12:53:42.705Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "492d451f1fbcee96",
+      "timestamp": "2026-11-24T12:50:42.689Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "9488602e01bc5409",
+      "timestamp": "2026-11-24T12:50:42.689Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "838adf3852b3db90",
+      "timestamp": "2026-11-24T12:50:42.687Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "81e0e4c620d87393",
+      "timestamp": "2026-11-24T12:50:42.687Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "66bf1ed09ca772bc",
+      "timestamp": "2026-11-24T12:49:43.929Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "9c70ba6c7f3dc6d5",
+      "timestamp": "2026-11-24T12:49:43.929Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "406b0700e306ad95",
+      "timestamp": "2026-11-24T12:49:43.923Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "1b7581398c8735a4",
+      "timestamp": "2026-11-24T12:49:43.923Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "ce3db22896ae8869",
+      "timestamp": "2026-11-24T12:47:42.683Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "f3495d210c127a80",
+      "timestamp": "2026-11-24T12:47:42.683Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "685d78019d1e43cc",
+      "timestamp": "2026-11-24T12:47:42.681Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "24a70880839f5ce1",
+      "timestamp": "2026-11-24T12:47:42.681Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "1073d25996a74341",
+      "timestamp": "2026-11-24T12:44:42.657Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "ae7713e7167b27ee",
+      "timestamp": "2026-11-24T12:44:42.657Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "d69cae1bd65f0780",
+      "timestamp": "2026-11-24T12:44:42.656Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "24d6fc8d848f7141",
+      "timestamp": "2026-11-24T12:44:42.655Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "34b1162c0bb7a670",
+      "timestamp": "2026-11-24T12:41:42.665Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "5d2a6ea7d087b8ef",
+      "timestamp": "2026-11-24T12:41:42.665Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "868e4b34ae9ab8b6",
+      "timestamp": "2026-11-24T12:41:42.663Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "e9b9feaed072d95a",
+      "timestamp": "2026-11-24T12:41:42.663Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "276bce5ae71bb4eb",
+      "timestamp": "2026-11-24T12:39:44.859Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "b18219df953b6d2f",
+      "timestamp": "2026-11-24T12:39:44.859Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "caeccaca455ac659",
+      "timestamp": "2026-11-24T12:39:44.853Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "da79d5ae50d70204",
+      "timestamp": "2026-11-24T12:39:44.853Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "12d819b5ae2b1588",
+      "timestamp": "2026-11-24T12:35:42.657Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "64cb5ed8b837a4b1",
+      "timestamp": "2026-11-24T12:35:42.656Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "6885fbe360831d3e",
+      "timestamp": "2026-11-24T12:35:42.654Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "88a4c94a58599841",
+      "timestamp": "2026-11-24T12:35:42.654Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "abd8013c3df550cd",
+      "timestamp": "2026-11-24T12:32:42.631Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "22f738c379bb98af",
+      "timestamp": "2026-11-24T12:32:42.631Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "d1430245f640f9b9",
+      "timestamp": "2026-11-24T12:32:42.629Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "0da4724d4bc271a6",
+      "timestamp": "2026-11-24T12:32:42.629Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "8fbc8818bd95677b",
+      "timestamp": "2026-11-24T12:29:42.611Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "24673328139b7aca",
+      "timestamp": "2026-11-24T12:29:42.611Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "e68409d8820d2492",
+      "timestamp": "2026-11-24T12:29:42.608Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "b2252456a3c9f766",
+      "timestamp": "2026-11-24T12:29:42.607Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "21cfe7f08172d0ab",
+      "timestamp": "2026-11-24T12:29:41.670Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "fcc4e8a125b23363",
+      "timestamp": "2026-11-24T12:29:41.670Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "f8575220084af64b",
+      "timestamp": "2026-11-24T12:29:41.660Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "af3c9984f4a2ad08",
+      "timestamp": "2026-11-24T12:29:41.660Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "c34673473db51d4b",
+      "timestamp": "2026-11-24T12:26:42.628Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "0304c3b4898961e2",
+      "timestamp": "2026-11-24T12:26:42.628Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "a4a2597c629e75bc",
+      "timestamp": "2026-11-24T12:26:42.625Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "c8d20a4532fe63e1",
+      "timestamp": "2026-11-24T12:26:42.625Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "21c837e537a8eee6",
+      "timestamp": "2026-11-24T12:23:42.591Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "a4031f8ffbc3b5ec",
+      "timestamp": "2026-11-24T12:23:42.591Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "439318e01a6198d7",
+      "timestamp": "2026-11-24T12:23:42.589Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "aa12a4bfce3c1dc3",
+      "timestamp": "2026-11-24T12:23:42.589Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "b5b0cb1b9db11b26",
+      "timestamp": "2026-11-24T12:20:42.601Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "42fb54fe958aa6bd",
+      "timestamp": "2026-11-24T12:20:42.601Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "05853fe1bd65dacc",
+      "timestamp": "2026-11-24T12:20:42.598Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "4b2acfb6cae5399e",
+      "timestamp": "2026-11-24T12:20:42.598Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "83a7509098f88791",
+      "timestamp": "2026-11-24T12:19:41.929Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "39e9f0d2572f6df3",
+      "timestamp": "2026-11-24T12:19:41.929Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "ea8ced106465a760",
+      "timestamp": "2026-11-24T12:19:41.920Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "9a0688969986ab50",
+      "timestamp": "2026-11-24T12:19:41.920Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "465d718f302a5022",
+      "timestamp": "2026-11-24T12:17:42.596Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "898d462161c8e8b0",
+      "timestamp": "2026-11-24T12:17:42.595Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "189b528b43326707",
+      "timestamp": "2026-11-24T12:17:42.593Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "a0c6494de43e6e3d",
+      "timestamp": "2026-11-24T12:17:42.593Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "816bd6b274822690",
+      "timestamp": "2026-11-24T12:14:42.583Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "112ff6417f2fe599",
+      "timestamp": "2026-11-24T12:14:42.583Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "776b7da8a9401961",
+      "timestamp": "2026-11-24T12:14:42.582Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "645a33440484dba5",
+      "timestamp": "2026-11-24T12:14:42.582Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "18dc5fa3bbeb15e8",
+      "timestamp": "2026-11-24T12:11:42.585Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "76a12324b5f9da00",
+      "timestamp": "2026-11-24T12:11:42.585Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "fe6e1ffe7ac4f26e",
+      "timestamp": "2026-11-24T12:11:42.581Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "be381ae4fe990268",
+      "timestamp": "2026-11-24T12:11:42.581Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "cbc73f47866ef62c",
+      "timestamp": "2026-11-24T12:10:03.580Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "0529d49ef7655866",
+      "timestamp": "2026-11-24T12:10:03.580Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "1da2eb02c726c1de",
+      "timestamp": "2026-11-24T12:10:03.574Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "79d9038c980fa720",
+      "timestamp": "2026-11-24T12:10:03.574Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
     {
       "id": "48cdf65f8cd146cf",
       "timestamp": "2026-11-24T12:05:42.580Z",
@@ -170216,926 +171154,6 @@
       "field": "Car/Title",
       "oldValue": "DG 2023 Benz C300 Ceramic Coating 499-150depo",
       "newValue": "DG 2023 Benz C300 Ceramic Coating 1 step 499-150depo"
-    },
-    {
-      "id": "dc2bbcc7ef8bae11",
-      "timestamp": "2026-10-24T13:36:59.045Z",
-      "actor": "Auto-split (new appointment)",
-      "saleId": "8380cad70e27b9e1",
-      "car": "NA 2026 Toyota Highlander Ceramic Coating $499 - $120 windshield ceramic - $95DEPO",
-      "field": "GHL Opportunity ID",
-      "oldValue": "RvmmaRs1UhcSm8HcTuzH",
-      "newValue": "RvmmaRs1UhcSm8HcTuzH~earlier-8380cad70e27b9e1"
-    },
-    {
-      "id": "5bb9850fc05985aa",
-      "timestamp": "2026-10-24T13:17:14.469Z",
-      "actor": "Naomi (manager)",
-      "saleId": "8380cad70e27b9e1",
-      "car": "NA 2026 Toyota Highlander Ceramic Coating $499 - $120 windshield ceramic - $95DEPO",
-      "field": "Base price",
-      "oldValue": 619,
-      "newValue": 499
-    },
-    {
-      "id": "cddcc78a3cf56288",
-      "timestamp": "2026-10-23T21:30:08.157Z",
-      "actor": "Naomi (manager)",
-      "saleId": "453311e10b57085b",
-      "car": "DG 2023 Dodge Charger Ceramic Coating 499-95depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 404
-    },
-    {
-      "id": "61977c3247229814",
-      "timestamp": "2026-10-23T21:21:11.639Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "c5c30fc1fb8a9f55",
-      "car": "DG 2013 BMW 5Series Redo 2 Back Windows",
-      "field": "Car/Title",
-      "oldValue": "DG 2013 BMW 5Series Redo 2 Back Windows ",
-      "newValue": "DG 2013 BMW 5Series Redo 2 Back Windows"
-    },
-    {
-      "id": "2ba02d6639565717",
-      "timestamp": "2026-10-23T21:13:39.953Z",
-      "actor": "Auto-split (new appointment)",
-      "saleId": "fb58cf4197d39e46",
-      "car": "DG 2013 BMW 5Series GT S+RTINT & 2013 BMW 5series S+RTINT 490-50depo",
-      "field": "GHL Opportunity ID",
-      "oldValue": "e2GCpGl0c7waVcHpfgH6",
-      "newValue": "e2GCpGl0c7waVcHpfgH6~earlier-fb58cf4197d39e46"
-    },
-    {
-      "id": "4cd8762afd0bd5f3",
-      "timestamp": "2026-10-23T15:25:12.570Z",
-      "actor": "Naomi (manager)",
-      "saleId": "a6485a6c3ff36cb8",
-      "car": "Gio CTSV 2026 ceramic coating $600 $75- depo",
-      "field": "Base price",
-      "oldValue": 995,
-      "newValue": 600
-    },
-    {
-      "id": "f512b7605fb08e7b",
-      "timestamp": "2026-10-23T15:25:02.522Z",
-      "actor": "Naomi (manager)",
-      "saleId": "a6485a6c3ff36cb8",
-      "car": "Gio CTSV 2026 ceramic coating  | 995",
-      "field": "Car/Title",
-      "oldValue": "Gio CTSV 2026 ceramic coating  | 995",
-      "newValue": "Gio CTSV 2026 ceramic coating $600 $75- depo"
-    },
-    {
-      "id": "be229823c40d4206",
-      "timestamp": "2026-10-23T14:03:56.558Z",
-      "actor": "Naomi (manager)",
-      "saleId": "2322b80c117e9caf",
-      "car": "DG 2024 Chevy Silverado Ceramic Coating&FrontWindsheild&Rims 645-150depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2024 Chevy Silverado Ceramic Coating&FrontWindsheild&Rims 645-150depo",
-      "newValue": "DG 2024 GMC Denali Ceramic Coating&FrontWindsheild&Rims 645-150depo"
-    },
-    {
-      "id": "42b757b7da6f1842",
-      "timestamp": "2026-10-23T14:03:00.711Z",
-      "actor": "Naomi (manager)",
-      "saleId": "fd1b3246b143495d",
-      "car": "DG 2026 Telsa Y Ceramic Coating&AllAroundTint 975-150depo",
-      "field": "Redo (no charge)",
-      "oldValue": true,
-      "newValue": false
-    },
-    {
-      "id": "1530056baef9f877",
-      "timestamp": "2026-10-23T13:41:55.399Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "18bd7a7bce29f19b",
-      "car": "DG 2020 Volkswgen Tiguan 2Front&WindsheildTINT 300-75depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2020 Volkswgen Tiguan S+RTINT 290-75depo",
-      "newValue": "DG 2020 Volkswgen Tiguan 2Front&WindsheildTINT 300-75depo"
-    },
-    {
-      "id": "2c241299d93aeb81",
-      "timestamp": "2026-10-23T13:41:55.399Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "18bd7a7bce29f19b",
-      "car": "DG 2020 Volkswgen Tiguan 2Front&WindsheildTINT 300-75depo",
-      "field": "Base price",
-      "oldValue": 290,
-      "newValue": 300
-    },
-    {
-      "id": "1a2216f04b412e9a",
-      "timestamp": "2026-10-23T13:13:48.303Z",
-      "actor": "Naomi (manager)",
-      "saleId": "fd1b3246b143495d",
-      "car": "DG 2026 Telsa Y Ceramic Coating&AllAroundTint 975-150depo",
-      "field": "Redo (no charge)",
-      "oldValue": false,
-      "newValue": true
-    },
-    {
-      "id": "911174b21252f9d0",
-      "timestamp": "2026-10-23T00:11:43.468Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "0278f520686c72bd",
-      "car": "DG 2020 Tesla 3 S+RTINT 299-75depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2020 Tesla 3 S+RTINT 299-75depo ",
-      "newValue": "DG 2020 Tesla 3 S+RTINT 299-75depo"
-    },
-    {
-      "id": "965c87fce35c2752",
-      "timestamp": "2026-10-22T22:15:57.000Z",
-      "actor": "Naomi (manager)",
-      "saleId": "53709928a752bbbd",
-      "car": "DG 2027 Jeep Grand Cherokee Ceramic Coating&Rims&Windsheild 650-95depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 800
-    },
-    {
-      "id": "cd88cc26369cf22a",
-      "timestamp": "2026-10-22T22:15:20.632Z",
-      "actor": "Naomi (manager)",
-      "saleId": "47bd7a8a33905ecf",
-      "car": "fk norman 2024 jeep grand chokke all around 490$-50$ depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 440
-    },
-    {
-      "id": "18662267551467ed",
-      "timestamp": "2026-10-22T21:51:57.541Z",
-      "actor": "Naomi (manager)",
-      "saleId": "0520d8ce83a5f876",
-      "car": "DG 2006 Cadillac Escalade white CeramicCoating 499-145depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 1094
-    },
-    {
-      "id": "7883a402fd934445",
-      "timestamp": "2026-10-22T21:41:43.398Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "2d84f259d9162ff9",
-      "car": "fk  tina 2026 genisis gv70 black plus wheels and windows andfront 3 tint 900$-95$ depo",
-      "field": "Car/Title",
-      "oldValue": "fk  tina 2026 genisis gv70 black plus wheels and windows andfront 3 tint 900$-95$ depo ",
-      "newValue": "fk  tina 2026 genisis gv70 black plus wheels and windows andfront 3 tint 900$-95$ depo"
-    },
-    {
-      "id": "832ab8354551e33a",
-      "timestamp": "2026-10-22T21:26:00.169Z",
-      "actor": "Naomi (manager)",
-      "saleId": "6e64c3eab3022ea2",
-      "car": "JA 2017 Honda Oddessy Coating + Rims + Windows - S + R TINT $998-$95 (drop off night before)",
-      "field": "Cash received",
-      "oldValue": 1003,
-      "newValue": 0
-    },
-    {
-      "id": "9b0fa58373d33c45",
-      "timestamp": "2026-10-22T21:24:10.645Z",
-      "actor": "Naomi (manager)",
-      "saleId": "47bd7a8a33905ecf",
-      "car": "fk norman 2024 jeep grand chokke all around 490$-50$ depo",
-      "field": "Cash received",
-      "oldValue": 490,
-      "newValue": 0
-    },
-    {
-      "id": "6c1f4fa86666de3d",
-      "timestamp": "2026-10-22T21:24:08.926Z",
-      "actor": "Naomi (manager)",
-      "saleId": "47bd7a8a33905ecf",
-      "car": "fk norman 2024 jeep grand chokke all around 490$-50$ depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 490
-    },
-    {
-      "id": "995e9a6c712b2b3e",
-      "timestamp": "2026-10-22T21:24:05.714Z",
-      "actor": "Naomi (manager)",
-      "saleId": "47bd7a8a33905ecf",
-      "car": "fk norman 2024 jeep grand chokke all around 490$-50$ depo",
-      "field": "Cash received",
-      "oldValue": 490,
-      "newValue": 0
-    },
-    {
-      "id": "0c35e5333e1e02ed",
-      "timestamp": "2026-10-22T21:24:03.812Z",
-      "actor": "Naomi (manager)",
-      "saleId": "47bd7a8a33905ecf",
-      "car": "fk norman 2024 jeep grand chokke all around 490$-50$ depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 490
-    },
-    {
-      "id": "24db5f8b39465c92",
-      "timestamp": "2026-10-22T21:01:52.052Z",
-      "actor": "Naomi (manager)",
-      "saleId": "7b9657bda1959f5c",
-      "car": "DG 2026 Acura Integra S+RTint&Sunstrip 399-75depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2026 Acura Integra S+RTint&Sunstrip 399-75depo",
-      "newValue": "DG 2026 Acura Integra S+RTint&Sunstrip 399"
-    },
-    {
-      "id": "edc4dbd7058701a5",
-      "timestamp": "2026-10-22T20:28:12.509Z",
-      "actor": "Naomi (manager)",
-      "saleId": "73bcf0be1f739cc3",
-      "car": "DG 2026 Toyota Camry Ceramic Coating RIMS + WINDSHEILD + 1 STEP 889 - $150depo",
-      "field": "Base price",
-      "oldValue": 889,
-      "newValue": 639
-    },
-    {
-      "id": "ab0b171278302b48",
-      "timestamp": "2026-10-22T20:27:52.072Z",
-      "actor": "Naomi (manager)",
-      "saleId": "73bcf0be1f739cc3",
-      "car": "DG 2026 Toyota Camry Ceramic Coating RIMS + WINDSHEILD + 1 STEP 889 - $150depo",
-      "field": "Base price",
-      "oldValue": 639,
-      "newValue": 889
-    },
-    {
-      "id": "e3dd4aa5f306bf01",
-      "timestamp": "2026-10-22T20:27:45.848Z",
-      "actor": "Naomi (manager)",
-      "saleId": "73bcf0be1f739cc3",
-      "car": "DG 2026 Toyota Camry Ceramic Coating 639-150depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2026 Toyota Camry Ceramic Coating 639-150depo",
-      "newValue": "DG 2026 Toyota Camry Ceramic Coating RIMS + WINDSHEILD + 1 STEP 889 - $150depo"
-    },
-    {
-      "id": "256d39d0a2b8d1ff",
-      "timestamp": "2026-10-22T20:21:57.383Z",
-      "actor": "Owner",
-      "saleId": "b2dc5d20d408a118",
-      "car": "DG 2024 GMC Silverado CeramicCoating&Rims&Windows 499-95depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2024 GMC Silverado CeramicCoating&Rims&Windows 499-95depo",
-      "newValue": "DG 2024 GMC Sierra CeramicCoating&Rims&Windows 499-95depo"
-    },
-    {
-      "id": "b59ff918caa3876f",
-      "timestamp": "2026-10-22T20:20:42.430Z",
-      "actor": "Owner",
-      "saleId": "b2dc5d20d408a118",
-      "car": "DG 2024 GMC Yukon CeramicCoating&Rims&Windows 499-95depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2024 GMC Yukon CeramicCoating&Rims&Windows 499-95depo",
-      "newValue": "DG 2024 GMC Silverado CeramicCoating&Rims&Windows 499-95depo"
-    },
-    {
-      "id": "8bf66ff95d72970c",
-      "timestamp": "2026-10-22T20:20:02.841Z",
-      "actor": "Naomi (manager)",
-      "saleId": "6e64c3eab3022ea2",
-      "car": "JA 2017 Honda Oddessy Coating + Rims + Windows - S + R TINT $998-$95 (drop off night before)",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 1003
-    },
-    {
-      "id": "3da0cf09da032bb2",
-      "timestamp": "2026-10-22T19:59:14.000Z",
-      "actor": "Owner",
-      "saleId": "2540eb0f4deadc04",
-      "car": " 2026 GMC 1500",
-      "field": "Date/Time",
-      "oldValue": "2026-10-22T19:58:49.420Z",
-      "newValue": "2026-10-22T17:30:00.000Z"
-    },
-    {
-      "id": "4711d90a2310b805",
-      "timestamp": "2026-10-22T19:32:31.948Z",
-      "actor": "Auto-split (new appointment)",
-      "saleId": "616e8fffbecefea8",
-      "car": "DG 2022 Black Kia Telluride Ceramic Coating&Rims&Frontwindsheild 580-150depo",
-      "field": "GHL Opportunity ID",
-      "oldValue": "njCaUerZZ4I3SziRqHdB",
-      "newValue": "njCaUerZZ4I3SziRqHdB~earlier-616e8fffbecefea8"
-    },
-    {
-      "id": "2f8386c364ca4238",
-      "timestamp": "2026-10-22T19:26:15.566Z",
-      "actor": "Naomi (manager)",
-      "saleId": "ea0ed3a01c49a96e",
-      "car": "NA Windsheild Strip $100",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 100
-    },
-    {
-      "id": "069f22dcdd061240",
-      "timestamp": "2026-10-22T19:25:43.933Z",
-      "actor": "Auto-split (new appointment)",
-      "saleId": "05fc09cb49d4fb78",
-      "car": "DG 2026 BENZ GLE450 S+RTINT 299-50depo",
-      "field": "GHL Opportunity ID",
-      "oldValue": "5Q2m5NDHgOXPUQbTYEKd",
-      "newValue": "5Q2m5NDHgOXPUQbTYEKd~earlier-05fc09cb49d4fb78"
-    },
-    {
-      "id": "45f0061629f67d33",
-      "timestamp": "2026-10-22T19:08:04.322Z",
-      "actor": "Owner",
-      "saleId": "14f1b18b3c7df94d",
-      "car": "Gio 2023 Range Rover HSE Ceramic coat Acod wash And 2 door rotary work",
-      "field": "Base price",
-      "oldValue": 1e-7,
-      "newValue": 649
-    },
-    {
-      "id": "596cb85f4fe405c4",
-      "timestamp": "2026-10-22T18:23:33.596Z",
-      "actor": "Naomi (manager)",
-      "saleId": "3779eed94ff6f56b",
-      "car": "DG 2019 Ford F150 S+RTINT 249-75depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 274
-    },
-    {
-      "id": "62a62e82d62e0a1b",
-      "timestamp": "2026-10-22T18:11:20.238Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "35c73c5fb4b95231",
-      "car": "DG 2019 Honda Accord S+RTINT 299-75depo Reschedule",
-      "field": "Car/Title",
-      "oldValue": "DG 2019 Honda Accord S+RTINT 299-75depo Reschedule ",
-      "newValue": "DG 2019 Honda Accord S+RTINT 299-75depo Reschedule"
-    },
-    {
-      "id": "cee11b05bd3bb48f",
-      "timestamp": "2026-10-22T17:32:07.518Z",
-      "actor": "Owner",
-      "saleId": "52d1b111573cea85",
-      "car": "DG 2027 Tesla Y 100-upsell NANO AllAroundTINT",
-      "field": "Base price",
-      "oldValue": 595,
-      "newValue": 100
-    },
-    {
-      "id": "9bd19e6188dcb4b9",
-      "timestamp": "2026-10-22T17:30:59.274Z",
-      "actor": "Owner",
-      "saleId": "de491614060917a5",
-      "car": "DG 2026 GMC 1500 FrontWindshield and NANO AllWindows 295-Upsell",
-      "field": "Base price",
-      "oldValue": 299,
-      "newValue": 295
-    },
-    {
-      "id": "1206208bef6f9ab5",
-      "timestamp": "2026-10-22T16:37:21.496Z",
-      "actor": "Naomi (manager)",
-      "saleId": "e91a3f2d9d36fa3f",
-      "car": "DG 2026 Black Subaru Outback Ceramic Coating&Frontwindsheild 550-150depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 400
-    },
-    {
-      "id": "3a73f6df27440399",
-      "timestamp": "2026-10-22T16:26:07.896Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "52d1b111573cea85",
-      "car": "DG 2027 Tesla YL NAONAllAroundTINT 595-50depo ",
-      "field": "Base price",
-      "oldValue": 495,
-      "newValue": 595
-    },
-    {
-      "id": "5331f755ba7e3eb2",
-      "timestamp": "2026-10-22T15:18:46.515Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "52d1b111573cea85",
-      "car": "DG 2027 Tesla YL AllAroundTINT 495-50depo ",
-      "field": "Base price",
-      "oldValue": 299,
-      "newValue": 495
-    },
-    {
-      "id": "2c3e6b935e9b3be7",
-      "timestamp": "2026-10-22T13:47:53.292Z",
-      "actor": "Naomi (manager)",
-      "saleId": "16b9b80e76357818",
-      "car": "Connor Schwartz",
-      "field": "Car/Title",
-      "oldValue": "Connor Schwartz",
-      "newValue": "Connor Schwartz Chevy"
-    },
-    {
-      "id": "24ab59779796f282",
-      "timestamp": "2026-10-22T13:41:44.489Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "57c185f07efefad2",
-      "car": "DG 2015 Audi Q7 S+RTint 319-SDay",
-      "field": "Car/Title",
-      "oldValue": "DG 2015 Audi Q7 S+RTint 319-SDay ",
-      "newValue": "DG 2015 Audi Q7 S+RTint 319-SDay"
-    },
-    {
-      "id": "7d07febeadf070f9",
-      "timestamp": "2026-10-21T22:05:43.030Z",
-      "actor": "Naomi (manager)",
-      "saleId": "09ae6b6dc176027c",
-      "car": "DG 2025 Tesla 3 AllAroundTint 470-SDay",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 470
-    },
-    {
-      "id": "e40b28449962ab9e",
-      "timestamp": "2026-10-21T21:49:59.698Z",
-      "actor": "Naomi (manager)",
-      "saleId": "8efa182121dd63a8",
-      "car": "DG 2018 Ram 2500 Rim coat 50 upsell",
-      "field": "Base price",
-      "oldValue": 550,
-      "newValue": 450
-    },
-    {
-      "id": "931f259faf43f7a8",
-      "timestamp": "2026-10-21T21:11:55.479Z",
-      "actor": "Naomi (manager)",
-      "saleId": "8905003d1f9c11b4",
-      "car": "MR 2001 Audi A4 Wagon S+RTINT $299 -$50DEPO",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 120
-    },
-    {
-      "id": "6b1f5fa2c21638bb",
-      "timestamp": "2026-10-21T20:17:49.500Z",
-      "actor": "Naomi (manager)",
-      "saleId": "fb58cf4197d39e46",
-      "car": "DG 2013 BMW 5Series GT S+RTINT & 2013 BMW 5series S+RTINT 490-50depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 200
-    },
-    {
-      "id": "f11617dab97425b3",
-      "timestamp": "2026-10-21T20:11:43.658Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "10abb537ea30e933",
-      "car": "DG 2027 Tesla 3 AllAroundTINT 485-75Depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2027 Tesla 3 AllAroundTINT 485-75Depo ",
-      "newValue": "DG 2027 Tesla 3 AllAroundTINT 485-75Depo"
-    },
-    {
-      "id": "f0e8ee299af0cad6",
-      "timestamp": "2026-10-21T19:41:51.440Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "fdf25c20c7989935",
-      "car": "DG 2024 Chevy Silverado Ceramic Coating 499-300depo CASH",
-      "field": "Car/Title",
-      "oldValue": "DG 2024 Chevy Silverado Ceramic Coating 499-150depo CASH",
-      "newValue": "DG 2024 Chevy Silverado Ceramic Coating 499-300depo CASH"
-    },
-    {
-      "id": "33c4e0c37abb331c",
-      "timestamp": "2026-10-21T19:40:01.185Z",
-      "actor": "Naomi (manager)",
-      "saleId": "f15f40890382e216",
-      "car": "MR 2026 Ram 1500 - Coating + Full Car Tint - $969 - $50depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 919
-    },
-    {
-      "id": "58b618a7711c7906",
-      "timestamp": "2026-10-21T19:38:47.010Z",
-      "actor": "Naomi (manager)",
-      "saleId": "0e5e4a67e2f2e225",
-      "car": "DG 2026 Hyundai Elantra S+RTINT 299-50depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 249
-    },
-    {
-      "id": "79e834a4d2e5ad25",
-      "timestamp": "2026-10-21T17:41:51.586Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "a5f71ea9da138c86",
-      "car": "DG 2021 Audi S4 S+RTint 250-SDay",
-      "field": "Car/Title",
-      "oldValue": "DG 2021 Audi S4 S+RTint 250-SDay ",
-      "newValue": "DG 2021 Audi S4 S+RTint 250-SDay"
-    },
-    {
-      "id": "93e0a5fe5146f570",
-      "timestamp": "2026-10-21T16:57:10.856Z",
-      "actor": "Owner",
-      "saleId": "3d7e17fc264e6ad2",
-      "car": "Gio | 2020 Land Rover Defender 499 hard close",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "730a696d5cb07514",
-      "timestamp": "2026-10-21T16:41:52.750Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "1406726b99cb8474",
-      "car": "DG 2019 BMW 650i GT S+RTINT&CeramicCoating&Step2&Rims 950-150depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2019 BMW 650i GT S+RTINT&CeramicCoating&Step2&Rims 950-150depo ",
-      "newValue": "DG 2019 BMW 650i GT S+RTINT&CeramicCoating&Step2&Rims 950-150depo"
-    },
-    {
-      "id": "9ba717bf60c68e73",
-      "timestamp": "2026-10-21T16:41:31.095Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "79d9550e3cc4ad77",
-      "car": "DG 2020 Nissan Maxima Back Windsheild&Removal 200-50depo Zelle",
-      "field": "Car/Title",
-      "oldValue": "DG 2020 Nissan Maxima S+RTINT&Removal 499-50depo Zelle",
-      "newValue": "DG 2020 Nissan Maxima Back Windsheild&Removal 200-50depo Zelle"
-    },
-    {
-      "id": "fd590b980f660db2",
-      "timestamp": "2026-10-21T16:41:31.095Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "79d9550e3cc4ad77",
-      "car": "DG 2020 Nissan Maxima Back Windsheild&Removal 200-50depo Zelle",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 200
-    },
-    {
-      "id": "0aeee5e38165e5c6",
-      "timestamp": "2026-10-21T15:41:49.415Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "d9e379526811a9b5",
-      "car": "DG 2013 Chevy Impala AllAroundTint 445-25depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2013 Chevy Impala AllAroundTint 445-25depo ",
-      "newValue": "DG 2013 Chevy Impala AllAroundTint 445-25depo"
-    },
-    {
-      "id": "309ba1745a7c86a7",
-      "timestamp": "2026-10-21T15:11:48.789Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "3d7e17fc264e6ad2",
-      "car": "Gio | 2020 Land Rover Defender 499 hard close",
-      "field": "Car/Title",
-      "oldValue": "Gio | 2020 Land Rover Defender 499 hard close ",
-      "newValue": "Gio | 2020 Land Rover Defender 499 hard close"
-    },
-    {
-      "id": "d63244d253e22164",
-      "timestamp": "2026-10-21T14:15:03.717Z",
-      "actor": "Naomi (manager)",
-      "saleId": "afd31b5456ef7fce",
-      "car": "DG 2026 Honda Type R S+RTINT&Sunstrip 299 -75depo",
-      "field": "Base price",
-      "oldValue": 399,
-      "newValue": 299
-    },
-    {
-      "id": "c425ed965b932bd7",
-      "timestamp": "2026-10-21T14:14:56.822Z",
-      "actor": "Naomi (manager)",
-      "saleId": "afd31b5456ef7fce",
-      "car": "DG 2026 Honda Type R S+RTINT&Sunstrip 399-75depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2026 Honda Type R S+RTINT&Sunstrip 399-75depo",
-      "newValue": "DG 2026 Honda Type R S+RTINT&Sunstrip 299 -75depo"
-    },
-    {
-      "id": "b5cadec37aed9888",
-      "timestamp": "2026-10-21T14:14:33.918Z",
-      "actor": "Naomi (manager)",
-      "saleId": "afd31b5456ef7fce",
-      "car": "DG 2026 Honda Type R S+RTINT&Sunstrip 399-75depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 224
-    },
-    {
-      "id": "1d91b00b42d31c98",
-      "timestamp": "2026-10-20T23:13:21.180Z",
-      "actor": "Auto (second car, same day)",
-      "saleId": "c3e20bece76c5567",
-      "car": "DG 2003 White Benz E320 Ceramic Coating&Step1 599-95depo",
-      "field": "Closed At",
-      "oldValue": "",
-      "newValue": "2026-10-20T23:13:21.180Z (when it reached the tracker: please check)"
-    },
-    {
-      "id": "11b04816e7ac8596",
-      "timestamp": "2026-10-20T23:13:21.180Z",
-      "actor": "Auto-split (new appointment)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "GHL Opportunity ID",
-      "oldValue": "wGZA21c9y9yhMnYr8ZrB",
-      "newValue": "wGZA21c9y9yhMnYr8ZrB~earlier-a191a7d880f98514"
-    },
-    {
-      "id": "b7702897561bb8c0",
-      "timestamp": "2026-10-20T23:11:44.103Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "3f0bc5d930836517",
-      "car": "DG 2026 Dodge Durango S+RTINT 330-75depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2026 Dodge Durango S+RTINT 330-75depo ",
-      "newValue": "DG 2026 Dodge Durango S+RTINT 330-75depo"
-    },
-    {
-      "id": "b24a11bda1f71318",
-      "timestamp": "2026-10-20T21:10:34.453Z",
-      "actor": "Rep tracker (owner)",
-      "saleId": "09b822f2e98ee8d7",
-      "car": "DG 2012 Lexus is250 S+RTINT 325-SameDay",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 325
-    },
-    {
-      "id": "2262f5aacbdd097c",
-      "timestamp": "2026-10-20T21:09:14.569Z",
-      "actor": "Naomi (manager)",
-      "saleId": "8e6e418ab4ddd797",
-      "car": "DG 2012 Lexus IS250 S+RTINT 299-25depo",
-      "field": "Date/Time",
-      "oldValue": "2026-10-20T20:00:00.000Z",
-      "newValue": "2026-10-21T20:00:00.000Z"
-    },
-    {
-      "id": "ba359ab87fc4759c",
-      "timestamp": "2026-10-20T21:09:03.474Z",
-      "actor": "Naomi (manager)",
-      "saleId": "4accdbbc11ab8d45",
-      "car": "DG 2015 Honda Civic AllARoundtint 470-50depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 420
-    },
-    {
-      "id": "b0a58b254a23c588",
-      "timestamp": "2026-10-20T21:04:42.264Z",
-      "actor": "Naomi (manager)",
-      "saleId": "553fdcca4aac58a5",
-      "car": "fk joe 2026 kia sorento  white 499$ plus front 3 320$ plus wheels and windows 100$  919$ -95$  depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 825
-    },
-    {
-      "id": "93122eb65f57db36",
-      "timestamp": "2026-10-20T21:00:55.616Z",
-      "actor": "Auto-split (new appointment)",
-      "saleId": "8e6e418ab4ddd797",
-      "car": "DG 2012 Lexus IS250 S+RTINT 299-25depo",
-      "field": "GHL Opportunity ID",
-      "oldValue": "saHyoAt7WZwToWCV3hqR",
-      "newValue": "saHyoAt7WZwToWCV3hqR~earlier-8e6e418ab4ddd797"
-    },
-    {
-      "id": "9bb6c78f405477c7",
-      "timestamp": "2026-10-20T15:05:39.873Z",
-      "actor": "Naomi (manager)",
-      "saleId": "05fc09cb49d4fb78",
-      "car": "DG 2026 BENZ GLE450 S+RTINT 299-50depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 299
-    },
-    {
-      "id": "5909c30c90fb79da",
-      "timestamp": "2026-10-20T14:41:48.301Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "e17ae8a83309f872",
-      "car": "fk micheal 2025 audi q5 black 499$-95$ depo  drop off day before refundable depo",
-      "field": "Car/Title",
-      "oldValue": "fk micheal 2025 audi q5 black 499$-95$ depo  drop off day before refundable depo  ",
-      "newValue": "fk micheal 2025 audi q5 black 499$-95$ depo  drop off day before refundable depo"
-    },
-    {
-      "id": "140997bf9fbc09ba",
-      "timestamp": "2026-10-20T14:38:04.317Z",
-      "actor": "Auto-split (new appointment)",
-      "saleId": "fb932f5ae5b164c6",
-      "car": "DG 2023 Mazda CX-5 Ceramic Coating&FrontWIndshield 550-150depo",
-      "field": "GHL Opportunity ID",
-      "oldValue": "p2jT5zcw0jlE38bqjHBX",
-      "newValue": "p2jT5zcw0jlE38bqjHBX~earlier-fb932f5ae5b164c6"
-    },
-    {
-      "id": "bae88875b39dc0e6",
-      "timestamp": "2026-10-20T14:28:43.505Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "42c99fd4d7d2105f",
-      "car": "DG 2026 Lexus Rx350 Ceramic Coating&Rims $600 -95depo",
-      "field": "Base price",
-      "oldValue": 950,
-      "newValue": 600
-    },
-    {
-      "id": "f7ff7e661e9065d4",
-      "timestamp": "2026-10-20T14:28:43.504Z",
-      "actor": "Naomi (manager)",
-      "saleId": "42c99fd4d7d2105f",
-      "car": "DG 2026 Lexus Rx350 Ceramic Coating&Rims&Windsheild&S+RTINT 950-95depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2026 Lexus Rx350 Ceramic Coating&Rims&Windsheild&S+RTINT 950-95depo",
-      "newValue": "DG 2026 Lexus Rx350 Ceramic Coating&Rims $600 -95depo"
-    },
-    {
-      "id": "30b97b8891859578",
-      "timestamp": "2026-10-20T14:26:48.941Z",
-      "actor": "Naomi (manager)",
-      "saleId": "e7da837a0c820cd4",
-      "car": "DG 2021 Lexus IS350 AllAroundTint 475-75depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2021 Lexus IS350 AllAroundTint 475-75depo",
-      "newValue": "DG 2021 Lexus IS350 2 front windows $150-75depo"
-    },
-    {
-      "id": "1392b50b26ebef98",
-      "timestamp": "2026-10-20T14:23:54.653Z",
-      "actor": "Naomi (manager)",
-      "saleId": "e7da837a0c820cd4",
-      "car": "DG 2021 Lexus IS350 AllAroundTint 475-75depo",
-      "field": "Base price",
-      "oldValue": 475,
-      "newValue": 150
-    },
-    {
-      "id": "ba466070f7ac53f2",
-      "timestamp": "2026-10-19T23:46:44.272Z",
-      "actor": "Naomi (manager)",
-      "saleId": "39c7f567d7a1041a",
-      "car": "DG 2025 Lexus NX300 NANOAllAroundTint 575-75depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 500
-    },
-    {
-      "id": "aa757373699f3926",
-      "timestamp": "2026-10-19T23:31:46.475Z",
-      "actor": "Naomi (manager)",
-      "saleId": "c52040f76e291a5d",
-      "car": "DG 2006 Infiniti g35 rear + windshield + REMOVAL 325 -50depo",
-      "field": "Base price",
-      "oldValue": 465,
-      "newValue": 325
-    },
-    {
-      "id": "eeb09def8b5b410c",
-      "timestamp": "2026-10-19T23:31:42.460Z",
-      "actor": "Naomi (manager)",
-      "saleId": "c52040f76e291a5d",
-      "car": "DG 2006 Infiniti g35 AllAroundTint + REMOVAL 465-50depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2006 Infiniti g35 AllAroundTint + REMOVAL 465-50depo",
-      "newValue": "DG 2006 Infiniti g35 rear + windshield + REMOVAL 325 -50depo"
-    },
-    {
-      "id": "ab59f1f1306c64dc",
-      "timestamp": "2026-10-19T22:36:22.460Z",
-      "actor": "Naomi (manager)",
-      "saleId": "3c6c6008eeb160d8",
-      "car": "DG 2023 Hyundai Palisadie Ceramic Coating&Step1&Paint Correction Pen 850-95depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2023 Hyundai Palisadie Ceramic Coating&Step1&Paint Correction Pen 850-95depo",
-      "newValue": "DG 2023 Hyundai Palisadie Ceramic Coating&Step1 $725 -95depo"
-    },
-    {
-      "id": "e81cfbaca2f18a18",
-      "timestamp": "2026-10-19T22:36:07.754Z",
-      "actor": "Naomi (manager)",
-      "saleId": "3c6c6008eeb160d8",
-      "car": "DG 2023 Hyundai Palisadie Ceramic Coating&Step1&Paint Correction Pen 850-95depo",
-      "field": "Base price",
-      "oldValue": 850,
-      "newValue": 725
-    },
-    {
-      "id": "ac4fd4e330df9616",
-      "timestamp": "2026-10-19T22:32:34.686Z",
-      "actor": "Naomi (manager)",
-      "saleId": "c52040f76e291a5d",
-      "car": "DG 2006 Infiniti g35 AllAroundTint + REMOVAL 465-50depo",
-      "field": "Cash received",
-      "oldValue": 565,
-      "newValue": 0
-    },
-    {
-      "id": "33369fd0b18a0075",
-      "timestamp": "2026-10-19T22:06:49.948Z",
-      "actor": "Naomi (manager)",
-      "saleId": "56430028d1ba509f",
-      "car": "DG 2024 Chevy Tahoe Ceramic Coating & Step 1- Acid wash - WINDSHEILD $650-95Depo",
-      "field": "Date/Time",
-      "oldValue": "2026-10-19T13:00:00.000Z",
-      "newValue": "2026-10-26T13:00:00.000Z"
-    },
-    {
-      "id": "78302dd25c2ca155",
-      "timestamp": "2026-10-19T22:06:29.527Z",
-      "actor": "Naomi (manager)",
-      "saleId": "56430028d1ba509f",
-      "car": "DG 2024 Chevy Tahoe Ceramic Coating & Step 1- Acid wash - WINDSHEILD 650-95Depo",
-      "field": "Car/Title",
-      "oldValue": "DG 2024 Chevy Tahoe Ceramic Coating & Step 1- Acid wash - WINDSHEILD 650-95Depo",
-      "newValue": "DG 2024 Chevy Tahoe Ceramic Coating & Step 1- Acid wash - WINDSHEILD $650-95Depo"
-    },
-    {
-      "id": "47b868b7b6c22ff6",
-      "timestamp": "2026-10-19T21:36:58.639Z",
-      "actor": "Rep tracker (owner)",
-      "saleId": "7c611084ebf266e3",
-      "car": "JA 2026 Kia Sorento Full Car + Sunroof $600-$50",
-      "field": "Car/Title",
-      "oldValue": "JA 2026 Kia Sorento Full Car + Sunroof $600-$50",
-      "newValue": "JA 2026 Kia Sorento S + R + WS $495-$50"
-    },
-    {
-      "id": "62efa97cef0847a1",
-      "timestamp": "2026-10-19T21:36:58.639Z",
-      "actor": "Rep tracker (owner)",
-      "saleId": "7c611084ebf266e3",
-      "car": "JA 2026 Kia Sorento Full Car + Sunroof $600-$50",
-      "field": "Base price",
-      "oldValue": 600,
-      "newValue": 495
-    },
-    {
-      "id": "8ef7ed6a7168862d",
-      "timestamp": "2026-10-19T21:20:38.762Z",
-      "actor": "Naomi (manager)",
-      "saleId": "e4d495d87288ebfa",
-      "car": "DG 2023 Acura Integra Ceramic Coating&AllAroundTint 984-95depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 889
-    },
-    {
-      "id": "1ade1958613dc0e0",
-      "timestamp": "2026-10-19T21:08:48.025Z",
-      "actor": "Naomi (manager)",
-      "saleId": "c52040f76e291a5d",
-      "car": "DG 2006 Infiniti g35 AllAroundTint + REMOVAL 465-50depo",
-      "field": "Cash received",
-      "oldValue": 0,
-      "newValue": 565
-    },
-    {
-      "id": "b1a0d87c751d8a12",
-      "timestamp": "2026-10-19T20:42:13.691Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "82a00bcbf2b560f4",
-      "car": "Gio 2025 sierra 795 package water spot removal and rotary mark removal",
-      "field": "Car/Title",
-      "oldValue": "Gio 2025 sierra 795 package water spot removal and rotary mark removal ",
-      "newValue": "Gio 2025 sierra 795 package water spot removal and rotary mark removal"
-    },
-    {
-      "id": "fd86bd588bddab32",
-      "timestamp": "2026-10-19T20:26:26.462Z",
-      "actor": "Owner",
-      "saleId": "82a00bcbf2b560f4",
-      "car": "Gio 2025 sierra 795 package water spot removal and rotary mark removal ",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 795
-    },
-    {
-      "id": "0ad6ce7d836849df",
-      "timestamp": "2026-10-19T20:14:31.761Z",
-      "actor": "Auto-sync (GHL)",
-      "saleId": "efd1b4e6bce88b59",
-      "car": "REDO 2Windows&FWS",
-      "field": "Car/Title",
-      "oldValue": " REDO 2Windows&FWS",
-      "newValue": "REDO 2Windows&FWS"
-    },
-    {
-      "id": "742beea120bd372d",
-      "timestamp": "2026-10-19T19:50:32.849Z",
-      "actor": "Auto-split (new appointment)",
-      "saleId": "5dae1f4a0f154e8e",
-      "car": "AG 2026 Ford F-150 Two Fronts and Windshield $50 deposit paid $319",
-      "field": "GHL Opportunity ID",
-      "oldValue": "UG64GBHhHTidDYnbKErh",
-      "newValue": "UG64GBHhHTidDYnbKErh~earlier-5dae1f4a0f154e8e"
     }
   ],
   "cashEntries": [
@@ -183136,7 +183154,7 @@
   "_backup": {
     "shop": "West Berlin, NJ",
     "folder": "west-berlin-nj",
-    "at": "2026-11-24T12:08:37.818Z",
+    "at": "2026-11-24T13:08:37.842Z",
     "build": "2026-11-20-sameday"
   }
 }
