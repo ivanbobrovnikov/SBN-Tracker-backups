@@ -64336,7 +64336,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-14T23:21:51.008Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-20T20:00:00.000Z",
@@ -64370,7 +64370,9 @@
           "at": "2026-11-21T19:09:17.499Z"
         }
       ],
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "c42cb4866731590e",
@@ -68820,9 +68822,9 @@
       "id": "bd1a2ddd806c97c1",
       "ghlOpportunityId": "apea3WMU10u6Rg1JdEMR",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
-      "paid": false,
+      "status": "arrived",
+      "completed": true,
+      "paid": true,
       "closedAt": "2026-11-20T15:26:21.260Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-25T18:00:00.000Z",
@@ -68832,8 +68834,13 @@
       "customerEmail": "",
       "contactId": "apea3WMU10u6Rg1JdEMR",
       "car": "DG 2023 Honda Accord S+RTINT 199-70depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "1050c9240f87fa5f",
+        "273b3cdb8e20e0d1",
+        "ed55d50b916a979a"
+      ],
+      "employeeNames": "Feso, Isseyah, Angelica, Aaron",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -68852,14 +68859,17 @@
           "t": "DG 2023 Honda Accord S+RTINT 199-70depo",
           "at": "2026-11-21T19:09:17.501Z"
         }
-      ]
+      ],
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "6f5eec750a34cfc9",
       "ghlOpportunityId": "Nz0n5JU2iF19PjUyFFkL",
       "upsells": [],
-      "status": "pending",
-      "completed": false,
+      "status": "arrived",
+      "completed": true,
       "paid": false,
       "closedAt": "2026-11-20T16:08:42.746Z",
       "closedAtSource": "tracker",
@@ -68870,8 +68880,12 @@
       "customerEmail": "",
       "contactId": "Nz0n5JU2iF19PjUyFFkL",
       "car": "DG 2024 Nissan Altima S+RTINT 299-70depo",
-      "employeeIds": [],
-      "employeeNames": "Unassigned",
+      "employeeIds": [
+        "f9d9bfc4e797e38b",
+        "1050c9240f87fa5f",
+        "273b3cdb8e20e0d1"
+      ],
+      "employeeNames": "Feso, Isseyah, Angelica",
       "salesRepId": "d160346301cc8a3f",
       "salesRepName": "Dmitriy Gumenyuk",
       "isWalkIn": false,
@@ -68890,7 +68904,8 @@
           "t": "DG 2024 Nissan Altima S+RTINT 299-70depo",
           "at": "2026-11-21T19:09:17.501Z"
         }
-      ]
+      ],
+      "arrivedByComplete": false
     },
     {
       "id": "e861fa41586c544b",
@@ -72256,7 +72271,7 @@
       "upsells": [],
       "status": "arrived",
       "completed": true,
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-11-25T14:38:11.369Z",
       "closedAtSource": "tracker",
       "closeApptDate": "2026-11-25T15:30:00.000Z",
@@ -72294,7 +72309,9 @@
       "syncedFromGHL": true,
       "titleReadAt": "2026-11-25T14:50:44.936Z",
       "priceLocked": true,
-      "arrivedByComplete": false
+      "arrivedByComplete": false,
+      "paidCard": true,
+      "paymentMethod": "card"
     },
     {
       "id": "b3a1522893a8683f",
@@ -72713,6 +72730,44 @@
       "titleDeposit": 120,
       "siblingPriced": false,
       "syncedFromGHL": true
+    },
+    {
+      "id": "1e2e6b4135c9469e",
+      "ghlOpportunityId": "txbmiql0OU7sb0sU7YHo",
+      "upsells": [],
+      "status": "pending",
+      "completed": false,
+      "paid": false,
+      "closedAt": "2026-11-25T18:33:58.793Z",
+      "closedAtSource": "tracker",
+      "closeApptDate": "2026-12-14T14:00:00.000Z",
+      "date": "2026-12-14T14:00:00.000Z",
+      "customerName": "",
+      "customerPhone": "(609) 847-6902",
+      "customerEmail": "",
+      "contactId": "txbmiql0OU7sb0sU7YHo",
+      "car": "DG 2015 Dodge Challenegr Ceramic Coating&AllWindows 599-632depo paidupfront",
+      "employeeIds": [],
+      "employeeNames": "Unassigned",
+      "salesRepId": "d160346301cc8a3f",
+      "salesRepName": "Dmitriy Gumenyuk",
+      "isWalkIn": false,
+      "baseService": "Ceramic Coating",
+      "basePrice": 0,
+      "priceSource": "none",
+      "calendarId": null,
+      "titleLog": [
+        {
+          "t": "DG 2015 Dodge Challenegr Ceramic Coating&AllWindows 599-632depo paidupfront",
+          "at": "2026-11-25T18:33:58.794Z"
+        }
+      ],
+      "titlePrice": null,
+      "titleDeposit": null,
+      "siblingPriced": false,
+      "syncedFromGHL": true,
+      "ghlValue": 599,
+      "titleReadAt": "2026-11-25T19:17:32.012Z"
     }
   ],
   "ownerPinHash": "477e2d13152129e72c4a47a5abed06ce422daff2ca0e99d33bc527477effee34",
@@ -72779,6 +72834,142 @@
     }
   ],
   "debugLog": [
+    {
+      "receivedAt": "2026-11-25T18:35:05.774Z",
+      "endpoint": "sync",
+      "matchedSaleId": "1e2e6b4135c9469e",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "txbmiql0OU7sb0sU7YHo",
+        "full_name": "",
+        "phone": "+16098476902",
+        "tags": "couldn't find caller name,hp fresh,hp sbn auto styling nj",
+        "city": "TRENTON",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-11-23T21:57:49.930Z",
+        "postal_code": "08087",
+        "full_address": "TRENTON NJ 08087",
+        "contact_type": "lead",
+        "opportunity_name": " | ",
+        "status": "won",
+        "lead_value": 599,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "coBBbawmS2EJD7GihQYH",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "599",
+          "salesRepName": "Roman Goldovsky",
+          "contactId": "txbmiql0OU7sb0sU7YHo"
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-11-25T18:34:30.930Z",
+      "endpoint": "sync",
+      "matchedSaleId": "1e2e6b4135c9469e",
+      "before": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "after": {
+        "basePrice": 0,
+        "salesRepName": "Dmitriy Gumenyuk"
+      },
+      "body": {
+        "contact_id": "txbmiql0OU7sb0sU7YHo",
+        "full_name": "",
+        "phone": "+16098476902",
+        "tags": "couldn't find caller name,hp fresh,hp sbn auto styling nj",
+        "city": "TRENTON",
+        "state": "NJ",
+        "country": "US",
+        "date_created": "2026-11-23T21:57:49.930Z",
+        "postal_code": "08087",
+        "full_address": "TRENTON NJ 08087",
+        "contact_type": "lead",
+        "opportunity_name": " | ",
+        "status": "won",
+        "lead_value": 599,
+        "pipleline_stage": "Booked W Deposit",
+        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
+        "id": "coBBbawmS2EJD7GihQYH",
+        "pipeline_name": "Main Pipeline",
+        "user": {
+          "firstName": "Roman",
+          "lastName": "Goldovsky",
+          "email": "romangoldovsky@gmail.com",
+          "phone": "+12673998158"
+        },
+        "owner": "Roman Goldovsky",
+        "location": {
+          "name": "SBN Auto Styling NJ",
+          "address": "432 Kelley Drive",
+          "city": "Berlin Township",
+          "state": "NJ",
+          "country": "US",
+          "postalCode": "08091",
+          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
+          "id": "aM3aPgbGfPiuofGw5tO4"
+        },
+        "workflow": {
+          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
+          "name": "Ceramic Coating - Price/Rep Sync"
+        },
+        "triggerData": {},
+        "contact": {
+          "attributionSource": {
+            "sessionSource": "Other",
+            "medium": "other"
+          },
+          "lastAttributionSource": {}
+        },
+        "attributionSource": {},
+        "customData": {
+          "basePrice": "599",
+          "salesRepName": "Dmitriy Gumenyuk",
+          "contactId": "txbmiql0OU7sb0sU7YHo"
+        }
+      }
+    },
     {
       "receivedAt": "2026-11-25T18:21:44.003Z",
       "endpoint": "sync",
@@ -91725,229 +91916,6 @@
           "contactId": "0XMY7TwNdt2Cm4IorkYc"
         }
       }
-    },
-    {
-      "receivedAt": "2026-11-25T00:06:18.402Z",
-      "endpoint": "sync",
-      "matchedSaleId": "c3199200aa36d472",
-      "before": {
-        "basePrice": 240,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 240,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2006 toyota matrix",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "B3QFrPJXgmN0NFTDmaMg",
-        "first_name": "Rey",
-        "last_name": "V",
-        "full_name": "Rey V",
-        "email": "virayjr@gmail.com",
-        "phone": "+12409976669",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-11-24T23:32:18.744Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Rey V | ",
-        "status": "won",
-        "lead_value": 240,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "Iw6fMLPTIOjiqZQSOCNk",
-        "pipeline_name": "Main Pipeline",
-        "user": {
-          "firstName": "Dmitriy",
-          "lastName": "Gumenyuk",
-          "email": "dmitriygvb@gmail.com",
-          "phone": "+18562390185"
-        },
-        "owner": "Dmitriy Gumenyuk",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1132988729106051",
-            "medium": "facebook",
-            "formId": "1132988729106051",
-            "formName": "window tint 199 diddy ceramic",
-            "campaign": "window tint ABO",
-            "utm_campaign": "window tint ABO",
-            "campaignId": "120257561128010011",
-            "utmMedium": "199! yes you heard me correctly black friday 199",
-            "utmContent": "199! yes you heard me correctly black friday 199",
-            "adSetId": "120257787400830011",
-            "adId": "120257787400870011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1132988729106051",
-            "medium": "facebook",
-            "formId": "1132988729106051",
-            "formName": "window tint 199 diddy ceramic",
-            "campaign": "window tint ABO",
-            "utm_campaign": "window tint ABO",
-            "campaignId": "120257561128010011",
-            "utmMedium": "199! yes you heard me correctly black friday 199",
-            "utmContent": "199! yes you heard me correctly black friday 199",
-            "adSetId": "120257787400830011",
-            "adId": "120257787400870011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "240",
-          "salesRepName": "Dmitriy Gumenyuk",
-          "contactId": "B3QFrPJXgmN0NFTDmaMg"
-        }
-      }
-    },
-    {
-      "receivedAt": "2026-11-25T00:06:11.924Z",
-      "endpoint": "sync",
-      "matchedSaleId": "c3199200aa36d472",
-      "before": {
-        "basePrice": 240,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "after": {
-        "basePrice": 240,
-        "salesRepName": "Dmitriy Gumenyuk"
-      },
-      "body": {
-        "Street address": "",
-        "How many years of professional window tint experience do you have?": "",
-        "When are you looking to book our $299 Window Tint Special? (SIDES + REAR)": "",
-        "When are you planning to get the work done?": "",
-        "What type of dent repair do you need?": "",
-        "Why do you want to work in the auto styling industry? (Window Tinting)": "",
-        "What's your previous experience with ceramic coating? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "Year, Make, Model of the vehicle.": "2006 toyota matrix",
-        "Where is the damage located on your vehicle?": "",
-        "How many years of professional ceramic coating experience do you have?": "",
-        "What's your previous experience with tint? \"ONLY LOOKING FOR EXPERIENCED INSTALLERS\" NO TRAINING": "",
-        "contact_id": "B3QFrPJXgmN0NFTDmaMg",
-        "first_name": "Rey",
-        "last_name": "V",
-        "full_name": "Rey V",
-        "email": "virayjr@gmail.com",
-        "phone": "+12409976669",
-        "tags": "tint,hp fresh,hp sbn auto styling nj",
-        "country": "US",
-        "date_created": "2026-11-24T23:32:18.744Z",
-        "contact_source": "Facebook",
-        "full_address": "",
-        "contact_type": "lead",
-        "opportunity_name": "Rey V | ",
-        "status": "won",
-        "lead_value": 299,
-        "opportunity_source": "Facebook",
-        "source": "Facebook",
-        "pipleline_stage": "Booked W Deposit",
-        "pipeline_id": "MkTi1vHtyLoINfz0GzZh",
-        "id": "Iw6fMLPTIOjiqZQSOCNk",
-        "pipeline_name": "Main Pipeline",
-        "location": {
-          "name": "SBN Auto Styling NJ",
-          "address": "432 Kelley Drive",
-          "city": "Berlin Township",
-          "state": "NJ",
-          "country": "US",
-          "postalCode": "08091",
-          "fullAddress": "432 Kelley Drive, Berlin Township NJ 08091",
-          "id": "aM3aPgbGfPiuofGw5tO4"
-        },
-        "workflow": {
-          "id": "f9c42570-b34f-4905-a91f-2e677e1b9c0e",
-          "name": "Ceramic Coating - Price/Rep Sync"
-        },
-        "triggerData": {},
-        "contact": {
-          "attributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1132988729106051",
-            "medium": "facebook",
-            "formId": "1132988729106051",
-            "formName": "window tint 199 diddy ceramic",
-            "campaign": "window tint ABO",
-            "utm_campaign": "window tint ABO",
-            "campaignId": "120257561128010011",
-            "utmMedium": "199! yes you heard me correctly black friday 199",
-            "utmContent": "199! yes you heard me correctly black friday 199",
-            "adSetId": "120257787400830011",
-            "adId": "120257787400870011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          },
-          "lastAttributionSource": {
-            "sessionSource": "Paid Social",
-            "mediumId": "1132988729106051",
-            "medium": "facebook",
-            "formId": "1132988729106051",
-            "formName": "window tint 199 diddy ceramic",
-            "campaign": "window tint ABO",
-            "utm_campaign": "window tint ABO",
-            "campaignId": "120257561128010011",
-            "utmMedium": "199! yes you heard me correctly black friday 199",
-            "utmContent": "199! yes you heard me correctly black friday 199",
-            "adSetId": "120257787400830011",
-            "adId": "120257787400870011",
-            "utmSource": "facebook",
-            "source": "facebook",
-            "referrer": "",
-            "keyword": null,
-            "adSource": "facebook"
-          }
-        },
-        "attributionSource": {},
-        "customData": {
-          "basePrice": "299",
-          "salesRepName": "",
-          "contactId": "B3QFrPJXgmN0NFTDmaMg"
-        }
-      }
     }
   ],
   "attendance": [
@@ -97817,6 +97785,896 @@
   "ghlRepairCursor": null,
   "ghlRepairFixedCount": 0,
   "auditLog": [
+    {
+      "id": "ef6db351b0dac7aa",
+      "timestamp": "2026-11-25T19:26:31.987Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "8b68978da7319e0f",
+      "timestamp": "2026-11-25T19:26:31.987Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "a8c78eff448e45cb",
+      "timestamp": "2026-11-25T19:26:31.985Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "23943855cb337eae",
+      "timestamp": "2026-11-25T19:26:31.985Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "219ffad180bb8233",
+      "timestamp": "2026-11-25T19:23:32.002Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "fade7f82d7977674",
+      "timestamp": "2026-11-25T19:23:32.002Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "c7b46496f3e161fc",
+      "timestamp": "2026-11-25T19:23:32.000Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "03ebf6df78523acd",
+      "timestamp": "2026-11-25T19:23:32.000Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "308c64330b5190a1",
+      "timestamp": "2026-11-25T19:20:41.232Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "8d681d4cec777cd6",
+      "timestamp": "2026-11-25T19:20:41.232Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "45e841e8e43bb174",
+      "timestamp": "2026-11-25T19:20:41.225Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "428a352b06feb88a",
+      "timestamp": "2026-11-25T19:20:41.225Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "ad5ada0b84d37f91",
+      "timestamp": "2026-11-25T19:17:32.005Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "ee7827b3b316119f",
+      "timestamp": "2026-11-25T19:17:32.005Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "75facfa1383c3796",
+      "timestamp": "2026-11-25T19:17:32.003Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "d8b50c351aee0d8a",
+      "timestamp": "2026-11-25T19:17:32.003Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "7317ffaa931ec1e1",
+      "timestamp": "2026-11-25T19:14:31.991Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "60aee3426b25eb89",
+      "timestamp": "2026-11-25T19:14:31.991Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "6c8244e73f90b310",
+      "timestamp": "2026-11-25T19:14:31.989Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "1e806c2f4d1082eb",
+      "timestamp": "2026-11-25T19:14:31.989Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "4ae7ea9d88e0cee3",
+      "timestamp": "2026-11-25T19:12:00.639Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "4e908d5228d645d5",
+      "timestamp": "2026-11-25T19:12:00.639Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "bfd8336f8dcce2a1",
+      "timestamp": "2026-11-25T19:12:00.632Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "0223d7a310ed5987",
+      "timestamp": "2026-11-25T19:12:00.632Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "136f95fe28f3aa8a",
+      "timestamp": "2026-11-25T19:08:31.992Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "2080dc0d4a24d482",
+      "timestamp": "2026-11-25T19:08:31.992Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "079d543a31d24f6f",
+      "timestamp": "2026-11-25T19:08:31.989Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "cc9aa4a198fbbf0d",
+      "timestamp": "2026-11-25T19:08:31.989Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "8aea42313ef8a62f",
+      "timestamp": "2026-11-25T19:05:31.998Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "40e07c4955289cc5",
+      "timestamp": "2026-11-25T19:05:31.998Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "c95c53cb4bbfaab0",
+      "timestamp": "2026-11-25T19:05:31.996Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "790fee065ec68da8",
+      "timestamp": "2026-11-25T19:05:31.996Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "a67f6b052a4edd60",
+      "timestamp": "2026-11-25T19:02:32.003Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "92d65fb8239093c2",
+      "timestamp": "2026-11-25T19:02:32.003Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "93632653baa611e7",
+      "timestamp": "2026-11-25T19:02:32.000Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "ea53dd93455ef651",
+      "timestamp": "2026-11-25T19:02:32.000Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "c862c428b4827ea8",
+      "timestamp": "2026-11-25T19:01:02.903Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "2df82c5404a57f02",
+      "timestamp": "2026-11-25T19:01:02.903Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "0feba60318284fc6",
+      "timestamp": "2026-11-25T19:01:02.896Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "b6674a9c998ed89c",
+      "timestamp": "2026-11-25T19:01:02.895Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "94873dafb1d44aed",
+      "timestamp": "2026-11-25T18:56:31.928Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "331134d28644ebd3",
+      "timestamp": "2026-11-25T18:56:31.928Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "31fd299abcf8866b",
+      "timestamp": "2026-11-25T18:56:31.926Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "cf8c954690a28e75",
+      "timestamp": "2026-11-25T18:56:31.926Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "01f9ef7cdb7e2d6a",
+      "timestamp": "2026-11-25T18:53:31.908Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "d67aa0610306ce1f",
+      "timestamp": "2026-11-25T18:53:31.908Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "db21e774caf7c8db",
+      "timestamp": "2026-11-25T18:53:31.907Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "3f576c4a6234aaa5",
+      "timestamp": "2026-11-25T18:53:31.906Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "ee5c40ac06bb31b0",
+      "timestamp": "2026-11-25T18:50:41.836Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "ba051bbd5ad41ec3",
+      "timestamp": "2026-11-25T18:50:41.836Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "0d129543431e1664",
+      "timestamp": "2026-11-25T18:50:41.829Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "eb195f6064429026",
+      "timestamp": "2026-11-25T18:50:41.829Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "ed73783090c3c196",
+      "timestamp": "2026-11-25T18:47:31.938Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "551cc41f48b24a32",
+      "timestamp": "2026-11-25T18:47:31.938Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "244783ba38108b4e",
+      "timestamp": "2026-11-25T18:47:31.936Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "4db16a6326cb41c5",
+      "timestamp": "2026-11-25T18:47:31.935Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "5a9094ee9cdaf0d3",
+      "timestamp": "2026-11-25T18:44:31.909Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "1899661a5d411650",
+      "timestamp": "2026-11-25T18:44:31.909Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "1d2d3ff3fc3c33d5",
+      "timestamp": "2026-11-25T18:44:31.907Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "951d5855b8209fcd",
+      "timestamp": "2026-11-25T18:44:31.907Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "2c404fbd77b36a09",
+      "timestamp": "2026-11-25T18:43:46.517Z",
+      "actor": "Edward (manager)",
+      "saleId": "bd1a2ddd806c97c1",
+      "car": "DG 2023 Honda Accord S+RTINT 199-70depo",
+      "field": "Tip",
+      "oldValue": "",
+      "newValue": "added $20.68: Feso $5.17, Isseyah $5.17, Angelica $5.17, Aaron $5.17"
+    },
+    {
+      "id": "76ca1c4ae8425b3e",
+      "timestamp": "2026-11-25T18:41:31.897Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "bde62e4c4563348b",
+      "timestamp": "2026-11-25T18:41:31.897Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "69852cc732177e61",
+      "timestamp": "2026-11-25T18:41:31.895Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "8540e5033b6e4c14",
+      "timestamp": "2026-11-25T18:41:31.895Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "df7de70d5d4f3db7",
+      "timestamp": "2026-11-25T18:40:47.656Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "ebf9aca99d8afadc",
+      "timestamp": "2026-11-25T18:40:47.656Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "6678d5594c4d4c93",
+      "timestamp": "2026-11-25T18:40:47.649Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "c13747b596527fa7",
+      "timestamp": "2026-11-25T18:40:47.649Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "c4b1fbb03794a06e",
+      "timestamp": "2026-11-25T18:38:31.914Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "0ca75327ce753460",
+      "timestamp": "2026-11-25T18:38:31.914Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "3157f6a1100a5dc5",
+      "timestamp": "2026-11-25T18:38:31.911Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "0bdb248232f86e8f",
+      "timestamp": "2026-11-25T18:38:31.911Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "c21f83b17adaa85f",
+      "timestamp": "2026-11-25T18:35:31.894Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "1e87092e00d17a47",
+      "timestamp": "2026-11-25T18:35:31.894Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "4718a5d342af562e",
+      "timestamp": "2026-11-25T18:35:31.892Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "2602fa002ad5f265",
+      "timestamp": "2026-11-25T18:35:31.892Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "268c0d316af19f71",
+      "timestamp": "2026-11-25T18:32:31.891Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "32bb9e1eb8e31ef2",
+      "timestamp": "2026-11-25T18:32:31.891Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "b9c07589dfff42a8",
+      "timestamp": "2026-11-25T18:32:31.889Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "0465757bc29e73aa",
+      "timestamp": "2026-11-25T18:32:31.889Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "4600abec0dc6ed30",
+      "timestamp": "2026-11-25T18:31:14.921Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "ac6eb3605aa1cb7c",
+      "timestamp": "2026-11-25T18:31:14.921Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "78b6b53064df1342",
+      "timestamp": "2026-11-25T18:31:14.910Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "45e91b5af2bfd063",
+      "timestamp": "2026-11-25T18:31:14.910Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
+    {
+      "id": "df50702b7e8a537c",
+      "timestamp": "2026-11-25T18:29:56.865Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 499,
+      "newValue": 0
+    },
+    {
+      "id": "e795d27f523da3ea",
+      "timestamp": "2026-11-25T18:29:56.865Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "78ff201c797216dd",
+      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 499
+    },
+    {
+      "id": "19ed3ff514b1b279",
+      "timestamp": "2026-11-25T18:29:56.863Z",
+      "actor": "Auto (redo, no charge)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 750,
+      "newValue": 0
+    },
+    {
+      "id": "2a7f6c58110fed36",
+      "timestamp": "2026-11-25T18:29:56.862Z",
+      "actor": "Auto (price from the title)",
+      "saleId": "a191a7d880f98514",
+      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
+      "field": "Base price",
+      "oldValue": 0,
+      "newValue": 750
+    },
     {
       "id": "0f0a18270bf31661",
       "timestamp": "2026-11-25T18:29:31.954Z",
@@ -176926,899 +177784,35 @@
       "field": "Base price",
       "oldValue": 0,
       "newValue": 750
-    },
-    {
-      "id": "a0ea9dc587185c73",
-      "timestamp": "2026-11-22T04:20:38.287Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "b12d201470d48576",
-      "timestamp": "2026-11-22T04:20:38.287Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "b0798e200f16b5ee",
-      "timestamp": "2026-11-22T04:20:38.285Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "3ea744b50c42dbf6",
-      "timestamp": "2026-11-22T04:20:38.285Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "abb684ba8df5cc4f",
-      "timestamp": "2026-11-22T04:20:02.501Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "2e37746bee46b6f4",
-      "timestamp": "2026-11-22T04:20:02.501Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "0c454d0791b05588",
-      "timestamp": "2026-11-22T04:20:02.492Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "fc4ce00ac8db5146",
-      "timestamp": "2026-11-22T04:20:02.492Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "75d812292df3c7d8",
-      "timestamp": "2026-11-22T04:17:38.280Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "edb1eb8042f08c57",
-      "timestamp": "2026-11-22T04:17:38.280Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "5c5510794f62c3bc",
-      "timestamp": "2026-11-22T04:17:38.276Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "c63a3d566ace414b",
-      "timestamp": "2026-11-22T04:17:38.276Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "bb66a2b13809e1ea",
-      "timestamp": "2026-11-22T04:14:38.269Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "bbddc761aba8eb2a",
-      "timestamp": "2026-11-22T04:14:38.269Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "398f49fbcfbe5565",
-      "timestamp": "2026-11-22T04:14:38.267Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "f27bf5954272e3a7",
-      "timestamp": "2026-11-22T04:14:38.267Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "c38af1ba82e164d9",
-      "timestamp": "2026-11-22T04:11:38.279Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "180cee539aa95f2a",
-      "timestamp": "2026-11-22T04:11:38.276Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "0e5d480ee12c72de",
-      "timestamp": "2026-11-22T04:11:38.274Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "73c368ddb8c27d6b",
-      "timestamp": "2026-11-22T04:11:38.274Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "abb50af70036adc6",
-      "timestamp": "2026-11-22T04:09:41.560Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "4e4e997d82fc39e6",
-      "timestamp": "2026-11-22T04:09:41.560Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "9843bec9bc063b80",
-      "timestamp": "2026-11-22T04:09:41.554Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "1b0703e2facc8918",
-      "timestamp": "2026-11-22T04:09:41.554Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "8fbef6d5c1e82c01",
-      "timestamp": "2026-11-22T04:05:38.250Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "329dc075dc8982a8",
-      "timestamp": "2026-11-22T04:05:38.250Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "a9a20131f9e9a921",
-      "timestamp": "2026-11-22T04:05:38.248Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "1dccd7883bac519b",
-      "timestamp": "2026-11-22T04:05:38.248Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "476df191d3e91227",
-      "timestamp": "2026-11-22T04:02:38.242Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "3925bc5c554a7ba0",
-      "timestamp": "2026-11-22T04:02:38.240Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "4211ac57c7a5705f",
-      "timestamp": "2026-11-22T04:02:38.238Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "c709dd03f464c277",
-      "timestamp": "2026-11-22T04:02:38.238Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "53d181500e9bfd9a",
-      "timestamp": "2026-11-22T03:59:50.959Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "30140fd721198499",
-      "timestamp": "2026-11-22T03:59:50.959Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "f756569afcdddb47",
-      "timestamp": "2026-11-22T03:59:50.947Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "de7de820284d6868",
-      "timestamp": "2026-11-22T03:59:50.947Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "37a845ceaf882372",
-      "timestamp": "2026-11-22T03:56:38.231Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "ac71e4d4542bc406",
-      "timestamp": "2026-11-22T03:56:38.231Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "f2cb876b06c524bf",
-      "timestamp": "2026-11-22T03:56:38.229Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "785f2520be28f139",
-      "timestamp": "2026-11-22T03:56:38.229Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "86f77a5483df7f7e",
-      "timestamp": "2026-11-22T03:53:38.224Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "37466d3a3a4c75b3",
-      "timestamp": "2026-11-22T03:53:38.224Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "ca760233bf12e908",
-      "timestamp": "2026-11-22T03:53:38.222Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "07f7d343024f6733",
-      "timestamp": "2026-11-22T03:53:38.221Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "a023f9e0bf821242",
-      "timestamp": "2026-11-22T03:50:38.223Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "56cd7cf68b5d5091",
-      "timestamp": "2026-11-22T03:50:38.223Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "590e3476b5e4da19",
-      "timestamp": "2026-11-22T03:50:38.220Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "c1d01121d429b073",
-      "timestamp": "2026-11-22T03:50:38.220Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "05b4509d97ba6a11",
-      "timestamp": "2026-11-22T03:49:40.797Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "7472811734d075d8",
-      "timestamp": "2026-11-22T03:49:40.797Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "380f0095cd175384",
-      "timestamp": "2026-11-22T03:49:40.790Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "dc22e997582e85ed",
-      "timestamp": "2026-11-22T03:49:40.790Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "d3d24b4a37dd29f3",
-      "timestamp": "2026-11-22T03:47:38.219Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "a1300a75bebf0fd8",
-      "timestamp": "2026-11-22T03:47:38.219Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "3912f5fdfd1937e4",
-      "timestamp": "2026-11-22T03:47:38.217Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "baf8da7c48a93d9a",
-      "timestamp": "2026-11-22T03:47:38.217Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "6370e12abf4eec7c",
-      "timestamp": "2026-11-22T03:44:38.208Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "3c7ba5fa97960396",
-      "timestamp": "2026-11-22T03:44:38.206Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "a1cd2e401148579c",
-      "timestamp": "2026-11-22T03:44:38.204Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "8ec3f10f54817ce5",
-      "timestamp": "2026-11-22T03:44:38.204Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "d20439b5fadeec63",
-      "timestamp": "2026-11-22T03:41:38.222Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "115f4e92d2979b0a",
-      "timestamp": "2026-11-22T03:41:38.222Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "b8e96590d4403abf",
-      "timestamp": "2026-11-22T03:41:38.219Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "8197f70b1bcc7a8c",
-      "timestamp": "2026-11-22T03:41:38.218Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "ec100ea759c5e865",
-      "timestamp": "2026-11-22T03:40:04.448Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "f8c5991992d920d8",
-      "timestamp": "2026-11-22T03:40:04.448Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "81d25b27eefc356b",
-      "timestamp": "2026-11-22T03:40:04.442Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "7e3edd7d094d82f3",
-      "timestamp": "2026-11-22T03:40:04.442Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "07a7b65f1525fd6a",
-      "timestamp": "2026-11-22T03:35:38.194Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "d85467fc0e4b5a31",
-      "timestamp": "2026-11-22T03:35:38.194Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "a3f5a68cbef9016f",
-      "timestamp": "2026-11-22T03:35:38.191Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "8d502f6d2014851e",
-      "timestamp": "2026-11-22T03:35:38.191Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "025565561752bb70",
-      "timestamp": "2026-11-22T03:32:38.199Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "a7a0ecab20c59c4e",
-      "timestamp": "2026-11-22T03:32:38.197Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "204e7337cd8c2bf7",
-      "timestamp": "2026-11-22T03:32:38.195Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "cca0cb442dde803b",
-      "timestamp": "2026-11-22T03:32:38.195Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "6bdd182d5bd20e99",
-      "timestamp": "2026-11-22T03:30:31.300Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "117d02a128e9c651",
-      "timestamp": "2026-11-22T03:30:31.300Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "c8426150a0cd64b6",
-      "timestamp": "2026-11-22T03:30:31.292Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "3938abfeeade15de",
-      "timestamp": "2026-11-22T03:30:31.291Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "736f95903f461d53",
-      "timestamp": "2026-11-22T03:26:38.190Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "a6a5994eb22da96c",
-      "timestamp": "2026-11-22T03:26:38.190Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "81c93ac5aceade45",
-      "timestamp": "2026-11-22T03:26:38.187Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "f260f6f5d0da1b79",
-      "timestamp": "2026-11-22T03:26:38.187Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "44d97c79289bc3f7",
-      "timestamp": "2026-11-22T03:23:38.165Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
-    },
-    {
-      "id": "c9a1ac3a5db2acf4",
-      "timestamp": "2026-11-22T03:23:38.165Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 499
-    },
-    {
-      "id": "7053cb92c827181f",
-      "timestamp": "2026-11-22T03:23:38.163Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 750,
-      "newValue": 0
-    },
-    {
-      "id": "e447d515eb4c6734",
-      "timestamp": "2026-11-22T03:23:38.163Z",
-      "actor": "Auto (price from the title)",
-      "saleId": "a191a7d880f98514",
-      "car": "DG 2017 Farerri California T Ceramic Coating&Step1 RIMS&Calipers 750-95depo",
-      "field": "Base price",
-      "oldValue": 0,
-      "newValue": 750
-    },
-    {
-      "id": "06590c1394c040eb",
-      "timestamp": "2026-11-22T03:20:38.187Z",
-      "actor": "Auto (redo, no charge)",
-      "saleId": "78ff201c797216dd",
-      "car": "DG 2024 Benz C300 Ceramic Coating 499-95depo",
-      "field": "Base price",
-      "oldValue": 499,
-      "newValue": 0
     }
   ],
   "cashEntries": [
+    {
+      "id": "51a39fac46d96026",
+      "type": "cardExpense",
+      "amount": 188,
+      "category": "Shop supplies",
+      "note": "Uniform",
+      "isOnline": true,
+      "receiptPhoto": "undefined-undefined-undefined-676eba81cada4869.jpeg",
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-11-25T19:27:12.841Z"
+    },
+    {
+      "id": "f616b72a618b064c",
+      "type": "cardExpense",
+      "amount": 4413.31,
+      "category": "Other",
+      "note": "Tint film",
+      "isOnline": true,
+      "receiptPhoto": "undefined-undefined-undefined-c03880174346bf9b.jpg",
+      "enteredByType": "manager",
+      "enteredById": "791dee90ad560e70",
+      "enteredByName": "Naomi",
+      "timestamp": "2026-11-25T19:20:46.833Z"
+    },
     {
       "id": "6cd56d9a2e43dc48",
       "type": "cashIn",
@@ -184902,6 +184896,43 @@
       "loggedById": "f9d9bfc4e797e38b",
       "loggedByRole": "employee",
       "timestamp": "2026-11-25T16:27:23.957Z"
+    },
+    {
+      "id": "767d8f0f6ddb9952",
+      "saleId": "bd1a2ddd806c97c1",
+      "car": "DG 2023 Honda Accord S+RTINT 199-70depo",
+      "date": "2026-11-25T18:00:00.000Z",
+      "amount": 20.68,
+      "split": [
+        {
+          "personType": "employee",
+          "personId": "f9d9bfc4e797e38b",
+          "name": "Feso",
+          "amount": 5.17
+        },
+        {
+          "personType": "employee",
+          "personId": "1050c9240f87fa5f",
+          "name": "Isseyah",
+          "amount": 5.17
+        },
+        {
+          "personType": "employee",
+          "personId": "273b3cdb8e20e0d1",
+          "name": "Angelica",
+          "amount": 5.17
+        },
+        {
+          "personType": "employee",
+          "personId": "ed55d50b916a979a",
+          "name": "Aaron",
+          "amount": 5.17
+        }
+      ],
+      "loggedByName": "Edward",
+      "loggedById": "b17bb44f6faf1ff2",
+      "loggedByRole": "manager",
+      "timestamp": "2026-11-25T18:43:46.517Z"
     }
   ],
   "textSettings": {
@@ -188795,6 +188826,30 @@
   ],
   "hookLog": [
     {
+      "id": "57f094f28271d05b",
+      "at": "2026-11-25T18:35:09.767Z",
+      "route": "booking",
+      "outcome": "updated",
+      "appt": "txbmiql0OU7sb0sU7YHo",
+      "contactId": "txbmiql0OU7sb0sU7YHo",
+      "customer": "",
+      "car": "DG 2015 Dodge Challenegr Ceramic Coating&AllWindows 599-632depo paidupfront",
+      "saleId": "1e2e6b4135c9469e",
+      "merged": false
+    },
+    {
+      "id": "a3bdc8331876708d",
+      "at": "2026-11-25T18:33:58.798Z",
+      "route": "booking",
+      "outcome": "created",
+      "appt": "txbmiql0OU7sb0sU7YHo",
+      "contactId": "txbmiql0OU7sb0sU7YHo",
+      "customer": "",
+      "car": "DG 2015 Dodge Challenegr Ceramic Coating&AllWindows 599-632depo paidupfront",
+      "saleId": "1e2e6b4135c9469e",
+      "merged": false
+    },
+    {
       "id": "31bb46f5fa8ccf58",
       "at": "2026-11-25T18:21:24.416Z",
       "route": "booking",
@@ -190597,7 +190652,7 @@
   "_backup": {
     "shop": "West Berlin, NJ",
     "folder": "west-berlin-nj",
-    "at": "2026-11-25T18:29:46.893Z",
+    "at": "2026-11-25T19:29:31.870Z",
     "build": "2026-11-25-cancelmatch"
   }
 }
